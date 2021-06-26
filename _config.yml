@@ -138,7 +138,7 @@ gitment:
         client_secret: ddc5ff7cb43a42f57dd6b3eb90e453c45e0f06a3
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
+    owner: hillcat
     repo: blog-comments
     clientID: 7b3e50a61e192b07f6f8
     clientSecret: ddc5ff7cb43a42f57dd6b3eb90e453c45e0f06a3
