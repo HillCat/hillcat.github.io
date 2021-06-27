@@ -130,12 +130,12 @@ comments_provider: gitalk
 disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: hillcat
-    repo: blog-comments
-    oauth:
-        client_id: 7b3e50a61e192b07f6f8
-        client_secret: ddc5ff7cb43a42f57dd6b3eb90e453c45e0f06a3
+#gitment:
+    #owner: hillcat
+    #repo: blog-comments
+    #oauth:
+        #client_id: 7b3e50a61e192b07f6f8
+        #client_secret: ddc5ff7cb43a42f57dd6b3eb90e453c45e0f06a3
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: hillcat
