@@ -138,10 +138,10 @@ disqus:
         #client_secret: ddc5ff7cb43a42f57dd6b3eb90e453c45e0f06a3
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: hillcat
+    owner: HillCat
     repo: blog-comments
-    clientID: 7b3e50a61e192b07f6f8
-    clientSecret: ddc5ff7cb43a42f57dd6b3eb90e453c45e0f06a3
+    clientID: 8cf0c7674cf7fea46637
+    clientSecret: 00c6a1ed9aaf993b6853d70931900d04287dae06
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
