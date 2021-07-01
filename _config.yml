@@ -5,7 +5,7 @@ baseurl:
 url: https://cs-cn.top
 date_format: "ordinal"
 title: 山猫
-subtitle: "關注用戶，則一切將水到渠成。 ..."
+subtitle: "水清则无鱼 ..."
 description: "一个程序员的个人博客"
 keywords: 山猫, caianhua,anki制卡, 美剧学英语, 程序员学英语
 timezone: Asia/Shanghai
@@ -54,7 +54,7 @@ organization:
 organization_url: 
 github_username: hillcat
 location: ShenZhen, China
-email: caianhua110@163.com
+email: caianhua@gmail.com
 
 # ---------------- #
 #    Navigation    #
