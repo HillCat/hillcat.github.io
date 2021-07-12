@@ -54,7 +54,15 @@ keywords: 英文自学
 
 简而言之i+1这个东西要告诫人们一个道理，就是你选择的学习材料不能太难也不能太简单。i+1理论，怎么选择适合自己水平的阅读材料呢？其实就是采用分级有声读物。分级读物的衡量标准，我一般使用”蓝思指数“作为参考。结合testyourvocab测到的单词水平，来选择适合自己的阅读材料。分级读物由易到难分别有：桥梁书，初级章节书，中级章节书，高级章节书；这些书籍的难度，从4岁外国小孩，到12岁外国小孩子，词汇量从1200，到12000词汇量，各个阶段都包括了。基本上，只要是你雅思水平没有达到8分，都是值得学习的材料。这里所讨论的分级读物，不是牛津树，书虫那种国内的阉割版，二次修改版本，这里所指的分级读物是英语为**母语者**国家的小孩子阅读，听力训练的材料。所以，也就是说即便过了四六级的人，去看初级，中级章节书，还是有很多短语，词汇的用法看不懂，听不懂。不信，你可以看实践下，这下面的一些书：
 
-<img src="https://cs-cn.top//images/posts/20210713034432.png"/>
+**桥梁书**：Henry and Mudge系列、Mercy Watson系列、Black Lagoon Adventures系列、Nate The Great（大侦探内特）、Fly Guy （苍蝇小子）、Winnie the Witch（女巫温妮）；
+
+**初级章节书**：Junie B. Jones系列、Magic Tree House 系列（神奇树屋）、**A to Z Mysteries**系列（神秘事件）、My Weird School （疯狂学校）、Arthur系列、BoxcarChildren （棚车少年）、Captain Underpants系列（内裤超人）、Geronomo Stilton系列（老鼠日记）；
+
+**中级章节书**：Goosebumps（鸡皮疙瘩）、The Spiderwick Chronicles系列（奇幻精灵事件簿）、**Diary of a Wimpy Kid**(小屁孩日记）、Roald Dahl系列作品（罗尔德达尔作品）、**I Survived** 系列，
+
+**The Land of Stories  ，Warriors**猫武士
+
+**高级桥梁书**：How to Train Your Dragon（驯龙高手）、Alex Rider系列（亚历克斯骑士）、**Harry Potter**系列（哈利波特）、The Hobbit（霍比特人）、The Lord of the Rings（魔戒）、The Hunger Games系列（饥饿游戏）及一些经典儿童文和纽伯瑞获奖小说。
 
 
 
