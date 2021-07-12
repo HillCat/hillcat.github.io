@@ -20,7 +20,7 @@ keywords: 英文自学
 
 
 
-#### Matt_(二语习得高手)
+#### Matt
 
 [https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg](https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg)
 
@@ -34,7 +34,7 @@ keywords: 英文自学
 
 
 
-#### 斯蒂夫.考夫曼_(‘二语习得理论’的创立者)
+#### 斯蒂夫.考夫曼
 
 [https://www.youtube.com/channel/UCez-2shYlHQY3LfILBuDYqQ](https://www.youtube.com/channel/UCez-2shYlHQY3LfILBuDYqQ)
 
