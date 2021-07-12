@@ -66,11 +66,11 @@ keywords: 英文自学
 
 本人实践过60来本分级读物，听力，阅读有非常大的提升。可以毫不夸张的说，一套分级读物，可以非常轻松让你词汇量飙升到8000.这个只是保守估计。
 
-<img src="https://cs-cn.top//images/posts/20210713044209.jpg"/>
+<img src="https://cs-cn.top//images/posts/20210713044529.png"/>
 
-<img src="https://cs-cn.top//images/posts/20210713044236.jpg"/>
+<img src="https://cs-cn.top//images/posts/20210713044608.png"/>
 
-<img src="https://cs-cn.top//images/posts/20210713044257.jpg"/>
+<img src="https://cs-cn.top//images/posts/20210713044649.png"/>
 
 
 
