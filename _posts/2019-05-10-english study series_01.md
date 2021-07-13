@@ -16,11 +16,11 @@ keywords: 英文
 
 关于听力驱动型的学习方式，如果有疑问的，可以看这两本书：《中国人英语自学方法教程》作者：徐火辉,谢刚(网名“妙面爸")，《找对英语学习方法的第一本书》作者：”漏屋“。
 
-国内的英语学习门派非常多，培训机构也多，各种阿猫阿狗方法。先从理论上找到方法，然后再实践，可以保证不走弯路。
+国内的英语学习门派非常多，培训机构也多，各种阿猫阿狗方法眼花缭乱。从国外比较厉害的二语习得者那里我们可以得到很多启发。而不必于去听一些人夸夸其谈，理论一堆，很少谈实际操作层面的东西。
 
 
 
-#### 二语习得者:Matt
+#### 英文自学经验参考案例:Matt
 
 [https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg](https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg)
 
@@ -34,7 +34,7 @@ keywords: 英文
 
 
 
-#### 二语习得者:斯蒂夫.考夫曼
+#### 英文自学参考案例:斯蒂夫.考夫曼
 
 [https://www.youtube.com/channel/UCez-2shYlHQY3LfILBuDYqQ](https://www.youtube.com/channel/UCez-2shYlHQY3LfILBuDYqQ)
 
