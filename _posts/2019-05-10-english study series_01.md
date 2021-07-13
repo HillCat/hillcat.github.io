@@ -34,13 +34,13 @@ keywords: 英文自学
 
 
 
-#### 从理论学者那里得到启发
+#### 从语言学家那里找方法和经验
 
 [https://www.youtube.com/channel/UCez-2shYlHQY3LfILBuDYqQ](https://www.youtube.com/channel/UCez-2shYlHQY3LfILBuDYqQ)
 
 <img src="https://cs-cn.top//images/posts/steve.kaofuman.png"/>
 
-<img src="https://cs-cn.top//images/posts/steve_kaofmann_youtube.png"/>
+
 
 推荐这个斯蒂夫.考夫曼的原因，是因为他是最先提出“二语习得理论”的人(这个理论的奠基者)，影响了国内非常多培训机构的培训理论和自学方式，像贾腾飞，恶魔奶爸，漏屋，妙面爸这些英语自学流派，都受到其影响。他的油管的频道里面有非常多干货。对于”可理解性输入“这个概念有深入的讨论，什么才是可理解性输入，到底如何控制自己的材料的难度，这些可理解性的大量输入，最终是如何影响到自己的口语，阅读，写作的等等，这些原理方面的探讨都非常深入。还有外语学习中最为重要的是不要打击自己的信心，要保证输入的材料是自己感兴趣的，可理解的。这些东西的分析，都是入木三分的。因为斯蒂夫是精通9门外语的语言学家，所以，他的很多建议，对于有一定听力输入实践的人而言(超过300小时听力输入)，可以得到非常大的共鸣。
 
