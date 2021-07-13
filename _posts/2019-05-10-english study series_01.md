@@ -34,7 +34,7 @@ Matt的视频提及了[不要过早进行影子跟读模仿](https://youtu.be/GO
 
 
 
-#### 从语言学家那里找方法和经验
+#### 从语言学家那里研究原理
 
 [https://www.youtube.com/channel/UCez-2shYlHQY3LfILBuDYqQ](https://www.youtube.com/channel/UCez-2shYlHQY3LfILBuDYqQ)
 
