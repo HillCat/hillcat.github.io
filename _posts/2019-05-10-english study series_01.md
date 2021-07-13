@@ -36,7 +36,7 @@ keywords: 英文自学
 
 
 
-#### 从理论学派那里找启发
+#### 从理论学者那里得到启发
 
 [https://www.youtube.com/channel/UCez-2shYlHQY3LfILBuDYqQ](https://www.youtube.com/channel/UCez-2shYlHQY3LfILBuDYqQ)
 
