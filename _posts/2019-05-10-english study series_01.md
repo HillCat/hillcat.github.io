@@ -20,7 +20,7 @@ keywords: 英文
 
 
 
-#### Matt的干货分享
+#### 从实战者那里找方法和经验
 
 [https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg](https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg)
 
@@ -34,7 +34,7 @@ keywords: 英文
 
 
 
-#### 考夫曼的干货分享
+#### 从理论学派那里得到启发
 
 [https://www.youtube.com/channel/UCez-2shYlHQY3LfILBuDYqQ](https://www.youtube.com/channel/UCez-2shYlHQY3LfILBuDYqQ)
 
