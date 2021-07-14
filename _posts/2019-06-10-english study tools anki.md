@@ -32,7 +32,7 @@ anki的使用有很多人尝试过，最终都放弃了。一个非常重要的�
    
    
 
-我见过的anki用得最久的案例，别人用了5年，积累了2万多单词卡片。外语达到母语者水平，这个案例就是[Matt](https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg)。
+我见过的anki用得最久的案例，别人用了5年，积累了2万多单词卡片。外语达到母语者水平，这个案例就是[Matt](https://youtu.be/wrBFhsnBQ2k)。
 
 
 
