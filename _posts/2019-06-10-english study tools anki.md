@@ -62,7 +62,7 @@ anki是复习工具，不是背单词工具，要围绕复习的目的来使用a
 
 2. 借助人人词典，增加电影情景帮助记忆
 
-   <img src="https://cs-cn.top//images/posts/manifest_95833.png"/>
+   
 
    人人词典：[https://www.91dict.com/words?w=manifest](https://www.91dict.com/words?w=manifest)
 
