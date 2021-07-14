@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 英文学习工具Anki
-categories: Blog
+categories: English
 description: 英文自学
 keywords: anki
 ---

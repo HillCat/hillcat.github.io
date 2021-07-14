@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 英文变为‘母语’系列_01_开篇
-categories: Blog
+categories: English
 description: 英文自学
 keywords: 英文自学
 ---
