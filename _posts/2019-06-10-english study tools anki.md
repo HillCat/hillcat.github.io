@@ -40,19 +40,18 @@ anki的单词卡片内容是可以随时修改的。比如manifest这个单词�
 
    人人词典：[https://www.91dict.com/words?w=manifest](https://www.91dict.com/words?w=manifest)
 
-3. 如果你还觉得这个单词很难理解，那么就增加词根词缀信息
+3. 如果还觉得这个单词很难理解，那么就增加词根词缀信息
 
    <img src="https://cs-cn.top//images/posts/cigen_cizui_200816.png"/>
 
-4. 增加词根溯源信息
+   如果能够无压力看懂英文解释英文的原版材料，查看版本的词源信息，了解到更多历史背景信息。[https://www.etymonline.com/cn](https://www.etymonline.com/cn)
 
-   如果你能够无压力看懂英英材料，那么可以对这个单词进行英英溯源，可以到溯源网站上面查这个单词的一些英英解释，以求获得更好的理解。[https://www.etymonline.com/cn](https://www.etymonline.com/cn)
-   
    <img src="https://cs-cn.top//images/posts/suyuan_03526.png"/>
+
 
 <br/>
 
-以上4个步骤，就是我经常搭配anki使用的一些经验总结，主要用来攻克一些难词。manifest这个词经过一系列的拓展，最后只有2个意思，一个是表示“清单”、“列表”；另一个是“显示”、“显露”；修改之后的卡片就是这个样子：
+以上3个步骤，就是我经常搭配anki使用的一些经验总结，主要用来攻克一些难词。manifest这个词经过一系列的拓展，最后只有2个意思，一个是表示“清单”、“列表”；另一个是“显示”、“显露”；修改之后的卡片就是这个样子：
 
 <img src="https://cs-cn.top//images/posts/result_203722.png"/>
 <br/>
