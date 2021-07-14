@@ -56,7 +56,7 @@ anki的单词卡片内容是可以随时修改的。比如manifest这个单词�
 
    <img src="https://cs-cn.top//images/posts/cigen_cizui_200816.png"/>
 
-   如果能够无压力看懂英文解释英文的原版材料，查看版本的词源信息，了解到更多历史背景信息。[https://www.etymonline.com/cn](https://www.etymonline.com/cn)
+   如果能够无压力看懂英文解释，还可以直接看这个网站：[https://www.etymonline.com/cn](https://www.etymonline.com/cn)
 
    <img src="https://cs-cn.top//images/posts/suyuan_03526.png"/>
 
