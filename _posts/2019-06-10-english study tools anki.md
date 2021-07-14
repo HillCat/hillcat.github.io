@@ -38,7 +38,7 @@ anki的单词卡片内容是可以随时修改的。比如manifest这个单词�
 
 <img src="https://cs-cn.top//images/posts/20210714194447.png"/>
 
-在复习这个单词的过程中，因为单词是从google的chrome浏览器插件开发文档里面遇到的这个词，当时对这个单词有些陌生，所以通过在线词典助手工具一键制卡，把它摘抄下来了。后续复习这个单词的过程中发现这个单词非常难于记忆，为了让单词更好的记忆，我么可以花上10几分钟完善这个单词，对这个单词进行深度加工：
+在复习这个单词的过程中，因为单词是从google的chrome浏览器插件开发文档里面遇到的这个词，当时对这个单词有些陌生，把它摘抄下来了。后续复习过程中为了让单词更好的记忆，进行扩展：
 
 1. 增加其他英文词典的释义，力求更加精准理解
 
@@ -46,13 +46,13 @@ anki的单词卡片内容是可以随时修改的。比如manifest这个单词�
 
    <img src="https://cs-cn.top//images/posts/20210714195219.png"/>
 
-2. 可以借助人人词典这个工具，增加电影情景帮助记忆
+2. 借助人人词典，增加电影情景帮助记忆
 
    <img src="https://cs-cn.top//images/posts/manifest_95833.png"/>
 
    人人词典：[https://www.91dict.com/words?w=manifest](https://www.91dict.com/words?w=manifest)
 
-3. 如果还觉得这个单词很难理解，那么就增加词根词缀信息
+3. 适度查阅词根词缀信息，了解单词的发源
 
    <img src="https://cs-cn.top//images/posts/cigen_cizui_200816.png"/>
 
