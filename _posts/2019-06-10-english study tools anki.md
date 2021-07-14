@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 英文学习工具Anki
+title: 英文单词复习策略:anki
 categories: English
 description: 英文自学
 keywords: anki
