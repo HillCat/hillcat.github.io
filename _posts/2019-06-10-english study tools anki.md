@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 英文单词复习策略:anki
+title: anki工具到底好不好使？
 categories: English
 description: 英文自学
 keywords: anki
