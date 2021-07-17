@@ -10,7 +10,7 @@ keywords: 记单词
 
 <img src="https://cs-cn.top//images/posts/mopan_053701.png"/>
 
-### 重复间隔的记忆成本很低
+### 重复间隔真的有效果吗？
 
 看一下这个单词如果要记住，需要花费多长时间？
 
