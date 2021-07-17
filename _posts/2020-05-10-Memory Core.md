@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 单词记忆策略
+title: 我的单词复习策略
 categories: English
 description: 
 keywords: 记单词
