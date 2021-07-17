@@ -12,7 +12,7 @@ keywords: 记单词
 
 ### 重复间隔真的有效果吗？
 
-先看一眼下面这个单词，假设它是一个你不认识的单词，如果要记住，得花多长时间？
+想象一下，这种单词要花多长时间才能记住。
 
 <img src="https://cs-cn.top//images/posts/coresspond_054502.png"/>
 
