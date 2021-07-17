@@ -3,7 +3,7 @@ layout: post
 title: anki工具到底好不好使？
 categories: English
 description: 英文自学
-keywords:anki学
+keywords: 英文自学
 ---
 
 ### 我对Anki这个工具的看法
