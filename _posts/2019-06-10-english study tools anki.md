@@ -8,7 +8,6 @@ keywords:anki学
 
 ### 我对Anki这个工具的看法
 
-#### 
 
 anki是一个复习工具，对于我的英语学习帮助极大。anki上手难度主要在于安装一系列插件，以及需要相应的decker模板，并且主流的用法是使用[在线词典助手](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb)进行制卡使用，自学英语如果不配合在线词典助手，anki的使用会大打折扣。要不然很多时候就是《Anki从入门到放弃》，没办法形成较高的制卡效率。
 
