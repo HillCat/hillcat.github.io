@@ -30,7 +30,7 @@ keywords: 记单词
 
 <img src="https://cs-cn.top//images/posts/details_55909.png"/>
 
-上面提到的复习方法，就是间隔重复系统，俗称SRS。全称是Spaced Repetition System。关于这种间隔重复的方法，Matt有详细讨论过他学日语的经历，主要是配合Anki制卡复习生词，他发布的那个视频我觉得非常重要，还做过详细的笔记，感兴趣的可以看看这个word文档：
+上面提到的复习方法，就是间隔重复系统，俗称SRS。全称是Spaced Repetition System。关于这种间隔重复的方法，Matt有详细讨论过他学日语的经历，主要是配合Anki制卡复习生词，他发布的那个视频我觉得非常重要，还做过详细的笔记，感兴趣的可以看看这个word文档：[SRS在外语习得中发挥的作用](https://cs-cn.top/assets/doc/SRS%E5%9C%A8%20%E5%A4%96%E8%AF%AD%E4%B9%A0%E5%BE%97%E4%B8%AD%E5%8F%91%E6%8C%A5%E7%9A%84%E4%BD%9C%E7%94%A8.docx)
 
 ### 如何减轻记忆压力
 
