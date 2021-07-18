@@ -12,7 +12,7 @@ keywords: English
 
 <img src="https://cs-cn.top//images/posts/dancimidu83825.png"/>
 
-生活剧都有一个特点，就是GRE词汇比重不大。完全杜绝GRE词汇是不可能的。因为很多四六级词汇也是GRE词汇，这种情况很常见。都是有交集的。
+生活剧都有一个特点，就是GRE词汇比重不大。完全杜绝GRE词汇是不可能的。因为很多四六级词汇也是GRE词汇，这种情况很常见。
 
 ### 《摩登家庭》
 
