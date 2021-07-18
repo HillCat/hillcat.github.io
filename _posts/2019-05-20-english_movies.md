@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 常见的几部英语美剧难度分析
+title: 常见的几部美剧难度分析
 categories: English
 description: 英文自学
 keywords: English
