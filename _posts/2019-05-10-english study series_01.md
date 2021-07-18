@@ -3,7 +3,7 @@ layout: post
 title: 从有声书到美剧:突破常速英语
 categories: English
 description: 英文自学
-keywords: 英文自学
+keywords: English
 ---
 
 英文自学是一个广泛讨论的话题。各种门派和学习方法层出不穷，门道特别多，在众多方法论中，能够整体把握大局，从细节开始执行的是个不错的开端。如果你希望和老外流利交流，比较推荐恶魔奶爸的视频系列：[《第8课：彻底突破常速英语》](https://www.bilibili.com/video/BV1jT4y157YT?p=8)。彻底流利交流的最后一道坎，就是突破常速英语这道坎。
