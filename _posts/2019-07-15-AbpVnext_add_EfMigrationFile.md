@@ -7,13 +7,10 @@ keywords: AbpVnext
 ---
 
 EasyAbp的使用，打开已经存在的AbpVnext项目，加载即可，添加需要的模块或者实体，
-<img src="https://cs-cn.top//images/posts/easy_abp_73615.png"/>
 
 添加新的Entity之后，生成迁移文件，并且更新数据库。
 
 `Add-Migration “Update_TablePrefix” `  
-
-<img src="https://cs-cn.top//images/posts/efcore_migrationFile9073436.png"/>
 
 生成出来一个迁移文件：
 
@@ -37,5 +34,4 @@ _MigrationHistory表中冲突的部分，就需要进行修改，具体的做法
 #### Efcore迁移发生冲突解决办法
 
 一般都是把Migration类重命名和更新时间戳
-
 
