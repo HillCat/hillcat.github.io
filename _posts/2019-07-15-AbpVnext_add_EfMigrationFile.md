@@ -6,7 +6,7 @@ description:
 keywords: AbpVnext
 ---
 
-EasyAbp的使用比较简单，打开已经存在的AbpVnext项目，加载即可，添加需要的模块或者实体，
+EasyAbp的使用，打开已经存在的AbpVnext项目，加载即可，添加需要的模块或者实体，
 <img src="https://cs-cn.top//images/posts/easy_abp_73615.png"/>
 
 添加新的Entity之后，生成迁移文件，并且更新数据库。
@@ -26,6 +26,10 @@ EasyAbp的使用比较简单，打开已经存在的AbpVnext项目，加载即�
 #### Efcore回滚指定的Migrating
 
 Update-Database -TargetMigration CreateBlog      #后面这里的CreateBlog是Migration指定的别名
+
+#### Efcore迁移发生冲突解决办法
+
+一般都是把Migration类重命名和更新时间戳
 
 
 
