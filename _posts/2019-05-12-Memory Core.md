@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 我的单词复习策略
+title: 间隔重复记忆法
 categories: English
 description: 
 keywords: 记单词

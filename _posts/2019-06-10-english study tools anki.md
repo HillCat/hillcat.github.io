@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 我对anki这个工具的看法
+title: 给anki这个工具一个客观评价
 categories: English
 description: 英文自学
 keywords: 英文自学
