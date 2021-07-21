@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 间隔重复记忆法
+title: 采用间隔重复学单词
 categories: English
 description: 
 keywords: 记单词
