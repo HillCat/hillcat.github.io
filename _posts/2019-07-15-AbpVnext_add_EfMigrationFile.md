@@ -38,3 +38,6 @@ _MigrationHistory表中冲突的部分，就需要进行修改，具体的做法
 ### 更新指定迁移文件
 
 Update-Database -TargetMigration CreateBlog      #后面这里的CreateBlog是Migration指定的别名
+
+
+
