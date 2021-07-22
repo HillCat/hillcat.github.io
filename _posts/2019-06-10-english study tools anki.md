@@ -71,9 +71,9 @@ anki是复习工具，不是背单词工具，要围绕复习的目的来使用a
 
    
 
-   人人词典：[https://www.91dict.com/words?w=manifest](https://www.91dict.com/words?w=manifest)
+   人人词典：[https://www.91dict.com/words?w=manifest](https://www.91dict.com/words?w=manifest),如果是非常难记住的单词，可以在anki里面补充人人词典的影视剧情的剩下文截图，辅助自己理解记忆。
 
-3. 适度查阅词根词缀信息，了解单词的发源
+3. 词根词缀词典也对于理解记忆有一定的帮助
 
    <img src="https://cs-cn.top//images/posts/cigen_cizui_200816.png"/>
 
@@ -84,7 +84,12 @@ anki是复习工具，不是背单词工具，要围绕复习的目的来使用a
 
 <br/>
 
-以上3个步骤，就是我经常搭配anki使用的一些经验总结，主要用来攻克一些难词。manifest这个词经过一系列的拓展，最后只有2个意思，一个是表示“清单”、“列表”；另一个是“显示”、“显露”；修改之后的卡片就是这个样子：
+以上3个步骤，就是我经常搭配anki使用的一些经验总结，主要用来攻克一些难词。manifest这个词经过一系列的拓展，最后只有2个意思，最难的那个学术词汇的意思就很好的记住了。如果你觉得还是比较难记住，那么就利用sharex这个工具，把影视剧中的那句场景对话给录下来放到anki卡片里面，复习的时候播放那个声音片段，有助于你建立听觉上的词汇。我有很多单词的听力词汇，就是通过刷anki，一遍一遍复习的时候，刻意去多点击几下那个发音按钮，每次复习的时候这样可以帮助建立听力词汇量。发音最好是用朗文的真人发音。对于听力记忆起到不错的效果。我这里的录制了2个视频，是关于anki使用，以及sharex设置的，有需要的可以下载看看。
+
+链接：https://pan.baidu.com/s/1lYbKxbZGSchi0dzi_ocyTQ 
+提取码：82nn
+
+如果要了解Sharex 配合mpv看美剧制卡的，可以看[Matt的方法](https://youtu.be/bbg6ztWecbU)。
 
 <img src="https://cs-cn.top//images/posts/result_203722.png"/>
 <br/>
