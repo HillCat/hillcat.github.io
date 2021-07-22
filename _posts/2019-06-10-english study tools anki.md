@@ -71,7 +71,7 @@ anki是复习工具，不是背单词工具，要围绕复习的目的来使用a
 
    
 
-   人人词典：[https://www.91dict.com/words?w=manifest](https://www.91dict.com/words?w=manifest),如果是非常难记住的单词，可以在anki里面补充人人词典的影视剧情的剩下文截图，辅助自己理解记忆。
+   人人词典：[https://www.91dict.com/words?w=manifest](https://www.91dict.com/words?w=manifest),如果是非常难记住的单词，可以在anki里面补充人人词典的影视剧情的上下文截图，辅助自己理解记忆。其实稍微花一些时间去拓展单词卡的信息，对于以后理解这个词，消化这个词起到很好的效果。不信你可以试试。
 
 3. 词根词缀词典也对于理解记忆有一定的帮助
 
