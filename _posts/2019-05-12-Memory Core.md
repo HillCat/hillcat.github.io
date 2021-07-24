@@ -32,7 +32,7 @@ keywords: 记单词
 
 链接：https://pan.baidu.com/s/10OcLQ2WCRT6QWf7_aXZ1nQ  提取码：2fdq    。里面包括了一些我以前录制给群里兄弟的视频，还有软件的配置。有精力和兴趣的可以下载看看，研究下。
 
-另外，**复习单词一定要听单词发音，非常非常非常重要**，可以激活你的听力词汇。现在我的词汇量和语感，还有听感，阅读这种难度的材料问题不大：[Abp框架文档](https://docs.abp.io/en/commercial/latest/getting-started?UI=NG&DB=Mongo&Tiered=No)，英语俨然成为了我获取最近技术的一个工具。
+另外，**复习单词一定要听单词发音，非常非常非常重要**，可以激活你的听力词汇。现在我的词汇量和语感，还有听感，阅读这种难度的材料问题不大：[Abp框架文档](https://docs.abp.io/en/commercial/latest/getting-started?UI=NG&DB=Mongo&Tiered=No)，英语俨然成为了我获取最新技术的一个工具。
 
 <img src="https://cs-cn.top//images/posts/it_031413.png"/>
 
