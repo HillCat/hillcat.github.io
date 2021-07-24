@@ -11,7 +11,7 @@ keywords: 英文自学
 
 anki是一个复习工具，制卡主要是使用[在线词典助手](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb)，随着使用年限的增长，Anki会积累起很多的数据，可以供你自己分析。比如它可以让你知道[记忆一个单词需要花费多少时间成本](https://cs-cn.top/2019/05/12/Memory-Core/)。让你更好的认识到人类大脑记忆的规律。
 
-Anki学美剧的配置(mvp player + 外挂字幕 +lua脚本+anki+sharex+在线词典助手制卡），这种5~6种技术混搭，来至于[Matt的mvp player设置方法](https://youtu.be/bbg6ztWecbU)，以及他的[ShareX配置方法](https://youtu.be/IS7WzYICAsk)，[shareX](https://getsharex.com/)这个工具在美剧学习英语的时候被我大量用来进行制卡，甚至Sharex成为我补充anki单词卡内容的常用工具，来截取美剧中的声音片段和图片片段，帮助情景式记忆单词，还有直接截取`牛津9`词典的释义放到anki里面作为单词的词典释义内容。以这种方式制作出来的单词卡，效果跟[人人词典](https://www.91dict.com/words?w=manifest)`场景例句`的那种效果就差不多了，配合美剧记忆单词，效果好到飞起！Matt的这套方法在我分享出来的百度网盘资料里面都已经给出来了，并且我还有录制视频教程，具体的在我这个博客的帖子里面找下。然后我从这些方法中得出来一个感悟，那就是：容易的东西不简单，简单的东西不容易。虽然配置复杂，但是顺手之后，效果杠杠的。工具的复杂是为了让你学英语简单，而简单的工具，可能反而学起英语来复杂。工欲善其事必先利其器，为了以后的路更平坦，前期的准备工作和投入是值得的。
+Anki学美剧的配置(mvp player + 外挂字幕 +lua脚本+anki+sharex+在线词典助手制卡），这种5~6种技术混搭，来至于[Matt的mvp player设置方法](https://youtu.be/bbg6ztWecbU)，以及他的[ShareX配置方法](https://youtu.be/IS7WzYICAsk)，[shareX](https://getsharex.com/)这个工具在美剧学习英语的时候被我大量用来进行制卡，甚至Sharex成为我补充anki单词卡内容的常用工具，来截取美剧中的声音片段和图片片段，帮助情景式记忆单词，还有直接截取`牛津9`词典的释义放到anki里面作为单词的词典释义内容。以这种方式制作出来的单词卡，效果跟[人人词典](https://www.91dict.com/words?w=manifest)`场景例句`的那种效果就差不多了，配合美剧记忆单词，对于单词积累又提供了一种很好的途径。Matt的这套方法在我分享出来的百度网盘资料里面都已经给出来了，并且我还有录制视频教程，具体的在我这个博客的帖子里面找下，mvp player的配置我是已经打包在百度网盘了。在我看来，为了以后的自学路更平坦，前期的准备工作和投入是值得的。
 
 
 
