@@ -51,7 +51,7 @@ anki的使用有很多人尝试过，最终都放弃了。一个非常重要的�
 
 <img src="https://cs-cn.top//images/posts/guolvqi_122302.png"/>
 
-3.过滤的单词本创建完毕之后，会筛选出来优先级最高的200个单词最需要复习的单词，以及20个最需要学习的新单词
+3.过滤的单词本创建完毕之后，会筛选出来200个最需要复习的单词，以及20个最需要学习的单词
 
 <img src="https://cs-cn.top//images/posts/allinone_23000.png"/>
 
