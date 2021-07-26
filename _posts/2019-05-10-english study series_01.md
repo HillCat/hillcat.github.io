@@ -50,7 +50,7 @@ Matt有个质量很高的视频，是关于：[不要过早进行影子跟读模
 
 二语习得的理论具体实施，就是i+1难度控制，保证可理解性输入，外研社做过数据分析，原版书中生词率4%左右的时候，输入的吸收效果是最好的，也就是每页书中4~5个生词为最佳。以下书单由易到难，根据自己的水平选择。
 
-**桥梁书**：Henry and Mudge系列、Mercy Watson系列、Black Lagoon Adventures系列、Nate The Great（大侦探内特）、Fly Guy （苍蝇小子）、Winnie the Witch（女巫温妮）；
+**桥梁书**：Henry and Mudge系列、Mercy Watson系列、Black Lagoon Adventures系列、Nate The Great（大侦探内特）、Fly Guy （苍蝇小子）、Winnie the Witch（女巫温妮）；Black Cat (黑猫)
 
 **初级章节书**：Junie B. Jones系列、Magic Tree House 系列（神奇树屋）、A to Z Mysteries系列（神秘事件）、My Weird School （疯狂学校）、Arthur系列、BoxcarChildren （棚车少年）、Captain Underpants系列（内裤超人）、Geronomo Stilton系列（老鼠日记）；
 
