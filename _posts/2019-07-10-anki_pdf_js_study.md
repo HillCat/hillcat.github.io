@@ -35,8 +35,8 @@ keywords: English
 
 
 
-ShareX的配置，视频教程：导入我给的那个ShareX的配置，然后稍微按照
-[https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio) 这个文档安装完ffmpeg 这个插件，在ShareX安装目录创建Screenshots文件夹。
+ShareX的配置，视频教程：**导入我给的那个ShareX的配置**，然后稍微按照
+[https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio) 这个文档安装完ffmpeg 这个插件，在ShareX安装目录创建Screenshots文件夹,就可以使用快捷键F2，和快捷键F3了。F2是截图声音，F3是截图。
 
 <img src="https://cs-cn.top/images/posts/sharex_import_config214256.gif"/>
 
