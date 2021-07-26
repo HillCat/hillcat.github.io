@@ -47,7 +47,7 @@ keywords: English
 
 另外推荐我手里这本韦氏V3：
 
-百度网盘链接：https://pan.baidu.com/s/1pzctTidgkqVa4pc6JCME0A 
+百度网盘链接：[https://pan.baidu.com/s/1pzctTidgkqVa4pc6JCME0A](https://pan.baidu.com/s/1pzctTidgkqVa4pc6JCME0A ) 
 提取码：wki2
 
 像博文中提到的这些复杂的工具，它们的配置，其实可以制作成[autoit脚本](https://www.autoitscript.com/site/)，我这边配置好之后，直接让自动化脚本给你们搞定所有安装。不过要写autoit脚本实现自动化安装，比较耗时。所以只能是录制视频或者写文章的形式告知网友自己去摸索。等哪天有空，我会把这些手动配置的繁琐过程，全部做成脚本形式。以免浪费大量人力物力，吓住很多电脑小白。具体可以参考这个知乎帖子：
