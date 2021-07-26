@@ -36,8 +36,8 @@ keywords: English
 ShareX的配置，视频教程：导入我给的那个ShareX的配置，然后稍微按照
 [https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio) 这个文档调整一下即可使用。
 
-链接：[https://pan.baidu.com/s/1MLASPSmA2hgo_KfnNwhxkw](https://pan.baidu.com/s/1MLASPSmA2hgo_KfnNwhxkw ) 
-提取码：a6mf
+**百度网盘**链接：[https://pan.baidu.com/s/1MLASPSmA2hgo_KfnNwhxkw](https://pan.baidu.com/s/1MLASPSmA2hgo_KfnNwhxkw ) 
+**提取码**：a6mf
 
 ShareX配置文件：ShareX-13.5.0-backup.sxb  ，已经放在网盘文件里面，下载下来导入ShareX即可。
 
