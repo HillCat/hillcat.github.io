@@ -58,6 +58,7 @@ ShareX配置文件：ShareX-13.5.0-backup.sxb  ，已经放在网盘文件里面
 Anki插件的下载地址：[https://ankiweb.net/shared/addons/](https://ankiweb.net/shared/addons/)
 
 Anki常用插件：
+
 https://ankiweb.net/shared/info/874215009
 https://ankiweb.net/shared/info/2055492159
 https://ankiweb.net/shared/info/814349176
