@@ -53,7 +53,7 @@ ShareX的配置，视频教程：导入我给的那个ShareX的配置，然后�
 
 ShareX配置文件：ShareX-13.5.0-backup.sxb  ，已经放在网盘文件里面，下载下来导入ShareX即可。
 
-<img src="https://cs-cn.top/images/posts/sharex_inport_config_752.gif"/>
+<img src="https://cs-cn.top/images/posts/sharex_import_config214256.gif"/>
 
 
 
