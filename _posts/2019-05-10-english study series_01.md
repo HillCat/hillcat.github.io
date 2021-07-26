@@ -103,7 +103,7 @@ Matt有个质量很高的视频，是关于：[不要过早进行影子跟读模
 
 [神奇树屋各个级别的资料](https://cs-cn.top/assets/doc/%E7%A5%9E%E5%A5%87%E6%A0%91%E5%B1%8B%E7%B3%BB%E5%88%97.docx)，内附百度网盘下载地址和密码。如果失效了，去这个网站：[原版英语网站](https://en5556.com/)搜集。
 
-这些资源，可以实操一下，尝试一下，是否符合2%~4%生词密度，如果符合的话，就可以准备购入纸质版本，如果没有纸质版本，那就把PDF版本准备好，后期需要配合Anki把遇到的生词录入anki中，我会专门写一个博文，关于anki实际操作，其实我之前有几篇博文已经分享过百度网盘，那个里面有我录制的视频教程，并且给出了anki模板，还有各种插件的下载地址。关于[在线词典助手](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb)的使用，其实很多地方都有教程，如果无法访问google网站，可以去作者老黄老巢的博客下载这个插件的离线版本：https://www.laohuang.net/20190523/odh-offline-package/。 
+这些资源，可以实操一下，尝试一下，是否符合2%~4%生词密度，如果符合的话，就可以准备购入纸质版本，如果没有纸质版本，那就把PDF版本准备好，后期需要配合Anki把遇到的生词录入anki中，我会专门写一个[博文](https://cs-cn.top/2019/07/10/anki_pdf_js_study/)，关于anki实际操作，其实我之前有几篇博文已经分享过百度网盘，那个里面有我录制的视频教程，并且给出了anki模板，还有各种插件的下载地址。关于[在线词典助手](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb)的使用，其实很多地方都有教程，如果无法访问google网站，可以去作者老黄老巢的博客下载这个插件的离线版本：https://www.laohuang.net/20190523/odh-offline-package/。 
 
 ### 英文原版章节书PDF制卡教程
 
