@@ -33,7 +33,9 @@ keywords: English
 
 <img src="https://cs-cn.top/images/posts/iphone_15918.png"/>
 
+对于某些单词，有多个意思的，容易混淆的，可以sharex自带的编辑功能，把精确的意思进行圈红处理：
 
+<img src="https://cs-cn.top/images/posts/sharex_edit6220015.gif"/>
 
 ShareX的配置，视频教程：**导入我给的那个ShareX的配置**，然后稍微按照
 [https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio) 这个文档安装完ffmpeg 这个插件，在ShareX安装目录创建Screenshots文件夹,就可以使用快捷键F2，和快捷键F3了。F2是截图声音，F3是截图。
