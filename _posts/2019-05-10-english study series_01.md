@@ -14,7 +14,7 @@ keywords: English
 
 
 
-#### 用Anki也可以很厉害:Matt就是案例
+#### Anki的成功案例:Matt
 
 
 
