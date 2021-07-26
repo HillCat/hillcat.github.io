@@ -40,9 +40,15 @@ ShareX的配置，视频教程：导入我给的那个ShareX的配置，然后�
 
 如下图，我是把ShareX安装在D盘，D盘目录下面有个ShareX目录，在这个里面自己还创建了一个Screenshots文件夹用来保存截图。
 
-<img src="https://cs-cn.top/images/posts/path_212853.png"/>
+如果你是直接导入的我的配置文件，请也按照此路径安装，并且创建一个自定义文件夹Screenshots。
 
 <img src="https://cs-cn.top/images/posts/sharex12923.png"/>
+
+<img src="https://cs-cn.top/images/posts/path_212853.png"/>
+
+<img src="https://cs-cn.top/images/posts/sharex_inport_config_752.gif"/>
+
+
 
 **百度网盘**链接：[https://pan.baidu.com/s/1MLASPSmA2hgo_KfnNwhxkw](https://pan.baidu.com/s/1MLASPSmA2hgo_KfnNwhxkw ) 
 **提取码**：a6mf
