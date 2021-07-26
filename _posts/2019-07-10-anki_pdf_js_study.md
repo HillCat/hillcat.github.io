@@ -103,7 +103,11 @@ Set Font Size,
 
 Batch Editing。
 
-主要是以上6个插件。可以去到Anki插件首页，去搜索，Ctrl + F，使用谷歌浏览器找到这些安装即可。需要注意的是AwesomeTTS会有两个版本，建议选择官方版本：[https://ankiweb.net/shared/info/1436550454](https://ankiweb.net/shared/info/1436550454)。
+主要是以上6个插件。可以去到Anki插件首页，Ctrl + F  (搜索对应插件名)，找到插件对应code安装到anki中即可。需要注意的是AwesomeTTS会有两个版本，建议选择官方版本：[https://ankiweb.net/shared/info/1436550454](https://ankiweb.net/shared/info/1436550454)。
+
+anki插件的安装，是通过插件对应的安装code来安装的，示范如下：
+
+<img src="https://cs-cn.top/images/posts/install_anki_plugin159.gif"/>
 
 
 
