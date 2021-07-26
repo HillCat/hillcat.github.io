@@ -88,6 +88,10 @@ Matt有个质量很高的视频，是关于：[不要过早进行影子跟读模
 
 以word方式贴出来，地址都在word中，是为了防止有人举报：
 
+《黑猫》资源，内附有百度网盘地址：[黑猫有声书系列：含初,中,高各个Levlel](https://cs-cn.top/assets/doc/%E9%BB%91%E7%8C%AB%E6%9C%89%E5%A3%B0%E4%B9%A6%E7%B3%BB%E5%88%97.docx)
+
 资源来源于：黑猫系列：含初、中、高级的各个level，基本齐全，含音频、pdf和work，内容量大
 https://en5556.com/forum.php?mod=viewthread&tid=253591&fromuid=124206
+
+### 神奇树屋有声书系列
 
