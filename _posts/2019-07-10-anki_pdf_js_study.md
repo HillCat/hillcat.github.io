@@ -33,7 +33,9 @@ keywords: English
 
 <img src="https://cs-cn.top/images/posts/iphone_15918.png"/>
 
-对于某些单词，有多个意思的，容易混淆的，可以sharex自带的编辑功能，把精确的意思进行圈红处理：
+对于某些单词，有多个意思的，容易混淆的，可以用sharex自带的编辑功能，把精确的意思进行圈红处理，复习的时候节省时间：
+
+例如：Dink immediately recognized Wallis Wallace's signature, scrawled in big **loopy** letters.  loopy这个词。
 
 <img src="https://cs-cn.top/images/posts/sharex_edit6220015.gif"/>
 
