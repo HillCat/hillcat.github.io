@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Anki制卡周边工具推荐
+title: Anki制卡配套工具推荐
 categories: English
-description:有声书的生词复习策略
-keywords: 英文有声书生词如何复习
+description: 英文自学
+keywords: English
 ---
 
 ### 欧陆词典+牛津9
