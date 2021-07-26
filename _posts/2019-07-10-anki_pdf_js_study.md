@@ -65,3 +65,5 @@ https://ankiweb.net/shared/info/295889520
 
 如果可以上外网的朋友，直接去谷歌浏览器插件市场搜索了安装即可
 
+<img src="https://cs-cn.top/images/posts/anki_assists145452.png"/>
+
