@@ -30,3 +30,9 @@ keywords: English
 
 <img src="https://cs-cn.top/images/posts/iphone_15918.png"/>
 
+
+
+ShareX的配置，视频教程：
+
+链接：[https://pan.baidu.com/s/1MLASPSmA2hgo_KfnNwhxkw](https://pan.baidu.com/s/1MLASPSmA2hgo_KfnNwhxkw ) 
+提取码：a6mf
