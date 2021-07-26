@@ -95,3 +95,7 @@ https://en5556.com/forum.php?mod=viewthread&tid=253591&fromuid=124206
 
 ### 神奇树屋有声书系列
 
+这个是神奇树屋系列的资源：包含MP3，PDF，等格式
+
+[神奇树屋各个级别的资料](https://cs-cn.top/assets/doc/%E7%A5%9E%E5%A5%87%E6%A0%91%E5%B1%8B%E7%B3%BB%E5%88%97.docx)
+
