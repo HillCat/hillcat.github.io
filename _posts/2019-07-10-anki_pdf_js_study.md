@@ -121,7 +121,7 @@ anki插件的安装，是通过插件对应的安装code来安装的，示范如
 
 如果无法访问外网的，可以直接下载离线安装包：[在线词典助手离线安装包](https://www.laohuang.net/20190523/odh-offline-package/)
 
-如果可以上外网的朋友，直接去谷歌浏览器插件市场搜索了安装即可
+如果可以上外网的朋友，直接去[谷歌浏览器插件市场](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb)搜索了安装即可
 
 anki的模板，在上面的百度网盘里面资料中已经给出。
 
