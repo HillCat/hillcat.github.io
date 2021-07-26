@@ -14,13 +14,13 @@ keywords: English
 
 
 
-#### Anki的成功案例:Matt
+#### 看看大神是怎么用Anki进行二语习得的
 
 
 
 <img src="https://cs-cn.top//images/posts/matt_japan.png"/>
 
-我看了大量Matt二语习得这方面的视频，他是我见过的二语习得者中最厉害的一个人，他的日语水平已经接近日本母语水平，非常不简单。他也用`anki单词卡片`来复习单词。Matt的视频囊括了他5年时间日语从入门到精通的所有经验，不乏引人深思的内容。mvp播放器的设置和ShareX的设置都是从他频道学过来的。他的油管频道地址：[https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg](https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg)
+我看了大量Matt二语习得这方面的视频，他是我见过的二语习得者中最厉害的一个人，他的日语水平已经接近日本母语水平，第一次看到他再油管讲日语，我都感到震惊了！居然`史蒂夫.考夫曼`老爷子都跟他在线直播交流，能够得到老爷子认可，真的不容易。他也用`anki单词卡片`来复习单词，跟我一样，真的很励志，把我给感动到了。Matt的视频囊括了他5年时间日语从入门到精通的所有经验，不乏引人深思的内容。mvp播放器的设置和ShareX的设置，我都是从他频道学过来的，能够接触到这种英文频道世界的讯息，也得益于我日益精进的英文词汇量和英文听力，要不然只能局限于国内英语自学圈，这种`狭小`的眼界之中。英文好的，建议看看他的频道，他的油管频道地址：[https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg](https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg)
 
 Matt有个质量很高的视频，是关于：[不要过早进行影子跟读模仿](https://youtu.be/GOCMGBioo7s)的，建议可以看看。另外徐火辉的[不要专门练习纠音](https://mp.weixin.qq.com/s/HumFNRPwTOJI3BRxvXj8lg)也提到这个问题。
 
