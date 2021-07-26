@@ -35,7 +35,7 @@ keywords: English
 
 对于某些单词，有多个意思的，容易混淆的，可以用sharex自带的编辑功能，把精确的意思进行圈红处理，复习的时候节省时间。或者当一个单词意思在牛津9这本词典查不准的时候，可以多查一下其他词典。找到准确的解释。避免一开始录入anki中的是错误的释义，导致后面要想纠正就很难。因为每复习一次都是一错再错。不要一开始就领会了错误的释义，手头上一定要有好点的词典。
 
-例如：Dink immediately recognized Wallis Wallace's signature, scrawled in big **loopy** letters.  loopy这个词。有道翻译出来的意思是“`丁克立刻认出了沃利斯·华莱士的签名，那是潦草的大字。` ”。**loopy** 它翻译成了潦草。然后我误以为是“奇怪”的意思。于是圈红了这个意思。录入到anki中，如果每次复习的时候，都把一个单词的意思给理解错了，那就会越错越深。后来发现，这个意思，怎么都不好记，于是多查了几下其他词典。发现这个是有道机器翻译的，其实不准确。我们知道loop有`环`的意思，韦氏词典，我查到的意思是：**表示带圆圈的字体**，这就很好理解了，以下就记住了。在看原版有声书的过程中，会有很多这样子的一词多义，手里要至少准备2本电子词典。
+例如：Dink immediately recognized Wallis Wallace's signature, scrawled in big **loopy** letters.  loopy这个词。有道翻译出来的意思是“`丁克立刻认出了沃利斯·华莱士的签名，那是潦草的大字。` ”。**loopy** 它翻译成了潦草。然后我误以为是“奇怪”的意思。于是圈红了这个意思。录入到anki中，如果每次复习的时候，都把一个单词的意思给理解错了，那就会越错越深。后来发现，这个意思，怎么都不好记，于是多查了几下其他词典。发现这个是有道机器翻译的，其实不准确。我们知道loop有`环`的意思，韦氏词典，我查到的意思是：**表示带圆圈的字体**，这就很好理解了，瞬间就记住了，而手头这本牛津9原本以为是相当厉害了，没想到有些词的意思还是不全，所以手上要多备几本词典，如果只有一本牛津9，是不足以应付这种分级有声书的。手里要至少准备2本电子词典。
 
 <img src="https://cs-cn.top/images/posts/sharex_edit6220015.gif"/>
 
@@ -45,7 +45,12 @@ keywords: English
 
 
 
+另外推荐我手里这本韦氏V3：
 
+百度网盘链接：https://pan.baidu.com/s/1pzctTidgkqVa4pc6JCME0A 
+提取码：wki2
+
+像博文中提到的这些复杂的配置，其实可以制作成[autoit脚本](https://www.autoitscript.com/site/)，批量给网友安装，那样的话，就无需要复杂的手动配置，直接让自动化脚本给你搞定所有安装配置。因为目前还没有时间去写全自动的autoit安装脚本，所以只能是录制视频或者写文章的形式让网友自己摸索。
 
 ShareX的配置，这个涉及到比较复杂的操作，需要**导入我给的那个ShareX的配置**，然后稍微按照
 [https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio) 这个文档安装完ffmpeg 这个插件，在ShareX安装目录创建Screenshots文件夹,就可以使用快捷键F2，和快捷键F3了。F2是截声音，F3是截图。
