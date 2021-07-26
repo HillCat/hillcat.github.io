@@ -102,7 +102,7 @@ Set Font Size,
 
 Batch Editing。
 
-主要是以上6个插件。可以去到Anki插件首页，去搜索，Ctrl + F，使用谷歌浏览器找到这些安装即可。需要注意的是AwesomeTTS会有两个版本，建议选择官方版本：https://ankiweb.net/shared/info/1436550454。
+主要是以上6个插件。可以去到Anki插件首页，去搜索，Ctrl + F，使用谷歌浏览器找到这些安装即可。需要注意的是AwesomeTTS会有两个版本，建议选择官方版本：[https://ankiweb.net/shared/info/1436550454](https://ankiweb.net/shared/info/1436550454)。
 
 
 
