@@ -99,3 +99,5 @@ https://en5556.com/forum.php?mod=viewthread&tid=253591&fromuid=124206
 
 [神奇树屋各个级别的资料](https://cs-cn.top/assets/doc/%E7%A5%9E%E5%A5%87%E6%A0%91%E5%B1%8B%E7%B3%BB%E5%88%97.docx)
 
+这些资源，可以实操一下，尝试一下，是否符合2%~4%生词密度，如果符合的话，就可以准备购入纸质版本，还有PDF版本准备好，Anki的生词复习计划的具体配置，我会专门写一个博文。
+
