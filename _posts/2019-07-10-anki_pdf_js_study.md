@@ -63,7 +63,7 @@ anki为啥会有这个清除冗余css的动作，我估计还是因为服务器�
 
 
 
-另外推荐我手里这本韦氏2019：
+另外推荐我手里这本韦氏2019(“[掌上百科](https://www.pdawiki.com/forum/)”那个网站叫做韦氏V3)：
 
 百度网盘链接：[https://pan.baidu.com/s/1pzctTidgkqVa4pc6JCME0A](https://pan.baidu.com/s/1pzctTidgkqVa4pc6JCME0A ) 
 提取码：wki2
