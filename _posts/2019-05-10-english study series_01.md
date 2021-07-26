@@ -92,7 +92,7 @@ Matt有个质量很高的视频，是关于：[不要过早进行影子跟读模
 
 《黑猫》资源，内附有百度网盘地址和密码：[黑猫有声书系列：含初,中,高各个Levlel](https://cs-cn.top/assets/doc/%E9%BB%91%E7%8C%AB%E6%9C%89%E5%A3%B0%E4%B9%A6%E7%B3%BB%E5%88%97.docx) ，如果失效了，去这个网站：[原版英语网站](https://en5556.com/)搜集。
 
-黑猫PDF(可复制文本)链接：https://pan.baidu.com/s/1FiCWNZSi9fZXQipIDMwYdw 
+黑猫PDF(可复制文本，我自己用来anki制卡的就是这个)链接：https://pan.baidu.com/s/1FiCWNZSi9fZXQipIDMwYdw 
 提取码：kxc5
 
 ### 神奇树屋有声书系列
