@@ -35,9 +35,13 @@ keywords: English
 
 对于某些单词，有多个意思的，容易混淆的，可以用sharex自带的编辑功能，把精确的意思进行圈红处理，复习的时候节省时间：
 
-例如：Dink immediately recognized Wallis Wallace's signature, scrawled in big **loopy** letters.  loopy这个词。这里应该是“丁克立刻认出了沃利斯·华莱士的签名，那是潦草的大字。  ”。
+例如：Dink immediately recognized Wallis Wallace's signature, scrawled in big **loopy** letters.  loopy这个词。有道翻译出来的意思是“丁克立刻认出了沃利斯·华莱士的签名，那是潦草的大字。 ”。它翻译成了潦草。这个是有道机器翻译的，其实不准确。我们知道loop有`环`的意思，牛津9这本词典给出来的意思怪怪的，很难理解。如果手上还有其他词典，比如韦氏词典，我查到的意思是：表示带圆圈的字体，这种意思，那么这个意思才是准确的：
+
+<img src="https://cs-cn.top/images/posts/loopy_10109.png"/>
 
 <img src="https://cs-cn.top/images/posts/sharex_edit6220015.gif"/>
+
+
 
 ShareX的配置，**导入我给的那个ShareX的配置**，然后稍微按照
 [https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio) 这个文档安装完ffmpeg 这个插件，在ShareX安装目录创建Screenshots文件夹,就可以使用快捷键F2，和快捷键F3了。F2是截声音，F3是截图。
