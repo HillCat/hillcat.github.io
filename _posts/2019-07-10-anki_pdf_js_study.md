@@ -33,17 +33,21 @@ keywords: English
 
 <img src="https://cs-cn.top/images/posts/iphone_15918.png"/>
 
-对于某些单词，有多个意思的，容易混淆的，可以用sharex自带的编辑功能，把精确的意思进行圈红处理，复习的时候节省时间：
+对于某些单词，有多个意思的，容易混淆的，可以用sharex自带的编辑功能，把精确的意思进行圈红处理，复习的时候节省时间。或者当一个单词意思在牛津9这本词典查不准的时候，可以多查一下其他词典。找到准确的解释。避免一开始录入anki中的是错误的释义，导致后面要想纠正就很难。
 
-例如：Dink immediately recognized Wallis Wallace's signature, scrawled in big **loopy** letters.  loopy这个词。有道翻译出来的意思是“丁克立刻认出了沃利斯·华莱士的签名，那是潦草的大字。 ”。它翻译成了潦草。这个是有道机器翻译的，其实不准确。我们知道loop有`环`的意思，牛津9这本词典给出来的意思怪怪的，很难理解。如果手上还有其他词典，比如韦氏词典，我查到的意思是：表示带圆圈的字体，这种意思，那么这个意思才是准确的：
-
-<img src="https://cs-cn.top/images/posts/loopy_10109.png"/>
+例如：Dink immediately recognized Wallis Wallace's signature, scrawled in big **loopy** letters.  loopy这个词。有道翻译出来的意思是“`丁克立刻认出了沃利斯·华莱士的签名，那是潦草的大字。` ”。**loopy** 它翻译成了潦草。然后我误以为是“奇怪”的意思。于是圈红了这个意思。录入到anki中，如果每次复习的时候，都把一个单词的意思给理解错了，那就会越错越深。后来发现，这个意思，怎么都不好记，于是多查了几下其他词典。发现这个是有道机器翻译的，其实不准确。我们知道loop有`环`的意思，韦氏词典，我查到的意思是：**表示带圆圈的字体**，这就很好理解了，以下就记住了。在看原版有声书的过程中，会有很多这样子的一词多义，手里要至少准备2本电子词典。
 
 <img src="https://cs-cn.top/images/posts/sharex_edit6220015.gif"/>
 
 
 
-ShareX的配置，**导入我给的那个ShareX的配置**，然后稍微按照
+<img src="https://cs-cn.top/images/posts/loopy_10109.png"/>
+
+
+
+
+
+ShareX的配置，这个涉及到比较复杂的操作，需要**导入我给的那个ShareX的配置**，然后稍微按照
 [https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio) 这个文档安装完ffmpeg 这个插件，在ShareX安装目录创建Screenshots文件夹,就可以使用快捷键F2，和快捷键F3了。F2是截声音，F3是截图。
 
 ShareX官网：[https://getsharex.com/](https://getsharex.com/)
