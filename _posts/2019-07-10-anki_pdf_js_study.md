@@ -101,9 +101,11 @@ ShareX配置导入之后，还需要进行一些配置，如下：(鼠标右键�
 
 关于Anki，下载地址是官网:[https://apps.ankiweb.net/](https://apps.ankiweb.net/)
 
-Anki插件首页：[https://ankiweb.net/shared/addons/](https://ankiweb.net/shared/addons/)
+Anki插件市场首页：[https://ankiweb.net/shared/addons/](https://ankiweb.net/shared/addons/)，里面包含了所有anki常见的几百个插件：
 
-Anki常用插件：
+<img src="https://cs-cn.top/images/posts/chajian_market4034.png"/>
+
+推荐的Anki必备插件：
 
 Advanced Browser,
 
@@ -117,7 +119,7 @@ Set Font Size,
 
 Batch Editing。
 
-主要是以上6个插件。可以去到Anki插件首页，Ctrl + F  (搜索对应插件名)，找到插件对应code安装到anki中即可。需要注意的是AwesomeTTS会有两个版本，建议选择官方版本：[https://ankiweb.net/shared/info/1436550454](https://ankiweb.net/shared/info/1436550454)。
+主要是以上6个插件。可以去到[Anki插件市场](https://ankiweb.net/shared/addons/)首页，谷歌浏览器使用Ctrl + F  (搜索对应插件名)，进入插件详情页，在详情页找到插件对应code安装到anki中即可。需要注意的是AwesomeTTS会有两个版本，建议选择官方版本：[https://ankiweb.net/shared/info/1436550454](https://ankiweb.net/shared/info/1436550454)。
 
 anki插件的安装，是通过插件对应的安装code来安装的，示范如下：
 
