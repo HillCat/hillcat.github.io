@@ -19,7 +19,7 @@ keywords: English
 
 ### ShareX
 
-其次就是你需要配置好ShareX这个软件的截图功能，现在我的很多生词的操作都是在windows电脑上面进行的。使用快捷键F3，按一下，把图片粘贴到anki里面去的，做到“快”，“准”，“狠”。效果如下：
+其次就是你需要配置好ShareX这个软件的截图功能，现在我的很多生词的操作都是在windows电脑上面进行的。使用快捷键F3，按一下，把图片粘贴到anki里面去的，做到“快”，“准”，“稳”。效果如下：
 
 <img src="https://cs-cn.top/images/posts/myanki115246.gif"/>
 
