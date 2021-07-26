@@ -25,7 +25,7 @@ keywords: English
 
 ### ShareX
 
-sharex非常重要，美剧制卡也会用到这个ShareX，现在我的很多生词的操作都是在windows电脑上面进行的。使用快捷键F3，按一下，把图片粘贴到anki里，“快”，“准”，“稳”。效果如下：
+sharex非常重要，美剧制卡也会用到这个ShareX，现在我的很多生词的操作都是在windows电脑上面进行的。欧陆开启剪切板取词，选中要查询的单词Ctrl+ C，欧陆就会弹出来释义小窗口，使用快捷键F3 激活Sharex的截图功能，截取之后，Sharex会把图片自动粘贴到你的剪切板中，然后你直接把图片粘贴到anki里即可。“快”，“准”，“稳”。效果如下：
 
 <img src="https://cs-cn.top/images/posts/myanki115246.gif"/>
 
@@ -39,7 +39,7 @@ sharex非常重要，美剧制卡也会用到这个ShareX，现在我的很多�
 
 
 
-欧陆词典的配置如下：
+如果遇到问题，请检查你的欧陆词典的配置，如下：
 
 <img src="https://cs-cn.top/images/posts/oulu_559.png"/>
 
