@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 有声书如何配合anki搞定生词复习
-categories: Blog
+title: Anki制卡周边工具推荐
+categories: English
 description:有声书的生词复习策略
 keywords: 英文有声书生词如何复习
 ---
