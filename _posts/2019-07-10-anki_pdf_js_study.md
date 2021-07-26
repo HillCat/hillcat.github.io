@@ -38,3 +38,30 @@ ShareX的配置，视频教程：导入我给的那个ShareX的配置，然后�
 
 链接：[https://pan.baidu.com/s/1MLASPSmA2hgo_KfnNwhxkw](https://pan.baidu.com/s/1MLASPSmA2hgo_KfnNwhxkw ) 
 提取码：a6mf
+
+ShareX配置文件：ShareX-13.5.0-backup.sxb  ，已经放在网盘文件里面，下载下来导入ShareX即可。
+
+
+
+### Anki工具
+
+关于Anki，下载地址是官网:[https://apps.ankiweb.net/](https://apps.ankiweb.net/)
+
+Anki插件的下载地址：[https://ankiweb.net/shared/addons/](https://ankiweb.net/shared/addons/)
+
+Anki常用插件：
+https://ankiweb.net/shared/info/874215009
+https://ankiweb.net/shared/info/2055492159
+https://ankiweb.net/shared/info/814349176
+https://ankiweb.net/shared/info/1807206748
+https://ankiweb.net/shared/info/651521808
+https://ankiweb.net/shared/info/295889520
+
+
+
+### 在线词典助手
+
+如果无法访问外网的，可以直接下载离线安装包：[在线词典助手离线安装包](https://www.laohuang.net/20190523/odh-offline-package/)
+
+如果可以上外网的朋友，直接去谷歌浏览器插件市场搜索了安装即可
+
