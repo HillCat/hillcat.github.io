@@ -78,13 +78,7 @@ ShareX官网：[https://getsharex.com/](https://getsharex.com/)
 
 <img src="https://cs-cn.top/images/posts/path_212853.png"/>
 
-
-
-
-
-
-
-
+<img src="https://cs-cn.top/images/posts/sharex_config_finall048.png"/>
 
 
 
@@ -92,16 +86,23 @@ ShareX官网：[https://getsharex.com/](https://getsharex.com/)
 
 关于Anki，下载地址是官网:[https://apps.ankiweb.net/](https://apps.ankiweb.net/)
 
-Anki插件的下载地址：[https://ankiweb.net/shared/addons/](https://ankiweb.net/shared/addons/)
+Anki插件首页：[https://ankiweb.net/shared/addons/](https://ankiweb.net/shared/addons/)
 
 Anki常用插件：
 
-https://ankiweb.net/shared/info/874215009
-https://ankiweb.net/shared/info/2055492159
-https://ankiweb.net/shared/info/814349176
-https://ankiweb.net/shared/info/1807206748
-https://ankiweb.net/shared/info/651521808
-https://ankiweb.net/shared/info/295889520
+Advanced Browser,
+
+AnkiConnect,
+
+AwesomeTTS,
+
+Fast Word Query,
+
+Set Font Size,
+
+Batch Editing。
+
+主要是以上6个插件。可以去到Anki插件首页，去搜索，Ctrl + F，使用谷歌浏览器找到这些安装即可。需要注意的是AwesomeTTS会有两个版本，建议选择官方版本：https://ankiweb.net/shared/info/1436550454。
 
 
 
