@@ -50,7 +50,7 @@ keywords: English
 百度网盘链接：https://pan.baidu.com/s/1pzctTidgkqVa4pc6JCME0A 
 提取码：wki2
 
-像博文中提到的这些复杂的配置，其实可以制作成[autoit脚本](https://www.autoitscript.com/site/)，批量给网友安装，那样的话，就无需要复杂的手动配置，直接让自动化脚本给你搞定所有安装配置。因为目前还没有时间去写全自动的autoit安装脚本，所以只能是录制视频或者写文章的形式让网友自己摸索。
+像博文中提到的这些复杂的工具，它们的配置，其实可以制作成[autoit脚本](https://www.autoitscript.com/site/)，我这边配置好之后，直接让自动化脚本给你们搞定所有安装。不过要写autoit脚本实现自动化安装，比较耗时。所以只能是录制视频或者写文章的形式告知网友自己去摸索。等哪天有空，我会把这些手动配置的繁琐过程，全部做成脚本形式。以免浪费大量人力物力，吓住很多电脑小白。
 
 ShareX的配置，这个涉及到比较复杂的操作，需要**导入我给的那个ShareX的配置**，然后稍微按照
 [https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio) 这个文档安装完ffmpeg 这个插件，在ShareX安装目录创建Screenshots文件夹,就可以使用快捷键F2，和快捷键F3了。F2是截声音，F3是截图。
