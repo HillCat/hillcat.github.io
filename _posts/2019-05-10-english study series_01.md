@@ -88,5 +88,6 @@ Matt有个质量很高的视频，是关于：[不要过早进行影子跟读模
 
 以word方式贴出来，地址都在word中，是为了防止有人举报：
 
-
+资源来源于：黑猫系列：含初、中、高级的各个level，基本齐全，含音频、pdf和work，内容量大
+https://en5556.com/forum.php?mod=viewthread&tid=253591&fromuid=124206
 
