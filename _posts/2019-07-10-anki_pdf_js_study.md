@@ -78,7 +78,7 @@ ShareX官网：[https://getsharex.com/](https://getsharex.com/)
 
 <img src="https://cs-cn.top/images/posts/path_212853.png"/>
 
-<img src="https://cs-cn.top/images/posts/sharex_config_finall048.png"/>
+<img src="https://cs-cn.top/images/posts/sharex_config_finall_29.png"/>
 
 
 
