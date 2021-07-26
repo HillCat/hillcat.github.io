@@ -78,6 +78,8 @@ ShareX官网：[https://getsharex.com/](https://getsharex.com/)
 
 <img src="https://cs-cn.top/images/posts/path_212853.png"/>
 
+特别是这个配置截图，建议鼠标右键，在新标签页中打开图片，可以看高清原图：
+
 <img src="https://cs-cn.top/images/posts/sharex_allconfig2326.png"/>
 
 
