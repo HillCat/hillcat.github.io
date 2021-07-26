@@ -38,6 +38,8 @@ keywords: English
 ShareX的配置，视频教程：导入我给的那个ShareX的配置，然后稍微按照
 [https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio) 这个文档安装完ffmpeg 这个插件，在ShareX安装目录创建Screenshots文件夹。
 
+<img src="https://cs-cn.top/images/posts/sharex_import_config214256.gif"/>
+
 如下图，我是把ShareX安装在D盘，D盘目录下面有个ShareX目录，在这个里面自己还创建了一个Screenshots文件夹用来保存截图。
 
 如果你是直接导入的我的配置文件，请也按照此路径安装，并且创建一个自定义文件夹Screenshots。
@@ -51,9 +53,9 @@ ShareX的配置，视频教程：导入我给的那个ShareX的配置，然后�
 **百度网盘**链接：[https://pan.baidu.com/s/1MLASPSmA2hgo_KfnNwhxkw](https://pan.baidu.com/s/1MLASPSmA2hgo_KfnNwhxkw ) 
 **提取码**：a6mf
 
-ShareX配置文件：ShareX-13.5.0-backup.sxb  ，已经放在网盘文件里面，下载下来导入ShareX即可。
 
-<img src="https://cs-cn.top/images/posts/sharex_import_config214256.gif"/>
+
+
 
 
 
