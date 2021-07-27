@@ -5,23 +5,25 @@ categories: English
 description: 
 keywords: 记单词
 ---
-Anki所有的参数详细教程，在Matt的视频中有详细的讲解，地址是：[https://youtu.be/lz60qTP2Gx0](https://youtu.be/lz60qTP2Gx0)
+Anki所有的参数表示的是什么意思，很少有人能够完全搞明白。
 
-讲解得非常详细，所以我就不赘述了。可以使用谷歌浏览器，开启 [Language Learning with Youtube](https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb)插件，并且把机器翻译开起来，字幕调节到英文，然后使用language Learning with Youtube开启对英文的翻译。
+只要详细看看Matt的视频讲解就知道了，地址是：[https://youtu.be/lz60qTP2Gx0](https://youtu.be/lz60qTP2Gx0)。
+
+第二个讲解Anki参数的视频地址：[https://youtu.be/uLfczzq9z_8](https://youtu.be/uLfczzq9z_8) ，这个还具体讲解了计算公式。
+
+简而言之，Anki在复习单词的时候，是以作答的形式选择“Again，Hard，Good，Easy”这四个按钮，来影响每个单词的复习间隔。4个按钮的权重是不一样的，当你点击不同的按钮的时候，对单词复习间隔的**百分比加成**是不同的。越是不熟悉的单词，间隔周期越短，越熟悉的单词，间隔周期越长。
+
+在油管看英文视频，建议开启 [Language Learning with Youtube](https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb)插件，并且把机翻打开，字幕调节到英文，然后设置language Learning with Youtube，开启中英双字幕。具体设置如下：
+
+ **首先，安装插件**：
 
 <img src="https://cs-cn.top/images/posts/anki_options0547.png"/>
 
-安装好插件之后，需要开启机器翻译的英文字幕，然后对language Learning with Youtube进行设置，具体如下：
+ **其次，设置插件**：
 
 <img src="https://cs-cn.top/images/posts/learn_youtube_settings0952.gif"/>
 
-开启右侧滚动字幕，只需要进行如下设置即可，点击图中箭头所指的位置，展开字幕即可，如果不明白的地方可以暂停视频，看英文字幕，查下单词理解他讲的东西，因为他还有做示范，所以应该是很容易理解的：
-
 <img src="https://cs-cn.top/images/posts/right_bar_settings609.png"/>
-
-Matt对于Anki的理解比较深刻，各种参数他都了如指掌，看完他这个视频，相信你会对于那些参数熟练掌握。
-
-还有个视频教程也不错(人工英文字幕，不是机器翻译的)，他有PPT还列出来了详细的计算公式，视频地址：[https://youtu.be/uLfczzq9z_8](https://youtu.be/uLfczzq9z_8) 。Again，Hard，Good，Easy四个按钮。分别代表了不同的权重。权重值不同，对于一个单词的复习间隔**百分比加成**是不同的。越是不熟悉的单词，间隔周期越短，越熟悉的单词，间隔周期越长。一般个人建议，不要把间隔最大的周期超过半年，也就是说这些放入anki里面的单词，再怎么熟悉，间隔不要超过半年，半年之后仍然还是需要复习一下的。
 
 <img src="https://cs-cn.top/images/posts/parameters_caculator4716.png"/>
 
