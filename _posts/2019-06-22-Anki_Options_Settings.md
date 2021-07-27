@@ -109,7 +109,7 @@ Matt对于Anki的理解比较深刻，各种参数他都了如指掌，看完他
 
 <img src="https://cs-cn.top/images/posts/left_bar5619.png"/>
 
-Tags这个东西用得非常少，几乎没用，而且它是可以直接删除的，会影响到所有的单词卡片。被标记过`ODH`标签名的单词，这个标记都会被删除。
+Tags这个东西用得非常少，几乎没用，而且它是可以直接删除的，会影响到所有的单词卡片。被标记过`ODH`标签名的单词，这个标记都会被清空。
 
 <img src="https://cs-cn.top/images/posts/tags058.png"/>
 
