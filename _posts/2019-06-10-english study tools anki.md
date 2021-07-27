@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何更好地使用Anki
+title: 如何更好地把Anki用好
 categories: English
 description: 英文自学
 keywords: 英文自学
