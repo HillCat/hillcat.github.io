@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anki的各种参数理解
+title: 怎么设置Anki的各种参数
 categories: English
 description: 
 keywords: 记单词
