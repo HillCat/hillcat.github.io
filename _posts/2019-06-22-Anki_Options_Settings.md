@@ -23,9 +23,21 @@ Anki所有的参数详细教程，在Matt的视频中有详细的讲解，地址
 
 Matt对于Anki的理解比较深刻，各种参数他都了如指掌，看完他这个视频，相信你会对于那些参数熟练掌握。
 
-还有个，是人工英文字幕的，可以看下这个：[https://youtu.be/uLfczzq9z_8](https://youtu.be/uLfczzq9z_8) 这个人讲解得更加详细，结合两个视频，你就知道那些参数得详细意思了，主要是了解Anki那些按钮是怎么计算复习间隔的。里面有Again，Hard，Good，Easy四个按钮。分别代表了不同的权重。权重值不同，对于一个单词的复习间隔**百分比加成**是不同的。每个按钮，点击完成之后，百分比是如何计算的，这个视频里面还有详细的计算公式分析：
+还有个是人工英文字幕，详细讲解Anki四个按钮被按下时候，间隔的天数是怎么计算出来的，他有PPT还列出来了详细的计算公式，视频地址：[https://youtu.be/uLfczzq9z_8](https://youtu.be/uLfczzq9z_8) 。Again，Hard，Good，Easy四个按钮。分别代表了不同的权重。权重值不同，对于一个单词的复习间隔**百分比加成**是不同的。越是不熟悉的单词，间隔周期越短，越熟悉的单词，间隔周期越长。一般个人建议，不要把间隔最大的周期超过半年，也就是说这些放入anki里面的单词，再怎么熟悉，间隔不要超过半年，半年之后仍然还是需要复习一下的。文末附上我的详细设置。
 
 <img src="https://cs-cn.top/images/posts/parameters_caculator4716.png"/>
+
+
+
+<img src="https://cs-cn.top/images/posts/anki_settings_01_413.png"/>
+
+<img src="https://cs-cn.top/images/posts/anki_settings_02_447.png"/>
+
+<img src="https://cs-cn.top/images/posts/anki_settings_03_528.png"/>
+
+<img src="https://cs-cn.top/images/posts/anki_settings_04557.png"/>
+
+
 
 
 
