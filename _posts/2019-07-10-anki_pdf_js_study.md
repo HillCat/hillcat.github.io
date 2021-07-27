@@ -74,8 +74,6 @@ sharex非常重要，美剧制卡也会用到这个ShareX，现在我的很多�
 
 autoit这个自动化工具我以前使用过，不难，很简单，但是写脚本需要有一定的代码能力。等有空再写这种脚本，到时候写好了更新到博客中。
 
-
-
 ShareX的配置这个涉及到比较复杂的操作，需要**导入我给的那个[ShareX的配置](https://cs-cn.top/assets/doc/ShareX-13.5.0-backup.sxb)**，然后稍微按照
 [https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio) 这个文档安装完ffmpeg 这个插件，在ShareX安装目录创建Screenshots文件夹,就可以使用快捷键F2，和快捷键F3了。F2是截声音，F3是截图。
 
