@@ -27,3 +27,7 @@ Matt对于Anki的理解比较深刻，各种参数他都了如指掌，看完他
 
 <img src="https://cs-cn.top/images/posts/good_button_041.png"/>
 
+<img src="https://cs-cn.top/images/posts/parameters_caculator4716.png"/>
+
+
+
