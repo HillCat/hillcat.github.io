@@ -19,7 +19,7 @@ Anki所有的参数表示的是什么意思，很少有人能够完全搞明白�
 
 <img src="https://cs-cn.top/images/posts/anki_options0547.png"/>
 
- **其次，设置插件**：打开一个油管视频，就可以看到视频上面有个OFF的按钮，打开为ON状态，然后进行配置
+ **其次，设置插件**：打开一个油管视频，就可以看到视频上面有个OFF的按钮，点击它打开为ON状态，然后进行配置
 
 <img src="https://cs-cn.top/images/posts/on_button28.png"/>
 
