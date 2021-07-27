@@ -14,7 +14,7 @@ keywords: English
 
 
 
-#### 大神怎么用Anki进行二语习得的？
+#### 新发现：使用anki的二语习得效果
 
 
 
