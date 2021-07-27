@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anki的使用经验分享
+title: 如何更好地使用Anki
 categories: English
 description: 英文自学
 keywords: 英文自学
