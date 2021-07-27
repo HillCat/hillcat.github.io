@@ -13,13 +13,13 @@ Anki所有的参数表示的是什么意思，很少有人能够完全搞明白�
 
 简而言之，Anki在复习单词的时候，是以作答的形式选择“Again，Hard，Good，Easy”这四个按钮，来影响每个单词的复习间隔。4个按钮的权重是不一样的，当你点击不同的按钮的时候，对单词复习间隔的**百分比加成**是不同的。越是不熟悉的单词，间隔周期越短，越熟悉的单词，间隔周期越长。
 
-在油管看英文视频，建议开启 [Language Learning with Youtube](https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb)插件，并且把机翻打开，字幕调节到英文，然后设置language Learning with Youtube，开启中英双字幕。具体设置如下：
+在油管看英文视频，建议开启 [Language Learning with Youtube](https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb)插件，并且把机翻打开，字幕调节到英文，具体设置如下：
 
- **首先，安装插件**：
+ **首先，安装插件**： [Language Learning with Youtube](https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb)
 
 <img src="https://cs-cn.top/images/posts/anki_options0547.png"/>
 
- **其次，设置插件**：
+ **其次，设置插件**：打开一个油管视频，就可以看到视频上面有个On的按钮，打开插件进行配置
 
 <img src="https://cs-cn.top/images/posts/learn_youtube_settings0952.gif"/>
 
