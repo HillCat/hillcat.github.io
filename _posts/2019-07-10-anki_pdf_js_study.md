@@ -25,8 +25,7 @@ keywords: English
 
 #### ShareX配置
 
-ShareX的配置这个涉及到比较复杂的操作，需要**导入我给的那个[ShareX的配置](https://cs-cn.top/assets/doc/ShareX-13.5.0-backup.sxb)**，然后稍微按照
-[https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio) 这个文档安装完ffmpeg 这个插件，在ShareX安装目录创建Screenshots文件夹,就可以使用快捷键F2，和快捷键F3了。F2是截声音，F3是截图。
+第一步：从官网下载ShareX，**导入[ShareX的配置](https://cs-cn.top/assets/doc/ShareX-13.5.0-backup.sxb)**，
 
 ShareX官网：[https://getsharex.com/](https://getsharex.com/)
 
@@ -34,19 +33,17 @@ ShareX官网：[https://getsharex.com/](https://getsharex.com/)
 
 <img src="https://cs-cn.top/images/posts/sharex_import_config214256.gif"/>
 
-如下图，我是把ShareX安装在D盘，D盘目录下面有个ShareX目录，在这个里面自己还创建了一个Screenshots文件夹用来保存截图。
-
-如果你是直接导入的我的配置文件，请也按照此路径安装，并且创建一个自定义文件夹Screenshots。
+第二步：把ShareX安装在D盘的ShareX目录，在这个目录再新建文件夹Screenshots。
 
 <img src="https://cs-cn.top/images/posts/sharex12923.png"/>
 
 <img src="https://cs-cn.top/images/posts/path_212853.png"/>
 
-ShareX配置导入之后，还需要进行一些配置，如下：(鼠标右键，新标签页中打开此图片)
+
+
+第三步：进一步配置Screen recorder。如果不明白，请按照 https://animecards.site/setupsharex/#hotkey-for-audio 这个文档安装完ffmpeg 这个插件。
 
 <img src="https://cs-cn.top/images/posts/sharex_allconfig2326.png"/>
-
-
 
 #### 欧陆词典
 
