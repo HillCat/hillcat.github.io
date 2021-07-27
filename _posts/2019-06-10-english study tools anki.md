@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何更好地把Anki用好
+title: Anki复习生词的技巧
 categories: English
 description: 英文自学
 keywords: 英文自学
