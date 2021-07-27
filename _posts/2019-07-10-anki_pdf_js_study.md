@@ -45,7 +45,7 @@ keywords: English
 
 <img src="https://cs-cn.top/images/posts/sharex_allconfig2326.png"/>
 
-#### 欧陆词典
+#### 欧陆词典配置
 
 欧陆词典和ShareX配合使用如下：
 
