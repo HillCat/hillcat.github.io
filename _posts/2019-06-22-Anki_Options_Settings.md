@@ -17,11 +17,13 @@ Anki所有的参数详细教程，在Matt的视频中有详细的讲解，地址
 
 <img src="https://cs-cn.top/images/posts/learn_youtube_settings0952.gif"/>
 
-如果是右侧栏字幕滚动这里开启，只需要进行如下设置即可，把侧边栏的字幕开启即可：
+开启右侧滚动字幕，只需要进行如下设置即可，点击图中箭头所指的位置，展开字幕即可，如果不明白的地方可以暂停视频，看英文字幕，查下单词理解他讲的东西，因为他还有做示范，所以应该是很容易理解的：
 
 <img src="https://cs-cn.top/images/posts/right_bar_settings609.png"/>
 
 Matt对于Anki的理解比较深刻，各种参数他都了如指掌，看完他这个视频，相信你会对于那些参数熟练掌握。
+
+还有个，是人工英文字幕的，可以看下这个：[https://youtu.be/uLfczzq9z_8](https://youtu.be/uLfczzq9z_8) 这个人讲解得更加详细，结合两个视频，你就知道那些参数得详细意思了，主要是了解Anki那些按钮是怎么计算复习间隔的。里面有Again，Hard，Good，Easy四个按钮。分别代表了不同的权重。权重值不同，对于一个单词的复习间隔**百分比加成**是不同的。
 
 
 
