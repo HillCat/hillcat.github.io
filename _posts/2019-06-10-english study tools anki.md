@@ -116,7 +116,17 @@ anki更多是扮演复习笔记工具，通过场景上下文帮助用户理解�
 
 这个是老黄老巢的博客文章里面的资源，参考链接：https://www.laohuang.net/20161113/awesometts-mdx-server/
 
-里面包含的朗文6词典，就是真人发音mdx，配合fast query插件 或awesometts制卡的时候，给单词卡片提供真人发音。
+里面包含的朗文6词典，就是真人发音mdx，这套朗文发音库主要是配合[fast query插件](https://ankiweb.net/shared/info/1807206748) 使用的，给单词卡片提供真人发音。
+
+具体的配置：
+
+<img src="https://cs-cn.top/images/posts/fast_query04518.png"/>
+
+<img src="https://cs-cn.top/images/posts/fast_query600.png"/>
+
+<img src="https://cs-cn.top/images/posts/fast_query_configure4739.png"/>
+
+只需要下载了朗文的发音库之后，放到对应的单独文件夹中，然后配置上路径，按照上图这样子设置FastQuery插件即可。
 
 
 
