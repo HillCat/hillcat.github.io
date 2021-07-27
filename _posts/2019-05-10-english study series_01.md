@@ -34,7 +34,7 @@ Matt的视频囊括了他5年时间日语从入门到精通的所有经验，不
 
 
 
-#### 斯蒂芬.克拉申 博士的二语习得理论
+#### 斯蒂芬.克拉申的二语习得理论
 
 二语习得的出处：[Stephen Krashen On Language Acquisition](https://youtu.be/NiTsduRreug)
 
