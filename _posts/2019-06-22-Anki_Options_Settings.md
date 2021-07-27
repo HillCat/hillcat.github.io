@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anki的各种参数原理
+title: 详细了解Anki的方方面面
 categories: English
 description: 
 keywords: 记单词
