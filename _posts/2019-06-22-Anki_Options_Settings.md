@@ -1,6 +1,6 @@
 ---
 layout: post
-title: anki间隔重复+可理解性输入
+title: Anki的各种参数设置理解
 categories: English
 description: 
 keywords: 记单词
