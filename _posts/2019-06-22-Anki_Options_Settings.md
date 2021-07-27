@@ -9,7 +9,7 @@ Anki所有的参数表示的是什么意思，很少有人能够完全搞明白�
 
 只要详细看看Matt的视频讲解就知道了，地址是：[https://youtu.be/lz60qTP2Gx0](https://youtu.be/lz60qTP2Gx0)。
 
-第二个讲解Anki参数的视频地址：[https://youtu.be/uLfczzq9z_8](https://youtu.be/uLfczzq9z_8) ，这个还具体讲解了计算公式。
+第二个讲解Anki参数的视频：[https://youtu.be/uLfczzq9z_8](https://youtu.be/uLfczzq9z_8) ，这个还具体讲解了计算公式。
 
 简而言之，Anki在复习单词的时候，是以作答的形式选择“Again，Hard，Good，Easy”这四个按钮，来影响每个单词的复习间隔。4个按钮的权重是不一样的，当你点击不同的按钮的时候，对单词复习间隔的**百分比加成**是不同的。越是不熟悉的单词，间隔周期越短，越熟悉的单词，间隔周期越长。
 
