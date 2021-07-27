@@ -23,17 +23,40 @@ keywords: English
 
 我曾经看专业材料的时候，遇到很多的专业词汇，在牛津9和韦氏里面都查不到，包括去它们的官网都查不到，但是去到LEXICO就搞定了。收词量，LEXICO真的超级巨无霸。一般不是遇到特别特别超纲的词是不会祭出这个大杀器的，因为它的体积太大了。
 
-### ShareX
+#### ShareX配置
 
-sharex非常重要，美剧制卡也会用到这个ShareX，现在我的很多生词的操作都是在windows电脑上面进行的。欧陆开启剪切板取词，选中要查询的单词Ctrl+ C，欧陆就会弹出来释义小窗口，使用快捷键F3 激活Sharex的截图功能，截取之后，Sharex会把图片自动粘贴到你的剪切板中，然后你直接把图片粘贴到anki里即可。“快”，“准”，“稳”。效果如下：
+ShareX的配置这个涉及到比较复杂的操作，需要**导入我给的那个[ShareX的配置](https://cs-cn.top/assets/doc/ShareX-13.5.0-backup.sxb)**，然后稍微按照
+[https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio) 这个文档安装完ffmpeg 这个插件，在ShareX安装目录创建Screenshots文件夹,就可以使用快捷键F2，和快捷键F3了。F2是截声音，F3是截图。
+
+ShareX官网：[https://getsharex.com/](https://getsharex.com/)
+
+
+
+<img src="https://cs-cn.top/images/posts/sharex_import_config214256.gif"/>
+
+如下图，我是把ShareX安装在D盘，D盘目录下面有个ShareX目录，在这个里面自己还创建了一个Screenshots文件夹用来保存截图。
+
+如果你是直接导入的我的配置文件，请也按照此路径安装，并且创建一个自定义文件夹Screenshots。
+
+<img src="https://cs-cn.top/images/posts/sharex12923.png"/>
+
+<img src="https://cs-cn.top/images/posts/path_212853.png"/>
+
+ShareX配置导入之后，还需要进行一些配置，如下：(鼠标右键，新标签页中打开此图片)
+
+<img src="https://cs-cn.top/images/posts/sharex_allconfig2326.png"/>
+
+
+
+#### 欧陆词典
+
+欧陆词典和ShareX配合使用如下：
 
 <img src="https://cs-cn.top/images/posts/myanki115246.gif"/>
 
-为什么要用图片，而不是文字插入呢？因为anki默认的编辑器会去掉冗余的css样式，导致你贴进去的辞典样式丢失错位，要保留样式可以使用`shift + ctrl +V `快捷键,但是也会有文字样式的丢失，无法做到100%跟辞典里面的排版一样，总有一些错位，各种问题，曾经我尝试自己编写一套程序，让它完全100%保留排版样式，但几乎不可能做到，研究各种方法很费时间，后来干脆直接粘贴图片。牺牲掉一些手机端的阅读体验，因为手机端阅读图片会有失真。只需要把欧陆词典弹出小窗口弄窄一些，不影响手机上复习就可以了。
+用图片而不用文本复制粘贴，是因为anki会对粘贴的css html文本进行格式化，导致粘贴进去的排版格式和辞典中的不一致。
 
-所以anki要精简css内容，是因为anki为了节省服务器硬盘资源，毕竟anki一直以来是免费为大家托盘数据的，全球这么多人使用，数据量非常庞大，所以为了降低服务器费用，它们官方就会对内容进行精简。
-
-下面是最终效果，单词解释 贴的是辞典截图：
+anki要精简css内容，是因为anki为了节省服务器硬盘资源，毕竟anki一直以来是免费为大家托管数据的，全球这么多人使用，数据量非常庞大，所以为了降低服务器硬件费用，它们官方就会对内容进行精简。
 
 <img src="https://cs-cn.top/images/posts/pc_show115623.png"/>
 
@@ -65,35 +88,10 @@ sharex非常重要，美剧制卡也会用到这个ShareX，现在我的很多�
 
 
 
-另外推荐我手里这本韦氏2019(“[掌上百科](https://www.pdawiki.com/forum/)”那个网站把这本辞典叫做`韦氏V3`)：
+这本韦氏2019下载地址：
 
 百度网盘链接：[https://pan.baidu.com/s/1pzctTidgkqVa4pc6JCME0A](https://pan.baidu.com/s/1pzctTidgkqVa4pc6JCME0A ) 
 提取码：wki2
-
-像博文中提到的这些复杂的工具，它们的配置，其实可以制作成[autoit脚本](https://www.autoitscript.com/site/)，我这边配置好之后，直接让自动化脚本给你们搞定所有安装。不过要写autoit脚本实现自动化安装，比较耗时。所以只能是录制视频或者写文章的形式告知网友自己去摸索。等哪天有空，我会把这些手动配置的繁琐过程，全部做成脚本形式。以免难倒很多电脑小白。
-
-autoit这个自动化工具我以前使用过，不难，很简单，但是写脚本需要有一定的代码能力。等有空再写这种脚本，到时候写好了更新到博客中。
-
-ShareX的配置这个涉及到比较复杂的操作，需要**导入我给的那个[ShareX的配置](https://cs-cn.top/assets/doc/ShareX-13.5.0-backup.sxb)**，然后稍微按照
-[https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio) 这个文档安装完ffmpeg 这个插件，在ShareX安装目录创建Screenshots文件夹,就可以使用快捷键F2，和快捷键F3了。F2是截声音，F3是截图。
-
-ShareX官网：[https://getsharex.com/](https://getsharex.com/)
-
-
-
-<img src="https://cs-cn.top/images/posts/sharex_import_config214256.gif"/>
-
-如下图，我是把ShareX安装在D盘，D盘目录下面有个ShareX目录，在这个里面自己还创建了一个Screenshots文件夹用来保存截图。
-
-如果你是直接导入的我的配置文件，请也按照此路径安装，并且创建一个自定义文件夹Screenshots。
-
-<img src="https://cs-cn.top/images/posts/sharex12923.png"/>
-
-<img src="https://cs-cn.top/images/posts/path_212853.png"/>
-
-ShareX配置导入之后，还需要进行一些配置，如下：(鼠标右键，新标签页中打开此图片)
-
-<img src="https://cs-cn.top/images/posts/sharex_allconfig2326.png"/>
 
 
 
