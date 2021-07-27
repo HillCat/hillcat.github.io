@@ -37,6 +37,10 @@ Matt对于Anki的理解比较深刻，各种参数他都了如指掌，看完他
 
 <img src="https://cs-cn.top/images/posts/anki_settings_04557.png"/>
 
+如果你觉得一个单词太简单，不需要再复习了，那么直接suspend note按钮，挂起那个单词即可。甚至你可以给一个单子打上Flag 4(Blue)标签，那么这个单词会被标记为蓝色旗子记号。 旗子记号还有红色，橘色，绿色，紫色，宝石绿 ，7种颜色。而且被标记颜色的单词，是可以轻松通过过滤筛选出来的。
+
+<img src="https://cs-cn.top/images/posts/suspend_note048.png"/>
+
 
 
 
