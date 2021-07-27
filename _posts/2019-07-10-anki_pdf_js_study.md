@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anki制卡配套工具推荐
+title: 欧陆和ShareX配置
 categories: English
 description: 英文自学
 keywords: English
