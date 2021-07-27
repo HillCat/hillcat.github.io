@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 从有声书到美剧:突破常速英语
+title: 英文自学方法推荐
 categories: English
 description: 英文自学
 keywords: English
