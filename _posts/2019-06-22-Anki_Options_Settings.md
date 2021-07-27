@@ -11,7 +11,7 @@ Anki所有的参数详细教程，在Matt的视频中有详细的讲解，地址
 
 <img src="https://cs-cn.top/images/posts/anki_options0547.png"/>
 
-### Anki详细设置和参数的计算
+### Anki各种参数配置详解
 
 安装好插件之后，需要开启机器翻译的英文字幕，然后对language Learning with Youtube进行设置，具体如下：
 
