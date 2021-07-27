@@ -11,8 +11,6 @@ Anki所有的参数详细教程，在Matt的视频中有详细的讲解，地址
 
 <img src="https://cs-cn.top/images/posts/anki_options0547.png"/>
 
-### Anki背后的工作原理详解
-
 安装好插件之后，需要开启机器翻译的英文字幕，然后对language Learning with Youtube进行设置，具体如下：
 
 <img src="https://cs-cn.top/images/posts/learn_youtube_settings0952.gif"/>
@@ -23,11 +21,13 @@ Anki所有的参数详细教程，在Matt的视频中有详细的讲解，地址
 
 Matt对于Anki的理解比较深刻，各种参数他都了如指掌，看完他这个视频，相信你会对于那些参数熟练掌握。
 
-还有个视频教程也不错(人工英文字幕，不是机器翻译的)，他有PPT还列出来了详细的计算公式，视频地址：[https://youtu.be/uLfczzq9z_8](https://youtu.be/uLfczzq9z_8) 。Again，Hard，Good，Easy四个按钮。分别代表了不同的权重。权重值不同，对于一个单词的复习间隔**百分比加成**是不同的。越是不熟悉的单词，间隔周期越短，越熟悉的单词，间隔周期越长。一般个人建议，不要把间隔最大的周期超过半年，也就是说这些放入anki里面的单词，再怎么熟悉，间隔不要超过半年，半年之后仍然还是需要复习一下的。文末附上我的详细设置。
+还有个视频教程也不错(人工英文字幕，不是机器翻译的)，他有PPT还列出来了详细的计算公式，视频地址：[https://youtu.be/uLfczzq9z_8](https://youtu.be/uLfczzq9z_8) 。Again，Hard，Good，Easy四个按钮。分别代表了不同的权重。权重值不同，对于一个单词的复习间隔**百分比加成**是不同的。越是不熟悉的单词，间隔周期越短，越熟悉的单词，间隔周期越长。一般个人建议，不要把间隔最大的周期超过半年，也就是说这些放入anki里面的单词，再怎么熟悉，间隔不要超过半年，半年之后仍然还是需要复习一下的。
 
 <img src="https://cs-cn.top/images/posts/parameters_caculator4716.png"/>
 
+### 我的anki参数设置
 
+这些设置，仅供参考。只有理解了anki的工作原理，可以根据自己的情况去调整这些参数，看怎么用得顺手怎么来。
 
 <img src="https://cs-cn.top/images/posts/anki_settings_01_413.png"/>
 
