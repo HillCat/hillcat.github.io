@@ -21,6 +21,8 @@ Anki所有的参数表示的是什么意思，很少有人能够完全搞明白�
 
  **其次，设置插件**：打开一个油管视频，就可以看到视频上面有个On的按钮，打开插件进行配置
 
+<img src="https://cs-cn.top/images/posts/on_button28.png"/>
+
 <img src="https://cs-cn.top/images/posts/learn_youtube_settings0952.gif"/>
 
 <img src="https://cs-cn.top/images/posts/right_bar_settings609.png"/>
