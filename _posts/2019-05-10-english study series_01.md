@@ -42,7 +42,7 @@ Matt的视频囊括了他5年时间日语从入门到精通的所有经验，不
 
 克拉申博士的论文网站：[http://www.sdkrashen.com/](http://www.sdkrashen.com/)，如果英文好的，可以去研究下这方面他发表的论文，可能会在二语习得上面找到一些灵感。
 
-克拉申 出版过的书籍，关于阅读的：[https://1lib.us/g/Stephen%20Krashen](https://1lib.us/g/Stephen%20Krashen)，一本是《[阅读的力量](https://1lib.us/book/1183090/451dbf)》，一本是《[免费自愿阅读](https://1lib.us/book/1247215/04792d)》。感兴趣的可以下载下来研究一下，只不过是英文的。我相信这两本书影响了国内对于有声书阅读的理论研究。
+克拉申 出版过的书籍，关于阅读的：[https://1lib.us/g/Stephen%20Krashen](https://1lib.us/g/Stephen%20Krashen)，一本是《[阅读的力量](https://1lib.us/book/1183090/451dbf)》，一本是《[免费自愿阅读](https://1lib.us/book/1247215/04792d)》。感兴趣的可以下载下来研究一下，只不过是英文的。我相信这两本书对于理解有声书阅读有些帮助。
 
 <img src="https://cs-cn.top/images/posts/PowerOfReading_00952.png"/>
 
