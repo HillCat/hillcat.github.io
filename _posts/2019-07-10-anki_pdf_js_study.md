@@ -41,7 +41,7 @@ keywords: English
 
 
 
-第三步：进一步配置Sharex的Screen recorder。如果不明白，请按照 https://animecards.site/setupsharex/#hotkey-for-audio 这个文档安装完ffmpeg 这个插件。以下是配置顺序。基本都是点几下鼠标，直接下一步下一步。
+第三步：按照 [https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio ) 这个文档安装完ffmpeg 这个插件。以下是配置顺序。基本都是点几下鼠标，直接下一步下一步。配置完之后，F2快捷键  ，F3快捷键就可以使用了。一个是截音频，一个是截图。美剧里面截取声音片段就靠这个功能。
 
 <img src="https://cs-cn.top/images/posts/sharex_allconfig2326.png"/>
 
