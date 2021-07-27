@@ -25,15 +25,9 @@ keywords: English
 
 #### ShareX配置
 
-第一步：从官网下载ShareX，**导入[ShareX的配置](https://cs-cn.top/assets/doc/ShareX-13.5.0-backup.sxb)**，
+第一步：在D盘创建ShareX目录，再在这个目录新建文件夹Screenshots。
 
-ShareX官网：[https://getsharex.com/](https://getsharex.com/)
-
-
-
-<img src="https://cs-cn.top/images/posts/sharex_import_config214256.gif"/>
-
-第二步：把ShareX安装在D盘的ShareX目录，在这个目录再新建文件夹Screenshots。
+第二步：从[官网](https://getsharex.com/)下载ShareX，把ShareX安装到D盘的文件夹ShareX中，然后，**导入[ShareX的配置](https://cs-cn.top/assets/doc/ShareX-13.5.0-backup.sxb)**，如下图3.
 
 <img src="https://cs-cn.top/images/posts/sharex12923.png"/>
 
@@ -41,7 +35,15 @@ ShareX官网：[https://getsharex.com/](https://getsharex.com/)
 
 
 
-第三步：进一步配置Screen recorder。如果不明白，请按照 https://animecards.site/setupsharex/#hotkey-for-audio 这个文档安装完ffmpeg 这个插件。
+<img src="https://cs-cn.top/images/posts/sharex_import_config214256.gif"/>
+
+
+
+
+
+
+
+第三步：进一步配置Sharex的Screen recorder。如果不明白，请按照 https://animecards.site/setupsharex/#hotkey-for-audio 这个文档安装完ffmpeg 这个插件。以下是配置顺序。基本都是点几下鼠标，直接下一步下一步。
 
 <img src="https://cs-cn.top/images/posts/sharex_allconfig2326.png"/>
 
