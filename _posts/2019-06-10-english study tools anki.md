@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anki复习生词的技巧
+title: Anki降低复习压力/修缮单词卡内容/补充真人发音
 categories: English
 description: 英文自学
 keywords: 英文自学
