@@ -47,7 +47,7 @@ keywords: English
 
 #### 欧陆词典配置
 
-欧陆词典和ShareX配合使用如下：
+欧陆词典和ShareX配合使用如下：要做到这样，你的欧陆词典需要加载了牛津9，另外还得开启剪切板取词。下面第3幅图有具体的配置截图。
 
 <img src="https://cs-cn.top/images/posts/myanki115246.gif"/>
 
