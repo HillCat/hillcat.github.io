@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anki降低复习压力/修缮单词卡内容/补充真人发音
+title: Anki常见的坑/如何降低复习压力/改善理解记忆/补充真人发音
 categories: English
 description: 英文自学
 keywords: 英文自学
