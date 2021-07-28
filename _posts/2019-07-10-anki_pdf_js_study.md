@@ -96,7 +96,7 @@ anki要精简css内容，是因为anki为了节省服务器硬盘资源，毕竟
 
 关于Anki，下载地址是官网:[https://apps.ankiweb.net/](https://apps.ankiweb.net/)
 
-Anki插件市场首页：[https://ankiweb.net/shared/addons/](https://ankiweb.net/shared/addons/)，里面包含了所有anki常见的几百个插件：
+Anki插件市场首页：[https://ankiweb.net/shared/addons/](https://ankiweb.net/shared/addons/)，里面包含了所有anki常见的几百个插件：来至全世界各地。
 
 <img src="https://cs-cn.top/images/posts/chajian_market4034.png"/>
 
@@ -114,7 +114,7 @@ Anki插件市场首页：[https://ankiweb.net/shared/addons/](https://ankiweb.ne
 
 [Batch Editing](https://ankiweb.net/shared/info/291119185)。
 
-主要是以上6个插件。其他插件可以去到[Anki插件市场](https://ankiweb.net/shared/addons/)首页，谷歌浏览器使用Ctrl + F  (搜索对应插件名)，进入插件详情页，在详情页找到插件对应code安装到anki中即可。需要注意的是AwesomeTTS会有两个版本，我用的是非官方版本，如果要官方版本的，到这里下载：[https://ankiweb.net/shared/info/1436550454](https://ankiweb.net/shared/info/1436550454)。
+主要是以上6个插件。Anki插件一般的安装，都是去到[Add-ons for Anki](https://ankiweb.net/shared/addons/)首页，谷歌浏览器使用Ctrl + F  (搜索对应插件名)，进入插件详情页，在详情页找到插件对应code安装到anki中即可。需要注意的是AwesomeTTS会有两个版本，我用的是非官方版本，如果要官方版本的，到这里下载：[https://ankiweb.net/shared/info/1436550454](https://ankiweb.net/shared/info/1436550454)。
 
 anki插件的安装，是通过插件对应的安装code来安装的，示范如下：
 
