@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 英语方法论/二语习得资料分享/有声书单推荐
+title: 英语方法论/二语习得资料分享/有声书资源分享
 categories: English
 description: 英文自学
 keywords: English
