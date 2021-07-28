@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 常见美剧清单/每分钟生词密度/推荐剧
+title: 常见美剧清单/每分钟生词密度/低难度剧推荐
 categories: English
 description: 英文自学
 keywords: English
