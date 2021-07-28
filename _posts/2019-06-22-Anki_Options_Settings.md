@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anki参数设置和常用的功能
+title: Anki参数设置和常用功能
 categories: English
 description: 
 keywords: 记单词
