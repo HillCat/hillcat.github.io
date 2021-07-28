@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 欧陆辞典/Anki必装插件/ShareX配置
+title: 欧陆词典/Anki必装插件/ShareX配置
 categories: English
 description: 英文自学
 keywords: English
