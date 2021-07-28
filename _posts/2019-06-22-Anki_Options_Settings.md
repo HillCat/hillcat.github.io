@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anki参数设置和常用功能
+title: Anki算法原理/参数设置/常用菜单栏/冲突数据恢复
 categories: English
 description: 
 keywords: 记单词
