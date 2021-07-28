@@ -130,3 +130,4 @@ Matt的视频囊括了他5年时间日语从入门到精通的所有经验，不
 链接：[https://pan.baidu.com/s/1TUoDWvX_ZhrKCt0-xRPJMA](https://pan.baidu.com/s/1TUoDWvX_ZhrKCt0-xRPJMA ) 
 提取码：9ph2
 
+目前看到的这套书，质量非常高，很多现实生活中的口语场景和词汇。纸质书和电子版都有。小词活用，动词词组特别多。
