@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 英语方法论/二语习得起源/有声书资源分享
+title: 英语方法论书单/二语习得起源/有声书资源分享
 categories: English
 description: 英文自学
 keywords: English
