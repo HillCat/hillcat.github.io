@@ -102,19 +102,19 @@ Anki插件市场首页：[https://ankiweb.net/shared/addons/](https://ankiweb.ne
 
 推荐的Anki必备插件：
 
-Advanced Browser,
+[Advanced Browser](https://ankiweb.net/shared/info/874215009),
 
-AnkiConnect,
+[AnkiConnect](https://ankiweb.net/shared/info/2055492159),
 
-AwesomeTTS,
+[AwesomeTTS](https://ankiweb.net/shared/info/814349176),
 
-Fast Word Query,
+[Fast Word Query](https://ankiweb.net/shared/info/1807206748),
 
-Set Font Size,
+[Set Font Size](https://ankiweb.net/shared/info/651521808),
 
-Batch Editing。
+[Batch Editing](https://ankiweb.net/shared/info/291119185)。
 
-主要是以上6个插件。可以去到[Anki插件市场](https://ankiweb.net/shared/addons/)首页，谷歌浏览器使用Ctrl + F  (搜索对应插件名)，进入插件详情页，在详情页找到插件对应code安装到anki中即可。需要注意的是AwesomeTTS会有两个版本，建议选择官方版本：[https://ankiweb.net/shared/info/1436550454](https://ankiweb.net/shared/info/1436550454)。
+主要是以上6个插件。其他插件可以去到[Anki插件市场](https://ankiweb.net/shared/addons/)首页，谷歌浏览器使用Ctrl + F  (搜索对应插件名)，进入插件详情页，在详情页找到插件对应code安装到anki中即可。需要注意的是AwesomeTTS会有两个版本，我用的是非官方版本，如果要官方版本的，到这里下载：[https://ankiweb.net/shared/info/1436550454](https://ankiweb.net/shared/info/1436550454)。
 
 anki插件的安装，是通过插件对应的安装code来安装的，示范如下：
 
