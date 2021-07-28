@@ -1,6 +1,6 @@
 ---
 layout: post
-title: anki大数据的思索/最佳生词密度/雅思8.5案例的启发
+title: anki大数据的思考/最佳生词密度/雅思8.5案例的启发
 categories: English
 description: 
 keywords: 记单词
