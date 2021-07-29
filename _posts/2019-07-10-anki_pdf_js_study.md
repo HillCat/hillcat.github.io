@@ -90,6 +90,16 @@ anki要精简css内容，是因为anki为了节省服务器硬盘资源，毕竟
 百度网盘链接：[https://pan.baidu.com/s/1pzctTidgkqVa4pc6JCME0A](https://pan.baidu.com/s/1pzctTidgkqVa4pc6JCME0A ) 
 提取码：wki2
 
+类似的情况，牛津9搞不定的单词，还有这个：
+
+“Sure, that’ll be fine,” said Lucky. He pretended to **zip his lips** closed.
+
+这里的Zip有闭嘴的意思。一般常见的意思是“拉上拉链”。在牛津9这本词典里面，Zip这个词是查不到 “闭嘴”这层意思的。而在韦氏2019里面氏查到了“闭嘴”这个意思。不相信的，可以对照这两本词典试试。想象一下，这种看上去认识的词，并不一定就听得懂它的意思。一词多义的情况在有声书里面实在是太多，一本词典根本不够用。
+
+<img src="https://cs-cn.top/images/posts/dictionary_733.png"/>
+
+
+
 
 
 ### Anki必备插件
