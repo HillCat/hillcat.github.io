@@ -90,7 +90,7 @@ anki要精简css内容，是因为anki为了节省服务器硬盘资源，毕竟
 百度网盘链接：[https://pan.baidu.com/s/1pzctTidgkqVa4pc6JCME0A](https://pan.baidu.com/s/1pzctTidgkqVa4pc6JCME0A ) 
 提取码：wki2
 
-类似的情况，牛津9搞不定的单词，还有这个：
+类似的情况，牛津9搞不定的单词，韦氏可以搞定的还有：
 
 “Sure, that’ll be fine,” said Lucky. He pretended to **zip his lips** closed.
 
