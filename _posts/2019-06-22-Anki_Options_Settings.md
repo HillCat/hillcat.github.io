@@ -15,13 +15,15 @@ Anki所有的参数表示的是什么意思，很少有人能够完全搞明白�
 
  **其次，设置插件**：打开一个油管视频，就可以看到视频上面有个OFF的按钮，点击它打开为ON状态，然后进行配置
 
+<img src="https://cs-cn.top/images/posts/on_button28.png"/>
+
 <img src="https://cs-cn.top/images/posts/learn_youtube_settings0952.gif"/>
 
 
 
 Anki参数详细讲解的，第一个视频是Matt的视频，地址是：[https://youtu.be/lz60qTP2Gx0](https://youtu.be/lz60qTP2Gx0)。
 
-<img src="https://cs-cn.top/images/posts/on_button28.png"/>
+
 
 第二个讲解Anki参数的视频:[https://youtu.be/1XaJjbCSXT0](https://youtu.be/1XaJjbCSXT0)，这个可能讲解得更好。
 
