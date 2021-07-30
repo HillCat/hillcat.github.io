@@ -98,6 +98,14 @@ anki要精简css内容，是因为anki为了节省服务器硬盘资源，毕竟
 
 <img src="https://cs-cn.top/images/posts/dictionary_733.png"/>
 
+需要手上多准备几本好点的词典，还有一个情况，就是有些单词，在A词典中解释的意思可能太简略，不太精准，不能让你很好Get到英文原著里面作者所要表达的那个点。比如下面这个复合单词：
+
+<img src="https://cs-cn.top/images/posts/niujin9_608.png"/>
+
+<img src="https://cs-cn.top/images/posts/weishi_656.png"/>
+
+相比之下，韦氏词典的这个解释，更加符合原著上下文的意思。其实很多时候，不管是分析语法还是分析句子意思，有几本好点的词典是很重要的。
+
 
 
 
