@@ -100,11 +100,21 @@ anki要精简css内容，是因为anki为了节省服务器硬盘资源，毕竟
 
 需要手上多准备几本好点的词典，还有一个情况，就是有些单词，在A词典中解释的意思可能太简略，不太精准，不能让你很好Get到英文原著里面作者所要表达的那个点。比如下面这个复合单词：
 
+首先看下它的上下文场景：
+
+`“Could Archie have opened his cage door himself?" Josh asked.`
+
+`Mrs. Gwynn shook her head."We always keep a clothespin on his door to make sure he can't open it.`
+
+故事场景是这样子的：`Mrs. Gwynn`的金丝雀从笼子里面跑出去了，`Josh`这个小孩帮`Mrs. Gwynn`去寻找，他们分析金丝雀丢失的原因，`Josh`问`Mrs. Gwynn`，是不是金丝雀自己把鸟笼打开了，自己飞出去的。而`Mrs. Gwynn`回答`Josh`说"我们总是在他的门上放一个晒衣夹，以确保它打不开  "； 
+
+有这样子的一个场景上下文，这个晾衣夹就很好理解了。此原文出自：《A to Z Mysteries》系列26本种的第3本书，生活中的常用词是很多的。
+
 <img src="https://cs-cn.top/images/posts/niujin9_608.png"/>
 
 <img src="https://cs-cn.top/images/posts/weishi_656.png"/>
 
-相比之下，韦氏词典的这个解释，更加符合原著上下文的意思。其实很多时候，不管是分析语法还是分析句子意思，有几本好点的词典是很重要的。
+相比之下，韦氏词典的这个解释，更加符合原著上下文的意思。其实很多时候，不管是分析语法还是分析句子意思，查词典都是很重要的。
 
 
 
