@@ -38,13 +38,15 @@ Matt的视频囊括了他5年时间日语从入门到精通的所有经验，不
 
 #### 斯蒂芬.克拉申的二语习得理论
 
+可能你听说过“二语习得”，非常熟悉这个词，但是对于[斯蒂芬.克拉申](https://baike.baidu.com/item/%E5%85%8B%E6%8B%89%E7%94%B3/4935083?fr=aladdin)可能不太了解，以及他出版过哪些著作并不了解。
+
 二语习得的出处：[Stephen Krashen On Language Acquisition](https://youtu.be/NiTsduRreug)
 
 可理解性输入的出处：[Stephen Krashen Comprehensive input](https://youtu.be/Y4eExDFTSOI)
 
 克拉申博士的论文网站：[http://www.sdkrashen.com/](http://www.sdkrashen.com/)，如果英文好的，可以去研究下这方面他发表的论文，可能会在二语习得上面找到一些灵感。
 
-克拉申 出版过的书籍，关于阅读的：[https://1lib.us/g/Stephen%20Krashen](https://1lib.us/g/Stephen%20Krashen)，一本是《[阅读的力量](https://1lib.us/book/1183090/451dbf)》，一本是《[免费自愿阅读](https://1lib.us/book/1247215/04792d)》。感兴趣的可以下载下来研究一下，只不过是英文的。我相信这两本书对于理解有声书阅读有些帮助。
+克拉申 出版过的书籍，一本是《[阅读的力量](https://1lib.us/book/1183090/451dbf)》，一本是《[自愿阅读](https://1lib.us/book/1247215/04792d)》。感兴趣的可以下载下来研究一下，只不过是英文的。我相信这两本书对于理解有声书阅读有些帮助。
 
 <img src="https://cs-cn.top/images/posts/PowerOfReading_00952.png"/>
 
