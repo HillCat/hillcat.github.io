@@ -75,7 +75,7 @@ anki要精简css内容，是因为anki为了节省服务器硬盘资源，毕竟
 
 例如：Dink immediately recognized Wallis Wallace's signature, scrawled in big **loopy** letters.  loopy这个词。有道翻译出来的意思是“`丁克立刻认出了沃利斯·华莱士的签名，那是潦草的大字。` ”。scrawled 是马马虎虎，潦草地，作动词；big **loopy** letters 它翻译成了`大字`。loopy在这本牛津9查出来的意思只有2个：第1个意思是“失去理智的，疯狂的，奇怪的，怪异的”，第2个意思是“很生气，十分愤怒的”。在韦氏词典中查到的loopy的意思是：**表示带圆圈的字体**。其实这也体现了英式词典和美式词典的差距。而我们平时阅读的大部分材料其实都是美式的。但是由于市面上牛津这种英式词典资源，在国内被破解的资源比较多，大部分情况下都是用牛津。而韦氏词典这个词典，国内破解的资源比较少，编制的这种开源mdx词典数据收词量还是很有限。
 
-所以，手上要多备几本词典，而且要以中文辞典为主，具体原因跟[海明没有威](https://youtu.be/kl-i2to1zvw)说的一样，这里不赘述。
+词典资源还是要以中文词典为主，具体原因跟[海明没有威](https://youtu.be/kl-i2to1zvw)说的一样，这里不赘述。
 
 <img src="https://cs-cn.top/images/posts/sharex_edit6220015.gif"/>
 
@@ -85,7 +85,7 @@ anki要精简css内容，是因为anki为了节省服务器硬盘资源，毕竟
 
 
 
-这本韦氏2019下载地址：
+这本偏美式的词典，韦氏2019下载地址：
 
 百度网盘链接：[https://pan.baidu.com/s/1pzctTidgkqVa4pc6JCME0A](https://pan.baidu.com/s/1pzctTidgkqVa4pc6JCME0A ) 
 提取码：wki2
