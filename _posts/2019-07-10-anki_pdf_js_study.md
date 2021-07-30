@@ -106,15 +106,15 @@ anki要精简css内容，是因为anki为了节省服务器硬盘资源，毕竟
 
 `Mrs. Gwynn shook her head."We always keep a clothespin on his door to make sure he can't open it.`
 
-故事场景是这样子的：`Mrs. Gwynn`的金丝雀从笼子里面跑出去了，`Josh`这个小孩帮`Mrs. Gwynn`去寻找，他们分析金丝雀丢失的原因，`Josh`问`Mrs. Gwynn`，是不是金丝雀自己把鸟笼打开了，自己飞出去的。而`Mrs. Gwynn`回答`Josh`说"我们总是在他的门上放一个晒衣夹，以确保它打不开  "； 
+故事场景是这样子的：`Mrs. Gwynn`的金丝雀从笼子里面跑出去了，`Josh`帮`Mrs. Gwynn`去寻找，在分析金丝雀丢失的原因的时候，上面是两个人的谈话，`Josh`问`Mrs. Gwynn`，是不是金丝雀自己把鸟笼打开了，自己飞出去的？而`Mrs. Gwynn`回答`Josh`说"我们总是在他的门上放一个晒衣夹，以确保它打不开  "； 
 
-有这样子的一个场景上下文，这个晾衣夹就很好理解了。此原文出自：《A to Z Mysteries》系列26本种的第3本书，生活中的常用词是很多的。
+有这样子的一个场景上下文，这个`晾衣夹`就很好理解了。原文出自有声书：《A to Z Mysteries》系列26本种的第3本书，生活中的常用词是很多的。并且牛津9这本词典还不一定可以查到这个词，给出来的意思也不精准。
 
 <img src="https://cs-cn.top/images/posts/niujin9_608.png"/>
 
 <img src="https://cs-cn.top/images/posts/weishi_656.png"/>
 
-相比之下，韦氏词典的这个解释，更加符合原著上下文的意思。其实很多时候，不管是分析语法还是分析句子意思，查词典都是很重要的。
+相比之下，韦氏词典的这个解释，更匹配原著上下文的意思。读原著的时候，手里的词典有时候真的不够用。
 
 
 
