@@ -31,6 +31,8 @@ Anki参数详细讲解的，第一个视频是Matt的视频，地址是：[https
 
 <img src="https://cs-cn.top/images/posts/learning_Phase521.png"/>
 
+<img src="https://cs-cn.top/images/posts/spance_repetition_seystem08.png"/>
+
 简而言之，Anki在复习单词的时候，是以作答的形式选择“Again，Hard，Good，Easy”这四个按钮，来影响每个单词的复习间隔。4个按钮的权重是不一样的，当你点击不同的按钮的时候，对单词复习间隔的**百分比加成**是不同的。越是不熟悉的单词，间隔周期越短，越熟悉的单词，间隔周期越长。而且Anki设置中的有些参数还是互相制衡的，不是所有参数都可一直往上调的，达到临界值就调不动了。
 
 
