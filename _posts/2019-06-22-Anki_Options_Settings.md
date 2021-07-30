@@ -5,15 +5,9 @@ categories: English
 description: 
 keywords: 记单词
 ---
-Anki所有的参数表示的是什么意思，很少有人能够完全搞明白。
+Anki所有的参数表示的是什么意思，很少有人能够完全搞明白。这里推荐2个视频，可以让你理解那些参数的作用，看油管视频之前建议先配置下你的google浏览器：
 
-只要详细看看Matt的视频讲解就知道了，地址是：[https://youtu.be/lz60qTP2Gx0](https://youtu.be/lz60qTP2Gx0)。
-
-第二个讲解Anki参数的视频:[https://youtu.be/1XaJjbCSXT0](https://youtu.be/1XaJjbCSXT0)，这个还具体讲解了计算公式。
-
-简而言之，Anki在复习单词的时候，是以作答的形式选择“Again，Hard，Good，Easy”这四个按钮，来影响每个单词的复习间隔。4个按钮的权重是不一样的，当你点击不同的按钮的时候，对单词复习间隔的**百分比加成**是不同的。越是不熟悉的单词，间隔周期越短，越熟悉的单词，间隔周期越长。而且Anki设置中的有些参数还是互相制衡的，不是所有参数都可一直往上调的，达到临界值就调不动了。
-
-在油管看英文视频，建议开启 [Language Learning with Youtube](https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb)插件，并且把机翻打开，字幕调节到英文，具体设置如下：
+在油管看英文视频的时候建议开启 [Language Learning with Youtube](https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb)插件，并且把机翻打开，字幕调节到英文，具体设置如下：
 
  **首先，安装插件**： [Language Learning with Youtube](https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb)
 
@@ -21,15 +15,25 @@ Anki所有的参数表示的是什么意思，很少有人能够完全搞明白�
 
  **其次，设置插件**：打开一个油管视频，就可以看到视频上面有个OFF的按钮，点击它打开为ON状态，然后进行配置
 
+<img src="https://cs-cn.top/images/posts/learn_youtube_settings0952.gif"/>
+
+
+
+Anki参数详细讲解的，第一个视频是Matt的视频，地址是：[https://youtu.be/lz60qTP2Gx0](https://youtu.be/lz60qTP2Gx0)。
+
 <img src="https://cs-cn.top/images/posts/on_button28.png"/>
 
-<img src="https://cs-cn.top/images/posts/learn_youtube_settings0952.gif"/>
+第二个讲解Anki参数的视频:[https://youtu.be/1XaJjbCSXT0](https://youtu.be/1XaJjbCSXT0)，这个可能讲解得更好。
 
 <img src="https://cs-cn.top/images/posts/anki_parameter_means807.png"/>
 
 <img src="https://cs-cn.top/images/posts/learning_Phase521.png"/>
 
-如果你想对Anki的参数理解得更好，建议你看看上面推荐的第二个视频。特别是叫你怎么避免“Ease地狱”，就是说不要给自己放水放得太多了，明明一个单词没有记住，但是还是点击了Easy那个按钮，那么就会导致你正在学习中的单词，复习间隔被拉得很长很长，不利于你记忆。第二视频，我认为，是讲Anki参数讲得比较好的。
+简而言之，Anki在复习单词的时候，是以作答的形式选择“Again，Hard，Good，Easy”这四个按钮，来影响每个单词的复习间隔。4个按钮的权重是不一样的，当你点击不同的按钮的时候，对单词复习间隔的**百分比加成**是不同的。越是不熟悉的单词，间隔周期越短，越熟悉的单词，间隔周期越长。而且Anki设置中的有些参数还是互相制衡的，不是所有参数都可一直往上调的，达到临界值就调不动了。
+
+
+
+
 
 ### 我的anki参数设置
 
