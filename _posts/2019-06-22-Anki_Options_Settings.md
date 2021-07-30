@@ -27,9 +27,9 @@ Anki所有的参数表示的是什么意思，很少有人能够完全搞明白�
 
 <img src="https://cs-cn.top/images/posts/anki_parameter_means807.png"/>
 
+<img src="https://cs-cn.top/images/posts/ease_hell5110.png"/>
 
-
-
+这里，有个要注意的地方，就是不要掉进Ease地狱，就是说不要给自己放水放得太多了，要不然单词的复习周期会拉得很长，让你误以为你自己很努力记住了那个单词，其实你根本没有记住那个单词。就是说还是要给自己一定的压力的。不能放水放太多。
 
 ### 我的anki参数设置
 
