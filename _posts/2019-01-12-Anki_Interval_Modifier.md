@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anki最重要的参数Interval modifier
+title: Anki的Interval modifier和低间隔地狱的避免
 categories: English
 description: 英文自学
 keywords: English
@@ -29,7 +29,37 @@ keywords: English
 
 <img src="https://cs-cn.top/images/posts/liucunlv_544.png"/>
 
+### Anki的Ease Hell问题
 
 
 
+关于间隔地狱的问题，可以参考这篇文章：[Ease Hell](https://readbroca.com/anki/ease-hell/) 
+
+大概的意思就是说 每天复习的卡片的数量太多，你每天查看的卡片间隔时间太短，导致频繁复习卡片的频率太高。
+
+***Ease Factor***：**一张卡片的轻松系数代表了 Anki 认为这张卡片的难易程度。**
+
+如果一张卡片很容易，那么Anki就会很少去展示这张卡，如果它认为卡片很难——应该更频繁地展示它们（以便学习者记住它们）。
+
+每张卡片初始轻松系数为250% .如下所示：
+
+<img src="https://cs-cn.top/images/posts/easy_factor_950.png"/>
+
+如果Ease Factor这个数值越低，Anki会认为这个卡越难，如果你在回答卡片的时候一直回答Again，那么这个卡片的Ease Factor这个值就会降到最低值130%。
+
+<img src="https://cs-cn.top/images/posts/Easy_Factor435.png"/>
+
+拿我这里的单词举例，我这里有6800多张卡片，其中有1157张卡片的Ease Factor是130%，也就是说这些卡片会非常频繁地每天出现在复习名单中，导致我的复习压力非常非常大。而且这种Ease Factor降低到130%的卡片，一般会被Anki认为是很难的单词，会让我一直不停的复习不停的复习，陷入恶性循环。而一张卡片一单它的Ease Factor降低到130%之后，只要你回答单词卡的时候不点击Easy那个按钮，它的这个Ease Factor的值是很难涨上来的。
+
+<img src="https://cs-cn.top/images/posts/easy_factor023.png"/>
+
+为了避免出现“低间隔复习地狱“的发生。有两个办法：
+
+第一个就是科学合理的使用上面的Interval modifier那个参数，平衡好你的留存率。
+
+第二个就是修改那些130% Ease Factor的单词的简单系数为 250%.可以使用这个插件：[Reset Ease](https://ankiweb.net/shared/info/947935257)
+
+第三个就是修改 New interval这个值，把它改为20%。因为Ease Factor之所以会降低到130%是因为你太频繁的回答了Again这个按钮，很多时候，你复习单词的时候，实在是想不起来这个单词了，你就会直接回答Again，而回答Again的次数太多的话，很容易把一个单词卡片的Ease Factor降低到130%，我就是因为使用了太多次的Again按钮，所以导致我有1000多个单词都是130%，导致我感觉每天复习压力很大，陷入了 ”低复习间隔地狱“的坑。所以如果你很喜欢点Again，那么最好是把New interval这个值给个20%。比如一个单词，原本的复习间隔是30天，而刚好你点击了Again，那么这个单词瞬间会打回原型，变为隔天复习。加个20% 就是 20%*30 ，也就是6天后复习，就不会直接打回原形。而Anki这个值如果不给的话，默认是隔天复习的。会造成你的复习压力很大。
+
+<img src="https://cs-cn.top/images/posts/newinterval910.png"/>
 
