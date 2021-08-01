@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anki的Interval modifier和'低间隔地狱'的避免
+title: Anki降低复习压力/最重要的两个参数
 categories: English
 description: 英文自学
 keywords: English
