@@ -59,6 +59,10 @@ keywords: English
 
 <img src="https://cs-cn.top/images/posts/easy_factor023.png"/>
 
+下面这幅图是批量修改了Ease Factor之后，重新生成的柱状图：
+
+<img src="https://cs-cn.top/images/posts/easy_value13.png"/>
+
 为了避免出现“低间隔复习地狱“的发生。有三个办法：
 
 第一个就是科学合理的使用上面的Interval modifier那个参数，平衡好你的留存率。
