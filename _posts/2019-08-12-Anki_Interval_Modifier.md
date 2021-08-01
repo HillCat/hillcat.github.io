@@ -11,7 +11,7 @@ keywords: English
 
 首先我们需要知道现有单词库真实的留存率。
 
-先安装这个插件[True Retention](https://ankiweb.net/shared/info/613684242) ，然后我们进入到一个单词本里面去，点击Stats的同时按住Shift键，否则你进入的是默认的统计页面，要进入下面这种统计页面，需要鼠标点击的时候同时键盘按住Shift。
+先安装这个插件[True Retention](https://ankiweb.net/shared/info/613684242) ，然后我们进入到一个单词本里面去，点击Stats的同时按住Shift键，否则你进入的是默认的统计页面，要进入下面这个统计页面，需要鼠标点击的时候同时键盘按住Shift。
 
 <img src="https://cs-cn.top/images/posts/engliword_remain104.png"/>
 
