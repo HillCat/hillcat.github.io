@@ -11,6 +11,8 @@ keywords: English
 
 先安装这个插件[True Retention](https://ankiweb.net/shared/info/613684242) ，然后我们进入到一个单词本里面去，点击Statics的同时按住Shift键，
 
+<img src="https://cs-cn.top/images/posts/engliword_remain104.png"/>
+
 <img src="https://cs-cn.top/images/posts/retention_914.png"/>
 
 我这个单词本AudioBook里面存储的主要是平时看有声书的生词，查看到最近一个月，我这批单词的留存率如上。90.3%，还算正常。其实Anki官方给出来的数字是建议留存率维持在90%。也有人建议维持到85%就可以了。还有调查的人认为维持到80%~90%都是可以的。
