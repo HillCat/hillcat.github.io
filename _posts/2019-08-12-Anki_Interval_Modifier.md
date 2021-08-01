@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anki的Interval modifier和低间隔地狱的避免
+title: Anki的Interval modifier和'低间隔地狱'的避免
 categories: English
 description: 英文自学
 keywords: English
