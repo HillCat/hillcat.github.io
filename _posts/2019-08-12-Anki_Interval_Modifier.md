@@ -33,7 +33,7 @@ keywords: English
 
 
 
-
+谈及到降低Anki复习压力，另外[一篇文章](https://cs-cn.top/2019/06/10/english-study-tools-anki/#%E4%BD%BF%E7%94%A8anki%E8%BF%87%E6%BB%A4%E5%99%A8%E5%87%8F%E8%BD%BB%E5%A4%8D%E4%B9%A0%E5%8E%8B%E5%8A%9B)也提到另外一个方法，就是使用Anki的过滤器，把优先级最高的单词优先复习了，而不太紧急的单词顺延到后面复习。这个策略也是经常使用的，特别是你的词汇积累量起来之后，会有大量的单词需要复习。
 
 ### Anki的Ease Hell问题
 
