@@ -59,9 +59,7 @@ keywords: English
 
 <img src="https://cs-cn.top/images/posts/easy_factor023.png"/>
 
-下面这幅图是批量修改了Ease Factor之后，重新生成的柱状图：
 
-<img src="https://cs-cn.top/images/posts/easy_value13.png"/>
 
 为了避免出现“低间隔复习地狱“的发生。有三个办法：
 
@@ -72,6 +70,10 @@ keywords: English
 <img src="https://cs-cn.top/images/posts/change_ease_factor3508.png"/>
 
 安装好这个插件之后，到adds-on配置里面，查看这个插件的配置参数，默认情况下，这个插件会检测出你所有的单词卡片中Ease Factor的数值已经是130%的这批卡片，直接把他们的轻松系数提升到250%。这个就可以在很大程度上避免你陷入“低间隔重复”地狱，导致每天被复习压力压得喘不过气来。
+
+下面这幅图是批量修改了Ease Factor之后，重新生成的柱状图：
+
+<img src="https://cs-cn.top/images/posts/easy_value13.png"/>
 
 第三个就是修改 New interval这个值，把它改为20%。因为Ease Factor之所以会降低到130%是因为你太频繁的回答了Again这个按钮，很多时候，你复习单词的时候，实在是想不起来这个单词了，你就会直接回答Again，而回答Again的次数太多的话，很容易把一个单词卡片的Ease Factor降低到130%，我就是因为使用了太多次的Again按钮，所以导致我有1000多个单词都是130%，导致我感觉每天复习压力很大，陷入了 ”低复习间隔地狱“的坑。所以如果你很喜欢点Again，那么最好是把New interval这个值给个20%。比如一个单词，原本的复习间隔是30天，而刚好你点击了Again，那么这个单词瞬间会打回原型，变为隔天复习。加个20% 就是 20%*30 ，也就是6天后复习，就不会直接打回原形。而Anki这个值如果不给的话，默认是隔天复习的。会造成你的复习压力很大。
 
