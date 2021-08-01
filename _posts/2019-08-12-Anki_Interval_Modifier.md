@@ -71,7 +71,7 @@ keywords: English
 
 安装好这个插件之后，到adds-on配置里面，查看这个插件的配置参数，默认情况下，这个插件会检测出你所有的单词卡片中Ease Factor的数值已经是130%的这批卡片，直接把他们的轻松系数提升到250%。这个就可以在很大程度上避免你陷入“低间隔重复”地狱，导致每天被复习压力压得喘不过气来。
 
-下面这幅图是批量修改了Ease Factor之后，重新生成的柱状图：
+下面这幅图是批量修改了Ease Factor之后，重新生成的柱状图：Ease Factor百分比整体提升了19%
 
 <img src="https://cs-cn.top/images/posts/easy_value13.png"/>
 
