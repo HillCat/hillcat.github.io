@@ -10,7 +10,7 @@ keywords: English
 
 <img src="https://cs-cn.top/images/posts/English_Shadowing74430.jpg"/>
 
-这两套设备搞下来接近2500RMB.不过我是把自己闲置的mac air 2017当作二手卖掉之后换了2900才买的这两个设备。整体感觉闲置的mac air 2017还不如用来搞硬件做英语口语训练。
+这两套设备搞下来接近2500RMB.不过我是把自己闲置的mac air 2017当作二手卖掉之后换了2900才买的这两个设备。整体感觉闲置的mac air 2017还不如用来搞硬件做英语口语训练。日常我主要使用台式机windows比较多。
 
 第一个设备是Bose QC35 二代 蓝牙降噪耳机；
 第二个设备是Blue Yeti麦克风 ，带监听功能；
