@@ -45,3 +45,17 @@ Netflix在这块我找到的比较好的体验就是使用chrome插件[Learning 
 
 
 总之，对于”处女剧“的选择，我的感觉是一定得挑剔，并且是要”班尼路，不走寻常路“的那种，要找到适合你自己口味的。
+
+<img src="https://cs-cn.top/images/posts/mr_king119.png"/>
+
+
+
+<img src="https://cs-cn.top/images/posts/king_siki1322.png"/>
+
+
+
+<img src="https://cs-cn.top/images/posts/trash_track1448.png"/>
+
+
+
+美剧，其实只要是表达真善美的那种都可以。哪怕是小孩子看的这种剧，其实也能接触到很多生活用词。
