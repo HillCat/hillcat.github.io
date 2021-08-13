@@ -14,7 +14,7 @@ keywords: English
 
 如果是要拿上面的剧进行学习，我觉得应该最好是寻找那种**正版来源**的字幕比较好。我私人使用的是Netflix。前期看了20多集《摩登家庭》，最后实在是对这个剧提不起精神，还有《绝望主妇》之前也试过。在寻找美剧这块感觉跟相亲很类似，需要找到十分对眼的那种才行。主要是看”颜值“，”体验“，非常非常重要。
 
-Netflix在这块我找到的比较好的体验就是使用chrome插件[Learning English with Netflix](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)。最近找到几个剧，是美区netflix的。至于是什么名字的剧，我不太在乎。只是随机的瞎看，看上眼了，就觉得合适就会精听精看：
+Netflix在这块我找到的比较好的体验就是使用chrome插件[Learning English with Netflix](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)，这个是可以一句一句倒带的，方便跟读，而且剧都是netflix里面的原创，正版的字幕双语人工翻译，错误率相比百度网盘那些野生字幕组的要好很多，而且奈飞的剧，可以在手机，PC，笔记本，ipad上面保存进度，可以缓存到手机离线播放。最近找到几个剧，是美区netflix的。至于是什么名字的剧，我不太在乎。只是随机的逛逛，看上眼了，就觉得合适就会精听精看：
 
 比如下面这些：
 
