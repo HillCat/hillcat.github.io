@@ -19,7 +19,7 @@ keywords: English
 
 [Matt vs Japan's Ideal Shadowing Setup - How to Shadow](https://youtu.be/8qx_hnAGc-k)
 
-BOSE QC 35的降噪的效果还是有点超出我的意外。戴上之后一切静悄悄，有一种半夜凌晨2~3点的感觉，世界都安静了，感觉不到是白天，特别是室内光线很暗淡的时候，开着灯，你要是不看时间，还真的以为是半夜凌晨。
+BOSE QC 35的降噪的效果还是有点超出我的意外。戴上之后一切静悄悄，有一种半夜凌晨2~3点的感觉，世界都安静了，在电脑面前专注撸码，会让人忘记了时间，真的非常安静，敲击键盘的声音几乎听不到。
 
 录音软件使用[Audacity](https://www.fosshub.com/Audacity-old.html)。
 
@@ -27,9 +27,9 @@ BOSE QC 35的降噪的效果还是有点超出我的意外。戴上之后一切�
 
 ### Blue Yeti的使用感受
 
-Blue Yeti应该是训练口语输出比较理想的设备。
+Blue Yeti应该是训练口语输出比较理想的设备。在英语口语训练使用体验上我给它打90分。
 
-很多人不会开口主动练习发音和影子跟读。有了这个装备，可以大大减少环境对你的制约，具体的使用体验，我录制了一个视频：
+具体使用起来是个什么感受呢，我用这个麦克风录制了一段17分钟的使用感受视频，你们可以听下这个麦的音质如何：
 
 链接：[https://pan.baidu.com/s/1OVJ11ZYp8GxkVMmEashQjg](https://pan.baidu.com/s/1OVJ11ZYp8GxkVMmEashQjg ) 
 提取码：668c
