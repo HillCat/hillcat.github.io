@@ -36,7 +36,7 @@ Netflix在这块我找到的比较好的体验就是使用chrome插件[Learning 
 
 
 
-目前我尝试了不下于10部剧，感觉可以入手的是下面这个：
+目前我尝试了不下于10部剧，感觉可以入手的是下面这个(准备精读，模仿口语输出)：
 
 <img src="https://cs-cn.top/images/posts/kitty555.png"/>
 
@@ -59,3 +59,13 @@ Netflix在这块我找到的比较好的体验就是使用chrome插件[Learning 
 
 
 美剧，其实只要是表达真善美的那种都可以。哪怕是小孩子看的这种剧，其实也能接触到很多生活用词。
+
+
+
+<img src="https://cs-cn.top/images/posts/netflix_soap457.png"/>
+
+
+
+<img src="https://cs-cn.top/images/posts/GreenHouse_Academy12731.png"/>
+
+其实NetFlix上面是有推荐算法的，只要Myself List中有了几部生活相关的那种TV Series，那么NetFlix 的推荐算法，会给你推荐很多生活相关的剧，这些剧里面一定有适合你口味和难度的剧的。所以在挑选美剧上面，我觉得不必要纠结于那些什么《老友记》《摩登家庭》《生活大爆炸》之类的，有科学上网，有奈飞，完全足以，你只需要租用一个月费用15RMB共享号即可。Chrome的那个插件会带你飞。
