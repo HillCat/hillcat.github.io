@@ -104,14 +104,7 @@ GeeksforGeeks
 
 
 
-### Out和Ref的区别
 
-| ref keyword                                                  | out keyword                                                  |
-| :----------------------------------------------------------- | :----------------------------------------------------------- |
-| It is necessary the parameters should initialize before it pass to ref. | It is not necessary to initialize parameters before it pass to out. |
-| It is not necessary to initialize the value of a parameter before returning to the calling method. | It is necessary to initialize the value of a parameter before returning to the calling method. |
-| The passing of value through ref parameter is useful when the called method also need to change the value of passed parameter. | The declaring of parameter through out parameter is useful when a method return multiple values. |
-| When ref keyword is used the data may pass in bi-directional. | When out keyword is used the data only passed in unidirectional. |
 
 
 
