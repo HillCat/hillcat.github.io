@@ -104,9 +104,14 @@ GeeksforGeeks
 
 
 
+### Out和Ref的区别
 
-
-
+| Ref                                                          | Out                                               |
+| :----------------------------------------------------------- | :------------------------------------------------ |
+| 参数在传递给 ref 之前应该初始化。                            | 没有必要在参数传递到 out 之前对其进行初始化。     |
+| 在返回调用方法之前不需要初始化参数的值。                     | 有必要在返回调用方法之前初始化参数的值。          |
+| 当被调用的方法还需要更改传递参数的值时，通过 ref 参数传递值非常有用。 | 当方法返回多个值时，通过 out 参数声明参数很有用。 |
+| 当使用 ref 关键字时，数据可以双向传递。                      | 当使用 out 关键字时，数据仅以单向方式传递。       |
 
 参考资料：[https://www.geeksforgeeks.org/difference-between-ref-and-out-keywords-in-c-sharp/?ref=leftbar-rightbar](https://www.geeksforgeeks.org/difference-between-ref-and-out-keywords-in-c-sharp/?ref=leftbar-rightbar)
 
