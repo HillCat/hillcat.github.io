@@ -5,7 +5,7 @@ categories: .net
 description: .net技术储备
 keywords: English
 ---
-多线程MutipleThreading 和并发Parallel编程在某些特定场景被经常使用到。
+多线程MutipleThreading 和并发Parallel编程在某些特定场景被经常使用到。此文对于常用的范式做个总结。
 
 ### 创建线程和结束线程
 
