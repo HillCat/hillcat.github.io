@@ -25,7 +25,7 @@ keywords: English
 
 3. 判断线程内部的while,for循环是否需要break。(**结束循环**)
 
-#### 1.Token.IsCancellationRequested
+#### 1.Token.IsCancellationRequested(结束循环)
 
 线程初始化启动的时候，可以指定一个 `CancellationToken`，通过`token.IsCancellationRequested`传递布尔值给到线程内部，让线程内部来做出相应的处理，这个只是传递一个布尔信号给到线程内，并不会真的kill线程，线程内部会根据这个布尔值去做相应的动作,线程会继续执行完后续代码才会退出。
 
@@ -64,7 +64,7 @@ public  static void Main()
 
 
 
-#### 2.CreateLinkedTokenSource
+#### 2.CreateLinkedTokenSource(结束线程)
 
 CreateLinkedTokenSource可以把不同的token对象链接起来，当其中的某个线程出现问题的时候，可以一次性取消多个线程。线程内部收到一个canceled state =true的信号之后，提前埋伏在线程内的代码`paranoid.Token.ThrowIfCancellationRequested();`，会被执行并抛出异常，这种方式会直接终止线程内部后续代码的执行。而线程内部没有收到canceled state =true的时候默认是false,埋伏在线程内的`paranoid.Token.ThrowIfCancellationRequested();`不会抛出异常，也就是说通过信号量来控制是否抛异常，从而达到kill杀死掉线程的目的。
 
@@ -104,7 +104,7 @@ private static void CompositeCancelationToken()
 
 
 
-#### 3.Token.WaitHandle.WaitOne
+#### 3.Token.WaitHandle.WaitOne(结束等待)
 
 这种控制CancellationTokenSource状态的方式，也是发送一个canceled state =true的信号给到线程内部，线程内的Task 处于Sleeping的状态会被立即终止，并立即开始执行下一行代码。也就是说Task的Sleeping状态可以被打断。
 
