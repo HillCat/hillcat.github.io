@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 并发和多线程
+title: 并发和多线程/如何结束Task/线程等待
 categories: .net
-description: .net技术储备
+description: .net技术笔记
 keywords: English
 ---
 多线程MutipleThreading 和并发Parallel在提升代码性能某些特殊场景方面使用比较多，是属于.net的重点内容。
@@ -134,4 +134,6 @@ private static void WaitingForTimeToPass()
 ```
 
 **应用场景思考**：在多线程执行的时候，线程之间并发，由A线程的Task任务修改CancellationTokenSource对象的状态给到B线程，B线程的Sleeping延时状态被立即打断，B线程会立即开始执行下一行代码。减少不必要的Sleeping时间，提升代码速度。如果在Sleeping过程中没有收到canceled state =true的信号，那么B线程还是会照常执行代码。
+
+### 线程等待
 
