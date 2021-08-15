@@ -13,7 +13,7 @@ keywords: English
 
 #### 1.Token.IsCancellationRequested
 
-线程初始化启动的时候，可以指定一个 `CancellationToken`让线程停止。通过`token.IsCancellationRequested`传递布尔值给到线程内部，让线程内部来做出相应的处理，比如下面是通过break直接结束while循环，达到结束线程的目的。
+线程初始化启动的时候，可以指定一个 `CancellationToken`，通过`token.IsCancellationRequested`传递布尔值给到线程内部，让线程内部来做出相应的处理，这个只是传递一个布尔信号给到线程内，并不会真的kill线程，线程内部会根据这个布尔值去做相应的动作,线程会继续执行完后续代码才会退出。
 
 ```c#
 using System.Threading;
@@ -52,9 +52,7 @@ public  static void Main()
 
 #### 2.CreateLinkedTokenSource
 
-CreateLinkedTokenSource可以把不同的token对象链接起来，当其中的某个线程出现问题的时候，可以一次性取消多个线程。
-
-本质上，是通过`paranoid.Token.ThrowIfCancellationRequested();`抛出异常的方式来结束线程。
+CreateLinkedTokenSource可以把不同的token对象链接起来，当其中的某个线程出现问题的时候，可以一次性取消多个线程。线程内部收到一个canceled state =true的信号之后，提前埋伏在线程内的代码`paranoid.Token.ThrowIfCancellationRequested();`，会被执行并抛出异常，这种方式会直接终止线程内部后续代码的执行。而线程内部没有收到canceled state =true的时候默认是false,埋伏在线程内的`paranoid.Token.ThrowIfCancellationRequested();`不会抛出异常终止线程。
 
 `CreateLinkedTokenSource`这个方法里面传递一个不定长的数组，可以是很多个CancellationTokenSource对象，这个等于是把很多个CancellationTokenSource对象链接了起来，只要任意一个CancellationTokenSource对象处于Canceled State=true的状态，那么线程就会终止，这里是以抛出异常的方式终止。
 
@@ -94,7 +92,7 @@ private static void CompositeCancelationToken()
 
 #### 3.Token.WaitHandle.WaitOne
 
-这种结束Task的方法，是在Task 处于Sleeping等待过程中提前结束等待，如果在Sleeping过程中，突然canceled state = true，那么就会立即结束Sleeping，并且会立即开始执行下一行代码。
+这种控制CancellationTokenSource状态的方式，也是发送一个canceled state =true的信号给到线程内部，线程内的Task 处于Sleeping的状态会被立即终止，并立即开始执行下一行代码。也就是说Task的Sleeping状态可以被打断。
 
 ```c#
 private static void WaitingForTimeToPass()
@@ -121,5 +119,5 @@ private static void WaitingForTimeToPass()
         }
 ```
 
-**思考**：上面第1种方法结合此方法，如果是在多线程执行的时候，线程之间并发，由A线程的Task任务修改CancellationTokenSource对象的状态，给到B线程，可以立即结束B线程的Sleeping延时，B线程会立即开始执行下一行代码。
+**应用场景思考**：在多线程执行的时候，线程之间并发，由A线程的Task任务修改CancellationTokenSource对象的状态给到B线程，B线程的Sleeping延时状态被立即打断，B线程会立即开始执行下一行代码。减少不必要的Sleeping时间，提升代码速度。
 
