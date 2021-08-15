@@ -92,7 +92,7 @@ private static void CompositeCancelationToken()
 
 #### 3.CancellationTokenSource.Token.WaitHandle.WaitOne
 
-这种结束Task的方法，是在延时的过程中结束线程，如果在规定的延时毫秒数之内，触发了canceled state = true，那么就会立即结束等待。
+这种结束Task的方法，是在Task 处于Sleeping等待过程中提前结束等待，如果在Sleeping过程中，突然canceled state = true，那么就会立即结束Sleeping，并且会立即开始执行下一行代码。
 
 ```c#
 private static void WaitingForTimeToPass()
@@ -119,5 +119,5 @@ private static void WaitingForTimeToPass()
         }
 ```
 
-思考：上面第1种方法中实例化了多个CancellationTokenSource对象，如果是在多线程执行的时候，线程之间并发，通讯是否可以使用这个对方，并且结合此方法中的`bool canceled = token.WaitHandle.WaitOne(5000);`当并发执行多个Task的时候，由另外一个Task任务修改CancellationTokenSource对象的状态，给到另外一个线程，而另外一个线程在等待的过程中收到信号之后立即结束等待。
+**思考**：上面第1种方法结合此方法，如果是在多线程执行的时候，线程之间并发，由A线程的Task任务修改CancellationTokenSource对象的状态，给到B线程，可以立即结束B线程的Sleeping延时，B线程会立即开始执行下一行代码。
 
