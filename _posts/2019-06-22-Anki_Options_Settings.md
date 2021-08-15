@@ -51,6 +51,8 @@ Anki参数详细讲解的，第一个视频是Matt的视频，地址是：[https
 
 <img src="https://cs-cn.top/images/posts/anki_settings_04557.png"/>
 
+**注意**：上面的设置还是存在不少问题的，会导致Ease Hell，以及留存率问题，具体的解决办法参考这边：[Anki降低复习压力/最重要的两个参数](https://cs-cn.top/2019/08/12/Anki_Interval_Modifier/)，这篇文章和本篇文章结合到一起，基本上，你的anki参数设置就会少走很多弯路！
+
 如果你觉得一个单词太简单，不需要再复习了，那么直接suspend note按钮，挂起那个单词即可，如下图那样(安卓端也是有这个功能，PC端也有)。比如，你可以给一个单词打上Flag 4(Blue)标签。 旗子记号还有红色，橘色，绿色，紫色，宝石绿 ，7种颜色。而且被标记颜色的单词，是可以轻松筛选出来的。
 
 <img src="https://cs-cn.top/images/posts/suspend_note048.png"/>
