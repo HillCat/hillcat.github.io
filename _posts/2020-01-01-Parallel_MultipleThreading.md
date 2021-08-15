@@ -52,7 +52,7 @@ public  static void Main()
 
 #### 2.CreateLinkedTokenSource
 
-CreateLinkedTokenSource可以把不同的token对象链接起来，当其中的某个线程出现问题的时候，可以一次性取消多个线程。线程内部收到一个canceled state =true的信号之后，提前埋伏在线程内的代码`paranoid.Token.ThrowIfCancellationRequested();`，会被执行并抛出异常，这种方式会直接终止线程内部后续代码的执行。而线程内部没有收到canceled state =true的时候默认是false,埋伏在线程内的`paranoid.Token.ThrowIfCancellationRequested();`不会抛出异常终止线程。
+CreateLinkedTokenSource可以把不同的token对象链接起来，当其中的某个线程出现问题的时候，可以一次性取消多个线程。线程内部收到一个canceled state =true的信号之后，提前埋伏在线程内的代码`paranoid.Token.ThrowIfCancellationRequested();`，会被执行并抛出异常，这种方式会直接终止线程内部后续代码的执行。而线程内部没有收到canceled state =true的时候默认是false,埋伏在线程内的`paranoid.Token.ThrowIfCancellationRequested();`不会抛出异常，也就是说通过信号量来控制是否抛异常，从而达到kill杀死掉线程的目的。
 
 `CreateLinkedTokenSource`这个方法里面传递一个不定长的数组，可以是很多个CancellationTokenSource对象，这个等于是把很多个CancellationTokenSource对象链接了起来，只要任意一个CancellationTokenSource对象处于Canceled State=true的状态，那么线程就会终止，这里是以抛出异常的方式终止。
 
