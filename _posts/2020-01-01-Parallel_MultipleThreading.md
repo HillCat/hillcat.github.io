@@ -19,11 +19,11 @@ keywords: English
 
 我这里对它的理解就是：CancellationTokenSource是一个发送信号的信号源，通过Token这个信号标志，把布尔状态告知Task内部线程。Task内部通过判断信号标志是Ture还是False，来触发以下3个场景：
 
-1. 用来决定线程内部是否要抛异常，以杀掉当前线程；
+1. 用来决定线程内部是否要抛异常，以杀掉当前线程；(**结束线程**)
 
-2. 用来判断线程内部是否需要继续Sleeping(WaitHandle是否继续WaitOne)；
+2. 用来判断线程内部是否需要继续Sleeping(WaitHandle是否继续WaitOne)；(**结束等待**)
 
-3. 判断线程内部的while,for循环是否需要break。
+3. 判断线程内部的while,for循环是否需要break。(**结束循环**)
 
 #### 1.Token.IsCancellationRequested
 
