@@ -7,9 +7,9 @@ keywords: English
 ---
 多线程MutipleThreading 和并发Parallel在提升代码性能某些特殊场景方面使用比较多，是属于.net的重点内容。
 
-### 如何结束Task
+### CancellationTokenSource结束Task
 
-#### 1.CancellationTokenSource.Token.IsCancellationRequested
+#### 1.Token.IsCancellationRequested
 
 线程初始化启动的时候，可以指定一个 `CancellationToken`让线程停止。通过`token.IsCancellationRequested`传递布尔值给到线程内部，让线程内部来做出相应的处理，比如下面是通过break直接结束while循环，达到结束线程的目的。
 
@@ -48,7 +48,7 @@ public  static void Main()
 
 
 
-#### 2.CancellationTokenSource.CreateLinkedTokenSource
+#### 2.CreateLinkedTokenSource
 
 CreateLinkedTokenSource可以把不同的token对象链接起来，当其中的某个线程出现问题的时候，可以一次性取消多个线程。
 
@@ -90,7 +90,7 @@ private static void CompositeCancelationToken()
 
 
 
-#### 3.CancellationTokenSource.Token.WaitHandle.WaitOne
+#### 3.Token.WaitHandle.WaitOne
 
 这种结束Task的方法，是在Task 处于Sleeping等待过程中提前结束等待，如果在Sleeping过程中，突然canceled state = true，那么就会立即结束Sleeping，并且会立即开始执行下一行代码。
 
