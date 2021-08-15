@@ -7,7 +7,9 @@ keywords: English
 ---
 多线程MutipleThreading 和并发Parallel在提升代码性能某些特殊场景方面使用比较多，是属于.net的重点内容。
 
-### CancellationTokenSource结束Task
+### 如何结束Task
+
+结束Task，一般是使用**CancellationTokenSource**对象的Token属性。命名空间属于：System.Threading.Tasks。
 
 #### 1.Token.IsCancellationRequested
 
