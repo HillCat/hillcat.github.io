@@ -9,7 +9,15 @@ keywords: English
 
 ### 如何结束Task
 
-结束Task，一般是使用**CancellationTokenSource**对象的Token属性。命名空间属于：System.Threading.Tasks。
+结束Task，这里主要是使用Cancel Token; 一般是使用**CancellationTokenSource**对象的Token属性。命名空间属于：System.Threading.Tasks。
+
+为了更好理解这里的CancelToken下面给出Token的英文释义：
+
+<img src="https://cs-cn.top/images/posts/cancel_token053.png"/>
+
+<img src="https://cs-cn.top/images/posts/token_931.png"/>
+
+
 
 #### 1.Token.IsCancellationRequested
 
