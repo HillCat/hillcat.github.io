@@ -54,7 +54,7 @@ CreateLinkedTokenSource可以把不同的token对象链接起来，当其中的�
 
 本质上，是通过`paranoid.Token.ThrowIfCancellationRequested();`抛出异常的方式来结束线程。
 
-`CreateLinkedTokenSource`这个方法里面传递一个不定长的数组，可以是很多个CancellationTokenSource对象，这个等于是把很多个CancellationTokenSource对象链接了起来，只要任意一个CancellationTokenSource对象处于Canceled State状态，那么线程就会终止，这里是以抛出异常的方式终止。
+`CreateLinkedTokenSource`这个方法里面传递一个不定长的数组，可以是很多个CancellationTokenSource对象，这个等于是把很多个CancellationTokenSource对象链接了起来，只要任意一个CancellationTokenSource对象处于Canceled State=true的状态，那么线程就会终止，这里是以抛出异常的方式终止。
 
 ```c#
 private static void CompositeCancelationToken()
