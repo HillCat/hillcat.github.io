@@ -119,3 +119,5 @@ private static void WaitingForTimeToPass()
         }
 ```
 
+思考：上面第1种方法中实例化了多个CancellationTokenSource对象，如果是在多线程执行的时候，线程之间并发，通讯是否可以使用这个对方，并且结合此方法中的`bool canceled = token.WaitHandle.WaitOne(5000);`当并发执行多个Task的时候，由另外一个Task任务修改CancellationTokenSource对象的状态，给到另外一个线程，而另外一个线程在等待的过程中收到信号之后立即结束等待。
+
