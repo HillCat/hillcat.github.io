@@ -137,3 +137,55 @@ private static void WaitingForTimeToPass()
 
 ### 线程等待
 
+#### Task.WaitAll
+
+当Task.WaitAll在等待多个线程执行完毕的时候，如果A线程的执行耗时是5秒钟，而B线程耗时是3秒钟，而Task.WaitAll等待4秒钟，那么当等待结束的那一刻，A线程的状态其实是“正在执行”，当等待的时间不够的时候，Task.WaitAll并不会强制结束掉某个线程。
+
+```c#
+class WaitingForTasks
+    {
+        static void Main(string[] args)
+        {
+            var cts = new CancellationTokenSource();
+            cts.CancelAfter(TimeSpan.FromSeconds(3));
+            var token = cts.Token;
+
+            var t = new Task(() =>
+            {
+                Console.WriteLine("I take 5 seconds");
+                //Thread.Sleep(5000);
+
+                for (int i = 0; i < 5; ++i)
+                {
+                    token.ThrowIfCancellationRequested();
+                    Thread.Sleep(1000);
+                }
+
+                Console.WriteLine("I'm done.");
+            });
+            t.Start();
+
+            var t2 = Task.Factory.StartNew(() => Thread.Sleep(3000), token);
+
+            
+
+            // start w/o token
+            try
+            {
+                // throws on a canceled token
+                Task.WaitAll(new[] { t, t2 }, 4000, token);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception: " + e);
+            }
+
+            Console.WriteLine($"Task t  status is {t.Status}.");
+            Console.WriteLine($"Task t2 status is {t2.Status}.");
+
+            Console.WriteLine("Main program done, press any key.");
+            Console.ReadKey();
+        }
+    }
+```
+
