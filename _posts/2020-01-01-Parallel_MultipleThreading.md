@@ -7,7 +7,7 @@ keywords: English
 ---
 多线程MutipleThreading 和并发Parallel在提升代码性能某些特殊场景方面使用比较多，是属于.net的重点内容。
 
-### 线程的中断、退出、结束
+### 线程中断、结束、退出
 
 结束Task，这里主要是使用Cancel Token; 一般是使用**CancellationTokenSource**对象的Token属性。命名空间属于：System.Threading.Tasks。
 
