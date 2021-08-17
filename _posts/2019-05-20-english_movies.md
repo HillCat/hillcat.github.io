@@ -72,4 +72,5 @@ Netflix在这块我找到的比较好的体验就是使用chrome插件[Learning 
 
 <img src="https://cs-cn.top/images/posts/kidsTV502.png"/>
 
-其实适合学习英语的美剧，一抓一大把。
+其实适合学习英语的美剧，在奈飞上面非常多，只要装备到位，然后选择好适合自己难度的剧，就可以上手，生活中这种高频词如果是生词，就要整理到anki中做为复习材料。具体的操作：[配置ShareX](https://cs-cn.top/2019/07/10/anki_pdf_js_study/#sharex%E9%85%8D%E7%BD%AE); chrome浏览器安装[Learn English with netflix](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)，[截图插件](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj)；美剧制卡的时候，我的一般做法是使用sharex来截取美剧中的上下文片段mp3，然后截图插件截取当前上下文的截屏。
+
