@@ -139,7 +139,7 @@ private static void WaitingForTimeToPass()
 
 #### Task.WaitAll
 
-当Task.WaitAll在等待多个线程执行完毕的时候，如果A线程的执行耗时是5秒钟，而B线程耗时是3秒钟，而Task.WaitAll等待4秒钟，那么当等待结束的那一刻，A线程的状态其实是“正在执行”，当等待的时间不够的时候，Task.WaitAll并不会强制结束掉某个线程。
+当Task.WaitAll在等待多个线程执行完毕的时候，如果A线程的执行耗时是5秒钟，而B线程耗时是3秒钟，而Task.WaitAll等待4秒钟，那么当等待结束的那一刻，A线程的状态其实是“正在执行”，因为Task.WaitAll这里的等待时间是4秒，A线程并未执行完毕。
 
 ```c#
 class WaitingForTasks
