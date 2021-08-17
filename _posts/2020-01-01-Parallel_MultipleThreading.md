@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 并发和多线程/如何结束Task/线程等待
+title: 并发和多线程
 categories: .net
 description: .net技术笔记
 keywords: English
 ---
 多线程MutipleThreading 和并发Parallel在提升代码性能某些特殊场景方面使用比较多，是属于.net的重点内容。
 
-### 如何结束Task
+### CancellationTokenSource
 
 结束Task，这里主要是使用Cancel Token; 一般是使用**CancellationTokenSource**对象的Token属性。命名空间属于：System.Threading.Tasks。
 
@@ -186,6 +186,39 @@ class WaitingForTasks
             Console.WriteLine("Main program done, press any key.");
             Console.ReadKey();
         }
+    }
+```
+
+### 多线程中异常的处理
+
+多个Task运行的时候，多个异常使用`AggregateException`进行捕获，然后通过`InnerExceptions`遍历之后，打印日志。
+
+```c#
+public static void BasicHandling()
+    {
+      var t = Task.Factory.StartNew(() =>
+      {
+        throw new InvalidOperationException("Can't do this!") {Source = "t"};
+      });
+
+      var t2 = Task.Factory.StartNew(() =>
+      {
+        var e = new AccessViolationException("Can't access this!");
+        e.Source = "t2";
+        throw e;
+      });
+
+      try
+      {
+        Task.WaitAll(t, t2);
+      }
+      catch (AggregateException ae)
+      {
+        foreach (Exception e in ae.InnerExceptions)
+        {
+          Console.WriteLine($"Exception {e.GetType()} from {e.Source}.");
+        }
+      }
     }
 ```
 
