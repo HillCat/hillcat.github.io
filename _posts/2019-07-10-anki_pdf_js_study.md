@@ -41,7 +41,7 @@ keywords: English
 
 
 
-第三步：按照 [https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio ) 这个文档安装完ffmpeg 这个插件。以下是配置顺序。基本都是点几下鼠标，直接下一步下一步。配置完之后，F2快捷键  ，F3快捷键就可以使用了。一个是截音频，一个是截图。美剧里面截取声音片段就靠这个功能。前提是不要有其他软件占着F2, F3快捷键。
+第三步：按照 [https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio ) 这个文档安装完ffmpeg 这个插件。以下是配置顺序。基本都是点几下鼠标，直接下一步下一步。配置完之后，F2快捷键  ，F3快捷键就可以使用了。一个是截音频，一个是截图。美剧里面截取声音片段就靠这个功能。前提是不要有其他软件占着F2, F3快捷键。需要特别说明的是：由于最近Netflix还有Udemy这种国外的VIP收费类视频网站采用了加密技术，PC端截图工具截取视频内容的时候会显示黑屏。所以，推荐chrome[截图插件](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj)截图来解决这个问题；而sharex的F2截图功能用来截欧陆词典释义。
 
 <img src="https://cs-cn.top/images/posts/sharex_allconfig2326.png"/>
 
