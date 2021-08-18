@@ -387,6 +387,43 @@ class BarrierDemo
 
 SignalAndWait()在这里从字面意思理解，就是通过barrier对象的方法，**监听信号以及执行等待**，如果信号触发满足了条件，则barrier会让线程**放行**，进入到下一阶段的代码执行。
 
+### 多线程中的CountdownEvent
+
+通过For循环同时开启多个线程，利用CountdownEvent对象来计数，它是以倒计数的方式，每当有线程结束的时候，计数器减一，直到计数器的值减为0；**cte.Signal();**方法主要是负责减数，**cte.Wait();**会等待所有的线程都执行完毕之后，才会把阻塞的代码放行。
+
+```c#
+ class CountDownEventDemo
+    {
+        private static int taskCount = 5;
+        static CountdownEvent cte = new CountdownEvent(taskCount);
+        static Random random = new Random();
+        static void Main(string[] args)
+        {
+            var tasks = new Task[taskCount];
+            for (int i = 0; i < taskCount; i++)
+            {
+                tasks[i] = Task.Factory.StartNew(() =>
+                {
+                    Console.WriteLine($"Entering task {Task.CurrentId}.");
+                    Thread.Sleep(random.Next(3000));
+                    cte.Signal(); // also takes a signalcount 倒计时减数
+                    //cte.CurrentCount/InitialCount
+                    Console.WriteLine($"Exiting task {Task.CurrentId}.");
+                });
+            }
+
+            var finalTask = Task.Factory.StartNew(() =>
+            {
+                Console.WriteLine($"Waiting for other tasks in task {Task.CurrentId}");
+                cte.Wait();//等待Countdown倒计时的值=0，则证明所有的线程都执行完毕了
+                Console.WriteLine("All tasks completed.");
+            });
+
+            finalTask.Wait();
+        }
+    }
+```
+
 
 
 ### 多线程中异常的处理
