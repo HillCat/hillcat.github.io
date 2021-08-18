@@ -385,7 +385,7 @@ class BarrierDemo
     }
 ```
 
-
+SignalAndWait在这里从字面意思理解，就是通过barrier对象的方法，监听信号以及执行等待，如果信号触发满足了条件，则barrier会让线程**放行**，进入到下一阶段的代码执行。
 
 
 
