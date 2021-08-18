@@ -162,3 +162,12 @@ anki的模板(模板文件名为:NetFlix.apkg,  模板名称为:NetFlix-20210615
 
 <img src="https://cs-cn.top/images/posts/netflix_plantform5541.png"/>
 
+
+
+美剧制卡，需要注意的一些事情，避免有很多朋友继续问我这些细节的问题，建议看下我这个视频
+
+链接：[https://pan.baidu.com/s/1nMQDQ17XDVqLnZ6a-mhKDA](https://pan.baidu.com/s/1nMQDQ17XDVqLnZ6a-mhKDA ) 
+提取码：0yg9
+
+
+
