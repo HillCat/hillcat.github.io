@@ -1,4 +1,5 @@
 ---
+
 layout: post
 title: 并发和多线程
 categories: .net
@@ -188,6 +189,95 @@ class WaitingForTasks
         }
     }
 ```
+
+#### task.ContinueWith
+
+线程A和线程B，线程A执行一个耗时很长的任务，而线程B一直等待线程A，等到线程A执行完毕之后，线程B才开始执行。如果期间线程A执行过程中抛异常，那么线程B根据`t.IsFaulted`判断线程A是否抛异常，来决定要不要继续执行。如果发现线程A有异常，则线程B内部对A线程的异常进行处理。
+
+```c#
+ private static void SimpleContinuation()
+        {
+            var task = Task.Factory.StartNew(() =>
+            {
+                Console.WriteLine($"Boil water (task {Task.CurrentId}, then...");
+                //throw null;
+                Thread.Sleep(7000);
+            });
+
+            var task2 = task.ContinueWith(t =>
+            {
+                // alternatively can also rethrow exceptions
+                if (t.IsFaulted)
+                    throw t.Exception.InnerException;
+
+                Console.WriteLine($"{t.Id} is {t.Status}, so pour into cup  {Task.CurrentId})");
+            }/*, TaskContinuationOptions.NotOnFaulted*/);
+
+            try
+            {
+                task2.Wait();
+            }
+            catch (AggregateException ae)
+            {
+                ae.Handle(e =>
+                {
+                    Console.WriteLine("Exception: " + e);
+                    return true;
+                });
+            }
+        }
+```
+
+
+
+#### Task.Factory.ContinueWhenAll
+
+任务A和任务B并发执行，当任务A和任务B都完成之后，任务C才开始执行。——ContinueWhenAll；
+
+```c#
+private static void ContinueWhen()
+        {
+            var task = Task.Factory.StartNew(() => "Task 1");
+            var task2 = Task.Factory.StartNew(() => "Task 2");
+
+            // also ContinueWhenAny
+            var task3 = Task.Factory.ContinueWhenAll(new[] {task, task2},
+                tasks =>
+                {
+                    Console.WriteLine("Tasks completed:");
+                    foreach (var t in tasks)
+                        Console.WriteLine(" - " + t.Result);
+                    Console.WriteLine("All tasks done");
+                });
+
+            task3.Wait();
+        }
+
+```
+任务A和任务B并发执行，当其中任何一个任务完成之后，任务C开始执行。——ContinueWhenAny;
+```c#
+  private static void ContinueWhen()
+        {
+            var task = Task.Factory.StartNew(() => "Task 1");
+            var task2 = Task.Factory.StartNew(() => "Task 2");
+
+            // also ContinueWhenAny
+            var task3 = Task.Factory.ContinueWhenAny(new[] { task, task2 },
+                t =>
+                {
+                    Console.WriteLine("Tasks completed:");
+                    //foreach (var t in tasks)
+                        Console.WriteLine(" - " + t.Result);
+                    Console.WriteLine("All tasks done");
+                });
+
+            task3.Wait();
+        }
+```
+
+
+
+
 
 ### 多线程中异常的处理
 
