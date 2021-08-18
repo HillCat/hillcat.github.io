@@ -277,6 +277,118 @@ private static void ContinueWhen()
 
 
 
+### ChildTasks
+
+Task里面包裹其他的Task，并且让内部的Task和外面的Task产生父子关系，使用`TaskCreationOptions.AttachedToParent`属性标注。然后通过`TaskContinuationOptions.OnlyOnFaulted`和`TaskContinuationOptions.OnlyOnRanToCompletion`分别指定，当内部子线程失败或者成功之后相应的业务逻辑。
+
+```c#
+ class ChildTasks
+    {
+        static void Main(string[] args)
+        {
+            var parent = new Task(() =>
+            {
+                // detached = just a subtask within a task
+                // no relationship
+
+                // attached
+
+                var child = new Task(() =>
+                {
+                    Console.WriteLine("Child task starting...");
+                    Thread.Sleep(3000);
+                    Console.WriteLine("Child task finished.");
+
+                    throw new Exception();
+                }, TaskCreationOptions.AttachedToParent);
+
+                var failHandler = child.ContinueWith(t =>
+                {
+                    Console.WriteLine($"Unfortunately, task {t.Id}'s state is {t.Status}");
+                }, TaskContinuationOptions.AttachedToParent|TaskContinuationOptions.OnlyOnFaulted);
+
+                var completionHandler = child.ContinueWith(t =>
+                {
+                    Console.WriteLine($"Hooray, task {t.Id}'s state is {t.Status}");
+                }, TaskContinuationOptions.AttachedToParent | TaskContinuationOptions.OnlyOnRanToCompletion);
+
+                child.Start();
+
+                Console.WriteLine("Parent task starting...");
+                Thread.Sleep(1000);
+                Console.WriteLine("Parent task finished.");
+            });
+
+            parent.Start();
+            try
+            {
+                parent.Wait();
+            }
+            catch (AggregateException ae)
+            {
+                ae.Handle(e => true);
+            }
+        }
+    }
+```
+
+### 多线程中的Barrier
+
+A线程和B线程都是工作线程；A线程和B线程都是同时要干很多事情，A干得比较慢，B干得很快。我们强制把A线程和B线程要干的事情，划分为若干的阶段；并且这种划分是认为划分的；要求A线程和B线程在干活的速度上不要差距太大，比如A线程第一阶段请求了一个非常耗时的操作，B线程也是去请求一个耗时操作，但是A线程由于业务非常复杂导致A的这个第一阶段特别耗时，而B线程第一阶段请求已经提前完成了，B不想等A了，想要自己接着往下干；
+
+如果我们希望B线程在提前完成了第一阶段任务的时候，停下来等等A线程，等到A线程把第一阶段也干完了，那么B再接着往下走。这个时候就引入了Barrier这个对象。我把它理解为“防洪坝”，起到拦截线程内部进度的目的。
+
+"防洪坝"这个对象第一个参数是数字，这里的2代表是计数器，从0开始累加，每挡住一次代码往下执行，计数器就会计数+1；直到计数器的值为2的时候，“防洪坝”开闸放水，计数器清零；通过在A线程和B线程的代码里面放置`barrier.SignalAndWait();`其实就相当于人工干预之后，强行往线程的代码里面放了“拦截坝”；下面的代码，首先定义了一个“防洪坝”对象，它的拦截周期是2，适用于对2个不同的线程进行拦截。每拦截2次，就证明A线程和B线程的代码完成了一个阶段，也就是说拦截2次立马就会清零一次，并且执行相应的动作，这里，每完成一个阶段，都输出`$"Phase {b.CurrentPhaseNumber} is finished."`;
+
+```c#
+class BarrierDemo
+    {
+        static Barrier barrier = new Barrier(2, b =>
+        {
+            Console.WriteLine($"Phase {b.CurrentPhaseNumber} is finished.");
+            //b.ParticipantCount
+            //b.ParticipantsRemaining
+
+            // add/remove participants
+        });
+
+        public static void Water()
+        {
+            Console.WriteLine("Putting the kettle on (takes a bit longer).");
+            Thread.Sleep(2000);
+            barrier.SignalAndWait(); // signaling and waiting fused
+            Console.WriteLine("Putting water into cup.");
+            barrier.SignalAndWait();
+            Console.WriteLine("Putting the kettle away.");
+
+        }
+
+        public static void Cup()
+        {
+            Console.WriteLine("Finding the nicest tea cup (only takes a second).");
+            barrier.SignalAndWait();
+            Console.WriteLine("Adding tea.");
+            barrier.SignalAndWait();
+            Console.WriteLine("Adding sugar");
+        }
+
+        static void Main(string[] args)
+        {
+            var water = Task.Factory.StartNew(Water);
+            var cup = Task.Factory.StartNew(Cup);
+
+            var tea = Task.Factory.ContinueWhenAll(new[] {water, cup}, tasks =>
+            {
+                Console.WriteLine("Enjoy your cup of tea.");
+            });
+
+            tea.Wait();
+        }
+    }
+```
+
+
+
 
 
 ### 多线程中异常的处理
