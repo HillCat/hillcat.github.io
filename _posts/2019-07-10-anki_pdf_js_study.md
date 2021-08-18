@@ -171,5 +171,5 @@ anki插件的安装，是通过插件对应的安装code来安装的，示范如
 链接：[https://pan.baidu.com/s/1nMQDQ17XDVqLnZ6a-mhKDA](https://pan.baidu.com/s/1nMQDQ17XDVqLnZ6a-mhKDA ) 
 提取码：0yg9
 
-
+视频中提到的Anki制卡模板：[NetFlix.apkg(点击这里直接单独下载这个模板)](https://cs-cn.top/assets/doc/NetFlix.apkg)
 
