@@ -152,13 +152,13 @@ anki插件的安装，是通过插件对应的安装code来安装的，示范如
 
 
 
-### 在线词典助手
+### 在线词典助手_Anki制卡模板
 
 如果无法访问外网的，可以直接下载离线安装包：[在线词典助手离线安装包](https://www.laohuang.net/20190523/odh-offline-package/)
 
 如果可以上外网的朋友，直接去[谷歌浏览器插件市场](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb)搜索了安装即可
 
-anki的模板(模板文件名为:NetFlix.apkg,  模板名称为:NetFlix-20210615)，在上面的百度网盘里面资料中已经给出NetFlix.apkg,双击安装到Anki中即可。然后在线词典助手就可以按照下面的设置，之后就可以制卡了。
+**anki的模板(模板文件名为:NetFlix.apkg,  anki模板名称为:NetFlix-20210615)**，在上面的百度网盘里面资料中已经给出[NetFlix.apkg(点击这里直接下载)](https://cs-cn.top/assets/doc/NetFlix.apkg),双击安装到Anki中即可。然后在线词典助手就可以按照下面的设置，之后就可以制卡了。
 
 <img src="https://cs-cn.top/images/posts/netflix_plantform5541.png"/>
 
