@@ -7,11 +7,11 @@ date_format: "ordinal"
 title: 山猫's Blog
 subtitle: ""
 description: "一个程序员的个人博客"
-keywords: 山猫, caianhua,anki制卡, 美剧学英语, 程序员学英语
+keywords: 山猫, 一个正在迈向架构师路上的码农
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: hillcat/hillcat.github.io
+repository: 
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
