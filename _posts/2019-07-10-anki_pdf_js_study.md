@@ -27,7 +27,7 @@ keywords: English
 
 第一步：在D盘创建ShareX目录，再在这个目录新建文件夹Screenshots。
 
-第二步：从[官网](https://getsharex.com/)下载ShareX，把ShareX安装到D盘的文件夹ShareX中，然后，**导入[ShareX的配置](https://cs-cn.top/assets/doc/ShareX-13.5.0-backup.sxb)**，如下图3 (gif动图).
+第二步：从[官网](https://getsharex.com/)下载ShareX，把ShareX安装到D盘的文件夹ShareX中，然后，**导入[ShareX的配置(点击这里直接下载配置文件)](https://cs-cn.top/assets/doc/ShareX-13.5.0-backup.sxb)**，如下图3 (gif动图).
 
 <img src="https://cs-cn.top/images/posts/sharex12923.png"/>
 
