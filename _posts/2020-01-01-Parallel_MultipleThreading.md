@@ -430,6 +430,24 @@ SignalAndWait()在这里从字面意思理解，就是通过barrier对象的方�
 
 ### 多线程中的ManualResetEventSlim
 
+ManualResetEventSlim应用场景较少，该部分内容待完善，
+
+
+
+### 多线程加锁
+
+多线程同时对一个共享变量进行操作的时候，出现数据的覆盖，丢失，引起线程安全的问题；一般这个时候需要加锁。多线程只能锁应用类型变量。最佳的变量声明，是在类的内部提供如下的属性成员：
+
+```c#
+private static readonly object btnThreadCore = new object();
+```
+
+这样子的应用类型是静态的无法被外界修改的。
+
+线程里面加锁，使用lock关键字。
+
+lock的使用会牺牲部分性能，要求追求性能，推荐使用ConcurrentQueue<T>类型。
+
 
 
 ### 多线程中异常的处理
