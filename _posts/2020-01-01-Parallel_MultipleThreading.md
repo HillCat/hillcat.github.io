@@ -389,7 +389,9 @@ SignalAndWait()在这里从字面意思理解，就是通过barrier对象的方�
 
 ### 多线程中的CountdownEvent
 
-通过For循环同时开启多个线程，利用CountdownEvent对象来计数，它是以倒计数的方式，每当有线程结束的时候，计数器减一，直到计数器的值减为0；**cte.Signal();**方法主要是负责减数，**cte.Wait();**会等待所有的线程都执行完毕之后，才会把阻塞的代码放行。
+<img src="https://cs-cn.top/images/posts/CountDown024.png"/>
+
+通过For循环同时开启多个线程，利用CountdownEvent对象来计数，它是以**倒计数**自减的方式，每当有线程结束的时候，计数器减一，直到计数器的值减为0；**cte.Signal();**方法主要是负责减数，**cte.Wait();**会等待所有的线程都执行完毕之后，才会把阻塞的代码放行。
 
 ```c#
  class CountDownEventDemo
