@@ -177,4 +177,7 @@ anki插件的安装，是通过插件对应的安装code来安装的，示范如
 
 如果是使用Potplayer播放器制卡的话，就是如下这样子：单词句子需要“Alt + E ” 打开字幕窗口，找到当前这一行的字幕，手动复制粘贴到anki的Browse窗口，使用Notes菜单 ----> Add Notes..菜单。手工添加单词卡片。ShareX负责截图和截取声音文件。(要查看大图，请**鼠标右键**从新页面打开图片)
 
+<img src="https://cs-cn.top/images/posts/AddNotes328.gif"/>
+
 <img src="https://cs-cn.top/images/posts/concernts422.gif"/>
+
