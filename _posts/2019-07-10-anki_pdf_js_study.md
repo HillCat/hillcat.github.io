@@ -173,3 +173,8 @@ anki插件的安装，是通过插件对应的安装code来安装的，示范如
 
 视频中提到的Anki制卡模板：[NetFlix.apkg(点击这里直接单独下载这个模板)](https://cs-cn.top/assets/doc/NetFlix.apkg)
 
+
+
+如果是使用Potplayer播放器制卡的话，就是如下这样子：单词句子需要“Alt + E ” 打开字幕窗口，找到当前这一行的字幕，手动复制粘贴到anki的Browse窗口，使用Notes菜单 ----> Add Notes..菜单。手工添加单词卡片。ShareX负责截图和截取声音文件。
+
+<img src="https://cs-cn.top/images/posts/concernts422.gif"/>
