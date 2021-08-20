@@ -22,11 +22,11 @@ Ctrl +R 连按2次：修改变量名
 
 ### 2.给VisualStudio2019设置合适的字号
 
-**1.设置全局菜单、侧边栏字体大小：**
+#### 1.设置全局菜单、侧边栏字体大小：
 
 <img src="https://cs-cn.top/images/posts/visualStudioSettings714.gif"/>
 
-**2.设置代码编辑区域popup提示弹窗内字体大小：**
+#### 2.设置代码编辑区域popup提示弹窗内字体大小：
 
 <img src="https://cs-cn.top/images/posts/editorTootip736.gif"/>
 
@@ -34,7 +34,7 @@ Ctrl +R 连按2次：修改变量名
 
 ### 3.VisualStudio2019变量名规范
 
-**1.自动生成私有变量属性。**
+#### 1.自动生成私有变量属性
 
 可以强制设置私有变量为 ‘_' 带有下划线的小驼峰方式：
 
@@ -60,23 +60,23 @@ Ctrl +R 连按2次：修改变量名
 
 ### 4.VisualStudio2019提升效率技巧
 
-1.Shift + Enter 
+#### 1.Shift + Enter 
 
 这个按键组合，专门用来快速输入`大花括号`，当你输入一个类或者方法，需要敲入 `{  }   `一对大花括号的时候，直接Shift +Enter即可快捷输入，并且光标会停留在花括号的真正中间开始的位置。
 
-2.Move Class
+#### 2.Move Class
 
 这个功能可以把cs文件中的class类单独移动出去成为一个独立的class文件
 
 <img src="https://cs-cn.top/images/posts/move_class750.png"/>
 
-3.自动复制文件顶部的using语句
+#### 3.自动复制文件顶部的using语句
 
 <img src="https://cs-cn.top/images/posts/auto_paste5327.png"/>
 
 当你进行代码的复制粘贴的时候，如果从一个文件A复制了一段代码，带有using引用的，当你拷贝到B文件的时候，想要连同A文件顶部的相关的using语句也一并拷贝到B文件，那么就可以开启这个功能。
 
-4.显示继承关系
+#### 4.继承关系跳转
 
 <img src="https://cs-cn.top/images/posts/inheriant0411.png"/>
 
