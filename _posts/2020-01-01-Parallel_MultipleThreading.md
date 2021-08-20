@@ -277,7 +277,7 @@ private static void ContinueWhen()
 
 
 
-### ChildTasks
+### 子线程ChildTasks
 
 Task里面包裹其他的Task，并且让内部的Task和外面的Task产生父子关系，使用`TaskCreationOptions.AttachedToParent`属性标注。然后通过`TaskContinuationOptions.OnlyOnFaulted`和`TaskContinuationOptions.OnlyOnRanToCompletion`分别指定，当内部子线程失败或者成功之后相应的业务逻辑。
 
