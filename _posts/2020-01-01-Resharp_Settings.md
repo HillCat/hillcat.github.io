@@ -1,9 +1,10 @@
 ---
+
 layout: post
-title: Resharp相关设置
-categories:VisualStudio
-description:Resharp相关的设置技巧
-keywords: Resharp
+title: Resharp常用设置
+categories: VisualStudio
+description: Resharp常用设置技巧
+keywords: Resharp的常用设置
 ---
 Resharp官方文档：如果是首次安装Resharp，请查阅官方文档：[使用Resharp第一步](https://www.jetbrains.com/help/resharper/First_Steps.html)。快速打开Resharp的设置页面使用快捷键：(Alt+R, O).
 
