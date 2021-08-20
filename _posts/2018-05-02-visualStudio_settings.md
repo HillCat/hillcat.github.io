@@ -43,3 +43,11 @@ Ctrl +R 连按2次：修改变量名
 
 <img src="https://cs-cn.top/images/posts/underscore_15.png"/>
 
+我这里设置的是通过反射的方式来生成私有变量：
+
+<img src="https://cs-cn.top/images/posts/underscore_reflector845.png"/>
+
+最终使用的效果就是如下：
+
+<img src="https://cs-cn.top/images/posts/reflector_creator32.gif"/>
+
