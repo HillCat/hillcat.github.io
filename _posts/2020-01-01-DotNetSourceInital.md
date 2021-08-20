@@ -1,9 +1,10 @@
 ---
+
 layout: post
 title: DotNetCore开源项目初始化
-categories:.net
+categories:DotNetCore
 description:DotNetCore项目初始化步骤
-keywords: .net core source project Initalize
+keywords: DotNetCore
 ---
 DotNetCore框架之下建立的开源项目初始化的步骤入下：
 
@@ -12,4 +13,6 @@ DotNetCore框架之下建立的开源项目初始化的步骤入下：
 - `dotnet restore`
 - `dotnet build`
 - `dotnet run`
+
+
 
