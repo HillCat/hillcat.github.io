@@ -84,9 +84,21 @@ Ctrl +R 连按2次：修改变量名
 
 #### 5.移除不用的Nuget包
 
-随着项目的体积变得越来越大，有很多Nuget包可能不在需要使用，有没有什么方法，可以一键检测那些不需要使用的Nuget包，然后把他们给移除掉呢？特别是在我们写一些demo测试的时候，我们一次性安装了很多Nuget依赖，最后使用的可能只有那么几个，其他的就不再使用。
+这个是visual studio 2019 16.10.3 版本之后自带的功能，老版本的vs可能没有这个功能。
 
-<img src="https://cs-cn.top/images/posts/RemoveNuget859.png"/>
+<img src="https://cs-cn.top/images/posts/remove_nugetPacket943.png"/>
 
 
+
+#### 6.EditorConfig文件统一开发风格
+
+visualStudio中可以为项目添加EditorConfig文件，来统一整个开发团队的开发规范，比如单行代码缩进量的控制。
+
+具体的设置可以参考：[使用 EditorConfig 创建可移植的自定义编辑器设置](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options?view=vs-2019)
+
+EditorConfig的更多规范参考[EditorConfig](https://editorconfig.org/)官方网站。
+
+如果开启了EditorConfig文件，那么visualsudio编辑器的ErrorList提示里面会有Messages消息，提示你进行一些代码规范上面的操作：
+
+<img src="https://cs-cn.top/images/posts/EditorConfig25.png"/>
 
