@@ -18,3 +18,9 @@ Home键：移动到行首，按两次Home键，直接移动到边框最左端
 
 Ctrl +R 连按2次：修改变量名
 
+
+
+### 2.给VisualStudio2019设置合适的字号
+
+<img src="https://cs-cn.top/images/posts/visualStudioSettings714.gif"/>
+
