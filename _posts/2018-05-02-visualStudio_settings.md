@@ -48,7 +48,7 @@ Ctrl +R 连按2次：修改变量名
 
 <img src="https://cs-cn.top/images/posts/underscore_reflector845.png"/>
 
-最终使用的效果就是如下：
+最终使用的效果就是如下：visualstudio 2019会把含有依赖注入的属性，自动给你补上，并且打上私有属性下划线。
 
 <img src="https://cs-cn.top/images/posts/reflector_creator32.gif"/>
 
