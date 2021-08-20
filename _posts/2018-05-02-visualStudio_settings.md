@@ -44,7 +44,7 @@ Ctrl +R 连按2次：修改变量名
 
 <img src="https://cs-cn.top/images/posts/underscore_15.png"/>
 
-我这里设置的是通过反射的方式来生成私有变量：
+我这里选择的是Refactoring Only：
 
 <img src="https://cs-cn.top/images/posts/underscore_reflector845.png"/>
 
