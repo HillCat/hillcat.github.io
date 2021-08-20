@@ -52,3 +52,6 @@ Ctrl +R 连按2次：修改变量名
 
 <img src="https://cs-cn.top/images/posts/reflector_creator32.gif"/>
 
+如果没有这个设置，那么编辑器给出来的自动提示就是如下这种：
+
+<img src="https://cs-cn.top/images/posts/private_properties526.png"/>
