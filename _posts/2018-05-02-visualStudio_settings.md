@@ -31,3 +31,15 @@ Ctrl +R 连按2次：修改变量名
 
 <img src="https://cs-cn.top/images/posts/editorTootip736.gif"/>
 
+
+
+### 3.VisualStudio2019变量名规范
+
+可以强制设置私有变量为 ‘_' 带有下划线的小驼峰方式：
+
+<img src="https://cs-cn.top/images/posts/UnderScore055.png"/>
+
+设置完毕之后：
+
+<img src="https://cs-cn.top/images/posts/underscore_15.png"/>
+
