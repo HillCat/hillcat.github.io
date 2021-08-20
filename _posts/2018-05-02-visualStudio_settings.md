@@ -102,3 +102,7 @@ EditorConfig的更多规范参考[EditorConfig](https://editorconfig.org/)官方
 
 <img src="https://cs-cn.top/images/posts/EditorConfig25.png"/>
 
+EditorConfig的配置文件修改了之后，可以通过CleanCode一键格式化我们的代码文件：最典型的使用，就是格式化代码的缩进这些：
+
+<img src="https://cs-cn.top/images/posts/clean_code917.png"/>
+
