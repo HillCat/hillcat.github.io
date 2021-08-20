@@ -22,18 +22,19 @@ Ctrl +R 连按2次：修改变量名
 
 ### 2.给VisualStudio2019设置合适的字号
 
-1. 设置全局菜单、侧边栏字体大小：
+**1.设置全局菜单、侧边栏字体大小：**
 
 <img src="https://cs-cn.top/images/posts/visualStudioSettings714.gif"/>
 
-
-2. 设置代码编辑区域popup提示弹窗内字体大小：
+**2.设置代码编辑区域popup提示弹窗内字体大小：**
 
 <img src="https://cs-cn.top/images/posts/editorTootip736.gif"/>
 
 
 
 ### 3.VisualStudio2019变量名规范
+
+**1.自动生成私有变量属性。**
 
 可以强制设置私有变量为 ‘_' 带有下划线的小驼峰方式：
 
