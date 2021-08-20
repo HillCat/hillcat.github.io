@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Resharp相关设置
-categories:.net
+categories:VisualStudio
 description:Resharp相关的设置技巧
 keywords: Resharp
 ---

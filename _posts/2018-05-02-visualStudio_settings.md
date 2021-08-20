@@ -1,7 +1,7 @@
 ---
 layout: post
 title: VisualStudio快捷键
-categories: .net
+categories: VisualStudio
 description: VisualStudio常用技巧
 keywords: trpora
 ---
