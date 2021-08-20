@@ -70,5 +70,11 @@ Ctrl +R 连按2次：修改变量名
 
 <img src="https://cs-cn.top/images/posts/move_class750.png"/>
 
+3.自动复制文件顶部的using语句
+
+<img src="https://cs-cn.top/images/posts/auto_paste5327.png"/>
+
+当你进行代码的复制粘贴的时候，如果从一个文件A复制了一段代码，带有using引用的，当你拷贝到B文件的时候，想要连同A文件顶部的相关的using语句也一并拷贝到B文件，那么就可以开启这个功能。
+
 
 
