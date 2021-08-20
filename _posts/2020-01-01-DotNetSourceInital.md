@@ -1,9 +1,9 @@
 ---
 
 layout: post
-title: DotNetCore开源项目初始化
-categories:DotNetCore
-description:DotNetCore项目初始化步骤
+title: DotNetCore项目初始化
+categories: .net
+description: .net技术笔记
 keywords: DotNetCore
 ---
 DotNetCore框架之下建立的开源项目初始化的步骤入下：
