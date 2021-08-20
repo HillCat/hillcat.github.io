@@ -58,3 +58,17 @@ Ctrl +R 连按2次：修改变量名
 
 这个设置在依赖注入的时候，使用起来特别方便。
 
+### 4.VisualStudio2019提升效率技巧
+
+1.Shift + Enter 
+
+这个按键组合，专门用来快速输入`大花括号`，当你输入一个类或者方法，需要敲入 `{  }   `一对大花括号的时候，直接Shift +Enter即可快捷输入，并且光标会停留在花括号的真正中间开始的位置。
+
+2.Move Class
+
+这个功能可以把cs文件中的class类单独移动出去成为一个独立的class文件
+
+<img src="https://cs-cn.top/images/posts/move_class750.png"/>
+
+
+
