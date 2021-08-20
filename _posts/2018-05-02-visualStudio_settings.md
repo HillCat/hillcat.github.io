@@ -26,6 +26,7 @@ Ctrl +R 连按2次：修改变量名
 
 <img src="https://cs-cn.top/images/posts/visualStudioSettings714.gif"/>
 
+
 2. 设置代码编辑区域popup提示弹窗内字体大小：
 
 <img src="https://cs-cn.top/images/posts/editorTootip736.gif"/>
