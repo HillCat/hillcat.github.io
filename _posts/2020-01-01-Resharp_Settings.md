@@ -6,7 +6,7 @@ categories: VisualStudio
 description: Resharp常用设置技巧
 keywords: Resharp的常用设置
 ---
-Resharp官方文档：如果是首次安装Resharp，请查阅官方文档：[使用Resharp第一步](https://www.jetbrains.com/help/resharper/First_Steps.html)。快速打开Resharp的设置页面使用快捷键：(Alt+R, O).
+Resharp官方文档：如果是首次安装Resharp，请查阅官方文档：[使用Resharp第一步](https://www.jetbrains.com/help/resharper/First_Steps.html)。快速打开Resharp的设置页面使用快捷键：(**Alt+R, O**).
 
 ### Resharp常用设置
 
@@ -22,7 +22,7 @@ Resharp官方文档：如果是首次安装Resharp，请查阅官方文档：[�
 
 2.代码块的注释、取消注释
 
-Ctrl + Atl + /        对于选中的代码块，注释、取消注释，都是这3个组合键。参考官方文档：[注释和取消注释代码](https://www.jetbrains.com/help/resharper/Coding_Assistance__Comment_Uncomment_Code.html)
+**Ctrl + Atl + /**        对于选中的代码块，注释、取消注释，都是这3个组合键。参考官方文档：[注释和取消注释代码](https://www.jetbrains.com/help/resharper/Coding_Assistance__Comment_Uncomment_Code.html)
 
 
 
