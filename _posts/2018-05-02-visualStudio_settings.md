@@ -1,6 +1,6 @@
 ---
 layout: post
-title: VisualStudio快捷键
+title: VisualStudio使用技巧
 categories: VisualStudio
 description: VisualStudio常用技巧
 keywords: trpora
@@ -32,7 +32,7 @@ Ctrl +R 连按2次：修改变量名
 
 
 
-### 3.VisualStudio2019变量名规范
+### 3.自动注入私有属性设置
 
 #### 1.自动生成私有变量属性
 
@@ -58,7 +58,7 @@ Ctrl +R 连按2次：修改变量名
 
 这个设置在依赖注入的时候，使用起来特别方便。
 
-### 4.VisualStudio2019提升效率技巧
+### 4.提升vs效率
 
 #### 1.Shift + Enter 
 
@@ -82,7 +82,11 @@ Ctrl +R 连按2次：修改变量名
 
 开启这个功能之后，可以使得visual studio 2019编辑器的侧边栏显示蓝色的标记，鼠标点击之后，可以在拥有继承关系的类之间引进跳转。
 
+#### 5.移除不用的Nuget包
 
+随着项目的体积变得越来越大，有很多Nuget包可能不在需要使用，有没有什么方法，可以一键检测那些不需要使用的Nuget包，然后把他们给移除掉呢？特别是在我们写一些demo测试的时候，我们一次性安装了很多Nuget依赖，最后使用的可能只有那么几个，其他的就不再使用。
+
+<img src="https://cs-cn.top/images/posts/RemoveNuget859.png"/>
 
 
 
