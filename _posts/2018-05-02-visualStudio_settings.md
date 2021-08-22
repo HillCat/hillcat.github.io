@@ -130,7 +130,7 @@ Resharp官方文档：如果是首次安装Resharp，请查阅官方文档：[�
 
 **Ctrl + Atl + /**        对于选中的代码块，注释、取消注释，都是这3个组合键。参考官方文档：[注释和取消注释代码](https://www.jetbrains.com/help/resharper/Coding_Assistance__Comment_Uncomment_Code.html)
 
-### 5.微软的AI提示
+### 5.VisualStudio的AI提示
 
 微软的AI代码提示功能靠下面的Visual Studio IntelliCode给出来的。
 
