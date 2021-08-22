@@ -112,3 +112,31 @@ EditorConfig的配置文件修改了之后，可以通过CleanCode一键格式�
 
 <img src="https://cs-cn.top/images/posts/ExtraInterface753.png"/>
 
+
+
+#### 8.Resharp插件
+
+Resharp官方文档：如果是首次安装Resharp，请查阅官方文档：[使用Resharp第一步](https://www.jetbrains.com/help/resharper/First_Steps.html)。快速打开Resharp的设置页面使用快捷键：(**Alt+R, O**).这里只会使用到Resharp的关键几个功能：
+
+1.代码智能提示修改为使用Resharp代替。设置完成之后，API接口的形参提示会直接弹出提示，提升编码效率。这里影响的是上方这块参数的智能提示。下方的那块智能提示是vs2019微软的AI提示给出来的信息。
+
+<img src="../images/posts/resharp_settings838-16296175189601.png"/>
+
+<img src="../images/posts/Interli049-16296175189603.png"/>
+
+另外使用快捷键，ctrl + shift + space 也是可以弹出来参数智能提示的；
+
+2.代码块的注释、取消注释
+
+**Ctrl + Atl + /**        对于选中的代码块，注释、取消注释，都是这3个组合键。参考官方文档：[注释和取消注释代码](https://www.jetbrains.com/help/resharper/Coding_Assistance__Comment_Uncomment_Code.html)
+
+### 9.微软的AI提示
+
+微软的AI代码提示功能靠下面的Visual Studio IntelliCode给出来的。
+
+<img src="https://cs-cn.top/images/posts/vs_AI41.png"/>
+
+<img src="https://cs-cn.top/images/posts/vs_Ai3846.png"/>
+
+微软的这个AI提示会根据经验值，把频率最高的API给排序显示出来，方便日常快速开发。
+
