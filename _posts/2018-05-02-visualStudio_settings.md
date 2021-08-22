@@ -106,3 +106,9 @@ EditorConfig的配置文件修改了之后，可以通过CleanCode一键格式�
 
 <img src="https://cs-cn.top/images/posts/clean_code917.png"/>
 
+#### 7.抽取class类中的接口
+
+这个方法跟上面的第2个方法，抽离class到单独的cs文件类似，是把class中的现有方法抽离出去，变为接口。这个在dtonetcore依赖注入的时候，要提取某些接口非常方便。
+
+<img src="https://cs-cn.top/images/posts/ExtraInterface753.png"/>
+
