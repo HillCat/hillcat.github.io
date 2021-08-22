@@ -66,7 +66,7 @@ Ctrl +R 连按2次：修改变量名
 
 #### 2.Move Class
 
-这个功能可以把cs文件中的class类单独移动出去成为一个独立的class文件
+这个功能可以把cs文件中的class类单独移动出去成为一个独立的class文件,当从其他文件拷贝class类和代码的时候这个技巧非常有用。可以先把class代码拷贝到一个namespace中，然后使用这个Move type to    XXXX.cs ，就会单独把某个class新建为单独的cs类文件。
 
 <img src="https://cs-cn.top/images/posts/move_class750.png"/>
 
