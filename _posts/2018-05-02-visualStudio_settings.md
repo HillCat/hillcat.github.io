@@ -130,7 +130,7 @@ Resharp官方文档：如果是首次安装Resharp，请查阅官方文档：[�
 
 **Ctrl + Atl + /**        对于选中的代码块，注释、取消注释，都是这3个组合键。参考官方文档：[注释和取消注释代码](https://www.jetbrains.com/help/resharper/Coding_Assistance__Comment_Uncomment_Code.html)
 
-### 9.微软的AI提示
+### 5.微软的AI提示
 
 微软的AI代码提示功能靠下面的Visual Studio IntelliCode给出来的。
 
@@ -138,5 +138,15 @@ Resharp官方文档：如果是首次安装Resharp，请查阅官方文档：[�
 
 <img src="https://cs-cn.top/images/posts/vs_Ai3846.png"/>
 
-微软的这个AI提示会根据经验值，把频率最高的API给排序显示出来，方便日常快速开发。
+微软的这个AI提示会根据经验值，把频率最高的API给排序显示出来，方便日常快速开发。默认的设置是通用的，并不是针对C#的，如果是开发.net的话，需要把所有专门针对C#的智能提示给开启：最新版vs2019这里有9项全部开启。那么AI智能提示就全部是针对C#的。
+
+<img src="https://cs-cn.top/images/posts/vs_Ai_Settings623.png"/>
+
+完成这些设置之后，通过view菜单进入到Visual Studio IntelliCode界面；
+
+<img src="https://cs-cn.top/images/posts/createModel940.png"/>
+
+进入到这个页面之后点击生成Patterns，那么就会根据你当前项目中使用到的有些语法特征，分析出AI模型，对你当前的项目提供特定的AI智能提示：数据模型创建完毕之后处于Ready状态。
+
+<img src="https://cs-cn.top/images/posts/IntelliSense113.png"/>
 
