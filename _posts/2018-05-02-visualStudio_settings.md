@@ -16,7 +16,7 @@ Ctrl+End键：回到文档的底部
 
 Home键：移动到行首，按两次Home键，直接移动到边框最左端
 
-Ctrl +R 连按2次：修改变量名
+Ctrl +R 连按2次：修改变量名。在安装了Resharp插件的时候，这个功能会同时把整个解决方案中的类名文件名，接口文件名一起修改，非常方便，特别是代码重构的时候加快开发效率。
 
 
 
@@ -102,7 +102,7 @@ EditorConfig的更多规范参考[EditorConfig](https://editorconfig.org/)官方
 
 <img src="https://cs-cn.top/images/posts/EditorConfig25.png"/>
 
-EditorConfig的配置文件修改了之后，可以通过CleanCode一键格式化我们的代码文件：最典型的使用，就是格式化代码的缩进这些：
+EditorConfig的配置文件修改了之后，可以通过CleanCode一键格式化我们的代码文件：最典型的使用，就是格式化代码的缩进这些，如果对于[EditorConfig](https://editorconfig.org/)研究更深入，可以最大限度的规范我们开发风格。
 
 <img src="https://cs-cn.top/images/posts/clean_code917.png"/>
 
