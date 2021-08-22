@@ -120,9 +120,10 @@ Resharp官方文档：如果是首次安装Resharp，请查阅官方文档：[�
 
 1.代码智能提示修改为使用Resharp代替。设置完成之后，API接口的形参提示会直接弹出提示，提升编码效率。这里影响的是上方这块参数的智能提示。下方的那块智能提示是vs2019微软的AI提示给出来的信息。
 
-<img src="../images/posts/resharp_settings838-16296175189601.png"/>
+<img src="https://cs-cn.top/images/posts/resharp_Plugin49.png"/>
 
-<img src="../images/posts/Interli049-16296175189603.png"/>
+<img src="https://cs-cn.top/images/posts/resharp_plugin22.png"/>
+
 
 另外使用快捷键，ctrl + shift + space 也是可以弹出来参数智能提示的；
 
