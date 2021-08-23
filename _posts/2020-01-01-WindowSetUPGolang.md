@@ -68,7 +68,7 @@ Golang的开发环境大部分的情况是使用Linux居多。下面对于Visual
 
 **注意**：设置Ubuntu虚拟机窗口自适应的时候会遇到一些坑：调节VisualBox窗口大小和分辨率的时候，如果VisualBox窗体不小心进入了Scale Model，则会看不到VisualBox顶部的工具栏，只需要按住**键盘右边的Ctrl **+ Home键找回工具条，重新点击Scale Model就可以回到工具栏模式，对我们的窗口分辨率进行进一步设置。而点击**键盘右边的Ctrl **+C可以切换到缩略窗口模式。
 
-### 缩短UbuntuMachineName
+### 修改MachineName
 
 虚拟机在安装的时候，由于没有太注意，给定义的机器的名字非常长，先把机器名字修改简短一些，可以直接如下：
 
@@ -102,7 +102,7 @@ sudo nano /etc/hostname
 
 #### shell命令自动提示
 
-在安装了oh my zsh之后，我们使用git命令来测试下，这个shell命令工具是怎么提供提示信息的，比如我们敲入git，然后按两下Tab键，这个时候，下面会弹出来一堆提示信息，都是跟git指令相关的，而且这些提示补全指令，都是可以通过上下方向箭头去选择的，有了这个oh my zsh之后就非常方便。
+在安装了oh my zsh之后，我们使用git命令来测试下，这个shell命令工具是怎么提供提示信息的，比如我们敲入git，然后**按两下Tab键**，这个时候，下面会弹出来一堆提示信息，都是跟git指令相关的，而且这些提示补全指令，都是可以通过上下方向箭头去选择的，有了这个oh my zsh之后就非常方便。
 
 <img src="https://cs-cn.top/images/posts/git_command_test12.png"/>
 
