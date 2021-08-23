@@ -100,6 +100,8 @@ sudo nano /etc/hostname
 
 安装完oh my zsh之后，默认的shell就会是oh my zsh的。
 
+其他更多扩展：oh my zsh安装插件，卸载oh myzsh ，参考：[How to Install OH-MY-ZSH in Ubuntu 20.04](https://www.tecmint.com/install-oh-my-zsh-in-ubuntu/)
+
 #### shell命令自动提示
 
 在安装了oh my zsh之后，我们使用git命令来测试下，这个shell命令工具是怎么提供提示信息的，比如我们敲入git，然后**按两下Tab键**，这个时候，下面会弹出来一堆提示信息，都是跟git指令相关的，而且这些提示补全指令，都是可以通过上下方向箭头去选择的，有了这个oh my zsh之后就非常方便。
