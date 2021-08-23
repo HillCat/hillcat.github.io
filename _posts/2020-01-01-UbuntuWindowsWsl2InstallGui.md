@@ -50,7 +50,7 @@ echo xfce4-session > ~/.xsession
 
 注释掉原本自带的配置文件最后两行，增加一行配置信息，让它从xfce4启动。修改完成之后保存，退出nano界面。
 
-10.开启xrdp服务
+**10.开启xrdp服务**
 
 执行：sudo /etc/init.d/xrdp start
 
@@ -98,7 +98,7 @@ echo xfce4-session > ~/.xsession
 
 执行：sudo apt install firefox
 
-### 2.在UbuntuGUI中安装golang环境
+### 
 
 
 
