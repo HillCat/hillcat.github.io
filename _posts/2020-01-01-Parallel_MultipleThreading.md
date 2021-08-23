@@ -432,7 +432,14 @@ SignalAndWait()在这里从字面意思理解，就是通过barrier对象的方�
 
 ManualResetEventSlim应用场景较少，该部分内容待完善，
 
+### 多线程中System.Threading.SemaphoreSlim 
 
+System.Threading.SemaphoreSlim 是一个轻量级、快速的信号量，由 CLR 提供，用于在预计等待时间非常短的情况下在单个进程中等待。并且在信号量上调用 WaitAsync 会生成一个任务，当该线程被授予对信号量的访问权限时，该任务将完成。
+
+当任务准备好时，释放信号量。当我们准备好时总是释放信号量是至关重要的，否则我们最终会得到一个永远锁定的信号量。
+这就是为什么在 try...finally 子句中执行 Release 很重要；程序执行可能会崩溃或采取不同的路径，这样您就可以保证执行。
+
+应该注意，只有在 SemaphoreSlim 上的所有其他操作都完成后才能使用 Dispose()。
 
 ### 多线程加锁
 

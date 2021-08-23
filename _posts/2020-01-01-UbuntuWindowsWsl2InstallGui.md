@@ -1,0 +1,110 @@
+---
+
+layout: post
+title: WindowsWSL2UbuntuInstallGUI
+categories: Linux
+description: Linux相关笔记
+keywords: Linux
+---
+windows10 install wsl2之后，安装Ubuntu版本，然后升级Ubuntu。
+
+### 1.给WSL2的Ubunt安装GUI
+
+1.执行Sudo apt install xrdp
+
+2.执行sudo apt install -y xfce4
+
+执行这一步骤的时候控制台中途命令行会暂停，如果没有弹出下面这个界面，记得动一下键盘任意键，会出现这个界面：默认选择之后回车，控制台程序会接着往下执行。
+
+<img src="https://cs-cn.top/images/posts/linux_gui25.png"/>
+
+
+
+3.执行sudo apt install -y xfce4-goodies
+
+4.执行 sudo cp /etc/xrdp/xrdp.ini  /etc/xrdp/xrdp.ini.bak
+
+这一步备份下xrdp配置文件。
+
+5.修改xrdp配置
+
+执行： sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
+
+6.修改xrdp配置
+
+执行： sudo sed -i 's/max_bpp=32/#max_bpp=32\nmax_bpp=128/g' /etc/xrdp/xrdp.ini
+
+7.修改xrdp配置
+
+执行：sudo sed -i 's/xserverbpp=24/#xserverbpp=24\nxserverbpp=128/g' /etc/xrdp/xrdp.ini
+
+8.执行如下：
+
+echo xfce4-session > ~/.xsession
+
+9.编辑xrdp启动配置文件
+
+执行：sudo nano /etc/xrdp/startwm.sh
+
+<img src="https://cs-cn.top/images/posts/edit_configure_file836.png"/>
+
+注释掉原本自带的配置文件最后两行，增加一行配置信息，让它从xfce4启动。修改完成之后保存，退出nano界面。
+
+10.开启xrdp服务
+
+执行：sudo /etc/init.d/xrdp start
+
+<img src="https://cs-cn.top/images/posts/start_xrdp153.png"/>
+
+
+
+11.使用remote desktop连接localhost:3390
+
+<img src="https://cs-cn.top/images/posts/localhost3390_12.png"/>
+
+
+
+12.使用Ubuntu账号登录
+
+<img src="https://cs-cn.top/images/posts/Linux_Remote_Login817.png"/>
+
+最终看到的ubuntu的界面：
+
+<img src="https://cs-cn.top/images/posts/remote_LinuxGui343.png"/>
+
+
+
+13.查看自己的ubuntu系统的版本号
+
+执行：lsb_release -a
+
+<img src="https://cs-cn.top/images/posts/ubuntu_release_926.png"/>
+
+
+
+14.查看Ubuntu的ip地址
+
+ ip addr
+
+<img src="https://cs-cn.top/images/posts/view_ubuntu_ipAdress35.png"/>
+
+172.19.255.21/20 就是ubuntu的ip地址。
+
+15.给Ubuntu安装firefox浏览器
+
+默认情况下FireFox是没有安装的，会提示：
+
+<img src="https://cs-cn.top/images/posts/firefox_noInstall513.png"/>
+
+执行：sudo apt install firefox
+
+### 2.在UbuntuGUI中安装golang环境
+
+
+
+
+
+
+
+
+
