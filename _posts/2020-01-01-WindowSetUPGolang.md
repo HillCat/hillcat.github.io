@@ -47,9 +47,19 @@ Golang的开发环境大部分的情况是使用Linux居多。下面对于Visual
 
 <img src="https://cs-cn.top/images/posts/install_sh928.png"/>
 
-安装完毕之后重启Ubuntu虚拟机。
+安装完毕之后重启Ubuntu虚拟机。只要设置正确，那么VisualBox窗体顶部工具栏View菜单栏中的VisualBoxResize功能就可以被选中了，如下：
 
+<img src="https://cs-cn.top/images/posts/auto_resize840.png"/>
 
+当你拖放窗口大小的时候，分辨率会随着窗口的变化而变化的，对于程序员在Window上面搞开发而言非常方便了。
+
+### 设置Ubuntu的Display
+
+让ubuntu基于我们的硬件的显卡，设置到最高的分辨率，这里进入到display设置界面，选择我们的显示器最大的分辨率，比如我的是23寸，就选择1920 X 1440 （4:3），得到一个最舒适的分辨率，方便我们长期使用虚拟机得到最好的显示效果，保护我们的视力。
+
+<img src="https://cs-cn.top/images/posts/setting_display4144.png"/>
+
+<img src="https://cs-cn.top/images/posts/1920X1440_606.png"/>
 
 
 
