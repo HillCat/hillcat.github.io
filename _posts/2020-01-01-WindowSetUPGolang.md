@@ -116,7 +116,27 @@ sudo nano /etc/hostname
 
 <img src="https://cs-cn.top/images/posts/copy_paste026.png"/>
 
+另外，拖动文件到Ubuntu里面都是可以的，也是在安装完VisualBoxAdditional之后才有的功能。
 
+
+
+### 安装Golang
+
+由于国内没办法访问google的一些网站，所以国外的golang官方下载的linux的golang压缩包，只能够通过宿主机windows下载之后，拖拽到Ubuntu虚拟机中，然后根据golang官方文档安装到Ubuntu并且设置好相应路径：
+
+把从官方下载的golang压缩包解压到Ubuntu的/usr/local下面，那么这个路径下面就会多出来一个go文件夹
+
+`sudo tar -C /usr/local -xzf go1.17.linux-amd64.tar.gz`
+
+然后是设置Path路径为go的bin目录，
+
+`export PATH=$PATH:/usr/local/go/bin`
+
+这样子设置之后，通过敲入：
+
+`go version`
+
+就可以看到显示的golang版本了。
 
 
 
