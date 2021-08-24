@@ -16,7 +16,11 @@ Golang的开发环境大部分的情况是使用Linux居多。下面对于Visual
 
 因为Ubuntu可以直接在图像界面下修改镜像源地址为国内的，所以它比Centos和苹果的IOS其实更加适合程序员用来做为Linux开发环境。
 
+### 网络桥接模式
 
+<img src="https://cs-cn.top/images/posts/bridge_connection4214.png"/>
+
+VisualBox网络桥接模式，防止虚拟机安装之后无法更新。
 
 ### 调整自适应分辨率
 
