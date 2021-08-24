@@ -250,6 +250,8 @@ Ubuntu下面执行如下指令：
 
 ### 提升Ubuntu系统硬盘的大小
 
+一开不建议中途去提升虚拟机硬盘大小，我这里初次安装的时候给虚拟机是45GB硬盘。如果实在不行，分配少了空间，后期再来提升UBUNTU硬盘，不过这里我的尝试遇到很多坑，还是建议一开始就设置到容量。
+
 首先是分配更多的空间给到visualBox的虚拟机。然后进入到Ubuntu种对磁盘进行再分配。
 
 <img src="https://cs-cn.top/images/posts/visual_disk_size5.png"/>
@@ -261,24 +263,6 @@ Ubuntu下面执行如下指令：
 加载到光盘之后，进入到Try Ubuntu里面。
 
 篇幅有限，这里推荐更加详细的地址：[How to increase the Disk Size of a Dynamically Allocated Disk in VirtualBox](https://ourcodeworld.com/articles/read/1434/how-to-increase-the-disk-size-of-a-dynamically-allocated-disk-in-virtualbox)
-
-### 修改Go的Proxy
-
-执行下面命令：
-
-```go env -w GOPROXY=https://goproxy.cn,direct```
-
-修改之后，vscode安装各种相关的工具就顺畅很多了
-
-<img src="https://cs-cn.top/images/posts/golang_tools59.png"/>
-
-
-
-
-
-
-
-
 
 
 
