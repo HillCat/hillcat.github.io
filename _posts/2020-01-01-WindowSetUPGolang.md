@@ -8,6 +8,12 @@ keywords: Golang
 ---
 Golang的开发环境大部分的情况是使用Linux居多。下面对于VisualBox在windows10系统中安装配置Ubuntu桌面版20.0.X LTS版本整理如下：
 
+### 网络桥接模式
+
+<img src="https://cs-cn.top/images/posts/bridge_connection4214.png"/>
+
+VisualBox网络桥接模式，防止虚拟机安装之后无法更新。
+
 ### 修改Ubuntu镜像源
 
 因为国内网速的问题，Ubuntu的镜像源需要设置为国内的阿里巴巴或者其他镜像。这个对于Ubuntu而是非常简单的，可以参考：[https://blog.csdn.net/laoluobo76/article/details/108302191](https://blog.csdn.net/laoluobo76/article/details/108302191)
@@ -16,15 +22,11 @@ Golang的开发环境大部分的情况是使用Linux居多。下面对于Visual
 
 因为Ubuntu可以直接在图像界面下修改镜像源地址为国内的，所以它比Centos和苹果的IOS其实更加适合程序员用来做为Linux开发环境。
 
-### 网络桥接模式
 
-<img src="https://cs-cn.top/images/posts/bridge_connection4214.png"/>
-
-VisualBox网络桥接模式，防止虚拟机安装之后无法更新。
 
 ### 调整自适应分辨率
 
-现在一般台式机的显示器都是23寸的。而VisualBox虚拟机安装完Ubuntu之后，还需把桌面分辨率调节一下，并且如果是做为开发环境的话，显卡的显存分配，刷新率这些都需要调整到最佳状态。
+更新了各种包之后，开始设置Ubuntu分辨率。现在一般台式机的显示器都是23寸的。而VisualBox虚拟机安装完Ubuntu之后，还需把桌面分辨率调节一下，并且如果是做为开发环境的话，显卡的显存分配，刷新率这些都需要调整到最佳状态。
 
 在执行了：apt-get install update && apt-get install upgrade 之后，执行如下代码：
 
