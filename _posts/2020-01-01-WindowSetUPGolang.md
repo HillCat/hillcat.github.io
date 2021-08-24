@@ -138,6 +138,46 @@ sudo nano /etc/hostname
 
 就可以看到显示的golang版本了。
 
+#### 设置golang在ubuntu中的PATH
+
+执行下面的命令，编辑profile文件，
+
+`vim $HOME/.profile`
+
+<img src="https://cs-cn.top/images/posts/golang_path219.png"/>
+
+在配置文件的底部增加：
+
+`export PATH=$PATH:/usr/local/go/bin`
+
+保存之后退出vim，之后执行如下命令：
+
+`source $HOME/.profile`
+
+正确设置完毕，如下：
+
+<img src="https://cs-cn.top/images/posts/echo_path719.png"/>
+
+### Ubuntu安装vs code
+
+Vs code安装到ubuntu上面做为golang的主要开发工具。首先是firefox浏览器进入到vs code 官方，下载ubuntu版本的安装包。
+
+<img src="https://cs-cn.top/images/posts/vs_code_file224.png"/>
+
+ubuntu 20.0.X版本安装的时候，右键选择install的时候会发现没有任何反应，可以换一个安装方法：
+
+<img src="https://cs-cn.top/images/posts/open_with_install0253.png"/>
+
+`sudo apt update`
+
+`sudo apt install gdebi`
+
+鼠标右键，改用另外的软件来打开vs code安装包：
+
+<img src="https://cs-cn.top/images/posts/Gdebi_install24.png"/>
+
+<img src="https://cs-cn.top/images/posts/installation_message337.png"/>
+
 
 
 ### 修改Go的Proxy
