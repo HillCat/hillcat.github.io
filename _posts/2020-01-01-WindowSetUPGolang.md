@@ -52,7 +52,7 @@ VisualBox网络桥接模式，防止虚拟机安装之后无法更新。
 
 <img src="https://cs-cn.top/images/posts/open_teminal22537.png"/>
 
-然后Terminal中敲入命令行 ./AutoRun.sh  ,执行光盘程序中的文件，安装相应的扩展：
+然后Terminal中敲入命令行 ./autorun.sh  ,执行光盘程序中的文件，安装相应的扩展：
 
 <img src="https://cs-cn.top/images/posts/autorunsh2843.png"/>
 
