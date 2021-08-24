@@ -490,3 +490,8 @@ public static void BasicHandling()
     }
 ```
 
+
+
+### 多线程中Channel对象
+
+Channel对象是 System.Threading.Channels命名空间的，主要的作用是用于多线程的“生产者”和“消费者”场景下，它的主要作用是解耦“生产者”和“消费者”。
