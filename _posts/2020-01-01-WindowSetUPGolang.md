@@ -112,6 +112,12 @@ sudo nano /etc/hostname
 
 其他更多扩展：oh my zsh安装插件，卸载oh myzsh ，参考：[How to Install OH-MY-ZSH in Ubuntu 20.04](https://www.tecmint.com/install-oh-my-zsh-in-ubuntu/)
 
+
+
+如果是在Bash Shell情况下切换到zsh，直接敲入命令行：zsh  即可
+
+
+
 #### shell命令自动提示
 
 在安装了oh my zsh之后，我们使用git命令来测试下，这个shell命令工具是怎么提供提示信息的，比如我们敲入git，然后**按两下Tab键**，这个时候，下面会弹出来一堆提示信息，都是跟git指令相关的，而且这些提示补全指令，都是可以通过上下方向箭头去选择的，有了这个oh my zsh之后就非常方便。
@@ -132,41 +138,87 @@ sudo nano /etc/hostname
 
 ### 安装Golang
 
-由于国内没办法访问google的一些网站，所以国外的golang官方下载的linux的golang压缩包，只能够通过宿主机windows下载之后，拖拽到Ubuntu虚拟机中，然后根据golang官方文档安装到Ubuntu并且设置好相应路径：
+把Golang的压缩包文件放到Ubuntu的Dowloads路径下面，
 
-把从官方下载的golang压缩包解压到Ubuntu的/usr/local下面，那么这个路径下面就会多出来一个go文件夹
+执行解压缩：
 
-`sudo tar -C /usr/local -xzf go1.17.linux-amd64.tar.gz`
+`tar -xvf go1.17.linux-amd64.tar.gz`
 
-然后是设置Path路径为go的bin目录，
+设置权限：
 
-`export PATH=$PATH:/usr/local/go/bin`
+`sudo chown -R root:root ./go`
 
-这样子设置之后，通过敲入：
+移动位置到/usr/lcoal:
 
-`go version`
+`sudo mv go /usr/local`
 
-就可以看到显示的golang版本了。
+使用nano打开profile文件,配置golang的PATH路径：
 
-#### 设置golang在ubuntu中的PATH
+`nano ~/.profile`
 
-执行下面的命令，编辑profile文件，
+在文件底部加入：
 
-`vim $HOME/.profile`
+```  #add go to the path 
+export PATH=$PATH:/usr/local/go/bin
+```
 
-<img src="https://cs-cn.top/images/posts/golang_path219.png"/>
+执行：
 
-在配置文件的底部增加：
+`source ~/.profile`
 
-`export PATH=$PATH:/usr/local/go/bin`
+以上golang的环境变量就配置好了，接下来是配置golang的国内镜像和开启Module管理
 
-保存之后退出vim，之后执行如下命令：
+#### 启动Go Modules功能
 
-`source $HOME/.profile`
+`go env -w GO111MODULE=on`
 
-正确设置完毕，如下：
 
-<img src="https://cs-cn.top/images/posts/echo_path719.png"/>
+
+#### 配置golang七牛云镜像
+
+`go env -w GOPROXY=https://goproxy.cn,direct`
+
+验证镜像：go env | grep GOPROXY
+
+测试代理: ``time go get golang.org/x/tour``
+
+
+
+把它配置到环境变量中：
+
+```echo "export GO111MODULE=on" >> ~/.profile
+echo "export GO111MODULE=on" >> ~/.profile
+```
+
+```
+echo "export GOPROXY=https://goproxy.cn" >> ~/.profile
+```
+
+```
+source ~/.profile
+```
+
+搞定镜像代理之后，vscode命令行安装go的模块才能成功:
+
+<img src="https://cs-cn.top/images/posts/already_togo36.png"/>
+
+
+
+#### 私有模块和公有模块设置
+
+如果你使用的 Go 版本 >=1.13, 你可以通过设置 `GOPRIVATE` 环境变量来控制哪些私有仓库和依赖 (公司内部仓库) 不通过 proxy 来拉取，直接走本地，设置如下：
+
+```
+go env -w GOPROXY=https://goproxy.cn,direct
+```
+
+设置不走 proxy 的私有仓库，多个用逗号相隔
+
+```
+go env -w GOPRIVATE=*.corp.example.com
+```
+
+
 
 ### Ubuntu安装vs code
 
@@ -189,6 +241,12 @@ ubuntu 20.0.X版本安装的时候，右键选择install的时候会发现没有
 <img src="https://cs-cn.top/images/posts/installation_message337.png"/>
 
 
+
+### 移除Vs Code
+
+Ubuntu下面执行如下指令：
+
+`sudo apt purge code`
 
 ### 提升Ubuntu系统硬盘的大小
 
