@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Ubuntu的VisualBox设置
+title: Golang_Ubuntu环境
 categories: Go
 description: Golang相关笔记
 keywords: Golang
