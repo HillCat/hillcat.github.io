@@ -6,7 +6,7 @@ categories: Go
 description: Golang相关笔记
 keywords: Golang
 ---
-Golang的开发环境大部分的情况是使用Linux居多。下面对于VisualBox在windows10系统中安装配置Ubuntu桌面版20.0.X LTS版本整理如下：
+Golang的开发环境大部分的情况是使用Linux居多。下面对于VisualBox在windows10系统中安装配置Ubuntu桌面版20.0.X LTS版本整理如下：刚开始安装Ubuntu的时候，**务必保证分配到45G左右的空间**，如果分配空间太少的话，会遇到System Root空间不足的告警，后期再去修改磁盘空间大小会遇到很多坑。
 
 ### 网络桥接模式
 
