@@ -92,7 +92,7 @@ sudo nano /etc/hostname
 
 在苹果笔记本上面很多人喜欢使用iterm2这个命令提示的shell，而之前我用过一段时间的zsh，这个[oh my zsh](https://github.com/ohmyzsh/ohmyzsh)是zsh的增强版本，带有智能提示，Github中的Star数量是132k，人气特别高的一个开源项目。特别是对于经常忘记Linux指令的人，非常有用。这里考虑用oh my zsh替换掉Ubuntu默认的bash shell。当然，这两个shell是可以互相切换的。不用担心，为了以防万一，操作之前对虚拟机进行快照备份。
 
-1.首先是安装zsh：执行：sudo apt isntall zsh
+1.首先是安装zsh：执行：sudo apt install zsh
 
 2.把默认shell设置为zsh:  
 
