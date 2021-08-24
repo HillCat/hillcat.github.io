@@ -12,7 +12,11 @@ Golang的开发环境大部分的情况是使用Linux居多。下面对于Visual
 
 因为国内网速的问题，Ubuntu的镜像源需要设置为国内的阿里巴巴或者其他镜像。这个对于Ubuntu而是非常简单的，可以参考：[https://blog.csdn.net/laoluobo76/article/details/108302191](https://blog.csdn.net/laoluobo76/article/details/108302191)
 
+<img src="https://cs-cn.top/images/posts/set_aliyun_mirror314.png"/>
+
 因为Ubuntu可以直接在图像界面下修改镜像源地址为国内的，所以它比Centos和苹果的IOS其实更加适合程序员用来做为Linux开发环境。
+
+
 
 ### 调整自适应分辨率
 
@@ -179,6 +183,20 @@ ubuntu 20.0.X版本安装的时候，右键选择install的时候会发现没有
 <img src="https://cs-cn.top/images/posts/installation_message337.png"/>
 
 
+
+### 提升Ubuntu系统硬盘的大小
+
+首先是分配更多的空间给到visualBox的虚拟机。然后进入到Ubuntu种对磁盘进行再分配。
+
+<img src="https://cs-cn.top/images/posts/visual_disk_size5.png"/>
+
+然后是进入到Ubuntu镜像光盘里面的GPart工具里面：
+
+<img src="https://cs-cn.top/images/posts/GPart_tools607.png"/>
+
+加载到光盘之后，进入到Try Ubuntu里面。
+
+篇幅有限，这里推荐更加详细的地址：[How to increase the Disk Size of a Dynamically Allocated Disk in VirtualBox](https://ourcodeworld.com/articles/read/1434/how-to-increase-the-disk-size-of-a-dynamically-allocated-disk-in-virtualbox)
 
 ### 修改Go的Proxy
 
