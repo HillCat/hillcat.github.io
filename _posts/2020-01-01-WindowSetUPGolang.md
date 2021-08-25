@@ -30,7 +30,9 @@ VisualBox网络桥接模式，防止虚拟机安装之后无法更新。
 
 在执行了：apt-get install update && apt-get install upgrade 之后，执行如下代码：
 
-```sudo apt install virtualbox-guest-dkms```
+```csharp
+sudo apt install virtualbox-guest-dkms
+```
 
 安装完上面这个dkms之后，需要关机，VisualBox中对虚拟机的显卡缓存拉到最大并且开启3D加速：
 
@@ -188,15 +190,16 @@ export PATH=$PATH:/usr/local/go/bin
 
 把它配置到环境变量中：
 
-```echo "export GO111MODULE=on" >> ~/.profile
+```csharp
+echo "export GO111MODULE=on" >> ~/.profile
 echo "export GO111MODULE=on" >> ~/.profile
 ```
 
-```
+```csharp
 echo "export GOPROXY=https://goproxy.cn" >> ~/.profile
 ```
 
-```
+```csharp
 source ~/.profile
 ```
 
@@ -210,13 +213,13 @@ source ~/.profile
 
 如果你使用的 Go 版本 >=1.13, 你可以通过设置 `GOPRIVATE` 环境变量来控制哪些私有仓库和依赖 (公司内部仓库) 不通过 proxy 来拉取，直接走本地，设置如下：
 
-```
+```csharp
 go env -w GOPROXY=https://goproxy.cn,direct
 ```
 
 设置不走 proxy 的私有仓库，多个用逗号相隔
 
-```
+```csharp
 go env -w GOPRIVATE=*.corp.example.com
 ```
 
