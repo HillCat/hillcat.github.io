@@ -96,9 +96,7 @@ echo xfce4-session > ~/.xsession
 
 <img src="https://cs-cn.top/images/posts/firefox_noInstall513.png"/>
 
-执行：sudo apt install firefox
-
-### 
+执行：sudo apt install firefox 就可以给Ubuntu安装FireFox浏览器，不过这种方法只是给WSL2里面的Ubuntu使用桌面端提供方便，更好的办法还是使用Oracle公司的VisualBox虚拟机来创建完整版的Ubuntu，因为微软win10系统内置的这个Ubuntu是个阉割版本，而且对于一些基于Linux开发环境比较严格的开发语言和编译环境，还是推荐使用VisualBox，它和win10上面的DockerDeskTop软件不会发生冲突，而Vmware这个虚拟机和win10上面的WSL2有冲突问题。VisualBox搭建Ubuntu开发环境参考这篇：[Golang_Ubuntu环境](https://cs-cn.top/2020/01/01/WindowSetUPGolang/)
 
 
 
