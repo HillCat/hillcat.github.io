@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Out和Ref区别
-categories: interview
+categories: DotNetBasic
 description: .net面试
 keywords: English
 ---
