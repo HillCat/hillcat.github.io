@@ -158,9 +158,11 @@ sudo nano /etc/hostname
 
 在文件底部加入：
 
-```  #add go to the path 
+```csharp
 export PATH=$PATH:/usr/local/go/bin
 ```
+
+
 
 执行：
 
