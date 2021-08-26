@@ -131,6 +131,32 @@ Resharp官方文档：如果是首次安装Resharp，请查阅官方文档：[�
 
 **Ctrl + Atl + /**        对于选中的代码块，注释、取消注释，都是这3个组合键。参考官方文档：[注释和取消注释代码](https://www.jetbrains.com/help/resharper/Coding_Assistance__Comment_Uncomment_Code.html)
 
+#### 9.快速打开文件位置
+
+快速打开一个cs文件所在的硬盘位置：
+
+<img src="https://cs-cn.top/images/posts/fast_open_file822.gif"/>
+
+Copy Full Path拷贝全路径：
+
+<img src="https://cs-cn.top/images/posts/copy_full_path50.png"/>
+
+
+
+#### 10.快速实现接口
+
+快速实现接口的时候，visualstudio 2019默认是通过抛异常的方式实现接口的，类似如下这种效果：
+
+<img src="https://cs-cn.top/images/posts/throwing_property311.png"/>
+
+如果要弄成自动实现方式,这是为auto Property:
+
+<img src="https://cs-cn.top/images/posts/auto_property210.png"/>
+
+<img src="https://cs-cn.top/images/posts/auto_property435.gif"/>
+
+
+
 ### 5.VisualStudio的AI提示
 
 微软的AI代码提示功能靠下面的Visual Studio IntelliCode给出来的。
