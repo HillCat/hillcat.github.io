@@ -201,6 +201,12 @@ Ctrl + 鼠标左键
 
 这个功能最大的优点是查询速度非常快，实时定位到相应位置。
 
+#### 14.移除掉不必要的命名空间
+
+<img src="https://cs-cn.top/images/posts/removing_name_space357.gif"/>
+
+
+
 ### 5.VisualStudio的AI提示
 
 微软的AI代码提示功能靠下面的Visual Studio IntelliCode给出来的。
