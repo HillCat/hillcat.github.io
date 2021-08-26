@@ -165,7 +165,7 @@ Copy Full Path拷贝全路径：
 
 <img src="https://cs-cn.top/images/posts/edit_user_shortcut230.png"/>
 
-![image-20210827033106231](../images/posts/image-20210827033106231.png)
+<img src="https://cs-cn.top/images/posts/oulu_settings313.png"/>
 
 #### 12.跳转到定义字段
 
