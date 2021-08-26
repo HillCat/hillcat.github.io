@@ -173,7 +173,33 @@ Ctrl + 鼠标左键
 
 <img src="https://cs-cn.top/images/posts/ctrl_clickLeft27.gif"/>
 
+#### 13.Go To All
 
+<img src="https://cs-cn.top/images/posts/goes_to_all816.png"/>
+
+默认情况下，使用Ctrl + T 是可以呼出这个功能的，如下：
+
+<img src="https://cs-cn.top/images/posts/got_to_all5914.png"/>
+
+这个快捷键会被resharp的Search功能替换掉，如果觉得影响性能，可以不安装Resharper。这个快捷键原本是属于visualstudio的.
+
+<img src="https://cs-cn.top/images/posts/resharp_40943.png"/>
+
+
+
+<img src="https://cs-cn.top/images/posts/camel303.png"/>
+
+可以对驼峰命名的关键字进行匹配。
+
+而且还能自动跳转到相应的代码行，是实时响应式的：
+
+<img src="https://cs-cn.top/images/posts/jumper_codeline18.png"/>
+
+还可以限定某些文件类型：
+
+<img src="https://cs-cn.top/images/posts/limit_type628.png"/>
+
+这个功能最大的优点是查询速度非常快，实时定位到相应位置。
 
 ### 5.VisualStudio的AI提示
 
