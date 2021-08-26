@@ -167,6 +167,14 @@ Copy Full Path拷贝全路径：
 
 ![image-20210827033106231](../images/posts/image-20210827033106231.png)
 
+#### 12.跳转到定义字段
+
+Ctrl + 鼠标左键
+
+<img src="https://cs-cn.top/images/posts/ctrl_clickLeft27.gif"/>
+
+
+
 ### 5.VisualStudio的AI提示
 
 微软的AI代码提示功能靠下面的Visual Studio IntelliCode给出来的。
