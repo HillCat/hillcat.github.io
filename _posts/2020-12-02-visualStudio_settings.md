@@ -205,6 +205,12 @@ Ctrl + 鼠标左键
 
 <img src="https://cs-cn.top/images/posts/removing_name_space357.gif"/>
 
+#### 15.格式化代码
+
+Ctrl + E  D
+
+<img src="https://cs-cn.top/images/posts/ctrl_e_d350.png"/>
+
 
 
 ### 5.VisualStudio的AI提示
