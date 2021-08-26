@@ -211,6 +211,24 @@ Ctrl + E  D
 
 <img src="https://cs-cn.top/images/posts/ctrl_e_d350.png"/>
 
+<img src="https://cs-cn.top/images/posts/format_code1715.gif"/>
+
+#### 16.控制台中调试Csharp代码
+
+在命令控制台种直接执行调试某些C # 代码：
+
+<img src="https://cs-cn.top/images/posts/csharp_code_interface2424.png"/>
+
+在控制台里面，就像chrome的console种调试js代码一样方便：
+
+<img src="https://cs-cn.top/images/posts/console_csharp2611.png"/>
+
+#### 17. Alt + 上下方向键
+
+这个Alt 结合 键盘上面的方向键，上下箭头，是可以做到快速移动代码位置的，效果如下：
+
+<img src="https://cs-cn.top/images/posts/fast_removing140.gif"/>
+
 
 
 ### 5.VisualStudio的AI提示
