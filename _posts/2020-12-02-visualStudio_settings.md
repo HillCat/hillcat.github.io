@@ -6,7 +6,7 @@ description: VisualStudio常用技巧
 keywords: trpora
 ---
 
-VisualStudio中常用的快捷键：
+此文不定期整理VisualStudio使用的一些技巧。包括快捷键，还有插件的使用，一些重构代码的一些快捷方法。新版本的visual sutido特性的更新等。
 
 ### 1.常用快捷技巧
 
