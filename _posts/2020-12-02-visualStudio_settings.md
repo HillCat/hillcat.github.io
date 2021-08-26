@@ -143,7 +143,7 @@ Copy Full Path拷贝全路径：
 
 
 
-#### 10.快速实现接口
+#### 10.智能补全&&实现接口
 
 快速实现接口的时候，visualstudio 2019默认是通过抛异常的方式实现接口的，类似如下这种效果：
 
@@ -155,7 +155,17 @@ Copy Full Path拷贝全路径：
 
 <img src="https://cs-cn.top/images/posts/auto_property435.gif"/>
 
+#### 11.找到真实的接口实现
 
+一般情况下，如果实现类是一个接口类型的对象，我们定位这个类的方法的实现的时候，是定位到接口的里面去的，但是实际上我们需要找的是这个类对应方法的具体实现，使用F12快捷键明显是找不到具体的实现的，它会直接跳到接口里面：
+
+<img src="https://cs-cn.top/images/posts/jump_to_implemendation01.gif"/>
+
+使用Ctrl F12快捷键可以跳转到接口的实现，这个快捷键跟欧陆词典的快捷键设置会有冲突，如果安装了欧陆词典要注意。
+
+<img src="https://cs-cn.top/images/posts/edit_user_shortcut230.png"/>
+
+![image-20210827033106231](../images/posts/image-20210827033106231.png)
 
 ### 5.VisualStudio的AI提示
 
