@@ -30,7 +30,13 @@ Ctrl +R 连按2次：修改变量名。在安装了Resharp插件的时候，这�
 
 <img src="https://cs-cn.top/images/posts/editorTootip736.gif"/>
 
+#### 3.设置AI智能补全提示文字大小
 
+<img src="https://cs-cn.top/images/posts/statement_completion03.png"/>
+
+<img src="https://cs-cn.top/images/posts/statement_completion14344.png"/>
+
+具体的设置路径：Tools – Options – Environment - Fonts and Colors > Statement Completion
 
 ### 3.自动注入私有属性设置
 
@@ -237,7 +243,19 @@ Tools菜单栏，Get Tool and Fetures...
 
 <img src="https://cs-cn.top/images/posts/Add_Extension440.gif"/>
 
+#### 19.In line Hints
 
+行内提示功能，一般是Resharper插件中的功能，但是在vs2019中其实默认是没有被启用的，可以通过相关设置启用。
+
+在没有启用In Line Hints功能之前，我是通过安装Resharper来得到这种行内提示效果：
+
+<img src="https://cs-cn.top/images/posts/In_line_hints1451.png"/>
+
+尝试禁用Resharper插件，使用visual studio 2019自带的In Line Hints功能，把下面没有打勾的全部打上勾：
+
+<img src="https://cs-cn.top/images/posts/In_Line_Hints11311.png"/>
+
+不过总体感觉vs自带的行内提示还是没有Resharper的那种体验好。节省vs性能的时候可以使用自带的凑合用。自带的提示，Lambda的提示信息不要勾选上，要不然会显示过多的信息，干扰阅读代码。
 
 ### 5.VisualStudio的AI提示
 
