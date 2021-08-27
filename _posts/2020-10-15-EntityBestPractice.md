@@ -95,5 +95,38 @@ AddDbContext，把DbContext通过依赖注入的方式引入到系统中，并�
 
 <img src="https://cs-cn.top/images/posts/EntityFrameworkScript0028.png"/>
 
+如果这个Package Manager Console中的字体太小，也是可以调整的：
 
+<img src="https://cs-cn.top/images/posts/Package_Manager_Console104.png"/>
+
+
+
+#### Migration Tools
+
+非常容易忘记安装Migration Tools的Nuget工具包，会导致如下错误：
+
+<img src="https://cs-cn.top/images/posts/Migration308.png"/>
+
+<img src="https://cs-cn.top/images/posts/migration_tools506.png"/>
+
+定位到EFDataAccessLibray项目，使用Migration Tools,执行Add-Migration InitialDBCreation,得到一个Migration脚本。
+
+<img src="https://cs-cn.top/images/posts/Migration_Files244.png"/>
+
+在脚本中可以看到两个方法，一个是Up，一个是Down，Up是将要执行的语句，而Down是回滚语句。
+
+数据库外键这里，`FK_Addresses_People_PersonId`意思是Addresses Link到People表(通过PersonId)。principal是主表， constraints表示含有外键的这个表。PersonId是这个表里面的外键。`onDelete: ReferentialAction.Restrict`这是一种强关联的模式，主表在删除的时候，如果关联了外键，那么就需要连同外键一并删除。
+
+```c#
+ constraints: table =>
+                {
+                    table.PrimaryKey("PK_Addresses", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Addresses_People_PersonId",
+                        column: x => x.PersonId,
+                        principalTable: "People",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+```
 
