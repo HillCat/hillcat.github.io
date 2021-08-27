@@ -64,6 +64,8 @@ public class Person
 
 ### Startup.cs ConfigureServices
 
+AddDbContext，把DbContext通过依赖注入的方式引入到系统中，并且配置好options参数，设置好对SqlServer的配置。
+
 ```c#
  public void ConfigureServices(IServiceCollection services)
         {
@@ -74,6 +76,24 @@ public class Person
             services.AddRazorPages();
         }
 ```
+
+### addsettings.json
+
+配置好本地数据库地址
+
+```c#
+  "ConnectionStrings": {
+    "Default": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=EFDemoWeb;Integrated Security=True;"
+  } 
+```
+
+
+
+### DataMigration Stript
+
+<img src="https://cs-cn.top/images/posts/sql_exploer5750.png"/>
+
+<img src="https://cs-cn.top/images/posts/EntityFrameworkScript0028.png"/>
 
 
 
