@@ -130,3 +130,41 @@ AddDbContext，把DbContext通过依赖注入的方式引入到系统中，并�
                 });
 ```
 
+update-database命令执行完成之后，数据库得到第一次初始化，这个时候数据库中出了实体表之外，还会有个Migration的记录表，里面记录了Migration迁移所使用到的迁移记录的MigrationId。
+
+<img src="https://cs-cn.top/images/posts/migration_Id1153.png"/>
+
+
+
+### 对字段的长度进行修改
+
+<img src="https://cs-cn.top/images/posts/datatable2419.png"/>
+
+如果是普通的类，没有对其字段的长度进行限制，那么code first模式生成出来的table里面的string字段就是max的。
+
+我们可以分别对各个类的属性字段进行一定的限制。
+
+<img src="https://cs-cn.top/images/posts/limited_address2624.png"/>
+
+
+
+### 修改字段类型
+
+<img src="https://cs-cn.top/images/posts/zip_code23537.png"/>
+
+默认情况下string类型的字段会被自动创建为nvarchar(max)类型，如果要修改为varchar类型。
+
+```c#
+ [Required]
+        [MaxLength(10)]
+        [Column(TypeName = "varchar(10)")]
+        public string ZipCode { get; set; }
+```
+
+这个Column特性是位于命名空间： System.ComponentModel.DataAnnotations.Schema，使用codefrist模式相对而言在开发过程中是非常灵活方便的。如果是等到Application用户很多了，已经上了正式生产环境了，用户数量都已经非常多了，那个时候再来修改数据表字段类型就会很麻烦。
+
+<img src="https://cs-cn.top/images/posts/dataanotation_scheme3756.png"/>
+
+注意事项：修改字段长度的时候，有可能造成数据丢失。比如把FirstName长度为100的原来的表，修改为长度为50，如果原来的表中含有的数据中存在长度超过50的FirstName，当使用codefirst缩短为50的时候，原来数据库中的某些数据会被截断为50，造成数据丢失。
+
+<img src="https://cs-cn.top/images/posts/Migration_Validation0705.png"/>
