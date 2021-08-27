@@ -229,6 +229,14 @@ Ctrl + E  D
 
 <img src="https://cs-cn.top/images/posts/fast_removing140.gif"/>
 
+选中一大段代码进行移动位置都是可以的。
+
+#### 18.给Vs增加新功能
+
+Tools菜单栏，Get Tool and Fetures...
+
+<img src="https://cs-cn.top/images/posts/Add_Extension440.gif"/>
+
 
 
 ### 5.VisualStudio的AI提示
