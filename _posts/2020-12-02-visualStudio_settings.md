@@ -241,6 +241,8 @@ Ctrl + E  D
 
 Tools菜单栏，Get Tool and Fetures...
 
+很多时候都是寻找微软的那个exe更新器给vs更新或者卸载模块，其实这里有个菜单可以直接对vs模块功能增加删除。
+
 <img src="https://cs-cn.top/images/posts/Add_Extension440.gif"/>
 
 #### 19.In line Hints
