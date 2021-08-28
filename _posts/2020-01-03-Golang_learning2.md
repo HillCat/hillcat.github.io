@@ -356,14 +356,12 @@ go mod edit -replace example.com/greetings=../greetings
 
 当我们执行完上面这个语句的时候，在mod文件中应该看到如下,这里其实是把原来的那个url形式的路径给重定向到了Linux中的相对路径中，指向了greetings这个文件夹。
 
-<img src="https://cs-cn.top/images/posts/redrect0347.png"/>
-
 go.mod文件里面的所有代码如下：
 
 ````go
 module example.com/hello
 
-go 1.17
+go 1.13
 
 require rsc.io/quote v1.5.2
 
