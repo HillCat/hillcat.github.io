@@ -327,7 +327,7 @@ Println(“sdfsfsdsfsdfdsf”，
 
 ### Go语言额外的package
 
-在golang的官方文档中，引入了rsc.io/quote这个模块，地址是：`https://pkg.go.dev/rsc.io/quote`,在index中列出来了可以被外部调用的几个函数。对于其他的package也基本都是这样子，在https://pkg.go.dev/这个网站可以搜索自己需要的package。
+在**[golang的官方文档](https://golang.org/doc/tutorial/getting-started)**示例中，使用了rsc.io/quote这个模块来做为演示，并且官方文档给出了这个模块的地址是：`https://pkg.go.dev/rsc.io/quote`,在index中列出来了该模块可以被外部调用的几个函数。如果要使用其他模块，可以在https://pkg.go.dev/这个网站可以搜索自己需要的package。
 
 <img src="https://cs-cn.top/images/posts/golang_package0616.png"/>
 
@@ -377,7 +377,182 @@ When you ran `go mod tidy`, it located and downloaded the `rsc.io/quote` module 
 
 
 
+### 创建Go模块
 
+创建go模块这个章节，官方给出了下面7个小节：
+
+1. Create a module -- Write a small module with functions you can call from another module.
+2. [Call your code from another module](https://golang.org/doc/tutorial/call-module-code.html) -- Import and use your new module.
+3. [Return and handle an error](https://golang.org/doc/tutorial/handle-errors.html) -- Add simple error handling.
+4. [Return a random greeting](https://golang.org/doc/tutorial/random-greeting.html) -- Handle data in slices (Go's dynamically-sized arrays).
+5. [Return greetings for multiple people](https://golang.org/doc/tutorial/greetings-multiple-people.html) -- Store key/value pairs in a map.
+6. [Add a test](https://golang.org/doc/tutorial/add-a-test.html) -- Use Go's built-in unit testing features to test your code.
+7. [Compile and install the application](https://golang.org/doc/tutorial/compile-install.html) -- Compile and install your code locally.
+
+根据官方文档的步骤，在Ubuntu的Home文件夹里面创建一个greetings文件夹，然后进入这个文件夹：
+
+<img src="https://cs-cn.top/images/posts/create_module2359.png"/>
+
+#### 创建自己的module
+
+在创建自己的module之前，需要向初始化，初始化的目的就是为了提供一个模块的路径，就是万一那天你发布了你自己的私人模块的module的时候，你要让go能够通过网络找到你这个模块的直接下载网址，也就是你自己的私人模块的仓库地址：
+
+比如这里举例 ，提供的module下载地址是： example.com/greetings
+
+那么module初始化命令如下：
+
+```shell
+➜  greetings go mod init example.com/greetings
+go: creating new go.mod: module example.com/greetings
+
+```
+
+执行完上面的命令之后，go会在当前目录下面创建一个go.mod文件用来追踪你引用的模块的变更。也就是你的代码依赖了哪些模块，这个有点类似于.net里面的nuget包管理，但是go语言这里对于第三方包的管理还没有一个官方的统一管理地址。这个go.mod文件主要是记录你所依赖的包的版本信息，其实这个地方跟.net的csproj项目信息里面的记录的包信息类似。当然，你也可以直接修改go.mod里面所依赖的模块的版本号来决定你需要使用哪个版本。
+
+<img src="https://cs-cn.top/images/posts/create_greeting.go3351.png"/>
+
+在greetings文件夹中创建greetings.go文件，并且粘贴如下代码：
+
+````go
+package greetings
+
+import "fmt"
+
+// Hello returns a greeting for the named person.
+func Hello(name string) string {
+    // Return a greeting that embeds the name in a message.
+    message := fmt.Sprintf("Hi, %v. Welcome!", name)
+    return message
+}
+````
+
+In Go, the `:=` operator is a shortcut for declaring and initializing a variable in one line (Go uses the value on the right to determine the variable's type).
+
+操作符`:=`在go语言中代表了两个动作，一个是声明，一个是初始化。`:`表示是声明一个变量，`=`表示是初始化一个变量。 
+
+而上面这个简短的写法，是用一行代码，同时表示了对变量的声明和初始化操作。
+
+`message := fmt.Sprintf("Hi, %v. Welcome!", name)`
+
+如果要用分步骤的写法来表示上面这个代码的话，等价的写法如下：
+
+```go
+var message string
+message = fmt.Sprintf("Hi, %v. Welcome!", name)
+```
+
+上面个代码，`fmt.Sprintf("Hi, %v. Welcome!", name)`调用的是Springf函数，这个函数里面有两个参数，第一个参数是格式化之后的字符串，而Sprintf会用name变量的value去替换掉字符串中的`%v` ，其实这个v是value的缩写，还是比较好理解的。
+
+#### 调用module
+
+下面我们需要使用之前hello文件夹里面的代码来调用greetings文件夹中的module，在ubuntu的home目录里面，已经有了如下两个目录：
+
+```
+<home>/
+ |-- greetings/
+ |-- hello/
+```
+
+<img src="https://cs-cn.top/images/posts/greetings_hello4735.png"/>
+
+为了能够在hello.go中调用这个greetings.go模块，需要修改hello.go代码如下：
+
+<img src="https://cs-cn.top/images/posts/hello.go005.png"/>
+
+````go
+package main
+
+import (
+    "fmt"
+
+    "example.com/greetings"
+)
+
+func main() {
+    // Get a greeting message and print it.
+    message := greetings.Hello("Gladys")
+    fmt.Println(message)
+}
+````
+
+从这个代码中，需要几点说明：
+
+在go语言中，如果你的代码是做为application执行的，那么必须要声明在main包里面。这个有点类似于.net里面的application的概念，在.net里面也有module的概念。类似。
+
+上面的代码引入了 “fmt" 和 ”example.com/greetings"两个packages，这使得你的代码能够访问这个两个packages里面的函数，导入了“example.com/greetings"这个包，里面含有你之前创建的模块，让你可以访问Hello函数；而导入"fmt"这个包，使得你可以调用包里面输入输出的功能，比如在控制台中打印字符串。
+
+##### 调用本地的module
+
+因为这个是官方的测试代码，为了演示module的调用，我们刚才创建的greetings模块还没有上传到网络仓库中，如果是生产环境，我们是需要上传模块到一个网络仓库的，只有那样go才能够在生产环境中下载到模块的引用。这里是测试，在本地开发，我们需要让go语言模块的检测到这个greetings的时候，把它给重定向到本地路径中来。
+
+因为是hello目录中的代码在调用这个greetings模块，所以我们修改hello文件夹中的mod配置文件，进入到hello目录执行如下指令：
+
+````go
+go mod edit -replace example.com/greetings=../greetings
+````
+
+当我们执行完上面这个语句的时候，在mod文件中应该看到如下,这里其实是把原来的那个url形式的路径给重定向到了Linux中的相对路径中，指向了greetings这个文件夹。
+
+<img src="https://cs-cn.top/images/posts/redrect0347.png"/>
+
+go.mod文件里面的所有代码如下：
+
+````go
+module example.com/hello
+
+go 1.17
+
+require rsc.io/quote v1.5.2
+
+require (
+        golang.org/x/text v0.0.0-20170915032832-14c0d48ead0c // indirect
+        rsc.io/sampler v1.3.0 // indirect
+)
+
+replace example.com/greetings => ../greetings
+
+````
+
+为了让我们修改go.mod之后的模块做到同步，执行:
+
+`go mod tidy`
+
+在Ubuntu中控制台执行情况如下：
+
+```sh
+➜  hello go mod tidy
+go: found example.com/greetings in example.com/greetings v0.0.0-00010101000000-000000000000
+
+```
+
+执行了上面的命令之后，go在本地环境中找到了greetings这个依赖，并且生成了一个假的版本号，这个版本号是带有语义的，实际上不存在这样子的版本号。如果go检测到的模块是一个已经发布在网络上的确切的模块，那么会以一个确定的版本号显示出来。
+
+关于模块的版本号，go官方文档有明确的规定，具体请看 [Module version numbering](https://golang.org/doc/modules/version-numbers)。
+
+最后执行下面的命令，运行你的hello.go代码：
+
+
+
+```shell
+➜  hello go run .
+Hi, Gladys. Welcome!
+➜  hello 
+
+```
+
+Congrats! You've written two functioning modules.
+
+官方示例这里说的是：You've written two functioning modules. 也就是说，这样子编写的模块是`功能模块`，分别是hello和greetings.
+
+
+
+### go官方快速入门教程
+
+go官方网站提供了一个快速入门的系列教程，让你快速了解go语言的所有的语法，地址是:[A Tour of Go](https://tour.golang.org/welcome/1)
+
+<img src="https://cs-cn.top/images/posts/A_Tour_of_GO144.png"/>
+
+个人认为，作为一个有多年开发经验的.net，直接看[官方文档](https://tour.golang.org/welcome/1)是最快速的熟悉go的方法。
 
 
 
