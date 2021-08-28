@@ -32,6 +32,8 @@ Ctrl +R 连按2次：修改变量名。在安装了Resharp插件的时候，这�
 
 #### 3.设置AI智能补全提示文字大小
 
+AI智能补全是微软新出来的一个vs增强功能，很多时候这个AI提示字体非常小，把它字体设置稍微大一些，提升开发体验。
+
 <img src="https://cs-cn.top/images/posts/statement_completion03.png"/>
 
 <img src="https://cs-cn.top/images/posts/statement_completion14344.png"/>
