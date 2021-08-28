@@ -325,7 +325,7 @@ Println(“sdfsfsdsfsdfdsf”，
 
 
 
-### Go语言额外的package
+### Golang中的package
 
 在**[golang的官方文档](https://golang.org/doc/tutorial/getting-started)**示例中，使用了rsc.io/quote这个模块来做为演示，并且官方文档给出了这个模块的地址是：`https://pkg.go.dev/rsc.io/quote`,在index中列出来了该模块可以被外部调用的几个函数。如果要使用其他模块，可以在https://pkg.go.dev/这个网站可以搜索自己需要的package。
 
@@ -377,7 +377,7 @@ When you ran `go mod tidy`, it located and downloaded the `rsc.io/quote` module 
 
 
 
-### 创建Go模块
+### Golang中的module
 
 创建go模块这个章节，官方给出了下面7个小节：
 
@@ -544,15 +544,49 @@ Congrats! You've written two functioning modules.
 
 官方示例这里说的是：You've written two functioning modules. 也就是说，这样子编写的模块是`功能模块`，分别是hello和greetings.
 
+### 返回错误_处理错误
+
+用vim打开greetings.go文件，进入vim编辑模式，gg回到文件首行，dG删除整个文件内容，然后粘贴如下内容：
+
+```go
+package greetings
+
+import (
+    "errors"
+    "fmt"
+)
+
+// Hello returns a greeting for the named person.
+func Hello(name string) (string, error) {
+    // If no name was given, return an error with a message.
+    if name == "" {
+        return "", errors.New("empty name")
+    }
+
+    // If a name was received, return a value that embeds the name
+    // in a greeting message.
+    message := fmt.Sprintf("Hi, %v. Welcome!", name)
+    return message, nil
+}
+```
+
+<img src="https://cs-cn.top/images/posts/paste_code740.png"/>
+
+go语言的函数都是可以返回多个值的，具体请看go语言官方对于go语法特性的介绍[Multiple return values](https://golang.org/doc/effective_go#multiple-returns)。利用这个特性，修改greetings.go文件，让Hello这个函数返回了一个message，同时还返回错误信息，如果Hello方法接收到了name参数则返回的Error为空，如果name是空，则直接会通过errors.New抛出错误对象。
+
+- Add `nil` (meaning no error) as a second value in the successful return. That way, the caller can see that the function succeeded.
+
+如果函数没有报错，则返回的nil这个表示“没有错误”。作为Hello函数的第二个返回值返回，上层调用者就会知道被调用的Hello函数成功执行了。
 
 
-### go官方快速入门教程
+
+### golang官方快速入门教程
 
 go官方网站提供了一个快速入门的系列教程，让你快速了解go语言的所有的语法，地址是:[A Tour of Go](https://tour.golang.org/welcome/1)
 
 <img src="https://cs-cn.top/images/posts/A_Tour_of_GO144.png"/>
 
-个人认为，作为一个有多年开发经验的.net，直接看[官方文档](https://tour.golang.org/welcome/1)是最快速的熟悉go的方法。
+个人认为，作为一个有多年开发经验的.net，直接看[官方文档](https://tour.golang.org/welcome/1)是最快熟悉go的方法。
 
 
 
