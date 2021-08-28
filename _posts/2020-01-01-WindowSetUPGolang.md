@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Golang_Ubuntu环境
+title: Go语言快速入门
 categories: Go
 description: Golang相关笔记
 keywords: Golang
@@ -136,6 +136,12 @@ sudo nano /etc/hostname
 
 另外，拖动文件到Ubuntu里面都是可以的，也是在安装完VisualBoxAdditional之后才有的功能。
 
+### 关掉Ubuntu自动锁屏
+
+因为是在windows的VisualBox虚拟机环境使用Ubuntu，本身windows有锁屏功能，虚拟机Ubuntu的锁屏时间很短，只有5分钟，为了开发方便，直接关闭掉锁屏：
+
+<img src="https://cs-cn.top/images/posts/auto_lock_screen04900.png"/>
+
 
 
 ### 安装Golang
@@ -161,7 +167,11 @@ sudo nano /etc/hostname
 在文件底部加入：
 
 ```csharp
-export PATH=$PATH:/usr/local/go/bin
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+export GOPROXY=https://goproxy.cn
+
 ```
 
 
@@ -270,6 +280,100 @@ Ubuntu下面执行如下指令：
 篇幅有限，这里推荐更加详细的地址：[How to increase the Disk Size of a Dynamically Allocated Disk in VirtualBox](https://ourcodeworld.com/articles/read/1434/how-to-increase-the-disk-size-of-a-dynamically-allocated-disk-in-virtualbox)
 
 
+
+
+
+### Go语言格式化
+
+进入到需要格式化的文件目录，执行gofmt -w test.go
+
+<img src="https://cs-cn.top/images/posts/go_fmt5155.png"/>
+
+<img src="https://cs-cn.top/images/posts/go_format428.png"/>
+
+
+
+### GO语言的注释
+
+go官方推荐行注释的风格，基本很少看到块注释。
+
+行注释 就是： //
+
+
+
+### GO语言代码风格
+
+1.运算符之间有个空格。行代码需要有正确的缩进。
+
+2.GO语言设计者认为“一个问题尽量只有一个解决方案”，对于大括号的写法，第一个大括号必须紧贴着函数，而不能单独换行。
+
+<img src="https://cs-cn.top/images/posts/wrong_grammer_golang21.png"/>
+
+3.go语言建议一行不要超过80个字符，超过了的话尽量用换行来表示，尽量保持代码优雅性。
+
+如果是Println（"testsetstetstsetestetststestsetststsetsetstststet"）这种如果太长的话，建议使用逗号隔开，比如逗号会把换行的字符给拼接起来：
+
+```go
+Println(“sdfsfsdsfsdfdsf”，
+
+“sdfsdfsdfsf”，
+
+“sdfsdfsdfsdfsdfsf”)   
+```
+
+
+
+
+
+### Go语言额外的package
+
+在golang的官方文档中，引入了rsc.io/quote这个模块，地址是：`https://pkg.go.dev/rsc.io/quote`,在index中列出来了可以被外部调用的几个函数。对于其他的package也基本都是这样子，在https://pkg.go.dev/这个网站可以搜索自己需要的package。
+
+<img src="https://cs-cn.top/images/posts/golang_package0616.png"/>
+
+```go
+package main
+
+import "fmt"
+
+import "rsc.io/quote"
+
+func main() {
+    fmt.Println(quote.Go())
+}
+```
+
+
+
+<img src="https://cs-cn.top/images/posts/go_packages0243.png"/>
+
+引入额外的模块之后，通过mod tidy，go会去网络中自动查找模块，类似于.net中的nuget包管理，会自动从镜像中拉取额外的package包。
+
+````she
+➜  hello go mod tidy
+go: finding module for package rsc.io/quote
+go: downloading rsc.io/quote v1.5.2
+go: found rsc.io/quote in rsc.io/quote v1.5.2
+go: downloading rsc.io/sampler v1.3.0
+go: downloading golang.org/x/text v0.0.0-20170915032832-14c0d48ead0c
+
+````
+
+输入go run . 会执行该文件夹下面的hello.go文件，执行结果最终看到的是如下效果：
+
+````shell
+➜  hello go run .     
+Don't communicate by sharing memory, share memory by communicating.
+
+````
+
+详细的官方解释已经说得非常清楚：
+
+your code calls the `Go` function, printing a clever message about communication.
+
+When you ran `go mod tidy`, it located and downloaded the `rsc.io/quote` module that contains the package you imported. By default, it downloaded the latest version -- v1.5.2.
+
+当你运行go mod tidy的时候，go会自动加载并下载 `rsc.io/quote`模块，这个模块包含了你在hello.go中引入的package。默认情况下它下载的是最新版本。
 
 
 
