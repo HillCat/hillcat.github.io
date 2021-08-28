@@ -433,7 +433,7 @@ func Hello(name string) (string, error) {
 
 <img src="https://cs-cn.top/images/posts/paste_code740.png"/>
 
-go语言的函数都是可以返回多个值的，具体请看go语言官方对于go语法特性的介绍[Multiple return values](https://golang.org/doc/effective_go#multiple-returns)。利用这个特性，修改greetings.go文件，让Hello这个函数返回了一个message，同时还返回错误信息，如果Hello方法接收到了name参数则返回的Error为空，如果name是空，则直接会通过errors.New抛出错误对象。
+go语言的函数都是可以返回多个值的，具体请看go语言官方对于go语法特性的介绍[Multiple return values](https://golang.org/doc/effective_go#multiple-returns)。利用这个特性，修改greetings.go文件，让Hello这个函数返回了一个message，同时还返回错误信息，如果Hello方法接收到了name参数不为空字符则返回的error为空,即nil，如果name是空字符，则直接会通过errors.New抛出error对象。
 
 - Add `nil` (meaning no error) as a second value in the successful return. That way, the caller can see that the function succeeded.
 
@@ -503,11 +503,128 @@ Hi, caianhua. Welcome!
 
 ### 使用slice切片
 
+对于slice ，[官方文档](https://golang.org/doc/tutorial/random-greeting)是这么介绍的：
+
+````tex
+A slice is like an array, except that its size changes dynamically as you add and remove items. The slice is one of Go's most useful types.
+````
+
+由上面这段话知道，slice其实就是一个动态数组，跟 C # 里面的`可变长度的数组`是差不多的东西。并且这里还提到slice是go里面最有用的类型。
+
+关于slice更加详细的说明，参考官方博客这篇文章： [Go Slices: usage and internals](https://go.dev/blog/slices-intro) ，该文章用图文并茂的形式，详细解释了slice的用法和内部结构：
+
+<img src="https://cs-cn.top/images/posts/go_slices310.png"/>
 
 
 
+1.首先我们修改greetings.go文件中的代码，粘贴如下：
 
+````go
+package greetings
 
+import (
+    "errors"
+    "fmt"
+    "math/rand"
+    "time"
+)
+
+// Hello returns a greeting for the named person.
+func Hello(name string) (string, error) {
+    // If no name was given, return an error with a message.
+    if name == "" {
+        return name, errors.New("empty name")
+    }
+    // Create a message using a random format.
+    message := fmt.Sprintf(randomFormat(), name)
+    return message, nil
+}
+
+// init sets initial values for variables used in the function.
+func init() {
+    rand.Seed(time.Now().UnixNano())
+}
+
+// randomFormat returns one of a set of greeting messages. The returned
+// message is selected at random.
+func randomFormat() string {
+    // A slice of message formats.
+    formats := []string{
+        "Hi, %v. Welcome!",
+        "Great to see you, %v!",
+        "Hail, %v! Well met!",
+    }
+
+    // Return a randomly selected message format by specifying
+    // a random index for the slice of formats.
+    return formats[rand.Intn(len(formats))]
+}
+````
+
+以上的代码，[官方文档](https://golang.org/doc/tutorial/random-greeting)中有详细的解释，这里简要的记录如下：
+
+<img src="https://cs-cn.top/images/posts/remark_code389.png"/>
+
+这里的init()函数是给rand函数赋予一个种子值，目的是为了让rand函数在每次程序执行的时候，都得到不同的种子值，以产生真正的随机数，如果不提供种子值，那么rand.Seed给与的种子值默认是rand.Seed(1).产生出来的就是“伪随机数”。具体的解释，参考[官方文档Seed](https://pkg.go.dev/math/rand#Seed)小节。这里的seed接收的种子数是一个64位的长整型数。
+
+go标准库中，关于rand的详细解释：[https://pkg.go.dev/math/rand](https://pkg.go.dev/math/rand)
+
+2.如果hello.go中的参数为空，需要指定一个非空字符串，比如我传入字符串`caianhua`
+
+````go
+package main
+
+import (
+    "fmt"
+    "log"
+
+    "example.com/greetings"
+)
+
+func main() {
+    // Set properties of the predefined Logger, including
+    // the log entry prefix and a flag to disable printing
+    // the time, source file, and line number.
+    log.SetPrefix("greetings: ")
+    log.SetFlags(0)
+
+    // Request a greeting message.
+    message, err := greetings.Hello("caianhua")
+    // If an error was returned, print it to the console and
+    // exit the program.
+    if err != nil {
+        log.Fatal(err)
+    }
+
+    // If no error was returned, print the returned message
+    // to the console.
+    fmt.Println(message)
+}
+
+````
+
+3.最后我们执行一下，看看这个随机获取数组的功能是否生效：Terminal中执行多次，每次运行的结果都是随机的
+
+````shell
+➜  hello go run .
+Hail, caianhua! Well met!
+➜  hello go run .
+Great to see you, caianhua!
+➜  hello go run .
+Hail, caianhua! Well met!
+➜  hello go run .
+Hail, caianhua! Well met!
+➜  hello go run .
+Great to see you, caianhua!
+➜  hello go run .
+Hail, caianhua! Well met!
+➜  hello go run .
+Hi, caianhua. Welcome!
+➜  hello 
+
+````
+
+这就是slice的一个使用。
 
 ### golang官方快速入门教程
 
