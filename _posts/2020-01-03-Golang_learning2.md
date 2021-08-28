@@ -563,7 +563,7 @@ func randomFormat() string {
 }
 ````
 
-以上的代码，[官方文档](https://golang.org/doc/tutorial/random-greeting)中有详细的解释，这里简要的记录如下：
+以上的代码，[官方文档](https://golang.org/doc/tutorial/random-greeting)中有详细的解释，这里简要的记录如下：这里需要重点注意的是官方文档提到这里package内部的函数方法，如果是小写字母开头的方法，只能在package内部调用。这个有点类似 C # 里class中的私有方法，是不会被暴露给外面调用的，注意。
 
 <img src="https://cs-cn.top/images/posts/remark_code389.png"/>
 
