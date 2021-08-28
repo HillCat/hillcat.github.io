@@ -440,15 +440,89 @@ go语言的函数都是可以返回多个值的，具体请看go语言官方对�
 
 如果函数没有报错，则返回的nil这个表示“没有错误”。作为Hello函数的第二个返回值返回，上层调用者就会知道被调用的Hello函数成功执行了。
 
+<img src="https://cs-cn.top/images/posts/nil291.png"/>
+
+nil这个关键词，在官方文档很多地方的代码示例中都有出现：[Effecitve_go](https://golang.org/doc/effective_go#interfaces)，个人觉得nil它有点类似于.net C #里面的null，但是又不是完全相同，这里go语言主要是用来nil和error对象进行比较运算，判断函数内部是否发生了异常。比如： `if err == nil `   ,`err != nil`.
+
+2.上面已经修改了greetings.go文件，下面修改hello.go文件，贴入如下代码：
+
+```go
+package main
+
+import (
+    "fmt"
+    "log"
+
+    "example.com/greetings"
+)
+
+func main() {
+    // Set properties of the predefined Logger, including
+    // the log entry prefix and a flag to disable printing
+    // the time, source file, and line number.
+    log.SetPrefix("greetings: ")
+    log.SetFlags(0)
+
+    // Request a greeting message.
+    message, err := greetings.Hello("")
+    // If an error was returned, print it to the console and
+    // exit the program.
+    if err != nil {
+        log.Fatal(err)
+    }
+
+    // If no error was returned, print the returned message
+    // to the console.
+    fmt.Println(message)
+}
+```
+
+在修改之后的这个文件中，引入了log这个package，用来打印一些东西。如果是出现了错误，则使用log.Fatal函数来打印错误信息并且结束程序。因为Hello这里调用的时候就是传入的空字符串，所以返回了错误。ubuntu里面执行这个demo得到的效果如下：
+
+````sh
+➜  hello go run .
+greetings: empty name
+exit status 1
+➜  hello 
+
+````
+
+而如果传入一个有效值，执行结果会如何？
+
+<img src="https://cs-cn.top/images/posts/modify_hello_function2775.png"/>
+
+执行结果如下：
+
+````sh
+➜  hello go run .
+Hi, caianhua. Welcome!
+➜  hello 
+
+````
+
+以上就是go语言中对错误的处理。跟C # 和java 使用try  catch finally  去捕获异常，处理异常不同，这里go语言是直接通过error和nil来判断是否存在异常。然后它处理的异常方式和 C # 和 Java 完全不同的。
+
+### 使用slice切片
+
+
+
+
+
 
 
 ### golang官方快速入门教程
 
-go官方网站提供了一个快速入门的系列教程，让你快速了解go语言的所有的语法，地址是:[A Tour of Go](https://tour.golang.org/welcome/1)
+go官方网站提供了一个通过敲代码，让你快速入门的系列教程地址是:[A Tour of Go](https://tour.golang.org/welcome/1)：
 
 <img src="https://cs-cn.top/images/posts/A_Tour_of_GO144.png"/>
 
-个人认为，作为一个有多年开发经验的.net，直接看[官方文档](https://tour.golang.org/welcome/1)是最快熟悉go的方法。
+个人认为，作为一个有多年开发经验的.net，[动手敲代码的官方文档](https://tour.golang.org/welcome/1)是最快熟悉go的方法。
+
+### golang语法手册
+
+如果是要快速查找go官方对于go语法特性的定义，可以直接看 [Effective Go](https://golang.org/doc/effective_go)：
+
+<img src="https://cs-cn.top/images/posts/effective_go3953.png"/>
 
 
 
