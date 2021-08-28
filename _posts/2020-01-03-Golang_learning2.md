@@ -52,6 +52,8 @@ export GOPROXY=https://goproxy.cn
 
 #### 配置golang七牛云镜像
 
+其实在上面的配置项目中，已经在 ~/.profile文件中加入了七牛云镜像，在这里就不用重复操作了。这里只是演示，单独增加七牛云镜像配置，其实最终也是修改的~/.profile配置文件。
+
 `go env -w GOPROXY=https://goproxy.cn,direct`
 
 验证镜像：`go env | grep GOPROXY`
