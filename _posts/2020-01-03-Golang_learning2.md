@@ -42,7 +42,7 @@ export GOPROXY=https://goproxy.cn
 
 `source ~/.profile`
 
-以上golang的环境变量就配置好了，接下来是配置golang的国内镜像和开启Module管理
+注意：上面的配置文件其实已经配置好了七牛云镜像地址。`export GOPROXY=https://goproxy.cn`,要单独配置，请参考下面的配置golang七牛云镜像。
 
 #### 启动Go Modules功能
 
@@ -627,6 +627,21 @@ Hi, caianhua. Welcome!
 ````
 
 这就是slice的一个使用。
+
+#### Inital初始化函数
+
+上面的demo中用到了一个初始化函数：
+
+```go
+// init sets initial values for variables used in the function.
+func init() {
+    rand.Seed(time.Now().UnixNano())
+}
+```
+
+这里的备注，意思是：init初始化函数的作用是给某些变量提供初始值的，这些变量是被其他的函数内部所使用。
+
+而官方文档对于init初始化函数有更详细的介绍[The init function](https://golang.org/doc/effective_go#init)，这个初始化函数的执行是在所有其他变量初始化之后才执行的，并且是在所有被导入的package都被初始化之后，这些变量才会被初始化。inital的执行在这个两者之后。并且是一个package里面可以有多个初始化函数。这个感觉有点类似于web页面head中js加载，放在靠底部的js最后加载。也有点像jquery中的某些函数，要等到页面初始化之后再加载。
 
 ### golang官方快速入门教程
 
