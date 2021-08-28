@@ -54,7 +54,7 @@ export GOPROXY=https://goproxy.cn
 
 `go env -w GOPROXY=https://goproxy.cn,direct`
 
-验证镜像：go env | grep GOPROXY
+验证镜像：`go env | grep GOPROXY`
 
 测试代理: ``time go get golang.org/x/tour``
 
@@ -63,7 +63,6 @@ export GOPROXY=https://goproxy.cn
 把它配置到环境变量中：
 
 ```csharp
-echo "export GO111MODULE=on" >> ~/.profile
 echo "export GO111MODULE=on" >> ~/.profile
 ```
 
@@ -75,7 +74,7 @@ echo "export GOPROXY=https://goproxy.cn" >> ~/.profile
 source ~/.profile
 ```
 
-搞定镜像代理之后，vscode命令行安装go的模块才能成功:
+搞定镜像代理之后，vscode命令行安装go的若干module才能成功:
 
 <img src="https://cs-cn.top/images/posts/already_togo36.png"/>
 
