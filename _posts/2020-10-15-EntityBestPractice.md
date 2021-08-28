@@ -152,7 +152,7 @@ update-database命令执行完成之后，数据库得到第一次初始化，�
 
 <img src="https://cs-cn.top/images/posts/zip_code23537.png"/>
 
-默认情况下string类型的字段会被自动创建为nvarchar(max)类型，如果要修改为varchar类型。
+默认情况下string类型的字段会被自动创建为nvarchar(max)类型，如果要修改为varchar类型,使用Column Attribute进行标注。
 
 ```c#
  [Required]
