@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: EntityBestPractices
+title: EntityFramework最佳实践
 categories: .net
 description: EntityFrameworkBestPractices
 keywords: .net
@@ -168,3 +168,4 @@ update-database命令执行完成之后，数据库得到第一次初始化，�
 注意事项：修改字段长度的时候，有可能造成数据丢失。比如把FirstName长度为100的原来的表，修改为长度为50，如果原来的表中含有的数据中存在长度超过50的FirstName，当使用codefirst缩短为50的时候，原来数据库中的某些数据会被截断为50，造成数据丢失。
 
 <img src="https://cs-cn.top/images/posts/Migration_Validation0705.png"/>
+
