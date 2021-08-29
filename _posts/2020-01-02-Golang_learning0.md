@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Go语言入门导航
+title: Go语言官方文档
 categories: Go
 description: Golang相关笔记
 keywords: Golang
