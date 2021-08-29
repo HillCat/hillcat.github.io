@@ -6,13 +6,13 @@ categories: Go
 description: Golang相关笔记
 keywords: Golang
 ---
-Golang开发第一步，首先安装Golang开发环境，这里推荐使用windows下面VisualBox安装ubuntu作为golang开发环境。因为Linux下面原生环境，使用一些中间件都比较方便。刚开始安装Ubuntu的时候，**务必保证分配到45G左右的空间**，如果分配空间太少的话，会遇到System Root空间不足的告警，后期再去修改磁盘空间大小会遇到很多坑。
+Golang开发第一步，首先安装Golang开发环境，这里推荐使用windows下面VisualBox安装ubuntu作为golang开发环境。因为Go语言官方博客，官方文档很多的操作示例都是直接在Linux命令行操作的，为了学习者的开发环境和官方的手册博客上的一致性，方便学习。推荐使用ubuntu作为go开发环境。visualbox安装Ubuntu默认是分配10Gb硬盘空间，这个会导致内存空间不足的警告，因为是安装的完整版ubuntu，不是那种精简版的，所以尽量给虚拟机分配足够多的硬盘空间，我这里给ubuntu分配到45G左右的空间，如果分配空间太少的话，遇到System Root空间不足的告警，后期再去修改磁盘空间大小非常麻烦。
 
 ### 网络桥接模式
 
-<img src="https://cs-cn.top/images/posts/bridge_connection4214.png"/>
+为了能够让虚拟机安装的时候可以连接网络，这里设置为桥接模式。防止虚拟机安装之后无法更新。
 
-VisualBox网络桥接模式，防止虚拟机安装之后无法更新。
+<img src="https://cs-cn.top/images/posts/bridge_connection4214.png"/>
 
 ### 修改Ubuntu镜像源
 

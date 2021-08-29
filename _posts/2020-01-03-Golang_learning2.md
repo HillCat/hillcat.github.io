@@ -641,21 +641,6 @@ func init() {
 
 而官方文档对于init初始化函数有更详细的介绍[The init function](https://golang.org/doc/effective_go#init)，这个初始化函数的执行是在所有其他变量初始化之后才执行的，并且是在所有被导入的package都被初始化之后，这些变量才会被初始化。inital的执行在这个两者之后。并且是一个package里面可以有多个初始化函数。这个感觉有点类似于web页面head中js加载，放在靠底部的js最后加载。也有点像jquery中的某些函数，要等到页面初始化之后再加载。
 
-### golang官方快速入门教程
-
-go官方网站提供了一个通过敲代码，让你快速入门的系列教程地址是:[A Tour of Go](https://tour.golang.org/welcome/1)：
-
-<img src="https://cs-cn.top/images/posts/A_Tour_of_GO144.png"/>
-
-个人认为，作为一个有多年开发经验的.net，[动手敲代码的官方文档](https://tour.golang.org/welcome/1)是最快熟悉go的方法。
-
-### golang语法手册
-
-如果是要快速查找go官方对于go语法特性的定义，可以直接看 [Effective Go](https://golang.org/doc/effective_go)：
-
-<img src="https://cs-cn.top/images/posts/effective_go3953.png"/>
-
-
 
 
 

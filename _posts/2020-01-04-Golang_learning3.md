@@ -113,11 +113,11 @@ map[Darrin:Hail, Darrin! Well met! Gladys:Hail, Gladys! Well met! Samantha:Hi, S
 
 ```
 
-返回的是一个map类型的数据结构，这个数据结构类似于字典，但是又不完全跟字典相同。在默认key不存在的情况下，
+返回的是一个map类型的数据结构，这个数据结构类似于字典。
 
 ### Maps数据结构
 
-这一节的代码中使用到了Map这个数据结构，大体上来说这个数据结构有点类似于C # 里面的泛型字典。但是略有一些不同。
+这一节的代码中使用到了Map这个数据结构，大体上来说有点类似于C # 里面的泛型字典。但是略有一些不同。
 
 这是官网地址：[https://golang.org/doc/effective_go#maps](https://golang.org/doc/effective_go#maps)
 
@@ -438,7 +438,9 @@ b
 c
 ````
 
+#### 8.循环语句中使用break,continue
 
+[循环语句中使用break,continue](https://www.digitalocean.com/community/tutorials/using-break-and-continue-statements-when-working-with-loops-in-go)
 
 ### If语句
 
