@@ -139,3 +139,49 @@ go语言的正则表达式用法和其他语言的有点类似，具体的API使
 <img src="https://cs-cn.top/images/posts/fmt_printing4911.png"/>
 
 查看[fmt](https://pkg.go.dev/fmt)这个包的语法。
+
+### Go apllication安装
+
+进入到hello目录，执行go build命令，会把hello.go源文件直接编译为二进制可执行文件，但是需要进入到这个二进制文件的目录里面才能执行这个文件。如果通过安装的方式，使得每次不用指定绝对路径就可以执行我们的application呢，需要将go安装目录添加到系统的shell路径。
+
+首先，在hello文件夹中执行如下命令，知道当前应用的安装目录，得到的这个目录在下一步骤中会使用到。
+
+````go
+➜  hello go list -f '{{.Target}}'
+/home/caianhua/go/bin/hello
+
+````
+
+````go
+➜  ~ cd hello
+➜  hello export PATH=$PATH:/home/caianhua/go/bin/  
+````
+
+上面的代码实为了指定安装目录。
+
+````go
+➜  hello ls
+go.mod  go.sum  hello.go
+➜  hello go build
+➜  hello ls
+go.mod  go.sum  hello  hello.go
+➜  hello go install
+➜  hello hello 
+map[Darrin:Hi, Darrin. Welcome! Gladys:Great to see you, Gladys! Samantha:Great to see you, Samantha!]
+➜  hello cd ~
+➜  ~ hello
+map[Darrin:Hail, Darrin! Well met! Gladys:Hi, Gladys. Welcome! Samantha:Great to see you, Samantha!]
+➜  ~ 
+
+````
+
+如果你不想把自己开发的application安装到那个位置，可以通过如下命令修改，假设你先把这些自己开发的app安装在$HOME/bin 这个目录，
+
+可以修改安装目录：
+
+````go
+go env -w GOBIN=/home/caianhua/bin/
+````
+
+这样子就把hello可以执行文件安装到了 /home/caianhua/bin/ 目录
+
