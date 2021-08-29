@@ -133,7 +133,7 @@ attended := map[string]bool{
 }
 ```
 
-如果map的key是string类型，value是bool类型，当请求了一个不存在的key的时候，返回的就是false.
+如果map的key是string类型，value是bool类型，当请求了一个不存在的key的时候，返回的就是false.map不像其他语言一样获取不到的时候会报错，在go语言这里map如果获取一个不存在的数据，会直接返回false。
 
 #### map的初始化
 
@@ -214,6 +214,16 @@ func test4() {
 #### map中查找元素
 
 如果map中不存在对应key的值，那么它不会抛异常，如果key不存在则会返回bool值表示有没有查找到。
+
+#### 如何判断map中是否存在某个值
+
+````go
+if val, ok := dict["foo"]; ok {
+    //do something here
+}
+````
+
+
 
 ### For循环
 
