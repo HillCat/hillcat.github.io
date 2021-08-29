@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Go语言快速入门：map|for_range|for_loop(3)
+title: Go语言快速入门：map数据结构for循环(3)
 categories: Go
 description: Golang相关笔记
 keywords: Golang

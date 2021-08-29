@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Go语言快速入门:install_golang|slice|create_module(2)
+title: Go语言快速入门:Slice切换和Module(2)
 categories: Go
 description: Golang相关笔记
 keywords: Golang

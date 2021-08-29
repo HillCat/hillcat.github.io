@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Go语言快速入门：Add_a_Test(4)
+title: Go语言快速入门：测试Go(4)
 categories: Go
 description: Golang相关笔记
 keywords: Golang
