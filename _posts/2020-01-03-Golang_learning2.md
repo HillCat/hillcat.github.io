@@ -44,15 +44,13 @@ export GOPROXY=https://goproxy.cn
 
 注意：上面的配置文件其实已经配置好了七牛云镜像地址。`export GOPROXY=https://goproxy.cn`,要单独配置，请参考下面的配置golang七牛云镜像。
 
-#### 启动Go Modules功能
-
-`go env -w GO111MODULE=on`
-
 
 
 #### 配置golang七牛云镜像
 
-其实在上面的配置项目中，已经在 ~/.profile文件中加入了七牛云镜像，在这里就不用重复操作了。这里只是演示，单独增加七牛云镜像配置，其实最终也是修改的~/.profile配置文件。
+由于go是google公司的，很多网站在国内都是屏蔽了，需要把go相关的镜像切换到国内。
+
+其实在上面的配置项目中，已经在 ~/.profile文件中加入了七牛云镜像，在这里就不用重复操作了。这里只是演示，单独增加七牛云镜像配置，其实最终也是修改的~/.profile配置文件。除了配置镜像有些区别，大致上其他操作跟这个帖子类似：[How To Install Go on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-go-on-ubuntu-18-04)
 
 `go env -w GOPROXY=https://goproxy.cn,direct`
 
@@ -640,7 +638,6 @@ func init() {
 这里的备注，意思是：init初始化函数的作用是给某些变量提供初始值的，这些变量是被其他的函数内部所使用。
 
 而官方文档对于init初始化函数有更详细的介绍[The init function](https://golang.org/doc/effective_go#init)，这个初始化函数的执行是在所有其他变量初始化之后才执行的，并且是在所有被导入的package都被初始化之后，这些变量才会被初始化。inital的执行在这个两者之后。并且是一个package里面可以有多个初始化函数。这个感觉有点类似于web页面head中js加载，放在靠底部的js最后加载。也有点像jquery中的某些函数，要等到页面初始化之后再加载。
-
 
 
 
