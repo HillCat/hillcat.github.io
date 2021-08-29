@@ -313,15 +313,15 @@ if err := file.Chmod(0664); err != nil {
 比如下面这种for循环，就使用到了i 变量：
 
 ````go
-ackage main
+package main
 
 import "fmt"
 
 func main() {
     sharks := []string{"hammerhead", "great white", "dogfish", "frilled", "bullhead", "requiem"}
 
-    for i := 0; i < len(sharks); i++ {
-        fmt.Println(sharks[i])
+    for i, shark := range sharks {
+        fmt.Println(i, shark)
     }
 }
 
