@@ -7,7 +7,7 @@ description: Golang相关笔记
 keywords: Golang
 ---
 
-### go官方快速入门教程
+### 快速入门
 
 [Go官方入门教程](https://tour.golang.org/welcome/1)。
 
