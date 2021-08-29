@@ -324,5 +324,13 @@ func main() {
         fmt.Println(sharks[i])
     }
 }
+
+//Output,打印出每一个切片元素
+hammerhead
+great white
+dogfish
+frilled
+bullhead
+requiem
 ````
 
