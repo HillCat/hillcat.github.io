@@ -23,5 +23,11 @@ keywords: Golang
 
 《[Go语言标准库手册](https://pkg.go.dev/std)》。
 
+### GO Examples
 
+《[go代码样板demo](https://devbits.app/language/go)》：有关于大部分API的用法的demo：
+
+1. [String and Text 处理](https://devbits.app/c/7/strings-and-text/go)
+2. [正则表达式处理](https://devbits.app/c/148/regular-expressions/go)
+3. 
 
