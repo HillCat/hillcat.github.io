@@ -1,12 +1,12 @@
 ---
 
 layout: post
-title: EntityFramework最佳实践
+title: EFCore实践
 categories: .net
 description: EntityFrameworkBestPractices
 keywords: .net
 ---
-EntityFramework快速创建本地LocalDB的增删改查程序示例。
+EFCore快速创建本地LocalDB的增删改查。
 
 首页，创建一个WebApplication项目基于.netcore的，其次在解决方案中创建一个.netLibrary项目，基于.netStandard标准的，这个Library项目中创建实体Models和DataAccess。Models文件夹中创建实体类。DataAccess中创建context类继承至DbContext，这个类里面DbSet<T>到具体的实体类。context子类的options通过父类DbContext传递进来。
 
@@ -164,4 +164,65 @@ update-database命令执行完成之后，数据库得到第一次初始化，�
 <img src="https://cs-cn.top/images/posts/dataanotation_scheme3756.png"/>
 
 注意事项：修改字段长度的时候，有可能造成数据丢失。比如把FirstName长度为100的原来的表，修改为长度为50，如果原来的表中含有的数据中存在长度超过50的FirstName，当使用codefirst缩短为50的时候，原来数据库中的某些数据会被截断为50，造成数据丢失。
+
+### Mock Data生成器
+
+默认创建的web application中index.cshtml.cs文件中注入PeopleContext。
+
+````c#
+ private readonly ILogger<IndexModel> _logger;
+        private readonly PeopleContext _db;
+
+        public IndexModel(ILogger<IndexModel> logger,PeopleContext db)
+        {
+            _logger = logger;
+            _db = db;
+        }
+````
+
+web application的Startup.cs中配置好依赖注入项。
+
+````c#
+public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddDbContext<PeopleContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("Default"));
+            });
+            services.AddRazorPages();
+        }
+````
+
+为了测试增删改查，我们需要构造一些假数据供自己测试。这里使用[Bogus](https://github.com/bchavez/Bogus)这个开源项目的Nuget包生成Mock Data。把生成出来的文件序列化为Json放到项目配置文件中，便于开发调试接口。
+
+````c#
+Randomizer.Seed = new Random();
+
+            var EmailGenerator = new Faker<Email>()
+                .RuleFor(e => e.EmailAddress, f => f.Internet.Email())
+                .RuleFor(e => e.Id, f => f.IndexFaker);
+            var AddressGenerator = new Faker<Address>()
+                .RuleFor(a => a.Id, f => f.IndexFaker)
+                .RuleFor(a => a.City, f => f.Person.Address.City)
+                .RuleFor(a => a.State, f => f.Person.Address.State)
+                .RuleFor(a => a.StreetAddress, f => f.Person.Address.Street)
+                .RuleFor(a => a.ZipCode, f => f.Person.Address.ZipCode);
+
+
+            var PersonGenerator = new Faker<EFDataAccessLibrary.Person>()
+                .RuleFor(p => p.Addresses, f => AddressGenerator.Generate(f.Random.Number(1, 5)).ToList())
+                .RuleFor(p => p.Age, f => f.Random.Int(20, 72))
+                .RuleFor(p => p.EmailAddresses, f => EmailGenerator.Generate(f.Random.Number(1, 3)).ToList())
+                .RuleFor(p => p.FirstName, f => f.Person.FirstName)
+                .RuleFor(p => p.Id, f => f.IndexFaker)
+                .RuleFor(p => p.LastName, f => f.Person.LastName);
+
+           
+            var data = PersonGenerator.Generate(120);
+
+            var text = JsonSerializer.Serialize(data);
+            Console.WriteLine(text);
+````
+
+<img src="https://cs-cn.top/images/posts/fake_data_generator5407.png"/>
 
