@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Go语言快速入门(1)
+title: Go语言快速入门：ubuntu_golang_enviroment(1)
 categories: Go
 description: Golang相关笔记
 keywords: Golang

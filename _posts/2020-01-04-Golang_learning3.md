@@ -1,12 +1,14 @@
 ---
 
 layout: post
-title: Go语言快速入门(3)
+title: Go语言快速入门：map|for_range|for_loop(3)
 categories: Go
 description: Golang相关笔记
 keywords: Golang
 ---
-### Module兼容处理
+这篇文章是接着上面Go语言快速入门(2)，给greetings.go增加新的函数方法Hellos，传递多个参数，返回多个参数。这个章节涉及到map的初始化，以及for  range对于数组的遍历，空白符_这几个概念。还有go里面的for也是一个比较重要的话题。
+
+### module兼容处理
 
 在Go语言快速入门(2)中，greetings.go文件中有一个方法Hello是传入一个人名之后返回一个随机的问候语，这次需要修改这个module，使其能够传入多个人名，然后返回多个问候语，考虑到直接修改Hello方法把其由单个形参改为多个形参，会破坏module的封装。只能是在这个module里面增加一个新的函数满足需求。保留了旧功能，以向后兼容。更多兼容性处理，参考官方文档:[Keeping Your Modules Compatible](https://go.dev/blog/module-compatibility)(让你的模块更具兼容性)。
 
@@ -135,7 +137,7 @@ attended := map[string]bool{
 
 如果map的key是string类型，value是bool类型，当请求了一个不存在的key的时候，返回的就是false.map不像其他语言一样获取不到的时候会报错，在go语言这里map如果获取一个不存在的数据，会直接返回false。
 
-#### map的初始化
+#### 1.map的初始化
 
 map的初始化使用make方法，里面声明key,value的类型。
 
@@ -154,7 +156,7 @@ var m map[string] int
 
 
 
-#### map中添加元素和修改元素
+#### 2.map中添加元素和修改元素
 
 map中添加元素和修改元素都是使用下面这种类似的语法，如果key对应有值，就会是修改，而如果没有key则是往字典里面增加内容。
 
@@ -164,7 +166,7 @@ m["abc"] = 4
 
 
 
-#### map中删除元素
+#### 3.map中删除元素
 
 跟其他语言不同，go中如果要删除一个元素，不需要提前判断它是否存在，如果这个值不存在，而调用了delete操作，什么也不会发生。如果对map为nil的对象进行delete操作也是会抛出panic异常的。所以删除map的时候要对map进行非空判断。
 
@@ -190,7 +192,7 @@ func test5() {
 
 删除所有的，需要用for循环，挨个删除
 
-#### map的遍历
+#### 4.map的遍历
 
 使用for ... range 的方法进行遍历，获取当中的值
 
@@ -211,11 +213,11 @@ func test4() {
 }
 ```
 
-#### map中查找元素
+#### 5.map中查找元素
 
 如果map中不存在对应key的值，那么它不会抛异常，如果key不存在则会返回bool值表示有没有查找到。
 
-#### 如何判断map中是否存在某个值
+#### 6.如何判断map中是否存在某个值
 
 ````go
 if val, ok := dict["foo"]; ok {
@@ -456,7 +458,7 @@ c
 
 ### If语句
 
-go中的if语句跟 C # 中的很大的不同，它这个if语句里面是可以对变量进行初始化之后，再对变量进行bool运算,全部在一行搞定，中间隔一个分号隔开：
+go中的if语句跟 C # 中的很大的不同，它这个if初始化赋值和条件判断通过分号隔开，一行搞定：
 
 ```go
 if err := file.Chmod(0664); err != nil {
