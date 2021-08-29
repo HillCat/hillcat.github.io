@@ -309,7 +309,7 @@ if err := file.Chmod(0664); err != nil {
 
 下划线在golang语言中被认为是空白标识符，它在golang中主要是用来接收那些“**在程序中已经定义了但是又不使用**的变量”，如果是在C # 中，定义了一个变量不使用，编译器是不会报错的，visual studio编辑器只会提示你删除没有被用到的变量，而且在编译的时候编译器也自动会优化掉这些不用的变量。但是在golang中如果定义了一个变量又不使用，那么编译就会报错。这个是golang强制规定的，目的是为了保证代码的可读性和简洁性。
 
-使用空白符主要是为了避免编译报错，告诉go编译器忽略这个问题。
+使用空白符主要是为了避免编译报错，告诉go编译器忽略这个range返回来的下标值i，用空格符号接收，表示这个值直接忽略。
 
 如果for循环的i变量被使用了，就不会有这个问题，比如下面这个：
 
@@ -327,6 +327,51 @@ func main() {
 }
 
 //Output,打印出每一个切片元素
+hammerhead
+great white
+dogfish
+frilled
+bullhead
+requiem
+````
+
+
+
+但是如果把上面的代码修改一下，变为如下,for循环中声明了变量i但是只用到了shark这个变量，程序会报错：
+
+````go
+package main
+
+import "fmt"
+
+func main() {
+    sharks := []string{"hammerhead", "great white", "dogfish", "frilled", "bullhead", "requiem"}
+
+    for i, shark := range sharks {
+        fmt.Println(shark)
+    }
+}
+
+//Output
+src/range-error.go:8:6: i declared and not used
+````
+
+因为range在每次循环的时候都会返回i值，而这个值又没有使用到，所以用一个空白符接收这个值，编译器会自动忽略这个i索引值：
+
+````go
+package main
+
+import "fmt"
+
+func main() {
+    sharks := []string{"hammerhead", "great white", "dogfish", "frilled", "bullhead", "requiem"}
+
+    for _, shark := range sharks {
+        fmt.Println(shark)
+    }
+}
+
+//Output
 hammerhead
 great white
 dogfish
