@@ -193,6 +193,8 @@ public void ConfigureServices(IServiceCollection services)
         }
 ````
 
+#### 1.生成假数据
+
 为了测试增删改查，我们需要构造一些假数据供自己测试。这里使用[Bogus](https://github.com/bchavez/Bogus)这个开源项目的Nuget包生成Mock Data。把生成出来的文件序列化为Json放到项目配置文件中，便于开发调试接口。
 
 ````c#
@@ -226,3 +228,19 @@ Randomizer.Seed = new Random();
 
 <img src="https://cs-cn.top/images/posts/fake_data_generator5407.png"/>
 
+#### 2.假数据放入本地测试库
+
+在razor page页面中的后台代码中，单独写一个方法，这个类里面已经注入了PersonDbContext对象，通过这个_db，把我们生成出来的假数据，写入到local数据库中，方便开发机调试测试接口使用。
+
+`````c#
+  private void LoadSampleData()
+        {
+            if (!_db.People.Any())
+            {
+                string file = System.IO.File.ReadAllText("generated.json");
+                var people = JsonSerializer.Deserialize<Person>(file);
+                _db.AddRange(people);
+                _db.SaveChanges();
+            }
+        }
+`````
