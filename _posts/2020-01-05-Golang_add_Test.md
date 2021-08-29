@@ -130,3 +130,12 @@ FAIL	example.com/greetings	0.015s
 
 ### 正则表达式语法
 
+go语言的正则表达式用法和其他语言的有点类似，具体的API使用可以查看[https://devbits.app/c/148/regular-expressions/go](https://devbits.app/c/148/regular-expressions/go)
+
+
+
+### 各种fmt打印格式化
+
+<img src="https://cs-cn.top/images/posts/fmt_printing4911.png"/>
+
+查看[fmt](https://pkg.go.dev/fmt)这个包的语法。
