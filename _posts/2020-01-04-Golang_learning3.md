@@ -273,7 +273,7 @@ for {
 ````
 #### 4.for循环中的_空白符号
 
-下面这个空白符 _，正常情况是应该是变量 i, 但是这里使用一个空白符表示了。因为变量 i 在循环体中并没有使用到，在go语言中会引起编译错误。这是go中强行规定的一个原则。range迭代始终会返回两个值，第一个值是当前循环迭代所在的索引，第二个是该索引处的值。从第一次第迭代开始，索引是`0`，依次递增，会返回并赋值给到for语句这里的 空白符 _ ,而这个索引值，是没有使用到的，需要直接忽略。
+下面这个空白符 _，正常情况是应该是变量 i, 但是这里使用一个空白符表示了。因为变量 i 在循环体中并没有使用到，在go语言中会引起编译错误。这是go中强行规定的一个原则。range迭代始终会返回两个值，第一个值是当前循环迭代所在的索引，第二个是该索引处的值。从第一次第迭代开始，索引是`0`，依次递增，会返回并赋值给到for语句这里的 空白符 _ ,而这个索引值，是没有使用到的，需要直接忽略。空白符的解释，在官方文档 [The blank identifier](https://golang.org/doc/effective_go#blank)章节非常详细。
 
 ````go
  for _, name := range names {
@@ -358,6 +358,84 @@ dogfish
 frilled
 bullhead
 requiem
+````
+
+#### 5.range运算符
+
+range运算符还可以用来遍历字符串：
+
+````go
+package main
+
+import "fmt"
+
+func main() {
+    sammy := "Sammy"
+
+    for _, letter := range sammy {
+        fmt.Printf("%c\n", letter)
+    }
+}
+````
+
+#### 6.map遍历_返回值是随机的
+
+需要注意的一个问题是map在遍历的时候返回的值是随机的。
+
+````go
+package main
+
+import "fmt"
+
+func main() {
+    sammyShark := map[string]string{"name": "Sammy", "animal": "shark", "color": "blue", "location": "ocean"}
+
+    for key, value := range sammyShark {
+        fmt.Println(key + ": " + value)
+    }
+}
+
+//Output
+color: blue
+location: ocean
+name: Sammy
+animal: shark
+````
+
+
+
+#### 7.嵌套循环
+
+````go
+package main
+
+import "fmt"
+
+func main() {
+    numList := []int{1, 2, 3}
+    alphaList := []string{"a", "b", "c"}
+
+    for _, i := range numList {
+        fmt.Println(i)
+        for _, letter := range alphaList {
+            fmt.Println(letter)
+        }
+    }
+}
+
+//Output
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
 ````
 
 
