@@ -113,7 +113,9 @@ map[Darrin:Hail, Darrin! Well met! Gladys:Hail, Gladys! Well met! Samantha:Hi, S
 
 ```
 
-返回的是一个map类型的数据结构，这个数据结构类似于字典。
+返回的是一个map类型的数据结构，这个数据结构类似于其他语言里面得字典类型。
+
+从这个官方demo中引出来一系列golang的语法结构：比如map数据结构,for循环，range运算符，空白符号_ 等概念，跟着官方文档学习，速度是最快的。下面对这些东西做了一些整理：
 
 ### Maps数据结构
 
