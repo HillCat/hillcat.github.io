@@ -130,7 +130,7 @@ AddDbContext，把DbContext通过依赖注入的方式引入到系统中，并�
                 });
 ```
 
-update-database命令执行完成之后，数据库得到第一次初始化，这个时候数据库中出了实体表之外，还会有个Migration的记录表，里面记录了Migration迁移所使用到的迁移记录的MigrationId。
+`Update-Database`命令执行完成之后，数据库得到第一次初始化，这个时候数据库中出了实体表之外，还会有个Migration的记录表，里面记录了Migration迁移所使用到的迁移记录的MigrationId。
 
 
 
@@ -165,7 +165,15 @@ update-database命令执行完成之后，数据库得到第一次初始化，�
 
 注意事项：修改字段长度的时候，有可能造成数据丢失。比如把FirstName长度为100的原来的表，修改为长度为50，如果原来的表中含有的数据中存在长度超过50的FirstName，当使用codefirst缩短为50的时候，原来数据库中的某些数据会被截断为50，造成数据丢失。
 
-### Mock Data生成器
+### DbMigration注意事项
+
+为了避免在Update-Database的时候发生各种异常情况，Microsoft.EntityFrameworkCore.Design和Microsoft.EntityFrameworkCore.Tools要一起安装。Startup项目webapplication也得安装。貌似是新EFcore的一个BUG。
+
+<img src="https://cs-cn.top/images/posts/EntityFramework31259.png"/>
+
+
+
+### 生成Mock Data
 
 默认创建的web application中index.cshtml.cs文件中注入PeopleContext。
 
@@ -250,4 +258,12 @@ public void ConfigureServices(IServiceCollection services)
 `````
 
 <img src="https://cs-cn.top/images/posts/fake_data102.png"/>
+
+### 监听EFcore
+
+使用sql server Management studio 连接localDb之后监听Efcore执行sql的过程。
+
+开启sql server management studio,server name填入`(LocalDB)\.`,连接到local临时数据库。
+
+<img src="https://cs-cn.top/images/posts/vs_management_studio9531.png"/>
 
