@@ -209,7 +209,7 @@ public void ConfigureServices(IServiceCollection services)
         }
 ````
 
-#### 1.生成假数据
+#### 1.生成Mock data
 
 为了测试增删改查，我们需要构造一些假数据供自己测试。这里使用[Bogus](https://github.com/bchavez/Bogus)这个开源项目的Nuget包生成Mock Data。把生成出来的文件序列化为Json放到项目配置文件中，便于开发调试接口。
 
@@ -241,7 +241,7 @@ public void ConfigureServices(IServiceCollection services)
 
 <img src="https://cs-cn.top/images/posts/fake_data_generator5407.png"/>
 
-#### 2.假数据入库
+#### 2.Mock Data入库
 
 如果生成mock data的时候没有对自增Id设置规则，Id全部默认是零，Id=0。这样子方便进行批量替换，移除掉这些Id,交给数据库自己生成。
 
