@@ -1,6 +1,6 @@
 ---
 layout: post
-title: VisualStudio设置
+title: VisualStudio操作技巧归类总结
 categories: VisualStudio
 description: VisualStudio常用技巧
 keywords: trpora
