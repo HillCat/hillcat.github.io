@@ -167,7 +167,15 @@ AddDbContext，把DbContext通过依赖注入的方式引入到系统中，并�
 
 ### DbMigration注意事项
 
-为了避免在Update-Database的时候发生各种异常情况，Microsoft.EntityFrameworkCore.Design和Microsoft.EntityFrameworkCore.Tools要一起安装。Startup项目webapplication也得安装。貌似是新EFcore的一个BUG。
+为了避免在Update-Database的时候发生各种异常情况：
+
+````shell
+Your startup project doesn't reference Microsoft.EntityFrameworkCore.Design
+````
+
+貌似是新EFcore的一个BUG,大多数情况下不会有这个问题，解决方案在中途添加其他项目的时候，偶尔会出现这个错误。网络上的解决办法各种各样的都有。
+
+Microsoft.EntityFrameworkCore.Design和Microsoft.EntityFrameworkCore.Tools要一起安装。Startup项目webapplication也得安装。
 
 <img src="https://cs-cn.top/images/posts/EntityFramework31259.png"/>
 
