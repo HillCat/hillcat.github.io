@@ -275,3 +275,11 @@ public void ConfigureServices(IServiceCollection services)
 
 <img src="https://cs-cn.top/images/posts/vs_management_studio9531.png"/>
 
+通过SQL Server Management Studio监控到数据库中执行的sql，可以截获EF最终发往sql server的sql。
+
+<img src="https://cs-cn.top/images/posts/ef_db_monitor04018.png"/>
+
+过滤出我们想要的监控数据：
+
+<img src="https://cs-cn.top/images/posts/filter_data1681.png"/>
+
