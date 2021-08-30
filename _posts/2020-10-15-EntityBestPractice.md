@@ -225,7 +225,7 @@ public void ConfigureServices(IServiceCollection services)
 
 <img src="https://cs-cn.top/images/posts/fake_data_generator5407.png"/>
 
-#### 2.假数据放入本地测试库
+#### 2.假数据入库
 
 放入数据库之前，Json里面的自增Id生成出来的全部是Id=0这种，进行批量移除，Id自增交给数据库自己生成。
 
