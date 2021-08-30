@@ -279,7 +279,7 @@ public void ConfigureServices(IServiceCollection services)
 
 <img src="https://cs-cn.top/images/posts/ef_db_monitor04018.png"/>
 
-过滤出我们想要的监控数据：
+过滤出我们想要的监控数据,这里面显示的duration时间单位是`微秒`。 1微秒 μs =0.001 毫秒 ms
 
 <img src="https://cs-cn.top/images/posts/filter_data1681.png"/>
 
@@ -342,4 +342,18 @@ SELECT [p].[Id], [p].[Age], [p].[FirstName], [p].[LastName]  FROM [People] AS [p
 ````
 
 <img src="https://cs-cn.top/images/posts/Translate_Failed05032.png"/>
+
+
+
+正常情况下`Where(x=>x.Age>=18 && x.Age <=65)`这种，上面的Linq得到的SQL如下：
+
+````sql
+SELECT [p].[Id], [p].[Age], [p].[FirstName], [p].[LastName], [a].[Id], [a].[City], 
+[a].[PersonId], [a].[State], [a].[StreetAddress], [a].[ZipCode], [e].[Id],
+[e].[EmailAddress], [e].[PersonId]  
+FROM [People] AS [p]  
+LEFT JOIN [Addresses] AS [a] ON [p].[Id] = [a].[PersonId]  
+LEFT JOIN [EmailAddresses] AS [e] ON [p].[Id] = [e].[PersonId]  
+WHERE ([p].[Age] >= 18) AND ([p].[Age] <= 40)  ORDER BY [p].[Id], [a].[Id], [e].[Id]
+````
 
