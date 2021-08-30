@@ -227,9 +227,9 @@ public void ConfigureServices(IServiceCollection services)
 
 #### 2.假数据入库
 
-如果生成mock data的时候没有对自增Id设置规则，Id全部是零，Id=0。可以进行批量替换，移除掉json文件里面的Id，让自增Id主键交给数据库生成。
+如果生成mock data的时候没有对自增Id设置规则，Id全部默认是零，Id=0。这样子方便进行批量替换，移除掉这些Id,交给数据库自己生成。
 
-在razor page页面中的后台代码中，单独写一个方法，这个类里面已经注入了PersonDbContext对象，通过这个_db，把我们生成出来的假数据，写入到local数据库中，方便开发机调试测试接口使用。index页面加载成功之后，mock data被写入数据库中。
+在razor page页面中的后台代码中，单独写一个方法，页面加载的时候mock data被写入数据库中。
 
 `````c#
   public void OnGet()
