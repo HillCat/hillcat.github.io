@@ -283,3 +283,63 @@ public void ConfigureServices(IServiceCollection services)
 
 <img src="https://cs-cn.top/images/posts/filter_data1681.png"/>
 
+### Efcore查询数据
+
+<img src="https://cs-cn.top/images/posts/the_data_selected2929.png"/>
+
+#### 关联查询
+
+通过Efcore把我们构造的Mock data数据全部加载出来。通过sql server management studio 监控到的sql如下：
+
+````sql
+SELECT [p].[Id], [p].[Age], [p].[FirstName], [p].[LastName], 
+[a].[Id], [a].[City],[a].[PersonId], [a].[State], [a].[StreetAddress], 
+[a].[ZipCode], [e].[Id], [e].[EmailAddress], [e].[PersonId] 
+FROM [People] AS [p]  
+LEFT JOIN [Addresses] AS [a] ON [p].[Id] = [a].[PersonId]  
+LEFT JOIN [EmailAddresses] AS [e] ON [p].[Id] = [e].[PersonId]  
+ORDER BY [p].[Id], [a].[Id], [e].[Id]
+````
+
+上面这个语句，实际上查询出来了724行数据。模拟数据中Pepole只有120个，但是Efcore查出来的结果有724行，其中有很多行的“部分数据”出现了重复。如果有非常多的Table进行LEFT JOIN查询，实际上查出来的数据量是非常大的，对于性能是有很大的影响的。特别是同时有很多人同时请求数据库的时候，这个数据行数会成几何倍数的增长，有可能造成服务瘫痪。
+
+<img src="https://cs-cn.top/images/posts/left_join2231.png"/>
+
+如果不对导航属性进行关联查询，得到的数据量是120行,得到的查询语句如下：
+
+````sql
+  # Csharp代码
+  var people = _db.People
+                //.Include(a => a.Addresses)
+                //.Include(e => e.EmailAddresses)
+                .ToList();
+  # EF CORE 产生的SQL
+SELECT [p].[Id], [p].[Age], [p].[FirstName], [p].[LastName]  FROM [People] AS [p]
+````
+
+通过监控EF Core产生的SQL，可以让我们清楚的知道EF底层到底给我们生成了什么样的SQL，防止编写出性能低下的代码。
+
+#### LINQ查询注意事项
+
+下面是对于某一年龄段的人员数据进行查询，单独编写了一个C#方法，放到EFcore查询中。相比于`Where(x=>x.Age>=18 && x.Age <=65)`这种，C # 这种代码放到Linq中会直接抛出异常，提示C#代码无法翻译为sql.
+
+````c#
+ public void OnGet()
+        {
+            LoadSampleData();
+            var people = _db.People
+                .Include(a => a.Addresses)
+                .Include(e => e.EmailAddresses)
+                .Where(x=>ApprovedAge(x.Age))
+               // .Where(x=>x.Age>=18 && x.Age <=65)
+                .ToList();
+        }
+
+        private bool ApprovedAge(int age)
+        {
+            return (age >= 18 && age <= 65);
+        }
+````
+
+<img src="https://cs-cn.top/images/posts/Translate_Failed05032.png"/>
+
