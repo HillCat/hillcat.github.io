@@ -198,13 +198,11 @@ public void ConfigureServices(IServiceCollection services)
 为了测试增删改查，我们需要构造一些假数据供自己测试。这里使用[Bogus](https://github.com/bchavez/Bogus)这个开源项目的Nuget包生成Mock Data。把生成出来的文件序列化为Json放到项目配置文件中，便于开发调试接口。
 
 ````c#
-Randomizer.Seed = new Random();
+ Randomizer.Seed = new Random(9353526);
 
             var EmailGenerator = new Faker<Email>()
-                .RuleFor(e => e.EmailAddress, f => f.Internet.Email())
-                .RuleFor(e => e.Id, f => f.IndexFaker);
+                .RuleFor(e => e.EmailAddress, f => f.Internet.Email());
             var AddressGenerator = new Faker<Address>()
-                .RuleFor(a => a.Id, f => f.IndexFaker)
                 .RuleFor(a => a.City, f => f.Person.Address.City)
                 .RuleFor(a => a.State, f => f.Person.Address.State)
                 .RuleFor(a => a.StreetAddress, f => f.Person.Address.Street)
@@ -216,11 +214,10 @@ Randomizer.Seed = new Random();
                 .RuleFor(p => p.Age, f => f.Random.Int(20, 72))
                 .RuleFor(p => p.EmailAddresses, f => EmailGenerator.Generate(f.Random.Number(1, 3)).ToList())
                 .RuleFor(p => p.FirstName, f => f.Person.FirstName)
-                .RuleFor(p => p.Id, f => f.IndexFaker)
                 .RuleFor(p => p.LastName, f => f.Person.LastName);
 
            
-            var data = PersonGenerator.Generate(120);
+            var data = PersonGenerator.Ignore(p=>p.Id).Generate(120);
 
             var text = JsonSerializer.Serialize(data);
             Console.WriteLine(text);
@@ -230,17 +227,27 @@ Randomizer.Seed = new Random();
 
 #### 2.假数据放入本地测试库
 
-在razor page页面中的后台代码中，单独写一个方法，这个类里面已经注入了PersonDbContext对象，通过这个_db，把我们生成出来的假数据，写入到local数据库中，方便开发机调试测试接口使用。
+放入数据库之前，Json里面的自增Id生成出来的全部是Id=0这种，进行批量移除，Id自增交给数据库自己生成。
+
+在razor page页面中的后台代码中，单独写一个方法，这个类里面已经注入了PersonDbContext对象，通过这个_db，把我们生成出来的假数据，写入到local数据库中，方便开发机调试测试接口使用。index页面加载成功之后，mock data被写入数据库中。
 
 `````c#
-  private void LoadSampleData()
+  public void OnGet()
+        {
+            LoadSampleData();
+        }
+
+        private void LoadSampleData()
         {
             if (!_db.People.Any())
             {
                 string file = System.IO.File.ReadAllText("generated.json");
-                var people = JsonSerializer.Deserialize<Person>(file);
+                var people = JsonSerializer.Deserialize<List<Person>>(file);
                 _db.AddRange(people);
                 _db.SaveChanges();
             }
         }
 `````
+
+<img src="https://cs-cn.top/images/posts/fake_data102.png"/>
+
