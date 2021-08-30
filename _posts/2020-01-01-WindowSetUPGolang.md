@@ -80,7 +80,7 @@ sudo apt install virtualbox-guest-dkms
 
 **注意**：设置Ubuntu虚拟机窗口自适应的时候会遇到一些坑：调节VisualBox窗口大小和分辨率的时候，如果VisualBox窗体不小心进入了Scale Model，则会看不到VisualBox顶部的工具栏，只需要按住**键盘右边的Ctrl **+ Home键找回工具条，重新点击Scale Model就可以回到工具栏模式，对我们的窗口分辨率进行进一步设置。而点击**键盘右边的Ctrl **+C可以切换到缩略窗口模式。
 
-### 修改MachineName
+### 缩短MachineName
 
 虚拟机在安装的时候，由于没有太注意，给定义的机器的名字非常长，先把机器名字修改简短一些，可以直接如下：
 
@@ -88,7 +88,7 @@ sudo nano /etc/hostname
 
 进入到nano编辑器界面，修改了机器名之后，Ctrl + O 保存，然后Ctrl +X 退出机器，重启即可。
 
-
+如果是shell切换为zsh之后，这个MachineName就会自动变为一个“右箭头->光标”。
 
 ### 安装oh my zsh
 
