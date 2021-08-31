@@ -7,7 +7,7 @@ keywords: English
 ---
 这个Interval modifier参数是Anki使用过程中最重要的一个参数。跟这个参数直接挂钩的就是“留存率”。
 
-留存率，其实就是你能够最终维持记忆的单词的数量的百分比，很多时候，单词的记忆是需要靠维持的，时间久了不用的话就会遗忘。使用单词卡片，定期复习就是为了保证大部分单词不被遗忘。比如：最近一个月我单词本有7000个单词在Anki中轮流滚动复习。在这7000个单词中，我想记住90%，也就是维持6300个单词不被遗忘。那么该如何设置这个Interval modifier参数呢？复习旧的单词是需要花费时间的，而学习新单词也是需要时间的，如果投入太多时间都用来复习旧单词，那么就没有多余的时间去学新单词。在时间投入上就需要一个平衡点。所以就有了留存率的问题，以及Interval modifier参数设置的问题。参考：[https://readbroca.com/anki/what-is-anki-interval-modifier/](https://readbroca.com/anki/what-is-anki-interval-modifier/)
+留存率，其实就是你能够最终维持记忆的单词的数量的百分比，很多时候，单词的记忆是需要靠维持的，时间久了不用的话就会遗忘。使用单词卡片，定期复习就是为了保证大部分单词不被遗忘。比如：最近一个月我单词本有7000个单词在Anki中轮流滚动复习。在这7000个单词中，我想记住90%，也就是维持6300个单词不被遗忘。那么该如何设置这个Interval modifier参数呢？复习旧的单词是需要花费时间的，而学习新单词也是需要时间的，如果投入太多时间都用来复习旧单词，那么就没有多余的时间去学新单词。在时间投入上就需要一个平衡点。所以就有了留存率的问题，留存率是靠Interval modifier参数设置的。本文参考至：[https://readbroca.com/anki/what-is-anki-interval-modifier/](https://readbroca.com/anki/what-is-anki-interval-modifier/)
 
 首先我们需要知道现有单词库真实的留存率。
 
@@ -23,11 +23,11 @@ keywords: English
 
 那么这个Interval Modifier参数应该设置多少呢？
 
-按照[这篇文章](https://readbroca.com/anki/what-is-anki-interval-modifier/)的解释，计算公式是：*Interval Modifier = log(desired retention%) / log(current retention%)*
+计算公式是：*Interval Modifier = log(desired retention%) / log(current retention%)*
 
 也就是： log(85%) / log(90.3%)=159% 
 
-也就是说，你觉得复习的频率太高了，会导致你复习压力很大，你可以适当降低一点留存率，减少每天花在Anki中的时间。这样子可以通过比较科学合理的方式来保证我们长期的“投资收益”。进行一下参数的优化之后，明显感觉平时复习压力小了很多。
+也就是说，你觉得英语会占用你太多业余时间，就把留存率降低一点，减少每天花在Anki中的时间。这样子可以通过比较科学合理的方式来保证我们长期的“投资收益”。英文很多学习者，知道方法，但是缺乏自我管理，很多英语老师只教不管，导致学生都是放羊状态，自由散漫，这是导致英语学习失败最关键的地方。而科学的进行单词管理，能够让你时间效率最大化利用，保证你的结果。
 
 <img src="https://cs-cn.top/images/posts/liucunlv_544.png"/>
 
