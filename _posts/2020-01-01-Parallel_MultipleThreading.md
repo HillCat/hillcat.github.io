@@ -12,12 +12,6 @@ keywords: English
 
 结束Task，这里主要是使用Cancel Token; 一般是使用**CancellationTokenSource**对象的Token属性。命名空间属于：System.Threading.Tasks。
 
-为了更好理解这里的CancelToken下面给出Token的英文释义：
-
-<img src="https://cs-cn.top/images/posts/cancel_token053.png"/>
-
-<img src="https://cs-cn.top/images/posts/token_931.png"/>
-
 我这里对它的理解就是：CancellationTokenSource是一个发送信号的信号源，通过Token这个信号标志，把布尔状态告知Task内部线程。Task内部通过判断信号标志是Ture还是False，来触发以下3个场景：
 
 1. 用来决定线程内部是否要抛异常，以杀掉当前线程；(**结束线程**)
@@ -333,8 +327,6 @@ Task里面包裹其他的Task，并且让内部的Task和外面的Task产生父�
 ```
 
 ### 多线程中的Barrier
-
-<img src="https://cs-cn.top/images/posts/Barrier100.png"/>
 
 A线程和B线程都是工作线程；A线程和B线程都是同时要干很多事情，A干得比较慢，B干得很快。我们强制把A线程和B线程要干的事情，划分为若干的阶段；并且这种划分是人为划分的；要求A线程和B线程在干活的速度上不要差距太大，比如A线程第一阶段请求了一个非常耗时的操作，B线程也是去请求一个耗时操作，但是A线程由于业务非常复杂导致A的这个第一阶段特别耗时，而B线程第一阶段请求已经提前完成了，B不想等A了，想要自己接着往下干；搞个东西拦着B，不让B往下走。引入Barrier对象。我把它理解为“防洪坝”，起到拦截线程内部进度的目的。
 
