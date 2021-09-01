@@ -45,5 +45,13 @@ Delegate对于解耦代码有很多地方使用到。最常见的用法，就是
 
 通过委托，把具体的逻辑部分解耦到其他地方。这样子，其他模块对该类库的依赖，就变成了对抽象的依赖，而不是对具体硬编码的依赖。
 
+上图中的项目，ConsoleUI层其实是依赖于DemoLibrary层的。而计算折扣的硬编码，通过委托的封装为抽象，而具体的硬编码直接交给ConsoleUI层去实现。这样子避免了WinFormUI层调用DemoLibrary层的时候受到影响。
 
+
+
+<img src="https://cs-cn.top/images/posts/detegate430.png"/>
+
+上面的代码，声明了一个委托，并且决定把红框内的代码移动到上层调用方。
+
+<img src="https://cs-cn.top/images/posts/modify_code293.png"/>
 
