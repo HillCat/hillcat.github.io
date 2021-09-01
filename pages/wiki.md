@@ -8,7 +8,7 @@ menu: 维基
 permalink: /wiki/
 ---
 
-> 记多少命令和快捷键会让脑袋爆炸呢？
+> 这里会存放一些转载或者翻译的文章，暂时怎么规划这个栏目里面的内容，待定.....
 
 <ul class="listing">
 {% for wiki in site.wiki %}
