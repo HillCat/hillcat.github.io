@@ -662,6 +662,29 @@ len=4 cap=4 [5 7 11 13]
 
 `s[2:]`如果起始位置不是从0开始，这样子截取的话，会修改切片的容量。
 
+#### 长度和容量的区别
+
+![img](https://blog.go-zh.org/images/posts/go-slices-usage-and-internals_slice-struct.png)
+
+
+
+![img](https://blog.go-zh.org/images/posts/go-slices-usage-and-internals_slice-2.png)
+
+切片操作并不复制切片指向的元素。它创建一个新的切片并复用原来切片的底层数组。 这使得切片操作和数组索引一样高效。因此，通过一个新切片修改元素会影响到原始切片的对应元素。
+
+```go
+d := []byte{'r', 'o', 'a', 'd'}
+e := d[2:]
+// e == []byte{'a', 'd'}
+e[1] = 'm'
+// e == []byte{'a', 'm'}
+// d == []byte{'r', 'o', 'a', 'm'}
+```
+
+
+
+
+
 #### nil切片
 
 切片的零值是 `nil`。nil 切片的长度和容量为 0 且没有底层数组。跟C #相比的话，相当于是一个null，一个空的引用。但是go这里也不完全等同于C #中的null，空的切片跟nil进行比对的时候，布尔值是True。

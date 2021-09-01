@@ -501,7 +501,23 @@ Hi, caianhua. Welcome!
 
 ### 使用slice切片
 
-对于slice ，[官方文档](https://golang.org/doc/tutorial/random-greeting)是这么介绍的：
+**slice初始化的几个关键点：**
+
+1.切片可以使用内置函数 `make` 创建，函数签名为：make函数有3个形参。
+
+```go
+func make([]T, len, cap) []T
+```
+
+2.当容量参数被忽略时，它默认为指定的长度。下面是简洁的写法：
+
+```
+s := make([]byte, 5)
+```
+
+
+
+对于slice ，[英文官方文档](https://golang.org/doc/tutorial/random-greeting)是这么介绍的：这里是[中文博客文档](https://blog.go-zh.org/go-slices-usage-and-internals).
 
 ````tex
 A slice is like an array, except that its size changes dynamically as you add and remove items. The slice is one of Go's most useful types.
