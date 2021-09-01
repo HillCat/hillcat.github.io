@@ -1,6 +1,6 @@
 ---
 layout: post
-title: anki记单词的效率分析/最佳生词密度/雅思8.5案例的启发
+title: anki记单词的效率分析/最佳生词密度/雅思8.5案例的启发(8)
 categories: English
 description: 
 keywords: 记单词
