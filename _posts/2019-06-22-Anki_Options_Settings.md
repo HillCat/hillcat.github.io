@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anki参数原理/参数设置/常用菜单栏/数据冲突恢复和备份
+title: Anki参数原理/参数设置/常用菜单栏/数据冲突恢复和备份(3)
 categories: English
 description: 
 keywords: 记单词

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anki降低复习压力/最重要的两个参数
+title: Anki降低复习压力/最重要的两个参数(4)
 categories: English
 description: 英文自学
 keywords: English

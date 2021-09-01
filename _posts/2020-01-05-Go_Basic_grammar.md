@@ -852,5 +852,91 @@ func main() {
 	}
 }
 
+//输出结果如下
+1
+2
+4
+8
+16
+32
+64
+128
+256
+512
 ````
+
+### 映射(map)
+
+go这里的映射，更像是C #中的一种字典结构，而且这种字典是泛型的。下面这段代码，有点类似于C #中的`Dictionary<string,T>`，通过通过make方式创建了一个map对象，并且初始化，得到一个map对象。
+
+````go
+package main
+
+import "fmt"
+
+type Vertex struct {
+	Lat, Long float64
+}
+
+var m map[string]Vertex
+
+func main() {
+	m = make(map[string]Vertex)
+	m["Bell Labs"] = Vertex{
+		40.68433, -74.39967,
+	}
+	fmt.Println(m["Bell Labs"])
+}
+
+//输出结果
+{40.68433 -74.39967}
+
+````
+
+#### map实例化
+
+go语言这里对一个object进行实例化的时候都是直接用一个**大括号括起来**，里面直接就是对object的初始化赋值操作。并且这里object里面的每个list都要以**逗号结尾**，如果最后一个list item结尾的时候，没有逗号，那么就会报错。
+
+```go
+package main
+
+import "fmt"
+
+type Vertex struct {
+	Lat, Long float64
+}
+
+var m = map[string]Vertex{
+	"Bell Labs": Vertex{
+		40.68433, -74.39967,
+	},
+	"Google": Vertex{
+		37.42202, -122.08408,
+	},
+}
+
+func main() {
+	fmt.Println(m)
+}
+
+//输出结果
+map[Bell Labs:{40.68433 -74.39967} Google:{37.42202 -122.08408}]
+```
+
+如果去掉逗号:
+
+````go
+"Google": Vertex{
+		37.42202, -122.08408,
+	}
+}
+````
+
+那么就会抛出异常：
+
+````go
+./prog.go:15:3: syntax error: unexpected newline, expecting comma or }
+````
+
+这个在 C #里面是允许的，但是在golang是会直接报错。
 
