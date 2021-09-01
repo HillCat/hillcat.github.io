@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Go语言快速入门：GO指南(5)
+title: Go语言快速入门：golang关键语法(5)
 categories: Go
 description: Golang相关笔记
 keywords: Golang
