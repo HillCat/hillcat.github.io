@@ -21,9 +21,7 @@ keywords: English
 
 BOSE QC 35的降噪的效果还是有点超出我的意外。戴上之后一切静悄悄，有一种半夜凌晨2~3点的感觉，世界都安静了，在电脑面前专注撸码，会让人忘记了时间，真的非常安静，敲击键盘的声音几乎听不到。
 
-录音软件使用[Audacity](https://www.fosshub.com/Audacity-old.html)。
-
-
+录音软件使用[Audacity](https://www.fosshub.com/Audacity-old.html)，这是一个开源软件，全球二语习得群体使用这个软件的频率还是蛮高的。
 
 ### Blue Yeti的使用感受
 
