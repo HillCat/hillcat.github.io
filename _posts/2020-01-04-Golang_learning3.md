@@ -135,7 +135,7 @@ attended := map[string]bool{
 }
 ```
 
-如果map的key是string类型，value是bool类型，当请求了一个不存在的key的时候，返回的就是false.map不像其他语言一样获取不到的时候会报错，在go语言这里map如果获取一个不存在的数据，会直接返回false。
+如果map的key是string类型，value是bool类型，当请求了一个不存在的key的时候，返回的就是false.map不像其他语言一样获取不到的时候会报错，在go语言这里map如果获取一个不存在的数据，会直接返回那个类型对象的零值，比如：如果是布尔值则返回false，如果是数字则返回0，如果是字符串则返回""
 
 #### 1.map的初始化
 
