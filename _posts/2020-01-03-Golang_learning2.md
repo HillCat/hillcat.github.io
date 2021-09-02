@@ -338,7 +338,7 @@ func main() {
 
 从这个代码中，需要几点说明：
 
-在go语言中，如果你的代码是做为application执行的，那么必须要声明在main包里面。这个有点类似于.net里面的application的概念，在.net里面也有module的概念。类似。
+在go语言中，如果你的代码是做为application执行的，那么必须要声明在main包里面。这个有点类似于.net里面的application的概念，在.net里面也有module的概念。类似Nuget包依赖。
 
 上面的代码引入了 “fmt" 和 ”example.com/greetings"两个packages，这使得你的代码能够访问这个两个packages里面的函数，导入了“example.com/greetings"这个包，里面含有你之前创建的模块，让你可以访问Hello函数；而导入"fmt"这个包，使得你可以调用包里面输入输出的功能，比如在控制台中打印字符串。
 
