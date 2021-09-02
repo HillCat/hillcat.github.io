@@ -1172,3 +1172,40 @@ func main() {
 45 -90
 ````
 
+### 给类添加方法
+
+Go没有类的概念，只有Strtuct这个东西，而要想达到 C # 那样子给类添加方法，就是给go的Struct添加方法。 这个语法有点类似于 C # 里面给class添加扩展方法的思路。所以go这个语法是非常好理解的。
+
+go官方对给结构体定义方法，是这么描述的：
+
+`方法就是一类带特殊的 **接收者** 参数的函数。方法接收者在它自己的参数列表内，位于 func 关键字和方法名之间。`
+
+这个描述，跟C #里面对于扩展方法的描述我感觉是同一个东西，只是长得不一样。
+
+````go
+//在此例中，Abs 方法拥有一个名为 v，类型为 Vertex 的接收者。
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+type Vertex struct {
+	X, Y float64
+}
+
+func (v Vertex) Abs() float64 {
+	return math.Sqrt(v.X*v.X + v.Y*v.Y)
+}
+
+func main() {
+	v := Vertex{3, 4}
+	fmt.Println(v.Abs())
+}
+````
+
+
+
+
+
