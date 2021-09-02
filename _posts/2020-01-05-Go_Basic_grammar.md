@@ -681,7 +681,7 @@ e[1] = 'm'
 // d == []byte{'r', 'o', 'a', 'm'}
 ```
 
-
+这里通过索引下标的方式去修改了切片的值，导致e对象和d对象里面的底层数组都发生了变化，证明指向了同一块底层数据。
 
 
 
@@ -830,6 +830,39 @@ len=5 cap=6 [0 1 2 3 4]
 
 go语言这里的append函数，其实类似于 C#  里面`list<T>`的方法append一样，向容器的末尾追加数据。
 
+#### 切片中追加切片
+
+除了上面这种语法，还有另外几种追加元素的方法：
+
+如果是要将一个切片追加到另一个切片尾部，需要使用 `...` 语法将第2个参数展开为参数列表。这个语法有点类似于JavaScript的语法。
+
+```go
+a := []string{"John", "Paul"}
+b := []string{"George", "Ringo", "Pete"}
+a = append(a, b...) // equivalent to "append(a, b[0], b[1], b[2])"
+// a == []string{"John", "Paul", "George", "Ringo", "Pete"}
+```
+
+#### 循环追加内容到切片
+
+由于切片的零值 nil 用起来就像一个长度为零的切片，我们可以声明一个切片变量然后在循环 中向它追加数据：
+
+````go
+// Filter returns a new slice holding only
+// the elements of s that satisfy fn()
+func Filter(s []int, fn func(int) bool) []int {
+    var p []int // == nil
+    for _, v := range s {
+        if fn(v) {
+            p = append(p, v)
+        }
+    }
+    return p
+}
+````
+
+go语言这里的操作思路其实跟 C #里面的`List<T>`操作方式一摸一样。先声明一个空的List对象，然后在利用List append方法追加元素，通过遍历的方式存入元素，这个经常用到。
+
 #### 遍历切片
 
 for range 语句可以遍历切片。
@@ -887,6 +920,37 @@ func main() {
 256
 512
 ````
+
+#### 切片GC释放的问题
+
+切片操作并不会复制底层的数组。整个数组将被保存在内存中，直到它不再被引用。 有时候可能会因为一个小的内存引用导致保存所有的数据。
+
+例如， `FindDigits` 函数加载整个文件到内存，然后搜索第一个连续的数字，最后结果以切片方式返回。
+
+```
+var digitRegexp = regexp.MustCompile("[0-9]+")
+
+func FindDigits(filename string) []byte {
+    b, _ := ioutil.ReadFile(filename)
+    return digitRegexp.Find(b)
+}
+```
+
+这段代码的行为和描述类似，返回的 `[]byte` 指向保存整个文件的数组。因为切片引用了原始的数组， 导致 GC 不能释放数组的空间；只用到少数几个字节却导致整个文件的内容都一直保存在内存里。
+
+要修复整个问题，可以将感兴趣的数据复制到一个新的切片中：
+
+```
+func CopyDigits(filename string) []byte {
+    b, _ := ioutil.ReadFile(filename)
+    b = digitRegexp.Find(b)
+    c := make([]byte, len(b))
+    copy(c, b)
+    return c
+}
+```
+
+可以使用 `append` 实现一个更简洁的版本。这里的原理其实类似于 C #中引用类型对象一样，只要程序运行过程中，对象始终被运行中的程序给引用了，那么内存中就会一直持有这个对象导致GC无法回收。而在大对象的切片数据处理的时候，需要注意这个问题，可能引发内存暴涨的风险的。
 
 ### 映射(map)
 
