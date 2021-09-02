@@ -68,7 +68,7 @@ Netflix在这块我找到的比较好的体验就是使用chrome插件[Learning 
 
 <img src="https://cs-cn.top/images/posts/GreenHouse_Academy12731.png"/>
 
-其实NetFlix上面是有推荐算法的，只要Myself List中有了几部生活相关的那种TV Series，那么NetFlix 的推荐算法，会给你推荐很多生活相关的剧，这些剧里面一定有适合你口味和难度的剧的。所以在挑选美剧上面，我觉得不必要纠结于那些什么《老友记》《摩登家庭》《生活大爆炸》之类的，有科学上网，有奈飞，完全足以，你只需要租用一个月费用15RMB共享号即可。Chrome的那个插件会带你飞。
+其实NetFlix上面是有推荐算法的，只要Myself List中有了几部生活相关的那种TV Series，那么NetFlix 的推荐算法，会给你推荐很多生活相关的剧，这些剧里面一定有适合你口味和难度的剧的。所以在挑选美剧上面，我觉得不必要纠结于那些什么《老友记》《摩登家庭》《生活大爆炸》之类的，有科学上网，有奈飞，完全足以，你只需要租用一个月费用15RMB共享号即可(某宝有售，如果没有的话，去找相关`电报群`)。Chrome的那个插件会带你飞。
 
 <img src="https://cs-cn.top/images/posts/kidsTV502.png"/>
 
