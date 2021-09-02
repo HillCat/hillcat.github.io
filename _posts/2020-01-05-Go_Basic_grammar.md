@@ -1027,3 +1027,69 @@ map[Bell Labs:{40.68433 -74.39967} Google:{37.42202 -122.08408}]
 
 这个在 C #里面是允许的，但是在golang是会直接报错。
 
+#### map省略写法
+
+go语言这里初始化map的时候，struct对应的类型名都可以直接省略掉。比如Vertex 在这里初始化的时候就直接省略掉了。更加简洁。
+
+````go
+package main
+
+import "fmt"
+
+type Vertex struct {
+	Lat, Long float64
+}
+
+var m = map[string]Vertex{
+	"Bell Labs": {40.68433, -74.39967},
+	"Google":    {37.42202, -122.08408},
+}
+
+func main() {
+	fmt.Println(m)
+}
+
+//输出结果
+map[Bell Labs:{40.68433 -74.39967} Google:{37.42202 -122.08408}]
+````
+
+#### 判断某个键是否存在
+
+通过双赋值检测某个键是否存在：
+
+```go
+elem, ok = m[key]
+```
+
+若 `key` 在 `m` 中，`ok` 为 `true` ；否则，`ok` 为 `false`。
+
+若 `key` 不在映射中，那么 `elem` 是该映射元素类型的零值。
+
+````go
+package main
+
+import "fmt"
+
+func main() {
+	m := make(map[string]int)
+
+	m["Answer"] = 42
+	fmt.Println("The value:", m["Answer"])
+
+	m["Answer"] = 48
+	fmt.Println("The value:", m["Answer"])
+
+	delete(m, "Answer")
+	fmt.Println("The value:", m["Answer"])
+
+	v, ok := m["Answer"]
+	fmt.Println("The value:", v, "Present?", ok)
+}
+
+//运行结果：
+The value: 42
+The value: 48
+The value: 0
+The value: 0 Present? false
+````
+
