@@ -30,3 +30,7 @@ keywords: Golang
 1. [String and Text 处理](https://devbits.app/c/7/strings-and-text/go)
 2. [正则表达式处理](https://devbits.app/c/148/regular-expressions/go)
 
+### 中文资料
+
+[http://www.topgoer.com/](http://www.topgoer.com/)
+
