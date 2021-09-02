@@ -6,11 +6,9 @@ description: 英文自学
 keywords: English
 ---
 
-一直还有一个系列没有补充到博客中，就是英文阅读词汇和听力如何提升。我一般使用的是原版无删节的那种桥梁书，结合在[线词典助手](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb)制卡。我把它制作成《英文原版章节书，PDF.js制卡教程》，你可以[点击这里](https://cs-cn.top/assets/doc/英文原版章节书PDFJS制卡教程.docx)下载这个doc文档。
+一直还有一个系列没有补充到博客中，就是英文阅读词汇和听力如何提升。我一般使用的是原版无删节的那种桥梁书，结合在[线词典助手](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb)制卡。我把这套方法制作成一个docx文档：《英文原版章节书，PDF.js制卡教程》，你可以[点击这里](https://cs-cn.top/assets/doc/英文原版章节书PDFJS制卡教程.docx)下载这个docx文档。文档中提供了百度网盘的地址，相关的资源你需要通过百度网盘下载，文档中提供了那些资源的具体使用方法，如果遇到问题请给我留言。
 
-通过阅读原版有声书，我是从《中国人英语自学方法教程》第二版,看了这本书才决定重新拿起英语的的，并且从此一发不可收拾。
-
-刚开始的时候我并不知道anki制卡这个东西。那个时候我很早就买了一个kindle电子阅读器，找了有声原版书的mp3配套来听，然后kindle阅读器导入mobi格式的文本，每天下班坐地铁的空余时间在地铁上看那些有声书，把不懂的单词一个一个都记录到生词本里面。然后回到家的时候，利用工具把kindle里面的生词导出来。放到Excle里面去管理。
+通过阅读原版有声书，我是从《中国人英语自学方法教程》这本书开始的，并且从此一发不可收拾。刚开始的时候我并不知道anki制卡这个东西。那个时候我很早就买了一个kindle电子阅读器，找了有声原版书的mp3配套来听，然后kindle阅读器导入mobi格式的文本，每天下班坐地铁的空余时间在地铁上看那些有声书，把不懂的单词一个一个都记录到生词本里面。然后回到家的时候，利用工具把kindle里面的生词导出来。放到Excle里面去管理。
 
 ### 对单词的管理能力才是学好英文的关键
 
