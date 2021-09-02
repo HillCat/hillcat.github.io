@@ -687,7 +687,7 @@ e[1] = 'm'
 
 #### nil切片
 
-切片的零值是 `nil`。nil 切片的长度和容量为 0 且没有底层数组。跟C #相比的话，相当于是一个null，一个空的引用。但是go这里也不完全等同于C #中的null，空的切片跟nil进行比对的时候，布尔值是True。
+切片的零值是 `nil`。nil 切片的长度和容量为 0 且没有底层数组。跟C #相比的话，相当于是一个null，一个空的引用。但是go这里也不完全等同于C #中的null，空的切片是可以跟nil等价的，布尔运算的时候是True。
 
 ````go
 package main
@@ -927,7 +927,7 @@ func main() {
 
 例如， `FindDigits` 函数加载整个文件到内存，然后搜索第一个连续的数字，最后结果以切片方式返回。
 
-```
+```go
 var digitRegexp = regexp.MustCompile("[0-9]+")
 
 func FindDigits(filename string) []byte {
@@ -940,7 +940,7 @@ func FindDigits(filename string) []byte {
 
 要修复整个问题，可以将感兴趣的数据复制到一个新的切片中：
 
-```
+```go
 func CopyDigits(filename string) []byte {
     b, _ := ioutil.ReadFile(filename)
     b = digitRegexp.Find(b)
@@ -1053,7 +1053,7 @@ func main() {
 map[Bell Labs:{40.68433 -74.39967} Google:{37.42202 -122.08408}]
 ````
 
-#### 判断某个键是否存在
+#### 双赋值检测某个键是否存在
 
 通过双赋值检测某个键是否存在：
 
@@ -1061,7 +1061,13 @@ map[Bell Labs:{40.68433 -74.39967} Google:{37.42202 -122.08408}]
 elem, ok = m[key]
 ```
 
-若 `key` 在 `m` 中，`ok` 为 `true` ；否则，`ok` 为 `false`。
+**若 key在 m中，ok为 true；否则，ok 为 false。**
+
+一般情况下，都是使用这种短变量声明：连带一起把声明和初始化一起给搞了
+
+```
+elem, ok := m[key]
+```
 
 若 `key` 不在映射中，那么 `elem` 是该映射元素类型的零值。
 
@@ -1091,5 +1097,78 @@ The value: 42
 The value: 48
 The value: 0
 The value: 0 Present? false
+````
+
+### 函数传递
+
+在C #中传递函数一般是使用委托进行。在go语言中传递函数，是把函数看成一个值。
+
+````go
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func compute(fn func(float64, float64) float64) float64 {
+	return fn(3, 4)
+}
+
+func main() {
+	hypot := func(x, y float64) float64 {
+		return math.Sqrt(x*x + y*y)
+	}
+	fmt.Println(hypot(5, 12))
+
+	fmt.Println(compute(hypot))
+	fmt.Println(compute(math.Pow))
+}
+//输出结果
+13
+5
+81
+````
+
+#### 函数的闭包
+
+Go 函数可以是一个闭包。闭包是一个函数值，它引用了其函数体之外的变量。该函数可以访问并赋予其引用的变量的值，换句话说，该函数被这些变量“绑定”在一起。
+
+例如，函数 `adder` 返回一个闭包。每个闭包都被绑定在其各自的 `sum` 变量上。
+
+````go
+package main
+
+import "fmt"
+
+func adder() func(int) int {
+	sum := 0
+	return func(x int) int {
+		sum += x
+		return sum
+	}
+}
+
+func main() {
+	pos, neg := adder(), adder()
+	for i := 0; i < 10; i++ {
+		fmt.Println(
+			pos(i),
+			neg(-2*i),
+		)
+	}
+}
+
+//输出
+0 0
+1 -2
+3 -6
+6 -12
+10 -20
+15 -30
+21 -42
+28 -56
+36 -72
+45 -90
 ````
 
