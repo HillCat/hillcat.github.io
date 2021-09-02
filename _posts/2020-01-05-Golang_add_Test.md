@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Go语言快速入门：测试Go(4)
+title: Go语言快速入门：单元测试(4)
 categories: Go
 description: Golang相关笔记
 keywords: Golang
