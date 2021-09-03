@@ -2,7 +2,7 @@
 
 layout: post
 title: Delegate解耦代码逻辑
-categories: .Net
+categories: .net
 description: 使用委托来解耦代码
 keywords: dotnet
 ---
