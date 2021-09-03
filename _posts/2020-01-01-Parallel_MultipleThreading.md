@@ -482,8 +482,35 @@ public static void BasicHandling()
     }
 ```
 
+### 控制线程数量
 
+下面这个是10000个任务发放给11个线程处理。当线程数量达到11个的时候，则不再追加线程会等待直到其中任何一个线程执行完毕，控制消费者的数量为11个线程。执行完毕之后，空闲的线程再接着领取任务。
 
-### 多线程中Channel对象
+````c#
+{
+    List<int> list = new List<int>();
+    for(int i =0;i<10000;i++)
+    {
+        list.Add(i);
+    }
+    Action<int> action = i =>
+    {
+        Console.WriteLine(Thread.CurrentThread.ManagedThreadId.ToString("00"));
+        Thread.Sleep(new Random(i).Next(100,300));
+        
+    };
+    List<Task> taskList =new List<Task>();
+    foreach(var i in list)
+    {
+        int k = i;
+        taskList.Add(Task.Run(()=>action.Invoke(K)));
+        if(taskList.Count>10){
+            Task.WaitAny(taskList.ToArray());
+            taskList=taskList.Where(t=>t.Status!=TaskStatus.RanToCompletion).Tolist();
+        }
+    }
+    
+    Task.WhenAll(taskList.ToArray());
+}
+````
 
-Channel对象是 System.Threading.Channels命名空间的，主要的作用是用于多线程的“生产者”和“消费者”场景下，它的主要作用是解耦“生产者”和“消费者”。
