@@ -15,7 +15,7 @@ keywords: dotnet
 
 <img src="https://cs-cn.top/images/posts/ClassDiagram347.png"/>
 
-子类override了父类的方法的时候，仍然可以通过base直接调用父类的方法。并且，父类里面如果不是virtual方法，执行的时候这个父类方法会按照原样被调用2次。
+子类override了父类的方法的时候，仍然可以通过base直接调用父类的方法。并且，父类里面如果不是virtual方法，执行的时候这个父类方法会按照原样被调用。
 
 ````c#
 public class SqliteDataAccess : DataAccess
