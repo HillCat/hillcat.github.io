@@ -22,7 +22,7 @@ Google首页的默认设置Google apps边栏不是太好用，Apps的排序，�
 
 
 
-### 3.指定搜索某个网站
+### 3.指定搜索stackoverflow
 
 <img src="https://cs-cn.top/images/posts/dotnetcore_multipleThreading3142.png"/>
 
