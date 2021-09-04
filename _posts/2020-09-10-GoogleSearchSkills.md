@@ -28,7 +28,11 @@ Google首页的默认设置Google apps边栏不是太好用，Apps的排序，�
 
 如果是要深入了解dotnet某各方面的技术，可以通过指定搜索stackoverflow网站里面的问答，比如多线程这块的一些常见的问题，可以通过stackoverflow更深入的了解一些信息。甚至是对于某些开源框架的问题，在stackoverflow都有专门的板块。
 
+### 4.stackoverflow提问
 
+stackoverflow是一个全球性的技术社区，大部分的开发者都是以英文作为沟通工具，在提问的时候，如果是涉及到代码片段的，可以直接使用github的gist功能，贴上需要询问的一些代码片段，给出相关的gist链接，会使得沟通更加顺畅。
+
+[https://gist.github.com/](https://gist.github.com/)
 
 
 
