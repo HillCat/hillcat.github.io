@@ -22,5 +22,13 @@ Google首页的默认设置Google apps边栏不是太好用，Apps的排序，�
 
 
 
+### 3.指定搜索某个网站
+
+<img src="https://cs-cn.top/images/posts/dotnetcore_multipleThreading3142.png"/>
+
+如果是要深入了解dotnet某各方面的技术，可以通过指定搜索stackoverflow网站里面的问答，比如多线程这块的一些常见的问题，可以通过stackoverflow更深入的了解一些信息。甚至是对于某些开源框架的问题，在stackoverflow都有专门的板块。
+
+
+
 
 
