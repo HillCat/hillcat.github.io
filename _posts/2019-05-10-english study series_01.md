@@ -44,7 +44,7 @@ keywords: English
 
 国内很多英语培训流派，都是基于斯蒂芬.克拉申的理论的。其实，有声书是很好的英语学习材料。已经有非常多的雅思高分学霸证明过。
 
-下图这个《神奇树屋》，是我有声书精读的主要材料，B站有学霸也用过这个材料：[https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web](https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web)。
+下图这个《神奇树屋》，是我有声书精读的主要材料，B站有学霸也用过这个材料：[https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web](https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web)。到目前为止，虽然我在用美剧学英语，但是我还是感觉有声书是最快积累单词的方法。美剧它训练的主要是影子跟读口语这块。对于阅读词汇量其实提升的作用有限。美剧中很多动词短语和俚语在书面材料中很少出现。
 
 <img src="https://cs-cn.top/images/posts/audio_book_0613.gif"/>
 
