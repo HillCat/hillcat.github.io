@@ -35,16 +35,30 @@ To plug-in 介绍: [https://docs.microsoft.com/en-us/dynamics365/customer-engage
 
 Dynamics 365得APP主要涉及如下方面：
 Microsoft Dynamics 365 for Field Service
+
 Microsoft Dynamics 365 for Commerce
+
 Microsoft Dynamics 365 for Sales
+
 Microsoft Dynamics 365 for Finance
+
 Microsoft Dynamics 365 for Project Service Automation
+
 Microsoft Dynamics 365 for Artificial Intelligence
+
 Microsoft Dynamics 365 for Business Central
+
 Microsoft Dynamics 365 for Marketing
+
 Microsoft Dynamics 365 for Human Resources
+
 Microsoft Dynamics 365 for Customer Service
+
 Microsoft Dynamics 365 for Supply Chain Management
+
 Microsoft Dynamics 365 for Project Operations
+
 Microsoft Dynamics 365 for Mixed Reality
+
+
 
