@@ -19,7 +19,7 @@ keywords: English
 
 
 
-BOSE QC 35的降噪的效果还是有点超出我的意外。
+BOSE QC 35的降噪的效果还是有点超出我的意外，听力这块必备工具。
 
 录音软件使用[Audacity](https://www.fosshub.com/Audacity-old.html)，这是一个开源软件使用人数还是蛮多的。
 
