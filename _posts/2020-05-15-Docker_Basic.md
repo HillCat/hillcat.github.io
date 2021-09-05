@@ -2,7 +2,7 @@
 
 layout: post
 title: Docker的常用指令
-categories: .net
+categories: Docker
 description: Docker使用技巧
 keywords: .net
 ---
