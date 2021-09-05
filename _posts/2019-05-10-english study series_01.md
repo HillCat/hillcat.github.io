@@ -44,7 +44,7 @@ keywords: English
 
 国内很多英语培训流派，都是基于斯蒂芬.克拉申的理论的。其实，有声书是很好的英语学习材料。已经有非常多的雅思高分学霸证明过。
 
-下图这个《神奇树屋》，是我有声书精读的主要材料，截取至：[https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web](https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web)。
+下图这个《神奇树屋》，是我有声书精读的主要材料，B站有学霸也用过这个材料：[https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web](https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web)。
 
 <img src="https://cs-cn.top/images/posts/audio_book_0613.gif"/>
 
