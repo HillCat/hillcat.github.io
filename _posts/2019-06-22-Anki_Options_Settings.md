@@ -5,17 +5,21 @@ categories: English
 description: 
 keywords: 记单词
 ---
-Anki所有的参数表示的是什么意思，很少有人能够完全搞明白。这里推荐2个视频，可以让你理解那些参数的作用，看油管视频之前建议先配置下你的google浏览器：
+Anki所有的参数信息，本篇只作为一个指引，如果不方便外网的，尽量创造条件外网。
 
-在油管看英文视频的时候建议开启 [Language Learning with Youtube](https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb)插件，并且把机翻打开，字幕调节到英文，具体设置如下：
+首先chorme浏览器开启 [Language Learning with Youtube](https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb)插件，并且把机翻翻译CC按钮开关打开，字幕调节到英文，具体设置如下：
 
  **首先，安装插件**： [Language Learning with Youtube](https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb)
 
 <img src="https://cs-cn.top/images/posts/anki_options0547.png"/>
 
- **其次，设置插件**：打开一个油管视频，就可以看到视频上面有个OFF的按钮，点击它打开为ON状态，然后进行配置
+ **其次，设置插件**：打开一个油管视频，就可以看到视频上面有个OFF的按钮，点击它打开为ON状态，视频旁边如果支持机器翻译会有个CC按钮，开启，并设置英文机器翻译。如果有人工翻译就用人工翻译。
 
 <img src="https://cs-cn.top/images/posts/on_button28.png"/>
+
+<img src="https://cs-cn.top/images/posts/cc088.png"/>
+
+
 
 <img src="https://cs-cn.top/images/posts/learn_youtube_settings0952.gif"/>
 
@@ -33,7 +37,7 @@ Anki参数详细讲解的，第一个视频是Matt的视频，地址是：[https
 
 <img src="https://cs-cn.top/images/posts/spance_repetition_seystem08.png"/>
 
-简而言之，Anki在复习单词的时候，是以作答的形式选择“Again，Hard，Good，Easy”这四个按钮，来影响每个单词的复习间隔。4个按钮的权重是不一样的，当你点击不同的按钮的时候，对单词复习间隔的**百分比加成**是不同的。越是不熟悉的单词，间隔周期越短，越熟悉的单词，间隔周期越长。而且Anki设置中的有些参数还是互相制衡的，不是所有参数都可一直往上调的，达到临界值就调不动了。
+简而言之，Anki在复习单词的时候，以答题的形式选择“Again，Hard，Good，Easy”这四个按钮，影响到的是每个单词的复习间隔。4个按钮的权重是不一样的，当你点击不同的按钮的时候，对单词复习间隔的**百分比加成**是不同的。越是不熟悉的单词，间隔周期越短，越熟悉的单词，间隔周期越长。而且Anki设置中的有些参数还是互相制衡的，不是所有参数都可一直往上调的，达到临界值就调不动了。对于不熟悉的单词不体检点击 Again，因为点击Again次数太多会导致Ease Hell情况的发生，如果发生了Ease Hell问题，解决办法请参考这篇文章：[https://cs-cn.top/2019/08/12/Anki_Interval_Modifier/](https://cs-cn.top/2019/08/12/Anki_Interval_Modifier/)
 
 
 
@@ -41,17 +45,15 @@ Anki参数详细讲解的，第一个视频是Matt的视频，地址是：[https
 
 ### 我的anki参数设置
 
-这些设置，仅供参考。只有理解了anki的工作原理，可以根据自己的情况去调整这些参数，看怎么用得顺手怎么来。
+<img src="https://cs-cn.top/images/posts/setting16938.png"/>
 
-<img src="https://cs-cn.top/images/posts/anki_settings_01_413.png"/>
+<img src="https://cs-cn.top/images/posts/settings088.png"/>
 
-<img src="https://cs-cn.top/images/posts/anki_settings_02_447.png"/>
+<img src="https://cs-cn.top/images/posts/settings821.png"/>
 
-<img src="https://cs-cn.top/images/posts/anki_settings_03_528.png"/>
+<img src="https://cs-cn.top/images/posts/settings7698.png"/>
 
-<img src="https://cs-cn.top/images/posts/anki_settings_04557.png"/>
 
-**注意**：上面的设置还是存在不少问题的，会导致Ease Hell，以及留存率问题，具体的解决办法参考这边：[Anki降低复习压力/最重要的两个参数](https://cs-cn.top/2019/08/12/Anki_Interval_Modifier/)，这篇文章和本篇文章结合到一起，基本上，你的anki参数设置就会少走很多弯路！让你用最少的时间得到最好的效果，平时多出来的时间可以干更多事情。不至于“学英语”吃掉你太多业余时间，毕竟程序员这种职业，除了英语之外，还得腾出大把时间研究coding。
 
 如果你觉得一个单词太简单，不需要再复习了，那么直接suspend note按钮，挂起那个单词即可，如下图那样(安卓端也是有这个功能，PC端也有)。比如，你可以给一个单词打上Flag 4(Blue)标签。 旗子记号还有红色，橘色，绿色，紫色，宝石绿 ，7种颜色。而且被标记颜色的单词，是可以轻松筛选出来的。
 
