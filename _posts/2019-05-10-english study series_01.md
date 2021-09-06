@@ -56,7 +56,7 @@ Matt跟 `斯蒂芬.克拉申` 聊过天。在Matt的频道有当时两个人直�
 
 ### 英文原版书单
 
-这是一份有声书的书单，基本囊括了主流的有声书材料，按照这个难易程度学下来，可以积累起不错的词汇基础和听力基础。
+这是一份有声书的书单，基本囊括了主流的有声书材料，按照这个难易程度学下来，可以积累起不错的词汇基础和听力词汇量。
 
 **桥梁书**：Henry and Mudge系列、Mercy Watson系列、Black Lagoon Adventures系列、Nate The Great（大侦探内特）、Fly Guy （苍蝇小子）、Winnie the Witch（女巫温妮）；Black Cat (黑猫)
 
