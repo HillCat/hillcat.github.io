@@ -44,7 +44,7 @@ Matt跟 `斯蒂芬.克拉申` 聊过天。在Matt的频道有当时两个人直�
 
 可理解性输入的出处：[Stephen Krashen Comprehensive input](https://youtu.be/Y4eExDFTSOI)
 
-二语习得中最核心的假说，可理解性输入，沉浸式输入，已经有非常多的雅思高分学霸证明过。
+二语习得中最核心的假说：“可理解性输入，沉浸式输入”已经有非常多的雅思高分学霸证明过。
 
 下图这个《神奇树屋》，是我之前有声书精读的主要材料，B站有学霸也用过这个材料：[https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web](https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web)。到目前为止，虽然我在用美剧学英语，但是我还是感觉有声书是最快积累单词的方法。美剧主要是积累生活用词，以及进行语感提升，影子跟读。
 
