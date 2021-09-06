@@ -34,17 +34,19 @@ Matt跟 `斯蒂芬.克拉申` 聊过天。在Matt的频道有当时两个人直�
 
 #### 斯蒂芬.克拉申的二语习得理论
 
-可能你听说过“二语习得”，非常熟悉这个词，但是对于[斯蒂芬.克拉申](https://baike.baidu.com/item/%E5%85%8B%E6%8B%89%E7%94%B3/4935083?fr=aladdin)可能不太了解，以及他出版过哪些著作并不了解。
+可能你听说过“二语习得”这个词，但是对于[斯蒂芬.克拉申](https://baike.baidu.com/item/%E5%85%8B%E6%8B%89%E7%94%B3/4935083?fr=aladdin)可能不太了解，他是语言学博士，专门研究外语学习的。在语言学领域影响深远。他出版过很多的学术论文，都已经公开发表在他的网站上面。还出版过基本很有影响力的书。总之，国内很多外语学习成功的人，都引用过“二语习得”这个理论。克拉申就是这一理论的提出者。他最大的贡献就是“可理解性输入”假说。很多人不理解什么是“可理解性输入”。如果要从精确的数学计算来分析的话，我认为，生词密度在2%~4%的材料，就是“可理解性输入”吸收效率最高的材料。如果生词密度很大，你也可以认为是可理解性输入，但是吸收效果绝对要打折扣。这是我看了很多材料之后，以及结合自己实践的出来的一个数据结论。
+
+
+
+克拉申博士的论文网站：[http://www.sdkrashen.com/](http://www.sdkrashen.com/)，如果英文好的，可以去研究下这方面他发表的论文，可能会在二语习得上面找到一些灵感。下面这些材料都可以看看：
 
 二语习得的出处：[Stephen Krashen On Language Acquisition](https://youtu.be/NiTsduRreug)
 
 可理解性输入的出处：[Stephen Krashen Comprehensive input](https://youtu.be/Y4eExDFTSOI)
 
-克拉申博士的论文网站：[http://www.sdkrashen.com/](http://www.sdkrashen.com/)，如果英文好的，可以去研究下这方面他发表的论文，可能会在二语习得上面找到一些灵感。
+二语习得中最核心的假说，可理解性输入，沉浸式输入，已经有非常多的雅思高分学霸证明过。
 
-国内很多英语培训流派，都是基于斯蒂芬.克拉申的理论的。其实，有声书是很好的英语学习材料。已经有非常多的雅思高分学霸证明过。
-
-下图这个《神奇树屋》，是我有声书精读的主要材料，B站有学霸也用过这个材料：[https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web](https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web)。到目前为止，虽然我在用美剧学英语，但是我还是感觉有声书是最快积累单词的方法。美剧它训练的主要是影子跟读口语这块。对于阅读词汇量其实提升的作用有限。美剧中很多动词短语和俚语在书面材料中很少出现。
+下图这个《神奇树屋》，是我之前有声书精读的主要材料，B站有学霸也用过这个材料：[https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web](https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web)。到目前为止，虽然我在用美剧学英语，但是我还是感觉有声书是最快积累单词的方法。美剧主要是积累生活用词，以及进行语感提升，影子跟读。
 
 <img src="https://cs-cn.top/images/posts/audio_book_0613.gif"/>
 
