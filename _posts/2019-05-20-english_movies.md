@@ -52,3 +52,4 @@ NetFlix看剧是最好的选择。NetFlix中文名叫做”奈飞“，如果你
 <img src="https://cs-cn.top/images/posts/kidsTV502.png"/>
 
 具体的操作：[配置ShareX](https://cs-cn.top/2019/07/10/anki_pdf_js_study/#sharex%E9%85%8D%E7%BD%AE); chrome浏览器安装[Learn English with netflix](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)，[截图插件](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj)；美剧制卡的时候，我的一般做法是使用sharex来截取美剧中的上下文片段mp3，然后截图插件截取当前上下文的截屏。具体的操作在其他的文章有详细介绍。自己摸索一下就可以上手。
+
