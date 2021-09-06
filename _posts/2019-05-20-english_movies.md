@@ -12,7 +12,7 @@ NetFlix看剧是最好的选择。NetFlix中文名叫做”奈飞“，如果你
 
 这个chrome插件以前叫Learning English with Netflix，官方的新版本改名为**Language Reactor** 。
 
-挑选美剧遵循的原则，尽量避免下列问题：
+挑选美剧，尽量避免下列问题：
 
 1. 演员语速太快，口齿不清晰，俚语很多。
 2. 剧中的演员很恶心，同性恋，恋童癖等，看不对眼。
