@@ -8,7 +8,7 @@ keywords: English
 
 美剧的学习策略基本就是这个学姐的方法：[北京外国语学院学姐的美剧推荐](https://www.bilibili.com/video/BV1xM4y1K7M7)。
 
-NetFlix看剧是最好的选择。NetFlix中文名叫做”奈飞“，如果你去淘宝上面搜索:”奈飞租用“，”奈飞合租“，就有一堆出租账号的。我用的就是这种5人共享账号，月付15RMB. 用的是美区账号。主要用来看美剧。配合[Language Reactor插件](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)，开启双语字幕。一句一句倒带，复读。可以很好的控制影子跟读。而且最重要的是奈飞的美剧，字幕都是人工翻译的，不想国内百度网盘下载的那些野生字幕组，奈飞的翻译质量很高，这给英语学习带来很多的保障，节省大量的查词典的时间。
+NetFlix看剧是最好的选择。NetFlix中文名叫做”奈飞“，如果你去淘宝上面搜索:”奈飞租用“，”奈飞合租“，就有一堆出租账号的。我用的就是这种5人共享账号，月付15RMB. 用的是美区账号。主要用来看美剧。配合[Language Reactor插件](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)，开启双语字幕。一句一句倒带，复读。可以很好的控制影子跟读。而且最重要的是奈飞的美剧，字幕都是人工翻译的，跟百度网盘下载的那些美剧资源不同，奈飞的翻译质量很高，全部是人工翻译，保证字幕和中文正确率。正是因为字幕的精准和高质量，学习起来连查词典的很多时间都省了。百度网盘下载的那些野生字幕组翻译的“摩登家庭”之类的是没法比的。
 
 这个chrome插件以前叫Learning English with Netflix，官方的新版本改名为**Language Reactor** 。
 
