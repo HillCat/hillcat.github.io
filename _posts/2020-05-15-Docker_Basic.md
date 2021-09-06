@@ -178,13 +178,7 @@ docker的镜像容器使用的是unionFiles 联合文件系统，类似于git的
 }
 ```
 
-
-
-
-
 #### 查看挂载目录
-
-
 
 `docker volume inspect juming-nginx #查看具名挂载之后的容器元数据`
 
