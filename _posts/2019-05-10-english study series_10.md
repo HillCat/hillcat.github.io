@@ -6,9 +6,9 @@ description: 英文自学
 keywords: English
 ---
 
-一直还有一个系列没有补充到博客中，就是英文阅读词汇和听力如何提升。我一般使用的是原版无删节的那种桥梁书，结合在[线词典助手](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb)制卡。我把这套方法制作成一个docx文档：《英文原版章节书，PDF.js制卡教程》，你可以[点击这里](https://cs-cn.top/assets/doc/英文原版章节书PDFJS制卡教程.docx)下载这个docx文档。文档中提供了百度网盘的地址，相关的资源你需要通过百度网盘下载。
+一直还有一个系列没有补充到博客中，就是英文阅读词汇和听力如何提升。我一般使用的是原版无删节的那种桥梁书，结合在[线词典助手](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb)制卡。我把这套方法制作成一个docx文档：《英文原版章节书，PDF.js制卡教程》，群里感兴趣的朋友可以[点击这里](https://cs-cn.top/assets/doc/英文原版章节书PDFJS制卡教程.docx)下载这个docx文档。文档中提供了百度网盘的地址，相关的资源你需要通过百度网盘下载。
 
-通过阅读原版有声书，我是从《中国人英语自学方法教程》这本书开始的，并且从此一发不可收拾。刚开始的时候我并不知道anki制卡这个东西。那个时候我很早就买了一个kindle电子阅读器，找了有声原版书的mp3配套来听，然后kindle阅读器导入mobi格式的文本，每天下班坐地铁的空余时间在地铁上看那些有声书，把不懂的单词一个一个都记录到生词本里面。然后回到家的时候，利用工具把kindle里面的生词导出来。放到Excle里面去管理。
+通过阅读原版有声书，我是从《中国人英语自学方法教程》这本书开始的，慢慢感觉到作者讲得很有道理，才开始实践，实践过程中遇到很多问题才慢慢接触到了Anki。刚开始的时候我并不知道anki这个东西，即便知道了，由于当时觉得anki上手难度太高迟迟没有行动。直到我那个本子上记录的生词超过1000多个的时候，我发现管理生词开始变得困难。后来开始转而使用kindle，用Excle管理生词，自己用脚本处理Excle.最终效果都不是太好。直到用了anki，情况才好起来。
 
 ### 良好的管理+自律=成功
 
