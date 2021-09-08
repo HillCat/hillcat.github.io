@@ -66,7 +66,7 @@ Anki做到非常熟练之后，词汇和听力都会有积累，自然来到了�
 
 <img src="https://cs-cn.top/images/posts/learning_speed4781.png"/>
 
-学习速度控制在每天20个左右的生词，复习的速度要拉满9999，如下图：
+学习速度控制在每天20个左右，复习的速度要拉满9999，如下图：
 
 <img src="https://cs-cn.top/images/posts/review_speed3330.png"/>
 
