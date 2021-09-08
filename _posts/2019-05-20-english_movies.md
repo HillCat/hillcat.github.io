@@ -39,13 +39,7 @@ NetFlix看剧是最好的选择。NetFlix中文名叫做”奈飞“，如果你
 
 <img src="https://cs-cn.top/images/posts/trash_track1448.png"/>
 
-
-
-
-
 <img src="https://cs-cn.top/images/posts/netflix_soap457.png"/>
-
-
 
 <img src="https://cs-cn.top/images/posts/GreenHouse_Academy12731.png"/>
 
