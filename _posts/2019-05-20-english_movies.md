@@ -23,17 +23,19 @@ NetFlix看剧是最好的选择。NetFlix中文名叫做”奈飞“，如果你
 
 其实NetFlix上面是有推荐算法的，只要收藏夹里面有了几部生活相关的那种TV Series，那么NetFlix 的算法会给你推荐很多生活相关的剧，这些剧里面一定有适合你口味和难度的剧，随便就是出来一堆，足够你学习。在挑选美剧上面，我觉得不必要纠结《老友记》《摩登家庭》《生活大爆炸》之类的，那是人家不能科学上网，没办法的情况下只能看那些剧。而如果你可以科学上网，有奈飞，配合chrome插件，为何还要跟别人一样随大流呢？你完全拥有比别人更好的资源和条件，所以我强烈建议使用奈飞美剧学口语。主要是这些材料非常新鲜，都是最近3~4年拍摄的，活在当下，紧贴生活。最最关键的是字幕，字幕一定要精准。不能模棱两可。还一个原因是NetFlix这家公司的实力非常雄厚，它拍摄的影视剧质量都特别高。
 
+《Alexa & Katie》：这个剧我可能会要刷上很多遍，直到熟练为止，剧情内容讲述的是两个高中生女生她们2个家庭之间的一些日常琐事。每个演员都充满了美式幽默，连送披萨的大叔我都很喜欢，剧中两个高中生是正宗的美式口音，口音非常清晰，里面只有一个亚洲口音，剧情内容基本上都是围绕高中生的生活场景展开，场景比较丰富，比如：逛商场购物的，在学校进行数学竞赛，在医院挂号就诊，Party派对，在家里厨房做菜等等这些都是比较生活化的场景非常多。个人感觉特别适合用来影子跟读。
+
 <img src="https://cs-cn.top/images/posts/kitty555.png"/>
 
-
+《Kim's Convenience》： 这是描述韩国人移民北美经营一家便利店的一个美剧，这个剧也是我比较喜欢的，特别是这个老头很搞笑，剧情主要是讲述一些日常家庭生活琐事，工作，子女与父母，同事，邻居这些的事情，口语非常贴近现在的生活方式，剧中大部分演员是亚洲人的口音，但不影响我给予这个剧很高的评价。
 
 <img src="https://cs-cn.top/images/posts/mr_king119.png"/>
 
-
+《The Kominsky Method》中文翻译叫做《好莱坞教父》：第一次看这个剧我就被触动了，主演非常著名，虽然叫不上他名字，但是我知道这个男是个很著名的演员，里面的经典对白层出不穷。感觉比较适合男同胞看这个剧，特别是步入中年的男人。会让人思考人生的价值、友谊这些事情。以及人到晚年如何活得更加有意义。不知怎么的，看着看着有种莫名的触动。
 
 <img src="https://cs-cn.top/images/posts/king_siki1322.png"/>
 
-
+其他剧的介绍就略过了，总之在NetFlix上面找一些值得学习的美剧还是非常简单的。
 
 <img src="https://cs-cn.top/images/posts/trash_track1448.png"/>
 
@@ -51,5 +53,5 @@ NetFlix看剧是最好的选择。NetFlix中文名叫做”奈飞“，如果你
 
 <img src="https://cs-cn.top/images/posts/kidsTV502.png"/>
 
-具体的操作：[配置ShareX](https://cs-cn.top/2019/07/10/anki_pdf_js_study/#sharex%E9%85%8D%E7%BD%AE); chrome浏览器安装[Learn English with netflix](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)，[截图插件](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj)；美剧制卡的时候，我的一般做法是使用sharex来截取美剧中的上下文片段mp3，然后截图插件截取当前上下文的截屏。具体的操作在其他的文章有详细介绍。自己摸索一下就可以上手。
+最后说下美剧的具体操作：[配置ShareX](https://cs-cn.top/2019/07/10/anki_pdf_js_study/#sharex%E9%85%8D%E7%BD%AE); chrome浏览器安装[Learn English with netflix](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)，[截图插件](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj)；美剧制卡的时候，我的一般做法是使用sharex来截取美剧中的上下文片段mp3，然后截图插件截取当前上下文的截屏。具体的操作在其他的文章有详细介绍。自己摸索一下就可以上手。
 
