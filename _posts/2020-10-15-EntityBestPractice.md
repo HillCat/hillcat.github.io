@@ -183,7 +183,7 @@ Microsoft.EntityFrameworkCore.Design和Microsoft.EntityFrameworkCore.Tools要一
 
 ### 生成Mock Data
 
-默认创建的web application中index.cshtml.cs文件中注入PeopleContext。
+默认创建的web application中index.cshtml.cs文件中注入PeopleContext。创建和生成大量的mock data数据对于开发阶段测试非常有帮助，能够帮助提升开发效率。
 
 ````c#
  private readonly ILogger<IndexModel> _logger;
