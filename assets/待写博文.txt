@@ -1,25 +1,28 @@
-https://github.com/bchavez/Bogus 
-fake data用来测试项目接口
+1.https://github.com/bchavez/Bogus 
+2.fake data用来测试项目接口
 
-Benchmarker测试
+3.Benchmarker测试
 
-dump文件性能分析，debug diag工具的使用。https://youtu.be/exXbX-z4Ims
+4.dump文件性能分析，debug diag工具的使用。https://youtu.be/exXbX-z4Ims
 或者是借助于visual studio开发工具来分析dump文件：t.ly/6MYZ
 
-DB2数据库，Oracle数据库，Mysql数据库都有要求。
+5.DB2数据库，Oracle数据库，Mysql数据库都有要求。
 
-Jmeter做压力测试。https://www.red-gate.com/simple-talk/devops/testing/load-stress-testing-net-apps-with-apache-jmeter/
+6.Jmeter做压力测试。https://www.red-gate.com/simple-talk/devops/testing/load-stress-testing-net-apps-with-apache-jmeter/
 
-Autofac 自定义属性  注入 。
+7.Autofac 自定义属性  注入 。
 
-React方面练习，应对外企的考核，还有Angular方面的练习
+8.React方面练习，应对外企的考核，还有Angular方面的练习
 
-Windorm桌面端的MVVM架构。
+9.Windorm桌面端的MVVM架构。
 
-ABP Vnext中的ELK三件套，依赖注入生命周期，
+10.ABP Vnext中的ELK三件套，依赖注入生命周期，
 
-Redis的中间件
+11.Redis的中间件
 
+12.Jinkens的管道模型，CI/CD，管道模型有没有看过它的源码
+
+13.程序员如何寻找一份远程工作的问题：https://geekplux.com/2019/07/31/how-to-get-jobs-pay-80-dollars-per-hour-1
 
 
 
