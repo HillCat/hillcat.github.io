@@ -323,3 +323,64 @@ After scaling: &{X:15 Y:20}, Abs: 25
 
 C #的比较：这里的指针接收者类似于C #里面使用比较普遍的引用类型。指针接收者指向的对象的值被修改。这里的指针类型更像是C #中的“类型实例”。
 
+
+
+### 接口
+
+golang里面的接口跟C#里面的接口差不多。
+
+```go
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+type Abser interface {
+	Abs() float64
+}
+
+func main() {
+	var a Abser
+	f := MyFloat(-math.Sqrt2)
+	v := Vertex{3, 4}
+
+	a = f  // a MyFloat 实现了 Abser
+	a = &v // a *Vertex 实现了 Abser
+
+	// 下面一行，v 是一个 Vertex（而不是 *Vertex）
+	// 所以没有实现 Abser。
+	a = v
+
+	fmt.Println(a.Abs())
+}
+
+type MyFloat float64
+
+func (f MyFloat) Abs() float64 {
+	if f < 0 {
+		return float64(-f)
+	}
+	return float64(f)
+}
+
+type Vertex struct {
+	X, Y float64
+}
+
+func (v *Vertex) Abs() float64 {
+	return math.Sqrt(v.X*v.X + v.Y*v.Y)
+}
+
+```
+
+
+
+```go
+./prog.go:22:4: cannot use v (type Vertex) as type Abser in assignment:
+	Vertex does not implement Abser (Abs method has pointer receiver)
+```
+
+
+
