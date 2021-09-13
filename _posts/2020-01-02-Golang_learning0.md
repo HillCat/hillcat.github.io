@@ -9,7 +9,7 @@ keywords: Golang
 
 ### 快速入门
 
-[Go官方入门教程](https://tour.golang.org/welcome/1)。
+[Go官方入门教程](https://tour.go-zh.org/welcome/1)。
 
 ### 编程规范
 

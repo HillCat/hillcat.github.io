@@ -24,6 +24,7 @@
 
 13.程序员如何寻找一份远程工作的问题：https://geekplux.com/2019/07/31/how-to-get-jobs-pay-80-dollars-per-hour-1
 
+14.翻墙如果被DNS干扰严重的话，设置本地ipv4为SmartDNS即可防止干扰。
 
 
 
