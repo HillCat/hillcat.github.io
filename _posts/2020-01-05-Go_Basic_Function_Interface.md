@@ -375,12 +375,40 @@ func (v *Vertex) Abs() float64 {
 
 ```
 
-
+上面的代码a = v ，这里v这个对象并没有提供接口的实现，所以不能用v来给a赋值。
 
 ```go
 ./prog.go:22:4: cannot use v (type Vertex) as type Abser in assignment:
 	Vertex does not implement Abser (Abs method has pointer receiver)
 ```
 
+#### 接口的隐式实现
 
+golang中对于接口的隐式实现，从表面上看这里仅仅是给一个普通的类型增加了一个方法的具体实现而已。并没有显式地声明我们实现了某个接口。
+
+```go
+package main
+
+import "fmt"
+
+type I interface {
+	M()
+}
+
+type T struct {
+	S string
+}
+
+// This method means type T implements the interface I,
+// but we don't need to explicitly declare that it does so.
+func (t T) M() {
+	fmt.Println(t.S)
+}
+
+func main() {
+	var i I = T{"hello"}
+	i.M()
+}
+
+```
 
