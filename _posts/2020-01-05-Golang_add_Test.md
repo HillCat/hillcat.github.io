@@ -6,7 +6,7 @@ categories: Go
 description: Golang相关笔记
 keywords: Golang
 ---
-这篇文章主要是给go代码添加测试, go语言的单元测试是内置的。接着上篇文章，这篇文章是对我们的greetings.go文件进行测试，进入到greetings文件夹，创建greetings_test.go文件。测试文件的命名以下划线 _test这种方式结尾是告诉go的test command，这个greetings_test.go文件是包含了测试功能的。这个章节会涉及到go里面的正则表达式，测试函数，指针，。
+这篇文章主要是给go代码添加测试, go语言的单元测试是内置的。接着上篇文章，这篇文章是对我们的greetings.go文件进行测试，进入到greetings文件夹，创建greetings_test.go文件。测试文件的命名以下划线 _test这种方式结尾是golang语言中的约定语法，go自带的运行时环境会检测并发现这是一个测试文件，并且这个后缀里面的方法也有一个约定，那就是必须以Test开头，在执行测试的时候，golang的内置环境会检测并且遍历所有后缀为_test的方法，并且这种文件里面写了Test开头的方法。
 
 1.在greetings_test.go里面粘贴如下代码：
 
