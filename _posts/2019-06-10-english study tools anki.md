@@ -83,10 +83,12 @@ anki更多是扮演复习笔记工具，通过场景上下文帮助用户理解�
 
 3. 词根词缀词典也对于理解记忆有一定的帮助
 
+   这个工具APP的下载地址：[https://apps.apple.com/cn/app/%E8%AF%8D%E6%A0%B9%E8%AF%8D%E7%BC%80%E5%AD%97%E5%85%B8-%E6%89%B9%E9%87%8F%E8%83%8C%E5%8D%95%E8%AF%8D/id528178365](https://apps.apple.com/cn/app/%E8%AF%8D%E6%A0%B9%E8%AF%8D%E7%BC%80%E5%AD%97%E5%85%B8-%E6%89%B9%E9%87%8F%E8%83%8C%E5%8D%95%E8%AF%8D/id528178365) ，这个工具是一个40岁的程序员写的，经历了很多年的修撰，还有一些大学生的参与UI界面设计，可以说已经是非常齐备的一本词根词缀词典。貌似仅支持Iphone  IOS系统。
+
    <img src="https://cs-cn.top//images/posts/cigen_cizui_200816.png"/>
 
    更多的词源信息，可以去这个网站寻找：[https://www.etymonline.com/cn](https://www.etymonline.com/cn)
-
+   
    <img src="https://cs-cn.top//images/posts/shizitou_25533.png"/>
    
    
