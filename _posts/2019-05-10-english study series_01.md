@@ -66,6 +66,8 @@ Matt跟 `斯蒂芬.克拉申` 聊过天，能和克拉申教授聊天的人绝�
 
 以上4个观点其实都是错的。具体的原因，请看下面视频讲解：
 
+视频地址：[https://www.bilibili.com/video/BV1tf4y1s7NN?share_source=copy_web](https://www.bilibili.com/video/BV1tf4y1s7NN?share_source=copy_web)
+
 <iframe src="//player.bilibili.com/player.html?aid=290131832&bvid=BV1tf4y1s7NN&cid=328057877&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 
