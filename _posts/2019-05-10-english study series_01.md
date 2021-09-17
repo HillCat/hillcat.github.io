@@ -70,7 +70,7 @@ Matt跟 `斯蒂芬.克拉申` 聊过天，能和克拉申教授聊天的人绝�
 
 <iframe src="//player.bilibili.com/player.html?aid=290131832&bvid=BV1tf4y1s7NN&cid=328057877&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-有时候我也更一些朋友争论过以上的观点。但是无论怎么争论，还是无法让对方理解。所以，有时候学语言真的还得有点悟性才行。
+有时候我也跟一些朋友争论过以上的观点。但是无论怎么争论，还是无法让对方理解。所以，有时候学语言真的得自己多思考，想要改变一些人的观点很难。如果要养成独立思考和辩证思维，请阅读《超越感觉：批判性思考指南》这本书。很多事情不是靠感觉来判断的，更多的要基于理性。
 
 
 
