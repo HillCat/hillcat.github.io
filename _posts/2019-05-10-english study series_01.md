@@ -66,7 +66,7 @@ Matt跟 `斯蒂芬.克拉申` 聊过天，能和克拉申教授聊天的人绝�
 
 4.语言学习即便困难无趣，成功贵在”坚持“。
 
-以上4个观点其实都是错的。具体的原因，请看下面视频讲解：
+以上4个观点其实都是错的(我的观点基本和下面这个视频观点一致)。具体的原因，请看下面视频讲解：
 
 视频地址：[https://www.bilibili.com/video/BV1tf4y1s7NN?share_source=copy_web](https://www.bilibili.com/video/BV1tf4y1s7NN?share_source=copy_web)
 
