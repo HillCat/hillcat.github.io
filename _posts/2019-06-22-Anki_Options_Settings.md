@@ -47,7 +47,7 @@ Anki参数详细讲解的，第一个视频是Matt的视频，地址是：[https
 
 <img src="https://cs-cn.top/images/posts/setting16938.png"/>
 
-<img src="https://cs-cn.top/images/posts/settings088.png"/>
+<img src="https://cs-cn.top/images/posts/max-interval83.png"/>
 
 <img src="https://cs-cn.top/images/posts/settings821.png"/>
 
