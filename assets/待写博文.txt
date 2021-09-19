@@ -26,6 +26,8 @@
 
 14.翻墙如果被DNS干扰严重的话，设置本地ipv4为SmartDNS即可防止干扰。
 
+15.Nginx负载均衡配置：https://www.bilibili.com/video/BV1cr4y1A7t3?from=search&seid=15645337389645961623&spm_id_from=333.337.0.0
+
 
 
 
