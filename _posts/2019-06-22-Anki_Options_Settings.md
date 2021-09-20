@@ -49,7 +49,7 @@ Anki参数详细讲解的，第一个视频是Matt的视频，地址是：[https
 
 <img src="https://cs-cn.top/images/posts/max-interval83.png"/>
 
-备注：在英文自学群中，出来一个新的观点，就是关于间隔重复的，是采用艾宾浩斯间隔还是采用“等距离间隔”有争论。国内英文自学公众号大 V“妙面爸”引用某些权威机构的数据指出：把间隔重复的时间间隔设置为“等距间隔”对于单词抗遗忘效果是最好的。比如：上图这里的Maximum interval设置60天。对于已经熟悉的单词，可以每隔60天复习一次。
+备注：上图这里的Maximum interval设置60天。对于已经熟悉的单词，可以每隔60天复习一次。控制最大的间隔，可以使得复习间隔变为“等距间隔重复“。
 
 <img src="https://cs-cn.top/images/posts/settings821.png"/>
 

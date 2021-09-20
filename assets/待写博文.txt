@@ -28,6 +28,7 @@
 
 15.Nginx负载均衡配置：https://www.bilibili.com/video/BV1cr4y1A7t3?from=search&seid=15645337389645961623&spm_id_from=333.337.0.0
 
+16.yeild方式迭代数据：https://medium.com/@alexandre.malavasi/demystifying-yield-return-in-c-728b7305ab4f
 
 
 
