@@ -5,6 +5,8 @@ categories: English
 description: 英文自学
 keywords: English
 ---
+使用anki最容易犯错的地方就是使用不当，容易造成复习量爆炸，给学习者造成很大的复习压力。包括某些人使用Anki已经有2~3年经验的人，可能还是对Anki不太熟悉。转而去更换其他supermemory类似软件的例子，比如：[https://www.bilibili.com/read/cv11512889](https://www.bilibili.com/read/cv11512889)，这是放弃anki转而使用SuperMemo的一个例子。其实如果搞懂了anki的参数还有一些关键的坑，避开这些坑，调整和优化好自己的参数，anki还是非常不错的一个工具。本篇主要介绍anki中最重要的2个参数，防止掉坑。
+
 什么是留存率？留存率就是Anki中的单词卡片，你最终能够记住的有多少，能记住百分之几的单词。比如：7000个单词卡片，我想记住90%，也就是记住6300个单词，单词的留存率就是90%。如果设置留存率呢？参考原文：[https://readbroca.com/anki/what-is-anki-interval-modifier/](https://readbroca.com/anki/what-is-anki-interval-modifier/)。具体的操作，我把它翻译为中文，配上我的演示：
 
 先安装这个插件[True Retention](https://ankiweb.net/shared/info/613684242) ，点击Stats的同时按住Shift键，否则你进入的是默认的统计页面，一定要按住Shift键的同时点击鼠标左键，才能进入到下面这个界面：
