@@ -85,7 +85,9 @@ CPU：十代酷睿I7 10700
 
 参考地址：[https://www.bilibili.com/video/BV1bo4y1d7TT?share_source=copy_web](https://www.bilibili.com/video/BV1bo4y1d7TT?share_source=copy_web)
 
+以上主板，主要是保证CPU不掉频。
 
+### AMD方案
 
 如果是不考虑i7处理器，则可以考虑AMD方案：
 
