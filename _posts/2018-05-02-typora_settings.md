@@ -1,68 +1,29 @@
 ---
 layout: post
-title: typora常用快捷键
+title: 生产力台式机配置推荐
 categories: Blog
-description: typora常用快捷键和技巧。
+description: 台式机windows方案推荐
 keywords: trpora
 ---
+以下是来自于一些评测网站提供的台式机PC配置单：
 
-typora编辑器的一些常用快捷键：
+<img src="https://cs-cn.top/images/posts/win_863.png"/>
 
-### 1.**标题H1~H6**
+处理器: i7-10700   8核16线程
 
-   标题这块主要是通过快捷键ctrl + 数字键快速实现标题分割。
+主板:微星B460M 迫击炮
 
-### 2.**加粗，倾斜，下划线**
+内存:英睿达16GB 2666双通道
 
-   Ctrl+B/I/U进入加粗/倾斜/下划线模式。
+固态硬盘:铠侠RC10/500G
 
-### 3.**插入代码**
+显卡:UHD
 
-   在Typora中插入程
+机箱：爱国者M5
 
-   
+电源：酷冷至尊 雷霆500W铜牌
 
-   序代码的方式有两种：使用反引号 `（~ 键）。行内代码使用~键，如果是多行代码使用3个~符号，敲入对应的编程语言符号就是表示当前要贴入的代码。比如：
+散热器：乔思伯 240MM水冷
 
-   这个是行内代码`hello word`,使用的就是反引号`去包裹。
-
-   多行代码，并且选定开发语言为C#,比如:
-
-   ```c#
-   public class Book 
-       {
-           public Guid AuthorId { get; set; }
-   
-           public string Name { get; set; }
-   
-           public BookType Type { get; set; }
-   
-           public DateTime PublishDate { get; set; }
-   
-           public float Price { get; set; }
-       }
-   ```
-
-
-### 4.***插入超文本***
-
-   - 插入带有文字的超链接，使用快捷键ctrl + k，出现方括号和圆括号 `[]()`
-
-       [百度](https://www.baidu.com) 方括号中填写文本，圆括号中填写带有http或者https打头的url形式，其他形式的插入超文本，因为在gfm的markdown支持不是很好，所以这里没有列出来。
-
-### 5.***插入图片***
-
-   这里使用的是picgo这个工具让github作为图床使用。具体的设置方法，网络上面有这里不再赘述。总之就是先把图片通过图床的形式上传到github,带有自己域名指向的img地址，直接以\<img>标签的形式粘贴到博客正文。比如：下面这个就是一张采用github作为托管的图床图片：
-
-   <br/>
-
-
-
-   
-
-   
-
-   
-
-   
+价格：3999元
 
