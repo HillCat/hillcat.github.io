@@ -51,3 +51,13 @@ keywords: trpora
 
 价格：4000 RMB
 
+
+
+京东：主板+CPU=2449  ；内存=519 ；固态硬盘：399；电源：259；散热：169；机箱：289；
+
+### 配置3
+
+这个配置据说是程序员专用笔记本：
+
+<img src="https://cs-cn.top/images/posts/programmer_pc369.png"/>
+
