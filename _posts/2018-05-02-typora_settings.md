@@ -83,3 +83,5 @@ CPU：十代酷睿I7 10700
 
 价格大概是3599
 
+参考地址：[https://www.bilibili.com/video/BV1bo4y1d7TT?share_source=copy_web](https://www.bilibili.com/video/BV1bo4y1d7TT?share_source=copy_web)
+
