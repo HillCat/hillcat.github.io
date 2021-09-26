@@ -29,6 +29,8 @@ keywords: trpora
 
 价格：3999元
 
+机箱这块可以考虑：[爱国者 S1-桌面立式ITX机箱 i7 10700+RTX3070装机体验](https://www.bilibili.com/video/BV14t4y1e76s/)，比中正评测推荐的机箱要好，内置防尘网。但是水冷系统可能需要更换。
+
 ### 配置2
 
 <img src="https://cs-cn.top/images/posts/win2_4742.png"/>
