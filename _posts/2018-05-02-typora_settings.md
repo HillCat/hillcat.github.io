@@ -23,7 +23,7 @@ keywords: trpora
 
 机箱：爱国者M5    价格：179;  [爱国者YOGO S1](https://item.jd.com/100015885304.html) 价格：**499**； 机箱的具体细节[https://www.bilibili.com/video/BV1cA411j7Fs/](https://www.bilibili.com/video/BV1cA411j7Fs/)
 
-电源：~~酷冷至尊 雷霆500W铜牌   价格：379；     [全模组长城电源 600W](https://item.jd.com/100010194562.html)  价格 **499**；~~   电源只能使用SFX电源，台湾品牌 [SFP全汉500W/全模组铜牌/5年质保](https://item.jd.com/100006670405.html) ，价格529元。
+电源：~~酷冷至尊 雷霆500W铜牌   价格：379；     [全模组长城电源 600W](https://item.jd.com/100010194562.html)  价格 **499**；~~   itx机箱，电源只能使用SFX电源，台湾品牌 [SFP全汉500W/全模组铜牌/5年质保](https://item.jd.com/100006670405.html) ，价格529元。
 
 散热器：乔思伯 240MM水冷  价格：339； [酷冷至尊 B240水冷 ](https://item.jd.com/4567820.html)，价格：**299**；
 
