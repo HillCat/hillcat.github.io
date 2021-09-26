@@ -23,7 +23,7 @@ keywords: trpora
 
 机箱：爱国者M5    价格：179;  [爱国者YOGO S1](https://item.jd.com/100015885304.html) 价格：**499**； 机箱的具体细节[https://www.bilibili.com/video/BV1cA411j7Fs/](https://www.bilibili.com/video/BV1cA411j7Fs/)
 
-电源：~~酷冷至尊 雷霆500W铜牌   价格：379；     [全模组长城电源 600W](https://item.jd.com/100010194562.html)  价格 **499**；~~
+电源：~~酷冷至尊 雷霆500W铜牌   价格：379；     [全模组长城电源 600W](https://item.jd.com/100010194562.html)  价格 **499**；~~   电源只能使用SFX电源，台湾品牌 [SFP全汉](https://item.jd.com/100006670405.html) ，价格529元。
 
 散热器：乔思伯 240MM水冷  价格：339； [酷冷至尊 B240水冷 ](https://item.jd.com/4567820.html)，价格：**299**；
 
@@ -31,7 +31,7 @@ keywords: trpora
 
 硬盘提升到1T，则价格 +300；机箱改为爱国者YOGO S1 ITX 白色小机箱，则价格 +300；
 
-全套 ：i7 CPU + 华硕主板 + 1T 固态硬盘 NVMe M.2接口 +24G内存 +爱国者机箱 S1 +水冷散热 +600W电源 = **5495 元**  
+全套 ：i7 CPU + 华硕主板 + 1T 固态硬盘 NVMe M.2接口 +24G内存 +爱国者机箱 S1 +水冷散热 +500W电源 = **5525 元**  
 
 在有显卡的时候，峰值功率是 470W ；
 
