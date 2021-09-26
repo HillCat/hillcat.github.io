@@ -35,7 +35,7 @@ keywords: trpora
 
 在有显卡的时候，峰值功率是 470W ；
 
-
+参考连接： [intel Core i7 10700 + 华硕 B460-I GAMING](https://youtu.be/4z3lTLQM20w)
 
 #### 注意事项
 
