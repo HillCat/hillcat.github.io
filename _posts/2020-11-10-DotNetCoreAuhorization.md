@@ -11,8 +11,9 @@ keywords: .net
 
 .net core框架权限验证这块，有很多概念是需要搞清楚的，先是一些关键概念，然后是建立在这些概念上的原理。
 
-权限验证涉及到的系统中的命名空间：
+[.net core权限验证API](https://source.dot.net/#q=System.Security)涉及到的命名空间：
 
+````c#
 System.Security.Permissions
 
 System.Security.Claims                ------ Volo.Abp.Security  在此API的基础上进行了扩展
@@ -24,6 +25,11 @@ System.Security.Principal
 System.Security.SecureString
 
 System.Security.Cryptography    -----加密解密相关库
+````
+
+
+
+
 
 ### 基础概念
 
