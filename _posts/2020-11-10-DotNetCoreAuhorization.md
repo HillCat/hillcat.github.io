@@ -27,19 +27,25 @@ System.Security.Cryptography    -----密码学
 
 ### 基础概念
 
+#### Part1
+
 *Authentication → Who you are*
 
 *Authorization → What you can do*
 
 权限验证的时候，服务器端一般需要知道Who you are ，以及还需要知道What you can do；一个是要知道访问者的身份，还一个是需要知道访问者的权限(能够做什么)。
 
+#### Part2
+
+Security Context里面包含了所有用户的信息，比如用户ID，用户名，地址等信息；这些信息一般是封装在了一个Object对象中，在.net core中这个Object对象叫做claims principle,或者叫做principal object.在一定程度上它可以直接代表user.这个principal里面含有很多Identities。即：**一个用户可以有很多Identity。**
+
+<img src="https://cs-cn.top/images/posts/Identity27182.png"/>
 
 
 
 
-参考资源：
 
-[ClaimsPrincipal, ClaimsIdentity and Claim | ASP.NET CORE Identity & Security Series ](https://youtu.be/3i0RcKrVyTo)
+
 
 
 
