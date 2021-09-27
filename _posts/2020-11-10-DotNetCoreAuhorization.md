@@ -57,7 +57,7 @@ Security Context里面包含了所有用户的信息，比如用户ID，用户�
 
 <img src="https://cs-cn.top/images/posts/claim485.png"/>
 
-
+在国内有一种叫法，叫做“基于声明的认证“，其实“声明”二字就是指的Claim；也就是图中context.User.Claims这种使用方式比较普遍。
 
 ##### Policy
 
