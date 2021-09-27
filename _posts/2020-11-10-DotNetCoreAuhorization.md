@@ -27,9 +27,13 @@ System.Security.Cryptography    -----密码学
 
 
 
- 1.ClaimsPrincipal, ClaimsIdentity and Claim | ASP.NET CORE Identity & Security Series | Episode #3
 
-[https://youtu.be/3i0RcKrVyTo](https://youtu.be/3i0RcKrVyTo)
+
+
+
+参考资源：
+
+[ClaimsPrincipal, ClaimsIdentity and Claim | ASP.NET CORE Identity & Security Series ](https://youtu.be/3i0RcKrVyTo)
 
 
 
