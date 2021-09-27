@@ -33,7 +33,7 @@ System.Security.Cryptography // 加密解密相关库
 
 ### 基础概念
 
-#### Part1
+#### Authentication & Authorization
 
 *Authentication → Who you are*
 
@@ -41,7 +41,7 @@ System.Security.Cryptography // 加密解密相关库
 
 权限验证的时候，服务器端一般需要知道Who you are ，以及还需要知道What you can do；一个是要知道访问者的身份，还一个是需要知道访问者的权限(能够做什么)。
 
-#### Part2
+#### Principal
 
 Security Context里面包含了所有用户的信息，比如用户ID，用户名，地址等信息；这些信息一般是封装在了一个Object对象中，在.net core中这个Object对象叫做claims principle,或者叫做principal object.在一定程度上它可以直接代表user.这个principal里面含有很多Identities。即：**一个用户可以有很多Identity。**比如1个人可以有多种身份：学生，雇员，司机。
 
@@ -49,7 +49,7 @@ Security Context里面包含了所有用户的信息，比如用户ID，用户�
 
 ##### Claim
 
-一个Identity可以有多个claim。Claim在.net core中一般是键值对形式存在。
+一个Identity可以有多个claim。Claim在.net core中一般是键值对形式存在。比如Identity为司机，但是司机可以有DateStarted，表示这个司机什么时候开始从事这个行业，以计算出司机的工龄。比如3年以下工龄的，5年以上工龄的，这些就可以通过claim来识别。
 
 <img src="https://cs-cn.top/images/posts/claims3858.png"/>
 
