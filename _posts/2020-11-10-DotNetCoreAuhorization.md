@@ -43,6 +43,12 @@ Microsoft.AspNetCore.Identity //对于Identity中属性的一些定义
 
 权限验证的时候，服务器端一般需要知道Who you are ，以及还需要知道What you can do；一个是要知道访问者的身份，还一个是需要知道访问者的权限(能够做什么)。
 
+系统自带的类库，提供了一些简单的Authorization验证方法。比如：
+
+[Microsoft.AspNetCore.Authorization](https://source.dot.net/#Microsoft.AspNetCore.Authorization/AuthorizeAttribute.cs,ce39c167c3cf6799,references)
+
+
+
 #### Principal
 
 Security Context里面包含了所有用户的信息，比如用户ID，用户名，地址等信息；这些信息一般是封装在了一个Object对象中，在.net core中这个Object对象叫做claims principle,或者叫做principal object.在一定程度上它可以直接代表user.这个principal里面含有很多Identities。即：**一个用户可以有很多Identity。**比如1个人可以有多种身份：学生，雇员，司机。
@@ -75,21 +81,21 @@ Identity中，.net core可以对于Identiy中的option做一些限制，比如�
 
 在国内有一种叫法，叫做“基于声明的认证“，其实“声明”二字就是指的Claim；也就是图中context.User.Claims这种使用方式比较普遍。
 
+一个用户登录之后，可以对多个Claim进行验证。
+
+<img src="https://cs-cn.top/images/posts/claim27357.png"/>
+
+
+
 ##### Policy
 
-Policy就是Authorization Function，拿到User Context之后，对User数据进行具体的验证的Function。如果验证失败，返回403错误等。
+Policy就是Authorization Function，拿到User Context之后，对User数据进行具体的验证的Function，对应的是一组处理规则。如果验证失败，返回403或401错误等。
 
 <img src="https://cs-cn.top/images/posts/Policy0981.png"/>
 
 对于policy的使用，比如.net core里面对Authorization的option进行一些设置：
 
 <img src="https://cs-cn.top/images/posts/policy4940.png"/>
-
-
-
-
-
-
 
 
 
