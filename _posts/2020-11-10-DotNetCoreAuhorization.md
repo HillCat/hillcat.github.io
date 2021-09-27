@@ -16,7 +16,7 @@ keywords: .net
 ````c#
 System.Security.Permissions
 
-System.Security.Claims                ------ Volo.Abp.Security  在此API的基础上进行了扩展
+System.Security.Claims  // Volo.Abp.Security  在此API的基础上进行了扩展
 
 System.Security.AccessControl
 
@@ -24,7 +24,7 @@ System.Security.Principal
 
 System.Security.SecureString
 
-System.Security.Cryptography    -----加密解密相关库
+System.Security.Cryptography // 加密解密相关库
 ````
 
 
