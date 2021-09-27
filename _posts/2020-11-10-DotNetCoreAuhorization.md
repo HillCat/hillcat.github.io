@@ -47,11 +47,23 @@ Security Context里面包含了所有用户的信息，比如用户ID，用户�
 
 <img src="https://cs-cn.top/images/posts/Identity27182.png"/>
 
+##### Claim
 
-
-一个Identity可以有多个claim。
+一个Identity可以有多个claim。Claim在.net core中一般是键值对形式存在。
 
 <img src="https://cs-cn.top/images/posts/claims3858.png"/>
+
+一个比较常见的使用方法就是，从context上下文拿到用户的Claims对象之后查找对应的Type的Value值。以判断用户是否具备某些权限或者条件。
+
+<img src="https://cs-cn.top/images/posts/claim485.png"/>
+
+
+
+##### Policy
+
+Policy就是Authorization Function，拿到User Context之后，对User数据进行具体的验证的Function。如果验证失败，返回403错误等。
+
+<img src="https://cs-cn.top/images/posts/Policy0981.png"/>
 
 
 
