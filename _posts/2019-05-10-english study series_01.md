@@ -30,9 +30,9 @@ keywords: English
 
 <img src="https://cs-cn.top//images/posts/matt_japan.png"/>
 
-美国人Matt也是Anki的重度使用者，他是土生土长的美国人，在缺乏日语语言环境的情况下，通过自学把日语学到了接近日本母语者的水平，其日语口语的行云流水、炉火纯青的程度，让我感到震惊，我认为他是我见过的anki二语习得者中最厉害的一个。以至于我在Anki使用方面的经验，有很多是从他这里学习过来的。我第一次在youtube看到Matt讲日语的视频的时候，给我的感觉是2个字：“震撼”，明明这个人长得不像日本人，而日语怎么可以讲到如此流利恐怖？而他的亲身经历，更加坚定了我使用Anki的信心。在youtube看到Matt之前，我曾经不止一次地怀疑过anki，是否有必要把记单词放在首要位置。但是看到Matt的分享，一个anki的使用者能够达到如此惊人的地步，这个可以说是Anki起到了非常重要的作用。重复间隔式的复习，对于掌握生词确实具有重要的意思。他的油管频道：[https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg](https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg)。
+美国人Matt这是一个学外语的高手，非常擅长使用anki和美剧制卡。有非常多的实战经验，我都是从他这里借鉴学习的。他的油管频道：[https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg](https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg)。
 
-Matt跟 `斯蒂芬.克拉申` 聊过天，能和克拉申教授聊天的人绝对不是泛泛之辈。在Matt的频道有当时两个人直播的视频。个人认为，Matt如果能够邀请到斯蒂芬.克拉申跟他聊二语习得，足以证明Matt的日语是已经学到了非常好的地步。并且我看过Matt几乎所有的视频，他的很多观点，我是非常认可的，并且如果你正在自学英语，只要你看了他的youtube那些分享(前提条件是能够借助英文字幕听懂)，心里很多关于外语学习的疑问都会得到答案。在知识分享这一块，Matt能够把很多的细节告诉你，这是国内很多大V都做不到的。
+Matt跟 `斯蒂芬.克拉申` 聊过天，能和克拉申教授聊天的人绝对不是泛泛之辈。
 
 
 
