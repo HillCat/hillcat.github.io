@@ -25,7 +25,13 @@ System.Security.SecureString
 
 System.Security.Cryptography    -----密码学
 
+### 基础概念
 
+*Authentication → Who you are*
+
+*Authorization → What you can do*
+
+权限验证的时候，服务器端一般需要知道Who you are ，以及还需要知道What you can do；一个是要知道访问者的身份，还一个是需要知道访问者的权限(能够做什么)。
 
 
 
