@@ -25,6 +25,8 @@ System.Security.Principal
 System.Security.SecureString
 
 System.Security.Cryptography // 加密解密相关库
+
+Microsoft.AspNetCore.Identity //对于Identity中属性的一些定义
 ````
 
 
@@ -47,6 +49,20 @@ Security Context里面包含了所有用户的信息，比如用户ID，用户�
 
 <img src="https://cs-cn.top/images/posts/Identity27182.png"/>
 
+
+
+#### Identity_options
+
+系统自带的类库中，有对Identity一些options做限制的。详细可以了解[Microsoft.AspNetCore.Identity源码](https://source.dot.net/#Microsoft.Extensions.Identity.Core/IdentityOptions.cs,c4d151da9fa86f53)。
+
+<img src="https://cs-cn.top/images/posts/IdentityOptions59.png"/>
+
+Identity中，.net core可以对于Identiy中的option做一些限制，比如：可以对用户的密码组成进行限制，密码的长度等。
+
+<img src="https://cs-cn.top/images/posts/Identity5498.png"/>
+
+
+
 ##### Claim
 
 一个Identity可以有多个claim。Claim在.net core中一般是键值对形式存在。比如Identity为司机，但是司机可以有DateStarted，表示这个司机什么时候开始从事这个行业，以计算出司机的工龄。比如3年以下工龄的，5年以上工龄的，这些就可以通过claim来识别。
@@ -64,6 +80,14 @@ Security Context里面包含了所有用户的信息，比如用户ID，用户�
 Policy就是Authorization Function，拿到User Context之后，对User数据进行具体的验证的Function。如果验证失败，返回403错误等。
 
 <img src="https://cs-cn.top/images/posts/Policy0981.png"/>
+
+对于policy的使用，比如.net core里面对Authorization的option进行一些设置：
+
+<img src="https://cs-cn.top/images/posts/policy4940.png"/>
+
+
+
+
 
 
 
