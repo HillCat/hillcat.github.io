@@ -51,7 +51,7 @@ Security Context里面包含了所有用户的信息，比如用户ID，用户�
 
 
 
-
+参考：[Authentication&Authorization in Asp.Net Core -Part 1](https://medium.com/c-sharp-progarmming/authentication-and-authorization-in-asp-net-core-part-1-188866c4115e)
 
 
 
