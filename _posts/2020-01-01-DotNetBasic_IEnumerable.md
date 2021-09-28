@@ -36,3 +36,20 @@ IEnumerable<T> 这个是一个接口，主要是提供一个容器来存储泛�
 
 <img src="https://cs-cn.top/images/posts/Collections14511.png"/>
 
+
+
+Non-Generic的例子：
+
+<img src="https://cs-cn.top/images/posts/Non-Generic_Collection6953.png"/>
+
+````c#
+namespace System.Collections.Generic
+{
+    
+    public interface IEnumerable<out T> : IEnumerable
+    {
+        IEnumerator<T> GetEnumerator();
+    }
+}
+````
+
