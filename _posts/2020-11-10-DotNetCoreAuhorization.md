@@ -148,7 +148,13 @@ namespace Microsoft.AspNetCore.Identity
 }
 ````
 
-​	另外，.net core框架自带的Role这个class也带了常用的属性。
+​	对应的数据库表结构：
+
+<img src="https://cs-cn.top/images/posts/AspNetUsers543.png"/>
+
+
+
+另外，.net core框架自带的IdentityRole这个class也带了常用的属性。
 
 ````c#
 namespace Microsoft.AspNetCore.Identity
@@ -173,6 +179,10 @@ namespace Microsoft.AspNetCore.Identity
     }
 }
 ````
+
+对应的数据库表：
+
+<img src="https://cs-cn.top/images/posts/AspNetRoles9934.png"/>
 
 
 
