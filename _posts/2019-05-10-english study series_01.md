@@ -66,7 +66,7 @@ Matt跟 `斯蒂芬.克拉申` 老爷子在Matt的Youtube频道做过一期访谈
 
 ### 罗肖尼
 
-罗肖尼，这个人应该是B站中少数几个雅思考满分的人，他的雅思考了8.5分，这是他在B站的一些经验分享：[https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web](https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web)。个人觉得非常值得一看。并且我也是有声书的坚决拥护者，下面这本《神奇树屋》也叫做《魔法树屋》我看过35本，全系列一共有70多本。然后是罗肖尼另外一个视频也值得看看：[https://www.bilibili.com/video/BV1tf4y1s7NN?share_source=copy_web](https://www.bilibili.com/video/BV1tf4y1s7NN?share_source=copy_web)
+罗肖尼，他的雅思考了满分8.5分，这是他在B站的一些经验分享：[https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web](https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web)。个人觉得非常值得一看。并且我也是有声书的坚决拥护者，下面这本《神奇树屋》也叫做《魔法树屋》我看过35本，全系列一共有70多本。然后是罗肖尼另外一个视频也值得看看：[https://www.bilibili.com/video/BV1tf4y1s7NN?share_source=copy_web](https://www.bilibili.com/video/BV1tf4y1s7NN?share_source=copy_web)
 
 <img src="https://cs-cn.top/images/posts/audio_book_0613.gif"/>
 
