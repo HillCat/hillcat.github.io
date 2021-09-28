@@ -47,6 +47,16 @@ Microsoft.AspNetCore.Identity //对于Identity中属性的一些定义
 
 [Microsoft.AspNetCore.Authorization](https://source.dot.net/#Microsoft.AspNetCore.Authorization/AuthorizeAttribute.cs,ce39c167c3cf6799,references)
 
+这个类里面主要是设置policy和roles属性，两个都是字符串类型的，policy是指定规则名称字符串，roles是指定角色名称字符串。
+
+Roles名称字符串的具体使用：
+
+<img src="https://cs-cn.top/images/posts/Roles5994.png"/>
+
+Policy名称字符串的具体使用：
+
+<img src="https://cs-cn.top/images/posts/Policy7849.png"/>
+
 
 
 #### Principal
