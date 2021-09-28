@@ -99,6 +99,81 @@ Policy就是Authorization Function，拿到User Context之后，对User数据进
 
 ### 框架提供的功能
 
+.net core框架中自带的IdentityUser这个class就包含了一些常用的属性。
+
+````c#
+namespace Microsoft.AspNetCore.Identity
+{
+   
+    public class IdentityUser<TKey> where TKey : IEquatable<TKey>
+    {
+       
+        public IdentityUser();
+        public IdentityUser(string userName);
+        public virtual DateTimeOffset? LockoutEnd { get; set; }
+       
+        [PersonalData]
+        public virtual bool TwoFactorEnabled { get; set; }
+        
+        [PersonalData]
+        public virtual bool PhoneNumberConfirmed { get; set; }
+        
+        [ProtectedPersonalData]
+        public virtual string PhoneNumber { get; set; }
+       
+        public virtual string ConcurrencyStamp { get; set; }
+        public virtual string SecurityStamp { get; set; }
+        public virtual string PasswordHash { get; set; }
+       
+        [PersonalData]
+        public virtual bool EmailConfirmed { get; set; }
+       
+        public virtual string NormalizedEmail { get; set; }
+       
+        [ProtectedPersonalData]
+        public virtual string Email { get; set; }
+       
+        public virtual string NormalizedUserName { get; set; }
+        
+        [ProtectedPersonalData]
+        public virtual string UserName { get; set; }
+        
+        [PersonalData]
+        public virtual TKey Id { get; set; }
+        
+        public virtual bool LockoutEnabled { get; set; }
+        public virtual int AccessFailedCount { get; set; }
+        public override string ToString();
+    }
+}
+````
+
+​	另外，.net core框架自带的Role这个class也带了常用的属性。
+
+````c#
+namespace Microsoft.AspNetCore.Identity
+{
+    
+    public class IdentityRole<TKey> where TKey : IEquatable<TKey>
+    {
+        
+        public IdentityRole();
+       
+        public IdentityRole(string roleName);
+       
+        public virtual TKey Id { get; set; }
+       
+        public virtual string Name { get; set; }
+        
+        public virtual string NormalizedName { get; set; }
+       
+        public virtual string ConcurrencyStamp { get; set; }
+
+        public override string ToString();
+    }
+}
+````
+
 
 
 ### 参考资料
