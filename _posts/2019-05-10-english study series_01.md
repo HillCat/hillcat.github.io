@@ -34,7 +34,7 @@ Anki的重复制卡主要是解决”深度“的问题，随着单词掌握不�
 
 在我的单词卡片中，lift这个词，有如下场景：
 
-1.Howard squinted one blue eye. He **lifted** Dink’s baseball cap. “What happened to your hair?”   ---  lifted：提起
+1.Howard squinted one blue eye. He **lifted** Dink’s baseball cap. “What happened to your hair?”   ---  lifted：摘掉(帽子)
 
 2.“This time, I don’t think you can do anything,” she said. “But perhaps it will **lift** Arthur’s spirits  ---  lifted：（使）（心情）振奋
 
@@ -44,7 +44,7 @@ Anki的重复制卡主要是解决”深度“的问题，随着单词掌握不�
 
 5.Robin **lifted** the enormous friar with great difficulty. ---  lifted：举起；抬起；提起
 
-可以看到，lift这个词被重复制卡了5次，出现了3个不同的意思，大多数时候是”抬起，举起“的意思，从重复制卡中可以了解到一个单词常用的几个意思。重复制卡是非常非常重要的。如果你的目标是积累1.5万个单词，那么anki中的单词卡片的数量应该在1.8万张卡片左右，重复数量越多，复习的次数也就越多，越能够加快你熟悉这个单词。这就是一个良性循环。等到后面熟悉了这些单词，就可以适当删除掉一些重复数据。从单词的卡片数量是可以推测到自己实际的词汇量水平的。
+可以看到，lift这个词被重复制卡了5次，出现了4个不同的意思，大多数时候是”抬起，举起“的意思，从重复制卡中可以了解到一个单词常用的几个意思。重复制卡是非常非常重要的。如果你的目标是积累1.5万个单词，那么anki中的单词卡片的数量应该在1.8万张卡片左右，重复数量越多，复习的次数也就越多，越能够加快你熟悉这个单词。这就是一个良性循环。等到后面熟悉了这些单词，就可以适当删除掉一些重复数据。从单词的卡片数量是可以推测到自己实际的词汇量水平的。
 
 #### 日语习得者：Matt
 
