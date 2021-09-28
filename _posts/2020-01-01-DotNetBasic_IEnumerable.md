@@ -109,3 +109,11 @@ namespace System.Collections.Generic
         }
 ```
 
+### 使用Collections的好处
+
+Collections集合的好处，是可以进行Adding，Delteting, Replacing ,Searching，Copying操作。
+
+
+
+
+
