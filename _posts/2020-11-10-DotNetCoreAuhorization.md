@@ -89,7 +89,7 @@ Identity中，.net core可以对于Identiy中的option做一些限制，比如�
 
 ##### Policy
 
-Policy就是Authorization Function，拿到User Context之后，对User数据进行具体的验证的Function，对应的是一组处理规则。如果验证失败，返回403或401错误等。
+Policy就是Authorization Function，拿到User Context之后，对User数据进行具体的验证的Function，对应的是一组处理规则。微软.net core框架封装了一些常用的操作，通过设置option方便的设置Policy，也可以实现自己的Policy。
 
 <img src="https://cs-cn.top/images/posts/Policy0981.png"/>
 
