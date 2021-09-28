@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 泛型
-categories: .net
+categories: DotNetBasic
 description: .net的泛型
 keywords: .net的泛型
 ---

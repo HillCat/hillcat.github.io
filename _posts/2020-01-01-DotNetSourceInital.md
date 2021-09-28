@@ -2,7 +2,7 @@
 
 layout: post
 title: DotNetCore项目初始化
-categories: .net
+categories: DotNetBasic
 description: .net技术笔记
 keywords: DotNetCore
 ---
