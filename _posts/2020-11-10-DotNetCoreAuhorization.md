@@ -9,7 +9,7 @@ keywords: .net
 
 导读：本文会从.net core框架的身份权限验证一直到IdentityServer4这块做一个系列文章。本文涉及到的内容较多，会不断完善。
 
-.net core框架权限验证这块，有很多概念是需要搞清楚的，先是一些关键概念，然后是建立在这些概念上的原理。
+
 
 [.net core权限验证API](https://source.dot.net/#q=System.Security)涉及到的命名空间：
 
