@@ -53,3 +53,57 @@ namespace System.Collections.Generic
 }
 ````
 
+本质上这是一个接口，接口里面有个方法GetEnumerator()，这个方法返回的是一个迭代器Enumerator，类似下面这样：
+
+```c#
+ Enumerator GetEnumerator() => new Enumerator(this);
+```
+
+这个Enumerator对象，本质上是一个结构体，具体的代码如下,内部通过MoveNext()方法来迭代遍历。
+
+```c#
+/// <summary>
+        /// A struct that represents an Enumerator
+        /// </summary>
+        public struct Enumerator : IEnumerator<KeyValuePair<string, object>>
+        {
+            private readonly EventData _eventData;
+            private readonly int _count;
+ 
+            private int _index;
+ 
+            /// <summary>
+            /// Current keyvalue pair.
+            /// </summary>
+            public KeyValuePair<string, object> Current { get; private set; }
+ 
+            internal Enumerator(EventData eventData)
+            {
+                _eventData = eventData;
+                _count = eventData.Count;
+                _index = -1;
+                Current = default;
+            }
+ 
+            /// <inheritdoc/>
+            public bool MoveNext()
+            {
+                var index = _index + 1;
+                if (index >= _count)
+                {
+                    return false;
+                }
+ 
+                _index = index;
+ 
+                Current = _eventData[index];
+                return true;
+            }
+ 
+            /// <inheritdoc/>
+            public void Dispose() { }
+            object IEnumerator.Current => Current;
+            void IEnumerator.Reset() => throw new NotSupportedException();
+        }
+```
+
