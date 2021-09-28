@@ -97,6 +97,8 @@ Policy就是Authorization Function，拿到User Context之后，对User数据进
 
 <img src="https://cs-cn.top/images/posts/policy4940.png"/>
 
+### 框架提供的功能
+
 
 
 参考：[Authentication&Authorization in Asp.Net Core -Part 1](https://medium.com/c-sharp-progarmming/authentication-and-authorization-in-asp-net-core-part-1-188866c4115e)
