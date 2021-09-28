@@ -56,7 +56,7 @@ Anki的重复制卡主要是解决”单词深度“的问题，随着单词掌�
 
 <img src="https://cs-cn.top//images/posts/matt_japan.png"/>
 
-Matt非常擅长使用anki和美剧制卡，很多经验可以从他这里借鉴学习。他的油管频道：[https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg](https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg)，英文听力能力提升之后，Youtube是个绝对大宝库。里面有非常多优质的学习资源。而且这些资源全部是免费的。
+Matt非常擅长使用anki和美剧制卡，我博客里面提到的某些方法，就是从他这里借鉴学习的。他的油管频道：[https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg](https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg)，英文听力能力提升之后，Youtube是个绝对大宝库。里面有非常多优质的学习资源。而且这些资源全部是免费的。
 
 Matt跟 `斯蒂芬.克拉申` 面对面分享过二语习得经验，从Matt的实践经验来看，他的方法非常适合我，因为我也是anki重度用户。
 
