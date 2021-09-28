@@ -52,7 +52,7 @@ Anki的重复制卡主要是解决”深度“的问题，随着单词掌握不�
 
 <img src="https://cs-cn.top//images/posts/matt_japan.png"/>
 
-美国人Matt这是一个学外语的高手，非常擅长使用anki和美剧制卡。有非常多的实战经验，我都是从他这里借鉴学习的。他的油管频道：[https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg](https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg)。
+Matt非常擅长使用anki和美剧制卡，我的很多经验都是从他这里借鉴学习的。他的油管频道：[https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg](https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg)，对于听力量达到一定的程度的时候，获取信息的渠道会变得越来越多元化，不再仅仅局限于书本。在Youtube上面有非常多的学习资源。如果你的听力词汇量足够多的情况下，其实可以比较轻松的听懂youtube这些视频。这使得英语学习方式由书本，升级到视频，学习新单词的速度会更快。 
 
 Matt跟 `斯蒂芬.克拉申` 聊过天，能和克拉申教授聊天的人绝对不是泛泛之辈。
 
