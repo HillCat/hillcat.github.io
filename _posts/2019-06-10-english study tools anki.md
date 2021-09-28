@@ -67,9 +67,6 @@ Anki的PC电脑版本，Future Due这个曲线图，尽量让它平缓。如果�
 
 <img src="https://cs-cn.top/images/posts/random4038.png"/>
 
-比如上面，在统计图里面我们查看未来哪一天如果峰值特别高，那么我们可以把那一天的单词，比如600个单词，我们想把它降低到300个，那么我们就选择其中300个，把这300个均摊到未来第20 到未来第40天这个之间的20天，去均摊这300个单词，随机均摊即可。复习压力和复习曲线趋于平缓即可。这样子既能够保证我们的学习效果，又不至于突然涌现很多复习压力。
-
-<img src="https://cs-cn.top/images/posts/static458.png"/><img src="https://cs-cn.top/images/posts/static458.png"/>
 
 ### 扩充‘助记信息’帮助理解记忆
 
