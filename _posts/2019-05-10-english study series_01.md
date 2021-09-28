@@ -32,7 +32,7 @@ Anki的重复制卡主要是解决”深度“的问题，随着单词掌握不�
 
 <img src="https://cs-cn.top/images/posts/lift5857.png"/>
 
-lift这个词，我的单词卡中，搜集到如下场景：
+在我的单词卡片中，lift这个词，有如下场景：
 
 1.Howard squinted one blue eye. He **lifted** Dink’s baseball cap. “What happened to your hair?”   ---  lifted：解除
 
