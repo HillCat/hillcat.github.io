@@ -38,15 +38,15 @@ Anki的重复制卡主要是解决”单词深度“的问题，随着单词掌�
 
 上图是通过anki过滤出来的”含有重复制卡“的单词卡片，在我的这些单词卡片中，lift这个词，有如下场景：
 
-1.Howard squinted one blue eye. He **lifted** Dink’s baseball cap. “What happened to your hair?”   ---  lifted：摘掉(帽子)
+1.Howard squinted one blue eye. He **lifted** Dink’s baseball cap. “What happened to your hair?”   ---  摘掉(帽子)
 
-2.“This time, I don’t think you can do anything,” she said. “But perhaps it will **lift** Arthur’s spirits  ---  lifted：（使）（心情）振奋
+2.“This time, I don’t think you can do anything,” she said. “But perhaps it will **lift** Arthur’s spirits  ---  使（精神）振奋
 
-3.“I’ll lift the spit,” he said. ---  lifted：举起；抬起；提起
+3.“I’ll **lift** the spit,” he said. ---  举起；抬起；提起
 
-4.After some time he sees a car in the distance."Wonderful!" thinks Toad,"I can stop the car and ask for a **lift**. Then I can return to Toad Hall in a car."  ---  lifted：搭便车
+4.After some time he sees a car in the distance."Wonderful!" thinks Toad,"I can stop the car and ask for a **lift**. Then I can return to Toad Hall in a car."  ---  搭便车
 
-5.Robin **lifted** the enormous friar with great difficulty. ---  lifted：举起；抬起；提起
+5.Robin **lifted** the enormous friar with great difficulty. ---  举起；抬起；提起
 
 可以看到，lift这个词被重复制卡了5次，出现了4个不同的意思，大多数时候是”抬起，举起“的意思，还其他3个意思。重复制卡无形中增加了卡片的复习数量，给复习带来一定的冗余。如果某些重复制卡的单词掌握得非常牢固了，那么可以把重复的卡片进行删除。以避免不必要的复习时间消耗。
 
