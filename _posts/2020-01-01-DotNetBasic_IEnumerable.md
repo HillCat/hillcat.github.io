@@ -6,7 +6,7 @@ categories: DotNetBasic
 description: .net技术笔记
 keywords: DotNetCore
 ---
-经常会在阅读开源项目代码的时候遇到下面类似的代码：
+经常会在阅读开源项目代码的时候遇到下面类似的代码。
 
 ````c#
 public class DisplayViewModel
@@ -35,6 +35,8 @@ public class UpdateUserRoleViewModel
 IEnumerable<T> 这个是一个接口，主要是提供一个容器来存储泛型类型的集合对象，英文里面把这个T称之为generic对象，与之对应的就是non-generic非泛型对象。下面是这两种的主要区别：
 
 <img src="https://cs-cn.top/images/posts/Collections14511.png"/>
+
+系统中自带的泛型对象，[List<T>](https://source.dot.net/#System.Private.CoreLib/List.cs,cf7f4095e4de7646)这个是非常常见的，它所在的命名空间是：System.Collections.Generic,具体可以查看源码，看看它这个对象所继承的接口。会发现它是继承了`interface IEnumerable<out T> : IEnumerable`的。
 
 
 
