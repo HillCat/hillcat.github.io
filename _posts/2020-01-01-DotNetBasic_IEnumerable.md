@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: DotNetCore项目初始化
+title: IEnumerable和Enumerator
 categories: DotNetBasic
 description: .net技术笔记
 keywords: DotNetCore
