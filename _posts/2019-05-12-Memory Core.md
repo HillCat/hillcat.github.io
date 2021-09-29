@@ -48,7 +48,7 @@ keywords: 记单词
 
 一旦从这种**良性循环**中感受到了收益，就再也不用担心6000+词汇量以后的路要如何走，正向反馈越多，人越容易坚持。
 
-<img src="https://cs-cn.top//images/posts/miaomianba_34335.png"/>
+<img src="../images/posts/miaomianba_34335-16328960771102.png"/><img src="https://cs-cn.top/images/posts/book208.png"/>
 
 
 
