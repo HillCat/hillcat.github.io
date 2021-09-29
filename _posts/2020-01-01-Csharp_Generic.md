@@ -57,7 +57,9 @@ Non-Generic:
 
 
 
+### 参考资料
 
+[https://www.geeksforgeeks.org/c-sharp-generics-introduction/](https://www.geeksforgeeks.org/c-sharp-generics-introduction/)
 
-参考资料：[https://www.geeksforgeeks.org/c-sharp-generics-introduction/](https://www.geeksforgeeks.org/c-sharp-generics-introduction/)
+[https://www.differencebetween.com/difference-between-generic-and-vs-non-generic-collection-in-c/#Similarities%20Between%20Generic%20and%20Non-Generic%20Collection%20in%20C#](https://www.differencebetween.com/difference-between-generic-and-vs-non-generic-collection-in-c/#Similarities%20Between%20Generic%20and%20Non-Generic%20Collection%20in%20C#)
 
