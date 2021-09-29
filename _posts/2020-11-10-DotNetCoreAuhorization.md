@@ -10,8 +10,6 @@ typora-root-url: ../
 
 导读：本文会从.net core框架的身份权限验证一直到IdentityServer4这块做一个系列文章。本文涉及到的内容较多，会不断完善。
 
-
-
 [.net core权限验证API](https://source.dot.net/#q=System.Security)涉及到的命名空间：
 
 ````c#
@@ -29,8 +27,6 @@ System.Security.Cryptography // 加密解密相关库
 
 Microsoft.AspNetCore.Identity //对于Identity中属性的一些定义
 ````
-
-
 
 
 
@@ -58,8 +54,6 @@ Policy具体使用：
 
 <img src="https://cs-cn.top/images/posts/Policy7849.png"/>
 
-![image-20210930023931735](/images/posts/image-20210930023931735.png)
-
 #### Principal
 
 Security Context里面包含了所有用户的信息，比如用户ID，用户名，地址等信息；这些信息一般是封装在了一个Object对象中，在.net core中这个Object对象叫做claims principle,或者叫做principal object.在一定程度上它可以直接代表user.这个principal里面含有很多Identities。即：**一个用户可以有很多Identity。**比如1个人可以有多种身份：学生，雇员，司机。
@@ -70,7 +64,7 @@ Security Context里面包含了所有用户的信息，比如用户ID，用户�
 
 #### Identity_options
 
-系统自带的类库中，有对Identity一些options做限制的。详细可以了解[Microsoft.AspNetCore.Identity源码](https://source.dot.net/#Microsoft.Extensions.Identity.Core/IdentityOptions.cs,c4d151da9fa86f53)。
+系统自带的类库中，有对Identity一些options做限制的。详细可以参考源码[Microsoft.AspNetCore.Identity源码](https://source.dot.net/#Microsoft.Extensions.Identity.Core/IdentityOptions.cs,c4d151da9fa86f53)。
 
 <img src="https://cs-cn.top/images/posts/IdentityOptions59.png"/>
 
