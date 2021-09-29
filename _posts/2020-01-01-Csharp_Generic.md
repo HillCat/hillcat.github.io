@@ -16,9 +16,9 @@ keywords: .net的泛型
 
 泛型对应的英文单词Generic， 非泛型Non-Generic.
 
-发生拆装箱问题，典型的对象就是ArrayList,这个里面，什么类型的对象都可以存放，导致使用的时候类型紊乱，发生频繁的拆装箱操作，性能是非常差的。
+Generic：List<T>  , IEnumerable<T> 
 
-
+Non-Generic:
 
 ### 泛型是如何避免拆箱和装箱的
 
