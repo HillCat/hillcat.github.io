@@ -15,7 +15,7 @@ repository: hillcat/hillcat.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
-        enabled: true
+        enabled: false
 # 可选组件配置
 components:
     # 分享
@@ -161,6 +161,6 @@ google:
     analytics_id:
     adsense:
         footer: true
-        sidebar: true 
+        sidebar: false 
         content_header: true
         content_footer: false
