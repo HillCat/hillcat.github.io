@@ -58,7 +58,7 @@ Policy具体使用：
 
 <img src="https://cs-cn.top/images/posts/Policy7849.png"/>
 
-
+![image-20210930023931735](/images/posts/image-20210930023931735.png)
 
 #### Principal
 
@@ -78,9 +78,7 @@ Identity中，.net core可以对于Identiy中的option做一些限制，比如�
 
 <img src="https://cs-cn.top/images/posts/Identity5498.png"/>
 
-![image-20210930020640468](/images/posts/image-20210930020640468.png)
 
-![image-20210930023253736](/images/posts/image-20210930023253736.png)
 
 ##### Claim
 
