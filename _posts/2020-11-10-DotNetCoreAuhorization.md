@@ -98,9 +98,45 @@ Policy就是Authorization Function，拿到User Context之后，对User数据进
 
 <img src="/images/posts/Policy0981.png"/>
 
-对于policy的使用，比如.net core里面对Authorization的option进行一些设置：
+对于policy的使用，下面是添加的自定义的policy策略：
 
 <img src="/images/posts/policy4940.png"/>
+
+具体这个Authorization的自定义策略的实现方法具体如下:继承了IAuthorizationRequirement的这个类，主要是传入一些限制条件，通过自定义类的属性传入。然后再自定义一个处理类，继承至AuthorizationHandler<T>，而Requirement类跟Requirement对应的Handler处理类是相关的。
+
+````c#
+namespace Claims.PolicyHandlers
+{
+    public class MinimumYearsWorkedRequirement : IAuthorizationRequirement
+    {
+        public int Years { get; }
+
+        public MinimumYearsWorkedRequirement(int yearsWorked)
+        {
+            Years = yearsWorked;
+        }
+    }
+
+    public class YearsWorkedHandler : AuthorizationHandler<MinimumYearsWorkedRequirement>
+    {
+        protected override Task HandleRequirementAsync(AuthorizationHandlerContext context, MinimumYearsWorkedRequirement requirement)
+        {
+            if (!context.User.Identity.IsAuthenticated)
+                return Task.CompletedTask;
+
+            var started = context.User.Claims.FirstOrDefault(x => x.Type == "DateStarted").Value;
+            var dateStarted = DateTime.Parse(started);
+
+            if (DateTime.Now.Subtract(dateStarted).TotalDays > 365 * requirement.Years)
+                context.Succeed(requirement);
+
+            return Task.CompletedTask;
+        }
+    }
+}
+````
+
+
 
 ### 案例演示
 
