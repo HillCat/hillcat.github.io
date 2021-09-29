@@ -5,6 +5,7 @@ title: DotNetCore框架源码解读(1)_Claim | ASP.NET CORE Identity
 categories: DotNetCore
 description: DotNetCore权限验证
 keywords: .net
+typora-root-url: ../
 ---
 
 导读：本文会从.net core框架的身份权限验证一直到IdentityServer4这块做一个系列文章。本文涉及到的内容较多，会不断完善。
@@ -77,7 +78,9 @@ Identity中，.net core可以对于Identiy中的option做一些限制，比如�
 
 <img src="https://cs-cn.top/images/posts/Identity5498.png"/>
 
-![image-20210930020640468](../images/posts/image-20210930020640468.png)
+![image-20210930020640468](/images/posts/image-20210930020640468.png)
+
+![image-20210930023253736](/images/posts/image-20210930023253736.png)
 
 ##### Claim
 
