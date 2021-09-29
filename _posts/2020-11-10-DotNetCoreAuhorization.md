@@ -54,6 +54,10 @@ Policy具体使用：
 
 <img src="/images/posts/Policy7849.png"/>
 
+在.net core项目中，通过startup.cs中的ConfigureServices方法，可以对不同的policy进行不同的设置。比如：如果用户是Admin则要求Role是Admin，如果用户是普通的User，则要求Role是Admin或者Manager或者User，根据不同用户的角色分配不同的权限策略。
+
+![add_policy](/images/posts/add_policy.png)
+
 #### Principal
 
 Security Context里面包含了所有用户的信息，比如用户ID，用户名，地址等信息；这些信息一般是封装在了一个Object对象中，在.net core中这个Object对象叫做claims principle,或者叫做principal object.在一定程度上它可以直接代表user.这个principal里面含有很多Identities。即：**一个用户可以有很多Identity。**比如1个人可以有多种身份：学生，雇员，司机。
@@ -200,4 +204,6 @@ namespace Microsoft.AspNetCore.Identity
 [https://github.com/T0shik/rolesvsclaimsvspolicy](https://github.com/T0shik/rolesvsclaimsvspolicy)
 
 [https://www.youtube.com/playlist?list=PLhnZol1C_88mb_BO3RgQ32lv9abBg_H89](https://www.youtube.com/playlist?list=PLhnZol1C_88mb_BO3RgQ32lv9abBg_H89)
+
+[https://youtu.be/cbtK3U2aOlg](https://youtu.be/cbtK3U2aOlg)
 
