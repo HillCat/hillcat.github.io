@@ -288,7 +288,7 @@ Tools菜单栏，Get Tool and Fetures...
 
 插件下载地址：[https://marketplace.visualstudio.com/items?itemName=MadsKristensen.AddNewFile](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.AddNewFile)
 
-![image-20210930033659543](/images/posts/image-20210930033659543.png)
+![image-20210930033659543](/images/posts/add_file.png)
 
 安装上这个插件之后，就可以非常方便的创建各种文件，包括文件夹的嵌套都是非常方便的，特别是创建cs文件的时候。而且这个插件会默认开启快捷键shift + f2, 给开发带来比较大的便利性。
 
