@@ -183,7 +183,7 @@ namespace Microsoft.AspNetCore.Identity
 
 对应的数据库表：
 
-<img src="https://cs-cn.top/images/posts/AspNetRoles9934.png"/>
+<img src="/images/posts/AspNetRoles9934.png"/>
 
 
 
