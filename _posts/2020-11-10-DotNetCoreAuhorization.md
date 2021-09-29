@@ -185,7 +185,9 @@ namespace Microsoft.AspNetCore.Identity
 
 <img src="/images/posts/AspNetRoles9934.png"/>
 
-大部分情况下，系统提供的这些API已经够用.
+大部分情况下，系统提供的这些API的灵活性已经够用.
+
+
 
 
 
@@ -196,4 +198,6 @@ namespace Microsoft.AspNetCore.Identity
 [Authentication&Authorization in Asp.Net Core -Part 1](https://medium.com/c-sharp-progarmming/authentication-and-authorization-in-asp-net-core-part-1-188866c4115e)
 
 [https://github.com/T0shik/rolesvsclaimsvspolicy](https://github.com/T0shik/rolesvsclaimsvspolicy)
+
+[https://youtu.be/3i0RcKrVyTo](https://youtu.be/3i0RcKrVyTo)
 
