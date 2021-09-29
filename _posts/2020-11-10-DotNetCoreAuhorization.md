@@ -48,11 +48,11 @@ Microsoft.AspNetCore.Identity //对于Identity中属性的一些定义
 
 Roles具体使用：
 
-<img src="https://cs-cn.top/images/posts/Roles5994.png"/>
+<img src="images/posts/Roles5994.png"/>
 
 Policy具体使用：
 
-<img src="https://cs-cn.top/images/posts/Policy7849.png"/>
+<img src="images/posts/Policy7849.png"/>
 
 #### Principal
 
@@ -66,17 +66,15 @@ Security Context里面包含了所有用户的信息，比如用户ID，用户�
 
 系统自带的类库中，有对Identity一些options做限制的。详细可以参考源码[Microsoft.AspNetCore.Identity源码](https://source.dot.net/#Microsoft.Extensions.Identity.Core/IdentityOptions.cs,c4d151da9fa86f53)。
 
-<img src="https://cs-cn.top/images/posts/IdentityOptions59.png"/>
+<img src="/images/posts/IdentityOptions59.png"/>
 
 Identity中，.net core可以对于Identiy中的option做一些限制，比如：可以对用户的密码组成进行限制，密码的长度等。这些都是.net core框架类库自带的一些功能。
-
-![image-20210930025303400](/images/posts/image-20210930025303400.png)
 
 ##### Claim
 
 一个Identity可以有多个claim。Claim在.net core中一般是键值对形式存在。比如Identity为司机，但是司机可以有DateStarted，表示这个司机什么时候开始从事这个行业，以计算出司机的工龄。比如3年以下工龄的，5年以上工龄的，这些就可以通过claim来识别。
 
-<img src="https://cs-cn.top/images/posts/claims3858.png"/>
+<img src="images/posts/claims3858.png"/>
 
 一个比较常见的使用方法就是，从context上下文拿到用户的Claims对象之后查找对应的Type的Value值。以判断用户是否具备某些权限或者条件。
 
@@ -94,11 +92,11 @@ Identity中，.net core可以对于Identiy中的option做一些限制，比如�
 
 Policy就是Authorization Function，拿到User Context之后，对User数据进行具体的验证的Function，对应的是一组处理规则。微软.net core框架封装了一些常用的操作，通过设置option方便的设置Policy，也可以实现自己的Policy。
 
-<img src="https://cs-cn.top/images/posts/Policy0981.png"/>
+<img src="/images/posts/Policy0981.png"/>
 
 对于policy的使用，比如.net core里面对Authorization的option进行一些设置：
 
-<img src="https://cs-cn.top/images/posts/policy4940.png"/>
+<img src="images/posts/policy4940.png"/>
 
 ### 框架提供的功能
 
@@ -153,7 +151,7 @@ namespace Microsoft.AspNetCore.Identity
 
 ​	对应的数据库表结构：
 
-<img src="https://cs-cn.top/images/posts/AspNetUsers543.png"/>
+<img src="/images/posts/AspNetUsers543.png"/>
 
 
 
