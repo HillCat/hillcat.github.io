@@ -70,8 +70,6 @@ Security Context里面包含了所有用户的信息，比如用户ID，用户�
 
 Identity中，.net core可以对于Identiy中的option做一些限制，比如：可以对用户的密码组成进行限制，密码的长度等。这些都是.net core框架类库自带的一些功能。
 
-<img src="https://cs-cn.top/images/posts/Identity5498.png"/>
-
 
 
 ##### Claim
