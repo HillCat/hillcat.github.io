@@ -294,11 +294,11 @@ Tools菜单栏，Get Tool and Fetures...
 
 #### 2.CodeMaid
 
-插件地址：https://www.codemaid.net/![codemaid](/images/posts/codemaid.png)
+插件地址：[https://www.codemaid.net/](https://www.codemaid.net/)![codemaid](/images/posts/codemaid.png)
 
 #### 3.Indent Guides
 
 ![identguide](/images/posts/identguide.png)
 
-插件地址：https://marketplace.visualstudio.com/items?itemName=SteveDowerMSFT.IndentGuides
+插件地址：[https://marketplace.visualstudio.com/items?itemName=SteveDowerMSFT.IndentGuides](https://marketplace.visualstudio.com/items?itemName=SteveDowerMSFT.IndentGuides)
 
