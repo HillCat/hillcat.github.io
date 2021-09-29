@@ -77,7 +77,7 @@ Identity中，.net core可以对于Identiy中的option做一些限制，比如�
 
 <img src="https://cs-cn.top/images/posts/Identity5498.png"/>
 
-
+![image-20210930020640468](../images/posts/image-20210930020640468.png)
 
 ##### Claim
 
