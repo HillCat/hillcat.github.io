@@ -44,7 +44,7 @@ keywords: 记单词
 
 <img src="https://cs-cn.top//images/posts/it_031413.png"/>
 
-一旦从这种**良性循环**中感受到了收益，正向反馈越多，习惯养成越容易。
+再次推荐下面两本书，让你能够有兴趣和动力把丢了多年的英语给重新拿起来。
 
 <img src="https://cs-cn.top/images/posts/book3574.png"/>
 <img src="https://cs-cn.top/images/posts/book898.png"/>
