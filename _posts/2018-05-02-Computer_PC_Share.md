@@ -198,3 +198,9 @@ R7 4750G
 
 键鼠套装，搞个罗技的即可：https://item.jd.com/584300.html  
 
+
+
+### 检测电脑系统版本
+
+slmgr.vbs /dli
+
