@@ -302,3 +302,11 @@ Tools菜单栏，Get Tool and Fetures...
 
 插件地址：[https://marketplace.visualstudio.com/items?itemName=SteveDowerMSFT.IndentGuides](https://marketplace.visualstudio.com/items?itemName=SteveDowerMSFT.IndentGuides)
 
+
+
+### 7.影响visualSdutio性能的硬件因素
+
+参考：[codenong.com/867741/]()
+
+影响visualStudio加载大型项目速度的是SSD固态硬盘，如果电脑中存在机械硬盘，则对于visualSdutio加载速度的影响是巨大的。而影响编译速度的主要是CPU主频。日常使用中，各种智能提示、智能感知的速度更大程度上取决于更快的CPU。
+
