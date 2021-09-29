@@ -4,6 +4,7 @@ title: VisualStudio操作技巧汇总
 categories: VisualStudio
 description: VisualStudio常用技巧
 keywords: trpora
+typora-root-url: ../
 ---
 
 此文不定期整理VisualStudio使用的一些技巧。包括快捷键，还有插件的使用，一些重构代码的一些快捷方法。新版本的visual sutido特性的更新等。有些常用的快捷方式，熟悉之后对提高生产力很有帮助。
@@ -280,4 +281,14 @@ Tools菜单栏，Get Tool and Fetures...
 进入到这个页面之后点击生成Patterns，那么就会根据你当前项目中使用到的有些语法特征，分析出AI模型，对你当前的项目提供特定的AI智能提示：数据模型创建完毕之后处于Ready状态。开启这个功能之后，以后每次打开一个已经存在于电脑硬盘上面的.net项目都会自动开启本地Local的Ai分析，这个插件对应的AI程序会针对本地的代码进行AI建模分析，给出合理的代码提示建议。
 
 <img src="https://cs-cn.top/images/posts/IntelliSense113.png"/>
+
+### 6.visualStudio扩展插件
+
+#### 1.Add New File
+
+插件下载地址：[https://marketplace.visualstudio.com/items?itemName=MadsKristensen.AddNewFile](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.AddNewFile)
+
+![image-20210930033659543](/images/posts/image-20210930033659543.png)
+
+安装上这个插件之后，就可以非常方便的创建各种文件，包括文件夹的嵌套都是非常方便的，特别是创建cs文件的时候。而且这个插件会默认开启快捷键shift + f2, 给开发带来比较大的便利性。
 

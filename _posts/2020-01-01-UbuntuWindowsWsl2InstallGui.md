@@ -5,6 +5,7 @@ title: WindowsWSL2UbuntuInstallGUI
 categories: Linux
 description: Linux相关笔记
 keywords: Linux
+typora-root-url: ../
 ---
 windows10 install wsl2之后，安装Ubuntu版本，然后升级Ubuntu。
 

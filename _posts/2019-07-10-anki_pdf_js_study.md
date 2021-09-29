@@ -4,6 +4,7 @@ title: 欧陆词典设置/Anki必装插件/ShareX配置(2)
 categories: English
 description: 英文自学
 keywords: English
+typora-root-url: ../
 ---
 
 本篇文章主要是补充一下anki周边的一些配套工具，最常用的就是在线词典助手，还有ShareX，以及欧陆词典+牛津高阶双解9 ；还有anki常用的[6个插件](https://cs-cn.top/2019/07/10/anki_pdf_js_study/#anki%E5%BF%85%E5%A4%87%E6%8F%92%E4%BB%B6)，建议都装上。

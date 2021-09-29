@@ -5,6 +5,7 @@ title: Go语言快速入门:Slice切片和Module(2)
 categories: Go
 description: Golang相关笔记
 keywords: Golang
+typora-root-url: ../
 ---
 ### 安装Golang
 

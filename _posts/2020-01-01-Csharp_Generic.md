@@ -4,6 +4,7 @@ title: 泛型
 categories: DotNetBasic
 description: .net的泛型
 keywords: .net的泛型
+typora-root-url: ../
 ---
 泛型出来之前，在.net的类库中有一个叫做ArrayList对象的类型，这个类型是一个`list<object>`类型的对象，里面可以存入字符串类型的对象，也可以存入数字类型的对象。当你通过数组下标获取对象的时候，非常容易引发系统异常，而且取出对象的时候都要进行类型的转换，频繁出现装箱拆箱的操作，非常影响性能。
 

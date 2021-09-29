@@ -5,6 +5,7 @@ title: Delegate解耦代码逻辑
 categories: .net
 description: 使用委托来解耦代码
 keywords: dotnet
+typora-root-url: ../
 ---
 
 Delegate对于解耦代码有很多地方使用到。最常见的用法，就是把Library类库和上层调用者进行解耦。

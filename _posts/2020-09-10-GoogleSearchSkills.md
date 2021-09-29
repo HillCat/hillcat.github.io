@@ -5,6 +5,7 @@ title: Google工具
 categories: .net
 description: Google使用的一些技巧
 keywords: .net
+typora-root-url: ../
 ---
 
 

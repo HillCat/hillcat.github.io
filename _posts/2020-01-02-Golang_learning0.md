@@ -5,6 +5,7 @@ title: Go语言文档导航
 categories: Go
 description: Golang相关笔记
 keywords: Golang
+typora-root-url: ../
 ---
 
 ### 快速入门

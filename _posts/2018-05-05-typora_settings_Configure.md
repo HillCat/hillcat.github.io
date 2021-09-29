@@ -4,6 +4,7 @@ title: typora常用快捷键
 categories: Blog
 description: typora常用快捷键和技巧。
 keywords: trpora
+typora-root-url: ../
 ---
 
 typora编辑器的一些常用快捷键：

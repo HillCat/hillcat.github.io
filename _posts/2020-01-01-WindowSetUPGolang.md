@@ -5,6 +5,7 @@ title: Go语言快速入门：Go开发环境(1)
 categories: Go
 description: Golang相关笔记
 keywords: Golang
+typora-root-url: ../
 ---
 Golang开发第一步，首先安装Golang开发环境，这里使用ubuntu作为golang开发环境。Go语言官方博客、文档中的所有golang代码基本都是在Linux环境演示的，如果有其他编程语言基础而又要快速自学，看老外的文档是最快的，而老外的操作基本是在mac linux进行，比如cat指令在很多博客文章中反复出现：比如：[go 模块的管理](https://go.dev/blog/migrating-to-go-modules) 。ubuntu相对于debian,centos这些系统，桌面端更加友好，而且安装ubuntu的时候大部分的配置都是在图形化界面操作完成，非常方便。对于国内镜像切换支持得非常好。安装得时候推荐给ubuntu分配30~45G左右的硬盘空间。默认10GB空间太少，会引发ubuntu system boot空间不足。
 

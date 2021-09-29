@@ -5,6 +5,7 @@ title: 抽象类的作用
 categories: .net
 description: 使用委托来解耦代码
 keywords: dotnet
+typora-root-url: ../
 ---
 
 抽象类把Interface和Base Class的功能融合到一起，有接口的特性又有基类的特征，有接口的特征是因为抽象类的子类要实现抽象类里面的抽象方法，而且跟基类一样，如果抽象父类里面有“虚方法”或者是“普通”方法，子类都会继承这些“虚方法”(在没有override的情况下)和“普通”方法。

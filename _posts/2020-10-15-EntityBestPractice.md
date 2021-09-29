@@ -5,6 +5,7 @@ title: EFCore实践
 categories: .net
 description: EntityFrameworkBestPractices
 keywords: .net
+typora-root-url: ../
 ---
 EFCore快速创建本地LocalDB的增删改查。
 

@@ -5,6 +5,7 @@ title: DotNetCore项目初始化
 categories: DotNetBasic
 description: .net技术笔记
 keywords: DotNetCore
+typora-root-url: ../
 ---
 DotNetCore框架之下建立的开源项目初始化的步骤入下：
 

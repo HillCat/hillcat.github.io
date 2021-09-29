@@ -4,6 +4,7 @@ title: NetFlix美剧 VS 传统美剧(6)
 categories: English
 description: 英文自学
 keywords: English
+typora-root-url: ../
 ---
 
 美剧的学习策略基本就是这个学姐的方法：[北京外国语学院学姐的美剧推荐](https://www.bilibili.com/video/BV1xM4y1K7M7)。

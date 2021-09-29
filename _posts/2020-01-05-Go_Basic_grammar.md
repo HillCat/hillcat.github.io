@@ -5,6 +5,7 @@ title: Go语言快速入门：golang关键语法(5)
 categories: Go
 description: Golang相关笔记
 keywords: Golang
+typora-root-url: ../
 ---
 Go指南系列代码通过一系列的代码演示，来展现Go语言语法跟其他语言的不同。
 

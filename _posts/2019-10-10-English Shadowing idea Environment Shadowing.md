@@ -4,6 +4,7 @@ title: 英文口语输出训练/影子跟读硬件设备(7)
 categories: English
 description: 英文自学
 keywords: English
+typora-root-url: ../
 ---
 
 影子跟读，这里推荐用台式机windows。

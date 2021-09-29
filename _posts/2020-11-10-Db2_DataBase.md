@@ -5,6 +5,7 @@ title: Dynamics365开发
 categories: .net
 description: Db2数据库的使用
 keywords: .net
+typora-root-url: ../
 ---
 
 微软Dynamics 365支持很多的自定义开发功能，并且为开发人员提供了丰富的资源和接口。总的来说，Dynamics 365的开发模块分为2种：客户端和服务器。

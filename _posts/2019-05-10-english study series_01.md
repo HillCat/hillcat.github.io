@@ -4,6 +4,7 @@ title: 有声书资源/英语方法论/文具纸书/听书APP推荐(1)
 categories: English
 description: 英文自学
 keywords: English
+typora-root-url: ../
 ---
 
 英文自学推荐以下4本书：个人认为是“自我摸索过程中”必看的4本。我跟很多高手交流过程中发现，高手们很多都看过下面4本书。

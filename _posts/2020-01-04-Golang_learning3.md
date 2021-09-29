@@ -5,6 +5,7 @@ title: Go语言快速入门：map数据结构for循环(3)
 categories: Go
 description: Golang相关笔记
 keywords: Golang
+typora-root-url: ../
 ---
 这篇文章是接着上面Go语言快速入门(2)，给greetings.go增加新的函数方法Hellos，传递多个参数，返回多个参数。这个章节涉及到map的初始化，以及for  range对于数组的遍历，空白符_这几个概念。还有go里面的for也是一个比较重要的话题。
 

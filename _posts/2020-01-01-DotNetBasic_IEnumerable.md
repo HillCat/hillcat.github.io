@@ -5,6 +5,7 @@ title: IEnumerable和Enumerator
 categories: DotNetBasic
 description: .net技术笔记
 keywords: DotNetCore
+typora-root-url: ../
 ---
 经常会在阅读开源项目代码的时候遇到下面类似的代码。
 

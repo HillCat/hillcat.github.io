@@ -5,6 +5,7 @@ title: Docker的常用指令
 categories: Docker
 description: Docker使用技巧
 keywords: .net
+typora-root-url: ../
 ---
 Docker在很多微软的开源项目使用得比较多，特别是windows WSL2系统结合DockerDeskTop，安装一些开源数据库，包括微软自家的SQLServer，OrchardCoreCMS，EshopOnDotNet，还有一些DotNetCore微服务相关的开源项目，RabbitMQ，Redis中间件，使用Docker安装到Local本机都非常方便。以下对于Docker常用指令做一些整理。Docker容器在Linux上面都是以进程隔离级别运行的，比较轻量级，结合K8s可以做到动态伸缩扩容。
 

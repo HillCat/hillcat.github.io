@@ -4,6 +4,7 @@ title: Anki降低复习压力/最重要的两个参数(4)
 categories: English
 description: 英文自学
 keywords: English
+typora-root-url: ../
 ---
 使用anki最容易犯错的地方就是使用不当，容易造成复习量爆炸，给学习者造成很大的复习压力。包括某些人使用Anki已经有2~3年经验的人，可能还是对Anki不太熟悉。转而去更换其他supermemory类似软件的例子，比如：[https://www.bilibili.com/read/cv11512889](https://www.bilibili.com/read/cv11512889)，这是放弃anki转而使用SuperMemo的一个例子。其实如果搞懂了anki的参数还有一些关键的坑，避开这些坑，调整和优化好自己的参数，anki还是非常不错的一个工具。本篇主要介绍anki中最重要的2个参数，防止掉坑。
 

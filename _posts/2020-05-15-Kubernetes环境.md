@@ -5,6 +5,7 @@ title: Kubernetes环境
 categories: Docker
 description: Docker使用技巧
 keywords: .net
+typora-root-url: ../
 ---
 安装Kubernetes环境，一般是用Kubeadm，或者使用公有云的Kubernetes.
 

@@ -5,6 +5,7 @@ title: Go语言快速入门：函数和接口(6)
 categories: Go
 description: Golang相关笔记
 keywords: Golang
+typora-root-url: ../
 ---
 Go没有类的概念，只有Strtuct这个东西，而要想达到 C # 那样子给类添加方法，就是给go的Struct添加方法。 这个语法有点类似于 C # 里面给class添加扩展方法的思路。所以go这个语法是非常好理解的。
 

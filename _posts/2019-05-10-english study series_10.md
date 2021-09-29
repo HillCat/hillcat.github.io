@@ -4,6 +4,7 @@ title: 如何通过英文原版书积累7000+单词(9)
 categories: English
 description: 英文自学
 keywords: English
+typora-root-url: ../
 ---
 
 阅读原版分级读物有声书配合anki制卡和[线词典助手](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb)一般是我常用的方法。我把这套方法制作成了一个docx文档：《英文原版章节书，PDF.js制卡教程》，对于程序员而言应该是很简单的，[点击这里](https://cs-cn.top/assets/doc/英文原版章节书PDFJS制卡教程.docx)下载这个docx文档。文档中提供了百度网盘的地址，相关的资源你需要通过百度网盘下载。同时还提供了备用下载链接。

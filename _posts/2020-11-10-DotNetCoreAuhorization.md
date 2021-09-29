@@ -149,7 +149,7 @@ namespace Microsoft.AspNetCore.Identity
 }
 ````
 
-​	对应的数据库表结构：
+​	对应的数据库表结构：(class中的15个字段)
 
 <img src="/images/posts/AspNetUsers543.png"/>
 
@@ -181,9 +181,13 @@ namespace Microsoft.AspNetCore.Identity
 }
 ````
 
-对应的数据库表：
+对应的数据库表：(class中的4个字段)
 
 <img src="/images/posts/AspNetRoles9934.png"/>
+
+大部分情况下，系统提供的这些API已经够用.
+
+
 
 
 

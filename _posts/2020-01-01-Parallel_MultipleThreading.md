@@ -5,6 +5,7 @@ title: 并发和多线程
 categories: .net
 description: .net技术笔记
 keywords: English
+typora-root-url: ../
 ---
 多线程MutipleThreading 和并发Parallel在提升代码性能某些特殊场景方面使用比较多，是属于.net的重点内容。
 

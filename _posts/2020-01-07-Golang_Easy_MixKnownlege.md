@@ -5,6 +5,7 @@ title: Go容易混肴的知识点
 categories: Go
 description: Golang相关笔记
 keywords: Golang
+typora-root-url: ../
 ---
 ### 重复声明和重复赋值
 

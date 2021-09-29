@@ -4,6 +4,7 @@ title: Anki参数原理/参数设置/常用菜单栏/数据冲突恢复和备份
 categories: English
 description: 
 keywords: 记单词
+typora-root-url: ../
 ---
 Anki所有的参数信息，本篇只作为一个指引，如果不方便外网的，尽量创造条件外网。
 

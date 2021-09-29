@@ -4,6 +4,7 @@ title: Out和Ref区别
 categories: DotNetBasic
 description: .net面试
 keywords: English
+typora-root-url: ../
 ---
 Out关键是用来返回多个value的；在参数传入out的时候不需要初始化，而传出out的时候，参数是需要初始化的。Ref在这个地方刚好和Out相反，在传入Ref之前必须要初始化，而传出Ref之前无需初始化。Out是参数的单向传递，而Ref的参数是可以双向传递的。
 

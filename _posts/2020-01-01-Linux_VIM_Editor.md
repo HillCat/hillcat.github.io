@@ -5,6 +5,7 @@ title: Vim编辑器常用指令
 categories: Linux
 description: Linux相关笔记
 keywords: Linux
+typora-root-url: ../
 ---
 下面是Vim编辑器常用的操作指令。虽然某些时候nano比较方便，但是功能这块还是vim强大些。
 
