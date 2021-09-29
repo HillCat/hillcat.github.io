@@ -102,6 +102,30 @@ Policy就是Authorization Function，拿到User Context之后，对User数据进
 
 <img src="/images/posts/policy4940.png"/>
 
+### 案例演示
+
+code source:[https://github.com/T0shik/rolesvsclaimsvspolicy](https://github.com/T0shik/rolesvsclaimsvspolicy)
+
+````sql
+  select c.UserName,c.Email,a.Name as RoleName from AspNetRoles a left join AspNetUserRoles b on a.Id=b.RoleId  left join AspNetUsers c on b.UserId=c.Id
+````
+
+![AuthorizationTutorial](/images/posts/AuthorizationTutorial.png)
+
+程序中首先设置自定义的policy规则，因为数据库中存在了AspNetRoles角色表，AspNetUserRoles用户-角色中间表，AspNetUsers用户表。
+
+在setup.cs的configure设置中，自定义三种policy策略，policy的名字都是自定义的,policy规则对每个用户的Role进行了一系列判断。
+
+![policy_protocal](/images/posts/policy_protocal_23.png)
+
+在相关页面的控制器上面，使用指定的policy规则，既可以做到权限控制：
+
+![controller_rules](/images/posts/controller_rules_230.png)
+
+当普通用户想要进入到manager权限的页面的时候，就会出现报错：“You do not have access to this resource.”
+
+![no_access_233](/images/posts/no_access_233.png)
+
 ### 框架提供的功能
 
 .net core框架中自带的IdentityUser这个class就包含了一些常用的属性。
