@@ -46,9 +46,8 @@ keywords: 记单词
 
 一旦从这种**良性循环**中感受到了收益，正向反馈越多，习惯养成越容易。
 
-<img src="../images/posts/miaomianba_34335-16328960771102.png"/><img src="https://cs-cn.top/images/posts/book208.png"/>
-
-
+<img src="https://cs-cn.top/images/posts/book3574.png"/>
+<img src="https://cs-cn.top/images/posts/book898.png"/>
 
 《中国人英语自学方法教程》和 《找对英语学习方法的第一本书》可以同时一起看，效果最佳。
 
