@@ -19,7 +19,7 @@ NetFlix看剧是最好的选择。NetFlix中文名叫做”奈飞“，如果你
 
 
 
-备注说明：Language Reactor这个插件以前叫Learning English with Netflix，官方的新版本之后改名为**Language Reactor** 。个人认为，被动词汇量6000~8000左右的时候，就可以很自由的挑选美剧了。
+备注说明：Language Reactor这个插件以前叫Learning English with Netflix，官方把它改名为**Language Reactor** 。个人认为，被动词汇量6000~8000左右的时候，就可以很自由的驰骋于Youtube和NetFlix了。
 
 挑选美剧，尽量避免下列问题：
 
