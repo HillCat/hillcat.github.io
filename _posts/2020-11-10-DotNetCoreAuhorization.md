@@ -164,7 +164,9 @@ code source:[https://github.com/T0shik/rolesvsclaimsvspolicy](https://github.com
 
 ![no_access_233](/images/posts/no_access_233.png)
 
-### 框架提供的功能
+### 框架提供的Identity相关字段
+
+.net core框架内置了一些IdentityUser的字段和UserRole字段。对于比较简单的业务，使用这些内置鉴权字段已经够用了。
 
 .net core框架中自带的IdentityUser这个class就包含了一些常用的属性。
 
