@@ -9,16 +9,16 @@ typora-root-url: ../
 
 美剧的学习策略基本就是这个学姐的方法：[北京外国语学院学姐的美剧推荐](https://www.bilibili.com/video/BV1xM4y1K7M7)。
 
-NetFlix看剧是最好的选择。NetFlix中文名叫做”奈飞“，如果你去淘宝上面搜索:”奈飞租用“，”奈飞合租“，就有一堆出租账号的。我用的就是这种5人共享账号，月付15RMB. 用的是美区账号。主要用来看美剧。配合[Language Reactor插件](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)，开启双语字幕。一句一句倒带，复读。可以很好的控制影子跟读。而且最重要的是奈飞的美剧，字幕都是人工翻译的，跟百度网盘下载的那些美剧资源不同，奈飞的翻译质量很高，全部是人工翻译，保证字幕和中文正确率。正是因为字幕的精准和高质量，学习起来连查词典的很多时间都省了。百度网盘下载的那些野生字幕组翻译的“摩登家庭”之类的是没法比的。
+NetFlix看剧是最好的选择。NetFlix中文名叫做”奈飞“，如果你去淘宝上面搜索:”奈飞租用“，”奈飞合租“，就有一堆出租账号的。我用的就是这种5人共享账号，月付15RMB. 用的是美区账号。主要用来看美剧。配合[Language Reactor插件](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)，开启英文字幕，不认识的单词会自动高亮标红，鼠标点击会自动弹出词典解释。特别方便，现在通过奈飞学外语，已经是很多欧美人士的首选方案。大部分情况下，奈飞的人工翻译都是非常准确的。极少数情况下也会漏字幕。但是并不影响学习英语。经常看剧，对于巩固单词和培养语感非常有好处。前提条件是得“科学上网”，如果是购买第三方解决方案，费用大概一年350RMB左右，如果是自己服务器DIY上外网则成本大概150RMB一年。所以，程序员学英语还是很有优势的。
 
-这个chrome插件以前叫Learning English with Netflix，官方的新版本改名为**Language Reactor** 。
+备注说明：Language Reactor这个插件以前叫Learning English with Netflix，官方的新版本之后改名为**Language Reactor** 。个人认为，被动词汇量6000~8000左右的时候，就可以很自由的挑选美剧了。
 
 挑选美剧，尽量避免下列问题：
 
-1. 演员语速太快，口齿不清晰，俚语很多。
-2. 有严重男同性恋倾向的美剧,比如《摩登家庭》。
-3. 剧情不生活化，不适合学口语。
-4. 字幕是野生字幕组翻译的，漏词，错翻。
+1. 语速太快。
+2. 同性恋倾向话题。
+3. 专业词汇太多。
+4. 字幕翻译错误。
 
 目前我尝试了不下于10部剧，感觉可以入手的是下面这个，(准备精读，模仿口语输出)：推荐《Alexa & Katie》 其次《Fuller House》其他那些截图的感觉都可以。
 
