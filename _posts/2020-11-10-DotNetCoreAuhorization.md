@@ -138,6 +138,51 @@ namespace Claims.PolicyHandlers
 }
 ````
 
+##### Policy的Handler调用
+
+自定义的这些Handler是如何被调用的呢？比如上面的YearsWorkedHandler，而我们程序中只是在控制器里面提供了Authorize拦截器，就可以导致Handler被自动调用了？
+
+![self_policy](/images/posts/self_policy.png)
+
+首先是我们在.net core中进行了自动注入配置，把Handler注入到了容器中。在startup.cs中进行了容器注入配置，这里使用的是singleton单例模式注入。
+
+![HandlerDI2395.png](/images/posts/HandlerDI2395.png)
+
+根据微软[官方文档](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/policies?view=aspnetcore-5.0)这里框架会自动去遍历DI容器中注入的Handler，并且依次遍历之后调用。
+
+````c#
+public async Task<AuthorizationResult> AuthorizeAsync(ClaimsPrincipal user, 
+             object resource, IEnumerable<IAuthorizationRequirement> requirements)
+{
+    // Create a tracking context from the authorization inputs.
+    var authContext = _contextFactory.CreateContext(requirements, user, resource);
+
+    // By default this returns an IEnumerable<IAuthorizationHandlers> from DI. 
+    //这里是从容器中获取Handler对象。
+    var handlers = await _handlers.GetHandlersAsync(authContext);
+
+    // Invoke all handlers.
+    //调用具体的Handler方法，调用的时候，会去过滤相应的TResource对象，具体的代码，在下文的截图中红色标记部分
+    foreach (var handler in handlers)
+    {
+        await handler.HandleAsync(authContext);
+    }
+
+    // Check the context, by default success is when all requirements have been met.
+    return _evaluator.Evaluate(authContext);
+}
+````
+
+[AuthorizationHandler.cs](https://source.dot.net/#Microsoft.AspNetCore.Authorization/AuthorizationHandler.cs,70326893d8662d84)里面在调用Handler的时候，会去判断TResource类型。只有符合泛型约束的类型才会被Handler处理。
+
+![authorize_handler_122.png](/images/posts/authorize_handler_122.png)
+
+![Invoke_Handler0025.png](/images/posts/Invoke_Handler0025.png)
+
+代码执行的时候，首先由于泛型约束的原因，代码回去检查类型是否符合Handler的要求，符合的话就会调用上面的自定义的HandleRequirementAsync了。以上分析就是下面的代码执行的整个过程。
+
+![self_policy](/images/posts/self_policy.png)
+
 
 
 ### 案例演示
