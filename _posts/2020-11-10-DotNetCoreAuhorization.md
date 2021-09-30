@@ -84,9 +84,9 @@ Identity中，.net core可以对于Identiy中的option做各种限制，比如�
 
 <img src="https://cs-cn.top/images/posts/claim485.png"/>
 
-在国内有一种叫法，叫做“基于声明的认证“，指的Claim；也就是context.User.Claim。
+在国内有一种叫法，叫做“基于声明的认证“，指的是Claim这个单词；也就是context.User.Claim，它是键值对形式存在的。
 
-对于一个已经登录的用户，可以对其多个Claim进行验证(type-value键值对的形式),type可能是数据库里面用户表的某个关联字段。
+对于一个已经登录的用户，可以对其多个Claim进行验证(key-value)，比如：Role，DateStarted可能是数据库里面用户表的某个关联字段，而字段的值是直接存储在用户表中的。
 
 <img src="https://cs-cn.top/images/posts/claim27357.png"/>
 
