@@ -102,7 +102,7 @@ Policy就是Authorization Function，拿到User Context之后，对User数据进
 
 <img src="/images/posts/policy4940.png"/>
 
-Policy自定义规则，用到2个类，一个是Requirement类，一个是Handler类。Requirement类负责传入参数，Handler类负责对传入的参数进行验证处理。Requirement类继承IAuthorizationRequirement接口，Handler继承AuthorizaitonHandler<T>，而这个T就正好是那个Requirement类，Handler类继承了AuthorizationHandler这个抽象类，不得不实现其抽象方法HandleRequirementAsync，而在实现这个抽象方法的时候，会把Requirement类传入进来，也就是把policy参数传入到Handler中来。
+Policy自定义规则，用到2个类，一个是Requirement类，一个是Handler类。Requirement类负责传入参数，Handler类负责对传入的参数进行验证处理。Requirement类继承IAuthorizationRequirement接口，Handler继承AuthorizaitonHandler<T>，而这个T就正好是那个Requirement类，Handler类继承了AuthorizationHandler这个抽象类，不得不实现其抽象方法HandleRequirementAsync，而在实现这个抽象方法的时候，会把Requirement类传入进来，也就是把policy参数传入到Handler中来。这样就实现了自定义policy的功能。
 
 ````c#
 namespace Claims.PolicyHandlers
