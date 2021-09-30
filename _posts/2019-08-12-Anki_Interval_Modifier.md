@@ -38,7 +38,7 @@ typora-root-url: ../
 
 <img src="https://cs-cn.top/images/posts/liucunlv_544.png"/>
 
-调整好的数据，设置如下即可：
+调整Interval modifier，设置如下即可：
 
 <img src="https://cs-cn.top/images/posts/intervar279.png"/>
 
