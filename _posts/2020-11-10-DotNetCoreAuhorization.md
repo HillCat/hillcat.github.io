@@ -60,7 +60,7 @@ Policy具体使用：
 
 #### Principal
 
-Security Context里面包含了所有用户的信息，比如用户ID，用户名，地址等信息；这些信息一般是封装在了一个Object对象中，在.net core中这个Object对象叫做claims principle,或者叫做principal object.在一定程度上它可以直接代表user.这个principal里面含有很多Identities。即：**一个用户可以有很多Identity。**比如1个人可以有多种身份：学生，雇员，司机。
+Security Context里面包含了所有用户的信息，比如用户ID，用户名，地址等信息；这些信息一般是封装在了一个Object对象中，在.net core中这个Object对象叫做claims principle,或者叫做**principal object.在一定程度上它可以直接代表user**.这个principal里面含有很多Identities。即：**一个用户可以有很多Identity。**比如一个用户可以有多种身份：学生，雇员，司机。
 
 <img src="https://cs-cn.top/images/posts/Identity27182.png"/>
 
