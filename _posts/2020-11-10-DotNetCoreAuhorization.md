@@ -54,7 +54,7 @@ Policy具体使用：
 
 <img src="/images/posts/Policy7849.png"/>
 
-在.net core项目中，通过startup.cs中的ConfigureServices方法，可以对不同的policy进行不同的设置。比如：如果用户是Admin则要求Role是Admin，如果用户是普通的User，则要求Role是Admin或者Manager或者User，根据不同用户的角色分配不同的权限策略。
+在.net core项目中，通过startup.cs中的ConfigureServices方法，可以对不同的policy进行不同的设置。比如：如果用户要进入Admin权限页面则要求Role是Admin，如果用户要进入普通的User权限页面，则Role是Admin或者Manager或者User，根据不同用户的角色分配不同的权限策略。
 
 ![add_policy](/images/posts/add_policy.png)
 
