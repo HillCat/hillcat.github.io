@@ -94,7 +94,7 @@ Identity中，.net core可以对于Identiy中的option做各种限制，比如�
 
 ##### Policy
 
-Policy就是Authorization Function，拿到User Context之后，对User数据进行具体的验证的Function，对应的是一组处理规则。微软.net core框架封装了一些常用的操作，对系统提供的Authorization命名空间下的API添加option设置，实现policy策略，以对用户访问权限进行控制。
+Policy就是Authorization Function，拿到User Context之后，对User数据进行具体的验证的Function，对应的是一组处理规则。微软.net core框架封装了一些常用的操作，对系统提供的Authorization命名空间下的API添加option设置，实现policy策略，以对用户访问权限进行控制。Authorization命名空间下面也提供了接口，可以让程序员自己去实现policy验证规则。
 
 <img src="/images/posts/Policy0981.png"/>
 
