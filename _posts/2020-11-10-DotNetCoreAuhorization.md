@@ -253,7 +253,7 @@ namespace Microsoft.AspNetCore.Identity
 
 <img src="/images/posts/AspNetRoles9934.png"/>
 
-大部分情况下，系统提供的这些API的灵活性已经够用.
+
 
 
 
