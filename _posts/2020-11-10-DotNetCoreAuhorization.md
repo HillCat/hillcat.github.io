@@ -102,7 +102,7 @@ Policy就是Authorization Function，拿到User Context之后，对User数据进
 
 <img src="/images/posts/policy4940.png"/>
 
-具体这个Authorization的自定义策略的实现方法具体如下:继承了IAuthorizationRequirement的这个类，主要是传入一些限制条件，通过自定义类的属性传入。然后再自定义一个处理类，继承至AuthorizationHandler<T>，而Requirement类跟Requirement对应的Handler处理类是相关的。TODO：
+Policy自定义规则，需要两个东西，一个是Requirement类，一个是Handler类。一个负责传入参数，一个负责对传入的参数进行验证处理。自定义的Requirement类继承IAuthorizationRequirement接口，自定义Handler继承AuthorizaitonHandler<T>，而这个T就正好是那个自定义的Requirement类，Handler初始化的时候(由于存在继承关系)会自动获得具体的自定义的Requirement类。
 
 ````c#
 namespace Claims.PolicyHandlers
