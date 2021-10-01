@@ -126,11 +126,11 @@ FastWQ具体的配置：
 
 <iframe src="//player.bilibili.com/player.html?aid=672382281&bvid=BV1JU4y1Y7CE&cid=320666108&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-另外还有一个重要的地方，就是泛看视频类节目，油管、奈飞之类的，只是泛泛而看，养成习惯之后，长时间听力积累也是非常可观。偶尔会遇到你Anki生词库中复习过的生词。这个时候也可以把看印象特别深的生词录入到Anki中。IT方面的词汇，可以观看YouTube跟.net相关的视频来积累，或者Udemy网站的付费时间也是带有字幕的，也可以用来积累IT领域的词汇。观看微软的英文文档也是一个渠道。把英文当作一种习惯，多用，单词自然就记住了。
+如果是要积累跟自己专业相关的词汇，比如：IT方面的词汇，可以观看YouTube跟IT相关的视频来积累单词，或者Udemy网站的付费视频也是带有字幕的，也可以用来积累IT领域的词汇。作为.net程序员，养成阅读.net源码和微软官方英文文档也是一个渠道。把英文当作一种习惯，多用，自然就能积累一大批单词。
 
 ### 番外篇
 
-对于词汇量已经刚过6000+的人，有一种背单词上瘾的冲动，6000+想要冲刺8000+词汇，此方法可以一试：[来自北大学姐的魔鬼训练，带你【10天搞定任何词汇】](https://www.bilibili.com/video/BV1dE411A7Rx?share_source=copy_web)，这个方法其实也是用的类似anki的艾宾浩斯曲线，重复去刷某些单词。效果应该也不错。适合那些词汇基础的人尝试。
+对于词汇量已经刚过6000+的人，有想要考雅思的冲动，6000+想要冲刺8000+词汇，可以参考这个方法：[来自北大学姐的魔鬼训练，带你【10天搞定任何词汇】](https://www.bilibili.com/video/BV1dE411A7Rx?share_source=copy_web)，把这个方法魔改成anki的艾宾浩斯曲线记忆，效果应该更好。
 
 ![beida_beidanci_28272.png](/images/posts/beida_beidanci_28272.png)
 
