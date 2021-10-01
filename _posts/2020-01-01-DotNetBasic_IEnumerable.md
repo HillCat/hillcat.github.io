@@ -128,7 +128,7 @@ Collections集合的好处，是可以进行Adding，Delteting, Replacing ,Searc
 
 #### struct嵌套
 
-struct中不能嵌套同类型的struct。
+struct中不能嵌套同类型的struct。在内存分配的时候，会引发无限递归的问题。编译器会直接报错。如果是引用类型的嵌套没有这个问题，因为引用类型的内存分配是引用配分，发生嵌套的时候，内存的分配还是分配的引用。
 
 ![struct_4873.png](/images/posts/struct_4873.png)
 
