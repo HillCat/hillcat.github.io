@@ -126,3 +126,9 @@ Collections集合的好处，是可以进行Adding，Delteting, Replacing ,Searc
 
 如果用一个class类型的变量指向一个struct类型的值，会发生装箱操作，值类型会变为引用类型。
 
+#### struct嵌套
+
+struct中不能嵌套同类型的struct。
+
+![struct_4873.png](/images/posts/struct_4873.png)
+
