@@ -181,15 +181,13 @@ public async Task<AuthorizationResult> AuthorizeAsync(ClaimsPrincipal user,
 
 ![Invoke_Handler0025.png](/images/posts/Invoke_Handler0025.png)
 
-代码执行的时候，会判断泛型约束类型，代码会去检查类型是否符合Handler的要求，符合的话就会调用上面的自定义的HandleRequirementAsync，完整自定义的Handler调用。以上分析就是下面的代码执行的整个过程。
+代码执行的时候，会判断泛型约束类型，代码会去检查类型是否符合Handler的要求，符合的话就会调用上面的自定义的HandleRequirementAsync，这就是完整自定义的Handler调用。
 
 ![self_policy](/images/posts/self_policy.png)
 
 
 
-### 案例演示
-
-code source:[https://github.com/T0shik/rolesvsclaimsvspolicy](https://github.com/T0shik/rolesvsclaimsvspolicy)
+### Policy授权验证
 
 ````sql
   select c.UserName,c.Email,a.Name as RoleName from AspNetRoles a left join AspNetUserRoles b on a.Id=b.RoleId  left join AspNetUsers c on b.UserId=c.Id
