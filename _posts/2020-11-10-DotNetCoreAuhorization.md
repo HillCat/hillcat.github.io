@@ -68,7 +68,7 @@ Security Context里面包含了所有用户的信息，比如用户ID，用户�
 
 #### Identity_options
 
-系统自带的类库中，有对Identity一些options做限制的。详细可以参考源码[Microsoft.AspNetCore.Identity源码](https://source.dot.net/#Microsoft.Extensions.Identity.Core/IdentityOptions.cs,c4d151da9fa86f53)。
+系统自带的类库中，有对Identity一些options操作的。详细可以参考源码[Microsoft.AspNetCore.Identity源码](https://source.dot.net/#Microsoft.Extensions.Identity.Core/IdentityOptions.cs,c4d151da9fa86f53)。
 
 <img src="/images/posts/IdentityOptions59.png"/>
 
