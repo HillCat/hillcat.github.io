@@ -38,6 +38,8 @@ typora-root-url: ../
 
 全套 ：i7 CPU + 华硕主板 + 1T 固态硬盘 NVMe M.2接口 +24G内存 +爱国者机箱 S1 +水冷散热 +500W电源 = **5525 元**   （如果是 i5 10040F,整机价格=4095）
 
+(锐龙 R5 [3600X](https://item.jd.com/100003815415.html#) 1749 )
+
 在有显卡的时候，峰值功率是 470W ；
 
 参考连接： [intel Core i7 10700 + 华硕 B460-I GAMING](https://youtu.be/4z3lTLQM20w)
