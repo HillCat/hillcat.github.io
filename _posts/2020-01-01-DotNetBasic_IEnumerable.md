@@ -7,7 +7,7 @@ description: .net技术笔记
 keywords: DotNetCore
 typora-root-url: ../
 ---
-经常会在阅读开源项目代码的时候遇到下面类似的代码。
+开源项目代码经常会有如下代码，引发出对IEnumerable和迭代器的讨论。
 
 ````c#
 public class DisplayViewModel
