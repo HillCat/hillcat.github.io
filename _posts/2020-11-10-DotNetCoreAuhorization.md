@@ -142,7 +142,7 @@ namespace Claims.PolicyHandlers
 
 ##### Policy的Handler调用
 
-自定义的这些Handler是如何被调用的呢？比如上面的YearsWorkedHandler，而我们程序中只是在控制器里面提供了Authorize拦截器，就可以导致Handler被自动调用了？
+自定义的这些Handler是如何被调用的呢？比如上面的YearsWorkedHandler，而我们程序中只是在控制器里面提供了Authorize拦截器，就可以使得我们自定义的Handler被自动调用了？
 
 ![self_policy](/images/posts/self_policy.png)
 
