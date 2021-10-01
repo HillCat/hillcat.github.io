@@ -42,7 +42,7 @@ typora-root-url: ../
 
 
 
-第三步：按照 [https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio ) 这个文档安装完ffmpeg 这个插件。以下是配置顺序。基本都是点几下鼠标，直接下一步下一步。配置完之后，F2快捷键  ，F3快捷键就可以使用了。一个是截音频，一个是截图。美剧里面截取声音片段就靠这个功能。前提是不要有其他软件占着F2, F3快捷键。需要特别说明的是：由于最近Netflix还有Udemy这种国外的VIP收费类视频网站采用了加密技术，PC端截图工具截取视频内容的时候会显示黑屏。所以，推荐chrome[截图插件](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj)截图来解决这个问题；而sharex的F2截图功能用来截欧陆词典释义。
+第三步：按照 [https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio ) 这个文档安装完ffmpeg 这个插件。以下是配置顺序。基本都是点几下鼠标，直接下一步下一步。配置完之后，F2快捷键  ，F3快捷键就可以使用了。一个是截音频，一个是截图。美剧里面截取声音片段就靠这个功能。前提是不要有其他软件占着F2, F3快捷键。需要特别说明的是：由于最近Netflix还有Udemy这种国外的VIP收费类视频网站采用了加密技术，PC端截图工具截取视频内容的时候会显示黑屏。所以，推荐chrome[点击下载](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj)截图来解决这个问题；而sharex的F3截图功能用来截欧陆词典释义，F2截取美剧或者有声书的音频。
 
 <img src="https://cs-cn.top/images/posts/sharex_allconfig2326.png"/>
 
@@ -103,25 +103,23 @@ anki要精简css内容，是因为anki为了节省服务器硬盘资源，毕竟
 
 ### 美式词典和英式词典区别
 
-牛津偏英式，韦氏偏美式。我们来看下`晾衣夹`这个单词，在美式词典和英式词典的区别，词典的质量好坏对于学习效果是有很大影响的！`clothespin` 这个词是美式用法，因为市面上大部分的原版书籍材料都是以**美式用法**居多。曾经有一段时间我也非常纠结是要美式还是英式，从纸质资源来看，美式的居多，还有美剧资源来看，也是美式的居多。这两者的区别，只有在查词典的时候能够感觉出来。从大的概率来讲，手头上得有一本英式词典、一本美式词典。不过，现在的牛津10这本词典对于英式和美式用法都有讲解。不必太纠结英式和美式。听力输入接近500小时，词汇量6000+那个时候做口语输出的时候，才决定自己是美式还是英式口音。前期学习阶段，英式和美式都是混合进行，并且要能够听懂youtube上面各种英语口音的人的讲话。现在举例，讨论英式词典和美式词典的区别，请看`晾衣夹`这个单词先。
+美式词典和英式词典，还存在单词写法的区别，美式写法和英式写法不一样。比如`clothespin` 这个词是美式写法，如果用牛津这种英式词典是搜不到这个词的。
 
-首先看它的上下文场景：
+美式英文场景：
 
 `“Could Archie have opened his cage door himself?" Josh asked.`
 
 `Mrs. Gwynn shook her head."We always keep a clothespin on his door to make sure he can't open it.`
 
-`Mrs. Gwynn`的金丝雀从笼子里面跑出去了，`Josh`帮`Mrs. Gwynn`去寻找，在分析金丝雀丢失的原因的时候，上面是两个人的谈话，`Josh`问`Mrs. Gwynn`，是不是金丝雀自己把鸟笼打开了，自己飞出去的？而`Mrs. Gwynn`回答`Josh`说"我们总是在他的门上放一个晒衣夹，以确保它打不开  "； 这里，`Mrs. Gwynn`用晾衣夹来锁住鸟笼，防止金丝雀逃出鸟笼，非常接地气的一种生活场景。
-
-以上例子原文出自有声书：《A to Z Mysteries》系列26本中的第3本书。并且牛津9这本词典还不一定可以查到这个词，牛津9这里对于clothespeg和clothespin的区别并没有做说明，当然大部分情况下我都是使用牛津，只是这里举例的都是一些特殊情况，想要传达的意思就是，随着你学习经验积累，使用很多种词典之后，就会发现英式词典和美式词典是有区别的，手里头两种词典都得有！
+英式词典来查这个单词`clothespin`，发现查出来的是clothespeg，clothespin在韦氏词典中查到了。当然，英式词典里面在不太显眼的位置也做了美式标注。
 
 <img src="https://cs-cn.top/images/posts/niujin9_608.png"/>
 
 <img src="https://cs-cn.top/images/posts/weishi_656.png"/>
 
-相比之下，韦氏词典的这个解释，更匹配原著上下文的意思。
+相比之下，韦氏词典对于学习美式英语更加方便。
 
-补充说明：这里牛津10效果会比牛津9的效果更好：
+补充说明：我手上的mdx开源词典资源中，牛津10的释义比牛津9更全。如果是精读有声书，我是同时欧陆词典加载3本词典：牛津9，牛津10，韦氏词典。
 
 <img src="https://cs-cn.top/images/posts/niujin10_14.png"/>
 
