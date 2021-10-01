@@ -126,7 +126,7 @@ map[Darrin:Hail, Darrin! Well met! Gladys:Hail, Gladys! Well met! Samantha:Hi, S
 
 这是官网地址：[https://golang.org/doc/effective_go#maps](https://golang.org/doc/effective_go#maps)
 
-如果尝试向map中获取一个不存在的key，则map会返回什么值呢？
+如果尝试向map中获取一个不存在的key，则map会返回什么值呢？go这里会返回“零值”。
 
 ```go
 attended := map[string]bool{
