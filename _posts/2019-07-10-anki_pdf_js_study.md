@@ -111,15 +111,13 @@ anki要精简css内容，是因为anki为了节省服务器硬盘资源，毕竟
 
 `Mrs. Gwynn shook her head."We always keep a clothespin on his door to make sure he can't open it.`
 
-英式词典来查这个单词`clothespin`，发现查出来的是clothespeg，clothespin在韦氏词典中查到了。当然，英式词典里面在不太显眼的位置也做了美式标注。
+英式词典来查这个单词`clothespin`，发现查出来的是clothespeg，clothespin在韦氏词典中查到了。当然，英式词典在不显眼的位置也做了美式标注clothes-pin，当非常简单的一笔带过。所以在接触的材料大部分是美国人写东西的时候，如果在牛津查不到，最好是用韦氏词典查一下。
 
 <img src="https://cs-cn.top/images/posts/niujin9_608.png"/>
 
 <img src="https://cs-cn.top/images/posts/weishi_656.png"/>
 
-相比之下，韦氏词典对于学习美式英语更加方便。
-
-补充说明：我手上的mdx开源词典资源中，牛津10的释义比牛津9更全。如果是精读有声书，我是同时欧陆词典加载3本词典：牛津9，牛津10，韦氏词典。
+补充说明：我手上的mdx开源词典资源中，根据优先级排序依次是：牛津9、韦氏2019、牛津10。如果是精读有声书，会同时加载这3本词典。
 
 <img src="https://cs-cn.top/images/posts/niujin10_14.png"/>
 
