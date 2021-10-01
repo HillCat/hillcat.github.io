@@ -117,7 +117,7 @@ anki要精简css内容，是因为anki为了节省服务器硬盘资源，毕竟
 
 <img src="https://cs-cn.top/images/posts/weishi_656.png"/>
 
-补充说明：我手上的mdx开源词典资源中，根据优先级排序依次是：牛津9、韦氏2019、牛津10。如果是精读有声书，会同时加载这3本词典。
+补充说明：我手上的mdx开源词，加载优先级是：牛津9、韦氏2019、牛津10。如果是精读有声书，会同时加载这3本词典。
 
 <img src="https://cs-cn.top/images/posts/niujin10_14.png"/>
 
