@@ -16,8 +16,6 @@ typora-root-url: ../
 
 ### 使用anki过滤器减轻复习压力
 
-如果塞进anki中的生词很多，会造成单词堆积的情况，复习压力很大。要想压制住Anki，避免发生复习压力雪崩，引起彻底放弃anki的悲剧。有必要对Anki的进行一下“削弱”处理。这里我称之为“削峰减压”，这个功能是我使用最频繁的功能。
-
 1.首先是在Tools菜单栏下面，Create Filtered Deck...创建过滤器
 
 <img src="https://cs-cn.top//images/posts/create_deck124851.png"/>
