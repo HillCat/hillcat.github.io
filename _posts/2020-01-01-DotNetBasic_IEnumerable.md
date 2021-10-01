@@ -37,7 +37,7 @@ IEnumerable<T> 这个是一个接口，主要是提供一个容器来存储泛�
 
 <img src="https://cs-cn.top/images/posts/Collections14511.png"/>
 
-系统中自带的泛型对象，[List<T>](https://source.dot.net/#System.Private.CoreLib/List.cs,cf7f4095e4de7646)这个是非常常见的，它所在的命名空间是：System.Collections.Generic,具体可以查看源码，看看它这个对象所继承的接口。会发现它是继承了`interface IEnumerable<out T> : IEnumerable`的。
+系统中自带的泛型集合，[List<T>](https://source.dot.net/#System.Private.CoreLib/List.cs,cf7f4095e4de7646)这个是非常常见的，它所在的命名空间是：System.Collections.Generic,根据命名空间知道这个是跟泛型有关的，看看它这个对象所继承的接口。会发现它是继承了`interface IEnumerable<out T> : IEnumerable`的。
 
 
 
@@ -56,7 +56,7 @@ namespace System.Collections.Generic
 }
 ````
 
-本质上这是一个接口，接口里面有个方法GetEnumerator()，这个方法返回的是一个迭代器Enumerator，类似下面这样：
+本质上这是一个接口，接口里面有个方法GetEnumerator()，这个方法返回的是一个迭代器Enumerator，这是一个struct类型，在C#中是属于值类型的，跟class类型不同的是，struct是进行的“值拷贝”，每次分配给一个变量的时候，都会重新开辟一块新的内存区域给到变量，不像class这种引用类型，变量赋值的时候是“引用拷贝”。
 
 ```c#
  Enumerator GetEnumerator() => new Enumerator(this);
@@ -114,7 +114,15 @@ namespace System.Collections.Generic
 
 Collections集合的好处，是可以进行Adding，Delteting, Replacing ,Searching，Copying操作。
 
+### Struct Vs Class
+
+通过数组结构存储一组struct和class对比，struct类型的数组在内存中的操作效率要高于class类型的数组。因为struct数组中的成员在内存中的分布是连续的。而class类型的数组在内存中分布是分散的。CPU缓存在操作连续内存的时候速度要快于操作那些分散的内存。连续的内存只需要取一次即可把所有数据全部取到，而分散的内存，需要分很多次去取。
+
+![structArray_112.png](/images/posts/structArray_112.png)
 
 
 
+如果是对一个大型的集合对象进行密集计算操作，比如进行一些循环操作，使用struct的性能会更好。从上面的Enumerator也可以看得出来，这个迭代器本质上就是一个struct类型。
+
+如果用一个class类型的变量指向一个struct类型的值，会发生装箱操作，值类型会变为引用类型。
 
