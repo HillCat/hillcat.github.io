@@ -18,7 +18,7 @@ typora-root-url: ../
 
 本文要解决的就是：Anki卡片太多**可能变成英语学习者的噩梦**，这个问题怎么去解决。这个问题，在我频繁制卡的过程中遇到过，曾经导致我停止了英文自学有半年的时间。但是这停止的半年，并没有对我的单词量下降造成任何伤害。反而，由于现在驾驭anki越来越熟练，制卡几乎成为了我的生活习惯。未来当我单词量达到1.7万，我都不会再担心anki会成为噩梦。
 
-![supermemory_anki](../images/posts/supermemory_anki.png)
+![supermemory_anki](/images/posts/supermemory_anki.png)
 
 ### 如何调整留存率
 
