@@ -86,7 +86,7 @@ Identity中，.net core可以对于Identiy中的option做各种限制，比如�
 
 在国内有一种叫法，叫做“基于声明的认证“，指的是Claim这个单词；也就是context.User.Claim，它是键值对形式存在的。
 
-国内还有一种翻译的叫法，叫做“[基于策略的授权](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/policies?view=aspnetcore-5.0)”，指的就是policy，policy规则的自定义原理是本文的重点。
+国内还有一种翻译的叫法，叫做“[基于策略的授权](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/policies?view=aspnetcore-5.0)”，指的就是policy，policy规则的自定义在下文有详细分析。
 
 对于一个已经登录的用户，可以对其多个Claim进行验证(key-value)，比如：Role，DateStarted可能是数据库里面用户表的某个关联字段，而字段的值是直接存储在用户表中的。
 
