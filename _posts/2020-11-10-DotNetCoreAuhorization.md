@@ -146,11 +146,11 @@ namespace Claims.PolicyHandlers
 
 ![self_policy](/images/posts/self_policy.png)
 
-首先是我们在.net core中进行了自动注入配置，把Handler注入到了容器中。在startup.cs中进行了容器注入配置，这里使用的是singleton单例模式注入。
+首先是我们在.net core中进行了自动注入配置，把Handler注入到了容器中。在startup.cs中进行了容器注入配置，这里使用的是singleton单例模式注入，如下：
 
 ![HandlerDI2395.png](/images/posts/HandlerDI2395.png)
 
-根据微软[官方文档](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/policies?view=aspnetcore-5.0)这里框架会自动去遍历DI容器中注入的Handler，并且依次遍历之后调用。由于存在泛型约束，所以只会传入Tsource对象的具体类。
+根据微软[官方文档](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/policies?view=aspnetcore-5.0)的源码介绍，.net core框架会自动去遍历DI容器中注入的Handler，并且依次遍历之后调用。由于存在泛型约束，所以只会传入Tsource对象的具体类。
 
 ````c#
 public async Task<AuthorizationResult> AuthorizeAsync(ClaimsPrincipal user, 
