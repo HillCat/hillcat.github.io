@@ -175,7 +175,7 @@ public async Task<AuthorizationResult> AuthorizeAsync(ClaimsPrincipal user,
 }
 ````
 
-.net core框架中[AuthorizationHandler.cs](https://source.dot.net/#Microsoft.AspNetCore.Authorization/AuthorizationHandler.cs,70326893d8662d84)原来的实现如下:(本案例中进行了Override)
+.net core框架中[AuthorizationHandler.cs](https://source.dot.net/#Microsoft.AspNetCore.Authorization/AuthorizationHandler.cs,70326893d8662d84)原来的实现如下:(本案例中进行了Override，提供了自己实现的policy)
 
 ![authorize_handler_122.png](/images/posts/authorize_handler_122.png)
 
