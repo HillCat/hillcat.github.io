@@ -195,7 +195,7 @@ code source:[https://github.com/T0shik/rolesvsclaimsvspolicy](https://github.com
 
 ![AuthorizationTutorial](/images/posts/AuthorizationTutorial.png)
 
-程序中首先设置自定义的policy规则，因为数据库中存在了AspNetRoles角色表，AspNetUserRoles用户-角色中间表，AspNetUsers用户表。
+程序中首先设置自定义的policy规则，因为数据库中存在了AspNetRoles角色表，AspNetUserRoles用户-角色中间表，AspNetUsers用户表。通过EfCore CodeFirst模式创建。
 
 在setup.cs的configure设置中，自定义三种policy策略，policy的名字都是自定义的,policy规则对每个用户的Role进行了一系列判断。
 
