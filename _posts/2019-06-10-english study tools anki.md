@@ -36,7 +36,7 @@ Anki的PC电脑版本，Future Due这个曲线图，尽量让它平缓。如果�
 
 <img src="https://cs-cn.top/images/posts/static2770.png"/>
 
-选中这里面的一些单词，然后随机分摊到未来20~40天的时间里。这样子就把复习压力给分摊出去了。
+选中这里面的一些单词，然后随机分摊到未来20~40天的时间里。这样子就把复习压力给分摊出去了。注意看下面截图的操作：
 
 <img src="https://cs-cn.top/images/posts/random4038.png"/>
 
