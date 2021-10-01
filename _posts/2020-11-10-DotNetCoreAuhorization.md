@@ -148,7 +148,7 @@ namespace Claims.PolicyHandlers
 
 ![HandlerDI2395.png](/images/posts/HandlerDI2395.png)
 
-根据微软[官方文档](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/policies?view=aspnetcore-5.0)这里框架会自动去遍历DI容器中注入的Handler，并且依次遍历之后调用。
+根据微软[官方文档](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/policies?view=aspnetcore-5.0)这里框架会自动去遍历DI容器中注入的Handler，并且依次遍历之后调用。由于存在泛型约束，所以只会传入Tsource对象的具体类。
 
 ````c#
 public async Task<AuthorizationResult> AuthorizeAsync(ClaimsPrincipal user, 
@@ -173,7 +173,7 @@ public async Task<AuthorizationResult> AuthorizeAsync(ClaimsPrincipal user,
 }
 ````
 
-[AuthorizationHandler.cs](https://source.dot.net/#Microsoft.AspNetCore.Authorization/AuthorizationHandler.cs,70326893d8662d84)里面在调用Handler的时候，会去判断TResource类型。只有符合泛型约束的类型才会被Handler处理。
+.net core框架中[AuthorizationHandler.cs](https://source.dot.net/#Microsoft.AspNetCore.Authorization/AuthorizationHandler.cs,70326893d8662d84)原来的实现如下:(本案例中进行了Override)
 
 ![authorize_handler_122.png](/images/posts/authorize_handler_122.png)
 
