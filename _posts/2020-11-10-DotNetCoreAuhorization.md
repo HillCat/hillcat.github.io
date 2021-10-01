@@ -201,7 +201,7 @@ public async Task<AuthorizationResult> AuthorizeAsync(ClaimsPrincipal user,
 
 ![policy_protocal](/images/posts/policy_protocal_23.png)
 
-在相关页面的控制器上面，使用指定的policy规则，既可以做到权限控制：
+在相关页面的控制器上面，使用指定的policy规则，既可以做到对应的权限控制：
 
 ![controller_rules](/images/posts/controller_rules_230.png)
 
