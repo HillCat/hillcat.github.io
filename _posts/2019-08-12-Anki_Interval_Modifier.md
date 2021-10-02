@@ -58,7 +58,7 @@ typora-root-url: ../
 
 <img src="https://cs-cn.top/images/posts/easy_factor_950.png"/>
 
-Ease Factor为130%的单词我这里有1157个。我需要把这批单词的Ease Factor数值批量修改为250%。
+Ease Factor为130%的单词我这里有1157个。我需要把这批单词的Ease Factor数值批量修改为250%。要不然，这批单词的复习的频率太高了。
 
 <img src="https://cs-cn.top/images/posts/easy_factor023.png"/>
 
