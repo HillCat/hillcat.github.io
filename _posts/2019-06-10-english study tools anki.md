@@ -130,7 +130,7 @@ FastWQ具体的配置：
 
 ### 番外篇
 
-对于词汇量已经刚过6000+的人，有想要考雅思的冲动，6000+想要冲刺8000+词汇，可以参考这个方法：[来自北大学姐的魔鬼训练，带你【10天搞定任何词汇】](https://www.bilibili.com/video/BV1dE411A7Rx?share_source=copy_web)，把这个方法魔改成anki的艾宾浩斯曲线记忆，效果应该更好。
+对于词汇量已经刚过6000+的人，有想要考雅思的冲动，6000+想要冲刺8000+词汇，可以参考这个方法：[来自北大学姐的魔鬼训练【10天搞定任何词汇】](https://www.bilibili.com/video/BV1dE411A7Rx?share_source=copy_web)，把这个方法魔改成anki的艾宾浩斯曲线记忆，效果应该更好。
 
 ![beida_beidanci_28272.png](/images/posts/beida_beidanci_28272.png)
 
