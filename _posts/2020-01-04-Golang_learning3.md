@@ -11,7 +11,7 @@ typora-root-url: ../
 
 ### module兼容处理
 
-在Go语言快速入门(2)中，greetings.go文件中有一个方法Hello是传入一个人名之后返回一个随机的问候语，这次需要修改这个module，使其能够传入多个人名，然后返回多个问候语，考虑到直接修改Hello方法把其由单个形参改为多个形参，会破坏module的封装。只能是在这个module里面增加一个新的函数满足需求。保留了旧功能，以向后兼容。更多兼容性处理，参考官方文档:[Keeping Your Modules Compatible](https://go.dev/blog/module-compatibility)(让你的模块更具兼容性)。
+在Go语言快速入门(2)中，greetings.go文件中有一个方法Hello是传入一个人名之后返回一个随机的问候语，这次需要修改这个module，使其能够传入多个人名，然后返回多个问候语，考虑到直接修改Hello方法把其由单个形参改为多个形参，会破坏module的封装。只能是在这个module里面增加一个新的函数满足需求。保留了旧功能，以向后兼容。更多兼容性处理，参考官方文档:[Keeping Your Modules Compatible](https://go.dev/blog/module-compatibility)(使模块更具兼容性)。
 
 1.修改greeting.go代码如下：
 
