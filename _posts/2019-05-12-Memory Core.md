@@ -50,7 +50,7 @@ typora-root-url: ../
 <img src="https://cs-cn.top/images/posts/book3574.png"/>
 <img src="https://cs-cn.top/images/posts/book898.png"/>
 
-《中国人英语自学方法教程》和 《找对英语学习方法的第一本书》可以同时一起看。
+《中国人英语自学方法教程》和 《找对英语学习方法的第一本书》，漏屋和徐火辉反复强调了听力的重要性。
 
 ### 让被动词汇变为主动词汇
 
