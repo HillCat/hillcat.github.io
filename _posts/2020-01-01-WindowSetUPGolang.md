@@ -59,7 +59,7 @@ sudo apt install virtualbox-guest-dkms
 
 <img src="https://cs-cn.top/images/posts/autorunsh2843.png"/>
 
-它会弹出来一个验证框，要求你输入Ubuntu权限的密码，输入之后，Terminal开始执行命令行，开始安装：
+它会弹出来一个验证框，要求输入Ubuntu权限的密码，输入之后，Terminal开始执行命令行，开始安装：
 
 <img src="https://cs-cn.top/images/posts/install_sh928.png"/>
 
@@ -67,7 +67,7 @@ sudo apt install virtualbox-guest-dkms
 
 <img src="https://cs-cn.top/images/posts/auto_resize840.png"/>
 
-当你拖放窗口大小的时候，分辨率会随着窗口的变化而变化的，对于程序员在Window上面搞开发而言非常方便了。
+当拖放窗口大小的时候，分辨率会随着窗口的变化而变化的，对于程序员在Window上面搞开发而言非常方便了。
 
 ### 设置Ubuntu显卡
 

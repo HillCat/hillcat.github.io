@@ -235,7 +235,7 @@ your code calls the `Go` function, printing a clever message about communication
 
 When you ran `go mod tidy`, it located and downloaded the `rsc.io/quote` module that contains the package you imported. By default, it downloaded the latest version -- v1.5.2.
 
-当你运行go mod tidy的时候，go会自动加载并下载 `rsc.io/quote`模块，这个模块包含了你在hello.go中引入的package。默认情况下它下载的是最新版本。
+当用户运行go mod tidy的时候，go会自动加载并下载 `rsc.io/quote`模块，这个模块包含了用户在hello.go中引入的package。默认情况下它下载的是最新版本。
 
 
 

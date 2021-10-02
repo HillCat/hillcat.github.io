@@ -127,7 +127,7 @@ FAIL	example.com/greetings	0.015s
 
 ````
 
-如果是测试失败，那么无需 -v参数，go的测试程序会告诉你第几行的代码测试失败了，特别是在测试文件特别多的情况下，这个很管用，方便快速定位到代码所在文件所在行。函数TestHelloName虽然是测试失败了，但是`TestHelloEmpty` 函数的测试是正常的。
+如果是测试失败，那么无需 -v参数，go的测试程序会告诉用户第几行的代码测试失败了，特别是在测试文件特别多的情况下，这个很管用，方便快速定位到代码所在文件所在行。函数TestHelloName虽然是测试失败了，但是`TestHelloEmpty` 函数的测试是正常的。
 
 ### 正则表达式语法
 
@@ -176,7 +176,7 @@ map[Darrin:Hail, Darrin! Well met! Gladys:Hi, Gladys. Welcome! Samantha:Great to
 
 ````
 
-如果你不想把自己开发的application安装到那个位置，可以通过如下命令修改，假设你先把这些自己开发的app安装在$HOME/bin 这个目录，
+如果用户不想把自己开发的application安装到那个位置，可以通过如下命令修改，假设用户先把这些自己开发的app安装在$HOME/bin 这个目录，
 
 可以修改安装目录：
 

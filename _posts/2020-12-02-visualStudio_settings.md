@@ -57,7 +57,7 @@ AI智能补全是微软新出来的一个vs增强功能，很多时候这个AI�
 
 <img src="https://cs-cn.top/images/posts/underscore_reflector845.png"/>
 
-最终使用的效果就是如下：visualstudio 2019会把含有依赖注入的属性，自动给你补上，并且打上私有属性下划线。
+最终使用的效果就是如下：visualstudio 2019会把含有依赖注入的属性，自动给补上，并且打上私有属性下划线。
 
 <img src="https://cs-cn.top/images/posts/reflector_creator32.gif"/>
 
@@ -71,7 +71,7 @@ AI智能补全是微软新出来的一个vs增强功能，很多时候这个AI�
 
 #### 1.Shift + Enter 
 
-专门用来快速输入`大花括号`，当你输入一个类或者方法，需要敲入 `{  }   `一对大花括号的时候，直接Shift +Enter即可快捷输入，并且光标会停留在花括号的真正中间开始的位置。
+专门用来快速输入`大花括号`，当程序员输入一个类或者方法，需要敲入 `{  }   `一对大花括号的时候，直接Shift +Enter即可快捷输入，并且光标会停留在花括号的真正中间开始的位置。
 
 #### 2.Move Class
 
@@ -83,7 +83,7 @@ AI智能补全是微软新出来的一个vs增强功能，很多时候这个AI�
 
 <img src="https://cs-cn.top/images/posts/auto_paste5327.png"/>
 
-当你进行代码的复制粘贴的时候，如果从一个文件A复制了一段代码，带有using引用的，当你拷贝到B文件的时候，想要连同A文件顶部的相关的using语句也一并拷贝到B文件，那么就可以开启这个功能。
+当进行代码的复制粘贴的时候，如果从一个文件A复制了一段代码，带有using引用的，当拷贝到B文件的时候，想要连同A文件顶部的相关的using语句也一并拷贝到B文件，那么就可以开启这个功能。
 
 #### 4.继承关系跳转
 
@@ -107,7 +107,7 @@ visualStudio中可以为项目添加EditorConfig文件，来统一整个开发�
 
 EditorConfig的更多规范参考[EditorConfig](https://editorconfig.org/)官方网站。
 
-如果开启了EditorConfig文件，那么visualsudio编辑器的ErrorList提示里面会有Messages消息，提示你进行一些代码规范上面的操作：
+如果开启了EditorConfig文件，那么visualsudio编辑器的ErrorList提示里面会有Messages消息，提示用户进行一些代码规范上面的操作：
 
 <img src="https://cs-cn.top/images/posts/EditorConfig25.png"/>
 
@@ -278,7 +278,7 @@ Tools菜单栏，Get Tool and Fetures...
 
 <img src="https://cs-cn.top/images/posts/createModel940.png"/>
 
-进入到这个页面之后点击生成Patterns，那么就会根据你当前项目中使用到的有些语法特征，分析出AI模型，对你当前的项目提供特定的AI智能提示：数据模型创建完毕之后处于Ready状态。开启这个功能之后，以后每次打开一个已经存在于电脑硬盘上面的.net项目都会自动开启本地Local的Ai分析，这个插件对应的AI程序会针对本地的代码进行AI建模分析，给出合理的代码提示建议。
+进入到这个页面之后点击生成Patterns，那么就会根据用户当前项目中使用到的有些语法特征，分析出AI模型，对用户当前的项目提供特定的AI智能提示：数据模型创建完毕之后处于Ready状态。开启这个功能之后，以后每次打开一个已经存在于电脑硬盘上面的.net项目都会自动开启本地Local的Ai分析，这个插件对应的AI程序会针对本地的代码进行AI建模分析，给出合理的代码提示建议。
 
 <img src="https://cs-cn.top/images/posts/IntelliSense113.png"/>
 
