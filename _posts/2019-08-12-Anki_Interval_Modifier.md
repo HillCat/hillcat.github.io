@@ -22,7 +22,7 @@ typora-root-url: ../
 
 ### 如何调整留存率
 
-什么是留存率？留存率就是忘掉一部分之后，最终能记住(留下来的)单词有多少。比如：7000个单词卡片，我想记住90%，也就是记住6300个单词，单词的留存率就是90%。如果设置留存率呢？参考原文：[https://readbroca.com/anki/what-is-anki-interval-modifier/](https://readbroca.com/anki/what-is-anki-interval-modifier/)。具体的操作，我把它翻译为中文，配上我的演示：
+什么是留存率？留存率就是忘掉一部分之后，最终能记住(留下来的)单词有多少。比如：7000个单词卡片，我想记住90%，也就是记住6300个单词，单词的留存率就是90%。设置方法参考原文：[https://readbroca.com/anki/what-is-anki-interval-modifier/](https://readbroca.com/anki/what-is-anki-interval-modifier/)。具体的操作，我把它翻译为中文，配上案例演示：
 
 先安装这个插件[True Retention](https://ankiweb.net/shared/info/613684242) ，点击Stats的同时按住Shift键，否则进入的是默认的统计页面，一定要按住Shift键的同时点击鼠标左键，才能进入到下面这个界面：
 
