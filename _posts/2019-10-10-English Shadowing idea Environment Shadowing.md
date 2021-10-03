@@ -7,7 +7,7 @@ keywords: English
 typora-root-url: ../
 ---
 
-影子跟读，这里推荐用台式机windows。
+本篇是介绍影子跟读的硬件设备，以及口语初级阶段推荐的APP。首先是影子跟读的硬件设备：
 
 第一个设备是Bose QC35 二代 蓝牙降噪耳机；
 第二个设备是Blue Yeti麦克风 ，带监听功能；
@@ -20,25 +20,20 @@ typora-root-url: ../
 
 
 
-BOSE QC 35的降噪的效果还是有点超出我的意外，听力这块必备工具。
+BOSE QC 35的降噪的效果还是有点超出我的意外，听力这块真的是神器。
 
 录音软件使用[Audacity](https://www.fosshub.com/Audacity-old.html)，这是一个开源软件使用人数还是蛮多的。
 
 ### Blue Yeti的使用感受
 
-Blue Yeti应该是训练口语输出比较理想的设备。在影子跟读中，可以给影子跟读进行录音。
-
-这套装备具体使用起来是个什么感受呢，我用这个麦克风录制了一段17分钟的评测视频：
-
-链接：[https://pan.baidu.com/s/1OVJ11ZYp8GxkVMmEashQjg](https://pan.baidu.com/s/1OVJ11ZYp8GxkVMmEashQjg ) 
-提取码：668c
+Blue Yeti主要用于影子跟读的时候监听自己的声音。
 
 ### 口语辅助APP推荐
 
-口语输出阶段，有个工具值得推荐，那就是苹果IOS14系统自带的翻译工具，关于这个软件的介绍：[https://support.apple.com/zh-cn/HT211671](https://support.apple.com/zh-cn/HT211671)
+口语输出阶段，有个工具值得推荐，那就是苹果IOS14的翻译工具，关于这个软件的介绍，官方比较详细：[https://support.apple.com/zh-cn/HT211671](https://support.apple.com/zh-cn/HT211671)
 
 ![ios14_translate12.png](/images/posts/ios14_translate12.png)
-
+苹果手机用户可以下载试试这个工具。
 在输出阶段，使用这个工具，可以得到大致比较准确的翻译结果。而且苹果机器人的发音，语音语调是比较接近真人发音的，其他公司类似的产品还做不到这个程度。很多人口语不太自信的时候，要一下子过渡到跟真人外教聊天会很别扭，这个中间需要一个过渡阶段，要有个拐杖能够辅助自己，这个APP充当的就是过渡阶段的这根”拐杖“，让口语训练初级阶段，让初学者养成自己跟自己练口语的习惯。
 
 
