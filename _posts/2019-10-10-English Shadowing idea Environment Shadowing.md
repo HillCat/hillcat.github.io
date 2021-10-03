@@ -33,7 +33,7 @@ Blue Yeti应该是训练口语输出比较理想的设备。在影子跟读中�
 链接：[https://pan.baidu.com/s/1OVJ11ZYp8GxkVMmEashQjg](https://pan.baidu.com/s/1OVJ11ZYp8GxkVMmEashQjg ) 
 提取码：668c
 
-### 口语输出起步阶段APP推荐
+### 口语辅助APP推荐
 
 口语输出阶段，有个工具值得推荐，那就是苹果IOS14系统自带的翻译工具，关于这个软件的介绍：[https://support.apple.com/zh-cn/HT211671](https://support.apple.com/zh-cn/HT211671)
 
