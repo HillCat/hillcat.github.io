@@ -33,7 +33,13 @@ Blue Yeti应该是训练口语输出比较理想的设备。在影子跟读中�
 链接：[https://pan.baidu.com/s/1OVJ11ZYp8GxkVMmEashQjg](https://pan.baidu.com/s/1OVJ11ZYp8GxkVMmEashQjg ) 
 提取码：668c
 
+### 口语输出起步阶段APP推荐
 
+口语输出阶段，有个工具值得推荐，那就是苹果IOS14系统自带的翻译工具，关于这个软件的介绍：[https://support.apple.com/zh-cn/HT211671](https://support.apple.com/zh-cn/HT211671)
+
+![ios14_translate12.png](/images/posts/ios14_translate12.png)
+
+在输出阶段，使用这个工具，可以得到大致比较准确的翻译结果。而且苹果机器人的发音，语音语调是比较接近真人发音的，对于自己想要造句，练习口语，有一定的辅助作用。
 
 
 
