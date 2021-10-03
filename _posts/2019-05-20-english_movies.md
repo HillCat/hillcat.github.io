@@ -13,7 +13,7 @@ typora-root-url: ../
 
 至于美剧，奈飞是一个不错的选择，去淘宝上面搜索:”奈飞租用“，”奈飞合租“，就有一堆出租账号的。最普通的就是5人共享账号，月付15RMB，季付45RMB，拉一个梯子即可观看。配合[Language Reactor插件](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)，开启英文字幕，特别方便。现在奈飞学外语，已经是很多出国人士的首选方案。科学上网，对于长期学英语的人而言应该是必备的一个条件。
 
-油管看视频也是用这个Language Reactor插件，开启google的英文字幕，Google的机翻英文字幕质量也很高，机翻的英文字幕再翻译为中文基本就没办理解，对于大部分油管英文视频，还是需要一定的听力词汇量的，习惯了这种方式之后，油管是一个资讯大宝库。
+油管看视频也是用这个Language Reactor插件，开启google的英文字幕，Google的机翻英文字幕质量也很高，机翻的英文字幕再机翻为中文基本就完全失真了、没办法看，对于大部分油管视频，最低限度是直接看英文字幕，不要开中文，所以，看油管视频还是需要一定的听力词汇量的，习惯了听英文之后，油管是一个资讯大宝库。
 
 ![overwhelming](/images/posts/overwhelming6811.png)
 
