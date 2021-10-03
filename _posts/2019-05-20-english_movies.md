@@ -44,7 +44,7 @@ NetFlix看剧是最好的选择。NetFlix中文名叫做”奈飞“，去淘宝
 
 <img src="https://cs-cn.top/images/posts/king_siki1322.png"/>
 
-其他剧的介绍就略过了，总之在NetFlix上面找一些值得学习的美剧还是非常简单的。
+其他剧的介绍就略过了，总之在NetFlix上面找一些值得学习的剧还是非常简单的。
 
 <img src="https://cs-cn.top/images/posts/trash_track1448.png"/>
 
