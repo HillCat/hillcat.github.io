@@ -1,13 +1,15 @@
 ---
 layout: post
-title: NetFlix美剧 VS 传统美剧(6)
+title: 奈飞美剧 && 油管视频 输入(6)
 categories: English
 description: 英文自学
 keywords: English
 typora-root-url: ../
 ---
 
-美剧的学习策略基本就是这个学姐的方法：[北京外国语学院学姐的美剧推荐](https://www.bilibili.com/video/BV1xM4y1K7M7)。
+美剧的学习策略基本就是这个学姐的方法：[北京外国语学院学姐的美剧推荐](https://www.bilibili.com/video/BV1xM4y1K7M7)。奈飞和油管，主要是巩固听力词汇，稍微积累一些新单词，在整个英语能力提升这块，提升的是听力层级这个维度的能力。就IT这块的资讯，其实油管的资讯也是非常重要的一大块。
+
+![tingli223424.png](/images/posts/tingli223424.png)
 
 NetFlix看剧是最好的选择。NetFlix中文名叫做”奈飞“，去淘宝上面搜索:”奈飞租用“，”奈飞合租“，就有一堆出租账号的。最普通的就是这种5人共享账号，月付15RMB，季付45RMB， 用的是美区账号。主要用来看美剧。配合[Language Reactor插件](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)，开启英文字幕，不认识的单词会自动高亮标红，鼠标点击会自动弹出词典解释。特别方便，现在通过奈飞学外语，已经是很多欧美人士的首选方案。大部分情况下，奈飞的人工翻译都是非常准确的。极少数情况下也会漏字幕。但是并不影响学习英语。经常看剧，对于巩固单词和培养语感非常有好处。前提条件是得“科学上网”，如果是购买第三方解决方案，费用大概一年350RMB左右，如果是自己购买境外Linux服务器DIY，实现科学上网，成本大概150RMB一年。所以，懂得科学上网的英文程序员——接收信息的渠道非常广泛。
 
