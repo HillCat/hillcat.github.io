@@ -15,7 +15,7 @@ NetFlix看剧是最好的选择。NetFlix中文名叫做”奈飞“，去淘宝
 
 ![overwhelming](/images/posts/overwhelming6811.png)
 
-上面这个视频是Youtube微软官方[VisualStudio频道](https://www.youtube.com/channel/UChqrDOwARrxdJF-ykAptc7w)发布的一个视频，演讲者是.net部门的老大Scott Hanselman，举个例子：如果在观看的过程中遇到了一个生词，点击一下就弹出词典解释，这些功能都是免费的，来至[Language Reactor插件](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)。
+上面这个视频是Youtube微软官方[VisualStudio频道](https://www.youtube.com/channel/UChqrDOwARrxdJF-ykAptc7w)发布的一个视频，演讲者是.net部门的老大Scott Hanselman，单词提示功能都是免费的，来至[Language Reactor插件](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)。
 
 
 
