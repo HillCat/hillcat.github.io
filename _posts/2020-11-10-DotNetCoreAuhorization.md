@@ -181,7 +181,7 @@ public async Task<AuthorizationResult> AuthorizeAsync(ClaimsPrincipal user,
 
 ![Invoke_Handler0025.png](/images/posts/Invoke_Handler0025.png)
 
-代码执行的时候，会判断泛型约束类型，代码会去检查类型是否符合Handler的要求，符合的话就会调用上面的自定义的HandleRequirementAsync，这就是完整自定义的Handler调用。
+代码执行的时候，会判断泛型约束，代码会去检查类型是否符合Handler的要求，符合的话就会调用上面的自定义的HandleRequirementAsync，这就是整个Handler调用过程。
 
 ![self_policy](/images/posts/self_policy.png)
 
