@@ -22,7 +22,7 @@ typora-root-url: ../
 
 BOSE QC 35的降噪的效果还是有点超出我的意外，听力这块真的是神器。
 
-录音软件使用[Audacity](https://www.fosshub.com/Audacity-old.html)，这是一个开源软件使用人数还是蛮多的。
+录音软件使用[Audacity](https://www.fosshub.com/Audacity-old.html)，另外还有更专业的音频处理工具：Adobe的Audition工具。
 
 ### Blue Yeti的使用感受
 
