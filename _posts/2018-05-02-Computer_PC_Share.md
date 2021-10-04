@@ -221,3 +221,7 @@ CPU 英特尔 i5 10400F
 风扇 先马玲珑12CM
 散热器 长城霜龙200
 
+### U盘刻录工具
+
+https://www.balena.io/etcher/
+
