@@ -16,9 +16,9 @@ typora-root-url: ../
 
 4.《把你的英语用起来》，作者：伍君仪/刘晓光  ；刘晓光的网名：恶魔奶爸；这本书提出来“i+1 理论”，透析法，讲的主要是挑选难度适合自己水平的英文原版书，通过阅读来提升词汇量。
 
-![zhongguorenzixue_22.png](../images/posts/zhongguorenzixue_22.png)
+![zhongguorenzixue_22.png](/images/posts/zhongguorenzixue_22.png)
 
-![xuhuohui_123.png](../images/posts/xuhuohui_123.png)
+![xuhuohui_123.png](/images/posts/xuhuohui_123.png)
 
 众多方法论基本都推荐了有声书，比如：《中国人英语自学方法教程》，如上图，里面大量的篇幅列出了一些书单。有声书学个一年半载，等到英语听力输入量超过500+小时的时候，youtube很多节目都可以借助英文字幕听得懂了，能够以较快的速度观看youtube视频并理解，这个时候可以看youtube学习一些东西，进入“心流”状态。“心流”状态是absorb英文的一种无意识状态，听力打开之后，Youtube上面浩瀚的资源几乎可以解答90%的问题。生活和学习中任何领域的视频，基本在YouTube都有人分享。
 
