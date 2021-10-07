@@ -50,9 +50,9 @@ lift这个词，通过anki制卡收集到的场景如下：
 
 <img src="https://cs-cn.top//images/posts/matt_japan.png"/>
 
-Matt非常擅长使用anki和美剧制卡，我博客里面提到的某些方法，就是从他这里借鉴学习的。他的油管频道：[https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg](https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg)，英文听力能力提升之后，Youtube是个绝对大宝库。里面有非常多优质的学习资源。而且这些资源全部是免费的，一般都带有Github源码，对于学习研究源码帮助极大。
+Matt是美国人，他非常擅长使用anki，通过5年时间精通了日语，他用的方法就是二语习得，他的方法是通过看日本动画片和电视剧去学习日语。这种方法不是最快的，有些经验还是值得借鉴。他的油管频道：[https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg](https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg)。
 
-Matt跟 `斯蒂芬.克拉申` 老爷子在Matt的Youtube频道做过一期访谈节目，是Matt邀请克拉申，在Matt的直播间讨论二语习得经验，从Matt的实践经验来看，他的分享让我受益匪浅。
+Matt跟 `斯蒂芬.克拉申` 老爷子在Matt的Youtube频道做过一期访谈节目，是Matt邀请克拉申讨论怎么学好一门外语，从Matt的实践经验来看，他的分享还是很有参考价值。
 
 
 
