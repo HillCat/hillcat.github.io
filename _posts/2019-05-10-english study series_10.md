@@ -9,7 +9,7 @@ typora-root-url: ../
 
 阅读原版分级读物有声书配合anki制卡和[线词典助手](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb)一般是我常用的方法。有一个简陋的文档可以参考：《[英文原版章节书，PDF.js制卡教程](https://cs-cn.top/assets/doc/英文原版章节书PDFJS制卡教程.docx)》。
 
-为什么要用这种方法来积累单词，主要提升anki制卡的效率。
+为什么要用这种方法来积累单词，主要提升anki制卡的效率，不打断阅读的思路。
 
 ### 有声书积累7000词的操作细节
 
