@@ -7,7 +7,7 @@ keywords: English
 typora-root-url: ../
 ---
 
-阅读原版分级读物有声书配合anki制卡和[线词典助手](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb)一般是我常用的方法。我把这套方法制作成了一个docx文档：《[英文原版章节书，PDF.js制卡教程](https://cs-cn.top/assets/doc/英文原版章节书PDFJS制卡教程.docx)》，对程序员而言很简单。
+阅读原版分级读物有声书配合anki制卡和[线词典助手](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb)一般是我常用的方法。有一个简陋的文档可以参考：《[英文原版章节书，PDF.js制卡教程](https://cs-cn.top/assets/doc/英文原版章节书PDFJS制卡教程.docx)》。
 
 为什么要用这种方法来积累单词，请看《中国人英语自学方法教程》这本书，以及漏屋的那本书《找对英语学习方法的第一本书》。使用anki的好处非常多。最大的好处是把积累单词养成一种生活习惯。如果是其他的单词管理工具，比如墨墨背单词，扇贝，百词斩等等不在考虑范围。具体原因，因为anki是可以定制的，就像配电脑一样，台式机的灵活性肯定比笔记本强很多。可以调整出最适合自己的”姿势“来管理和复习单词。博客里面其他文章已经详细介绍过anki的方方面面。
 
