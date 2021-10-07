@@ -60,7 +60,7 @@ Matt跟 `斯蒂芬.克拉申` 老爷子在Matt的Youtube频道做过一期访谈
 
 ### 罗肖尼
 
-罗肖尼，雅思满分8.5分，B站经验分享：[https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web](https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web)。提升的速度主要还是跟投入的时间量成正比。他的另外一个视频：[https://www.bilibili.com/video/BV1tf4y1s7NN?share_source=copy_web](https://www.bilibili.com/video/BV1tf4y1s7NN?share_source=copy_web)。类似这种高手，是通过大量输入来获得语言能力，从来没有背过单词。
+罗肖尼，雅思满分8.5分，B站经验分享：[https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web](https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web)。提升的速度主要还是跟投入的时间量成正比。他的另外一个视频：[https://www.bilibili.com/video/BV1tf4y1s7NN?share_source=copy_web](https://www.bilibili.com/video/BV1tf4y1s7NN?share_source=copy_web)。类似这种高手，是通过大量输入来获得语言能力，从来没有背过单词。输入量也是巨大的。
 
 <img src="https://cs-cn.top/images/posts/audio_book_0613.gif"/>
 
