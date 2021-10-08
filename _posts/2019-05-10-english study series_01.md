@@ -154,3 +154,66 @@ Matt跟 `斯蒂芬.克拉申` 老爷子在Matt的Youtube频道做过一期访谈
 
 什么时候开口练习口语，这里有个基本的数据作为参考：国外有人推荐是有声书听书超过1年的时候开始介入美剧。也就是在基本听感建立之后，会不自觉的想要开口说英语，有这种冲动的时候，就可以练习影子跟读了。一般这种感觉是泛看了很多美剧之后才会有的，听力输入量很低的时候，不会有这种张口要说英语的冲动，所以徐火辉教授说的，“口语无须刻意去训练，听力足够多的时候自然口语水到渠成”，这句话2年前我怎么也想不通，直到自己最近略微感觉到了脱口而出的冲动才明白。当我听力输入足够多的时候，晚上做梦有时候梦境中都是在开口讲英语，并没有刻意为之。天天花时间泡在这种youtube，Netflix影视英文环境里面，泡久了，嘴巴和舌头会有强烈的英语输出欲望。这种输出的冲动感，不太好用文字表达，总之前期一定要重视听力。听力是无意识脱口而出的前提，是一种条件反射，跟婴儿模仿大人说话的冲动类似，先是大量的听力输入。我们小时候学中文，看了很多动画片，其实已经进行了大量的中文听力输入。听力成了一种习惯之后，开始进行影子跟读模仿顺势而为，口语会水到渠成。[Matt](https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg)也说过这个细节，跟徐火辉讲的类似。
 
+### English Podcast资源
+
+参考链接：https://engfluent.com/english-conversation-audio-free-download/
+
+## English Conversations (Podcasts) for Beginners
+
+If your listening isn’t so good, it’s a good idea to listen to **podcasts for English students** (because they are easy to understand). Below are a few ESL podcasts that I recommend.
+
+[**Culips ESL Podcast**](https://esl.culips.com/)
+
+![img](https://engfluent.com/wp-content/uploads/2016/09/Culips-ESL-Podcast.jpg)
+
+This podcast is hosted by a group of English teachers. What I like about this podcast is that the teachers talk about a variety of topics (not just English learning). So, listening to this podcast is a good way for beginners to learn new vocabulary.
+
+[**Effortless English Podcast (by AJ Hoge)**](http://www.effortlessenglish.libsyn.com/)
+
+![img](https://engfluent.com/wp-content/uploads/2016/09/Effortless-English-Podcast.jpg)
+
+Another podcast to help you [improve your English](https://engfluent.com/how-to-learn-english/). AJ Hoge, the host of this podcast, is a knowledgeable English teacher. His podcast is easy to understand and interesting. I highly recommend it!
+
+[**English across the Pond**](https://www.englishacrossthepond.com/episodes)
+
+![img](https://engfluent.com/wp-content/uploads/2016/09/English-Across-the-Pond.jpg)
+
+This podcast is pretty unique. It’s hosted by Jennifer from the USA and Dan from England. If you listen to this podcast, you’ll get to learn American and British English at the same time. This is a great way to improve your English listening!
+
+[**Luke’s English Podcast**](https://teacherluke.co.uk/archive-of-episodes-1-149/)
+
+![img](https://engfluent.com/wp-content/uploads/2018/12/lukes-english-podcast-1.jpg)
+
+An award-winning audio show for English learners. The show is hosted by Luke, an English teacher from London. One thing beginners might like about this show is that some of the episodes have transcripts!
+
+If you’re a beginner, please listen to the podcasts above as much as possible. Once your listening improves, you’ll be able to understand other types of podcasts (ones that aren’t made for English learners).
+
+## English Conversations (Podcasts) for Intermediates
+
+If your listening is at an intermediate level (or above), it’s easier to find podcasts to listen to. (You are not limited to podcasts for ESL students.)
+
+Below are some interesting podcasts I’ve found. The conversations in these podcasts are real spoken English.
+
+[**The NoSleep Podcast**](https://www.thenosleeppodcast.com/episodes)
+
+![img](https://engfluent.com/wp-content/uploads/2018/12/NoSleep.jpg)
+
+If you like scary stories, this one is for you. The podcast compiles several short, horror stories inside each episode. They are well-crafted, with expert narration, and scary music to enhance the stories.
+
+**[Stuff You Should Know](https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/)**
+
+![img](https://engfluent.com/wp-content/uploads/2016/09/Stuff-You-Should-Know.jpg)
+
+This podcast educates listeners on a wide variety of interesting topics like how the placebo effect works, how natural selection works, how online dating works, and so on. This podcast is for everyone. No matter what your interests are, you’ll likely find some episodes that interest you.
+
+**[The Filmcast](https://www.slashfilm.com/category/features/slashfilmcast/)**
+
+![img](https://engfluent.com/wp-content/uploads/2016/09/Flimcast.jpg)
+
+A podcast for movie lovers. On this podcast, the hosts discuss the latest films, movie reviews, film news, television shows, and entertainment. Many English students love [learning English through movies](https://www.youtube.com/watch?v=uH1aDCjypKg). If you’re one of them, this podcast is for you.
+
+**[The School of Greatness](https://soundcloud.com/lewishowes)**
+
+![img](https://engfluent.com/wp-content/uploads/2018/12/School-of-Greatness.jpg)
+
+Do you love inspiring stories? On this podcast, the host interviews some of the greatest people on the planet: from brilliant business minds, to world-class athletes, to some of the most influential thought leaders out there.
