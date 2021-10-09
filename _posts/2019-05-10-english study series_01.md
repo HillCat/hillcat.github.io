@@ -220,9 +220,7 @@ Do you love inspiring stories? On this podcast, the host interviews some of the 
 
 ### 可以达到什么效果
 
-这个是2年之后我测试的词汇量，大概是9000+的样子。
-
-testyourVocab这个网站测试词汇的时候，实事求是，如果不认识的单词，也点击认识的话(自我欺骗)，你测试出来的数据绝对会低于你自己的真实水平。因为testyourVocab里面本身有很多单词是“假”的单词，如果你贸然点击了那些“假单词”，那么测试出来的成绩会往下掉。如果测试的时候，遇到了单词不确定，就不要点击“认识”，点错了是会扣分的。
+这个是2年之后我测试的词汇量，大概是9000+的样子。勉强的一个成绩吧，按照我自己估算，是应该要破万的。
 
 ![result_after_two_years112.png](/images/posts/result_after_two_years112.png)
 
