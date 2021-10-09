@@ -217,3 +217,16 @@ A podcast for movie lovers. On this podcast, the hosts discuss the latest films,
 ![img](https://engfluent.com/wp-content/uploads/2018/12/School-of-Greatness.jpg)
 
 Do you love inspiring stories? On this podcast, the host interviews some of the greatest people on the planet: from brilliant business minds, to world-class athletes, to some of the most influential thought leaders out there.
+
+### 可以达到什么效果
+
+这个是2年之后的时间测试的词汇量，大概是上9000的样子，[http://testyourvocab.com/result?user=17190662](http://testyourvocab.com/result?user=17190662)
+
+testyourVocab这个网站测试词汇的时候，实事求是，看了不认识的单词绝对不要点击“认识”，如果不认识的单词，也点击认识的话，你的测试出来的数据绝对会低于你真实水平。因为testyourVocab里面本身有很多单词是“假”的单词，如果你点击了那些“陷阱”，那么测试出来的成绩会往下掉。
+
+![result_after_two_years112.png](../images/posts/result_after_two_years112.png)
+
+这个柱状图上面的时间跨度是：880天时间，有8099张卡片。中间停了其实大半年的时间。其实并不是很认真的按照每星期阅读一本有声书的速度严格执行了，期间有很多时候由于996，程序员加班比较多，没有那么多时间搞英语。如果你的职业不是程序员，下班之后有精力和时间，平时也是正常双休，节假日都有时间。如果使用anki加上有声书，美剧，youtube，NetFlix这些作为输入的话，相信2年时间阅读词汇量过万是很轻松的。并且听力这块，看大部分YouTube和电影，生词都不会那么吃力了，专业方面老外录制的课程，完全听英文的没有什么压力。再努力一把，把听力再加强，然后口语练习个半年，应该考个雅思6.5的成绩，问题不大。
+
+![anki_total_vocab_547.png](../images/posts/anki_total_vocab_547.png)
+
