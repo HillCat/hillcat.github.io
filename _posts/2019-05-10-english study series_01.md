@@ -229,3 +229,5 @@ Do you love inspiring stories? On this podcast, the host interviews some of the 
 顺便说一句：听力的提升，有声书还是唯一的捷径，没有之一。
 
 最后，引用[刘克亚](https://wiki.mbalib.com/wiki/%E5%88%98%E5%85%8B%E4%BA%9A)的一句名言(共勉)：英语的沟通能力是未来寻求职业发展，拓展人生视野，张扬独特个性，掌控个人命运的一种必备手段。
+
+![go_out_of_home986.png](/images/posts/go_out_of_home986.png)
