@@ -231,3 +231,7 @@ Do you love inspiring stories? On this podcast, the host interviews some of the 
 最后，引用[刘克亚](https://wiki.mbalib.com/wiki/%E5%88%98%E5%85%8B%E4%BA%9A)的一句名言(共勉)：英语的沟通能力是未来寻求职业发展，拓展人生视野，张扬独特个性，掌控个人命运的一种必备手段。
 
 ![go_out_of_home986.png](/images/posts/go_out_of_home986.png)
+
+#### 得到的好处
+
+在这种9000+的词汇积累之下，随着听感逐渐积累，很多English Conversations之类的节目都可以直接在Youtube上面看了，并且积累单词的维度不仅仅局限于有声书，随时随地积累单词都可以，通过chrome的插件，只要是能够通过浏览器阅读的NetFlix，youtube，技术文档，PDF文档，PDF书籍，都可以提取上下文，有音频的提取音频，有画面的提取画面，统统存入anki中。这种方式的积累，是全访问的，视觉的，听觉的，同时进行的。持续积累之后，我相信，英语要训练口语和写作也会积累起一大串“笔记”，在anki里面整合查找都是比较方便的。
