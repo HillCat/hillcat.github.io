@@ -158,65 +158,15 @@ Matt跟 `斯蒂芬.克拉申` 老爷子在Matt的Youtube频道做过一期访谈
 
 参考链接：https://engfluent.com/english-conversation-audio-free-download/
 
-## English Conversations (Podcasts) for Beginners
-
-If your listening isn’t so good, it’s a good idea to listen to **podcasts for English students** (because they are easy to understand). Below are a few ESL podcasts that I recommend.
-
 [**Culips ESL Podcast**](https://esl.culips.com/)
-
-![img](https://engfluent.com/wp-content/uploads/2016/09/Culips-ESL-Podcast.jpg)
-
-This podcast is hosted by a group of English teachers. What I like about this podcast is that the teachers talk about a variety of topics (not just English learning). So, listening to this podcast is a good way for beginners to learn new vocabulary.
 
 [**Effortless English Podcast (by AJ Hoge)**](http://www.effortlessenglish.libsyn.com/)
 
-![img](https://engfluent.com/wp-content/uploads/2016/09/Effortless-English-Podcast.jpg)
-
-Another podcast to help you [improve your English](https://engfluent.com/how-to-learn-english/). AJ Hoge, the host of this podcast, is a knowledgeable English teacher. His podcast is easy to understand and interesting. I highly recommend it!
-
 [**English across the Pond**](https://www.englishacrossthepond.com/episodes)
-
-![img](https://engfluent.com/wp-content/uploads/2016/09/English-Across-the-Pond.jpg)
-
-This podcast is pretty unique. It’s hosted by Jennifer from the USA and Dan from England. If you listen to this podcast, you’ll get to learn American and British English at the same time. This is a great way to improve your English listening!
 
 [**Luke’s English Podcast**](https://teacherluke.co.uk/archive-of-episodes-1-149/)
 
-![img](https://engfluent.com/wp-content/uploads/2018/12/lukes-english-podcast-1.jpg)
 
-An award-winning audio show for English learners. The show is hosted by Luke, an English teacher from London. One thing beginners might like about this show is that some of the episodes have transcripts!
-
-If you’re a beginner, please listen to the podcasts above as much as possible. Once your listening improves, you’ll be able to understand other types of podcasts (ones that aren’t made for English learners).
-
-## English Conversations (Podcasts) for Intermediates
-
-If your listening is at an intermediate level (or above), it’s easier to find podcasts to listen to. (You are not limited to podcasts for ESL students.)
-
-Below are some interesting podcasts I’ve found. The conversations in these podcasts are real spoken English.
-
-[**The NoSleep Podcast**](https://www.thenosleeppodcast.com/episodes)
-
-![img](https://engfluent.com/wp-content/uploads/2018/12/NoSleep.jpg)
-
-If you like scary stories, this one is for you. The podcast compiles several short, horror stories inside each episode. They are well-crafted, with expert narration, and scary music to enhance the stories.
-
-**[Stuff You Should Know](https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/)**
-
-![img](https://engfluent.com/wp-content/uploads/2016/09/Stuff-You-Should-Know.jpg)
-
-This podcast educates listeners on a wide variety of interesting topics like how the placebo effect works, how natural selection works, how online dating works, and so on. This podcast is for everyone. No matter what your interests are, you’ll likely find some episodes that interest you.
-
-**[The Filmcast](https://www.slashfilm.com/category/features/slashfilmcast/)**
-
-![img](https://engfluent.com/wp-content/uploads/2016/09/Flimcast.jpg)
-
-A podcast for movie lovers. On this podcast, the hosts discuss the latest films, movie reviews, film news, television shows, and entertainment. Many English students love [learning English through movies](https://www.youtube.com/watch?v=uH1aDCjypKg). If you’re one of them, this podcast is for you.
-
-**[The School of Greatness](https://soundcloud.com/lewishowes)**
-
-![img](https://engfluent.com/wp-content/uploads/2018/12/School-of-Greatness.jpg)
-
-Do you love inspiring stories? On this podcast, the host interviews some of the greatest people on the planet: from brilliant business minds, to world-class athletes, to some of the most influential thought leaders out there.
 
 ### 可以达到什么效果
 
