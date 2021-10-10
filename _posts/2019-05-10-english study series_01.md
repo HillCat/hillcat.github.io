@@ -234,4 +234,4 @@ Do you love inspiring stories? On this podcast, the host interviews some of the 
 
 #### 得到的好处
 
-在这种9000+的词汇积累之下，随着听感逐渐积累，很多English Conversations之类的节目都可以直接在Youtube上面看了，并且积累单词的维度不仅仅局限于有声书，还可以是：NetFlix、youtube、技术文档、PDF电子书，音频，画面，上下文 这些统统都可以存入anki中。全方位无死角积累，就是制卡会消耗一些时间，但，这些是一劳永逸的。我相信，英语要训练口语和写作，有了前期大量积累的这些anki“笔记”，在anki里面查找都是比较方便的。不是anki这种DIY工具，用其他工具真的很难想象那是一种怎样的灾难。
+在这种积累情况下，随着听感逐渐积累，英文思维建立，很多[English Conversations](https://youtu.be/JA4G9eTjnlo)之类的节目基本上跟听中文一样，不会有任何中转翻译的过程，听到即直接吸收，直接懂。英文接触的材料扩大到：NetFlix、youtube、技术文档、PDF电子书。其中的音频，画面，上下文 这些统统都可以存入anki中。Anki制卡会消耗一些时间，并且复习也会消耗不少时间。需要特别注意复习anki不能作为“主食”，英文的提升anki起的作用仅仅是让记忆维持在最低限度，而单词的掌握和吸收还是需要日常的immerse,日常的精听泛听才能让anki中那些沉睡的未激活的单词给激活。anki复习单词的时候，每个单词刷的时间一般5~8秒即可，超过10秒，其实没有任何意义。
