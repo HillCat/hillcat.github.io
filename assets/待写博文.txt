@@ -30,5 +30,7 @@
 
 16.yeild方式迭代数据：https://medium.com/@alexandre.malavasi/demystifying-yield-return-in-c-728b7305ab4f
 
+17.kafka 研究：https://www.red-gate.com/simple-talk/development/dotnet-development/using-apache-kafka-with-net/
+
 
 
