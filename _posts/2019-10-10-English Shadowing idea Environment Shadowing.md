@@ -102,3 +102,5 @@ Adobe家族的Audition软件，跟anki一样，也是很强的DIY工具。这个
 ### 参考材料
 
 [https://zhuanlan.zhihu.com/p/35915933](https://zhuanlan.zhihu.com/p/35915933)
+
+[中高级英语学习者突破瓶颈指南](https://zhuanlan.zhihu.com/p/34813090)
