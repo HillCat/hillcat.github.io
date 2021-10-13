@@ -38,11 +38,11 @@ lift这个词，通过anki制卡收集到的场景如下：
 
 2.“This time, I don’t think you can do anything,” she said. “But perhaps it will **lift** Arthur’s spirits  ---  使（精神）振奋
 
-3.“I’ll **lift** the spit,” he said. ---  举起；抬起；提起
+3.“I’ll **lift** the spit,” he said. ---  抬起
 
 4.After some time he sees a car in the distance."Wonderful!" thinks Toad,"I can stop the car and ask for a **lift**. Then I can return to Toad Hall in a car."  ---  搭便车
 
-5.Robin **lifted** the enormous friar with great difficulty. ---  举起；抬起；提起
+5.Robin **lifted** the enormous friar with great difficulty. ---  提起，举起
 
 熟悉完一个单词之后，重复的卡片可以suspend暂停的方式隐藏起来，之后就不会在复习的时候出现。如果要进行归类整理，还是可以很方便找到这些一词多义的”笔记“。
 
