@@ -241,7 +241,7 @@ ENV #构建的时候设置环境变量
 
 因为我本地已经有了mysql5.7的镜像了，所以启动docker的时候使用本地的mysql镜像版本，并且给予初始化mysql root账号密码。
 
-docker run --name mysql01 -e MYSQL_ROOT_PASSWORD=12345678 -d mysql/mysql-server:5.7
+`docker run -p 3306:3306 --name mysql01 -e MYSQL_ROOT_PASSWORD=123456 -d mysql/mysql-server:5.7`
 
 ![localhost_msyql.png](/images/posts/localhost_msyql.png)
 
@@ -266,4 +266,8 @@ FLUSH PRIVILEGES;
 ```
 
 上面的三行代码是分步骤处理，密码改为自己实际的root密码。
+
+**注意**：上面的指令，启动容器的时候一定要指定好端口，-p 3306:3306   前面的端口号为宿主机win10的端口，后面的为ubuntu镜像中mysql的端口。容器启动之后，需要登陆进入mysql中修改远程访问的权限，Navicat就可以访问mysql了。
+
+
 
