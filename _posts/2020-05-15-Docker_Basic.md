@@ -247,3 +247,23 @@ docker run --name mysql01 -e MYSQL_ROOT_PASSWORD=12345678 -d mysql/mysql-server:
 
 官方有非常详细的文档：[https://hub.docker.com/_/mysql](https://hub.docker.com/_/mysql)
 
+进入到ubuntu控制台，进入到运行中的docker ：
+
+ `docker exec -it 7d4d3dc14eaa bash`
+
+进入docker中的Mysql中。
+
+ `mysql -uroot -p`
+
+![remote_mysql_permit.png](/images/posts/remote_mysql_permit.png)
+
+nvicat无法连接mysql，需要授权root远程连接权限：
+
+```sql
+CREATE USER 'root'@'%' IDENTIFIED BY 'yourpassword';    
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%'  WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+```
+
+上面的三行代码是分步骤处理，密码改为自己实际的root密码。
+
