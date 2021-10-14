@@ -237,5 +237,13 @@ ENV #构建的时候设置环境变量
 
 
 
+### 本地安装mysql
 
+因为我本地已经有了mysql5.7的镜像了，所以启动docker的时候使用本地的mysql镜像版本，并且给予初始化mysql root账号密码。
+
+docker run --name mysql01 -e MYSQL_ROOT_PASSWORD=12345678 -d mysql/mysql-server:5.7
+
+![localhost_msyql.png](/images/posts/localhost_msyql.png)
+
+官方有非常详细的文档：[https://hub.docker.com/_/mysql](https://hub.docker.com/_/mysql)
 
