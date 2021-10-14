@@ -184,7 +184,7 @@ Microsoft.EntityFrameworkCore.Design和Microsoft.EntityFrameworkCore.Tools要一
 
 ### 生成Mock Data
 
-默认创建的web application中index.cshtml.cs文件中注入PeopleContext。创建和生成大量的mock data数据对于开发阶段测试非常有帮助，能够帮助提升开发效率。一般采用Bogus比较多，该工具免费版本足够使用，付费版本能够自动生成mock类，开发效率更高。
+默认创建的web application中index.cshtml.cs文件中注入PeopleContext。创建和生成大量的mock data数据对于开发阶段测试非常有帮助，能够帮助提升开发效率。一般采用**Bogus**比较多，该工具免费版本足够使用，付费版本能够自动生成mock类，开发效率更高。
 
 ````c#
  private readonly ILogger<IndexModel> _logger;
@@ -212,7 +212,7 @@ public void ConfigureServices(IServiceCollection services)
 
 #### 1.Bogus生成Mock data
 
-为了测试增删改查，我们需要构造一些假数据供自己测试。这里使用[Bogus](https://github.com/bchavez/Bogus)这个开源项目的Nuget包生成Mock Data。把生成出来的文件序列化为Json放到项目配置文件中，便于开发调试接口。
+为了测试增删改查，我们需要构造一些假数据供自己测试。这里使用[Bogus](https://github.com/bchavez/Bogus)这个开源项目的Nuget包生成Mock Data。把生成出来的文件序列化为Json放到项目配置文件中，便于开发调试接口。Bogus的商业版本[购买地址](https://www.bitarmory.com/bogus)。
 
 ````c#
  Randomizer.Seed = new Random(9353526);
