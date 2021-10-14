@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: EFCore实践
+title: EFCore实践&构造Mock数据
 categories: .net
 description: EntityFrameworkBestPractices
 keywords: .net
