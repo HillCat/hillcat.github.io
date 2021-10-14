@@ -268,6 +268,10 @@ public void ConfigureServices(IServiceCollection services)
 
 <img src="https://cs-cn.top/images/posts/fake_data102.png"/>
 
+私人git仓库demo地址：[https://gitee.com/caianhua/youtube-dot-net-core.git](https://gitee.com/caianhua/youtube-dot-net-core.git)
+
+
+
 ### 监听EFcore
 
 使用sql server Management studio 连接localDb之后监听Efcore执行sql的过程。
