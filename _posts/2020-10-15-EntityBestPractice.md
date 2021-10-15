@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: EFCore实践
+title: EFCore实践&构造Mock数据
 categories: .net
 description: EntityFrameworkBestPractices
 keywords: .net
@@ -184,7 +184,7 @@ Microsoft.EntityFrameworkCore.Design和Microsoft.EntityFrameworkCore.Tools要一
 
 ### 生成Mock Data
 
-默认创建的web application中index.cshtml.cs文件中注入PeopleContext。创建和生成大量的mock data数据对于开发阶段测试非常有帮助，能够帮助提升开发效率。一般采用Bogus比较多，该工具免费版本足够使用，付费版本能够自动生成mock类，开发效率更高。
+默认创建的web application中index.cshtml.cs文件中注入PeopleContext。创建和生成大量的mock data数据对于开发阶段测试非常有帮助，能够帮助提升开发效率。一般采用**Bogus**比较多，该工具免费版本足够使用，付费版本能够自动生成mock类，开发效率更高。更多参考：[Bogus Library for Fake Data In ASP.NET Core WebAPI](https://medium.com/scrum-and-coke/quick-proof-of-concept-asp-net-core-web-api-using-swashbuckle-aspnetcore-and-bogus-19977c84d4a2#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImFkZDhjMGVlNjIzOTU0NGFmNTNmOTM3MTJhNTdiMmUyNmY5NDMzNTIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2MzQyNTEwNzMsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNDI0MTYwMTE4ODMyMDQ1MTMzMyIsImVtYWlsIjoiY2FpYW5odWFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsIm5hbWUiOiLpvpnnjKsiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hxakZISXVzdDc5czB1OGd1YXJpUnZWNjVoOWtNeGJJUGJKbHMyR0E9czk2LWMiLCJnaXZlbl9uYW1lIjoi54yrIiwiZmFtaWx5X25hbWUiOiLpvpkiLCJpYXQiOjE2MzQyNTEzNzMsImV4cCI6MTYzNDI1NDk3MywianRpIjoiOGYxZDM3YzQwMzNhYTlkZmNlOThhNjQzNTM2NmM5Y2ZiNTI3MjQ1OCJ9.ELbUyqoSOwMXbBCf78AJ291Q2em1dhZ34BH4RQnNPNo5q5u8xSALqPuR_wnIsjPyIEvBMBap5UarV1V9O-JMrMLhPn9YGIQk7hW6u_IyjpARN5lp2L9upd8lqnSBpL5W_kCwjbX_UVSMq5uOqxS5J6B9ZtyNxrbLwGICg4Td6xd_r5Xwtfg43MCNSRlDi5Lvn6eHvylJq_oXdNW5tOP4vXL5Vdff0vzXvhTbF8BRr7ZE8R2_qT9VyjusaVPCZxFsA2GIKxDbR8elG47_bZWq1PnQJjKiv5SAePzSCfu8lhfXZCyht7a0h1Ers11FYv18Ds-HNnaS87tKELkaKkZh9g)
 
 ````c#
  private readonly ILogger<IndexModel> _logger;
@@ -212,7 +212,7 @@ public void ConfigureServices(IServiceCollection services)
 
 #### 1.Bogus生成Mock data
 
-为了测试增删改查，我们需要构造一些假数据供自己测试。这里使用[Bogus](https://github.com/bchavez/Bogus)这个开源项目的Nuget包生成Mock Data。把生成出来的文件序列化为Json放到项目配置文件中，便于开发调试接口。
+为了测试增删改查，我们需要构造一些假数据供自己测试。这里使用[Bogus](https://github.com/bchavez/Bogus)这个开源项目的Nuget包生成Mock Data。把生成出来的文件序列化为Json放到项目配置文件中，便于开发调试接口。Bogus的商业版本[购买地址](https://www.bitarmory.com/bogus)。
 
 ````c#
  Randomizer.Seed = new Random(9353526);
@@ -267,6 +267,10 @@ public void ConfigureServices(IServiceCollection services)
 `````
 
 <img src="https://cs-cn.top/images/posts/fake_data102.png"/>
+
+私人git仓库demo地址：[https://gitee.com/caianhua/youtube-dot-net-core.git](https://gitee.com/caianhua/youtube-dot-net-core.git)
+
+
 
 ### 监听EFcore
 
