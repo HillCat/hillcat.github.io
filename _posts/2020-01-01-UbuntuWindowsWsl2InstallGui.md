@@ -9,31 +9,73 @@ typora-root-url: ../
 ---
 本篇是windows10安装wsl2 + windows terminal +ubuntu + docker desktop 环境的一篇合集。每次重装系统之后，需要安装这些环境还是比较繁琐的，容易漏掉一些设置，用此文做个笔记，方便以后参考。
 
-### 安装WSL2
+### 安装WSL2+Docker开发环境
 
-参考微软文档:[安装wsl2](https://docs.microsoft.com/en-us/windows/wsl/install)
+参考文章：[intalling-docker-desktop-for-windows](https://andrewlock.net/installing-docker-desktop-for-windows/)
 
-### 安装windows terminal
+根据步骤，先安装WSL1,开启这个功能：
 
-参考文档：[how to install wsl2 on windows10](https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10)，参考此文档中的"Install WSL 2 (Old Method)"部分内容。
+```shell
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+```
 
-如果是新装的电脑，一般要先开启windows subsystem功能，让子系统功能打开,也可以通过UI界面开启这个功能(这里推荐使用命令行方式开启)，也可以直接执行下面命令开启子系统功能：
+安装成功之后，会看到如下信息：
 
-`dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
+```tex
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.746
 
-成功开启wsl2功能之后，应该是下面这个样子：
+Image Version: 10.0.19042.804
 
-![install_wls2_sucess.png](/images/posts/install_wls2_sucess.png)
+Enabling feature(s)
+[==========================100.0%==========================]
+The operation completed successfully.
+```
 
 
 
-参考文档：[安装windows terminal](https://docs.microsoft.com/en-us/windows/terminal/get-started)
+2.开启虚拟机
+
+```tex
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
+
+
+
+3.重启电脑
+
+
+
+4.安装WSL2更新
+
+Download [the WSL2 Linux kernel update package for x64 machines](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi) and install it.
+
+
+
+5.设置WSL2为默认版本
+
+This is an easy step, just run `wsl --set-default-version 2` in any PowerShell window:
+
+```powershell
+>wsl --set-default-version 2
+For information on key differences with WSL 2 please visit https://aka.ms/wsl2
+```
+
+6.安装Ubuntu20.0.0LTS版本
+
+We actually don't need to install a Linux distribution to use Docker Desktop, but if you want to shell into Linux directly, you'll need to install one. You can install a distribution directly from the [Microsoft Store](https://aka.ms/wslstore).
+
+
+
+7.安装windows terminal
+
+If you're using [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/get-started) (you should be!) you can configure it to open your WSL distribution. The easiest way to do this is to open up the *settings.json* file and reset it. You can do this by deleting the contents of the file—Terminal will automatically repopulate it with the defaults, which will include a tab for WSL.
 
 
 
 ### 给WSL2的Ubunt安装GUI
 
-安装ubuntu的GUI界面是为了方便从windows10往Ubuntu里面拖拽文件。特别是一些体积比较的大的文件，使用UI界面操作可能方便一些。总体而言这个UI体验没有Ubuntu原生的那个UI体验那么好。因为windows10 subsystem中的ubuntu毕竟不是完整版的。用这个UI轻量级界面是为了不时之需。
+没有必要就不要安装GUI，这个仅供参考：
 
 1.执行Sudo apt install xrdp
 
