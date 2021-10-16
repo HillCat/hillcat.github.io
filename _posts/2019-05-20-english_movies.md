@@ -19,7 +19,9 @@ typora-root-url: ../
 
 上面这个视频是Youtube微软官方[VisualStudio频道](https://www.youtube.com/channel/UChqrDOwARrxdJF-ykAptc7w)发布的一个视频，演讲者是.net部门的老大Scott Hanselman，借助单词提示功能还是可以流畅理解的，单词的高亮提示功能免费，这些功能都来至[Language Reactor插件](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)。
 
-备注说明：Language Reactor这个插件以前叫Learning English with Netflix，官方把它改名为**Language Reactor** 。个人认为，听力词汇量6000~8000左右的时候，就可以很自由的驰骋于Youtube和NetFlix了(观看的时候全部使用英文字幕)，某些节目可以完全裸听，听力语感不断增强。
+备注说明：Language Reactor这个插件以前叫Learning English with Netflix，官方在2021年7月，为了统一Language Learning with Youtube 和 Language Learning with NetFlix为一个插件，把它们整合到了一起，并且重新改名为**Language Reactor** ，这个插件是同时支持Youtube和NetFlix的，非常推荐！
+
+个人认为，听力词汇量6000~8000左右的时候，就可以很自由的驰骋于Youtube和NetFlix了(观看的时候全部使用英文字幕)，某些节目可以完全裸听，听力语感不断增强。因为过了8000+之后遇到的生词频率都比较小了，生词的密度大大减少。
 
 很多人对于挑选美剧有选择困难症，纠结于是用手机观看还是ipad观看，有人为了选择播放器都会纠结很久。其实，选择奈飞就不会有这些困扰。一个是奈飞是借助于浏览器观看，可以有Language Reactor这个优秀插件的辅助，第二个原因是奈飞上面的资源很多，质量非常高。第三个原因是奈飞上面的美剧字幕正确率很高，都是人工翻译的，不是百度网盘随便下载的那种野生字幕组能比的。选择奈飞可以避开粗制滥造的盗版剧，优中选优，直接挑选自己感兴趣的去看即可，而且配合Language Reactor插件可以节约很多时间，结合anki和sharex更是强强联合。
 
