@@ -11,11 +11,23 @@ typora-root-url: ../
 
 ### 安装WSL2
 
-
+参考微软文档:[安装wsl2](https://docs.microsoft.com/en-us/windows/wsl/install)
 
 ### 安装windows terminal
 
-参考微软文档：[安装windows terminal](https://docs.microsoft.com/en-us/windows/terminal/get-started)
+参考文档：[how to install wsl2 on windows10](https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10)，参考此文档中的"Install WSL 2 (Old Method)"部分内容。
+
+如果是新装的电脑，一般要先开启windows subsystem功能，让子系统功能打开,也可以通过UI界面开启这个功能(这里推荐使用命令行方式开启)，也可以直接执行下面命令开启子系统功能：
+
+`dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
+
+成功开启wsl2功能之后，应该是下面这个样子：
+
+![install_wls2_sucess.png](/images/posts/install_wls2_sucess.png)
+
+
+
+参考文档：[安装windows terminal](https://docs.microsoft.com/en-us/windows/terminal/get-started)
 
 
 
