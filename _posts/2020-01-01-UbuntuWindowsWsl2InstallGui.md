@@ -7,9 +7,21 @@ description: Linux相关笔记
 keywords: Linux
 typora-root-url: ../
 ---
-windows10 install wsl2之后，安装Ubuntu版本，然后升级Ubuntu。
+本篇是windows10安装wsl2 + windows terminal +ubuntu + docker desktop 环境的一篇合集。每次重装系统之后，需要安装这些环境还是比较繁琐的，容易漏掉一些设置，用此文做个笔记，方便以后参考。
 
-### 1.给WSL2的Ubunt安装GUI
+### 安装WSL2
+
+
+
+### 安装windows terminal
+
+参考微软文档：[安装windows terminal](https://docs.microsoft.com/en-us/windows/terminal/get-started)
+
+
+
+### 给WSL2的Ubunt安装GUI
+
+安装ubuntu的GUI界面是为了方便从windows10往Ubuntu里面拖拽文件。特别是一些体积比较的大的文件，使用UI界面操作可能方便一些。总体而言这个UI体验没有Ubuntu原生的那个UI体验那么好。因为windows10 subsystem中的ubuntu毕竟不是完整版的。用这个UI轻量级界面是为了不时之需。
 
 1.执行Sudo apt install xrdp
 
