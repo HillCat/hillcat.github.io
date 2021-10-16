@@ -320,3 +320,7 @@ Tools菜单栏，Get Tool and Fetures...
 
 
 
+### 9.如何导出vs2019配置
+
+参考这篇：[What's the best way to export all of my visual studio 2019 configuration](https://docs.microsoft.com/en-us/answers/questions/382848/what39s-the-best-way-to-export-all-of-my-visual-st.html) 
+
