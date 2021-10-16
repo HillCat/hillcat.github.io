@@ -270,6 +270,38 @@ public void ConfigureServices(IServiceCollection services)
 
 私人git仓库demo地址：[https://gitee.com/caianhua/youtube-dot-net-core.git](https://gitee.com/caianhua/youtube-dot-net-core.git)
 
+#### 3.Mock data支持中文
+
+默认情况下付费版本的Bogus是不支持中文字符串的，但是付费版本默认是支持韩文。而我们可以根据自己的项目实际需要，让生成的mock数据支持简体中文，Bogus框架是可以在运行代码的时候扩展自己需要的字符串的，比如Bogus官方团队给我的邮件回复，提供的方法是(以下是部分邮件内容正文)：
+
+```tex
+If you want to add your own lorem at runtime, you can try the following
+
+ var myLorem = new Bogus.Bson.BObject
+
+              {
+
+                 {"words", new BArray{"猫", "狗"}}
+
+              };
+
+ var zhCN = Bogus.Database.GetLocale("zh_CN");
+
+ zhCN.Add("lorem", myLorem);
+ var faker = new Faker("zh_CN");
+
+faker.Lorem.Word().Dump();
+
+
+// OUTPUT:
+
+猫
+
+For future, if you have questions, please create a GitHub issue this way these answers can help other people too. If you'd like more code examples of how to "patch" a locale with extra data, you can find those in the following tests:
+
+https://github.com/bchavez/Bogus/blob/b9049abf8b40203c09079741bcb328da95899f81/Source/Bogus.Tests/BsonTests.cs
+```
+
 
 
 ### 监听EFcore

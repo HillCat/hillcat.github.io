@@ -67,9 +67,27 @@ typora编辑器的一些常用快捷键：
 
    
 
-   
+###    7.偏好设置
+
+1.设置为自动保存，以免编写的博客来不及保存出现丢失
+
+![auto_save_23423.png](/images/posts/auto_save_23423.png)
 
    
 
-   
+   2.复制图片到指定目录，并且使用相对路径，如下图所示设置。
+
+![image_settings_2352.png](/images/posts/image_settings_2352.png)
+
+为了让本地图片实时显示出来，可以脱机编写博客，这里yaml格式要添加一行配置:
+
+`typora-root-url: ../`
+
+指明图片的相对路径位置。
+
+
+
+![relative_path_837.png](/images/posts/relative_path_837.png)
+
+
 
