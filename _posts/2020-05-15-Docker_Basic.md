@@ -265,7 +265,19 @@ GRANT ALL PRIVILEGES ON *.* TO 'root'@'%'  WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 ```
 
-上面的三行代码是分步骤处理，密码改为自己实际的root密码。
+如果上面指令无法执行，可以尝试执行下面的指令(root密码改为自己真实密码)：
+
+```tex
+mysql -uroot -p;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'yourpassword' with grant option;
+FLUSH PRIVILEGES;
+```
+
+步骤：首先登陆Mysql,然后分配root的权限，然后刷新权限；
+
+上面的三行代码是分步骤处理，密码改为自己实际的root密码。一般经过上面的处理就可以登陆到docker中的mysql了。
+
+![connet_mysql_success_2726.png](/images/posts/connet_mysql_success_2726.png)
 
 **注意**：上面的指令，启动容器的时候一定要指定好端口，-p 3306:3306   前面的端口号为宿主机win10的端口，后面的为ubuntu镜像中mysql的端口。容器启动之后，需要登陆进入mysql中修改远程访问的权限，Navicat就可以访问mysql了。
 
