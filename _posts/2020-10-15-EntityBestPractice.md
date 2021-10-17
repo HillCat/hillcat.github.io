@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: EFCore实践&构造Mock数据
+title: EFCore实践&构造Mock数据/Mysql安装
 categories: DotNetCore
 description: EntityFrameworkBestPractices
 keywords: .net
