@@ -272,7 +272,7 @@ public void ConfigureServices(IServiceCollection services)
 
 #### 3.Mock data支持中文
 
-默认情况下Bogus是不支持中文字符串的，需要自己扩充，提供json文本，具体的扩展方法，可以查看官方源码。而我们可以根据自己的项目实际需要，限定mock数据的范围，比如：项目中的地级市只能限定在广东省，那么提供的mock数据源我们自己可以提前写在json文本中，Bogus框架生成数据的时候直接从json文本中取；下面是官方提供的一些自定义中文字符的代码：
+默认情况下Bogus是不支持中文字符串的，需要自己扩充，提供json文本，具体的扩展方法，可以查看官方源码。而我们可以根据自己的项目实际需要，限定mock数据的范围，比如：项目中的地级市只能限定在广东省，那么提供的mock数据源我们自己可以提前写在json文本中，Bogus框架生成数据的时候直接从json文本中随机获取，保证了测试数据最大程度接近真实数据；下面是官方提供的一些自定义中文字符的代码：
 
 ```tex
 If you want to add your own lorem at runtime, you can try the following
