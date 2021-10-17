@@ -2,7 +2,7 @@
 
 layout: post
 title: EFCore实践&构造Mock数据
-categories: .net
+categories: DotNetCore
 description: EntityFrameworkBestPractices
 keywords: .net
 typora-root-url: ../

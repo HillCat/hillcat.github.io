@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 泛型
-categories: DotNetBasic
+categories: DotNetCore
 description: .net的泛型
 keywords: .net的泛型
 typora-root-url: ../

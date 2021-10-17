@@ -2,7 +2,7 @@
 
 layout: post
 title: 并发和多线程
-categories: .net
+categories: DotNetCore
 description: .net技术笔记
 keywords: English
 typora-root-url: ../

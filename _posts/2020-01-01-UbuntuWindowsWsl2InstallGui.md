@@ -1,8 +1,8 @@
 ---
 
 layout: post
-title: WindowsWSL2UbuntuInstallGUI
-categories: Linux
+title: 安装WSL2+Docker开发环境
+categories: DotNetCore
 description: Linux相关笔记
 keywords: Linux
 typora-root-url: ../

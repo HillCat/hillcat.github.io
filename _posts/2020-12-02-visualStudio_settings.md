@@ -1,7 +1,7 @@
 ---
 layout: post
 title: VisualStudio操作技巧汇总
-categories: VisualStudio
+categories: DotNetCore
 description: VisualStudio常用技巧
 keywords: trpora
 typora-root-url: ../
