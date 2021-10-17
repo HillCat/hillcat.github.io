@@ -304,7 +304,7 @@ https://github.com/bchavez/Bogus/blob/b9049abf8b40203c09079741bcb328da95899f81/S
 
 #### 4.Bogus Premium
 
-如果是通过捐助开源项目而购买了Bogus的序列授权，则可以安装：Bogus.Tools.Analyzer,Bogus.Location。其中Locations这个是支持gps地图坐标数据；Analyzer是自动辅助实现Bogus填充mock数据的代码。
+如果是有Bogus的授权码，则可以安装：Bogus.Tools.Analyzer,Bogus.Location。其中Locations这个是支持gps地图坐标数据；Analyzer是自动辅助实现Bogus填充mock数据的代码。
 
 ![Bogus_Premium_2837.png](/images/posts/Bogus_Premium_2837.png)
 
