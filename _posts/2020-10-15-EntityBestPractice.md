@@ -212,7 +212,7 @@ public void ConfigureServices(IServiceCollection services)
 
 #### 1.Bogus生成Mock data
 
-为了测试增删改查，我们需要构造一些假数据供自己测试。这里使用[Bogus](https://github.com/bchavez/Bogus)这个开源项目的Nuget包生成Mock Data。把生成出来的文件序列化为Json放到项目配置文件中，便于开发调试接口。Bogus的商业版本[购买地址](https://www.bitarmory.com/bogus)，价格是RMB:66元一年。
+为了测试增删改查，我们需要构造一些假数据供自己测试。这里使用[Bogus](https://github.com/bchavez/Bogus)这个开源项目的Nuget包生成Mock Data。把生成出来的文件序列化为Json放到项目配置文件中，便于开发调试接口。Bogus的商业版本捐助[地址](https://www.bitarmory.com/bogus)，捐助开源可以获得商业版本功能，9.99美元/年，大概折合RMB:66元一年; 
 
 ````c#
  Randomizer.Seed = new Random(9353526);
@@ -302,7 +302,11 @@ For future, if you have questions, please create a GitHub issue this way these a
 https://github.com/bchavez/Bogus/blob/b9049abf8b40203c09079741bcb328da95899f81/Source/Bogus.Tests/BsonTests.cs
 ```
 
+#### 4.Bogus Premium
 
+如果是通过捐助开源项目而购买了Bogus的序列授权，则可以安装：Bogus.Tools.Analyzer,Bogus.Location。其中Locations这个是支持gps地图坐标数据；Analyzer是自动辅助实现Bogus填充mock数据的代码。
+
+![Bogus_Premium_2837.png](/images/posts/Bogus_Premium_2837.png)
 
 ### 监听EFcore
 
