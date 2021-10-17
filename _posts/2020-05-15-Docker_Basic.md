@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Docker的常用指令
+title: Docker的常用指令/Mysql安装
 categories: Docker
 description: Docker使用技巧
 keywords: .net
