@@ -266,7 +266,7 @@ public void ConfigureServices(IServiceCollection services)
         }
 `````
 
-这样子就非常轻松的一下子生成了几万条数据，并且模拟的都是类似真实的数据，大部分的数据都是通过mock数据源随机生成。默认情况下这个Bogus不支持中文，需要我们自己写Json格式的数据源来进行扩充。<img src="https://cs-cn.top/images/posts/fake_data102.png"/>
+这样子就非常轻松的一下子生成了几万条数据，并且模拟的都是类似真实的数据，大部分的数据都是通过mock数据源随机生成。默认情况下这个Bogus不支持中文，需要我们自己写Json格式的数据源来进行扩充，详细的扩充在本贴下文描述。<img src="https://cs-cn.top/images/posts/fake_data102.png"/>
 
 私人git仓库demo地址：[https://gitee.com/caianhua/youtube-dot-net-core.git](https://gitee.com/caianhua/youtube-dot-net-core.git)
 
