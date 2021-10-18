@@ -316,7 +316,13 @@ https://github.com/bchavez/Bogus/blob/b9049abf8b40203c09079741bcb328da95899f81/S
 
 如果是有Bogus的授权码，则可以安装：Bogus.Tools.Analyzer,Bogus.Location。其中Locations这个是支持gps地图坐标数据；Analyzer是自动辅助实现Bogus填充mock数据的代码。
 
+
+
 ![Bogus_Premium_2837.png](/images/posts/Bogus_Premium_2837.png)
+
+#### 5.mock数据源
+
+[https://github.com/wainshine/Chinese-Names-Corpus](https://github.com/wainshine/Chinese-Names-Corpus)
 
 ### 监听EFcore
 
