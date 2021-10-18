@@ -1,7 +1,7 @@
 ---
 layout: post
 title: VisualStudio操作技巧汇总
-categories: VisualStudio
+categories: DotNetCore
 description: VisualStudio常用技巧
 keywords: trpora
 typora-root-url: ../
@@ -260,7 +260,7 @@ Tools菜单栏，Get Tool and Fetures...
 
 <img src="https://cs-cn.top/images/posts/In_Line_Hints11311.png"/>
 
-不过总体感觉vs自带的行内提示还是没有Resharper的那种体验好。节省vs性能的时候可以使用自带的凑合用。自带的提示，Lambda的提示信息不要勾选上，要不然会显示过多的信息，干扰阅读代码。
+不过总体感觉vs自带的行内提示还是没有Resharper的那种体验好。节省vs性能的时候可以使用自带的凑合用。自带的提示，Lambda的提示信息不要勾选上，要不然会显示过多的信息，干扰阅读代码。某些情况下resharp插件会提示你，visual studio2019自带的In line Hint已经被关闭。如果要启用的话，为了防止冲突，开启visual studio的行内提示的情况下在禁用掉resharp的行内提示。
 
 ### 5.VisualStudio的AI提示
 
@@ -309,4 +309,18 @@ Tools菜单栏，Get Tool and Fetures...
 参考：[codenong.com/867741/]()
 
 影响visualStudio加载大型项目速度的是SSD固态硬盘，如果电脑中存在机械硬盘，则对于visualSdutio加载速度的影响是巨大的。而影响编译速度的主要是CPU主频。日常使用中，各种智能提示、智能感知的速度更大程度上取决于更快的CPU。
+
+### 8.快捷键冲突
+
+#### ctrl + shift +F
+
+如果是安装的原版简体中文windows10操作系统，这个visual studio 2019快捷键会会被系统的输入法切换键给占用，占用之后发现visual studio2019的这个功能键失效了。
+
+可以参考这篇帖子：“[简体/繁体中文输入法切换](https://jingyan.baidu.com/article/6b97984d87cee15da2b0bfc0.html)” ，关掉这个简体繁体中文输入法切换功能即可，或者设置为其他的组合键，不要和visual studio 2019发生冲突即可。
+
+
+
+### 9.如何导出vs2019配置
+
+参考这篇：[What's the best way to export all of my visual studio 2019 configuration](https://docs.microsoft.com/en-us/answers/questions/382848/what39s-the-best-way-to-export-all-of-my-visual-st.html) 
 

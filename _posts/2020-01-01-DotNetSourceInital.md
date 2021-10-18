@@ -2,7 +2,7 @@
 
 layout: post
 title: DotNetCore项目初始化
-categories: DotNetBasic
+categories: DotNetCore
 description: .net技术笔记
 keywords: DotNetCore
 typora-root-url: ../

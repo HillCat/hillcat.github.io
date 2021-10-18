@@ -67,9 +67,35 @@ typora编辑器的一些常用快捷键：
 
    
 
-   
+###    7.偏好设置
+
+1.设置为自动保存，以免编写的博客来不及保存出现丢失
+
+![auto_save_23423.png](/images/posts/auto_save_23423.png)
 
    
 
-   
+   2.复制图片到指定目录，并且使用相对路径，如下图所示设置。
+
+![image_settings_2352.png](/images/posts/image_settings_2352.png)
+
+为了让本地图片实时显示出来，可以脱机编写博客，这里yaml格式要添加一行配置:
+
+`typora-root-url: ../`
+
+指明图片的相对路径位置。
+
+
+
+![relative_path_837.png](/images/posts/relative_path_837.png)
+
+
+
+### 8.全角和半角切换
+
+全角和半角 切换，会影响到字母的间距。默认情况下微软拼音输入法是不支持通过快捷键方式来修改“全角/半角"的，修改的办法参考：[win10自带全角/半角输入法怎么切换](https://zhidao.baidu.com/question/1691662342164738068)
+
+设置全角/半角切换快捷键: shift + space 
+
+
 

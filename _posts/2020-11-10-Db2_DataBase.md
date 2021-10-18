@@ -2,7 +2,7 @@
 
 layout: post
 title: Dynamics365开发
-categories: .net
+categories: DotNetCore
 description: Db2数据库的使用
 keywords: .net
 typora-root-url: ../

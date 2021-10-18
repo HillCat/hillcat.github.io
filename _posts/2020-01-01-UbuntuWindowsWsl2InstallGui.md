@@ -1,15 +1,81 @@
 ---
 
 layout: post
-title: WindowsWSL2UbuntuInstallGUI
-categories: Linux
+title: 安装WSL2+Docker开发环境
+categories: DotNetCore
 description: Linux相关笔记
 keywords: Linux
 typora-root-url: ../
 ---
-windows10 install wsl2之后，安装Ubuntu版本，然后升级Ubuntu。
+本篇是windows10安装wsl2 + windows terminal +ubuntu + docker desktop 环境的一篇合集。每次重装系统之后，需要安装这些环境还是比较繁琐的，容易漏掉一些设置，用此文做个笔记，方便以后参考。
 
-### 1.给WSL2的Ubunt安装GUI
+### 安装WSL2+Docker开发环境
+
+参考文章：[intalling-docker-desktop-for-windows](https://andrewlock.net/installing-docker-desktop-for-windows/)
+
+根据步骤，先安装WSL1,开启这个功能：
+
+```shell
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+```
+
+安装成功之后，会看到如下信息：
+
+```tex
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.746
+
+Image Version: 10.0.19042.804
+
+Enabling feature(s)
+[==========================100.0%==========================]
+The operation completed successfully.
+```
+
+
+
+2.开启虚拟机
+
+```tex
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
+
+
+
+3.重启电脑
+
+
+
+4.安装WSL2更新
+
+Download [the WSL2 Linux kernel update package for x64 machines](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi) and install it.
+
+
+
+5.设置WSL2为默认版本
+
+This is an easy step, just run `wsl --set-default-version 2` in any PowerShell window:
+
+```powershell
+>wsl --set-default-version 2
+For information on key differences with WSL 2 please visit https://aka.ms/wsl2
+```
+
+6.安装Ubuntu20.0.0LTS版本
+
+We actually don't need to install a Linux distribution to use Docker Desktop, but if you want to shell into Linux directly, you'll need to install one. You can install a distribution directly from the [Microsoft Store](https://aka.ms/wslstore).
+
+
+
+7.安装windows terminal
+
+If you're using [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/get-started) (you should be!) you can configure it to open your WSL distribution. The easiest way to do this is to open up the *settings.json* file and reset it. You can do this by deleting the contents of the file—Terminal will automatically repopulate it with the defaults, which will include a tab for WSL.
+
+
+
+### 给WSL2的Ubunt安装GUI
+
+没有必要就不要安装GUI，这个仅供参考：
 
 1.执行Sudo apt install xrdp
 

@@ -2,7 +2,7 @@
 
 layout: post
 title: Google工具
-categories: .net
+categories: Blog
 description: Google使用的一些技巧
 keywords: .net
 typora-root-url: ../

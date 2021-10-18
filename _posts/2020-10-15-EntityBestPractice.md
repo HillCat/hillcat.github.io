@@ -1,8 +1,8 @@
 ---
 
 layout: post
-title: EFCore实践&构造Mock数据
-categories: .net
+title: EFCore实践&Bogus构造Mock数据
+categories: DotNetCore
 description: EntityFrameworkBestPractices
 keywords: .net
 typora-root-url: ../
@@ -184,7 +184,7 @@ Microsoft.EntityFrameworkCore.Design和Microsoft.EntityFrameworkCore.Tools要一
 
 ### 生成Mock Data
 
-默认创建的web application中index.cshtml.cs文件中注入PeopleContext。创建和生成大量的mock data数据对于开发阶段测试非常有帮助，能够帮助提升开发效率。一般采用**Bogus**比较多，该工具免费版本足够使用，付费版本能够自动生成mock类，开发效率更高。更多参考：[Bogus Library for Fake Data In ASP.NET Core WebAPI](https://medium.com/scrum-and-coke/quick-proof-of-concept-asp-net-core-web-api-using-swashbuckle-aspnetcore-and-bogus-19977c84d4a2#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImFkZDhjMGVlNjIzOTU0NGFmNTNmOTM3MTJhNTdiMmUyNmY5NDMzNTIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2MzQyNTEwNzMsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNDI0MTYwMTE4ODMyMDQ1MTMzMyIsImVtYWlsIjoiY2FpYW5odWFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsIm5hbWUiOiLpvpnnjKsiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hxakZISXVzdDc5czB1OGd1YXJpUnZWNjVoOWtNeGJJUGJKbHMyR0E9czk2LWMiLCJnaXZlbl9uYW1lIjoi54yrIiwiZmFtaWx5X25hbWUiOiLpvpkiLCJpYXQiOjE2MzQyNTEzNzMsImV4cCI6MTYzNDI1NDk3MywianRpIjoiOGYxZDM3YzQwMzNhYTlkZmNlOThhNjQzNTM2NmM5Y2ZiNTI3MjQ1OCJ9.ELbUyqoSOwMXbBCf78AJ291Q2em1dhZ34BH4RQnNPNo5q5u8xSALqPuR_wnIsjPyIEvBMBap5UarV1V9O-JMrMLhPn9YGIQk7hW6u_IyjpARN5lp2L9upd8lqnSBpL5W_kCwjbX_UVSMq5uOqxS5J6B9ZtyNxrbLwGICg4Td6xd_r5Xwtfg43MCNSRlDi5Lvn6eHvylJq_oXdNW5tOP4vXL5Vdff0vzXvhTbF8BRr7ZE8R2_qT9VyjusaVPCZxFsA2GIKxDbR8elG47_bZWq1PnQJjKiv5SAePzSCfu8lhfXZCyht7a0h1Ers11FYv18Ds-HNnaS87tKELkaKkZh9g)
+默认创建的web application中index.cshtml.cs文件中注入PeopleContext。创建和生成大量的mock data数据对于开发阶段测试非常有帮助，能够帮助提升开发效率，比如某些情况下SQL去重的问题，数据库中如果只有5条测试数据，是很难发现SQL的重复数据问题，如果数据量有5万条，那么很方便的检测我们写的SQL是否有问题，常见的就是SQL忘记去重，导致上到正式环境，用户发现大量的重复数据，开发初期Bogus可以一键生成几万条数据，方便我们测试，并且这些测试数据的规则我们可以自定义，非常灵活。Bogus的免费版足够使用，付费版本开发效率更高。更多参考：[Bogus Library for Fake Data In ASP.NET Core WebAPI](https://medium.com/scrum-and-coke/quick-proof-of-concept-asp-net-core-web-api-using-swashbuckle-aspnetcore-and-bogus-19977c84d4a2#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImFkZDhjMGVlNjIzOTU0NGFmNTNmOTM3MTJhNTdiMmUyNmY5NDMzNTIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2MzQyNTEwNzMsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNDI0MTYwMTE4ODMyMDQ1MTMzMyIsImVtYWlsIjoiY2FpYW5odWFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsIm5hbWUiOiLpvpnnjKsiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hxakZISXVzdDc5czB1OGd1YXJpUnZWNjVoOWtNeGJJUGJKbHMyR0E9czk2LWMiLCJnaXZlbl9uYW1lIjoi54yrIiwiZmFtaWx5X25hbWUiOiLpvpkiLCJpYXQiOjE2MzQyNTEzNzMsImV4cCI6MTYzNDI1NDk3MywianRpIjoiOGYxZDM3YzQwMzNhYTlkZmNlOThhNjQzNTM2NmM5Y2ZiNTI3MjQ1OCJ9.ELbUyqoSOwMXbBCf78AJ291Q2em1dhZ34BH4RQnNPNo5q5u8xSALqPuR_wnIsjPyIEvBMBap5UarV1V9O-JMrMLhPn9YGIQk7hW6u_IyjpARN5lp2L9upd8lqnSBpL5W_kCwjbX_UVSMq5uOqxS5J6B9ZtyNxrbLwGICg4Td6xd_r5Xwtfg43MCNSRlDi5Lvn6eHvylJq_oXdNW5tOP4vXL5Vdff0vzXvhTbF8BRr7ZE8R2_qT9VyjusaVPCZxFsA2GIKxDbR8elG47_bZWq1PnQJjKiv5SAePzSCfu8lhfXZCyht7a0h1Ers11FYv18Ds-HNnaS87tKELkaKkZh9g)
 
 ````c#
  private readonly ILogger<IndexModel> _logger;
@@ -212,7 +212,7 @@ public void ConfigureServices(IServiceCollection services)
 
 #### 1.Bogus生成Mock data
 
-为了测试增删改查，我们需要构造一些假数据供自己测试。这里使用[Bogus](https://github.com/bchavez/Bogus)这个开源项目的Nuget包生成Mock Data。把生成出来的文件序列化为Json放到项目配置文件中，便于开发调试接口。Bogus的商业版本[购买地址](https://www.bitarmory.com/bogus)。
+为了测试增删改查，我们需要构造一些假数据供自己测试。这里使用[Bogus](https://github.com/bchavez/Bogus)这个开源项目的Nuget包生成Mock Data。把生成出来的文件序列化为Json放到项目配置文件中，便于开发调试接口。Bogus的商业版本捐助[地址](https://www.bitarmory.com/bogus)，捐助开源可以获得商业版本功能，9.99美元/年，大概折合RMB:66元一年; 
 
 ````c#
  Randomizer.Seed = new Random(9353526);
@@ -266,11 +266,47 @@ public void ConfigureServices(IServiceCollection services)
         }
 `````
 
-<img src="https://cs-cn.top/images/posts/fake_data102.png"/>
+这样子就非常轻松的一下子生成了几万条数据，并且模拟的都是类似真实的数据，大部分的数据都是通过mock数据源随机生成。默认情况下这个Bogus不支持中文，需要我们自己写Json格式的数据源来进行扩充，详细的扩充在本贴下文描述。<img src="https://cs-cn.top/images/posts/fake_data102.png"/>
 
 私人git仓库demo地址：[https://gitee.com/caianhua/youtube-dot-net-core.git](https://gitee.com/caianhua/youtube-dot-net-core.git)
 
+#### 3.Mock data支持中文
 
+默认情况下Bogus是不支持中文字符串的，需要自己扩充，提供json文本，具体的扩展方法下面是官方提供的demo：
+
+```tex
+If you want to add your own lorem at runtime, you can try the following
+
+ var myLorem = new Bogus.Bson.BObject
+
+              {
+
+                 {"words", new BArray{"猫", "狗"}}
+
+              };
+
+ var zhCN = Bogus.Database.GetLocale("zh_CN");
+
+ zhCN.Add("lorem", myLorem);
+ var faker = new Faker("zh_CN");
+
+faker.Lorem.Word().Dump();
+
+
+// OUTPUT:
+
+猫
+
+For future, if you have questions, please create a GitHub issue this way these answers can help other people too. If you'd like more code examples of how to "patch" a locale with extra data, you can find those in the following tests:
+
+https://github.com/bchavez/Bogus/blob/b9049abf8b40203c09079741bcb328da95899f81/Source/Bogus.Tests/BsonTests.cs
+```
+
+#### 4.Bogus Premium
+
+如果是有Bogus的授权码，则可以安装：Bogus.Tools.Analyzer,Bogus.Location。其中Locations这个是支持gps地图坐标数据；Analyzer是自动辅助实现Bogus填充mock数据的代码。
+
+![Bogus_Premium_2837.png](/images/posts/Bogus_Premium_2837.png)
 
 ### 监听EFcore
 

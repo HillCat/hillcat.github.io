@@ -2,7 +2,7 @@
 
 layout: post
 title: IEnumerable和Enumerator
-categories: DotNetBasic
+categories: DotNetCore
 description: .net技术笔记
 keywords: DotNetCore
 typora-root-url: ../

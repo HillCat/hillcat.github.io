@@ -2,7 +2,7 @@
 
 layout: post
 title: Delegate解耦代码逻辑
-categories: .net
+categories: DotNetCore
 description: 使用委托来解耦代码
 keywords: dotnet
 typora-root-url: ../
