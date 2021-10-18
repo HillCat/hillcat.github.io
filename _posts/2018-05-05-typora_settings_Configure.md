@@ -97,5 +97,7 @@ typora编辑器的一些常用快捷键：
 
 设置全角/半角切换快捷键: shift + space 
 
+![shortcut_23424.png](/images/posts/shortcut_23424.png)
+
 
 

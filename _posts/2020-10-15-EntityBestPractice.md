@@ -180,7 +180,17 @@ Microsoft.EntityFrameworkCore.Design和Microsoft.EntityFrameworkCore.Tools要一
 
 <img src="https://cs-cn.top/images/posts/EntityFramework31259.png"/>
 
+#### Add-Migration InitalCreate
 
+在进行Add-Migration InitialCreate的时候，会出现如下错误，需要把Web项目设置为首项目；容易忽略这一点。会导致出现如下错误。
+
+![image-20211018112641198](/../../../AppData/Roaming/Typora/typora-user-images/image-20211018112641198.png)
+
+#### Mysql数据库驱动和微软的EF版本兼容问题
+
+报错信息中提示Mysql的版本太低了，对微软提供的版本进行降级处理。
+
+![version_23424.png](/images/posts/version_23424.png)
 
 ### 生成Mock Data
 
