@@ -7,7 +7,7 @@ keywords: English
 typora-root-url: ../
 ---
 
-上班族要积累英文阅读能力，最高效的办法还是通过“透析法”(——来至于《把你的英语用起来》一书)，通过阅读一些精心编排准备的有声书来积累2500~7000这个阶段的词汇比较快。因为成年人白天要忙工作，下班回家可能还要忙着家里的事情，一天的时间非常有限。从我自身的实践来看，我实践过美剧，大部头小说，有声书桥梁书，从各种材料的效率来说，最终我还是觉得阅读原版分级读物有声书配合anki制卡和[线词典助手](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb)是我觉得最高效的方法，特别是成年人要忙工作事业，精力特别有限，但是急需提升英文的情况下非常适合有声桥梁书。有一个简陋的文档可以参考：《[英文原版章节书，PDF.js制卡教程](https://cs-cn.top/assets/doc/英文原版章节书PDFJS制卡教程.docx)》。
+上班族要积累英文阅读能力，最高效的办法还是通过“透析法”(——来至于《把你的英语用起来》一书)，通过阅读一些精心编排准备的有声书来积累2500~7000这个阶段的词汇比较快。因为成年人白天要忙工作，下班回家可能还要忙着家里的事情，一天的时间非常有限。从我自身的实践来看，我实践过美剧，大部头小说，有声书桥梁书，从各种材料的效率来说，最终我还是觉得阅读原版分级读物有声书配合anki制卡和[线词典助手](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb)是我觉得最高效的方法，特别是成年人要忙工作事业，精力特别有限，但是急需提升英文的情况下非常适合有声桥梁书。我把我的经验全部写在这个简陋的文档里面了，供有需要的人参考(直接点击下载)：《[英文原版章节书，PDF.js制卡教程](https://cs-cn.top/assets/doc/英文原版章节书PDFJS制卡教程.docx)》。
 
 ![online_dictionary_help_2827.png](/images/posts/online_dictionary_help_2827.png)
 
