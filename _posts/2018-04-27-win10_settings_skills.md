@@ -1,7 +1,7 @@
 ---
 layout: post
 title: win10设置
-categories: Blog
+categories: 工具
 description: 关于操作系统win10的一些设置
 keywords: 博客简介
 typora-root-url: ../
