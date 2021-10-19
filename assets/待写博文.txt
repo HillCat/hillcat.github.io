@@ -33,5 +33,6 @@
 
 17.kafka 研究：https://www.red-gate.com/simple-talk/development/dotnet-development/using-apache-kafka-with-net/
 
-18.Vue前端跨区请求后台，后台ABP解决跨域问题。 
+18.微服务中，前端vue跨域是如何解决的，这么多服务的调用url，要做到跨域。
+
 
