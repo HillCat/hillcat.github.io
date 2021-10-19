@@ -115,7 +115,7 @@ CPU + 主板 =2618； 散热：799；内存：509；固态：899；电源：699�
 
 
 
-### 配置4
+### 配置4_RMB3599
 
 CPU：十代酷睿I7 10700 
 
@@ -138,6 +138,12 @@ CPU：十代酷睿I7 10700
 参考地址：[https://www.bilibili.com/video/BV1bo4y1d7TT?share_source=copy_web](https://www.bilibili.com/video/BV1bo4y1d7TT?share_source=copy_web)
 
 以上主板，主要是保证CPU不掉频。
+
+### 配置5_RMB4000
+
+![image-20211020063100738](/images/posts/image-20211020063100738.png)
+
+这个配置方案是4000左右的生产力主机。个人觉得适合作为程序开发主力工具。参考地址：[核显4000RMB台式机方案](https://youtu.be/ikF_C-UMLuU)
 
 ### AMD方案
 
