@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何通过英文原版书积累7000+单词(9)
+title: 如何通过PDF.js工具+英文原版书积累7000+单词(9)
 categories: English
 description: 英文自学
 keywords: English
