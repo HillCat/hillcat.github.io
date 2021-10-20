@@ -89,6 +89,8 @@ ABP_Vnext微服务架构，参考文档：[ABP Framework微服务文档](https:/
 
 ### 常见问题
 
+
+
 ![fabucuowu_873628.png](/images/posts/fabucuowu_873628.png)
 
 如果是发布DotNetCore程序到本地win10机器的C盘，会出现Access Denied 。需要配置文件夹访问权限。需要设置inetpub下面www文件夹的Everyone访问权限。参考资料 [设置c盘inetpub_wwwroot目录权限](https://youtu.be/A_0SqnOPSng)
