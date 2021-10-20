@@ -59,7 +59,7 @@ ABP_Vnext微服务架构，参考文档：[ABP Framework微服务文档](https:/
 
 
 
-2.尽量把项目属性中的debug环境设置为Production，这是发布到IIS之前需要做的事情。
+2.把项目属性中的debug环境设置为Production，这是发布到IIS之前需要做的事情。
 
 ![production_enviroment_18172.png](/images/posts/production_enviroment_18172.png)
 
@@ -67,7 +67,7 @@ ABP_Vnext微服务架构，参考文档：[ABP Framework微服务文档](https:/
 
 ![publish_to_some_filepath_28271.png](/images/posts/publish_to_some_filepath_28271.png)
 
-4.这里设置Portable是为了让Dotnetcore程序可以运行在任何类型的操作系统环境中，是跨平台的。
+4.这里设置Portable是为了让Dotnetcore程序可以运行在任何类型的操作系统环境中，是跨平台的，默认就是这么设置的。
 
 ![deployment_settings_2827.png](/images/posts/deployment_settings_2827.png)
 
@@ -77,7 +77,11 @@ ABP_Vnext微服务架构，参考文档：[ABP Framework微服务文档](https:/
 
 
 
-6.[Host ASP.NET Core on Windows with IIS](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-5.0)
+6.最后需要安装DotNetCore的Host模块。
+
+参考微软官方文档：[Host ASP.NET Core on Windows with IIS](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-5.0)，直接下载最新版本的Hosting Bundle。
+
+![host_bundle_837.png](/images/posts/host_bundle_837.png)
 
 参考上面这个链接提供的信息，安装IIS的DotNet Host模块。安装完成之后，发布到IIS目录下面的项目就可以访问了。
 
