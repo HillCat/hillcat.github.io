@@ -59,7 +59,7 @@ ABP_Vnext微服务架构，参考文档：[ABP Framework微服务文档](https:/
 
 
 
-2.把项目属性中的debug环境设置为Production，这是发布到IIS之前需要做的事情。
+2.把项目属性中的debug环境设置Development改为Production，这是发布到IIS之前需要做的事情。
 
 ![production_enviroment_18172.png](/images/posts/production_enviroment_18172.png)
 
@@ -86,4 +86,20 @@ ABP_Vnext微服务架构，参考文档：[ABP Framework微服务文档](https:/
 参考上面这个链接提供的信息，安装IIS的DotNet Host模块。安装完成之后，发布到IIS目录下面的项目就可以访问了。
 
 ![iis_open_dotnetcore_2348.png](/images/posts/iis_open_dotnetcore_2348.png)
+
+### 常见问题
+
+![fabucuowu_873628.png](/images/posts/fabucuowu_873628.png)
+
+如果是发布DotNetCore程序到本地win10机器的C盘，会出现Access Denied 。需要配置文件夹访问权限。需要设置inetpub下面www文件夹的Everyone访问权限。参考资料 [设置c盘inetpub_wwwroot目录权限](https://youtu.be/A_0SqnOPSng)
+
+![image-20211021063130600](/images/posts/image-20211021063130600.png)
+
+![image-20211021063215111](/images/posts/image-20211021063215111.png)
+
+
+
+![image-20211021063249095](/images/posts/image-20211021063249095.png)
+
+给予全部访问权限即可，设置完成之后，发布到C盘inetpub/wwwroot目录下面的所有.net core程序访问权限就具备了。
 
