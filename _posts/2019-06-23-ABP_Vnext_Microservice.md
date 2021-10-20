@@ -89,7 +89,7 @@ ABP_Vnext微服务架构，参考文档：[ABP Framework微服务文档](https:/
 
 ### 常见问题
 
-
+IIS部署完微服务之后，访问本地微服务端口会报错，查看EventViewer能够发现更具体的报错信息，是因为我们把程序发布到C盘，系统盘没有访问权限导致的。
 
 ![fabucuowu_873628.png](/images/posts/fabucuowu_873628.png)
 
