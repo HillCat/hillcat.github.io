@@ -42,3 +42,44 @@ ABP_Vnext微服务架构，参考文档：[ABP Framework微服务文档](https:/
 09 MonitoringService ：8084  桥梁监听服务
 
 10 LogService ： 8085  通用日志服务
+
+### IIS调试部署
+
+参考：[win10 IIS 托管DotNetCore](https://youtu.be/Q_A_t7KS5Ss)
+
+给windows添加IIS的时候，全部勾选上必要的选项；
+
+然后win + R ，输入inetmgr 打开IIS管理面板。
+
+![win10_install_iis_2717.png](/images/posts/win10_install_iis_2717.png)
+
+1.首先是在IIS中建立好一个Server，比如：Mywebsite,路径设置为C盘中的C:\inetpub\wwwroot\Mywebsite.然后把默认的APP池设置为No Managed Code。
+
+![defualt_pooling_2827.png](/images/posts/defualt_pooling_2827.png)
+
+
+
+2.尽量把项目属性中的debug环境设置为Production，这是发布到IIS之前需要做的事情。
+
+![production_enviroment_18172.png](/images/posts/production_enviroment_18172.png)
+
+3.然后是发布到本地电脑的某个文件夹中：
+
+![publish_to_some_filepath_28271.png](/images/posts/publish_to_some_filepath_28271.png)
+
+4.这里设置Portable是为了让Dotnetcore程序可以运行在任何类型的操作系统环境中，是跨平台的。
+
+![deployment_settings_2827.png](/images/posts/deployment_settings_2827.png)
+
+5.如果是发布程序到C盘，那么请用administrator打开visual studio 2019并执行发布操作。
+
+![publish_visual_studio2019_18173.png](/images/posts/publish_visual_studio2019_18173.png)
+
+
+
+6.[Host ASP.NET Core on Windows with IIS](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-5.0)
+
+参考上面这个链接提供的信息，安装IIS的DotNet Host模块。安装完成之后，发布到IIS目录下面的项目就可以访问了。
+
+![iis_open_dotnetcore_2348.png](/images/posts/iis_open_dotnetcore_2348.png)
+
