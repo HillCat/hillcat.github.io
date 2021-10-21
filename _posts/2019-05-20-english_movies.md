@@ -29,30 +29,4 @@ typora-root-url: ../
 
 其实单词量突破8000+之后明显感觉到看剧提升词汇速度变慢了，特别是家庭剧，生词本来就少，剧集也短，才22分钟一集，搜刮不了几个生词，长一些的剧一集会有45分钟，稍微比生活剧多一点生词，但也不是最佳提升生词量的方法。这个时候，漏屋那本书《词霸天下》描述的隐忧开始凸显，也是关于**词汇量增长缓慢的问题**，它给出的解决方案是：当词汇量超过5000+的时候，要用背单词书的方式来快速提升5000+以上的单词，直到词汇量达到1.7万，比如背诵《雅思词汇真经》这种单词书，或者GRE单词书。相比于看剧积累单词，看原版书积累单词的速度要高得多，原版书可以考虑：外刊、专业书、小说。而如果说6000~20000的单词是最难积累的，因为大部分都是近义词，那么，阅读《经济学人》这种外刊来积累单词可能是比较理想的选择，因为《经济学人》里面的用词非常讲究精准，很多的近义词都可以在真实环境中学习到。
 
-下面是看过的一些剧的截图：
-
-《Alexa & Katie》：
-
-<img src="https://cs-cn.top/images/posts/kitty555.png"/>
-
-《Kim's Convenience》： 
-
-<img src="https://cs-cn.top/images/posts/mr_king119.png"/>
-
-《The Kominsky Method》：
-
-<img src="https://cs-cn.top/images/posts/king_siki1322.png"/>
-
-其他剧的介绍就略过了，总之在NetFlix上面找一些值得学习的剧还是非常简单的。
-
-<img src="https://cs-cn.top/images/posts/trash_track1448.png"/>
-
-<img src="https://cs-cn.top/images/posts/netflix_soap457.png"/>
-
-<img src="https://cs-cn.top/images/posts/GreenHouse_Academy12731.png"/>
-
-
-
-<img src="https://cs-cn.top/images/posts/kidsTV502.png"/>
-
 最后说下美剧的周边配套工具：[配置ShareX](https://cs-cn.top/2019/07/10/anki_pdf_js_study/#sharex%E9%85%8D%E7%BD%AE); chrome浏览器安装[Learn English with netflix](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)，[截图插件](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj)；

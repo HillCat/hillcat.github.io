@@ -18,3 +18,9 @@ typora-root-url: ../
 
 ![anjian_settings_123423.png](/images/posts/anjian_settings_123423.png)
 
+### 输入法切换ctrl+shift
+
+![shortcut_settings_124827.png](/images/posts/shortcut_settings_124827.png)
+
+![language_bar_options_23837.png](/images/posts/language_bar_options_23837.png)
+
