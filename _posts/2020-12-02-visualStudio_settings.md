@@ -310,7 +310,7 @@ Tools菜单栏，Get Tool and Fetures...
 
 影响visualStudio加载大型项目速度的是SSD固态硬盘，如果电脑中存在机械硬盘，则对于visualSdutio加载速度的影响是巨大的。而影响编译速度的主要是CPU主频。日常使用中，各种智能提示、智能感知的速度更大程度上取决于更快的CPU。
 
-### 8.快捷键冲突
+### 8.快捷键
 
 #### ctrl + shift +F
 
@@ -318,7 +318,13 @@ Tools菜单栏，Get Tool and Fetures...
 
 可以参考这篇帖子：“[简体/繁体中文输入法切换](https://jingyan.baidu.com/article/6b97984d87cee15da2b0bfc0.html)” ，关掉这个简体繁体中文输入法切换功能即可，或者设置为其他的组合键，不要和visual studio 2019发生冲突即可。
 
+#### Alt +F7 
 
+这个快捷键也是比较有用的，如图：
+
+![XKfP3AaZGK](/images/posts/XKfP3AaZGK.png)
+
+在visual studio 2019打开的文件特别多的时候，在tab栏去切换已经打开的文件或者窗口非常蛋疼，用这个快捷键直接显示出所有Active状态的文件和窗口，非常方便。
 
 ### 9.如何导出vs2019配置
 
