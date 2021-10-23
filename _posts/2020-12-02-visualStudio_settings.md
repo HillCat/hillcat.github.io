@@ -326,6 +326,16 @@ Tools菜单栏，Get Tool and Fetures...
 
 在visual studio 2019打开的文件特别多的时候，在tab栏去切换已经打开的文件或者窗口非常蛋疼，用这个快捷键直接显示出所有Active状态的文件和窗口，非常方便。参考这篇:[How to: Move around in the Visual Studio IDE](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-move-around-in-the-visual-studio-ide?view=vs-2019)
 
+#### shift + F12
+
+查找所有的引用。
+
+#### ctrl + F12
+
+跳转到具体的实现。
+
+
+
 ### 9.如何导出vs2019配置
 
 参考这篇：[What's the best way to export all of my visual studio 2019 configuration](https://docs.microsoft.com/en-us/answers/questions/382848/what39s-the-best-way-to-export-all-of-my-visual-st.html) 
