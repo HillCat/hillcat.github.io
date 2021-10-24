@@ -11,7 +11,7 @@ LinqPad调试ABP Unit Of Work中的Repository。对于调试Linq语句，跟踪S
 
 ### 背景
 
-在使用ABP做项目的时候，由于ABP内部CURD大量采用[UOW模式(UnitOfWork)](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application)，仓储的互操作使用Linq虽然加快了开发速度，由于是更加上层的抽象封装，使得我们很难看到底层SQL细节，导致某些性能问题不方便跟踪调试。这个时候如果采用LinqPad来调试，会提高我们的开发和调试效率。Linq可以转换为SQL和lambda，方便我们跟踪代码。
+在使用ABP做项目的时候，由于ABP内部CURD大量采用[UOW模式(UnitOfWork)](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application)，仓储的互操作使用Linq虽然加快了开发速度，Linq更加抽象，复杂的Linq使得我们很难看到底层SQL细节，导致产生BUG。这个时候如果采用LinqPad来调试，会提高我们的开发和调试效率。Linq可转为SQL和lambda，提升我们对于Linq细节的把控，写出高效且正确的代码。
 
 ![vynmFXyxBg](/images/posts/vynmFXyxBg.png)
 
