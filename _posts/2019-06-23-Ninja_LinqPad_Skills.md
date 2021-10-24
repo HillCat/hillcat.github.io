@@ -7,15 +7,21 @@ keywords: ABP_Vnext笔记
 typora-root-url: ../
 ---
 
-LinqPad调试DotNetCore ABP代码技巧汇总。在使用ABP做项目的时候，由于ABP内部CURD大量采用[UOW模式(UnitOfWork)](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application)，仓储的互操作使用Linq虽然加快了开发速度，由于是更加上层的抽象封装，使得我们很难看到底层SQL细节，导致某些性能问题不方便跟踪调试。这个时候如果采用LinqPad来调试，会提高我们的开发和调试效率。Linq可以转换为SQL和lambda，方便我们跟踪代码。
+LinqPad调试ABP Unit Of Work中的Repository。对于调试Linq语句，跟踪SQL，避免产生BUG具有重要意义。而且LinqPad这个工具非常强大方便，更多的内容会继续整理到本帖中。
+
+### 背景
+
+在使用ABP做项目的时候，由于ABP内部CURD大量采用[UOW模式(UnitOfWork)](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application)，仓储的互操作使用Linq虽然加快了开发速度，由于是更加上层的抽象封装，使得我们很难看到底层SQL细节，导致某些性能问题不方便跟踪调试。这个时候如果采用LinqPad来调试，会提高我们的开发和调试效率。Linq可以转换为SQL和lambda，方便我们跟踪代码。
 
 ![vynmFXyxBg](/images/posts/vynmFXyxBg.png)
 
-### LinqPad +Abp
+### 解决方案
+
+#### LinqPad +Abp
 
 ABP项目中引入LinqPad结合ABP_Vnext的仓储对象Repository可以明显提升Linq的调试和开发效率。使用LinqPad调试ABP仓储，需要引入项目所在Entity dll文件。商业版LinqPad对Linq语法会有智能提示功能，并且支持引入EFcore DbContext上下文对象直接在LinqPad中调试代码。Linq生成lambda和原生sql，以便分析我们写的linq是否正确。甚至
 
-#### 引入DbContext：
+#### 引入EFCore中的DbContext
 
 ![3XpyODva97](/images/posts/3XpyODva97.png)
 
@@ -27,11 +33,11 @@ ABP项目中引入LinqPad结合ABP_Vnext的仓储对象Repository可以明显提
 
 ![PsntgnmBkH](/images/posts/PsntgnmBkH.png)
 
-点击Test，就会发现这个assemblies被引入了就可以使用了。
+点击Test，就会发现这个assemblies被引入了就可以使用了。引入了项目中的EntityFrameWorkCore项目之后，LinqPad会自动检测dll中的DbContext对象，并且自动检测数据库配置连接是否有效。引入之后，就可以在Linq的调试过程中直接引入项目dll中的DbContext上下文对象了，可以进行一些高级调试。
 
-#### Mysql驱动
+#### 调试Mysql
 
-默认情况下LinqPad是没有附带Mysql驱动的，需要自己安装相关驱动，方便链接Mysql之后进行Linq调试。
+默认情况下LinqPad是没有附带Mysql驱动的，需要自己安装相关驱动，Linq代码最终生成的SQL，会是Mysql语法的，方便我们写出正确的Linq代码，避免BUG。
 
 ![jznHivgrio](/images/posts/jznHivgrio.png)
 
