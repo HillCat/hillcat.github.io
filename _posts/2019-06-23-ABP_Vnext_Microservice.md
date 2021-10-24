@@ -105,3 +105,23 @@ IIS部署完微服务之后，访问本地微服务端口会报错，查看Event
 
 给予全部访问权限即可，设置完成之后，发布到C盘inetpub/wwwroot目录下面的所有.net core程序访问权限就具备了。
 
+
+
+### LinqPad +Abp
+
+ABP项目中引入LinqPad结合ABP_Vnext的仓储对象Repository可以明显提升Linq的调试和开发效率。使用LinqPad调试ABP仓储，需要引入项目所在Entity dll文件。对于调试Linq生成的sql语句以及LinqPad提供的智能提示功能，可以帮助在开发阶段就发现一些SQL和LINQ错误。
+
+#### 引入DbContext：
+
+![3XpyODva97](/images/posts/3XpyODva97.png)
+
+
+
+![89WoZCudPX](/images/posts/89WoZCudPX.png)
+
+引入*Service.EntityFrameworkCore.dll这个dll的时候,LinqPad会自动识别项目上下文DbContext，并且读取到项目中配置好的数据库ConnectString。
+
+![PsntgnmBkH](/images/posts/PsntgnmBkH.png)
+
+点击Test，就会发现这个assemblies被引入了就可以使用了。
+
