@@ -1,0 +1,41 @@
+---
+layout: post
+title: Ninja_LinqPad_Skills
+categories: DotNetCore
+description: 
+keywords: ABP_Vnext笔记
+typora-root-url: ../
+---
+
+LinqPad调试DotNetCore ABP代码技巧汇总。在使用ABP做项目的时候，由于ABP内部CURD大量采用[UOW模式(UnitOfWork)](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application)，仓储的互操作使用Linq虽然加快了开发速度，由于是更加上层的抽象封装，使得我们很难看到底层SQL细节，导致某些性能问题不方便跟踪调试。这个时候如果采用LinqPad来调试，会提高我们的开发和调试效率。Linq可以转换为SQL和lambda，方便我们跟踪代码。
+
+![vynmFXyxBg](/images/posts/vynmFXyxBg.png)
+
+### LinqPad +Abp
+
+ABP项目中引入LinqPad结合ABP_Vnext的仓储对象Repository可以明显提升Linq的调试和开发效率。使用LinqPad调试ABP仓储，需要引入项目所在Entity dll文件。商业版LinqPad对Linq语法会有智能提示功能，并且支持引入EFcore DbContext上下文对象直接在LinqPad中调试代码。Linq生成lambda和原生sql，以便分析我们写的linq是否正确。甚至
+
+#### 引入DbContext：
+
+![3XpyODva97](/images/posts/3XpyODva97.png)
+
+
+
+![89WoZCudPX](/images/posts/89WoZCudPX.png)
+
+引入*Service.EntityFrameworkCore.dll这个dll的时候,LinqPad会自动识别项目上下文DbContext，并且读取到项目中配置好的数据库ConnectString。
+
+![PsntgnmBkH](/images/posts/PsntgnmBkH.png)
+
+点击Test，就会发现这个assemblies被引入了就可以使用了。
+
+#### Mysql驱动
+
+默认情况下LinqPad是没有附带Mysql驱动的，需要自己安装相关驱动，方便链接Mysql之后进行Linq调试。
+
+![jznHivgrio](/images/posts/jznHivgrio.png)
+
+点击Add connection，Choose Data Context界面，View more drivers...   如下，选择LINQ to DB driver for LINQPad 6，安装即可支持各种数据库。
+
+![segbnozRrG](/images/posts/segbnozRrG.png)
+
