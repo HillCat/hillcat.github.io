@@ -125,3 +125,13 @@ ABP项目中引入LinqPad结合ABP_Vnext的仓储对象Repository可以明显提
 
 点击Test，就会发现这个assemblies被引入了就可以使用了。
 
+#### Mysql驱动
+
+默认情况下LinqPad是没有附带Mysql驱动的，需要自己安装相关驱动，方便链接Mysql之后进行Linq调试。
+
+![jznHivgrio](/images/posts/jznHivgrio.png)
+
+点击Add connection，Choose Data Context界面，View more drivers...   如下，选择LINQ to DB driver for LINQPad 6，安装即可支持各种数据库。
+
+![segbnozRrG](/images/posts/segbnozRrG.png)
+
