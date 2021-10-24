@@ -45,3 +45,28 @@ ABP项目中引入LinqPad结合ABP_Vnext的仓储对象Repository可以明显提
 
 ![segbnozRrG](/images/posts/segbnozRrG.png)
 
+### LinqPad官方示例
+
+以下是linq官方的一些演示代码：参考地址：[Why LINQ beats SQL](https://www.linqpad.net/WhyLINQBeatsSQL.aspx)
+
+```tex
+from p in db.Purchases
+where p.Customer.Address.State == "WA" || p.Customer == null
+where p.PurchaseItems.Sum (pi => pi.SaleAmount) > 1000
+select p
+```
+
+```te
+from p in db.Purchases
+where p.Customer.Address.State == "WA" || p.Customer == null
+let purchaseValue = p.PurchaseItems.Sum (pi => pi.SaleAmount)
+where purchaseValue > 1000
+orderby purchaseValue descending
+select new
+{
+   p.Description,
+   p.Customer.SalesPerson.Name,
+   PurchaseItemCount = p.PurchaseItems.Count()
+}
+```
+
