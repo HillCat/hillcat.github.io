@@ -12,11 +12,6 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
-
--- Dumping database structure for gdbs_dev
-CREATE DATABASE IF NOT EXISTS `gdbs_dev` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci */;
-USE `gdbs_dev`;
-
 -- Dumping structure for table gdbs_dev.bge_manual_monitor
 CREATE TABLE IF NOT EXISTS `bge_manual_monitor` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
