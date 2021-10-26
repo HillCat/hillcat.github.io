@@ -265,7 +265,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'root'@'%'  WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 ```
 
-如果上面指令无法执行，可以尝试执行下面的指令(root密码改为自己真实密码)：
+如果上面指令无法执行，可以尝试执行下面的指令(yourpassword记得改为自己的密码)：
 
 ```tex
 mysql -uroot -p;
