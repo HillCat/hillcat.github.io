@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="wordpdf\Aspose.Words.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspose.Words" Version="18.7.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="SqlSugar.IOC" Version="1.4.0" />
+    <PackageReference Include="System.IO.Packaging" Version="4.5.0" />
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="3.0.5" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="3.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\GDBS.Shared\GDBS.Shared.Data\GDBS.Shared.Data.csproj" />
+    <ProjectReference Include="..\..\GDBS.Shared\GDBS.Shared.Domain\GDBS.Shared.Domain.csproj" />
+    <ProjectReference Include="..\..\GDBS.ThirdPartyService\GDBS.ThirdPartyService.Application.Contracts\GDBS.ThirdPartyService.Application.Contracts.csproj" />
+    <ProjectReference Include="..\GDBS.BridgeService.Application.Contracts\GDBS.BridgeService.Application.Contracts.csproj" />
+    <ProjectReference Include="..\GDBS.BridgeService.Domain\GDBS.BridgeService.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DocXCore">
+      <HintPath>wordpdf\DocXCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="wordpdf\Aspose.Words.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="wordpdf\DocXCore.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BridgeManualMonitorService\" />
+  </ItemGroup>
+
+</Project>
