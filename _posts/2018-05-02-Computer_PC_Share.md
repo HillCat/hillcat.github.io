@@ -14,7 +14,7 @@ typora-root-url: ../
 
 处理器: i7-10700   8核16线程   价格：2229；
 
-主板:微星B460M 迫击炮       改为  华硕 [B460-I GAMING  + Intel i7 10700散片](https://item.taobao.com/item.htm?spm=a230r.1.14.43.17df18333e7W6Z&id=639489164136&ns=1&abbucket=11#detail) ≈ **2899** ；    如果选择AMD平台的CPU主板组合，可以考虑[R5 5600G](https://item.jd.com/10034953966503.html) 价格：2249； 比英特尔i7便宜600多，性能差不多。不过，程序员生产力机型还是建议英特尔平台。另外[i5套装](https://item.jd.com/43328560104.html)=1469元(i5 10400F)对于大部分开发场景也够用了，而且价格更加便宜。
+主板:微星B460M 迫击炮       改为  华硕 [B460-I GAMING  + Intel i7 10700散片](https://item.taobao.com/item.htm?spm=a230r.1.14.43.17df18333e7W6Z&id=639489164136&ns=1&abbucket=11#detail) ≈ **2899** ；    如果选择AMD平台的CPU主板组合，可以考虑[R5 5600G](https://item.jd.com/10034953966503.html) 价格：2249； 比英特尔i7便宜600多，性能差不多。不过，程序员生产力机型还是建议英特尔平台。另外[i5 10500套装](https://item.jd.com/69874442772.html#crumb-wrap)=1739元(i5 10500)对于大部分开发场景也够用了，而且价格更加便宜。
 
 内存:[英睿达16GB 2666](https://item.jd.com/100020763062.html)双通道 ，价格：16GB(8G x 2) =449;   单根 8G ≈ 200； 配置24GB内存≈ **600**；最好是直接32GB，因为chrome浏览器开很多窗口，加上再开3个visual studio2019大型项目要分析源码框架，这个非常耗费内存，如果再开几个虚拟机docker，内存也会不够用。下图中16GB的内存，其实开3个visual Studio 2019和10几个chorme窗口，就感觉16GB不够用了，而且还开了SqlServerStudio，虚拟机是没有开的，如果是要开Linux虚拟机，这个16GB完全不够用。
 
