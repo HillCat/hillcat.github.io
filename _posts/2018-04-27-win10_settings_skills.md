@@ -24,3 +24,24 @@ typora-root-url: ../
 
 ![language_bar_options_23837.png](/images/posts/language_bar_options_23837.png)
 
+
+
+### 英文字体间距特别大
+
+这种是微软拼音输入法全角和半角切换导致的问题，
+
+Win + i 键，进入道区域和时间设置，微软拼音输入法的全角和半角切换 shift + 空格，打开，切换一下即可。
+
+### 进程和端口号查看器
+
+如果发现端口号被占用，导致Nginx启动失败，你可以使用
+
+CurrPorts这个工具查看，是否80端口被其他程序占用，如果被占用，则使用kill操作，结束那个程序，把80端口给腾出来，因为我们这个upupw要用到80端口。
+
+[https://www.nirsoft.net/utils/cports.zip](https://www.nirsoft.net/utils/cports.zip)
+
+另外WinDbg这个工具，调试进行和CPU爆高分析工具。也会要查找IIS中的进程，用这个工具可以很方便查找。
+
+​                               
+
+ 
