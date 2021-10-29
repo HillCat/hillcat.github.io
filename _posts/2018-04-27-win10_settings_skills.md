@@ -24,3 +24,14 @@ typora-root-url: ../
 
 ![language_bar_options_23837.png](/images/posts/language_bar_options_23837.png)
 
+### 进程和端口查看器
+
+如果发现端口被占用，导致Nginx启动失败，你可以使用
+
+CurrPorts这个工具查看，是否80端口被其他程序占用，如果被占用，则使用kill操作，结束那个程序，把80端口给腾出来，因为我们这个upupw要用到80端口。
+
+https://www.nirsoft.net/utils/cports.zip
+
+​                               
+
+ 
