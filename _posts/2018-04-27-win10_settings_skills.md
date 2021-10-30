@@ -44,4 +44,12 @@ CurrPorts这个工具查看，是否80端口被其他程序占用，如果被占
 
 ​                               
 
- 
+###  Win10如何关闭Docker虚拟机功能
+
+解决Vmme这个进程占用太多内存的问题，如果不使用DockerDesktop，默认的虚拟机子系统可以关闭，防止占用太多系统内存。
+
+打开控制面板，把下面没有勾选的Hyper-V勾选上，然后就会出现Hyper-V Manager工具，就可以手动关闭这个虚拟子系统了。
+
+![image-20211031002644530](/images/posts/image-20211031002644530.png![kMPbB8IeXS](/images/posts/kMPbB8IeXS.png)
+
+![8fpoExyZIh](../images/posts/8fpoExyZIh.png)
