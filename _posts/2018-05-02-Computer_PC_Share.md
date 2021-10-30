@@ -245,3 +245,11 @@ https://www.balena.io/etcher/
 
 https://rufus.ie/en/
 
+
+
+#### BeastX耳机维修
+
+参考链接：[BeatX维修视频](https://www.bilibili.com/video/BV1mb4y1d7vU?share_source=copy_web)
+
+涉及到的材料：UV胶，B7000胶水
+
