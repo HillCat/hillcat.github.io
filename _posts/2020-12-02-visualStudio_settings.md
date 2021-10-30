@@ -140,6 +140,20 @@ Resharp官方文档：如果是首次安装Resharp，请查阅官方文档：[�
 
 **Ctrl + Atl + /**        对于选中的代码块，注释、取消注释，都是这3个组合键。参考官方文档：[注释和取消注释代码](https://www.jetbrains.com/help/resharper/Coding_Assistance__Comment_Uncomment_Code.html)
 
+
+
+#### 使用Resharp的好处
+
+1.避免Swagger的坑
+
+比如 Ctrl + R 修改API接口的形参名字的时候，经常是修改了cs文件里面的形参而忘记了去修改SwaggerXml文件夹中的配置，会导致某些接口的备注不会被显示出来，是因为有些地方形参名字改了，有些地方没有改，而导致Swagger出现莫名的问题。如果使用Resharp的批量修改，它会自动检测到所有地方的引用，通过引导程序帮助你把Swagger相关配置里面的也一并修改。
+
+![LrbLRsTWw3](/images/posts/LrbLRsTWw3.png)
+
+2.在if esle条件判断很多的时候，会提示你代码存在冗余，比如某些条件判断节点永远为false或者永远为true，这种小的细节，Resharp会智能提示你。
+
+3.某些情况下lambda操作或者foreach操作可以精简为一句Linq操作，Resharp也会提示你。
+
 #### 9.快速打开文件位置
 
 快速打开一个cs文件所在的硬盘位置：
