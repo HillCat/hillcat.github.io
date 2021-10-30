@@ -52,4 +52,11 @@ CurrPorts这个工具查看，是否80端口被其他程序占用，如果被占
 
 ![image-20211031002644530](/images/posts/image-20211031002644530.png![kMPbB8IeXS](/images/posts/kMPbB8IeXS.png)
 
-![8fpoExyZIh](../images/posts/8fpoExyZIh.png)
+![8fpoExyZIh](/images/posts/8fpoExyZIh.png)
+
+如果上面的方法不管用，使用手工命令行关闭wsl即可：
+
+![aU9KciNr1i](/images/posts/aU9KciNr1i.png)
+
+
+
