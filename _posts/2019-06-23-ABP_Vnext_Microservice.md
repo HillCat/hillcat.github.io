@@ -109,7 +109,9 @@ IIS部署完微服务之后，访问本地微服务端口会报错，查看Event
 
 注意查看当前项目的Build设置，如果是处于Debug模式，则下图3个地方都要是Debug的路径和设置。如果是Release情况，则都要设置为Release的设置。必须一致，要不然不会生成带有注释的文档。
 
-特别注意：如果频繁修改API接口的形参注释信息，最好是清空SwaggerXml路径下面的HttpApi.xml文件，重新生成。
+特别注意：如果频繁修改API接口的形参注释信息，最好是清空SwaggerXml路径下面的HttpApi.xml文件，重新生成。重新编译是不会生成的，**一定要清理Clean项目，之后重新生成**，会自动生成并刷新API备注那些信息。
 
 ![gjNW9eOdi5](/images/posts/gjNW9eOdi5.png)
+
+![T9dRff2kmu](/images/posts/T9dRff2kmu.png)
 
