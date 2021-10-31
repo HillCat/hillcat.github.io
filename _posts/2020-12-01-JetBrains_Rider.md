@@ -1,9 +1,9 @@
 ---
 layout: post
-title: JetBrainsRider操作技巧汇总
+title: Jetbrains_Rider操作技巧汇总
 categories: DotNetCore
-description: Rider常用技巧
-keywords:Rider
+description: JetBrains常用技巧
+keywords: trpora
 typora-root-url: ../
 ---
 
