@@ -1,0 +1,23 @@
+代码1：
+from item in bge_manual_monitor_point_details
+where item.Object_name=="A匝道"
+group item by
+new{item.Object_name}
+into g
+select new {
+	Name=g.Key.Object_name,
+	AngleX=g.Max(o =>o.Create_time),
+	Distance=g.Max(o=>o.Create_time),
+	CableForce=g.Count(x =>x.Cable_force!=null)
+}
+
+代码2：
+
+(from row in bge_manual_monitor_point_details
+orderby row.Create_time descending
+where !string.IsNullOrEmpty(row.Cable_force) 
+select row.Create_time).FirstOrDefault()
+
+
+
+
