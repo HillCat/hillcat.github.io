@@ -16,6 +16,8 @@ typora-root-url: ../
 
 4.《把你的英语用起来》，作者：伍君仪/刘晓光  ；这本书是恶魔奶爸很久之前出版的一本书；书中的主要理论是“i+1 理论”和阅读透析法，也是强调通过英文原版书积累单词。
 
+读了上面那么多的英语自学方法论，以及国外的语言学大师的“二语习得”理论，无一不在强调阅读的重要性。那么，阅读如何结合i+1理论，其实就是这本《中国人英语自学方法教程》所讲的方法，里面提到的这些看似简单的有声书，只要你学个70本，绝对你的英语会有很大的提升。9000词汇量，只需要看初章书70来本，就已经是不得了的功夫了。只要大的方向不错，持续进步效果是看得见的。最好是要配合anki类似这种工具使用。效果会更好。
+
 ![zhongguorenzixue_22.png](/images/posts/zhongguorenzixue_22.png)
 
 ![xuhuohui_123.png](/images/posts/xuhuohui_123.png)
@@ -32,7 +34,7 @@ anki的重复制卡，可以反复搜集同一个单词上下文用来制卡。�
 
 <img src="https://cs-cn.top/images/posts/lift5857.png"/>
 
-lift这个词，通过anki制卡收集到的场景如下：
+lift这个词，2年多来，我也只收集了下面这4种场景，英语的难就难在这里，厚积薄发。熟练运用6000词，真的可以做到一个顶俩的效果。一词多义可以让单词具有厚重感。
 
 1.Howard squinted one blue eye. He **lifted** Dink’s baseball cap. “What happened to your hair?”   ---  摘掉(帽子)
 
