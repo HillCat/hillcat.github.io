@@ -34,7 +34,7 @@ anki的重复制卡，可以反复搜集同一个单词上下文用来制卡。�
 
 <img src="https://cs-cn.top/images/posts/lift5857.png"/>
 
-lift这个词，2年多来，我也只收集了下面这4种场景，英语的难就难在这里，厚积薄发。熟练运用6000词，真的可以做到一个顶俩的效果。一词多义可以让单词具有厚重感。
+lift这个词，2年多来，我也只收集了下面这4种场景，英语的难就难在这里，可遇不可求。熟练运用6000词，真的需要时间沉淀，查阅大量词典资料才能让单词具有厚重感。
 
 1.Howard squinted one blue eye. He **lifted** Dink’s baseball cap. “What happened to your hair?”   ---  摘掉(帽子)
 
