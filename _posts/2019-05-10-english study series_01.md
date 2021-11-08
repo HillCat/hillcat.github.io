@@ -62,7 +62,7 @@ Matt跟 `斯蒂芬.克拉申` 老爷子在Matt的Youtube频道做过一期访谈
 
 ### 罗肖尼
 
-罗肖尼，雅思满分8.5分，B站经验分享：[https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web](https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web)。提升的速度主要还是跟投入的时间量成正比。他的另外一个视频：[https://www.bilibili.com/video/BV1tf4y1s7NN?share_source=copy_web](https://www.bilibili.com/video/BV1tf4y1s7NN?share_source=copy_web)。类似这种高手，是通过大量输入来获得语言能力，从来没有背过单词。输入量也是巨大的。再次验证可理解输入的重要性。我举这么多例子，是想让成年人看到和感知到一些概念。特别是30岁以上的人。阅读是唯一速度最快的提升词汇的方法，没有之一。并且词汇量越高的人，通过美剧积累词汇的速度越慢。视频类的材料，时间利用效率只有书本的1/3左右，大部分时间都是浪费的，特别对于大龄成年人，我觉得这是一种极大的浪费。
+罗肖尼，雅思满分8.5分，B站经验分享：[https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web](https://www.bilibili.com/video/BV1aD4y127GE?share_source=copy_web)。提升的速度主要还是跟投入的时间量成正比。他的另外一个视频：[https://www.bilibili.com/video/BV1tf4y1s7NN?share_source=copy_web](https://www.bilibili.com/video/BV1tf4y1s7NN?share_source=copy_web)。类似这种高手，是通过大量输入来获得语言能力，从来没有背过单词。输入量也是巨大的。再次验证可理解输入的重要性。我举这么多例子，是想让成年人看到和感知到一些概念。特别是30岁以上的人。阅读是唯一速度最快的提升词汇的方法，没有之一。并且词汇量越高的人，通过美剧积累词汇的速度越慢。视频类的材料，时间利用效率只有书本的1/3左右，大部分时间都是浪费的，特别对于大龄成年人，看美剧只能是作为专项训练，不能当饭吃。
 
 <img src="https://cs-cn.top/images/posts/audio_book_0613.gif"/>
 
