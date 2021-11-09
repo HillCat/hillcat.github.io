@@ -21,6 +21,14 @@ FLUSH PRIVILEGES;
 
 大部分情况下，mysql ,5.7.X版本可以尝试执行下面的指令(yourpassword记得改为自己的密码)：
 
+```c#
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'NewPassword';
+```
+
+上面这个是修改root密码。
+
+下面这个是修改root远程权限，使得远程的root可以访问。
+
 ```tex
 mysql -uroot -p;
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'yourpassword' with grant option;
@@ -34,4 +42,30 @@ FLUSH PRIVILEGES;
 **注意**：如果是Docker，启动容器的时候一定要指定好端口，-p 3306:3306   前面的端口号为宿主机win10的端口，后面的为ubuntu镜像中mysql的端口。
 
 
+
+#### 彻底删除mysql
+
+参考：[https://linuxscriptshub.com/uninstall-completely-remove-mysql-ubuntu-16-04/](https://linuxscriptshub.com/uninstall-completely-remove-mysql-ubuntu-16-04/)
+
+
+
+#### ubuntu18.0LTS 开启root
+
+sudo passwd root
+
+sudo vi /etc/ssh/sshd_config
+
+把配置文件中permission root yes 打开
+
+然后允许通过密码登录：
+
+![image-20211109105042869](/images/posts/image-20211109105042869.png)
+
+![image-20211109105058145](/images/posts/image-20211109105058145.png)
+
+
+
+
+
+sudo service ssh restart
 
