@@ -69,3 +69,41 @@ sudo vi /etc/ssh/sshd_config
 
 sudo service ssh restart
 
+#### Ubunt18.04安装Mysql5.7
+
+```c#
+wget -c https://dev.mysql.com/get/mysql-apt-config_0.8.15-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.15-1_all.deb
+    
+```
+
+![image-20211109105815250](/images/posts/image-20211109105815250.png)
+
+在第一项里面选择，mysql5.7安装。
+
+更新源：
+
+```c#
+sudo apt-get update
+```
+
+执行安装程序：
+
+```c#
+sudo apt-get install mysql-server
+```
+
+设置mysql 远程访问:
+
+```c#
+sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
+```
+
+![image-20211109111756996](/images/posts/image-20211109111756996.png)
+
+注释掉bind-address.
+
+#### Ubuntu安装DotNetCore
+
+参考：https://tecadmin.net/how-to-install-dotnet-core-on-ubuntu-18-04/
+
