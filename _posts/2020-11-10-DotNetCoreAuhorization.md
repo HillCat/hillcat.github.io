@@ -316,3 +316,4 @@ namespace Microsoft.AspNetCore.Identity
 
 [https://youtu.be/cbtK3U2aOlg](https://youtu.be/cbtK3U2aOlg)
 
+[基于策略的权限验证(微软文档)](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/policies?view=aspnetcore-3.1)
