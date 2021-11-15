@@ -50,7 +50,7 @@ Anki参数详细讲解的，第一个视频是Matt的视频，地址是：[https
 
 <img src="https://cs-cn.top/images/posts/max-interval83.png"/>
 
-备注：上图这里的Maximum interval设置60天。对于已经熟悉的单词，可以每隔60天复习一次。控制最大的间隔，可以使得复习间隔变为“等距间隔重复“。
+备注：上图这里的Maximum interval设置60天。对于已经熟悉的单词，可以每隔60天复习一次。控制最大的间隔，可以使得复习间隔变为“等距间隔重复“。比如，像初中时候就已经熟悉的单词，一般会8个月复习一次。那个
 
 <img src="https://cs-cn.top/images/posts/settings821.png"/>
 
