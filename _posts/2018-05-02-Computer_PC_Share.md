@@ -14,7 +14,9 @@ typora-root-url: ../
 
 处理器: i7-10700   8核16线程   价格：2229；
 
-对比：[十一代i7 11700 2299](https://item.jd.com/100018204790.html?cu=true) 
+对比：[十一代i7 11700 2299](https://item.jd.com/100018204790.html?cu=true)   [十二代 i5 12600k 2299RMB](https://item.jd.com/100014541175.html) 相对而言十二代的i5更加值得入手(由于Z系列主板比较贵，所以要等到因特尔在2022年出B系列主板标准，这个价格会回落)
+
+![ihYHrH0EXx](/images/posts/ihYHrH0EXx.png)
 
 主板:微星B460M 迫击炮       改为  华硕 [B460-I GAMING  + Intel i7 10700散片](https://item.taobao.com/item.htm?spm=a230r.1.14.43.17df18333e7W6Z&id=639489164136&ns=1&abbucket=11#detail) ≈ **2899** ；    如果选择AMD平台的CPU主板组合，可以考虑[R5 5600G](https://item.jd.com/10034953966503.html) 价格：2249； 比英特尔i7便宜600多，性能差不多。不过，程序员生产力机型还是建议英特尔平台。另外[i5 10500套装](https://item.jd.com/69874442772.html#crumb-wrap)=1739元(i5 10500)对于大部分开发场景也够用了，而且价格更加便宜。
 

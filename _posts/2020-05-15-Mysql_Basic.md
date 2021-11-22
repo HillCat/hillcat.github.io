@@ -107,3 +107,13 @@ sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
 
 参考：https://tecadmin.net/how-to-install-dotnet-core-on-ubuntu-18-04/
 
+
+
+### Centos7.6安装宝塔面板
+
+如果是在Linux环境下调试对接前端代码，最好的方式是使用轻量云主机来对接前端开发。
+
+宝塔面板使用守护进程的方式启动控制台应用。
+
+
+

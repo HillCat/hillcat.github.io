@@ -304,7 +304,15 @@ namespace Microsoft.AspNetCore.Identity
 
 
 
+### JwtToken
 
+JwtToken生成的令牌中，有三个部分，分别如下图：
+
+前面这部分是表示使用的什么加密算法；中间的部分一般是用户Claims信息，而第三部分是算法+ token。
+
+
+
+![image-20211114181643283](/images/posts/image-20211114181643283.png)
 
 ### 参考资料
 
