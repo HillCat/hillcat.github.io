@@ -356,7 +356,9 @@ Tools菜单栏，Get Tool and Fetures...
 
 跳转到具体的实现。
 
+#### ctrl +shift +f9 
 
+删除所有的debug调试标记点
 
 ### 9.如何导出vs2019配置
 
