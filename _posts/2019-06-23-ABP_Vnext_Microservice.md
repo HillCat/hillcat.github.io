@@ -174,3 +174,14 @@ private TDbContext CreateDbContext(IUnitOfWork unitOfWork, string connectionStri
 ### Ocelot文档
 
 参考：[https://ocelot.readthedocs.io/en/latest/features/servicediscovery.html](https://ocelot.readthedocs.io/en/latest/features/servicediscovery.html)
+
+
+
+### 用户名密码验证
+
+ABP中主要是通过ResourceOwnerPasswordValidationContext 来验证用户UserNanem和Password。
+
+ABP框架源码： TokenRequestValidator.cs 这个文件下面包括了主要的grantType验证方式。
+
+如果是我们自己实现用户名和密码验证方式，我们需要自己实现IResourceOwnerPasswordValidator这个接口。
+
