@@ -151,4 +151,19 @@ private TDbContext CreateDbContext(IUnitOfWork unitOfWork, string connectionStri
         }
 ```
 
-上面的代码，实际上是用当前临时的connectionString去替代我们的DbContext中的那个连接字符串，使用完毕之后在dispose掉之后替换回原来的connectionString .
+上面的代码，实际上是用当前临时的connectionString去替代我们的DbContext中的那个连接字符串，使用完毕之后在dispose掉之后替换回原来的connectionString .替换成临时connectionString之后，再利用DbContextProvider去get到DbContext，得到的就是临时connectionstring对应的数据库，而不是confugure里面配置的原有DbContext. 以上方法来源于 ：
+
+````c#
+ namespace Volo.Abp.Uow.EntityFrameworkCore
+{
+     public class UnitOfWorkDbContextProvider<TDbContext> : IDbContextProvider<TDbContext>
+        where TDbContext : IEfCoreDbContext
+    {
+            private TDbContext CreateDbContext(IUnitOfWork unitOfWork, string connectionStringName, string connectionString)
+        {    
+            
+        }
+     }
+ }
+````
+
