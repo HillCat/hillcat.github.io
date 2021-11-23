@@ -167,3 +167,10 @@ private TDbContext CreateDbContext(IUnitOfWork unitOfWork, string connectionStri
  }
 ````
 
+注意：要创建自己的DbContext需要再using里面创建，再using外面创建是没有用的。
+
+
+
+### OceLot文档
+
+参考：[https://ocelot.readthedocs.io/en/latest/features/servicediscovery.html](https://ocelot.readthedocs.io/en/latest/features/servicediscovery.html)
