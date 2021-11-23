@@ -171,6 +171,6 @@ private TDbContext CreateDbContext(IUnitOfWork unitOfWork, string connectionStri
 
 
 
-### OceLot文档
+### Ocelot文档
 
 参考：[https://ocelot.readthedocs.io/en/latest/features/servicediscovery.html](https://ocelot.readthedocs.io/en/latest/features/servicediscovery.html)
