@@ -123,3 +123,32 @@ IIS部署完微服务之后，访问本地微服务端口会报错，查看Event
 
 ![wAfnnqPp5h](/images/posts/wAfnnqPp5h.png)
 
+### ABP切换其他数据库
+
+在实际开发中经常会有要临时切换到其他的数据库，操作完成之后再切换回来的这种场景。也就是说我们想要临时去修改我们DbContext的链接字符串，怎么做呢？就是如下的做法：
+
+可以参考ABP源码中 UnitOfWorkDbContextProvider.cs中的代码： DbContextCreationContext
+
+```c#
+private TDbContext CreateDbContext(IUnitOfWork unitOfWork, string connectionStringName, string connectionString)
+        {
+            var creationContext = new DbContextCreationContext(connectionStringName, connectionString);
+            using (DbContextCreationContext.Use(creationContext))
+            {
+                var dbContext = CreateDbContext(unitOfWork);
+
+                if (dbContext is IAbpEfCoreDbContext abpEfCoreDbContext)
+                {
+                    abpEfCoreDbContext.Initialize(
+                        new AbpEfCoreDbContextInitializationContext(
+                            unitOfWork
+                        )
+                    );
+                }
+
+                return dbContext;
+            }
+        }
+```
+
+上面的代码，实际上是用当前临时的connectionString去替代我们的DbContext中的那个连接字符串，使用完毕之后在dispose掉之后替换回原来的connectionString .
