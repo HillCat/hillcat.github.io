@@ -1,0 +1,5 @@
+报告审核百分比 ReportCheckPercent
+方案制定百分比 SchemeMakePercent
+数据整理百分比 DataArrangePercent
+检测计划百分比 DetectionPlanPercent
+报告编辑百分比 ReportEditPercent
