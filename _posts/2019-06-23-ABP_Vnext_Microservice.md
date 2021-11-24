@@ -231,7 +231,7 @@ services.ExecutePreConfiguredActions(identityServerBuilder);
 
 Volo.Abp.IdentiyServer.EntityFrameworkCore这个是做持久化的，如果没有安装这个依赖，则会放到内存里面。
 
-几个依赖项：
+以下7个依赖项就可以搭建出自己的IdentityServer：
 
 ````c#
 Volo.Abp.Identity.Application;
