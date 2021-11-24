@@ -243,5 +243,7 @@ Volo.Abp.Account.Web.IdentityServer;//这个是必选项
 Volo.Abp.AspNetCore.Authentication.Jwtbearer；//如果需要对外公开API就需要安装这个
 ````
 
+### 基于IdentityServer4的管理后台
 
+参考:[https://github.com/skoruba/IdentityServer4.Admin](https://github.com/skoruba/IdentityServer4.Admin)
 
