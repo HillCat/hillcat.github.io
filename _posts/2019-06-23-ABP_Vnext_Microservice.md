@@ -185,3 +185,6 @@ ABP框架源码： TokenRequestValidator.cs 这个文件下面包括了主要的
 
 如果是我们自己实现用户名和密码验证方式，我们需要自己实现IResourceOwnerPasswordValidator这个接口。
 
+
+
+如果是web端走跳转的方式，一般是使用OIDC方式，也就是OpenIdConnect.
