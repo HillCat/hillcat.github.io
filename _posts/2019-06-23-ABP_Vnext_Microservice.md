@@ -188,3 +188,60 @@ ABP框架源码： TokenRequestValidator.cs 这个文件下面包括了主要的
 
 
 如果是web端走跳转的方式，一般是使用OIDC方式，也就是OpenIdConnect.
+
+
+
+### 第三方验证登陆
+
+在ABP框架源码的'abp-3.3.0\modules\identityserver'中，这个模块就是IdentityServer4相关的；
+
+Volo.Abp.IdentityServer.AbpIdentityServerDomainModule文件中，76行代码开始的地方，
+
+````c#
+\abp-3.3.0\modules\identityserver\src\Volo.Abp.IdentityServer.Domain\Volo\Abp\IdentityServer\AbpIdentityServerDomainModule.cs
+    
+services.ExecutePreConfiguredActions(identityServerBuilder);
+
+            if (!services.IsAdded<IPersistedGrantService>())
+            {
+                services.TryAddSingleton<IPersistedGrantStore, InMemoryPersistedGrantStore>();//保存登陆页信息的，GrantStore就是我们授权的信息，跳转到登陆页的时候，勾选的scope信息就是保存在这里
+            }
+
+            if (!services.IsAdded<IDeviceFlowStore>())
+            {
+                services.TryAddSingleton<IDeviceFlowStore, InMemoryDeviceFlowStore>();//设备信息
+            }
+
+            if (!services.IsAdded<IClientStore>())
+            {
+                identityServerBuilder.AddInMemoryClients(configuration.GetSection("IdentityServer:Clients"));
+            }
+
+            if (!services.IsAdded<IResourceStore>())
+            {
+                identityServerBuilder.AddInMemoryApiResources(configuration.GetSection("IdentityServer:ApiResources"));
+                identityServerBuilder.AddInMemoryIdentityResources(configuration.GetSection("IdentityServer:IdentityResources"));
+            }
+
+//identityServerBuilder.AddExtensionGrantValidator<LinkLoginExtensionGrantValidator>();
+//最后这句代码，是根据自己的需要在模块源码中自定义的，用来对接第三方登陆。比如对接第三方twitter或者google登陆到我们自己的系统。
+````
+
+公司的源码是基于ABP3.0.5的，如果要支持这个module扩展，可能需要升级。
+
+Volo.Abp.IdentiyServer.EntityFrameworkCore这个是做持久化的，如果没有安装这个依赖，则会放到内存里面。
+
+几个依赖项：
+
+````c#
+Volo.Abp.Identity.Application;
+Volo.Abp.Identity.EntityFrameworkCore;
+Volo.Abp.Identity.Web
+Volo.Abp.IdentityServer.EntityFrameworkCore;
+Volo.Abp.Account.Application;
+Volo.Abp.Account.Web.IdentityServer;//这个是必选项
+Volo.Abp.AspNetCore.Authentication.Jwtbearer；//如果需要对外公开API就需要安装这个
+````
+
+
+
