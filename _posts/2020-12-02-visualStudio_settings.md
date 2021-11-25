@@ -29,6 +29,16 @@ Home键：移动到行首，按两次Home键，直接移动到边框最左端
 
 
 
+### 使用TaskList标记TODO
+
+参考：[https://docs.microsoft.com/en-us/visualstudio/ide/using-the-task-list?view=vs-2022](https://docs.microsoft.com/en-us/visualstudio/ide/using-the-task-list?view=vs-2022)
+
+在visual studio 2019中 view菜单中打开task list，可以查看到我们平时标记的TODO列表，而这个地方还可以自定义BUG等自己的标记，打开Task List的时候就可以看到一些代码的位置，提升我们对于待办项的管理能力，防止漏掉TODO或者BUG。
+
+![image-20211125183343042](/images/posts/image-20211125183343042.png)
+
+![image-20211125183432426](/images/posts/image-20211125183432426.png)
+
 ### 2.给vs任意位置设置合适的字体大小
 
 #### 1.设置全局菜单、侧边栏字体大小：
