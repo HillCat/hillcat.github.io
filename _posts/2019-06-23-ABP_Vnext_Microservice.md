@@ -123,3 +123,127 @@ IIS部署完微服务之后，访问本地微服务端口会报错，查看Event
 
 ![wAfnnqPp5h](/images/posts/wAfnnqPp5h.png)
 
+### ABP切换其他数据库
+
+在实际开发中经常会有要临时切换到其他的数据库，操作完成之后再切换回来的这种场景。也就是说我们想要临时去修改我们DbContext的链接字符串，怎么做呢？就是如下的做法：
+
+可以参考ABP源码中 UnitOfWorkDbContextProvider.cs中的代码： DbContextCreationContext
+
+```c#
+private TDbContext CreateDbContext(IUnitOfWork unitOfWork, string connectionStringName, string connectionString)
+        {
+            var creationContext = new DbContextCreationContext(connectionStringName, connectionString);
+            using (DbContextCreationContext.Use(creationContext))
+            {
+                var dbContext = CreateDbContext(unitOfWork);
+
+                if (dbContext is IAbpEfCoreDbContext abpEfCoreDbContext)
+                {
+                    abpEfCoreDbContext.Initialize(
+                        new AbpEfCoreDbContextInitializationContext(
+                            unitOfWork
+                        )
+                    );
+                }
+
+                return dbContext;
+            }
+        }
+```
+
+上面的代码，实际上是用当前临时的connectionString去替代我们的DbContext中的那个连接字符串，使用完毕之后在dispose掉之后替换回原来的connectionString .替换成临时connectionString之后，再利用DbContextProvider去get到DbContext，得到的就是临时connectionstring对应的数据库，而不是confugure里面配置的原有DbContext. 以上方法来源于 ：
+
+````c#
+ namespace Volo.Abp.Uow.EntityFrameworkCore
+{
+     public class UnitOfWorkDbContextProvider<TDbContext> : IDbContextProvider<TDbContext>
+        where TDbContext : IEfCoreDbContext
+    {
+            private TDbContext CreateDbContext(IUnitOfWork unitOfWork, string connectionStringName, string connectionString)
+        {    
+            
+        }
+     }
+ }
+````
+
+注意：要创建自己的DbContext需要再using里面创建，再using外面创建是没有用的。
+
+
+
+### Ocelot文档
+
+参考：[https://ocelot.readthedocs.io/en/latest/features/servicediscovery.html](https://ocelot.readthedocs.io/en/latest/features/servicediscovery.html)
+
+
+
+### 用户名密码验证
+
+ABP中主要是通过ResourceOwnerPasswordValidationContext 来验证用户UserNanem和Password。
+
+ABP框架源码： TokenRequestValidator.cs 这个文件下面包括了主要的grantType验证方式。
+
+如果是我们自己实现用户名和密码验证方式，我们需要自己实现IResourceOwnerPasswordValidator这个接口。
+
+
+
+如果是web端走跳转的方式，一般是使用OIDC方式，也就是OpenIdConnect.
+
+
+
+### 第三方验证登陆
+
+在ABP框架源码的'abp-3.3.0\modules\identityserver'中，这个模块就是IdentityServer4相关的；
+
+Volo.Abp.IdentityServer.AbpIdentityServerDomainModule文件中，76行代码开始的地方，
+
+````c#
+\abp-3.3.0\modules\identityserver\src\Volo.Abp.IdentityServer.Domain\Volo\Abp\IdentityServer\AbpIdentityServerDomainModule.cs
+    
+services.ExecutePreConfiguredActions(identityServerBuilder);
+
+            if (!services.IsAdded<IPersistedGrantService>())
+            {
+                services.TryAddSingleton<IPersistedGrantStore, InMemoryPersistedGrantStore>();//保存登陆页信息的，GrantStore就是我们授权的信息，跳转到登陆页的时候，勾选的scope信息就是保存在这里
+            }
+
+            if (!services.IsAdded<IDeviceFlowStore>())
+            {
+                services.TryAddSingleton<IDeviceFlowStore, InMemoryDeviceFlowStore>();//设备信息
+            }
+
+            if (!services.IsAdded<IClientStore>())
+            {
+                identityServerBuilder.AddInMemoryClients(configuration.GetSection("IdentityServer:Clients"));
+            }
+
+            if (!services.IsAdded<IResourceStore>())
+            {
+                identityServerBuilder.AddInMemoryApiResources(configuration.GetSection("IdentityServer:ApiResources"));
+                identityServerBuilder.AddInMemoryIdentityResources(configuration.GetSection("IdentityServer:IdentityResources"));
+            }
+
+//identityServerBuilder.AddExtensionGrantValidator<LinkLoginExtensionGrantValidator>();
+//最后这句代码，是根据自己的需要在模块源码中自定义的，用来对接第三方登陆。比如对接第三方twitter或者google登陆到我们自己的系统。
+````
+
+公司的源码是基于ABP3.0.5的，如果要支持这个module扩展，可能需要升级。
+
+Volo.Abp.IdentiyServer.EntityFrameworkCore这个是做持久化的，如果没有安装这个依赖，则会放到内存里面。
+
+以下7个依赖项就可以搭建出自己的IdentityServer：
+
+````c#
+Volo.Abp.Identity.Application;
+Volo.Abp.Identity.EntityFrameworkCore;
+Volo.Abp.Identity.Web
+Volo.Abp.IdentityServer.EntityFrameworkCore;
+Volo.Abp.Account.Application;
+Volo.Abp.Account.Web.IdentityServer;//这个是必选项
+Volo.Abp.AspNetCore.Authentication.Jwtbearer；//如果需要对外公开API就需要安装这个
+````
+
+### 基于IdentityServer4的管理后台
+
+参考:[https://github.com/skoruba/IdentityServer4.Admin](https://github.com/skoruba/IdentityServer4.Admin)
+

@@ -24,3 +24,8 @@ typora-root-url: ../
 ### Avoid Too Many Parameters
 
 ![dpdp0iaTCU](/images/posts/dpdp0iaTCU.png)
+
+### linq改善代码阅读性
+
+https://www.telerik.com/blogs/6-tips-writing-elegant-csharp-code
+
