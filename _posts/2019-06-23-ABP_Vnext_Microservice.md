@@ -249,3 +249,11 @@ Volo.Abp.AspNetCore.Authentication.Jwtbearer；//如果需要对外公开API就�
 
 参考:[https://github.com/skoruba/IdentityServer4.Admin](https://github.com/skoruba/IdentityServer4.Admin)
 
+### ABP Vnext中常见坑
+
+微服务的时候最常见的就是注入的报错。
+
+![image-20211130111052131](/images/posts/image-20211130111052131.png)
+
+上面这种Parameter'source'报错，一般都是注入的报错。
+
