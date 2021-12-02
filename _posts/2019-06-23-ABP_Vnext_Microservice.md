@@ -119,6 +119,16 @@ IIS部署完微服务之后，访问本地微服务端口会报错，查看Event
 
 
 
+在httpApi解决方案中配置:
+
+````c#
+..\GDBS.ProjectService.HttpApi.Hosting\SwaggerXml\GDBS.ProjectService.HttpApi.xml
+````
+
+![image-20211130142730103](/images/posts/image-20211130142730103.png)
+
+
+
 ### 架构中间件
 
 网关这块目前使用的是Ocelot，据说微软官方开源的[yarp](https://github.com/microsoft/reverse-proxy)性能更强。
@@ -249,3 +259,16 @@ Volo.Abp.AspNetCore.Authentication.Jwtbearer；//如果需要对外公开API就�
 
 参考:[https://github.com/skoruba/IdentityServer4.Admin](https://github.com/skoruba/IdentityServer4.Admin)
 
+### ABP Vnext中常见坑
+
+微服务的时候最常见的就是注入的报错。
+
+![image-20211130111052131](/images/posts/image-20211130111052131.png)
+
+上面这种Parameter'source'报错，一般都是注入的报错。
+
+#### DbContext中的Service要和Application里面的一致
+
+![image-20211130152755250](/images/posts/image-20211130152755250.png)
+
+要不然会发生某些Entity实体类注入的问题。
