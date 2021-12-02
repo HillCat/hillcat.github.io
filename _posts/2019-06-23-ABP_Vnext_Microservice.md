@@ -267,3 +267,8 @@ Volo.Abp.AspNetCore.Authentication.Jwtbearer；//如果需要对外公开API就�
 
 上面这种Parameter'source'报错，一般都是注入的报错。
 
+#### DbContext中的Service要和Application里面的一致
+
+![image-20211130152755250](/images/posts/image-20211130152755250.png)
+
+要不然会发生某些Entity实体类注入的问题。
