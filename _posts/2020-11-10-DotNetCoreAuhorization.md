@@ -324,6 +324,8 @@ JwtToken生成的令牌中，有三个部分，分别如下图：
 
 [https://youtu.be/cbtK3U2aOlg](https://youtu.be/cbtK3U2aOlg)
 
+[https://youtu.be/eVxzuOxWEiY](https://youtu.be/eVxzuOxWEiY)
+
 [基于策略的权限验证(微软文档)](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/policies?view=aspnetcore-3.1)
 
 [权限系统(ABP官方文档)](https://docs.abp.io/en/abp/latest/Authorization)
