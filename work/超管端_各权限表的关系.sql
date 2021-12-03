@@ -47,4 +47,7 @@ SELECT * FROM sys_user_platform
 
 SELECT Id,UserId,UserTrueName,CompanyId,IsDeleted FROM gdbs_dev.sys_user_details --用户详情
 
+-- 账号名和ChineseFullName
+SELECT A.user_name,A.user_pwd,A.`account`,B.UserTrueName FROM gdbs_identity.sys_user A  INNER  JOIN gdbs_dev.sys_user_details B 
+ON A.id=B.UserId
 

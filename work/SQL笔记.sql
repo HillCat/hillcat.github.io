@@ -21,13 +21,13 @@ C.data_name,A.Item_id AS '字段值',
 B.name,B.belong_table_name
 FROM bge_dictionary_sub_table A 
 INNER JOIN bge_dictionar B ON A.dic_id=B.id 
-INNER JOIN bge_dictionary_sub C ON A.Item_id=C.id  
+INNER JOIN bge_dictionary_sub C ON A.Item_id=C.id   
 -- INNER JOIN bge_line_info D ON A.tabler_id=D.id
 -- WHERE A.dic_id IN('17','18','20','35') 
 -- WHERE A.tabler_id ='88' AND B.belong_table_name='bge_info'
 ORDER BY A.id DESC;
 
-SELECT * FROM bge_dictionary_sub_table ORDER BY id DESC;
+SELECT * FROM bge_dictionary_sub_table WHERE field_name='bge_line_info' ORDER BY id DESC;
 
 -- 下部结构
 SELECT * FROM bge_dictionary_sub_table WHERE tabler_id='92' AND field_name='bge_info' ORDER BY id DESC ;
@@ -45,4 +45,10 @@ A ON O.id=A.dic
 
 
 SELECT * FROM bge_dictionar WHERE belong_table_name='bge_superstructure_info'
+
+SELECT * FROM bge_info ORDER BY id DESC
+
+-- 桥梁人工检测，附件上传
+SELECT * FROM files_info WHERE TABLE_NAME='bge_manual_monitor'
+
 
