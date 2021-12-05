@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>attachUpload</Title>
+      <Shortcut>attachupload</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[public async Task<OutputDto> ManualMonitorUploadAsync(IFormFile upfile)
+        {
+           //using GDBS.Shared.ToolKits; //引用命名空间
+           //private readonly IFileHelperServer _fileServer;//服务注入
+            try
+            {
+                if (upfile == null || upfile.Length <= 0)
+                    return OutputDto.ToResult(false, "500", "文件大小不能小于0");
+                if (upfile.Length > 1024 * 1024 * 1000)//104857600
+                    return OutputDto.ToResult(false, "500", "文件过大，最多1G");
+                var data = await _fileServer.BeginfopuploadAsync(upfile);
+                return data;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogException(ex, LogLevel.Error);
+                return OutputDto.ToResultFail("文件上传异常");
+            }
+        }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

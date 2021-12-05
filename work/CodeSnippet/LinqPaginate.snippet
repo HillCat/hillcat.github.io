@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>linqpaginate</Title>
+      <Shortcut>lqpg</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[                outputData = outputData.OrderByDescending(d => d.Id).ToList();
+                var pageIndex = input.PageIndex;
+                var pageSize = input.PageSize;
+                var skip = (input.PageIndex - 1) * input.PageSize;
+                var count = outputData.Count();
+                outputData = outputData.Skip(skip).Take(input.PageSize).ToList();
+                return ReturnPageWithDataDto.ToResultSuccess(msg: Ok, PageIndex: pageIndex, PageSize: pageSize, TotalRow: count, modelData: outputData);
+                ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
