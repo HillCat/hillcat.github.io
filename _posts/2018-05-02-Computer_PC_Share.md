@@ -14,7 +14,11 @@ typora-root-url: ../
 
 处理器: i7-10700   8核16线程   价格：2229；
 
-对比：[十一代i7 11700 2299](https://item.jd.com/100018204790.html?cu=true)   [十二代 i5 12600k 2299RMB](https://item.jd.com/100014541175.html) 相对而言十二代的i5更加值得入手(由于Z系列主板比较贵，所以要等到因特尔在2022年出B系列主板标准，这个价格会回落)
+对比：[十一代i7 11700 2299](https://item.jd.com/100018204790.html?cu=true)  
+
+与这个i7配置更好的AMD方案配置如下：R7-5700G方案。作为写代码的生产力主机，问题不大。
+
+![image-20211205180428203](/images/posts/image-20211205180428203.png)
 
 ![ihYHrH0EXx](/images/posts/ihYHrH0EXx.png)
 
