@@ -27,7 +27,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'NewPassword';
 
 上面这个是修改root密码。
 
-下面这个是修改root远程权限，使得远程的root可以访问。
+下面这个是修改root远程权限，使得远程的root可以访问。**特别注意**：'yourpassword' 改为自己密码**!！！！**
 
 ```tex
 mysql -uroot -p;
