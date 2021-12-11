@@ -1,0 +1,28 @@
+var loadSource = (from lod in detection_load_tests
+                                  join info in bge_infos on lod.Bge_id equals (int)info.Id into lodInfoData
+                                  from infod in lodInfoData.DefaultIfEmpty()
+                                  join usr in sys_user_details on lod.Upload_user_id equals (int)usr.Id into infoUseData
+                                  from infoUse in infoUseData.DefaultIfEmpty()
+                                  join ins in institutions on infod.Maintenanceint_Id equals (int)ins.Id into insData
+                                  from isd in insData.DefaultIfEmpty()
+                                  select new
+                                  {
+                                      lod.Id,
+                                      BridgeId = infod.Id,
+									  lod.Type,
+									  lod.Time,
+									  lod.Det_name,
+									  lod.DetInstitiution,
+									  lod.Result,
+									  lod.Consequence,
+									  lod.Auditor,
+									  lod.Checker,
+									  lod.Report_url,
+									  lod.Project_name,
+									  lod.Archive_lable,
+									  infoUse.UserTrueName,
+									  bgeName = infod.Name,
+									  infod.Maintenanceint_Id,
+									  isd.Inst_name
+								  }).OrderByDescending(c => c.Time);
+								  loadSource.Dump();
