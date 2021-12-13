@@ -314,6 +314,54 @@ JwtToken生成的令牌中，有三个部分，分别如下图：
 
 ![image-20211114181643283](/images/posts/image-20211114181643283.png)
 
+### DotNetCore权限源码
+
+Claim类，ClaimsIdentity类，ClaimsPrincipal类。三者之间的关系：[https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsidentity?view=net-6.0](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsidentity?view=net-6.0)
+
+````c#
+[AllowAnonymous]
+        public IActionResult Authenticate()
+        {
+            var grandmaClaims = new List<Claim>()
+            {
+                new Claim(ClaimTypes.Name, "Bob"),
+                new Claim(ClaimTypes.Email, "Bob@fmail.com"),
+                new Claim(ClaimTypes.DateOfBirth, "11/11/2000"),
+                new Claim(ClaimTypes.Role, "Admin"),
+                new Claim(ClaimTypes.Role, "AdminTwo"),
+                new Claim(DynamicPolicies.SecurityLevel, "7"),
+                new Claim("Grandma.Says", "Very nice boi."),
+            };
+
+            var licenseClaims = new List<Claim>()
+            {
+                new Claim(ClaimTypes.Name, "Bob K Foo"),
+                new Claim("DrivingLicense", "A+"),
+            };
+
+            var grandmaIdentity = new ClaimsIdentity(grandmaClaims, "Grandma Identity");
+            var licenseIdentity = new ClaimsIdentity(licenseClaims, "Government");
+
+            var userPrincipal = new ClaimsPrincipal(new[] { grandmaIdentity, licenseIdentity });
+            //-----------------------------------------------------------
+            HttpContext.SignInAsync(userPrincipal);
+
+            return RedirectToAction("Index");
+        }
+````
+
+The [ClaimsIdentity](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsidentity?view=net-6.0) class is a concrete implementation of a claims-based identity; that is, an identity described by a collection of claims. A claim is a statement about an entity made by an issuer that describes a property, right, or some other quality of that entity. Such an entity is said to be the subject of the claim. A claim is represented by the [Claim](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claim?view=net-6.0) class. The claims contained in a [ClaimsIdentity](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsidentity?view=net-6.0) describe the entity that the corresponding identity represents, and can be used to make authorization and authentication decisions. A claims-based access model has many advantages over more traditional access models that rely exclusively on roles. For example, claims can provide much richer information about the identity they represent and can be evaluated for authorization or authentication in a far more specific manner.
+
+Beginning with .NET Framework 4.5, Windows Identity Foundation (WIF) and claims-based identity have been fully integrated into the .NET Framework. This means that many classes that represent an identity in the .NET Framework now derive from [ClaimsIdentity](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsidentity?view=net-6.0) and describe their properties through a collection of claims. This is different from previous versions of the .NET Framework, in which, these classes implemented the [IIdentity](https://docs.microsoft.com/en-us/dotnet/api/system.security.principal.iidentity?view=net-6.0) interface directly. The collection of claims that describe the identity can be accessed through the [Claims](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsidentity.claims?view=net-6.0) property. The [ClaimsIdentity](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsidentity?view=net-6.0) class provides several methods for finding and modifying claims and fully supports language integrated queries (LINQ). In application code, [ClaimsIdentity](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsidentity?view=net-6.0) objects are typically accessed through [ClaimsPrincipal](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal?view=net-6.0) objects; for example, the principal returned by [Thread.CurrentPrincipal](https://docs.microsoft.com/en-us/dotnet/api/system.threading.thread.currentprincipal?view=net-6.0).
+
+ Note
+
+The [ClaimsPrincipal](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal?view=net-6.0) class has a [Claims](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal.claims?view=net-6.0) property as well. In the majority of cases you should access the user's claims through the [ClaimsPrincipal.Claims](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal.claims?view=net-6.0) collection rather than through the [Claims](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsidentity.claims?view=net-6.0) collection. You will need to access the claims of an individual [ClaimsIdentity](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsidentity?view=net-6.0) only in the cases where the principal contains more than one [ClaimsIdentity](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsidentity?view=net-6.0) and you need to evaluate or modify a specific identity.
+
+In the claims-based model, the [IIdentity.Name](https://docs.microsoft.com/en-us/dotnet/api/system.security.principal.iidentity.name?view=net-6.0) property and the [IPrincipal.IsInRole(String)](https://docs.microsoft.com/en-us/dotnet/api/system.security.principal.iprincipal.isinrole?view=net-6.0#System_Security_Principal_IPrincipal_IsInRole_System_String_) method are implemented by evaluating the claims contained by an identity. The base implementations in the claims-based model are provided by the [ClaimsIdentity.Name](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsidentity.name?view=net-6.0) property and the [ClaimsPrincipal.IsInRole](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal.isinrole?view=net-6.0) method. The [NameClaimType](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsidentity.nameclaimtype?view=net-6.0) and [RoleClaimType](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsidentity.roleclaimtype?view=net-6.0) properties enable you to specify a claim type that should be used to evaluate the claims contained by the identity when performing these operations.
+
+
+
 ### 参考资料
 
 [Authentication&Authorization in Asp.Net Core -Part 1](https://medium.com/c-sharp-progarmming/authentication-and-authorization-in-asp-net-core-part-1-188866c4115e)
