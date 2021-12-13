@@ -1,0 +1,14 @@
+
+​/api​/projectService​/PlatManage​/EditInstituTion 编辑单位(web端调用)
+/api/projectService/PlatManage/InsertInstituTion 新增单位(web调用)
+/api/projectService/PlatManage/BegInsFirstOrDefaultAsync 获取单位信息(we端调用)
+​/api​/projectService​/PlatManage​/AdminClientGetUnitTreeMenu 获取单位目录树(账号中心调用)
+/api/projectService/PlatManage/AdminClientCreateUnit 管理端创建单位(账号中心调用)
+/api/projectService/PlatManage/AdminClientEditUnit 管理端编辑单位(账号中心调用)
+/api/projectService/PlatManage/AdminClientDeleteUserDetail 删除用户(账号中心调用)
+/api/projectService/PlatManage/AdminClientInsertUserDetail 创建用户(账号中心调用)
+/api/projectService/PlatManage/AdminClientUpdateUserDetail 管理端更新用户详情(账号中心调用)
+/api/projectService/PlatManage/QueryUserAsync 查询用户(市级管理端_账号中心)
+/api/projectService/PlatManage/AdminClientGetSingleUnitInfo 获取单位信息(账号中心调用)
+
+/api/projectService/PlatManage/GetSystemUnitListDataByUserUid 选择所属单位(下拉框)(web调用)
