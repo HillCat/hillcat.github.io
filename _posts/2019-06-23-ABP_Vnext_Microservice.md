@@ -275,7 +275,7 @@ Volo.Abp.AspNetCore.Authentication.Jwtbearer；//如果需要对外公开API就�
 
 #### IIS不支持DELETE ,PUT谓词
 
-解决办法参考:[https://www.bbsmax.com/A/o75NxLwMzW/](https://www.bbsmax.com/A/o75NxLwMzW/)
+解决办法参考:[https://www.bbsmax.com/A/o75NxLwMzW/](https://www.bbsmax.com/A/o75NxLwMzW/)， 因为是本地调试，所以直接修改IIS，去掉WebDAV发布模块。重启win10即可搞定。如下：
 
 ![image-20211214104435235](/images/posts/image-20211214104435235.png)
 
@@ -286,4 +286,8 @@ Volo.Abp.AspNetCore.Authentication.Jwtbearer；//如果需要对外公开API就�
 如上，同样的两个方法，一个是在Linux上面部署，一个是本地localhost调试iis托管，出现DELETE操作405的情况。
 
 ![image-20211214104823084](/images/posts/image-20211214104823084.png)
+
+重启之后，在我们本地的API执行DELETE接口就成功了。
+
+![image-20211214105728787](/images/posts/image-20211214105728787.png)
 
