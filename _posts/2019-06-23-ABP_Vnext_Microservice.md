@@ -294,3 +294,8 @@ Volo.Abp.AspNetCore.Authentication.Jwtbearer；//如果需要对外公开API就�
 ### 前端配置注意事项
 
 ![image-20211214163856253](/images/posts/image-20211214163856253.png)
+
+### 原型设计
+
+![image-20211214193750720](/images/posts/image-20211214193750720.png)
+
