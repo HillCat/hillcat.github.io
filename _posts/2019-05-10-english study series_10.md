@@ -9,6 +9,8 @@ typora-root-url: ../
 
 上班族要积累英文阅读能力，最高效的办法还是通过“透析法”(——来至于《把你的英语用起来》一书)，通过阅读一些精心编排准备的有声书来积累2500~7000这个阶段的词汇比较快。因为成年人白天要忙工作，下班回家可能还要忙着家里的事情，一天的时间非常有限。从我自身的实践来看，我实践过美剧，大部头小说，有声书桥梁书，从各种材料的效率来说，最终我还是觉得阅读原版分级读物有声书配合anki制卡和[线词典助手](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb)是我觉得最高效的方法，特别是成年人要忙工作事业，精力特别有限，但是急需提升英文的情况下非常适合有声桥梁书。我把我的经验全部写在这个简陋的文档里面了，供有需要的人参考：《[英文原版章节书，PDF.js制卡教程](https://cs-cn.top/assets/doc/英文原版章节书PDFJS制卡教程.docx)》([直接点击下载](https://cs-cn.top/assets/doc/英文原版章节书PDFJS制卡教程.docx))。配套的视频讲解:[https://www.bilibili.com/video/BV1Bb4y1B79w?share_source=copy_web](https://www.bilibili.com/video/BV1Bb4y1B79w?share_source=copy_web)
 
+
+
 ![online_dictionary_help_2827.png](/images/posts/online_dictionary_help_2827.png)
 
 Pdf.js环境的安装，已经在上面的doc文档中详细介绍了，点击蓝色的超链接下载即可，在线词典助手的配置也主要是上面这样子，也在doc中给出了详细的说明，具体请参考上面的doc文档。目前这套方法非常重要，基本上，它帮助我把词汇量从2500提升到了9000+，并且在持续增长和巩固之中；这套方法是经得起时间检验的，并且期间我还有半年时间停止过英文的输入(没有增加新词汇量)，在这种极端恶劣的环境下，还能够有所提升，实属万幸。
@@ -46,3 +48,8 @@ Pdf.js环境的安装，已经在上面的doc文档中详细介绍了，点击�
 插件地址：[https://github.com/iamadamdev/bypass-paywalls-chrome/releases](https://github.com/iamadamdev/bypass-paywalls-chrome/releases)
 
 B站参考：[https://www.bilibili.com/video/BV1yg4y1B7qD?share_source=copy_web](https://www.bilibili.com/video/BV1yg4y1B7qD?share_source=copy_web)
+
+### 手机移动制卡终极大招
+
+参考：[https://www.bilibili.com/video/BV1V3411t7wq/](https://www.bilibili.com/video/BV1V3411t7wq/)
+
