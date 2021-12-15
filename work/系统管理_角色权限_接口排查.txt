@@ -3,7 +3,7 @@
 【系统管理-->用户管理】页面中的接口：
 http://localhost:9999/bs/api/auth/Identity/QueryUser    系统管理->用户管理 显示用户名 角色类型，备注，
 
-1发现BUG:
+
 http://localhost:9999/bs/api/auth/Identity/DeleteUser?id=28    删除用户 ,405 Method Not Allowed(删除操作无法进行) Request Method: DELETE
 
 http://localhost:9999/bs/api/bridgeService/BgeSystemSetting/GetSystemUnitListDataByUserUid  编辑用户 角色和所属单位 姓名 备注
@@ -30,23 +30,23 @@ http://localhost:9999/bs/api/bridgeService/BgeSystemSetting/GetSystemUnitListDat
 
 http://localhost:9999/bs/api/bridgeService/BgeSystemSetting/DeleteInttitutionById?id=10  删除单位
 
- 2发现BUG：区县和市级切换的时候，这里区域编号 位置始终是 市区。切换单位地域级别的时候，区域编号位置的内容没有跟着切换或者清空(属于前端BUG)
+ 可能是BUG：区县和市级切换的时候，这里区域编号 位置始终是 市区。切换单位地域级别的时候，区域编号位置的内容没有跟着切换或者清空(属于前端BUG)
 http://localhost:9999/bs/api/bridgeService/BgeIns/BegInsGetInsDataAreaCodeAsync?Type=2   下拉框获得 市级城市名区域编号
 
 【系统管理-->角色管理】：
 
 http://localhost:9999/bs/api/auth/Identity/QueryRole   显示角色列表(角色名称,角色类型,名称,创建时间,操作)
 
-3发现BUG:
+
 http://localhost:9999/bs/api/auth/Identity/DeleteRole?id=6  删除操作不被允许  HTTP 错误 405.0 - Method Not Allowed Request Method: DELETE
 
-4发现BUG:
+
 http://localhost:9999/bs/api/auth/Identity/UpdateRole  编辑角色， 操作不被允许  PUT操作 
 
 http://localhost:9999/bs/api/auth/Identity/CreateRole 创建角色，创建成功
 
-5发现BUG：
-获取角色对应的权限 和权限树数据失败：(前端直接报错)
+
+获取角色对应的权限 和权限树数据失败：
 http://localhost:9999/bs/api/projectService/SysPermission/GetAllRoleMenuPermissionList/GetAllRoleMenuPermissionList
 http://localhost:9999/bs/api/projectService/SysPermission/QueryRoleMenuPermissionList/QueryRoleMenuPermissionListById?roleId=7
 
