@@ -1,0 +1,14 @@
+            "taskid": 66,
+            "taskno": "定期检测20211216145611821",
+            "bridgeid": "10",
+            "bridgeno": "44190010",
+            "bridgename": "上角桥",//1.桥梁名称
+            "maintenanceintid": 2,
+            "maintenanceintname": "东莞市交通局",//3.管理单位
+            "checkunitid": 5,
+            "checkunitname": "第三方单位1",//4.检测单位
+            "receviceunitid": 5,
+            "receviceunitname": "第三方单位1",
+            "checkresult": "桥面损坏比较严重",//5.检测结论
+            "checkdate": "2021-12-16 00:00:00",//2.检测时间
+            "taskstatus": 3
