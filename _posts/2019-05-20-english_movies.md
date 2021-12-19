@@ -17,7 +17,7 @@ typora-root-url: ../
 
 ![overwhelming](/images/posts/overwhelming6811.png)
 
-我一个关注度比较广的就是技术类视频材料，特别是编程领域的东西，像上面这个视频是Youtube微软官方[VisualStudio频道](https://www.youtube.com/channel/UChqrDOwARrxdJF-ykAptc7w)发布的一个视频，演讲者是.net部门的老大Scott Hanselman，借助单词提示功能还是可以流畅理解的，单词的高亮提示功能免费，这些功能都来至[Language Reactor插件](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)。这其实就是高手们经常说的，英文要以你感兴趣的内容为主导去学习，这样子吸收效果最好，积累的生词或者短语也都是你自己用得到的，这样子，你就会格外注意，潜意思才会主动吸收。总之，英语是个载体，主要是用它去接触对自己有用的信息，顺带来积累单词量。如果觉得一本有声书无趣或者没什么用，就要更换材料，或者说一个视频对于你而言很难，那就要降低难度。
+我一个关注度比较广的就是技术类视频材料，特别是编程领域的东西，像上面这个视频是Youtube微软官方[VisualStudio频道](https://www.youtube.com/channel/UChqrDOwARrxdJF-ykAptc7w)发布的一个视频，演讲者是.net部门的老大Scott Hanselman，借助单词提示功能还是可以流畅理解的，单词的高亮提示功能免费，这些功能都来至[Language Reactor插件](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)。这其实就是高手们经常说的，英文要以你感兴趣的内容为主导去学习，这样子吸收效果最好，积累的生词或者短语也都是你自己用得到的，这样子，你就会格外注意，潜意思才会主动吸收。总之，英语是个载体，主要是用它去接触对自己有用的信息，顺带来积累单词量。如果觉得一本有声书无趣或者没什么用，就要更换材料，或者说一个视频对于你而言很难，那就要降低难度。材料是可以根据自己的难度和兴趣随便更换的，遵循的原则就是在一种压力较小的情况下循序渐进提升阅读和听力。
 
 备注说明：Language Reactor这个插件以前叫Learning English with Netflix，官方在2021年7月，为了统一Language Learning with Youtube 和 Language Learning with NetFlix为一个插件，把它们整合到了一起，并且重新改名为**Language Reactor** ，这个插件是同时支持Youtube和NetFlix的，非常推荐！
 
