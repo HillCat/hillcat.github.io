@@ -11,13 +11,13 @@ typora-root-url: ../
 
 ![tingli223424.png](/images/posts/tingli223424.png)
 
-至于美剧，奈飞是一个不错的选择，去淘宝上面搜索:”奈飞租用“，”奈飞合租“，就有一堆出租账号的。最普通的就是5人共享账号，月付15RMB，季付45RMB，拉一个梯子即可观看。配合[Language Reactor插件](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)，开启英文字幕，特别方便。现在奈飞学外语，已经是很多出国人士的首选方案。科学上网，对于长期学英语的人而言应该是必备的一个条件。
+至于美剧，奈飞是一个不错的选择，去淘宝上面搜索:”奈飞租用“，”奈飞合租“，就有一堆出租账号的。最普通的就是5人共享账号，月付15RMB，季付45RMB，拉一个梯子即可观看。配合[Language Reactor插件](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)，开启英文字幕，特别方便。现在奈飞学外语，已经是很多高手们把英语当作娱乐的主要手段。科学上网，对于中高水准的英语学习者应该是必备工具。很多谷歌插件，还有一些GitHub上面的安卓软件，稍微寻找外文资源基本都需要用到外网。更多的自由度意味着你可以选择更多更好的方法学英语。特别是听力提升之后，必然会要去外网看油管去实践你的听力。
 
-油管看视频也是用这个Language Reactor插件，开启google的英文字幕，Google的机翻英文字幕质量也很高，机翻的英文字幕再机翻为中文基本就完全失真了、没办法看，对于大部分油管视频，最低限度是直接看英文字幕，不要开中文，所以，看油管视频还是需要一定的听力词汇量的，习惯了听英文之后，油管是一个资讯大宝库。
+油管看视频的标配插件:Language Reactor插件，开启之后，看你自己感兴趣的内容，比如我本人就非常关注特斯拉马斯克，2021年的封面人物就是马斯克，有很多记者主持人采访过马斯克，那些节目，大家都可以看看。所以，看油管视频还是需要一定的听力词汇量的，习惯了听英文之后，油管是一个听力资源大宝库。
 
 ![overwhelming](/images/posts/overwhelming6811.png)
 
-上面这个视频是Youtube微软官方[VisualStudio频道](https://www.youtube.com/channel/UChqrDOwARrxdJF-ykAptc7w)发布的一个视频，演讲者是.net部门的老大Scott Hanselman，借助单词提示功能还是可以流畅理解的，单词的高亮提示功能免费，这些功能都来至[Language Reactor插件](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)。
+我一个关注度比较广的就是技术类视频材料，特别是编程领域的东西，像上面这个视频是Youtube微软官方[VisualStudio频道](https://www.youtube.com/channel/UChqrDOwARrxdJF-ykAptc7w)发布的一个视频，演讲者是.net部门的老大Scott Hanselman，借助单词提示功能还是可以流畅理解的，单词的高亮提示功能免费，这些功能都来至[Language Reactor插件](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)。这其实就是高手们经常说的，英文要以你感兴趣的内容为主导去学习，这样子吸收效果最好，积累的生词或者短语也都是你自己用得到的，这样子，你就会格外注意，潜意思才会主动吸收。总之，英语是个载体，主要是用它去接触对自己有用的信息，顺带来积累单词量。如果觉得一本有声书无趣或者没什么用，就要更换材料，或者说一个视频对于你而言很难，那就要降低难度。材料是可以根据自己的难度和兴趣随便更换的，遵循的原则就是在一种压力较小的情况下循序渐进提升阅读和听力。
 
 备注说明：Language Reactor这个插件以前叫Learning English with Netflix，官方在2021年7月，为了统一Language Learning with Youtube 和 Language Learning with NetFlix为一个插件，把它们整合到了一起，并且重新改名为**Language Reactor** ，这个插件是同时支持Youtube和NetFlix的，非常推荐！
 
