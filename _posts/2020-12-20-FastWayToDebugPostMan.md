@@ -16,3 +16,6 @@ typora-root-url: ../
 第二步: Import里面粘贴到Raw text
 
 ![image-20211222095634402](/images/posts/image-20211222095634402.png)
+
+Swagger里面的curl也是支持postman直接粘贴RawText形式的。
+
