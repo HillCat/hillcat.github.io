@@ -26,7 +26,7 @@ typora-root-url: ../
 
 ### 一词多义现象
 
-anki的重复制卡，可以反复搜集同一个单词上下文用来制卡。重复的越多，这个单词的复习的频率也会越高。有些单词常见的意思会有5~6种。这种重复制卡，主要是解决四六级单词中那些高频一词多义的情况。
+anki的重复制卡，可以反复搜集同一个单词上下文用来制卡。重复的越多，这个单词的场景频率也会越高。有些单词常见的意思会有5~6种。这种重复制卡，主要是解决四六级单词中那些高频一词多义的情况。
 
 <img src="https://cs-cn.top/images/posts/dumplicate53321.png"/>
 
@@ -52,7 +52,7 @@ lift这个词，2年多来，我也只收集了下面这4种场景，英语的�
 
 <img src="https://cs-cn.top//images/posts/matt_japan.png"/>
 
-Matt是美国人，他通过5年时间精通了日语，他用的方法就是二语习得，他的方法是通过看日本动画片和电视剧去学习日语。这种方法不是最快的，但成长过程中的体会，值得一看：[https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg](https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg)。
+Matt是美国人，他通过5年时间精通了日语，他用的方法就是二语习得，他的方法是通过看日本动画片和电视剧去学习日语。这种方法不是最快的，但他分享的经验非常值得一看，其实能够听懂他分享的内容，这本身就是学习英文的意义——与世界交流，获取他人成功经验。Matt的经验非常值得一看：[https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg](https://www.youtube.com/channel/UCpf4BknRWAjb_oYIHoMDGVg)。前提是你有一定的听力词汇量，开着英文字幕能够听懂他讲的内容。英文能力对于探索未知领域，接触世界上优质资源有着极其重要的意义。
 
 Matt跟 `斯蒂芬.克拉申` 老爷子在Matt的Youtube频道做过一期访谈节目，是Matt邀请克拉申讨论怎么学好一门外语，从Matt的实践经验来看，他的分享还是很有参考价值。需要强调的是，本人这种方法不是最快的方法，相反可能是那种缓慢提升英语的方法，但不会造成特别大的压力，也不用背单词。如果要更快的提升词汇量，需要结合背单词 + 阅读原版书一起进行。
 
