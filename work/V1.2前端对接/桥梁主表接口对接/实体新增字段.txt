@@ -1,0 +1,68 @@
+/// <summary>
+        /// 通航水位(v1.2新增字段) 
+        /// </summary>
+        [Column("navigalble_water_level")]
+        [SugarColumn(ColumnName = "navigalble_water_level")]
+        public decimal? NavigalbleWaterLevel { get; set; }
+
+        /// <summary>
+        /// 设计水位(v1.2新增字段) 
+        /// </summary>
+        [Column("design_water_level")]
+        [SugarColumn(ColumnName = "design_water_level")]
+        public decimal? DesignWaterLevel { get; set; }
+        /// <summary>
+        /// 路面限高(v1.2新增字段) 
+        /// </summary>
+        [Column("road_height_limit")]
+        [SugarColumn(ColumnName = "road_height_limit")]
+        public decimal? RoadHeightLimit { get; set; }
+        /// <summary>
+        /// 资金来源(v1.2新增字段) 
+        /// </summary>
+        [Column("fund_from")]
+        [SugarColumn(ColumnName = "fund_from")]
+        public string FundFrom { get; set; }
+        /// <summary>
+        /// 墩台类型(v1.2新增字段) 
+        /// </summary>
+        [Column("pier_type")]
+        [SugarColumn(ColumnName = "pier_type")]
+        public string PierType { get; set; }
+        /// <summary>
+        /// 限宽(v1.2新增字段) 
+        /// </summary>
+        [Column("width_limit")]
+        [SugarColumn(ColumnName = "width_limit")]
+        public decimal? WidthLimit { get; set; }
+        /// <summary>
+        /// 限高(v1.2新增字段) 
+        /// </summary>
+        [Column("height_limit")]
+        [SugarColumn(ColumnName = "height_limit")]
+        public decimal? HeightLimit { get; set; }
+        /// <summary>
+        /// 限载(v1.2新增字段) 
+        /// </summary>
+        [Column("load_limit")]
+        [SugarColumn(ColumnName = "load_limit")]
+        public string LoadLimit { get; set; }
+        /// <summary>
+        /// 有无扩建,1有,0无(v1.2新增字段) 
+        /// </summary>
+        [Column("is_expand")]
+        [SugarColumn(ColumnName = "is_expand")]
+        public int? IsExpand { get; set; }
+        /// <summary>
+        /// 建造日期(v1.2新增字段) 
+        /// </summary>
+        [Column("build_date")]
+        [SugarColumn(ColumnName = "build_date")]
+        public DateTime? BuildDate { get; set; }
+
+        /// <summary>
+        /// 工程造价(v1.2新增字段) 
+        /// </summary>
+        [Column("construction_price", TypeName = "decimal(10,2)")]
+        public decimal? ConstructionPrice { get; set; }
+		

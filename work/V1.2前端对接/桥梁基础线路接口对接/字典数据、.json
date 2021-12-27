@@ -1,0 +1,296 @@
+{
+    "data": {
+        "id": 27,
+        "name": "桥梁基础信息",
+        "field_name": "bge_info_id",
+        "child": [
+            {
+                "id": 2,
+                "name": "跨越类型",
+                "en_name": "cross_type",
+                "child": [
+                    {
+                        "id": 5,
+                        "data_en_name": "rivers",
+                        "data_name": "江河"
+                    },
+                    {
+                        "id": 6,
+                        "data_en_name": "river",
+                        "data_name": "河涌"
+                    },
+                    {
+                        "id": 7,
+                        "data_en_name": "railway",
+                        "data_name": "铁路"
+                    },
+                    {
+                        "id": 8,
+                        "data_en_name": "road",
+                        "data_name": "道路"
+                    },
+                    {
+                        "id": 9,
+                        "data_en_name": "buildings",
+                        "data_name": "建筑物"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "功能类型",
+                "en_name": "function_type",
+                "child": [
+                    {
+                        "id": 16,
+                        "data_en_name": "river_bridge",
+                        "data_name": "跨江河桥"
+                    },
+                    {
+                        "id": 17,
+                        "data_en_name": "river_bridge",
+                        "data_name": "跨河涌桥"
+                    },
+                    {
+                        "id": 18,
+                        "data_en_name": "railway_buidge",
+                        "data_name": "跨铁路桥"
+                    },
+                    {
+                        "id": 19,
+                        "data_en_name": "overpass",
+                        "data_name": "立交桥"
+                    },
+                    {
+                        "id": 20,
+                        "data_en_name": "viaduct",
+                        "data_name": "高架桥"
+                    },
+                    {
+                        "id": 21,
+                        "data_en_name": "Pedestrian_buidge",
+                        "data_name": "人行天桥"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "参与单位",
+                "en_name": "detInstitiution",
+                "child": [
+                    {
+                        "id": 40,
+                        "data_en_name": "owner_unit",
+                        "data_name": "业主单位"
+                    },
+                    {
+                        "id": 41,
+                        "data_en_name": "management_unit",
+                        "data_name": "管理单位"
+                    },
+                    {
+                        "id": 43,
+                        "data_en_name": "\ndesign_unit",
+                        "data_name": "设计单位"
+                    },
+                    {
+                        "id": 44,
+                        "data_en_name": "",
+                        "data_name": "施工单位"
+                    },
+                    {
+                        "id": 45,
+                        "data_en_name": "",
+                        "data_name": "监理单位"
+                    },
+                    {
+                        "id": 46,
+                        "data_en_name": "",
+                        "data_name": "建设单位"
+                    },
+                    {
+                        "id": 47,
+                        "data_en_name": "",
+                        "data_name": "归档单位"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "桥梁现状",
+                "en_name": "bge_status",
+                "child": [
+                    {
+                        "id": 48,
+                        "data_en_name": "current",
+                        "data_name": "通行"
+                    },
+                    {
+                        "id": 49,
+                        "data_en_name": "service",
+                        "data_name": "维修"
+                    },
+                    {
+                        "id": 50,
+                        "data_en_name": "close",
+                        "data_name": "关闭"
+                    },
+                    {
+                        "id": 51,
+                        "data_en_name": "retired",
+                        "data_name": "退役"
+                    },
+                    {
+                        "id": 53,
+                        "data_en_name": "weight_limit",
+                        "data_name": "限载"
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "name": "道路等级",
+                "en_name": "road_grade",
+                "child": [
+                    {
+                        "id": 91,
+                        "data_en_name": null,
+                        "data_name": "城市快速路"
+                    },
+                    {
+                        "id": 92,
+                        "data_en_name": null,
+                        "data_name": "城市主干路"
+                    },
+                    {
+                        "id": 93,
+                        "data_en_name": null,
+                        "data_name": "城市次干路"
+                    },
+                    {
+                        "id": 94,
+                        "data_en_name": null,
+                        "data_name": "城市支路和街坊路"
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "name": "桥梁类型",
+                "en_name": "bge_type",
+                "child": [
+                    {
+                        "id": 104,
+                        "data_en_name": null,
+                        "data_name": "特大桥"
+                    },
+                    {
+                        "id": 105,
+                        "data_en_name": null,
+                        "data_name": "大桥"
+                    },
+                    {
+                        "id": 106,
+                        "data_en_name": null,
+                        "data_name": "中桥"
+                    },
+                    {
+                        "id": 107,
+                        "data_en_name": null,
+                        "data_name": "小桥"
+                    },
+                    {
+                        "id": 108,
+                        "data_en_name": null,
+                        "data_name": "涵洞"
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "name": "主桥结构类型",
+                "en_name": "struct_type",
+                "child": [
+                    {
+                        "id": 166,
+                        "data_en_name": "simply_buidge",
+                        "data_name": "简支梁桥"
+                    },
+                    {
+                        "id": 167,
+                        "data_en_name": "continuous_buidge",
+                        "data_name": "连续梁桥"
+                    },
+                    {
+                        "id": 168,
+                        "data_en_name": "cantilever_buidge",
+                        "data_name": "悬臂梁桥"
+                    },
+                    {
+                        "id": 169,
+                        "data_en_name": "group_buidge",
+                        "data_name": "组合梁桥"
+                    },
+                    {
+                        "id": 170,
+                        "data_en_name": "steel_buidge",
+                        "data_name": "钢架桥"
+                    },
+                    {
+                        "id": 171,
+                        "data_en_name": "shaped_buidge",
+                        "data_name": "T型刚构桥"
+                    }
+                ]
+            },
+            {
+                "id": 49,
+                "name": "管辖类型",
+                "en_name": "manager_area_type",
+                "child": [
+                    {
+                        "id": 242,
+                        "data_en_name": null,
+                        "data_name": "市管"
+                    },
+                    {
+                        "id": 243,
+                        "data_en_name": null,
+                        "data_name": "区管"
+                    }
+                ]
+            },
+            {
+                "id": 50,
+                "name": "建设类型",
+                "en_name": "building_type",
+                "child": [
+                    {
+                        "id": 244,
+                        "data_en_name": null,
+                        "data_name": "新建"
+                    },
+                    {
+                        "id": 245,
+                        "data_en_name": null,
+                        "data_name": "大修"
+                    },
+                    {
+                        "id": 246,
+                        "data_en_name": null,
+                        "data_name": "中修"
+                    },
+                    {
+                        "id": 247,
+                        "data_en_name": null,
+                        "data_name": "改扩建"
+                    }
+                ]
+            }
+        ]
+    },
+    "succeed": true,
+    "code": "200",
+    "msg": "获取字典成功!",
+    "timeticks": 1640584991027
+}

@@ -1,0 +1,75 @@
+        /// <summary>
+        /// 桥头路名(v1.2新增字段) 
+        /// </summary>
+        [Column("head_road_name", TypeName = "varchar(50)")]
+        public string HeadRoadName { get; set; }
+        /// <summary>
+        /// 桥尾路名(v1.2新增字段) 
+        /// </summary>
+        [Column("tail_road_name", TypeName = "varchar(50)")]
+        public string TailRoadName { get; set; }
+        /// <summary>
+        /// 曲线半径(v1.2新增字段) 
+        /// </summary>
+        [Column("curve_radius", TypeName = "decimal(10,2)")]
+        public decimal? CurveRadius { get; set; }
+        /// <summary>
+        /// 车道数量(v1.2新增字段) 
+        /// </summary>
+        [Column("lane_count", TypeName = "decimal(10,2)")]
+        public decimal? LaneCount { get; set; }
+        /// <summary>
+        /// 限载(v1.2新增字段) 
+        /// </summary>
+        [Column("load_limit", TypeName = "varchar(20)")]
+        public string LoadLimit { get; set; }
+        /// <summary>
+        /// 限宽(v1.2新增字段) 
+        /// </summary>
+        [Column("width_limit", TypeName = "decimal(10,2)")]
+        public decimal? WidthLimit { get; set; }
+        /// <summary>
+        /// 限高(v1.2新增字段) 
+        /// </summary>
+        [Column("height_limit", TypeName = "decimal(10,2)")]
+        public decimal? HeightLimit { get; set; }
+        /// <summary>
+        /// 限速(v1.2新增字段) 
+        /// </summary>
+        [Column("speed_limit", TypeName = "decimal(10,2)")]
+        public decimal? SpeedLimit { get; set; }
+        /// <summary>
+        /// 步梯数量(v1.2新增字段) 
+        /// </summary>
+        [Column("step_ladder_count", TypeName = "int(11)")]
+        public int? StepLadderCount { get; set; }
+        /// <summary>
+        /// 桥面横坡坡度(v1.2新增字段) 
+        /// </summary>
+        [Column("cross_slope_grade", TypeName = "varchar(50)")]
+        public string CrossSlopeGrade { get; set; }
+        /// <summary>
+        /// 桥面纵坡坡度(v1.2新增字段) 
+        /// </summary>
+        [Column("vertical_slope_grade", TypeName = "varchar(50)")]
+        public string VerticalSlopeGrade { get; set; }
+        /// <summary>
+        /// 引道长度(v1.2新增字段) 
+        /// </summary>
+        [Column("lead_road_length", TypeName = "decimal(10,2)")]
+        public decimal? LeadRoadLength { get; set; }
+        /// <summary>
+        /// 引桥桥纵坡坡度(v1.2新增字段) 
+        /// </summary>
+        [Column("lead_bge_vertical_grade", TypeName = "varchar(50)")]
+        public string LeadBgeVerticalGrade { get; set; }
+        /// <summary>
+        /// 备注(v1.2新增字段) 
+        /// </summary>
+        [Column("remark", TypeName = "varchar(255)")]
+        public string Remark { get; set; }
+		
+		
+		
+		
+	

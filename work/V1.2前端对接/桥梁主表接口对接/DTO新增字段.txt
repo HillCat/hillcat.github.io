@@ -1,0 +1,25 @@
+ /// <summary>
+        /// 有无扩建，1有，0无(v1.2新增字段)
+        /// </summary>
+        public int? Is_Expand { get; set; }
+
+        /// <summary>
+        /// 建造日期(v1.2新增字段)
+        /// </summary>
+        public DateTime? Build_Date { get; set; }
+        /// <summary>
+        /// 工程造价(万元)
+        /// </summary>
+        public decimal? construction_price { get; set; }
+		
+		
+        /// <summary>
+        /// 管辖类型(v1.2新增字段)（市管，区管）
+        /// </summary>
+        public int? manager_area_type { get; set; }
+        /// <summary>
+        /// 建设类型(v1.2新增字段)（新建，大修，中修，改扩建）
+        /// </summary>
+        public int? building_type { get; set; }
+		
+		
