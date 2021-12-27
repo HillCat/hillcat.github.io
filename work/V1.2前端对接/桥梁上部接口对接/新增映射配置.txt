@@ -1,0 +1,2 @@
+             .ForMember(f => f.ConstructionPrice, n => n.MapFrom(d=>d.construction_price))
+			 

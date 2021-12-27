@@ -1,1 +1,3 @@
-building_type: 23
+UpdateBgeLinAsync
+
+ var bgeLine = ObjectMapper.Map<UpdateBgeLineDto, Bge_Line_Info>(updateBgeLineDto);
