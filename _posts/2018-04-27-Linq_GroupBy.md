@@ -14,3 +14,4 @@ typora-root-url: ../
 
 [参考](https://docs.microsoft.com/en-us/dotnet/csharp/linq/group-query-results)
 
+![image-20211229011525603](/images/posts/image-20211229011525603.png)
