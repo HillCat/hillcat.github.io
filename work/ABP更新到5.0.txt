@@ -1,0 +1,188 @@
+第一步需阅读：https://github.com/abpframework/abp/blob/dev/docs/en/Migration-Guides/Abp-5_0.md
+
+【App升级ABP 5.0】
+
+升级ABP版本号
+	运行 abp update --nuget （EasyAbp模块不需要，改为修改$(AbpVersion)到5.0.1即可）
+	运行 abp update --npm
+	升级完后全局搜索旧版本号（如4.4.0），因为有时升级器会漏掉一些项目
+
+net5.0改net6.0 https://github.com/abpframework/abp/pull/9700
+
+微软家族库5.0.*改6.0.* https://github.com/abpframework/abp/pull/9700
+
+删除 PreserveCompilationContext https://github.com/abpframework/abp/pull/9700
+
+移除所有 app.UseErrorPage(); https://github.com/abpframework/abp/pull/9633/files
+
+Hangfire 现在可鉴权 https://github.com/abpframework/abp/pull/9704/files
+
+ing事件改ed，原ed事件明确在事务内执行 https://github.com/abpframework/abp/pull/9909/files
+	搜索 ILocalEventHandler
+
+应用的host（及unified结构的web）层需引用所有已装模块的httpapi层 https://github.com/abpframework/abp/pull/9905/files
+
+“tiered结构”的Web不引用自身Api层，改引用Contracts层 https://github.com/abpframework/abp/pull/9905/files
+
+“tiered结构”的Web增加引用AbpHttpClientWebModule模块 https://github.com/abpframework/abp/pull/10137/files
+
+Client层增加配置 https://github.com/abpframework/abp/issues/9864
+  <ItemGroup>
+    <EmbeddedResource Include="**\*generate-proxy.json" />
+    <Content Remove="**\*generate-proxy.json" />
+  </ItemGroup>
+
+Client层增加配置 https://github.com/abpframework/abp/issues/9864
+	Configure<AbpVirtualFileSystemOptions>(options =>
+	{
+		options.FileSets.AddEmbedded<MyProjectNameHttpApiClientModule>();
+	});
+
+模块仓储Config不再支持传入配置，应修改静态属性值 https://github.com/abpframework/abp/issues/8887
+
+异步启动 https://github.com/abpframework/abp/pull/11074/files
+	替换 AbpApplicationFactory.Create<
+		为 await AbpApplicationFactory.CreateAsync<
+	替换 application.Initialize();
+		为 await application.InitializeAsync();
+	替换 application.Shutdown();
+		为 await application.ShutdownAsync();
+
+升级周边库版本 https://github.com/abpframework/abp/pull/10077/files
+	Fody -> 6.5.3
+	Serilog.Sinks.Async -> 1.5.0
+	Serilog.Sinks.Console -> 4.0.0
+	Serilog.Sinks.File -> 5.0.0
+	Microsoft.NET.Test.Sdk -> 16.11.0
+	Mongo2Go -> 3.1.3
+	Blazorise* -> 0.9.5
+
+移除CAP模块，安装官方rabbitmq模块 https://github.com/abpframework/abp/pull/10008
+
+更新ABP控制器基类名 https://github.com/abpframework/abp/pull/10198/files
+	替换 : AbpController
+		为 : AbpControllerBase
+
+更新到BS5 https://github.com/abpframework/abp/pull/9877/files
+	替换 Include="Blazorise.Bootstrap"
+		为 Include="Blazorise.Bootstrap5"
+	替换 using Blazorise.Bootstrap;
+		为 using Blazorise.Bootstrap5;
+	替换 AddBootstrapProviders
+		为 AddBootstrap5Providers
+	替换 text-right （筛选只替换 .cshtml）
+		为 text-end （注意检查，只替换样式名称，不要替换了无关代码）
+
+执行Db Migration https://github.com/abpframework/abp/blob/dev/docs/en/Migration-Guides/Abp-5_0.md
+	dotnet ef migrations add UpgradedToAbp5
+	修改用户IsActive的defaultValue为true
+	dotnet ef database update
+
+(按需)生成静态C#和JS代理，并在页面的.js文件引入代理 https://github.com/abpframework/abp/issues/9864
+	abp generate-proxy --type csharp --url https://localhost:xxxx
+	<abp-script src="/client-proxies/xxxx-proxy.js" />
+
+由于Rider的单元测试在.NET6与Fody有兼容问题
+	删除所有测试项目的 <Import Project="..\..\common.props" />
+	执行测试查看是否通过
+
+
+
+
+
+【Module升级ABP 5.0】
+
+升级ABP版本号
+	运行 abp update --nuget （EasyAbp模块不需要，改为修改$(AbpVersion)到5.0.1即可）
+	运行 abp update --npm
+	升级完后全局搜索旧版本号（如4.4.0），因为有时升级器会漏掉一些项目
+
+net5.0改net6.0，EF的netstandard2.1改net6.0 https://github.com/abpframework/abp/pull/9700
+
+微软家族库5.0.*改6.0.* https://github.com/abpframework/abp/pull/9700
+
+删除 PreserveCompilationContext https://github.com/abpframework/abp/pull/9700
+
+ing事件改ed，原ed事件明确在事务内执行 https://github.com/abpframework/abp/pull/9909/files
+	搜索 ILocalEventHandler
+
+Web.Unified需引用所有已装模块的httpapi层 https://github.com/abpframework/abp/pull/9905/files
+
+Web.Unified需引用自身httpapi层 https://github.com/abpframework/abp/pull/9905/files
+
+Web.Host增加引用Volo.Abp.Http.Client.Web模块 https://github.com/abpframework/abp/pull/10137/files
+
+Web不引用自身Api层，改引用 Application.Contracts 层 https://github.com/abpframework/abp/pull/9905/files
+
+Client层增加配置 https://github.com/abpframework/abp/issues/9864
+  <ItemGroup>
+    <EmbeddedResource Include="**\*generate-proxy.json" />
+    <Content Remove="**\*generate-proxy.json" />
+  </ItemGroup>
+
+Client层增加配置 https://github.com/abpframework/abp/issues/9864
+	Configure<AbpVirtualFileSystemOptions>(options =>
+	{
+		options.FileSets.AddEmbedded<MyProjectNameHttpApiClientModule>();
+	});
+
+升级周边库版本 https://github.com/abpframework/abp/pull/10077/files
+	Fody -> 6.5.3
+	Serilog.Sinks.Async -> 1.5.0
+	Serilog.Sinks.Console -> 4.0.0
+	Serilog.Sinks.File -> 5.0.0
+	Microsoft.NET.Test.Sdk -> 16.11.0
+	Mongo2Go -> 3.1.3
+	Blazorise* -> 0.9.5
+
+更新ABP控制器基类名 https://github.com/abpframework/abp/pull/10198/files
+	替换 : AbpController
+		为 : AbpControllerBase
+
+控制器使用Area为模块命名 https://github.com/abpframework/abp/pull/10370/files
+	增加 MyProjectRemoteServiceConsts.ModuleName，值为小驼峰模块名：easyAbpEShop / easyAbpAbpGralphQL
+	如果没有常量类，在Contracts层建：https://github.com/abpframework/abp/blob/e3e1779de6df5d26f01cdc8e99ac9cbcb3d24d3c/templates/module/aspnet-core/src/MyCompanyName.MyProjectName.Application.Contracts/MyProjectNameRemoteServiceConsts.cs
+	控制器“基类”设置特性 [Area(MyProjectRemoteServiceConsts.ModuleName)]
+	ClientModule文件的配置、所有控制器的Attribute，使用MyProjectRemoteServiceConsts.ModuleName作远程服务名
+
+更新到BS5 https://github.com/abpframework/abp/pull/9877/files
+	替换 Include="Blazorise.Bootstrap"
+		为 Include="Blazorise.Bootstrap5"
+	替换 using Blazorise.Bootstrap;
+		为 using Blazorise.Bootstrap5;
+	替换 AddBootstrapProviders
+		为 AddBootstrap5Providers
+	替换 text-right （筛选只替换 .cshtml）
+		为 text-end （注意检查，只替换样式名称，不要替换了无关代码）
+
+BlazorHost/IDS/WebUnified项目执行Db Migration https://github.com/abpframework/abp/blob/dev/docs/en/Migration-Guides/Abp-5_0.md
+	dotnet ef migrations add UpgradedToAbp5
+	修改用户IsActive的defaultValue为true
+	dotnet ef database update
+
+common.props 修改模块新版本号
+
+**！注意！EasyAbp暂时跳过此条，本次更新继续使用动态JS代理**
+生成静态C#和JS代理，并在页面的.js文件引入代理 https://github.com/abpframework/abp/issues/9864
+	abp generate-proxy --type csharp --module easyAbpXxxx --url https://localhost:xxxx
+	<abp-script src="/client-proxies/xxxx-proxy.js" />
+
+由于Rider的单元测试在.NET6与Fody有兼容问题
+	删除所有测试项目的 <Import Project="..\..\common.props" />
+	执行测试查看是否通过
+
+(easyabp额外步骤)修改azure-pipelines.yml
+	替换 '5.x'
+		为 '6.x'
+
+(easyabp额外步骤)修改DEMO项目（可能是Web.Unified，可能是独立SampleApp）Dockerfile
+	替换 :5.0
+		为 :6.0
+
+(easyabp额外步骤)复制新的publish.yml覆盖/.github/workflows/publish.yml
+
+(easyabp额外步骤)在README.md的badge图标栏“GitHub stars前”增加一行discord入口
+	[![Discord online](https://badgen.net/discord/online-members/S6QaezrCRq?label=Discord)](https://discord.gg/S6QaezrCRq)
+
+(easyabp额外步骤)提交Commit到Github，触发EasyAbp自动更新
+	Upgrade to ABP 5.0.1
