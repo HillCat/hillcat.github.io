@@ -21,7 +21,8 @@ Cannot resolve parameter 'GDBS.BridgeService.Application.Contracts.BgeSurfaceDev
    at Autofac.Core.Resolving.InstanceLookup.CreateInstance(IEnumerable`1 parameters)
 ```
 
-第二种，就是没有设置DbSet；这个也是很容易被忽略的。
+第二种，就是没有设置DbSet；这个也是很容易被忽略的。如果没有设置Dbset，那么会报错提示类似Int32找不到。
 
 ![image-20211231170918313](/images/posts/image-20211231170918313.png)
 
+![image-20211231171629493](/images/posts/image-20211231171629493.png)
