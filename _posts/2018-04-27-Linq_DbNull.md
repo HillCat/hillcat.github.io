@@ -10,3 +10,5 @@ typora-root-url: ../
 
 ![image-20220105155033557](/images/posts/image-20220105155033557.png)
 
+上面的代码仍然还是无法解决DbNull无法转为int类型的报错问题。
+
