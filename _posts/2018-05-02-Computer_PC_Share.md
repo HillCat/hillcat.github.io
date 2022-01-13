@@ -10,11 +10,7 @@ typora-root-url: ../
 
 ### 配置1
 
-<img src="https://cs-cn.top/images/posts/win_863.png"/>
-
-处理器: i7-10700   8核16线程   价格：2229；
-
-对比：[十一代i7 11700 2299](https://item.jd.com/100018204790.html?cu=true)  
+![image-20220112003626052](/images/posts/image-20220112003626052.png)
 
 与这个i7配置更好的AMD方案配置如下：R7-5700G方案。作为写代码的生产力主机，问题不大。
 
