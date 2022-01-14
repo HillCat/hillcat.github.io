@@ -7,7 +7,11 @@
     </Header>
     <Snippet>
       <Code Language="CSharp">
-        <![CDATA[String.Format("Value: {0:P2}.", 0.8526)]]>
+        <![CDATA[ foreach (var child in excleDtoList)
+            {
+                double persent = (double)child.Count / totalSum;
+                child.Percentage = persent.ToString("0.0%");
+            }]]>
       </Code>
     </Snippet>
   </CodeSnippet>
