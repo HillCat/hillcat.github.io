@@ -8,8 +8,8 @@
     <Snippet>
       <Code Language="CSharp">
         <![CDATA[var mapper = ExcleHelper.GetNpoiMapper();
-            var stream = new MemoryStream();
-            //将students集合生成的Excel直接放置到Stream中
+            await using var stream = new MemoryStream();
+            //将List集合生成的Excel直接放置到Stream中
             mapper.Save(stream, students, "sheet1");
 
             return await Task.FromResult(stream);]]>

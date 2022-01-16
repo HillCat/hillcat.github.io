@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ExportExcleToFile</Title>
+      <Shortcut>exportexclefile</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[[HttpPost("ExportUnsafeBridgeExcleAsync")]
+        public async Task<FileContentResult> ExportUnsafeBridgeExcleAsync([FromBody] List<int> ids)
+        {
+            await using var stream = await _ibridgeDangerService.ExportUnsafeBridgeExcleAsync(ids);
+            return File(stream.ToArray(), ExcleHelper.XlsxContentType(), ExcleHelper.XlsxFileName("危桥列表数据"));
+
+        }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
+
+
+
+		
