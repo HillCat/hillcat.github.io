@@ -82,4 +82,6 @@ typora-root-url: ../
 
 ![image-20211125183432426](/images/posts/image-20211125183432426.png)
 
+![image-20220116131500195](/images/posts/image-20220116131500195.png)
+
 其实Todo是对于将要做的任务进行标记，如果团队中其他人也喜欢使用Todo的话，会干扰到你自己的工作，Task List中会列出来一堆Todo，都不知道现在正在做的代码是哪些，其实可以自定义一个doing标记，并且Priority为High，高优先级用感叹号表示，并且标记为doing.那么在开发的时候，就可以把自己正在开发的代码标记为doing，后面一定要加空格，那么在开发的时候就一目了然，不需要到处去找代码。CodeSnippet 结合 TaskList可以避免到处翻页查找代码的尴尬，可以避免visual studio少开几个页面，减少电脑内存占用，提升vs响应速度。
