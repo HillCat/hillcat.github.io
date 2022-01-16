@@ -7,7 +7,7 @@ keywords: Git使用技巧
 typora-root-url: ../
 ---
 
-Git工具使用。
+Git工具使用。以下是Git回退到某个commit的版本。
 
 ![image-20211230024243026](/images/posts/image-20211230024243026.png)
 

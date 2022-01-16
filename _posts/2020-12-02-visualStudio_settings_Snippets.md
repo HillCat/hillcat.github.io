@@ -70,3 +70,16 @@ typora-root-url: ../
 
 ![image-20211205195712517](/images/posts/image-20211205195712517.png)
 
+### Task List
+
+除了使用code snippet可以加快开发速度和便捷度，常用的代码段和经典的demo也可以做成code snippet。另外还可以结合Task List 进一步管理代码开发进度，使得自己正在进行中的代码任务可以清晰可见，
+
+参考：[https://docs.microsoft.com/en-us/visualstudio/ide/using-the-task-list?view=vs-2022](https://docs.microsoft.com/en-us/visualstudio/ide/using-the-task-list?view=vs-2022)
+
+在visual studio 2019中 view菜单中打开task list，可以查看到我们平时标记的TODO列表，而这个地方还可以自定义BUG等自己的标记，打开Task List的时候就可以看到一些代码的位置，提升我们对于待办项的管理能力，防止漏掉TODO或者BUG。
+
+![image-20211125183343042](/images/posts/image-20211125183343042.png)
+
+![image-20211125183432426](/images/posts/image-20211125183432426.png)
+
+其实Todo是对于将要做的任务进行标记，如果团队中其他人也喜欢使用Todo的话，会干扰到你自己的工作，Task List中会列出来一堆Todo，都不知道现在正在做的代码是哪些，其实可以自定义一个doing标记，并且Priority为High，高优先级用感叹号表示，并且标记为doing.那么在开发的时候，就可以把自己正在开发的代码标记为doing，后面一定要加空格，那么在开发的时候就一目了然，不需要到处去找代码。CodeSnippet 结合 TaskList可以避免到处翻页查找代码的尴尬，可以避免visual studio少开几个页面，减少电脑内存占用，提升vs响应速度。
