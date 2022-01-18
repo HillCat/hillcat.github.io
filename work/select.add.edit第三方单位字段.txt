@@ -1,0 +1,37 @@
+单位列表
+{
+      "instCode": null,//③统一社会信用代码
+      "corporateRepresent": null,//④法人代表
+      "instAtt": 0,
+      "instAdd": "顺丰路1号",//⑨单位地址
+      "instAttName": "",//⑤单位类型
+      "corporate_certificate_number": null,//⑧身份证号码
+      "corporate_phone": null,
+      "id": 30,//②单位Id
+      "unitName": "第三方单位_单位名称test0117",//①单位名称
+      "areaCode": "120101",
+      "areaName": "和平区",
+      "unitPhone": null,
+      "contactName": "李四",//⑥联系人
+      "contactNumber": "13512365487",//⑦联系方式
+      "createTime": "2022-01-17 11:41:10",
+      "instRegional": 3
+    },
+
+
+
+新建/编辑单位
+"unitName": "第三方单位_单位名称test0117",//①单位名称
+"instCode": null,//③统一社会信用代码
+ "corporateRepresent": null,//④法人代表
+  "contactName": "李四",//⑥联系人
+ "corporate_certificate_number": null,//⑧身份证号码
+ "contactNumber": "13512365487",//⑦手机号码
+"areaCode": "120101", //所在地区
+"instAdd": "顺丰路1号",//⑨单位详情地址
+ "instAttName": "",//⑤单位类型
+
+新建用户
+
+
+
