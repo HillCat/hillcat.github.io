@@ -33,5 +33,29 @@
 
 新建用户
 
+姓名   userTrueName (sys_user_details)
+手机号码 phone (sys_user_details)
+岗位职称 displayposition (sys_user_details)
+系统账号名称  user_name       (sys_user)
+预设登陆密码    user_pwd     (sys_user)
+---以下是非必填---
+所属单位 int_id (sys_user)
+创建时间 create_time (sys_user)
+可否使用 enable  (sys_user)
+最近一次修改密码时间 last_modify_pwd_date  (sys_user)
+性别 sex (sys_user)
+
+预设登陆密码，在再次登陆的时候，这个密码在哪里修改？
+暂时调用03服务创建第三方用户
+
+account 用户姓名 (sys_user)
+
+
+创建用户调用：
+CreateUserAsync
+http://81.70.158.167:8089/swagger/index.html
+平台自己创建用户(包括以上所有字段)
+
+删除用户 DeleteUserAsync
 
 
