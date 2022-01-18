@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>HttpClientGetPost</Title>
+      <Shortcut>httpclientgetpost</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[             {  const string getUserByUnitId = "/api/auth/Identity/GetUnitAllUsersByUnitId/GetUnitAllUsersByUnitId";
+                const string forbiddenUser = "/api/auth/Identity/BatchUpdateUserIsValid/BatchUpdateUserIsValid";
+                var unitIdPara = new Dictionary<string, object>
+                    {
+                        { "unitId", id },
+                       
+                    };
+
+                var data = await HttpClientHelper.GetAsync<OutputDto<List<GetUnitUsersDto>>>(_httpClientFactory, _httpContext.HttpContext, getUserByUnitId, PlatFormEnum.AuthService, unitIdPara);
+                if (data.Succeed && data.Code == "200")
+                {
+                    var count = data.Data.Count;
+                    var dataObj = data.Data;
+                    var userIds = new List<int>();
+                    if (count >0)
+                    {
+                        for (var i = 0; i < count; i++)
+                        {
+                            userIds.Add(dataObj[i].Id);
+                        }
+                    }
+                    var userParam = new Dictionary<string, object>
+                    {
+                        { "userIds", userIds },
+                        { "isValid",0},
+                    };
+                    var result = await HttpClientHelper.PostAsync<OutputDto>(_httpClientFactory, _httpContext.HttpContext, forbiddenUser, PlatFormEnum.AuthService, userParam);
+                    if (result.Succeed && data.Code == "200")
+                    {
+                        return OutputDto.ToResult("操作成功");
+                    }
+                    return OutputDto.ToResultFail("远程调用BatchUpdateUserIsValid失败!");
+                }
+                //操作失败回滚
+                companyEntity.Info_Valid = 0;
+                companyEntity.Info_Update_Time = DateTime.Now;
+                await _instituTionsRepository.UpdateAsync(companyEntity);
+			 return OutputDto.ToResultFail("远程调用GetUnitAllUsersByUnitId失败!");
+			 }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
+
+
+
+		
