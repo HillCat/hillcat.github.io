@@ -38,6 +38,10 @@
                     {
                         return OutputDto.ToResult("操作成功");
                     }
+					//操作失败回滚
+                    companyEntity.Info_Valid = 0;
+                    companyEntity.Info_Update_Time = DateTime.Now;
+                    await _instituTionsRepository.UpdateAsync(companyEntity);
                     return OutputDto.ToResultFail("远程调用BatchUpdateUserIsValid失败!");
                 }
                 //操作失败回滚
