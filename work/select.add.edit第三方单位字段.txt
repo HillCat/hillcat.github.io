@@ -38,6 +38,7 @@
 岗位职称 displayposition (sys_user_details)
 系统账号名称  user_name       (sys_user)
 预设登陆密码    user_pwd     (sys_user)
+
 ---以下是非必填---
 所属单位 int_id (sys_user)
 创建时间 create_time (sys_user)
@@ -59,3 +60,27 @@ http://81.70.158.167:8089/swagger/index.html
 删除用户 DeleteUserAsync
 
 
+        /// <summary>
+        /// 姓名 
+        /// </summary>
+        public string userTrueName { get; set; }
+        /// <summary>
+        /// 手机号码
+        /// </summary>
+        public string phone { get; set; }
+        /// <summary>
+        /// 员工身份证号
+        /// </summary>
+        public string certificateNumber{ get; set; }
+        /// <summary>
+        /// 系统账号名称
+        /// </summary>
+        public string userName { get; set; }
+        /// <summary>
+        /// 预设登陆密码
+        /// </summary>
+        public string userPwd { get; set; }
+        /// <summary>
+        /// 所属公司Id
+        /// </summary>
+        public int int_id { get; set; }
