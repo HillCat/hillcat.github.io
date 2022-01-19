@@ -69,9 +69,9 @@ http://81.70.158.167:8089/swagger/index.html
         /// </summary>
         public string phone { get; set; }
         /// <summary>
-        /// 岗位职称
+        /// 员工身份证号
         /// </summary>
-        public string displayposition { get; set; }
+        public string certificateNumber{ get; set; }
         /// <summary>
         /// 系统账号名称
         /// </summary>
