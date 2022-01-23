@@ -76,3 +76,4 @@ CurrPorts这个工具查看，是否80端口被其他程序占用，如果被占
 
 删除上面两个注册表信息，然后重启电脑。
 
+具体删除注册表，参考[微软文档](https://docs.microsoft.com/zh-cn/visualstudio/debugger/debug-using-the-just-in-time-debugger?view=vs-2022#disable-just-in-time-debugging-from-the-windows-registry)。
