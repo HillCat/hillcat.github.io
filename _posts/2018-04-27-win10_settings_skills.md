@@ -58,5 +58,21 @@ CurrPorts这个工具查看，是否80端口被其他程序占用，如果被占
 
 ![aU9KciNr1i](/images/posts/aU9KciNr1i.png)
 
+还有一个问题就是win10经常会弹出来IIS报错的时候要求visual studio进行实时调试：关闭的办法参考微软文档：
 
+[https://docs.microsoft.com/zh-cn/visualstudio/debugger/just-in-time-debugging-in-visual-studio?view=vs-2022](https://docs.microsoft.com/zh-cn/visualstudio/debugger/just-in-time-debugging-in-visual-studio?view=vs-2022)
+
+
+
+需要删除注册表的选项：
+
+计算机\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\.NETFramework
+
+![image-20220124013724629](/images/posts/image-20220124013724629.png)
+
+计算机\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug
+
+![image-20220124013847000](/images/posts/image-20220124013847000.png)
+
+删除上面两个注册表信息，然后重启电脑。
 
