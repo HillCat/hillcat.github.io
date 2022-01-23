@@ -129,6 +129,40 @@ IIS部署完微服务之后，访问本地微服务端口会报错，查看Event
 
 
 
+### SwaggerXml文件不更新
+
+![image-20220124030121105](/images/posts/image-20220124030121105.png)
+
+如果发现微服务中其他项目**不能正确生成最新的xml Swagger文件**，可以Edit Project file，来手动修复此问题。
+
+```c#
+ <ItemGroup>
+    <None Update="Dockerfile">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SwaggerXml\ApplicationContracts.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SwaggerXml\DomainShared.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SwaggerXml\GDBS.BridgeService.Application.Contracts.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SwaggerXml\GDBS.BridgeService.Domain.Shared.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SwaggerXml\GDBS.BridgeService.HttpApi.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SwaggerXml\HttpApi.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+```
+
+
+
 ### 架构中间件
 
 网关这块目前使用的是Ocelot，据说微软官方开源的[yarp](https://github.com/microsoft/reverse-proxy)性能更强。
