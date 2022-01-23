@@ -46,7 +46,7 @@ typora-root-url: ../
 
 <img src="https://cs-cn.top/images/posts/sharex_allconfig2326.png"/>
 
-如果下载的时候超时或者无法下载，基本上就是需要翻墙才能搞定了。Vitual-Audio-capturer这个功能，某些版本的ffmpeg.exe不支持，需要通过这里的Install recorder按钮点击下载了才行。
+如果下载的时候超时或者无法下载，基本上就是需要翻墙才能搞定了。Vitual-Audio-capturer这个功能，某些版本的ffmpeg.exe不支持，需要通过这里的Install recorder按钮点击下载了才行，如果不行，就要手动去官网下载ffmpeg.exe大概75MB左右体积。
 
 #### 欧陆词典配置
 
