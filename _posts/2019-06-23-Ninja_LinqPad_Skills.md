@@ -70,3 +70,13 @@ select new
 }
 ```
 
+### LinqPad做正则表达式调试
+
+参考文章:[https://www.danclarke.com/linqpad-tips-and-tricks-part3](https://www.danclarke.com/linqpad-tips-and-tricks-part3)
+
+上面这篇文章来至于国外微软mvp文章，LinqPad7有一个隐藏功能就是调试正则表达式。
+
+**ctrl + shift +F1**  就可以调出正则表达式调试工具。
+
+![image-20220124125520937](/images/posts/image-20220124125520937.png)
+
