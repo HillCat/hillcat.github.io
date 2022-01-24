@@ -14,7 +14,7 @@ typora-root-url: ../
 
 如果要输入完整的日期，则需要进一步设置，可以参考:[用微软拼音输入法快速输入自定义格式日期](https://blog.walterlv.com/ime/2017/09/18/date-time-format-using-microsoft-pinyin.html)
 
-另外，按键设置这里，微软输入法会和visual studio 2019里面的ctrl +shift + F搜索键产生冲突，需要禁止掉微软输入法这个快捷键，如果你发现简体中文突然变为了繁体中文，就是因为这个组合键导致的，很容易误操作。
+另外，按键设置这里，**微软输入法会和visual studio 2019里面的ctrl +shift + F搜索键产生冲突**，需要禁止掉微软输入法这个快捷键，如果你发现简体中文突然变为了繁体中文，就是因为这个组合键导致的，很容易误操作。
 
 ![anjian_settings_123423.png](/images/posts/anjian_settings_123423.png)
 
@@ -58,5 +58,22 @@ CurrPorts这个工具查看，是否80端口被其他程序占用，如果被占
 
 ![aU9KciNr1i](/images/posts/aU9KciNr1i.png)
 
+还有一个问题就是win10经常会弹出来IIS报错的时候要求visual studio进行实时调试：关闭的办法参考微软文档：
+
+[https://docs.microsoft.com/zh-cn/visualstudio/debugger/just-in-time-debugging-in-visual-studio?view=vs-2022](https://docs.microsoft.com/zh-cn/visualstudio/debugger/just-in-time-debugging-in-visual-studio?view=vs-2022)
 
 
+
+需要删除注册表的选项：
+
+计算机\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\.NETFramework
+
+![image-20220124013724629](/images/posts/image-20220124013724629.png)
+
+计算机\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug
+
+![image-20220124013847000](/images/posts/image-20220124013847000.png)
+
+删除上面两个注册表信息，然后重启电脑。
+
+具体删除注册表，参考[微软文档](https://docs.microsoft.com/zh-cn/visualstudio/debugger/debug-using-the-just-in-time-debugger?view=vs-2022#disable-just-in-time-debugging-from-the-windows-registry)。
