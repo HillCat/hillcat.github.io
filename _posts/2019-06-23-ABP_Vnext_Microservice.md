@@ -133,7 +133,7 @@ IIS部署完微服务之后，访问本地微服务端口会报错，查看Event
 
 ![image-20220124030121105](/images/posts/image-20220124030121105.png)
 
-如果发现微服务中其他项目**不能正确生成最新的xml Swagger文件**，可以Edit Project file，来手动修复此问题。
+如果发现微服务中其他项目**不能正确生成最新的xml Swagger文件**，可以Edit Project file，来手动修复此问题。下面是一段关键的xml配置参考代码：
 
 ```c#
  <ItemGroup>
