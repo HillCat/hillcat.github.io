@@ -70,3 +70,20 @@ select new
 }
 ```
 
+### LinqPad做正则表达式调试
+
+参考文章:[https://www.danclarke.com/linqpad-tips-and-tricks-part3](https://www.danclarke.com/linqpad-tips-and-tricks-part3)
+
+上面这篇文章来至于国外微软mvp文章，LinqPad7有一个隐藏功能就是调试正则表达式。
+
+**ctrl + shift +F1**  就可以调出正则表达式调试工具。
+
+![image-20220124125520937](/images/posts/image-20220124125520937.png)
+
+![image-20220124133350272](/images/posts/image-20220124133350272.png)
+
+PS：我这个是LinqPad7正版，是旗舰版，所以具备LinqPad所有调试功能。它的授权方式是永久买断，可以同时授权3台电脑，3台虚拟机。每年可以换绑6次，并且都是网站后台自助操作，价格大概700RMB左右。
+
+看国外这个MVP笑得多开心，LinqPad真的比较香。
+
+![image-20220124125915612](/images/posts/image-20220124125915612.png)
