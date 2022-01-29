@@ -47,7 +47,7 @@ Pdf.js环境的安装，已经在上面的doc文档中详细介绍了，点击�
 
 ### 阅读进阶
 
-当阅读量提升之后，听力量提升之后，可以接触的资料就非常多了。听力这块有奈飞，油管等等经典网站；另外阅读这块的材料，可以直接上国外的付费网站，谷歌浏览器安装一个插件即可突破《时代周刊》类似付费网站的文章。
+当阅读量提升之后，听力量提升之后，可以接触的资料就非常多了，这个时候会根据自己的实际情况做一些调整，特别是听力这块有奈飞，油管等等经典网站；另外阅读这块的材料，可以直接上国外的付费网站，谷歌浏览器安装一个插件即可突破《时代周刊》类似付费网站的文章。
 
 插件地址：[https://github.com/iamadamdev/bypass-paywalls-chrome/releases](https://github.com/iamadamdev/bypass-paywalls-chrome/releases)
 
@@ -55,5 +55,5 @@ B站参考：[https://www.bilibili.com/video/BV1yg4y1B7qD?share_source=copy_web]
 
 ### 手机移动制卡终极大招
 
-参考：[https://www.bilibili.com/video/BV1V3411t7wq/](https://www.bilibili.com/video/BV1V3411t7wq/)
+参考：[https://www.bilibili.com/video/BV1V3411t7wq/](https://www.bilibili.com/video/BV1V3411t7wq/)  另外在安卓手机上面，是有一套移动至卡的解决方案的，配合EReader软件 结合 anki，加上制卡助手，可以很方便的在手机上面边阅读边制卡。不过，我还是建议使用PC或者笔记本，安装PDF.js通过阅读原版书籍或者有声书，演讲类材料，配合欧陆词典加载牛津9词典，把单词的意思，通过shareX单独精心整理扩充，而不要太过度追求省力方便。移动制卡是非常方便，但是印象不深，对于学习效果深浅是有很大影响的。通过我自己的实践对比来看，一些生词记忆深刻的还是需要坐在电脑面前制卡，精心查阅欧陆+牛津词典释义，这种制卡过程就是学习过程来的效果比手机移动制卡的印象要深刻很多。
 
