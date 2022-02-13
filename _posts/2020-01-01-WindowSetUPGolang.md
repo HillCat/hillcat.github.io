@@ -152,3 +152,5 @@ sudo nano /etc/hostname
 可以使用这个webUI项目解决国内服务器需要科学上网的问题，比如自己搭建的Ubuntu环境需要用来编译OpenWrt给R2S软路由使用，我这里给虚拟机Ubunut分配了45GB硬盘空间，而由于编译OpenWrt软路由固件需要长时间挂机，并且编译的时候很多的插件都是需要科学上网才行的，所以最好的办法就是使用这个VrayA项目：[https://github.com/v2rayA/v2rayA](https://github.com/v2rayA/v2rayA)
 
 ![image-20220213183226362](/images/posts/image-20220213183226362.png![image-20220213183321490](/images/posts/image-20220213183321490.png)
+
+操作手册：[https://v2raya.org/docs/prologue/quick-start/](https://v2raya.org/docs/prologue/quick-start/)
