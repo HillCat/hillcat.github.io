@@ -23,6 +23,8 @@ Golang开发第一步，首先安装Golang开发环境，这里使用ubuntu作�
 
 因为Ubuntu可以直接在图像界面下修改镜像源地址为国内的，所以它比Centos和苹果的IOS其实更加适合程序员用来做为Linux开发环境。
 
+上面这个界面默认会是chinese国家，但是Dwonload From这里选择other，从other里面会看到默认是美国，往上翻阅滚动找到China -> morros.aliyun.com。镜像源就设置为国内阿里云了。
+
 
 
 ### 调整自适应分辨率
