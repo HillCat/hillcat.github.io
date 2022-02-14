@@ -1,3 +1,0 @@
-UpdateBgeLinAsync
-
- var bgeLine = ObjectMapper.Map<UpdateBgeLineDto, Bge_Line_Info>(updateBgeLineDto);
