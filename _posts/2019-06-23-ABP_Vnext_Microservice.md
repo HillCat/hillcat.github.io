@@ -333,3 +333,11 @@ Volo.Abp.AspNetCore.Authentication.Jwtbearer；//如果需要对外公开API就�
 
 ![image-20211214193750720](/images/posts/image-20211214193750720.png)
 
+
+
+### DotNetCore进阶
+
+Dapr + K8s的部署， CI/CD环境搭建。
+
+ABP Vnext的SAAS模式开发。
+
