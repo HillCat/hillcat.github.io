@@ -1,6 +1,0 @@
- CreateMap<CreateBgeSuperstructureDto, BgeSuperstructureInfo>()
- 
- CreateMap<CreateBgeSuperstructureDto, BgeSuperstructrueInfoCtnEntity>()
- 
- CreateMap<CreateBgeSuperstructureDto, BgeSuperstructrueInfoYjlEntity>()
- 
