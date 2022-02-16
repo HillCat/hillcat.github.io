@@ -21,28 +21,6 @@ Application层对外暴露的DTO会写在Application.Contracts中，而如果是
 
 ABP_Vnext微服务架构，参考文档：[ABP Framework微服务文档](https://docs.abp.io/zh-Hans/abp/latest/Samples/Microservice-Demo)
 
-#### 端口号
-
-01 **AuthServer**：8087   登陆验证
-
-02 **PublicGateway**： 8088  微服务网关
-
-03 **ProjectService**：8089  菜单权限
-
-04 Shared 公共帮助类库
-
-05 **BridgeService**：8090 桥梁服务
-
-06 ReceAndSendMsgService ：8086  桥梁收发文服务
-
-07 ProvincialLevelService ：8082 省级服务
-
-08 ThirdPartyService ：8083 桥梁第三方服务
-
-09 MonitoringService ：8084  桥梁监听服务
-
-10 LogService ： 8085  通用日志服务
-
 ### IIS调试部署
 
 参考：[win10 IIS 托管DotNetCore](https://youtu.be/Q_A_t7KS5Ss)
@@ -306,6 +284,10 @@ Volo.Abp.AspNetCore.Authentication.Jwtbearer；//如果需要对外公开API就�
 ![image-20211130152755250](/images/posts/image-20211130152755250.png)
 
 要不然会发生某些Entity实体类注入的问题。
+
+#### 微服务接口调用的时候 400错误
+
+在微服务之间Post调用接口的时候，被调用方的参数类型如果不能为空，没有打上问号，而调用方这边没有给默认值，那么缺省值就会是Null,导致被调用方参数检测的时候，直接报错，但是这个错误并不会反馈给调用者，调用者这边看到的只是400或者403错误。一般这种情况下，要约定好参数DTO，防止躺坑。
 
 #### IIS不支持DELETE ,PUT谓词
 
