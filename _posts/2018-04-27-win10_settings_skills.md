@@ -85,3 +85,18 @@ CurrPorts这个工具查看，是否80端口被其他程序占用，如果被占
 修改系统注册表，把微软雅黑字体放在优先级最高的前面即可。
 
 ![image-20220130025732936](/images/posts/image-20220130025732936.png)
+
+
+
+### 3.端口被占用的问题
+
+如果发现端口被占用，可以使用
+
+CurrPorts这个工具查看。对于本地调试部署程序比较方便。
+
+[https://www.nirsoft.net/utils/cports.zip](https://www.nirsoft.net/utils/cports.zip)
+
+​                               
+
+ ![img](../images/posts/(R5S7%_%SBF7_ST`ULQ)X]X.png)
+
