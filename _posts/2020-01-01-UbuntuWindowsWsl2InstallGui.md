@@ -169,7 +169,17 @@ echo xfce4-session > ~/.xsession
 
 
 
+### Ubuntu安装破解版本宝塔
 
+
+
+```shell
+wget -O install.sh https://download.fenhao.me/install/install-ubuntu_6.0.sh && sudo bash install.sh
+```
+
+
+
+参考资料 [https://www.vlwx.com/362.html](https://www.vlwx.com/362.html)
 
 
 
