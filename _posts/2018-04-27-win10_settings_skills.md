@@ -100,3 +100,14 @@ CurrPorts这个工具查看。对于本地调试部署程序比较方便。
 
  ![img](../images/posts/(R5S7%_%SBF7_ST`ULQ)X]X.png)
 
+### IDM下载神器
+
+chrome浏览器扩展的正确安装方法：[https://www.internetdownloadmanager.com/register/new_faq/chrome_extension2.html](https://www.internetdownloadmanager.com/register/new_faq/chrome_extension2.html)
+
+![bvkys9ZrkS](../images/posts/bvkys9ZrkS.png)
+
+![image-20220221050723711](../images/posts/image-20220221050723711.png)
+
+有了这个工具之后，非常容易从youtube上面下载视频：视频右上角就会出现Download this video的弹出框。
+
+![6DvyNXkoLI](../images/posts/6DvyNXkoLI.png)
