@@ -171,11 +171,7 @@ echo xfce4-session > ~/.xsession
 
 ### Ubuntu安装破解版本宝塔
 
-
-
-```shell
-wget -O install.sh https://download.fenhao.me/install/install-ubuntu_6.0.sh && sudo bash install.sh
-```
+强烈建议安装 ：https://github.com/leitbogioro/Crack_BT_Panel   破解版宝塔，不要安装那些来源不明的破解版本，会可能导致有后门。
 
 
 
