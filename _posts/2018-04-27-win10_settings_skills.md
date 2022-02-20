@@ -111,3 +111,13 @@ chrome浏览器扩展的正确安装方法：[https://www.internetdownloadmanage
 有了这个工具之后，非常容易从youtube上面下载视频：视频右上角就会出现Download this video的弹出框。
 
 ![6DvyNXkoLI](../images/posts/6DvyNXkoLI.png)
+
+如果要精心学习某些TED演讲材料或者是其他感兴趣的英文材料，可以非常方便使用这个IDM工具下载各种视频文件：
+
+![FSacJvYOb3](../images/posts/FSacJvYOb3.png)
+
+如果是电脑上面开启了代理，要注意设置为系统默认代理模式：
+
+![TU2qdq2JLw](../images/posts/TU2qdq2JLw.png)
+
+网络上有破解版本，但是我看了下，这个软件的永久授权费用是24.95美元，大约是163.81RMB，永久授权一台电脑。具体的价格可以参考官方地址。但是网络上面有很多的插件其实都是无法使用的，如果觉得你是比较喜欢看视频来学习英文的，可以考虑这个软件，它的下载速度真的非常快。并且是可以下载视频的文本，可以看上面那个截图，我看起了English learning Reactor插件，它能够自动检测出来英文字幕和中文字幕。真的非常强大。
