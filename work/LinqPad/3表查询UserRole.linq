@@ -1,4 +1,4 @@
-<Query Kind="Expression">
+<Query Kind="Statements">
   <Connection>
     <ID>815d4b7b-a83a-4c1e-b8e0-a6236e635b65</ID>
     <NamingServiceVersion>2</NamingServiceVersion>
@@ -19,12 +19,13 @@
       <commandTimeout>0</commandTimeout>
     </DriverData>
   </Connection>
+  <Namespace>static LinqToDB.Reflection.Methods.LinqToDB</Namespace>
 </Query>
 
-(from user in sys_users
-          join userrole in sys_user_roles
-		  on (int)user.Id equals userrole.User_id
-		  join rolename in sys_roles
-		  on (int)userrole.Role_id equals (int)rolename.Id
-		   select new {user.Id,userrole.Role_id,user.User_name,user.Account,rolename.Display_name,rolename.Type_name}).ToList()
-		  
+var list = (from user in sys_users
+			join userrole in sys_user_roles
+			on (int)user.Id equals userrole.User_id
+			join rolename in sys_roles
+			on (int)userrole.Role_id equals (int)rolename.Id
+			select new { user.Id, userrole.Role_id, user.User_name, user.Account, rolename.Display_name, rolename.Type_name }).GroupBy(x => x.User_name).Select(d => new { UserName = d.First().User_name, Items=d.ToList()}).Dump();
+
