@@ -52,3 +52,5 @@ SELECT * FROM bge_info ORDER BY id DESC
 SELECT * FROM files_info WHERE TABLE_NAME='bge_manual_monitor'
 
 
+-- 自联结查询更新---
+UPDATE institution a,institution b  set a.parent_inst_uuid = b.instUUID where b.id=a.parent_inst_id
