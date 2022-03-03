@@ -378,3 +378,12 @@ Tools菜单栏，Get Tool and Fetures...
 
 参考这篇：[What's the best way to export all of my visual studio 2019 configuration](https://docs.microsoft.com/en-us/answers/questions/382848/what39s-the-best-way-to-export-all-of-my-visual-st.html) 
 
+
+
+### VisualStudio异常设置
+
+visualStudio抛异常的时候，把抛异常的报错位置，精确到代码行：
+
+OpenExceptionSettings
+
+![image-20211229210638213](/images/posts/image-20211229210638213.png)
