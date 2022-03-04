@@ -23,3 +23,11 @@ Terminal: Select Default Profile
 
 选择Command Prompt即可。下载VisualCode默认弹出来的命令行就是Command Prompt的。
 
+
+
+### 本地调试文件上传遇到的坑
+
+![image-20220304181946433](/images/posts/image-20220304181946433.png)
+
+
+
