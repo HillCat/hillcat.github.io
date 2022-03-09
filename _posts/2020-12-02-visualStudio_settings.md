@@ -19,6 +19,12 @@ Home键：移动到行首，按两次Home键，直接移动到边框最左端
 
 **Ctrl +R 连按2次：修改变量名**。在安装了Resharp插件的时候，这个功能会同时把整个解决方案中的类名文件名，接口文件名一起修改，非常方便，特别是代码重构的时候加快开发效率。
 
+### Immediate Windows打印变量为Json字符串
+
+在debug模式下，Newtonsoft.Json.JsonConvert.SerializeObject(someVariable) 既可以变量变为Json 
+
+![image-20220309175229224](/images/posts/image-20220309175229224.png)
+
 ### vs2022针对不同的project显示tab不同颜色
 
 这个tab针对不同的project区分不同的颜色，对于提升开发效率有着一定的提升。特别是关掉一些不要用的tab对于提升代码专注度很有好处。根据颜色就非常容易区分，把那些跟当前Project颜色不一样的文件全部关闭，防止其他项目干扰。
