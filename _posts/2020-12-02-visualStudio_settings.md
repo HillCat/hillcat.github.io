@@ -23,6 +23,8 @@ Home键：移动到行首，按两次Home键，直接移动到边框最左端
 
 在debug模式下，Newtonsoft.Json.JsonConvert.SerializeObject(someVariable) 既可以变量变为Json 
 
+其他方法参考：[https://stackoverflow.com/questions/67410924/how-visual-studio-immediate-windows-to-print-format-indented-json](https://stackoverflow.com/questions/67410924/how-visual-studio-immediate-windows-to-print-format-indented-json)
+
 ![image-20220309175229224](/images/posts/image-20220309175229224.png)
 
 ### vs2022针对不同的project显示tab不同颜色
