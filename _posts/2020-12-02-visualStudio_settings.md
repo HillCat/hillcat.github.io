@@ -73,7 +73,7 @@ Home键：移动到行首，按两次Home键，直接移动到边框最左端
 
 #### 3.设置AI智能补全提示文字大小
 
-AI智能补全是微软新出来的一个vs增强功能，很多时候这个AI提示字体非常小，把它字体设置稍微大一些，提升开发体验。
+AI智能补全是微软新出来的一个vs增强功能，很多时候这个AI提示字体非常小，把它字体设置稍微大一些，提升开发体验。另外关于AI智能补全功能的，可以参考：[https://dotnetcoretutorials.com/2021/11/27/turning-off-visual-studio-2022-intellicode-complete-line-intellisense/](https://dotnetcoretutorials.com/2021/11/27/turning-off-visual-studio-2022-intellicode-complete-line-intellisense/)
 
 <img src="https://cs-cn.top/images/posts/statement_completion03.png"/>
 
