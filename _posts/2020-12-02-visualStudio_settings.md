@@ -39,7 +39,7 @@ Home键：移动到行首，按两次Home键，直接移动到边框最左端
 
 #### Git版本管理技巧
 
-为了最大限度防止漏提交了文件，最好是使用Vs自带的工具进行commit，之后再使用git乌龟工具拉去分支之后再push。
+为了最大限度防止漏提交了文件，最好是使用Vs自带的工具进行commit，之后再使用git乌龟工具拉取分支之后再push，当然，这些东西都可以在visualStudio中进行。
 
 ![9b7epT7ZF3](/images/posts/9b7epT7ZF3.png)
 
@@ -51,7 +51,9 @@ Home键：移动到行首，按两次Home键，直接移动到边框最左端
 
 参考：[https://docs.microsoft.com/en-us/visualstudio/ide/using-the-task-list?view=vs-2022](https://docs.microsoft.com/en-us/visualstudio/ide/using-the-task-list?view=vs-2022)
 
-在visual studio 2019中 view菜单中打开task list，可以查看到我们平时标记的TODO列表，而这个地方还可以自定义BUG等自己的标记，打开Task List的时候就可以看到一些代码的位置，提升我们对于待办项的管理能力，防止漏掉TODO或者BUG。
+在visual studio 2019中 view菜单中打开task list，可以查看到我们平时标记的TODO列表，而这个地方还可以自定义BUG等自己的标记，打开Task List的时候就可以看到一些代码的位置，提升我们开发效率。当团队中其他人也在使用这个标签的时候，就会变得比较混乱，查找起来也不方便，很多Project来回切换，做好标记非常重要。
+
+![image-20220312074723153](/images/posts/image-20220312074723153.png)![image-20220312074744340](/images/posts/image-20220312074744340.png)
 
 ![image-20211125183343042](/images/posts/image-20211125183343042.png)
 
