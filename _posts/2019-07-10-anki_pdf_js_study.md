@@ -48,6 +48,10 @@ typora-root-url: ../
 
 如果下载的时候超时或者无法下载，基本上就是需要翻墙才能搞定了。Vitual-Audio-capturer这个功能，某些版本的ffmpeg.exe不支持，需要通过这里的Install recorder按钮点击下载了才行，如果不行，就要手动去官网下载ffmpeg.exe大概75MB左右体积。
 
+#### 禁用ShareX开机启动
+
+![jPhMWTQ1Cm](../images/posts/jPhMWTQ1Cm.png)
+
 #### 欧陆词典配置
 
 欧陆词典和ShareX配合使用如下：要做到这样，欧陆词典需要加载了牛津9，另外还得开启剪切板取词。下面第3幅图有具体的配置截图。
