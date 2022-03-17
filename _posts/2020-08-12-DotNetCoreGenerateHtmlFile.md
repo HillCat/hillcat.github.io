@@ -8,9 +8,17 @@ typora-root-url: ../
 ---
 
 批量生成Html文件，使用DotNetCore，比较语义化的Nuget包推荐NVelocity这个软件包。
-参考：[https://markheath.net/post/creating-html-using-nvelocity](https://markheath.net/post/creating-html-using-nvelocity)
+
+[NVelocity官方文档](https://github.com/castleproject/NVelocity/blob/master/docs/nvelocity.md)
+
+参考：[Creating HTML using NVelocity](https://markheath.net/post/creating-html-using-nvelocity)
 
 ![BgUjoL7hOZ](/images/posts/BgUjoL7hOZ.png)
 
 特别是对于批量生成静态html文件，这个NVelocity是比较好用的。
 
+使用案例参考：
+
+[C# (CSharp) NVelocity Template Examples](https://csharp.hotexamples.com/examples/NVelocity/Template/-/php-template-class-examples.html)
+
+[Generating html pages (NVelocity) using templates](https://programmer.group/generating-html-pages-nvelocity-using-templates.html)
