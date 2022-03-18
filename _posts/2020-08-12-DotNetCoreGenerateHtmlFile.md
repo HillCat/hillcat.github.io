@@ -22,3 +22,11 @@ typora-root-url: ../
 [C# (CSharp) NVelocity Template Examples](https://csharp.hotexamples.com/examples/NVelocity/Template/-/php-template-class-examples.html)
 
 [Generating html pages (NVelocity) using templates](https://programmer.group/generating-html-pages-nvelocity-using-templates.html)
+
+### linux下访问wwwroot报401问题
+
+正常情况下，在windows下面发布程序之后，正常生成html静态页面。
+
+[https://jakeydocs.readthedocs.io/en/latest/fundamentals/static-files.html](https://jakeydocs.readthedocs.io/en/latest/fundamentals/static-files.html)
+
+![image-20220318134226226](/images/posts/image-20220318134226226.png)
