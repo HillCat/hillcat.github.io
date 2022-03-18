@@ -9,6 +9,14 @@ typora-root-url: ../
 
 一些零碎的关于ABP整理的记录。
 
+### ABP_Vnext中实体的更新
+
+参考官方文档：[https://docs.abp.io/en/abp/4.4/Object-To-Object-Mapping](https://docs.abp.io/en/abp/4.4/Object-To-Object-Mapping)   这个地方很容易忽视，造成实体对象无法更新写入数据库。
+
+![image-20220318175555565](/images/posts/image-20220318175555565.png)
+
+![image-20220318175728940](/images/posts/image-20220318175728940.png)
+
 ### ABP_Vnext微服务项目
 
 ABP框架是基于规则和约定的，框架内部有非常多默认的规则和约定。
