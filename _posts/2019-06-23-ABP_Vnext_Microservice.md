@@ -13,7 +13,15 @@ typora-root-url: ../
 
 参考官方文档：[https://docs.abp.io/en/abp/4.4/Object-To-Object-Mapping](https://docs.abp.io/en/abp/4.4/Object-To-Object-Mapping)   这个地方很容易忽视，造成实体对象无法更新写入数据库。
 
-![image-20220318175555565](/images/posts/image-20220318175555565.png)
+注意对比官方的使用，下面这里的代码写法是一种错误的写法。实体从数据库取出来之后，经过映射会自动跟踪，不需要再次赋值。否则会出现如下错误：
+
+```c#
+{"data":null,"succeed":false,"code":"500","msg":"The instance of entity type 'BgeInfo' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.","timeticks":1647597741807}
+```
+
+
+
+![image-20220318180519469](/images/posts/image-20220318180519469.png)
 
 ![image-20220318175728940](/images/posts/image-20220318175728940.png)
 
