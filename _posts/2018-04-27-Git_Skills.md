@@ -4,7 +4,7 @@ title: Git使用技巧
 categories: 工具
 description: Git工具使用技巧
 keywords: Git使用技巧
-typora-root-url: ..
+typora-root-url: ../
 ---
 
 Git工具使用。以下是Git回退到某个commit的版本。
