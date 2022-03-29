@@ -27,7 +27,10 @@ Terminal: Select Default Profile
 
 ### 本地调试文件上传遇到的坑
 
+vue前端调试过程中遇到的坑：图片伤处失败
+
 ![image-20220304181946433](/images/posts/image-20220304181946433.png)
 
 
 
+![image-20220329135310530](/images/posts/image-20220329135310530.png)
