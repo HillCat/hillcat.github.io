@@ -29,3 +29,30 @@ Development
 ![image-20220401003846501](/images/posts/image-20220401003846501.png)
 
 我们可以冗余一份appsetting.Development.json配置文件，然后把本机环境全局变量设置为Development，然后发布到IIS的时候强制输出那份appsetting.Development.json文件。
+
+![image-20220401013157238](/images/posts/image-20220401013157238.png)
+
+````c#
+<configuration>
+  <system.webServer>
+    <handlers>
+      <remove name="aspNetCore" />
+      <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModuleV2" resourceType="Unspecified" />
+    </handlers>
+    <aspNetCore processPath="dotnet" arguments=".\SampleNetCoreApp.dll">
+      <environmentVariables>
+        <environmentVariable name="ASPNETCORE_ENVIRONMENT" value="Development" />
+      </environmentVariables>
+    </aspNetCore>
+  </system.webServer>
+</configuration>
+````
+
+````c#
+<aspNetCore processPath="dotnet" arguments=".\GDBS.AuthServer.Hosting.dll" stdoutLogEnabled="false" stdoutLogFile=".\logs\stdout" hostingModel="inprocess">
+      <environmentVariables>
+        <environmentVariable name="ASPNETCORE_ENVIRONMENT" value="Development" />
+      </environmentVariables>
+      </aspNetCore>
+````
+
