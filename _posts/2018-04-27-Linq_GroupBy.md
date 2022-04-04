@@ -17,3 +17,12 @@ typora-root-url: ../
 ![image-20211229011525603](/images/posts/image-20211229011525603.png)
 
 ![image-20211229012041294](/images/posts/image-20211229012041294.png)
+
+
+
+### 参考资料
+
+[https://www.pluralsight.com/guides/grouping-aggregating-data-linq](https://www.pluralsight.com/guides/grouping-aggregating-data-linq)
+
+
+

@@ -1,0 +1,15 @@
+C:\Users\caianhua\source\repos\AutoMapperGenerator\AutoMapperGenerator\bin\Debug\netcoreapp3.1\AutoMapperGenerator.exe
+C:\Users\caianhua\source\repos\AutoMapperGenerator\AutoMapperGenerator\bin\Debug\netcoreapp3.1\AutoMapperGenerator.deps.json
+C:\Users\caianhua\source\repos\AutoMapperGenerator\AutoMapperGenerator\bin\Debug\netcoreapp3.1\AutoMapperGenerator.runtimeconfig.json
+C:\Users\caianhua\source\repos\AutoMapperGenerator\AutoMapperGenerator\bin\Debug\netcoreapp3.1\AutoMapperGenerator.runtimeconfig.dev.json
+C:\Users\caianhua\source\repos\AutoMapperGenerator\AutoMapperGenerator\bin\Debug\netcoreapp3.1\AutoMapperGenerator.dll
+C:\Users\caianhua\source\repos\AutoMapperGenerator\AutoMapperGenerator\bin\Debug\netcoreapp3.1\AutoMapperGenerator.pdb
+C:\Users\caianhua\source\repos\AutoMapperGenerator\AutoMapperGenerator\obj\Debug\netcoreapp3.1\AutoMapperGenerator.Form1.resources
+C:\Users\caianhua\source\repos\AutoMapperGenerator\AutoMapperGenerator\obj\Debug\netcoreapp3.1\AutoMapperGenerator.csproj.GenerateResource.cache
+C:\Users\caianhua\source\repos\AutoMapperGenerator\AutoMapperGenerator\obj\Debug\netcoreapp3.1\AutoMapperGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caianhua\source\repos\AutoMapperGenerator\AutoMapperGenerator\obj\Debug\netcoreapp3.1\AutoMapperGenerator.AssemblyInfoInputs.cache
+C:\Users\caianhua\source\repos\AutoMapperGenerator\AutoMapperGenerator\obj\Debug\netcoreapp3.1\AutoMapperGenerator.AssemblyInfo.cs
+C:\Users\caianhua\source\repos\AutoMapperGenerator\AutoMapperGenerator\obj\Debug\netcoreapp3.1\AutoMapperGenerator.csproj.CoreCompileInputs.cache
+C:\Users\caianhua\source\repos\AutoMapperGenerator\AutoMapperGenerator\obj\Debug\netcoreapp3.1\AutoMapperGenerator.dll
+C:\Users\caianhua\source\repos\AutoMapperGenerator\AutoMapperGenerator\obj\Debug\netcoreapp3.1\AutoMapperGenerator.pdb
+C:\Users\caianhua\source\repos\AutoMapperGenerator\AutoMapperGenerator\obj\Debug\netcoreapp3.1\AutoMapperGenerator.genruntimeconfig.cache

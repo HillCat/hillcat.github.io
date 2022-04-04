@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>EnumSwitchDemo</Title>
+      <Shortcut>EnumSwitchDemo</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[  return paraName switch
+            {
+                nameof(ManualMonitorTypeEnum.沉降量) => (int)ManualMonitorTypeEnum.沉降量,
+                nameof(ManualMonitorTypeEnum.温度) => (int)ManualMonitorTypeEnum.温度,
+                nameof(ManualMonitorTypeEnum.裂缝宽度) => (int)ManualMonitorTypeEnum.裂缝宽度,
+                nameof(ManualMonitorTypeEnum.位移) => (int)ManualMonitorTypeEnum.位移,
+                nameof(ManualMonitorTypeEnum.应变) => (int)ManualMonitorTypeEnum.应变,
+                nameof(ManualMonitorTypeEnum.倾角XS) => (int)ManualMonitorTypeEnum.倾角XS,
+                nameof(ManualMonitorTypeEnum.倾角YS) => (int)ManualMonitorTypeEnum.倾角YS,
+                nameof(ManualMonitorTypeEnum.索力) => (int)ManualMonitorTypeEnum.索力,
+                nameof(ManualMonitorTypeEnum.平均风速) => (int)ManualMonitorTypeEnum.平均风速,
+                nameof(ManualMonitorTypeEnum.风向) => (int)ManualMonitorTypeEnum.风向,
+                nameof(ManualMonitorTypeEnum.湿度) => (int)ManualMonitorTypeEnum.湿度,
+                nameof(ManualMonitorTypeEnum.高度) => (int)ManualMonitorTypeEnum.高度,
+                nameof(ManualMonitorTypeEnum.倾覆) => (int)ManualMonitorTypeEnum.倾覆,
+                _ => 0
+            };]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
+
+
+
+		

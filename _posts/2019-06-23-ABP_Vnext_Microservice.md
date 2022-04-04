@@ -9,7 +9,23 @@ typora-root-url: ../
 
 一些零碎的关于ABP整理的记录。
 
-### ABP_Vnext单体项目
+### ABP_Vnext中实体的更新
+
+参考官方文档：[https://docs.abp.io/en/abp/4.4/Object-To-Object-Mapping](https://docs.abp.io/en/abp/4.4/Object-To-Object-Mapping)   这个地方很容易忽视，造成实体对象无法更新写入数据库。
+
+注意对比官方的使用，下面这里的代码写法是一种错误的写法。实体从数据库取出来之后，经过映射会自动跟踪，不需要再次赋值。否则会出现如下错误：
+
+```c#
+{"data":null,"succeed":false,"code":"500","msg":"The instance of entity type 'BgeInfo' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.","timeticks":1647597741807}
+```
+
+
+
+![image-20220318180519469](/images/posts/image-20220318180519469.png)
+
+![image-20220318175728940](/images/posts/image-20220318175728940.png)
+
+### ABP_Vnext微服务项目
 
 ABP框架是基于规则和约定的，框架内部有非常多默认的规则和约定。
 
@@ -20,28 +36,6 @@ Application层对外暴露的DTO会写在Application.Contracts中，而如果是
 ### 微服务
 
 ABP_Vnext微服务架构，参考文档：[ABP Framework微服务文档](https://docs.abp.io/zh-Hans/abp/latest/Samples/Microservice-Demo)
-
-#### 端口号
-
-01 **AuthServer**：8087   登陆验证
-
-02 **PublicGateway**： 8088  微服务网关
-
-03 **ProjectService**：8089  菜单权限
-
-04 Shared 公共帮助类库
-
-05 **BridgeService**：8090 桥梁服务
-
-06 ReceAndSendMsgService ：8086  桥梁收发文服务
-
-07 ProvincialLevelService ：8082 省级服务
-
-08 ThirdPartyService ：8083 桥梁第三方服务
-
-09 MonitoringService ：8084  桥梁监听服务
-
-10 LogService ： 8085  通用日志服务
 
 ### IIS调试部署
 
@@ -126,6 +120,40 @@ IIS部署完微服务之后，访问本地微服务端口会报错，查看Event
 ````
 
 ![image-20211130142730103](/images/posts/image-20211130142730103.png)
+
+
+
+### SwaggerXml文件不更新
+
+![image-20220124030121105](/images/posts/image-20220124030121105.png)
+
+如果发现微服务中其他项目**不能正确生成最新的xml Swagger文件**，可以Edit Project file，来手动修复此问题。下面是一段关键的xml配置参考代码：
+
+```c#
+ <ItemGroup>
+    <None Update="Dockerfile">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SwaggerXml\ApplicationContracts.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SwaggerXml\DomainShared.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SwaggerXml\GDBS.BridgeService.Application.Contracts.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SwaggerXml\GDBS.BridgeService.Domain.Shared.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SwaggerXml\GDBS.BridgeService.HttpApi.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SwaggerXml\HttpApi.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+```
 
 
 
@@ -273,6 +301,10 @@ Volo.Abp.AspNetCore.Authentication.Jwtbearer；//如果需要对外公开API就�
 
 要不然会发生某些Entity实体类注入的问题。
 
+#### 微服务接口调用的时候 400错误
+
+在微服务之间Post调用接口的时候，被调用方的参数类型如果不能为空，没有打上问号，而调用方这边没有给默认值，那么缺省值就会是Null,导致被调用方参数检测的时候，直接报错，但是这个错误并不会反馈给调用者，调用者这边看到的只是400或者403错误。一般这种情况下，要约定好参数DTO，防止躺坑。
+
 #### IIS不支持DELETE ,PUT谓词
 
 解决办法参考:[https://www.bbsmax.com/A/o75NxLwMzW/](https://www.bbsmax.com/A/o75NxLwMzW/)， 因为是本地调试，所以直接修改IIS，去掉WebDAV发布模块。重启win10即可搞定。如下：
@@ -299,3 +331,16 @@ Volo.Abp.AspNetCore.Authentication.Jwtbearer；//如果需要对外公开API就�
 
 ![image-20211214193750720](/images/posts/image-20211214193750720.png)
 
+
+
+### DotNetCore进阶
+
+Dapr + K8s的部署， CI/CD环境搭建。
+
+ABP Vnext的SAAS模式开发。
+
+
+
+### 跨服务调用报URI格式不正确
+
+这种情况一般发生在API调用地址从qq里面传送的时候，编码发生变化，然后复制粘贴到visual studio里面，调试的时候肉眼是看不出来的，提交url给到同事的时候最好是确保url地址的编码格式正确。

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>EnumToJson</Title>
+      <Shortcut>enumtojson</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[ public Task<OutputDto> GetBridgeAssemblyDicAsync()
+        {
+            var enums = Enum.GetNames(typeof(BridgeAssemblyDictEnum));
+            var dics = enums.Select((t, i) => new BridgeAssemblyDicDto() { id = i + 1, name = t }).ToList();
+
+            return Task.FromResult(OutputDto.ToResult("获取成功!", dics));
+        }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
+
+
+
+		

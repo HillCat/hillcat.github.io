@@ -169,7 +169,13 @@ echo xfce4-session > ~/.xsession
 
 
 
+### Ubuntu安装破解版本宝塔
 
+强烈建议安装 ：https://github.com/leitbogioro/Crack_BT_Panel   破解版宝塔，不要安装那些来源不明的破解版本，会可能导致有后门。
+
+
+
+参考资料 [https://www.vlwx.com/362.html](https://www.vlwx.com/362.html)
 
 
 

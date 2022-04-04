@@ -19,9 +19,27 @@ Home键：移动到行首，按两次Home键，直接移动到边框最左端
 
 **Ctrl +R 连按2次：修改变量名**。在安装了Resharp插件的时候，这个功能会同时把整个解决方案中的类名文件名，接口文件名一起修改，非常方便，特别是代码重构的时候加快开发效率。
 
+### Immediate Windows打印变量为Json字符串
+
+在debug模式下，Newtonsoft.Json.JsonConvert.SerializeObject(someVariable) 既可以变量变为Json 
+
+其他方法参考：[https://stackoverflow.com/questions/67410924/how-visual-studio-immediate-windows-to-print-format-indented-json](https://stackoverflow.com/questions/67410924/how-visual-studio-immediate-windows-to-print-format-indented-json)
+
+![image-20220309175229224](/images/posts/image-20220309175229224.png)
+
+### vs2022针对不同的project显示tab不同颜色
+
+这个tab针对不同的project区分不同的颜色，对于提升开发效率有着一定的提升。特别是关掉一些不要用的tab对于提升代码专注度很有好处。根据颜色就非常容易区分，把那些跟当前Project颜色不一样的文件全部关闭，防止其他项目干扰。
+
+![image-20220305171859118](/images/posts/image-20220305171859118.png)
+
+### Debug的时候去掉Diagnostic弹窗的显示
+
+![image-20220305153656274](/images/posts/image-20220305153656274.png)
+
 #### Git版本管理技巧
 
-为了最大限度防止漏提交了文件，最好是使用Vs自带的工具进行commit，之后再使用git乌龟工具拉去分支之后再push。
+为了最大限度防止漏提交了文件，最好是使用Vs自带的工具进行commit，之后再使用git乌龟工具拉取分支之后再push，当然，这些东西都可以在visualStudio中进行。
 
 ![9b7epT7ZF3](/images/posts/9b7epT7ZF3.png)
 
@@ -33,7 +51,9 @@ Home键：移动到行首，按两次Home键，直接移动到边框最左端
 
 参考：[https://docs.microsoft.com/en-us/visualstudio/ide/using-the-task-list?view=vs-2022](https://docs.microsoft.com/en-us/visualstudio/ide/using-the-task-list?view=vs-2022)
 
-在visual studio 2019中 view菜单中打开task list，可以查看到我们平时标记的TODO列表，而这个地方还可以自定义BUG等自己的标记，打开Task List的时候就可以看到一些代码的位置，提升我们对于待办项的管理能力，防止漏掉TODO或者BUG。
+在visual studio 2019中 view菜单中打开task list，可以查看到我们平时标记的TODO列表，而这个地方还可以自定义BUG等自己的标记，打开Task List的时候就可以看到一些代码的位置，提升我们开发效率。当团队中其他人也在使用这个标签的时候，就会变得比较混乱，查找起来也不方便，很多Project来回切换，做好标记非常重要。
+
+![image-20220312074723153](/images/posts/image-20220312074723153.png)![image-20220312074744340](/images/posts/image-20220312074744340.png)
 
 ![image-20211125183343042](/images/posts/image-20211125183343042.png)
 
@@ -45,13 +65,17 @@ Home键：移动到行首，按两次Home键，直接移动到边框最左端
 
 <img src="https://cs-cn.top/images/posts/visualStudioSettings714.gif"/>
 
+代码编辑区推荐的字体设置如下：
+
+![image-20220126144328715](/images/posts/image-20220126144328715.png)
+
 #### 2.设置代码编辑区域popup提示弹窗内字体大小：
 
 <img src="https://cs-cn.top/images/posts/editorTootip736.gif"/>
 
 #### 3.设置AI智能补全提示文字大小
 
-AI智能补全是微软新出来的一个vs增强功能，很多时候这个AI提示字体非常小，把它字体设置稍微大一些，提升开发体验。
+AI智能补全是微软新出来的一个vs增强功能，很多时候这个AI提示字体非常小，把它字体设置稍微大一些，提升开发体验。另外关于AI智能补全功能的，可以参考：[https://dotnetcoretutorials.com/2021/11/27/turning-off-visual-studio-2022-intellicode-complete-line-intellisense/](https://dotnetcoretutorials.com/2021/11/27/turning-off-visual-studio-2022-intellicode-complete-line-intellisense/)
 
 <img src="https://cs-cn.top/images/posts/statement_completion03.png"/>
 
@@ -374,3 +398,12 @@ Tools菜单栏，Get Tool and Fetures...
 
 参考这篇：[What's the best way to export all of my visual studio 2019 configuration](https://docs.microsoft.com/en-us/answers/questions/382848/what39s-the-best-way-to-export-all-of-my-visual-st.html) 
 
+
+
+### VisualStudio异常设置
+
+visualStudio抛异常的时候，把抛异常的报错位置，精确到代码行：
+
+OpenExceptionSettings
+
+![image-20211229210638213](/images/posts/image-20211229210638213.png)

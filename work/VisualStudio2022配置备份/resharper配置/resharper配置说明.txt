@@ -1,0 +1,21 @@
+https://www.jetbrains.com/help/resharper/Sharing_Configuration_Options.html#this-computer-layer
+
+电脑全局配置：
+
+ %APPDATA%\JetBrains\Shared\vAny\GlobalSettingsStorage.DotSettings
+
+如果是要覆盖配置，请根据上面路径进行覆盖。
+
+跟随项目文件的设置，如果有的话，会覆盖掉操作系统中的全局设置。
+使用Everything工具在电脑中搜索：
+
+解决方案级别设置Solutionteam-shared：<SolutionName>.sln.DotSettings 
+会看到resharper跟随项目文件的一些设置。
+
+个人级别设置SolutiongPersonal：<SolutionName>.sln.DotSettings.user
+
+reshaper的设置，从上至下，有4个layer层，优先级从上到下依次是：
+SolutiongPersonal
+Solutionteam-shared
+This computer
+Default settings

@@ -7,7 +7,10 @@
     </Header>
     <Snippet>
       <Code Language="CSharp">
-        <![CDATA[             {  const string getUserByUnitId = "/api/auth/Identity/GetUnitAllUsersByUnitId/GetUnitAllUsersByUnitId";
+        <![CDATA[             {  
+		//private readonly IHttpClientFactory _httpClientFactory; //需要注入_httpClientFactory，_httpContext
+        //private readonly IHttpContextAccessor _httpContext;
+		const string getUserByUnitId = "/api/auth/Identity/GetUnitAllUsersByUnitId/GetUnitAllUsersByUnitId";
                 const string forbiddenUser = "/api/auth/Identity/BatchUpdateUserIsValid/BatchUpdateUserIsValid";
                 var unitIdPara = new Dictionary<string, object>
                     {

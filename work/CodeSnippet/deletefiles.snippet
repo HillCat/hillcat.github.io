@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>deletefiles</Title>
+      <Shortcut>deletefiles</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[ var wwwrootPath = _environment.WebRootPath;
+                var outputPath=wwwrootPath+ "/BridgeDetail/";
+                var di = new DirectoryInfo(outputPath);
+                var files = di.GetFiles("*.html")
+                    .Where(p => p.Extension == ".html").ToArray();
+                foreach (var file in files)
+                {
+                    try
+                    {
+                        file.Attributes = FileAttributes.Normal;
+                        File.Delete(file.FullName);
+                    }
+                    catch (Exception ex)
+                    {
+                        // ignored
+                        _logger.LogException(ex, LogLevel.Critical);
+
+                    }
+                }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
+
+
+
+		
