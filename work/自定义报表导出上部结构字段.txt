@@ -1,0 +1,37 @@
+("简支梁桥", "3004", "3"),
+("组合梁桥", "3005", "3"),
+("钢架桥", "3006", "3"),
+("T型刚构桥", "3007", "3"),
+("连续刚构桥", "3008", "3"),
+("桁架拱桥", "3009", "3"),
+("上承式拱桥", "3010", "3"),
+("中承式拱桥", "3011", "3"),
+("下承式拱桥", "3012", "3"),
+("斜拉桥", "3013", "3"),
+("悬索桥", "3014", "3"),
+
+[AttributeInfo("桥梁编号", "", 0, "1", 3)]
+[AttributeInfo("桥梁名字", "", 0, "2", 3)]
+[AttributeInfo("线路名称", "", 0, "3", 1)]
+[AttributeInfo("桥跨结构形式", "", 0, "4", 1)]
+[AttributeInfo("跨长", "", 0, "5", 1)]
+[AttributeInfo("横隔板材料", "", 38, "16", 1)]
+[AttributeInfo("主梁材料", "", 51, "17", 1)]
+[AttributeInfo("截面形式", "", 52, "18", 1)]
+
+
+/// <summary></summary>
+[AttributeInfo("桥梁编号", "", 0, "1", 3)]
+public string bge_no { get; set; }
+
+/// <summary></summary>
+[AttributeInfo("桥梁名字", "", 0, "2", 3)]
+public string bge_name { get; set; }
+
+/// <summary></summary>
+[AttributeInfo("线路名称", "", 0, "3", 1)]
+public string bge_line_name { get; set; }
+
+/// <summary></summary>
+[AttributeInfo("桥跨结构形式", "", 0, "4", 1)]
+public string bridge_span_form { get; set; }
