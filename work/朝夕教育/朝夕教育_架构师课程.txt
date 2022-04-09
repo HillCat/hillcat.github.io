@@ -1,0 +1,628 @@
+以下为架构师02期课程全套资源都在这本链接，实时同步更新
+下载地址：https://pan.baidu.com/s/14QZUulLmT-IhboZ3IjR9IA
+提取码： 9gky
+
+资源分章节下载
+20210428Architect02Course001Redis-1
+
+下载地址：https://pan.baidu.com/s/1f2wtptcXJYY0DIYkWwbbxQ
+提取码： h3jk
+1 多路复用原理
+
+2 string类型介绍和原理
+
+3 Hash数据结构底层原理
+
+4 List,SET,Zset数据结构使用和底层原理
+
+5 课后答疑
+
+20210429Architect02Course002Redis-2
+
+下载地址：https://pan.baidu.com/s/1oI3kL0rhcGDBuEa6cf1vZQ
+提取码： fscf
+1 特殊4种数据结构使用场景和原理
+
+2 事务和LUA脚本使用
+
+3 RDB持久化原理和使用
+
+4 Redis主从架构搭建和主从原理
+
+20210506Architect02Course003Redis-3
+
+下载地址：https://pan.baidu.com/s/1jgJvLKgkA584lcURPdgA8A
+提取码： x8iu
+1 哨兵模式原理和搭建
+
+2 集群模式原理和搭建
+
+20210507Architect02Course004Redis-补充
+
+下载地址：https://pan.baidu.com/s/1f1MKmlaHRXS3Bya5NtgK-Q
+提取码： m453
+1 数据淘汰策略
+
+2 缓存实战调优
+
+20210507Architect02Course005Mongodb-1
+
+下载地址：https://pan.baidu.com/s/1Jph9gCNmsszpf5L0FLGxCg
+提取码： dozt
+1 MongoDB介绍和使用，对接.NET
+
+2 使用场景慎用场景和高效原理
+
+3 其余特殊功能介绍
+
+20210508Architect02Course006Mongodb-2
+
+下载地址：https://pan.baidu.com/s/1ahgP54XNF3XkA6XDyoJ4dA
+提取码： u3lx
+1 副本集原理和环境搭建
+
+2 分片原理和环境搭建
+
+3 索引使用
+
+4 NoSQL扩展和技术选型
+
+20210512Architect02Course007RabbitMQ-1
+
+下载地址：https://pan.baidu.com/s/1Lp5ihqmTDHiY2WHxbxctFw
+提取码： xqv2
+1 消息队列概述
+
+2 RabbitMQ初识
+
+3 Docker安装及.NET连接
+
+4 工作队列和发布订阅模式
+
+5 Direct路由模式
+
+6 Topic路由模式
+
+20210513Architect02Course008RabbitMQ-2
+
+下载地址：https://pan.baidu.com/s/18n6wF8rG-6bcPZBstB2W5Q
+提取码： vxor
+1 RabbitMQ消息确认机制
+
+2 RabbitMQ消息的持久化+优先级队列
+
+3 RabbitMQ死信和延时消息
+
+4 RabbitMQ 存储和队列结构
+
+5 集群2种模式讲解
+
+6 RabbitMQ普通集群构建
+
+7 通过代码验证普通集群的问题
+
+8 设置镜像队列并验证镜像队列的高可用性
+
+20210520Architect02Course009RabbitMQ-3
+
+下载地址：https://pan.baidu.com/s/1vkwojLZCst3iDk16sgkwDw
+提取码： e37k
+1 HAProxy构建完成RabbitMQ集群负载均衡
+
+2 Keepalived构建完成HAProxy的热备切换和演示
+
+3 RabbitMQ开发中消息可靠性分析和解决
+
+4 RabbitMQ开发中消息的幂等如何设计和实现
+
+5 RabbitMQ开发中顺序消费和延迟队列
+
+6 消息队列的技术选型讲解
+
+20210521Architect02Course010Kafka-1
+
+下载地址：https://pan.baidu.com/s/1cwv2M-LTvDBUbBAnxNddkA
+提取码： y1ea
+1 架构原理
+
+2 相关术语数据备份原理
+
+3 集群搭建
+
+4 数据写入流程对接NET5
+
+5 ack各种配置机制和原理
+
+20210522Architect02Course011Kafka-2
+
+下载地址：https://pan.baidu.com/s/1Qj-DfYRohh-imhvmXIsxPg
+提取码： mt18
+1 生产者事务
+
+2 高效原理
+
+3 消费者原理
+
+4 底层异常情况处理
+
+5 高级消费代码演示-补录
+
+20210527Architect02Course012ElasticSearch-1
+
+下载地址：https://pan.baidu.com/s/1BemJaryI4XLChfm9p8zfqw
+提取码： f8w4
+1.发展历程和介绍
+
+2.环境搭建
+
+3.数据类型和ik分词自定义
+
+4.基本操作和聚合查询演练
+
+5.对接.NET 花式操作
+
+20210528Architect02Course013ElasticSearch-2
+
+下载地址：https://pan.baidu.com/s/16Ls5bP-ucSlUE0vh7K6EMg
+提取码： 0qcf
+1 倒排索引
+
+2 索引压缩原理
+
+3 集群环境搭建和原理
+
+4 脑裂和分片原理
+
+5 ES为什么最多只能使用32G内存
+
+20210529Architect02Course014ElasticSearch-3-ELK
+
+下载地址：https://pan.baidu.com/s/1uzgOojPY34IlY4N2gvvd2A
+提取码： szsw
+1 跨库查询和插件安装
+
+2 文本日志收集
+
+3 各种方式日志收集
+
+20210603Architect02Course015TiDB
+
+下载地址：https://pan.baidu.com/s/1m9XQ5lw5BQ25CQaxZIvaQA
+提取码： wjcc
+1 发展历程和架构解析
+
+2 环境搭建和选举策略
+
+3 数据一致性原理
+
+4 对接Spark引擎大数据查询
+
+5 数据高效读写原理
+
+20210604Architect02Course016分布式文件系统
+
+下载地址：https://pan.baidu.com/s/1B0SSal6r3pwEbhxtm9ouFg
+提取码： xq1e
+1 NFS理论知识的简单概述
+
+2 NFS服务端安装及配置
+
+3 NFS客户端的安装及配置过程问题解决
+
+4 FastDFS的理论基础知识概述
+
+5 搭建一个单机版的FastDFS环境
+
+6 基于.NET5+FastDFS做文件上传和下载等
+
+7 .NET5连接FastDFS集群演示+答疑
+
+20210605Architect02Course017分布式锁
+
+下载地址：https://pan.baidu.com/s/1ahbJwk71awJzsvAM2KtUTQ
+提取码： iw9a
+1-lock的原理实现
+
+2-Redis阻塞锁实现
+
+3-Redis阻塞锁原理与源码解析
+
+4-Redis实现非阻塞锁的原理和使用
+
+5-RedisRedLock原理和实现
+
+20210610Architect02Course018DistributedTransaction
+
+下载地址：https://pan.baidu.com/s/120FEUwZYRDdODxFMV8uxlg
+提取码： l0ws
+1 CAP定理解读，强一致/弱一致/最终一致
+
+2 强一致方案2PC/3PC/XA协议
+
+3 弱一致方案TCC/Saga，幂等性问题
+
+4 最终一致方案本地消息表，NCC CAP架构
+
+20210611Architect02Course019DistributedTransaction-2
+
+下载地址：https://pan.baidu.com/s/1Ssu0no81xX6AXUm7yuidjw
+提取码： j29i
+1 NCC CAP全环境构建，MongoDB集群+RabbitMQ集群
+
+2 SQLServer+RabbitMQ生产者+消费者
+
+3 MongoDB+RabbitMQ消费者+生产者
+
+4 多进程分布式事务演练
+
+5 CAP核心组件源码解读，自定义扩展
+
+20210617Architect02Course020.NET5ActualCombat
+
+下载地址：https://pan.baidu.com/s/1LRpJxFr0yutEbpVtiYiHjw
+提取码： 0zg6
+1 ASP.NET Core5.0快速实践
+
+2 多方式部署ASP.NET Core5.0
+
+3 内置IOC容器应用
+
+4 Autoface容器扩展和应用
+
+20210618Architect02Course021.NET5ActualCombat
+
+下载地址：https://pan.baidu.com/s/1YuWeWwjmMCs7_FExgh6CCw
+提取码： 75wc
+1.项目部署，WebConfig的作用
+
+2.EFCore的使用&整合三层架构
+
+3.Log4net日志集成使用
+
+4.配置文件的读取
+
+5.AOP作用&ASP.NET Core5.0 Filter
+
+6.ActionFilter的实现和应用
+
+7.多种注册&依赖注入
+
+20210619Architect02Course022.NET5ActualCombat
+
+下载地址：https://pan.baidu.com/s/1HWG8e1kL2y5SLHpaMdywKA
+提取码： ggy8
+1. Filter嵌套执行顺序,Filter匿名
+
+2. ResultFilter/ResourceFilter
+
+3. ExceptionFilter/AutorizationFilter
+
+4. 5大Filter的执行顺序和特点
+
+5. Autofac 扩展AOP
+
+6. ASP.NET Core5.0开发AOP的解决方案
+
+20210623Architect02Course023.NET5ActualCombat
+
+下载地址：https://pan.baidu.com/s/1JiZJR7zgnDrS2HiAT6MpJg
+提取码： 07wv
+1.swagger扩展,版本控制,注释展示
+
+2.对比WebApi和ASP.NET Core5.0 MVC,多种调用方式
+
+3.统一请求响应格式
+
+4.JWT鉴权授权
+
+5.Nginx集群搭建
+
+6.跨域请求的处理
+
+20210624Architect01Course024NET5Advanced-1
+
+下载地址：https://pan.baidu.com/s/1wpsjjH-kk_lyoommXfwfPQ
+提取码： j0y6
+1 从.NET Framework到.NET Core到.NET5/6
+
+2 ASP.NET Core全流程解析
+
+3 怎么读源码？
+
+4 启动流程&运行流程
+
+5 无侵入扩展和建造者模式
+
+20210625Architect01Course025NET5Advanced-2
+
+下载地址：https://pan.baidu.com/s/1ZZbO-cY3OcnsXD9L_tLkhg
+提取码： xnoq
+1 Logger组件扩展、源码解读和自定义Logger
+
+2 委托分配和委托初始化理解
+
+3 Kestrel服务器源码解读和配置
+
+4 Configuration多应用、源码解读和自定义
+
+20210702Architect01Course026NET5Advanced-3
+
+下载地址：https://pan.baidu.com/s/1zFMZ0Ox4D_a6QOg8Z2GarQ
+提取码： 1uqw
+1 Logger源码流程梳理
+
+2 IOC理解，手写IOC容器解读
+
+3 IOC映射关系扩展举例，扩展属性注入
+
+4 解读IOC容器流程源码，扩展自定义容器
+
+20210703Architect01Course027NET5Advanced-4
+
+下载地址：https://pan.baidu.com/s/1HmKtiqVw_qPYLuVB_BH5rg
+提取码： zuu0
+1 Autofac容器替换，AOP扩展
+
+2 自定义AOP扩展，理解委托嵌套
+
+3 Options模式数据注入应用详解
+
+4 Options源码解读和流程梳理
+
+20210708Architect01Course028NET5Advanced-5
+
+下载地址：https://pan.baidu.com/s/1J6Z65XjK9Gl4JF4lkxrVQw
+提取码： lnvz
+1 Http请求管道认知，源码解读启动流程
+
+2 源码解读俄罗斯套娃，理解Pay-for-what-you-use
+
+3 IStartupFilter扩展,2种初始化扩展对比
+
+4 Middleware多扩展源码理解
+
+20210709Architect01Course029NET5Advanced-6
+
+下载地址：https://pan.baidu.com/s/1tauFBvDLohxqeyTMK4YXHw
+提取码： kife
+1 UseMiddleware用法和扩展
+
+2 标准中间件封装Add+Use+Option
+
+3 请求响应Stream/Header读写问题
+
+4 中间件功能扩展和作业部署
+
+20210715Architect01Course030NET5Advanced-7
+
+下载地址：https://pan.baidu.com/s/1DX91_3mTp-_jd8kjH1S7UA
+提取码： 4tkb
+1.追本溯源，Kestrel是如何监听请求的
+
+2.全局异常处理中间件和扩展
+
+3.Https两个中间件解读
+
+4.静态文件中间件和扩展
+
+20210723Architect02Course031Blazor-1
+
+下载地址：https://pan.baidu.com/s/1B3SkrOK2Tz22ZQkKQfh8fg
+提取码： fafk
+1 Blazor介绍
+
+2 Blazor原理解析
+
+3 Blazor常规操作
+
+4 答疑
+
+20210724Architect02Course032Blazor-2
+
+下载地址：https://pan.baidu.com/s/1Yyt4TOyJFvC1nbo8ac6VKg
+提取码： klgc
+1 详情页面开发
+
+2 组件化开发
+
+3 新增编辑页面开发
+
+4 答疑
+
+20210730Architect02Course033Blazor&MAUI
+
+下载地址：https://pan.baidu.com/s/1OlaZp0dXbI9kC_9vsRuE5Q
+提取码： yt2a
+1 分页组件开发
+
+2 分页公共方法封装
+
+3 头部参数传递
+
+4 搜索
+
+5 组件整合
+
+6 MAUI介绍，环境搭建，结合blzaor开发
+
+20210731Architect02Course034NET5Advanced-8
+
+下载地址：https://pan.baidu.com/s/1byjBR4f8RYOH_ka9FgjalQ
+提取码： d317
+1 UseSession中间件
+
+2 UseRouting中间件
+
+3 UseEndPoint中间件
+
+4 解读AddControllers
+
+5 理解Endpoint来龙去脉
+
+20210807Architect02Course035NET5Advanced-9
+
+下载地址：https://pan.baidu.com/s/1Jvomi15997o9qehopqmJTA
+提取码： 0r37
+1 鉴权授权究竟是什么？
+
+2 鉴权授权流程快捷演练
+
+3 AddAuthentication源码解析
+
+4 UseAuthentication源码解析
+
+5 自定义解析Handler
+
+6 鉴权核心对象解析，总结全过程
+
+7 多Scheme鉴权
+
+20210808Architect02Course036NET5Advanced-10
+
+下载地址：https://pan.baidu.com/s/1ki6ivQ9_Uhr02gYgBdQABQ
+提取码： ga88
+1 授权Authorization流程演练
+
+2 AddAuthorization源码
+
+3 UseAuthorization源码
+
+4 授权核心对象解析
+
+5 各种扩展定制
+
+6 多Scheme应用和总结
+
+20210813Architect02Course037NET5Advanced-11
+
+下载地址：https://pan.baidu.com/s/1pZ7W-ng77b4GGjR1jD1Bww
+提取码： l3fu
+1.理解Token机制和JWT数据格式
+
+2.实践鉴权授权中心，两种加密算法
+
+3.鉴权中心+客户端全流程演练
+
+4.AddCookie和AddJWT源码
+
+5.授权策略和JWT鉴权扩展
+
+6.JWT刷新Token流程
+
+20210815Architect02Course038NET5Advanced-12
+
+下载地址：https://pan.baidu.com/s/1ARK0WPmnc9lK8YPI1Jcd_Q
+提取码： 0wef
+1 Token局限和JWT刷新Token方案详解
+
+2 路由Route理解和源码解析
+
+3 多方式扩展Route
+
+4 动态路由-自定义约束等
+
+20210820Architect02Course039NET5Advanced-13
+
+下载地址：https://pan.baidu.com/s/1MuF6mTzBboy1-SyjmpsPew
+提取码： bmw7
+1 从AOP到Filter全面认知
+
+2 Filter多知识点快捷实操
+
+3 Filter源码流程综合阅读
+
+20210821Architect02Course040NET5Advanced-14
+
+下载地址：https://pan.baidu.com/s/1qXS98O4GxvjGrJQbGuM-ng
+提取码： osrf
+1 Filter收集环节源码解析
+
+2 FilterPipeline全流程快速认知
+
+3 AuthorizationFilter扩展应用
+
+4 深度探讨AuthorizationFilter源码
+
+20210826Architect02Course041NET5Advanced-15
+
+下载地址：https://pan.baidu.com/s/1WlTtEAdcCH0oOgJA8ktgTw
+提取码： 0qox
+1 ResourceFilter源码流程解析
+
+2 看透Scope+递归+Goto
+
+3 ResourceFilter应用和关键点
+
+4 ExceptionFilter源码流程解析
+
+5 ExceptionFilter应用和关键点
+
+20210828Architect02Course042NET5Advanced-16
+
+下载地址：https://pan.baidu.com/s/1vd5SfbNaw48zqXOeKVwQ3Q
+提取码： by7s
+1.ActionFilter源码流程解析
+
+2.ActionFilter应用和关键点
+
+3.Exception特殊异常处理
+
+4.ResultFilter源码流程解析
+
+5.ResultFilter应用和关键点
+
+6.AlwaysRunResultFilter解析和应用
+
+20210909Architect02Course043Golang-1
+
+下载地址：https://pan.baidu.com/s/1DoXyQ5Pe5z9fCBw-vDU6Mg
+提取码： ft9j
+1 Golang概述和基本语法
+
+2 并发goroutine实践
+
+3 chan和goroutine间通信
+
+20210910Architect02Course044Golang-2
+
+下载地址：https://pan.baidu.com/s/1CKEU5SAe0CF884h00Y-aZQ
+提取码： i8v1
+1 goroutine深度分析
+
+2 go mode项目构建
+
+3 基础webapi
+
+4 Beego开发web应用
+
+5 Beego开发WebAPI+Swagger
+
+6 ORM框架和开发GRPC，并对接.NET5
+
+20211016Architect02Course045NET5Advanced-17
+
+下载地址：https://pan.baidu.com/s/1dSxhWAMTHnr5xNCyItLU5w
+提取码： 6666
+1.ASP.NET Core全流程回顾，理解Controller-Action-Result
+
+2.Controller源码流程解析
+
+3.Controller多项扩展
+
+4.Action参数绑定源码和扩展
+
+20211016Architect02Course046NET5Advanced-18
+
+下载地址：https://pan.baidu.com/s/1NZlsNiyM-klJgs5nFxV5Vw
+提取码： 6666
+1.Action参数绑定流程、源码和扩展
+
+2.Action执行流程和源码
+
+3.Result执行流程和源码解读
+
+4.多Result解读和扩展
+
+以下为往期预习资料总连接，含视频代码+描述
+下载地址：https://pan.baidu.com/s/1h0mpBNFulad_JDPt6U6qRQ
+提取码： jok1
