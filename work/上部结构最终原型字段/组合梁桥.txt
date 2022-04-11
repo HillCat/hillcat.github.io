@@ -4,16 +4,16 @@
 主梁腹板材料
 主梁顶底板材料
 主梁数量
-主梁截面型式
-主梁高度(m)
-主梁长度(m)
-主梁宽度(m)
-是否变截面
-横梁材料
-横梁数量
-横梁截面型式
-横梁高度(m)
-横梁长度(m)
-桥面板材料
-桥面板厚度(m)
-桥面板宽度(m)
+主梁截面型式 main_girder_section_form
+主梁高度(m) main_girder_height
+主梁长度(m) main_girder_length
+主梁宽度(m) main_girder_width
+是否变截面 is_variable_section
+横梁材料 beam_material
+横梁数量 beam_count
+横梁截面型式beam_section_form
+横梁高度(m)beam_height
+横梁长度(m)beam_length
+桥面板材料bridge_panel_material
+桥面板厚度(m)bridge_panel_thinkness
+桥面板宽度(m)bridge_panel_width
