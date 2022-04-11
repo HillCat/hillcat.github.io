@@ -19,19 +19,20 @@
       <commandTimeout>0</commandTimeout>
     </DriverData>
   </Connection>
-  <Namespace>static LinqToDB.Reflection.Methods.LinqToDB</Namespace>
 </Query>
 
-var list = (from user in sys_users
-			join userrole in sys_user_roles
-			on (int)user.Id equals userrole.User_id
-			join rolename in sys_roles
-			on (int)userrole.Role_id equals (int)rolename.Id
-			select new 
-			{ user.Id,
-			userrole.Role_id,
-			user.User_name, 
-			user.Account, 
-			rolename.Display_name,
-			rolename.Type_name }).ToList().Dump();
-
+var List = (from dictionar in bge_dictionars
+join dictionarySub in bge_dictionary_subs
+	on (int)dictionar.Id equals dictionarySub.Dic
+join dictionarySubTable in bge_dictionary_sub_tables
+	on (int)dictionarySub.Id equals (int)dictionarySubTable.Item_id
+join bgeLineInfo in bge_line_infos
+	on (int)dictionarySubTable.Tabler_id equals (int)bgeLineInfo.Id
+			where (dictionar.En_name == "limit_level" && bgeLineInfo.Name == "主线"&&bgeLineInfo.Enable==1) select new 
+			{
+				bridge_line_id = dictionarySubTable.Tabler_id,
+				dict_en_name = dictionar.En_name,
+				data_dict_name = dictionarySub.Data_name,
+				data_dict_id = dictionarySubTable.Item_id,
+				bridge_id = bgeLineInfo.Bge_id
+			}).OrderByDescending(d=>d.bridge_id).ToList().Dump();

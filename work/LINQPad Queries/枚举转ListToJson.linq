@@ -1,4 +1,4 @@
-<Query Kind="Statements">
+<Query Kind="Program">
   <Connection>
     <ID>815d4b7b-a83a-4c1e-b8e0-a6236e635b65</ID>
     <NamingServiceVersion>2</NamingServiceVersion>
@@ -19,19 +19,27 @@
       <commandTimeout>0</commandTimeout>
     </DriverData>
   </Connection>
-  <Namespace>static LinqToDB.Reflection.Methods.LinqToDB</Namespace>
 </Query>
 
-var list = (from user in sys_users
-			join userrole in sys_user_roles
-			on (int)user.Id equals userrole.User_id
-			join rolename in sys_roles
-			on (int)userrole.Role_id equals (int)rolename.Id
-			select new 
-			{ user.Id,
-			userrole.Role_id,
-			user.User_name, 
-			user.Account, 
-			rolename.Display_name,
-			rolename.Type_name }).ToList().Dump();
+void Main()
+{
+	var enums = Enum.GetNames(typeof(BridgeMaintainTypeEnum)).Dump();
+	var dics = enums.Select((t,i)=> new BridgeMainTainTypeDicDto() { id = i+10==14?15:i+10, name = t }).ToList().Dump();
+	
+}
 
+public enum BridgeMaintainTypeEnum
+{
+	I类养护 = 10,
+	ⅱ类养护 = 11,
+	ⅲ类养护 = 12,
+	ⅳ类养护 = 13,
+	ⅴ类养护 = 15
+}
+
+public class BridgeMainTainTypeDicDto
+{
+	public int id { get; set; }
+	public string name { get; set; }
+
+}
