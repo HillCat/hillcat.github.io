@@ -16,7 +16,7 @@ typora-root-url: ../
 
 <img src="https://cs-cn.top/images/posts/niujin914552.png"/>
 
-因为我使用过非常多的开源词典，有各种版本的都有，其中使用效果最好的还是这个牛津9.这个是从“[海明没有威](https://youtu.be/kl-i2to1zvw)”这个油管的博主群内分享出来的资源。“[掌上百科](https://www.pdawiki.com/forum/)”那个网站里面也是有下载的。因为国内大部分的开源英文词典都是从那个论坛流传出来的。
+因为我使用过非常多的开源词典，有各种版本的都有，其中使用效果最好的还是这个牛津9.这个是从“[海明没有威](https://www.bilibili.com/video/av416965385/)”这个油管的博主群内分享出来的资源。“[掌上百科](https://www.pdawiki.com/forum/)”那个网站里面也是有下载的。因为国内大部分的开源英文词典都是从那个论坛流传出来的。
 
 如果说还有什么更厉害的词典，那就是地表最强词典：英英原版的LEXICO词典：[LEXICO官方在线词典](https://www.lexico.com/)
 
