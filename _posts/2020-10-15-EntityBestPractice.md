@@ -324,6 +324,18 @@ https://github.com/bchavez/Bogus/blob/b9049abf8b40203c09079741bcb328da95899f81/S
 
 [https://github.com/wainshine/Chinese-Names-Corpus](https://github.com/wainshine/Chinese-Names-Corpus)
 
+
+
+#### 6.构造关联数据
+
+比如在构造数据的时候，经常需要Table和Table之间进行关联。left join 这种，就需要用到下面的类似的语法。
+
+![image-20220425143513287](/images/posts/image-20220425143513287.png)
+
+![image-20220425150125332](/images/posts/image-20220425150125332.png)
+
+生成mock数据的时候，做了外键外联的属性之后，忽略掉这个属性不进行json输出，不进行database数据库映射处理。
+
 ### 监听EFcore
 
 使用sql server Management studio 连接localDb之后监听Efcore执行sql的过程。
