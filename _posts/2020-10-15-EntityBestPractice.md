@@ -334,7 +334,7 @@ https://github.com/bchavez/Bogus/blob/b9049abf8b40203c09079741bcb328da95899f81/S
 
 ![image-20220425150125332](/images/posts/image-20220425150125332.png)
 
-生成mock数据的时候，做了外键外联的属性之后，忽略掉这个属性不进行json输出，不进行database数据库映射处理。
+生成mock数据的时候，做了外键外联的属性之后，忽略掉这个属性不进行json输出，不进行database数据库映射处理,入库的时候就不会映射报错，经过测试这是可行的。
 
 ### 监听EFcore
 
