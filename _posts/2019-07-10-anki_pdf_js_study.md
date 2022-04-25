@@ -194,11 +194,5 @@ anki插件的安装，是通过插件对应的安装code来安装的，示范如
 
 <img src="https://cs-cn.top/images/posts/concernts422.gif"/>
 
-### 苹果手机移动制卡
 
-参考：[https://www.bilibili.com/video/BV1BW411a7rs?spm_id_from=333.999.0.0](https://www.bilibili.com/video/BV1BW411a7rs?spm_id_from=333.999.0.0)
-
-
-
-主要使用到的技术是IOS的WorkFlow划词制卡，然后Anki的URL schema功能结合制卡。
 
