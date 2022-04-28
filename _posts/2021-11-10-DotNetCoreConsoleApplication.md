@@ -29,6 +29,8 @@ Microsoft.Extensions.Configuration.Binder
 
 ### 开启依赖注入功能
 
+参考：[https://espressocoder.com/2018/12/03/build-a-console-app-in-net-core-like-a-pro/](https://espressocoder.com/2018/12/03/build-a-console-app-in-net-core-like-a-pro/)
+
 ````c#
 Microsoft.Extensions.DependencyInjection
 ````

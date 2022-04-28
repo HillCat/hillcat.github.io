@@ -8,12 +8,6 @@ typora-root-url: ../
 ---
 日常积累的一些win10使用的设置备忘，方便重装系统做初始化。
 
-### 彻底卸载windows上的软件
-
-这个工具比较好用，参考地址：[https://www.iobit.com/en/advanceduninstaller.php](https://www.iobit.com/en/advanceduninstaller.php)
-
-![o6IGdhRZGO](/images/posts/o6IGdhRZGO.png)
-
 ### win10开机激活数字键盘
 
 默认系统情况下，冷启动系统之后，右侧的数字小键盘是默认不会启用的。开机的时候输入开机密码，发现小键盘Num Lock每次都要手动开启比较麻烦，可以直接设置系统注册表，达到win10开机激活数字键盘的目的：
