@@ -35,3 +35,8 @@ Microsoft.Extensions.Configuration.Binder
 Microsoft.Extensions.DependencyInjection
 ````
 
+
+
+### EfCore 插件自动生成实体类
+
+![MEszWGUwhk](/images/posts/MEszWGUwhk.png)
