@@ -1,64 +1,124 @@
-ï»¿using Bogus;
+using Bogus;
 using EFDataAccessLibrary.DataAccess;
 using EFDataAccessLibrary.Models;
+using GDBS.Shared.Data.Const;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Text;
+using System.Threading.Tasks;
+using GDBS.Shared.Data.Entity.Jket;
+using Microsoft.AspNetCore.Components.Forms;
+using GDBS.Shared.Data;
+using Microsoft.EntityFrameworkCore.Query.Internal;
 
 namespace EFDemoWeb.Pages
 {
-    public class IndexModel : PageModel
+    public class CreateBridgeDataModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private readonly ILogger<CreateBridgeDataModel> _logger;
         private readonly BirdgeContext _gdbsDevDbContext;
         private readonly DongGuanBridgeContext _dongGuanBridgeContext;
 
-        public IndexModel(ILogger<IndexModel> logger, BirdgeContext gdbsDevDbContext,
-            DongGuanBridgeContext dongGuanBridgeContext)
+       
+
+        public CreateBridgeDataModel(ILogger<CreateBridgeDataModel> logger, BirdgeContext gdbsDevDbContext, DongGuanBridgeContext dongGuanBridgeContext)
         {
             _logger = logger;
             _gdbsDevDbContext = gdbsDevDbContext;
             _dongGuanBridgeContext = dongGuanBridgeContext;
+           
         }
 
-        public void OnGet()
-        {
-            //GeneratorStaticTestData();
-
-            //GeneratorDongGuanBridgeData();
-            //GeneratorDongGuanBridgeLineData();
-        }
-
-        private bool ApprovedAge(int age)
-        {
-            return (age >= 18 && age <= 40);
-        }
-
-       
         /// <summary>
-        /// ç”Ÿæˆ1000åº§æ¡¥æ¢ä¸»è¡¨æ•°æ®
+        /// ³õÊ¼»¯1000×ùÇÅ£¬²¢ÇÒ¼ÓÈë×Ô¶¯»¯¼à²â
+        /// </summary>
+        /// <returns></returns>
+        public async Task OnGet()
+        {
+            GeneratorDongGuanBridgeData();
+            GeneratorDongGuanBridgeLineData();
+            //GeneratorAutoMonitor();
+
+
+        }
+
+        private async void GeneratorAutoMonitor()
+        {
+            //Éú³É×Ô¶¯»¯¼à²âÊı¾İ
+            //http://47.107.72.111:8191/bs/api/bridgeService/BridgeAutoMonitor/AddOrEditAutoMonitorAppConfig
+            var thounthandBridgeList = await _gdbsDevDbContext.BgeInfoEntityNews.OrderByDescending(d => d.Id).Take(1000).ToListAsync();
+
+            var monitorEntityList = new List<BgeAutoMonitorAppConfigEntity>();
+            var mntSubEntityList = new List<MntSubjectEntity>();
+            var nowTime = DateTime.Now;
+            var serialMaxid = await _gdbsDevDbContext.BgeAutoMonitorAppConfigEntities.MaxAsync(x => x.SerialNumber) ?? +1;
+            foreach (var bridge in thounthandBridgeList)
+            {
+                var monitorEntity = new BgeAutoMonitorAppConfigEntity()
+                {
+                    Url = "https://www.gdjkiot.com/",
+                    Appid = "RHAUTO",
+                    BridgeName = bridge.Name,
+                    BridgeNo = bridge.BgeNo,
+                    BridgeId = bridge.Id,
+                    name = "×Ô¶¯»¯¼à²â²âÊÔ---" + bridge.Name,
+                    CreateTime = nowTime,
+                    CreateUser = 3,
+                    IsEnable = 1,
+                    SerialNumber = serialMaxid
+                };
+
+                var insMntSubject = new MntSubjectEntity
+                {
+                    BgeNo = bridge.BgeNo,
+                    CreateTime = nowTime,
+                    Creator = "·½Óğ",
+                    CreatorId = 3,
+                    ModifyTime = nowTime,
+                    Modifier = "·½Óğ",
+                    ModifierId = 3,
+                    MonitorBeginTime = nowTime
+                };
+                mntSubEntityList.Add(insMntSubject);
+                serialMaxid++;
+                monitorEntityList.Add(monitorEntity);
+            }
+
+            _gdbsDevDbContext.BgeAutoMonitorAppConfigEntities.AddRange(monitorEntityList);
+
+            _gdbsDevDbContext.MntSubjectEntities.AddRange(mntSubEntityList);
+
+            await _gdbsDevDbContext.SaveChangesAsync();
+        }
+        /// <summary>
+        /// Éú³É1000×ùÇÅÁºÖ÷±íÊı¾İ
         /// </summary>
         private void GeneratorDongGuanBridgeData()
         {
-            //è¯»å–ä¸œèæ•°æ®åº“çš„1000åº§æ¡¥æ¢æ•°æ®
+            //¶ÁÈ¡¶«İ¸Êı¾İ¿âµÄ1000×ùÇÅÁºÊı¾İ
             var dongguanBridgeList =
                 _dongGuanBridgeContext.DongGuanBgeInfoEntities.OrderByDescending(d => d.AreaId).Take(1000).ToList();
             var theLastOneBridge = _gdbsDevDbContext.BgeInfoEntityNews.OrderByDescending(d => d.Id).FirstOrDefault();
             if (theLastOneBridge != null)
             {
-                var bgeNoInt = (theLastOneBridge.Id);
-                var bridgeMaintanType = new[] {10, 11, 12, 13, 15}; //æ¡¥æ¢å…»æŠ¤ç±»å‹
-                var bridgeScale = new[] {104, 105, 106, 107, 108};
-                var bridgeCuringGrade = new[] {22, 23, 24}; //å…»æŠ¤ç±»å‹
-                var crossType = new[] {5, 6, 7, 8, 9}; //è·¨è¶Šç±»å‹
-                var functionType = new[] {16, 17, 18, 19, 20, 21}; //åŠŸèƒ½ç±»å‹
-                var structType = new[] {25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 97}; //ç»“æ„ç±»å‹
+                var bgeNoInt = theLastOneBridge.Id;
+                var bridgeMaintanType = new[] { 10, 11, 12, 13, 15 }; //ÇÅÁºÑø»¤ÀàĞÍ
+                var bridgeScale = new[] { 104, 105, 106, 107, 108 };
+                var bridgeCuringGrade = new[] { 22, 23, 24 }; //Ñø»¤ÀàĞÍ
+                var crossType = new[] { 5, 6, 7, 8, 9 }; //¿çÔ½ÀàĞÍ
+                var functionType = new[] { 16, 17, 18, 19, 20, 21 }; //¹¦ÄÜÀàĞÍ
+                var structType = new[] { 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 97 }; //½á¹¹ÀàĞÍ
                 var bgeInfoEntityList = new List<BgeInfoEntityNew>();
                 var faker = new Faker();
                 var timeNow = DateTime.Now;
-                //æ—§æ•°æ®è¡¨çš„æ•°æ®è½¬ç§»åˆ°æ–°æ•°æ®è¡¨
+                //¾ÉÊı¾İ±íµÄÊı¾İ×ªÒÆµ½ĞÂÊı¾İ±í
                 foreach (var item in dongguanBridgeList)
                 {
                     bgeNoInt++;
@@ -84,7 +144,7 @@ namespace EFDemoWeb.Pages
                         OrderNo = item.OrderNo,
                         Locatetype = 1,
                         CreateId = 16,
-                        Creator = "æ¡¥å¤´é•‡å…»æŠ¤å•ä½",
+                        Creator = "ÇÅÍ·ÕòÑø»¤µ¥Î»",
                         CreateDate = timeNow,
                         ModifyId = item.ModifyId,
                         Modifier = item.Modifier,
@@ -106,6 +166,7 @@ namespace EFDemoWeb.Pages
                         FunctionType = faker.PickRandom(functionType),
                         CrossingType = faker.PickRandom(crossType),
                         StructType = faker.PickRandom(structType),
+                        IsAutoDetection = 1
 
                     };
                     bgeInfoEntityList.Add(bgeInfoEntityNew);
@@ -127,13 +188,13 @@ namespace EFDemoWeb.Pages
             _gdbsDevDbContext.SaveChanges();
         }
         /// <summary>
-        /// ç”Ÿæˆæ¡¥æ¢çº¿è·¯
+        /// Éú³ÉÇÅÁºÏßÂ·
         /// </summary>
         private void GeneratorDongGuanBridgeLineData()
         {
             var faker = new Faker();
             var bgeInfoEntityList =
-                _gdbsDevDbContext.BgeInfoEntityNews.Where(d => !string.IsNullOrEmpty(d.Uid)).ToList();
+                _gdbsDevDbContext.BgeInfoEntityNews.Where(d => !string.IsNullOrEmpty(d.Uid)|| d.Id>196).ToList();
             var startTime = Convert.ToDateTime("1989-01-01");
             var endTime = Convert.ToDateTime("2017-05-08");
 
@@ -147,10 +208,10 @@ namespace EFDemoWeb.Pages
                 LoadGrade = faker.Random.Number(100, 1000).ToString(),
                 CreateYear = faker.Date.Between(startTime, endTime).ToString("yyyy-MM"),
                 CreateId = 16,
-                Creator = "ä¹”æŸæŸ",
+                Creator = "ÇÇÄ³Ä³",
                 CreateDate = DateTime.Now,
                 UpdateTime = DateTime.Now,
-                Name = "ä¸»çº¿",
+                Name = "Ö÷Ïß",
                 Uid = item.Uid,
                 Enable = 1,
                 BgeId = item.Id,
@@ -160,8 +221,5 @@ namespace EFDemoWeb.Pages
             _gdbsDevDbContext.SaveChanges();
         }
 
-        private void GeneratorDongGuanBridgeDictData()
-        {
-        }
     }
 }

@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31624.102
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFDemoWeb", "EFDemoWeb\EFDemoWeb.csproj", "{E0571E7D-EBBF-44BE-AA8F-19C180D59699}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFDataAccessLibrary", "EFDataAccessLibrary\EFDataAccessLibrary.csproj", "{01299944-1780-46E6-ABC8-33EE8ACB354C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeDataGenerator", "FakeDataGenerator\FakeDataGenerator.csproj", "{574C9D87-8111-49BA-B5B5-66636FF97C4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeDataGenerator", "FakeDataGenerator\FakeDataGenerator.csproj", "{574C9D87-8111-49BA-B5B5-66636FF97C4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

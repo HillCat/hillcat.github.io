@@ -14,7 +14,7 @@ namespace EFDataAccessLibrary
         /// <summary>
         /// 主键ID 
         /// </summary>
-        [Column("id",TypeName ="int(11) unsigned")]
+        [Column("id",TypeName ="int(11)")]
         public int    Id { get; set; } 
         /// <summary>
         /// UID 

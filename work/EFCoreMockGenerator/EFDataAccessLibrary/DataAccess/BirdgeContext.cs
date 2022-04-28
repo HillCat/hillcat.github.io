@@ -1,4 +1,6 @@
 ﻿using EFDataAccessLibrary.Models;
+using GDBS.Shared.Data;
+using GDBS.Shared.Data.Entity.Jket;
 using Microsoft.EntityFrameworkCore;
 
 namespace EFDataAccessLibrary.DataAccess
@@ -16,6 +18,9 @@ namespace EFDataAccessLibrary.DataAccess
         public DbSet<DetectionLoadTestEntity> DetectionLoadTestEntities { get; set; }
         public DbSet<BgeLineInfoEntity> BgeLineInfoEntities { get; set; }
         public DbSet<BgeInfoEntityNew> BgeInfoEntityNews { get; set; }
+        public DbSet<MntSubjectEntity> MntSubjectEntities { get; set; }
+        public DbSet<BgeAutoMonitorAppConfigEntity> BgeAutoMonitorAppConfigEntities { get; set; }
+
 
 
     }

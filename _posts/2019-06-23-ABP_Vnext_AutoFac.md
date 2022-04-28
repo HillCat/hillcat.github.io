@@ -26,3 +26,7 @@ Cannot resolve parameter 'GDBS.BridgeService.Application.Contracts.BgeSurfaceDev
 ![image-20211231170918313](/images/posts/image-20211231170918313.png)
 
 ![image-20211231171629493](/images/posts/image-20211231171629493.png)
+
+第三种：不要用Private，而要用Public。
+
+![image-20220427191836828](/images/posts/image-20220427191836828.png)
