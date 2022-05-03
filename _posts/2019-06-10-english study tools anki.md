@@ -90,13 +90,31 @@ Anki的PC电脑版本，Future Due这个曲线图，尽量让它平缓。如果�
 
 ## 给单词卡片加上真人发音
 
-给单词加真人发音，主要是防止单词读错，以及看见单词认识，而听到就不认识了。使用朗文发音，至少保证单词不会读错，同时还能锻炼听力。给anki加上朗文词典的发音，这个过程有点繁琐，耐心的人可以继续往下看，如果没有耐心，就此打住。
+最新的方法是使用AwesomeTTS的plus版本，并且申请免费的微软AZURE api, 调用google的人工智能语音合成，这个地方隐藏得比较深，一般官方得AwesomeTTS没有plus功能。你得去[这个地址](https://languagetools.anki.study/tutorials/awesometts-getting-started)使用add-on安装码才能安装到plus版本得AwesomeTTs。下面的安装码：1436550454 . 这个才是plus版本的AwesomeTTS。顺带在这个页面申请一个免费的API密钥使用即可。申请地址：[https://languagetools.anki.study/awesometts-plus](https://languagetools.anki.study/awesometts-plus)，点击那个TRY FOR Free即可，填写你的邮箱，然后它会发一个免费版本的API密钥给你。
 
-链接：https://pan.baidu.com/s/1LhZasr6p7Fkn9aMuMc1RFA 密码：6gu1
+![YjzqsgUIEZ](/images/posts/YjzqsgUIEZ.png)
 
-这个是老黄老巢的博客文章里面的资源，参考链接：https://www.laohuang.net/20161113/awesometts-mdx-server/
 
-里面包含的朗文6词典，就是真人发音mdx，这套朗文发音库主要是配合[fast query插件](https://ankiweb.net/shared/info/1807206748) 使用的，给单词卡片提供真人发音。一般是配合有道的发音和这个真人发音一起使用，先是批量用有道的发音(AwesomeTTs)覆盖一遍，然后用真人发音（FastWQ）再覆盖一遍。尽量能够有多少真人发音就多少真人发音，因为并不是每个单词词组都有朗文发音的。
+
+![nz0keMsZHO](/images/posts/nz0keMsZHO.png)
+
+
+
+邮箱里面发过来的序列号，足够日常使用了，每个月好像是5000个单词的使用量。足够了。
+
+![image-20220504005214832](/images/posts/image-20220504005214832.png)
+
+微软Azure云的这个发音质量非常好：虽然是用的人工智能合成的发音，但是感觉几乎和真人声音一摸一样，非常强大，这里给微软1000个赞！！！哈哈。
+
+![CL3D32mFUz](/images/posts/CL3D32mFUz.png)
+
+~~给单词加真人发音，主要是防止单词读错，以及看见单词认识，而听到就不认识了。使用朗文发音，至少保证单词不会读错，同时还能锻炼听力。给anki加上朗文词典的发音，这个过程有点繁琐，耐心的人可以继续往下看，如果没有耐心，就此打住。~~
+
+~~链接：https://pan.baidu.com/s/1LhZasr6p7Fkn9aMuMc1RFA 密码：6gu1~~
+
+~~这个是老黄老巢的博客文章里面的资源，参考链接：https://www.laohuang.net/20161113/awesometts-mdx-server/~~
+
+~~里面包含的朗文6词典，就是真人发音mdx，这套朗文发音库主要是配合[fast query插件](https://ankiweb.net/shared/info/1807206748) 使用的，给单词卡片提供真人发音。一般是配合有道的发音和这个真人发音一起使用，先是批量用有道的发音(AwesomeTTs)覆盖一遍，然后用真人发音（FastWQ）再覆盖一遍。尽量能够有多少真人发音就多少真人发音，因为并不是每个单词词组都有朗文发音的。~~
 
 <img src="https://cs-cn.top/images/posts/awsomeTTs5229.png"/>
 
@@ -110,11 +128,11 @@ FastWQ具体的配置：
 
 <img src="https://cs-cn.top/images/posts/fast_query_configure4739.png"/>
 
-只需要下载了朗文的发音库之后，放到对应的单独文件夹中，然后配置上路径，按照上图这样子设置FastQuery插件即可。
+~~只需要下载了朗文的发音库之后，放到对应的单独文件夹中，然后配置上路径，按照上图这样子设置FastQuery插件即可。~~
 
 
 
-朗文6的真人发音，再配合牛津9 单词的排版格式，就很容易掌握单词的发音。只可惜该朗文发音库无法满足所有单词形式，只能查单词原型，其他形式的单词查不到，比如动词过去式，动词短语，正在进行时。而有道的单词发音，凑合用用也行。
+~~朗文6的真人发音，再配合牛津9 单词的排版格式，就很容易掌握单词的发音。只可惜该朗文发音库无法满足所有单词形式，只能查单词原型，其他形式的单词查不到，比如动词过去式，动词短语，正在进行时。而有道的单词发音，凑合用用也行。~~
 
 复习Anki单词的时候最好是戴上耳机，边听边复习。记住单词的发音的同时，能够辅助你简化单词的记忆。对于听力的帮助非常重要。
 
