@@ -90,7 +90,7 @@ Anki的PC电脑版本，Future Due这个曲线图，尽量让它平缓。如果�
 
 ## 给单词卡片加上真人发音
 
-最新的方法是使用AwesomeTTS的plus版本，并且申请免费的微软AZURE api, 调用google的人工智能语音合成，这个地方隐藏得比较深，一般官方得AwesomeTTS没有plus功能。你得去[这个地址](https://languagetools.anki.study/tutorials/awesometts-getting-started)使用add-on安装码才能安装到plus版本得AwesomeTTs。下面的安装码：1436550454 . 这个才是plus版本的AwesomeTTS。顺带在这个页面申请一个免费的API密钥使用即可。申请地址：[https://languagetools.anki.study/awesometts-plus](https://languagetools.anki.study/awesometts-plus)，点击那个TRY FOR Free即可，填写你的邮箱，然后它会发一个免费版本的API密钥给你。
+最新的方法是使用AwesomeTTS的plus版本，并且申请免费的微软AZURE api, 调用google的人工智能语音合成，这个地方隐藏得比较深，一般官方的AwesomeTTS没有plus功能。你得去[这个地址](https://languagetools.anki.study/tutorials/awesometts-getting-started)使用add-on安装码才能安装到plus版本得AwesomeTTs。下面的安装码：1436550454 . 这个才是plus版本的AwesomeTTS。顺带在这个页面申请一个免费的API密钥使用即可。申请地址：[https://languagetools.anki.study/awesometts-plus](https://languagetools.anki.study/awesometts-plus)，点击那个TRY FOR Free即可，填写你的邮箱，然后它会发一个免费版本的API密钥给你。
 
 ![YjzqsgUIEZ](/images/posts/YjzqsgUIEZ.png)
 
