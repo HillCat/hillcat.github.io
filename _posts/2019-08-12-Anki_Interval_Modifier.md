@@ -98,3 +98,22 @@ Ease Factor为130%的单词我这里有1157个。我需要把这批单词的Ease
 
 ![rZb8pLUNWW](/images/posts/rZb8pLUNWW.png)
 
+另外，看看老外那些高手是怎么使用各种插件来拓展anki功能的，其实也可以拓展出来一堆的插件，在其中再挑选符合自己需要的。类似的插件还有一大堆，比如：
+
+````c#
+Accelerate Image Drag And Drop
+Add Hyperlink
+Anki Web Browser Selection searching
+Batch Note Editing
+Button Colours Good Again
+Convert Subdecks to Tag Hierarchy
+Create Filtered Deck from the Browser
+Customize Sidebar
+Edit Field During Review
+Highlight Search reasults in the browser
+ImageResizer
+Night Mode
+Progress bar
+add-on window search bar
+````
+
