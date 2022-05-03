@@ -41,7 +41,7 @@ Anki的PC电脑版本，Future Due这个曲线图，尽量让它平缓。如果�
 
 <img src="https://cs-cn.top/images/posts/random4038.png"/>
 
-### 其他方法改善记忆
+### 其他方法改善单词复习效果
 
 看美剧遇到的词一般比较容易理解记忆。但是有些词还是很难记，这个时候就可以来一些旁门左道，辅助我们记忆。其实难于记住的词一般是一些高级词汇，面对高级词汇，一般针对的办法是刻意记忆，或者利用词根词缀口诀(词根词缀适合高级学习者)，人人词典中的场景辅助。
 
@@ -80,18 +80,16 @@ Anki的PC电脑版本，Future Due这个曲线图，尽量让它平缓。如果�
 链接：https://pan.baidu.com/s/1lYbKxbZGSchi0dzi_ocyTQ 
 提取码：82nn
 
-如果美剧是那种下载下来放到电脑上面观看的，也想要用anki制卡，就要了解Sharex 配合mpv看美剧制卡的，可以看[Matt的方法](https://youtu.be/bbg6ztWecbU)，不过我不是太喜欢那种下载《老友记》《摩登家庭》或者《绝望主妇》到电脑里面死劲看的方法。看美剧我主要使用在线的NetFlix。不过这些方法和工具我都会综合进行评估，然后自己也会开发一些小软件辅助我自己进行英文更高效率的学习。如果觉得好用，会在我博客里面公开出来放到英文板块，专门搞一个文章出来分享。
+如果美剧是那种下载下来放到电脑上面观看的，也想要用anki制卡，就要了解Sharex 配合mpv看美剧制卡的，可以看[Matt的方法](https://youtu.be/bbg6ztWecbU)，不过我不是太喜欢那种下载《老友记》《摩登家庭》或者《绝望主妇》到电脑里面死劲看的方法。看美剧我主要使用在线的NetFlix。不过这些方法和工具我都会综合进行评估，然后自己也会开发一些小软件辅助我自己进行英文更高效率的学习。如果觉得好用，会在我博客里面公开出来放到英文板块，专门搞一个文章出来分享。关于给单词或者句子添加真人发音的，目前最新的方法是使用微软Azure的人工智能合成语音，这种发音比有道词典的那种人工合成的发音要逼真很多，详细的设置方法在下面段落给出来了。
 
 
 
 <img src="https://cs-cn.top//images/posts/result_203722.png"/>
-<br/>
-
-
+上面这个是人人词典辅助我们对于某些单词的理解，毕竟有电影的场景作为辅助，某些单词会更好理解。
 
 ## 给单词卡片加上真人发音
 
-最新的方法是使用AwesomeTTS的plus版本，并且申请免费的微软AZURE api, 调用google的人工智能语音合成，这个地方隐藏得比较深，一般官方的AwesomeTTS没有plus功能。你得去[这个地址](https://languagetools.anki.study/tutorials/awesometts-getting-started)使用add-on安装码才能安装到plus版本得AwesomeTTs。下面的安装码：1436550454 . 这个才是plus版本的AwesomeTTS。顺带在这个页面申请一个免费的API密钥使用即可。申请地址：[https://languagetools.anki.study/awesometts-plus](https://languagetools.anki.study/awesometts-plus)，点击那个TRY FOR Free即可，填写你的邮箱，然后它会发一个免费版本的API密钥给你。
+最新的方法是使用AwesomeTTS的plus版本，注意：这里说的是plus版本，而不是那个普通版本。这个plus版本藏得比较深，大多数网络帖子提到的都是免费版本，而不是plus版本，这里强烈推荐使用plus版本，然后免费白嫖这个插件的付费API接口。并且免费使用微软AZURE 的api, 调用微软的人工智能语音合成，这个地方隐藏得比较深，一般官方的AwesomeTTS没有plus功能。你得去[这个地址(点击查看)](https://languagetools.anki.study/tutorials/awesometts-getting-started)使用add-on安装码才能安装到plus版本的AwesomeTTs。下面的安装码：1436550454 . 这个才是plus版本的AwesomeTTS。顺带在这个页面申请一个免费的API密钥使用即可。申请地址：[https://languagetools.anki.study/awesometts-plus](https://languagetools.anki.study/awesometts-plus)，点击那个TRY FOR Free即可，填写你的邮箱，然后它会发一个免费版本的API密钥给你邮箱。
 
 ![YjzqsgUIEZ](/images/posts/YjzqsgUIEZ.png)
 
@@ -109,29 +107,15 @@ Anki的PC电脑版本，Future Due这个曲线图，尽量让它平缓。如果�
 
 ![CL3D32mFUz](/images/posts/CL3D32mFUz.png)
 
+安装完毕之后，你的anki应该是这样子：底部靠近1/3的位置，会有AwesomeTTS Plus字样。
+
+![rGZ6nhws7D](/images/posts/rGZ6nhws7D.png)
+
+下面的文字被打上了删除线，是很久之前的方法，不建议使用。。。。
+
 ~~给单词加真人发音，主要是防止单词读错，以及看见单词认识，而听到就不认识了。使用朗文发音，至少保证单词不会读错，同时还能锻炼听力。给anki加上朗文词典的发音，这个过程有点繁琐，耐心的人可以继续往下看，如果没有耐心，就此打住。~~
 
-~~链接：https://pan.baidu.com/s/1LhZasr6p7Fkn9aMuMc1RFA 密码：6gu1~~
-
-~~这个是老黄老巢的博客文章里面的资源，参考链接：https://www.laohuang.net/20161113/awesometts-mdx-server/~~
-
 ~~里面包含的朗文6词典，就是真人发音mdx，这套朗文发音库主要是配合[fast query插件](https://ankiweb.net/shared/info/1807206748) 使用的，给单词卡片提供真人发音。一般是配合有道的发音和这个真人发音一起使用，先是批量用有道的发音(AwesomeTTs)覆盖一遍，然后用真人发音（FastWQ）再覆盖一遍。尽量能够有多少真人发音就多少真人发音，因为并不是每个单词词组都有朗文发音的。~~
-
-<img src="https://cs-cn.top/images/posts/awsomeTTs5229.png"/>
-
-
-
-FastWQ具体的配置：
-
-<img src="https://cs-cn.top/images/posts/fast_query04518.png"/>
-
-<img src="https://cs-cn.top/images/posts/fast_query600.png"/>
-
-<img src="https://cs-cn.top/images/posts/fast_query_configure4739.png"/>
-
-~~只需要下载了朗文的发音库之后，放到对应的单独文件夹中，然后配置上路径，按照上图这样子设置FastQuery插件即可。~~
-
-
 
 ~~朗文6的真人发音，再配合牛津9 单词的排版格式，就很容易掌握单词的发音。只可惜该朗文发音库无法满足所有单词形式，只能查单词原型，其他形式的单词查不到，比如动词过去式，动词短语，正在进行时。而有道的单词发音，凑合用用也行。~~
 
