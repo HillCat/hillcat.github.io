@@ -19,6 +19,18 @@ Home键：移动到行首，按两次Home键，直接移动到边框最左端
 
 **Ctrl +R 连按2次：修改变量名**。在安装了Resharp插件的时候，这个功能会同时把整个解决方案中的类名文件名，接口文件名一起修改，非常方便，特别是代码重构的时候加快开发效率。
 
+
+
+### 代码生成器
+
+利用T4模板，生成Efore相应的代码，参考：[https://marketplace.visualstudio.com/items?itemName=DevartSoftware.DevartT4EditorforVisualStudio](https://marketplace.visualstudio.com/items?itemName=DevartSoftware.DevartT4EditorforVisualStudio)
+
+
+
+关于T4模板官方介绍：[https://docs.microsoft.com/en-us/visualstudio/modeling/code-generation-and-t4-text-templates?view=vs-2022](https://docs.microsoft.com/en-us/visualstudio/modeling/code-generation-and-t4-text-templates?view=vs-2022)
+
+![aO11fgVAgZ](/images/posts/aO11fgVAgZ.png)
+
 ### Immediate Windows打印变量为Json字符串
 
 在debug模式下，Newtonsoft.Json.JsonConvert.SerializeObject(someVariable) 既可以变量变为Json 

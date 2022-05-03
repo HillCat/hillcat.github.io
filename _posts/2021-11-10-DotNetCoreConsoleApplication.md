@@ -1,14 +1,34 @@
 ---
 
 layout: post
-title: DotNetCoreConsoleApplication
+title: Blazor_MudBlazor初探
 categories: DotNetCore
 description: DotNetCoreCosoleApplication
 keywords: .net
 typora-root-url: ../
 ---
 
-关于dotnetcore控制台程序的编写的经验帖汇总：
+关于快速开发类工具的探索篇，一个是控制台程序，一个是基于快速UI开发的Blazor技术：
+
+### Blazor_MudBlazor框架
+
+1.首先是nuget package控制台安装MubBlazor模板文件
+
+````c#
+dotnet new --install MudBlazor.Templates
+````
+
+
+
+![devenv_LQ8dZ8odbL](/images/posts/devenv_LQ8dZ8odbL.png)
+
+安装完mudBlazor模板文件之后，visual studio 2022新建就可以看到MubBlazor了：
+
+![mOfLvZeilG](/images/posts/mOfLvZeilG.png)
+
+
+
+
 
 控制台里面可以实用依赖注入，可以配置appsettings.json数据，快速实现一些功能比用UI界面要更快。
 

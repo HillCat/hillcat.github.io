@@ -88,9 +88,13 @@ Ease Factor为130%的单词我这里有1157个。我需要把这批单词的Ease
 
 暂停：anki里面的Suspend Card，被暂停了之后，这个单词永远不会再出现，除非你取消暂停。一般我最常用的是这个暂停功能，被暂停的单词一般都是非常难的，或者我们还没有做好心理准备要去吸收记住它，或者它非常不好理解，这样子的单词我们需要定期筛选出来，多通过查词典，搜索google进行一系列的拓展，看看这个词在真实世界中是怎么使用的，比如我会复制一个词，去到Quera类似这种网站上面去搜索这个词，因为Quera网站上面大部分都是真实世界人们提问的一些地方。或者我搜索google，看看会出来什么结果，然后再结果中进一步去看看这个词，人们是怎么用的。如果遇到了比较好的例子，就会记录下来，这样子就加深了印象。难词就变得容易理解。
 
+通过[游戏手柄](https://item.jd.com/100027491310.html)，配合Customize Keyboard Shortcuts插件，可以设置anki的快捷键，比如把suspend改为X键控制，可以把一些很难的单词直接给停掉，然后自己再去suspend标签里面去寻找那个单词，开启词典或者google或者维基百科去搜索相关的国外的母语者的释义，图片或者是词源网站，去拓展深挖了这个词。这样子能够提升我们的对于单词的理解。修改anki快捷键的插件来源地址：[https://ankiweb.net/shared/info/24411424](https://ankiweb.net/shared/info/24411424)，anki还有很多各种各样的插件，可以根据自己的学习进度和熟练度自己拓展，也可以看看老外们是怎么拓展anki功能的，可以参考：[https://youtu.be/9NUuw7DT4iM](https://youtu.be/9NUuw7DT4iM)
+
+![FtyBVTFhdg](/images/posts/FtyBVTFhdg.png)
+
 周末我们整理难词得时候，搜索 is:suspended就可以搜索出来暂停的单词，进行查词典，搜Google整理，完善这些笔记。搜索 is:buried 可以搜索出来被搁置的卡片。被取消暂停的卡片，将会被重新释放出来，然后anki会给你重新安排复习计划。
 
-另外，anki的使用经验，可以多多向一些学霸或者大佬们借鉴经验，比如这位学霸的一些经验帖，写得比较好。[https://www.zhihu.com/column/ankigaokao](https://www.zhihu.com/column/ankigaokao)
+另外，anki的使用经验，不单单是可以向国外的人借鉴经验，同时国内可以多多向一些学霸借鉴经验，比如这位学霸的一些经验帖：[https://www.zhihu.com/column/ankigaokao](https://www.zhihu.com/column/ankigaokao)
 
 ![rZb8pLUNWW](/images/posts/rZb8pLUNWW.png)
 
