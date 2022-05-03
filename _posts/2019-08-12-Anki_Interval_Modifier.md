@@ -117,3 +117,4 @@ Progress bar
 add-on window search bar
 ````
 
+更多的anki插件，可以老外的这篇文章：[https://pawelcislo.com/2020/07/10/optimising-our-learning-retention-rate-with-srs-anki/](https://pawelcislo.com/2020/07/10/optimising-our-learning-retention-rate-with-srs-anki/)
