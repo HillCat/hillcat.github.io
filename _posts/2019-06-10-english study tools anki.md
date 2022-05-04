@@ -31,7 +31,7 @@ pdf.js使用教程：[https://www.bilibili.com/video/BV1PB4y1m7mi/](https://www.
 
 需要额外解释一下过滤器：过滤器创建的这种单词本是临时单词本，对这个临时单词本进行删除操作不会影响到正常的单词本中单词。加工之后的单词，释放临时本的时候会返回给它们原来的单词本中去。特别是需要对单词进行筛选过滤再进行操作的时候，过滤器非常管用。这个方法，可以很大程度上减轻使用者的复习压力。
 
-### 故意降低某天的复习量
+### 手动调节单词的复习量
 
 Anki的PC电脑版本，Future Due这个曲线图，尽量让它平缓。如果某段时间复习量特别大，可以手动调节。这个功能是很多单词管理软件不具备的。可以说，Anki这个工具轻松秒杀任何单词管理工具。
 
@@ -89,7 +89,23 @@ Anki的PC电脑版本，Future Due这个曲线图，尽量让它平缓。如果�
 
 ## 给单词卡片加上真人发音
 
-最新的方法是使用AwesomeTTS的plus版本，注意：这里说的是plus版本，而不是那个普通版本。这个plus版本藏得比较深，大多数网络帖子提到的都是免费版本，而不是plus版本，这里强烈推荐使用plus版本，然后免费白嫖这个插件的付费API接口。并且免费使用微软AZURE 的api, 调用微软的人工智能语音合成，这个地方隐藏得比较深，一般官方的AwesomeTTS没有plus功能。你得去[这个地址(点击查看)](https://languagetools.anki.study/tutorials/awesometts-getting-started)使用add-on安装码才能安装到plus版本的AwesomeTTs。下面的安装码：1436550454 . 这个才是plus版本的AwesomeTTS。顺带在这个页面申请一个免费的API密钥使用即可。申请地址：[https://languagetools.anki.study/awesometts-plus](https://languagetools.anki.study/awesometts-plus)，点击那个TRY FOR Free即可，填写你的邮箱，然后它会发一个免费版本的API密钥给你邮箱。
+最新的方法是使用AwesomeTTS的plus版本，注意：这里说的是plus版本，而不是那个普通版本。这个plus版本藏得比较深，去[这个地址(点击查看)](https://languagetools.anki.study/tutorials/awesometts-getting-started)使用add-on安装码才能安装到plus版本的AwesomeTTs。安装完成之后，anki的界面会发生变化：
+
+底部靠近1/3的位置，会有AwesomeTTS Plus字样。
+
+![rGZ6nhws7D](/images/posts/rGZ6nhws7D.png)
+
+安装完成，并且填入了API密钥之后，推荐选择Microsoft Azure：
+
+![6zaHr3mfLL](/images/posts/6zaHr3mfLL.png)
+
+然后选择Voice：English(US),Female,Elizabeth(Neural)，Azure
+
+![CL3D32mFUz](/images/posts/CL3D32mFUz.png)
+
+
+
+详细的安装步骤：安装码：1436550454 . 用这个安装码安装，然后去申请一个免费的API密钥，申请地址：[https://languagetools.anki.study/awesometts-plus](https://languagetools.anki.study/awesometts-plus)，点击那个TRY FOR Free按钮即可，填写你的邮箱，然后它会发一个免费版本的API密钥给你邮箱。下面这个是官方英文截图：注意看官方的英文说明
 
 ![YjzqsgUIEZ](/images/posts/YjzqsgUIEZ.png)
 
@@ -99,23 +115,11 @@ Anki的PC电脑版本，Future Due这个曲线图，尽量让它平缓。如果�
 
 
 
-邮箱里面发过来的序列号，足够日常使用了，每个月好像是5000个单词的使用量。足够了。
+邮箱里面发过来的序列号如下图，足够日常使用了，每个月好像是5000个字节的使用量，大概是800~1000个单词的查询量/每月.
 
 ![image-20220504005214832](/images/posts/image-20220504005214832.png)
 
-微软Azure云的这个发音质量非常好：虽然是用的人工智能合成的发音，但是感觉几乎和真人声音一摸一样，非常强大，这里给微软1000个赞！！！哈哈。
-
-推荐选择Microsoft Azure：
-
-![6zaHr3mfLL](/images/posts/6zaHr3mfLL.png)
-
-然后选择Voice：English(US),Female,Elizabeth(Neural)，Azure
-
-![CL3D32mFUz](/images/posts/CL3D32mFUz.png)
-
-安装完毕之后，你的anki应该是这样子：底部靠近1/3的位置，会有AwesomeTTS Plus字样。
-
-![rGZ6nhws7D](/images/posts/rGZ6nhws7D.png)
+微软Azure云的这个发音质量非常好：虽然是用的人工智能合成的发音，但是感觉几乎和真人声一摸一样，非常强大，而且发音的语速可调，如果觉得发音太快，可以调节Speed从原来默认的1.0倍速，调节为0.8倍速。这里给微软1000个赞！！！哈哈。
 
 下面的文字被打上了删除线，是很久之前的方法，不建议使用。。。。
 
