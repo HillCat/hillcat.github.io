@@ -105,6 +105,12 @@ Anki的PC电脑版本，Future Due这个曲线图，尽量让它平缓。如果�
 
 微软Azure云的这个发音质量非常好：虽然是用的人工智能合成的发音，但是感觉几乎和真人声音一摸一样，非常强大，这里给微软1000个赞！！！哈哈。
 
+推荐选择Microsoft Azure：
+
+![6zaHr3mfLL](/images/posts/6zaHr3mfLL.png)
+
+然后选择Voice：English(US),Female,Elizabeth(Neural)，Azure
+
 ![CL3D32mFUz](/images/posts/CL3D32mFUz.png)
 
 安装完毕之后，你的anki应该是这样子：底部靠近1/3的位置，会有AwesomeTTS Plus字样。
