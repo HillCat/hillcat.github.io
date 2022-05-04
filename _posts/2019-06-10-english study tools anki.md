@@ -131,11 +131,11 @@ Anki的PC电脑版本，Future Due这个曲线图，尽量让它平缓。如果�
 
 有声书一本书总共投入的时间：第一遍：阅读1遍有声书；第二遍：查1遍书中的生词；第三遍：听1遍，可以是边听边看,也可能是只看不听，听力留给日常的听书复习去做。3遍下来，一本书投入时间至少3小时。其他时间，比如日常坐地铁或者回到家，进行盲听复习的时候，由于有不断的Anki间隔重复，每次都可以听到单词的发音，加上盲听有声书的复习，这样一通操作下来，词汇记住了，听力也建立了。
 
-同样，也可以参考下这位学霸的分享：[单词量40000+学姐：背单词五大坑](https://www.bilibili.com/video/BV1JU4y1Y7CE?share_source=copy_web)，对于单词的记忆，英雄所见略同。
+同样，也可以参考下这位学霸的分享：[单词量40000+学姐：背单词五大坑](https://www.bilibili.com/video/BV1JU4y1Y7CE?share_source=copy_web)
 
 <iframe src="//player.bilibili.com/player.html?aid=672382281&bvid=BV1JU4y1Y7CE&cid=320666108&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-如果是要积累跟自己专业相关的词汇，比如：IT方面的词汇，可以观看YouTube跟IT相关的视频来积累单词，或者Udemy网站的付费视频也是带有字幕的，也可以用来积累IT领域的词汇。作为.net程序员，养成阅读.net源码和微软官方英文文档也是一个渠道。把英文当作一种习惯，多用，自然就能积累一大批单词。
+
 
 
 
