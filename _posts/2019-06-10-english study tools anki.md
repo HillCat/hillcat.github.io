@@ -33,7 +33,7 @@ pdf.js使用教程：[https://www.bilibili.com/video/BV1PB4y1m7mi/](https://www.
 
 ### 手动调节单词的复习量
 
-Anki的PC电脑版本，Future Due这个曲线图，尽量让它平缓。如果某段时间复习量特别大，可以手动调节。这个功能是很多单词管理软件不具备的。可以说，Anki这个工具轻松秒杀任何单词管理工具。
+Anki的PC电脑版本，Future Due这个曲线图，尽量让它平缓。如果某段时间复习量特别大，可以手动调节。这个功能是很多单词管理软件不具备的。可以说，Anki这个工具轻松秒杀任何单词管理工具。也可以用这个功能进行单词的短期复习，把需要考试的单词放到一个固定的时间范围复习。
 
 <img src="https://cs-cn.top/images/posts/static2770.png"/>
 
@@ -105,7 +105,7 @@ Anki的PC电脑版本，Future Due这个曲线图，尽量让它平缓。如果�
 
 
 
-详细的安装步骤：安装码：1436550454 . 用这个安装码安装，然后去申请一个免费的API密钥，申请地址：[https://languagetools.anki.study/awesometts-plus](https://languagetools.anki.study/awesometts-plus)，点击那个TRY FOR Free按钮即可，填写你的邮箱，然后它会发一个免费版本的API密钥给你邮箱。下面这个是官方英文截图：注意看官方的英文说明
+详细的安装步骤：安装码：1436550454 . 用这个安装码安装，然后去申请一个免费的API密钥，申请地址：[https://languagetools.anki.study/awesometts-plus](https://languagetools.anki.study/awesometts-plus)，点击那个TRY FOR Free按钮申请一个免费的API，填写你的邮箱，然后接收一个免费的API密钥。更详细的操作说明，建议看官方的英文说明：如下官方的说明已经讲解得非常详细了。
 
 ![YjzqsgUIEZ](/images/posts/YjzqsgUIEZ.png)
 
@@ -115,7 +115,7 @@ Anki的PC电脑版本，Future Due这个曲线图，尽量让它平缓。如果�
 
 
 
-邮箱里面发过来的序列号如下图，足够日常使用了，每个月好像是5000个字节的使用量，大概是800~1000个单词的查询量/每月.
+序列号申请成功之后，你得邮箱会接收到一条如下信息，里面提供了一个API Key。把那个API Key粘贴到AwesomeTTs Plus如下界面里面即可。免费版本得API Key每个月可以查询的字符数量是5000个字节的使用量，折算起来大概是800~1000个单词的查询量/每月.如果超过这个使用量，需要给这个插件的开发者充值付费购买更多用量才行。**自学英语的过程中建议**：尽量使用英文来搜索讯息，不要自己瞎折腾去发明一些方法，其实99.99%的英文学习方法，早就有前辈已经研究透了，对于成熟的技术，我们拿过来使用即可。尽量避免自己发明，重复造轮子。
 
 ![image-20220504005214832](/images/posts/image-20220504005214832.png)
 
