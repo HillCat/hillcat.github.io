@@ -30,3 +30,7 @@ Cannot resolve parameter 'GDBS.BridgeService.Application.Contracts.BgeSurfaceDev
 第三种：不要用Private，而要用Public。
 
 ![image-20220427191836828](/images/posts/image-20220427191836828.png)
+
+第四种：忘记了把DbContext添加到Abp的Context上下文里面。这个往往会被坑死。
+
+![bLZhsDBHiu](/images/posts/bLZhsDBHiu.png)
