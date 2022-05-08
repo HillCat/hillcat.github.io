@@ -8,6 +8,10 @@ typora-root-url: ../
 ---
 日常积累的一些win10使用的设置备忘，方便重装系统做初始化。
 
+### win10桌面某些图标变白色的解决办法
+
+参考：[https://thegeekpage.com/how-to-fix-the-white-blank-shortcut-icons-from-the-desktop-in-windows-10-easily/](https://thegeekpage.com/how-to-fix-the-white-blank-shortcut-icons-from-the-desktop-in-windows-10-easily/)
+
 ### PotPlayer播放器播放英文视频的设置
 
 potPlayer是windows上面体验比较好的播放器，最新版本的播放器官方需要番蔷才能访问。学习英文这块我常用的播放器是mpv 播放器，以及这个potplayer播放器。特别是观看中英文双语字幕的电影的时候，这个播放器的体验是最好的，并且有很多的快捷键设置。官方下载地址：[https://potplayer.daum.net/](https://potplayer.daum.net/)
