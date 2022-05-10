@@ -265,3 +265,6 @@ https://rufus.ie/en/
 
 涉及到的材料：UV胶，B7000胶水
 
+### 公司电脑内存
+
+![image-20220510105425452](/images/posts/image-20220510105425452.png)
