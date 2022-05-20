@@ -30,29 +30,7 @@ typora-root-url: ../
 
 英文要多久才能会比较轻松，大概是听力量500+小时，词汇量6000+以上，英文困难期基本就熬过去了。难度最大的其实还是坚持每天的单词复习和原版的阅读不能停，这是最难的部分，会感觉到每天都有压力，而这种感觉要持续很长一段时间。
 
-### 一词多义现象
-
-anki的重复制卡，可以反复搜集同一个单词上下文用来制卡。重复的越多，这个单词的场景频率也会越高。有些单词常见的意思会有5~6种。这种重复制卡，主要是解决四六级单词中那些高频一词多义的情况。
-
-<img src="https://cs-cn.top/images/posts/dumplicate53321.png"/>
-
-比如，lift这个词，有4种意思。在阅读过程中会经常遇到。
-
-<img src="https://cs-cn.top/images/posts/lift5857.png"/>
-
-lift这个词，2年多来，我也只收集了下面这4种场景，英语的难就难在这里，可遇不可求。熟练运用6000词，真的需要时间沉淀，查阅大量词典资料才能让单词具有厚重感。
-
-1.Howard squinted one blue eye. He **lifted** Dink’s baseball cap. “What happened to your hair?”   ---  摘掉(帽子)
-
-2.“This time, I don’t think you can do anything,” she said. “But perhaps it will **lift** Arthur’s spirits  ---  使（精神）振奋
-
-3.“I’ll **lift** the spit,” he said. ---  抬起
-
-4.After some time he sees a car in the distance."Wonderful!" thinks Toad,"I can stop the car and ask for a **lift**. Then I can return to Toad Hall in a car."  ---  搭便车
-
-5.Robin **lifted** the enormous friar with great difficulty. ---  提起，举起
-
-熟悉完一个单词之后，重复的卡片可以suspend暂停的方式隐藏起来，之后就不会在复习的时候出现。如果要进行归类整理，还是可以很方便找到这些一词多义的”笔记“。
+除了看书之外，还可以去看老外分享的学习经验。我之所以只看老外的学习经验，是因为我觉得老外更加的诚实一些，分享的东西基本都是真实的，不会像国内某些UP主，经常在分享的过程中造假和包装自己，甚至有些UP主为杜撰自己的经历。自己并没有实际经验。下面例举的matt和史蒂芬 都是国外真人真事，而罗肖尼是国内雅思满分，之所以把罗肖尼列举在这里，是因为他讲的这些东西基本也是我实践过的，我非常有共鸣才把他们放在这里。
 
 #### Matt vs Japan
 
