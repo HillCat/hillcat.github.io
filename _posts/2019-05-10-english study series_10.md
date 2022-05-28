@@ -116,3 +116,5 @@ She held the wig over the bandit’s bald head. “Who does that look like?” s
 把一些专业单词给搞错，比如下面这个错误：其实这样子贴一个意思上来，平时复习的时候，会造成巨大的困扰。它这里的正确的意思，并不是“持续”的意思，而是持久性数据，保存在数据库中的持久性数据。如果生搬硬套，翻译成“持续存在的”，那就显得不伦不类。而牛津词典里面根本就没有一个合适的解释，怎么办，只能查看例句和常见词组搭配。
 
 ![cjVEOVsHy4](/images/posts/cjVEOVsHy4.png)
+
+![image-20220529015324090](/images/posts/image-20220529015324090.png)
