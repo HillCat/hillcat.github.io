@@ -107,6 +107,6 @@ She held the wig over the bandit’s bald head. “Who does that look like?” s
 
 ![8IEjCA6UNN](/images/posts/8IEjCA6UNN.png)
 
-这个referred这个词是refer过去分词形式，但是在这里我刚开始是把它当作一个单独的单词来录入，二次加工的时候发现它是三个单词加一起，组成的一个短语，referred to as** the "lungs of the earth",把....东西当作....  这种错误在平时的划词制卡中经常出现。花时间二次加工非常必要。加工过程本身就是在复习。如果不进行这种二次加工，其实很多时候我们学东西都是学个错的。
+这个referred这个词是refer过去分词形式，但是在这里我刚开始是把它当作一个单独的单词来录入，二次加工的时候发现它是三个单词加一起，组成的一个短语，referred to as** the "lungs of the earth",把....东西当作....  这种错误在平时的划词制卡中经常出现。花时间二次加工非常必要。加工过程本身就是在复习。如果不进行这种二次加工，其实很多时候我们学东西都是学个错的。连勤勤恳恳花时间制作卡片都能有这么多错误，更何况那些从来不做笔记不复习的人。
 
 ![9N4JBbg7FV](/images/posts/9N4JBbg7FV.png)
