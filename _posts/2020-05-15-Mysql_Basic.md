@@ -60,7 +60,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'yourpassword' with gran
 FLUSH PRIVILEGES;
 ```
 
-一般经过上面的处理就可以登陆到本机localhost或docker中的mysql了。
+一般经过上面的处理，重启mysql进程服务，就可以登陆到本机localhost或docker中的mysql了。
 
 ![connet_mysql_success_2726.png](/images/posts/connet_mysql_success_2726.png)
 
