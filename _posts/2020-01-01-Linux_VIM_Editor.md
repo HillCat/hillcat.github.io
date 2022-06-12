@@ -9,6 +9,60 @@ typora-root-url: ../
 ---
 下面是Vim编辑器常用的操作指令。虽然某些时候nano比较方便，但是功能这块还是vim强大些。
 
+### Centos7安装镜像源
+
+![image-20220612174057339](/images/posts/image-20220612174057339.png)
+
+![image-20220612174041714](/images/posts/image-20220612174041714.png)
+
+### Centos7.5修改静态地址
+
+参考文章：[https://wychuan.gitee.io/docker/k8s/kubespray/proxmox-vm.html](https://wychuan.gitee.io/docker/k8s/kubespray/proxmox-vm.html)
+
+![image-20220612000203407](/images/posts/image-20220612000203407.png)
+
+配置静态ip
+
+编辑网卡接口文件
+
+```bash
+$ vi /etc/sysconfig/network-scripts/ifcfg-eth0
+```
+
+如上图，加上最后的5行。
+
+````c#
+
+BOOTPROTO=static
+IPADDR=192.168.1.106
+NETMASK=255.255.252.0
+GATEWAY=192.168.1.1
+NM_CONTROLLED=no
+
+````
+
+
+
+重启网卡
+
+```bash
+ $ systemctl restart network.service
+```
+
+
+
+更改dns配置
+
+```bash
+ $ sudo vi /etc/resolv.conf
+ nameserver 114.114.114.114
+ nameserver 223.6.6.6
+```
+
+
+
+
+
 ### 移动
 
 
