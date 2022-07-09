@@ -9,6 +9,16 @@ typora-root-url: ../
 
 此文不定期整理VisualStudio使用的一些技巧。包括快捷键，还有插件的使用，一些重构代码的一些快捷方法。新版本的visual sutido特性的更新等。有些常用的快捷方式，熟悉之后对提高生产力很有帮助。
 
+### 关掉部分特性，节省vs2022内存消耗
+
+这些设置可以降低visual studio 2022的内存消耗。
+
+![image-20220703151014999](/images/posts/image-20220703151014999.png)
+
+![image-20220703151220633](/images/posts/image-20220703151220633.png)
+
+参考资料：[https://stackoverflow.com/questions/70683618/visual-studio-2022-highly-used-memory](https://stackoverflow.com/questions/70683618/visual-studio-2022-highly-used-memory)
+
 ### 1.常用快捷技巧
 
 Ctrl + Home键：回到文档的顶部
