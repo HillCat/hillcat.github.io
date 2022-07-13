@@ -9,6 +9,18 @@ typora-root-url: ../
 
 此文不定期整理VisualStudio使用的一些技巧。包括快捷键，还有插件的使用，一些重构代码的一些快捷方法。新版本的visual sutido特性的更新等。有些常用的快捷方式，熟悉之后对提高生产力很有帮助。
 
+### visual sutido2022弹出提示Just My Code Warning
+
+![image-20220706094655928](/images/posts/image-20220706094655928.png)
+
+https://techstrology.com/you-are-debugging-a-release-build-of-dll-using-just-my-code-with-release-builds-using-compiler-optimizations-results-in-a-degraded-debugging-experience/
+
+解决办法：visual studio 2022 --->debug ---->options  
+
+![image-20220706095117871](/images/posts/image-20220706095117871.png)
+
+
+
 ### 1.常用快捷技巧
 
 Ctrl + Home键：回到文档的顶部
