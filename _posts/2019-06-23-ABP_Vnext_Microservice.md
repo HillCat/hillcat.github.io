@@ -23,6 +23,8 @@ typora-root-url: ../
 
 ![image-20220318180519469](/images/posts/image-20220318180519469.png)
 
+AutoMapper正确更新Entity的步骤如下：先取出Entity实体，然后Dto映射实体，进行对实体的更新，映射的时候不再需要使用等号去赋值。
+
 ![image-20220318175728940](/images/posts/image-20220318175728940.png)
 
 ### ABP_Vnext微服务项目
