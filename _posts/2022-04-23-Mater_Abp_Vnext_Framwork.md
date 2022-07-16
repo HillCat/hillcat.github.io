@@ -17,7 +17,7 @@ ABP作者出版了一本书，叫做《精通abp vnext框架》，英文名字�
 
 ![sO6nBKsyfi](/images/posts/sO6nBKsyfi.png)
 
-A模块调用B模块，当A模块需要对B模块初始化进行设置的时候，可以使用B模块内部已经定义好的Options后缀的class来设置模块，这个Options后缀的class遵循ABP Vnext框架默认的约定，主要是用来对被调用模块做初始化设置的。这样子，模块的调用者就可以传递参数到被调用的模块。
+A模块调用B模块，当A模块需要对B模块初始化进行设置的时候，可以使用B模块内部已经定义好的Options后缀的class来设置模块，这个**Options后缀**的class遵循ABP Vnext框架默认的约定，主要是用来对被调用模块做初始化设置的。这样子，模块的调用者就可以传递参数到被调用的模块。
 
 ![ZEWaoCpfvm](/images/posts/ZEWaoCpfvm.png)
 
