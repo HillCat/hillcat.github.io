@@ -46,6 +46,14 @@ Anki参数详细讲解的，第一个视频是Matt的视频，地址是：[https
 
 ### 我的anki参数设置
 
+使用anki快有接近3年的经验。其实配置参数尝试过很多很多种类。下面这些配置方法都是以前过时了的一些配置方法。如果你是使用了anki超过半年的人，建议还是参考这篇终极帖子的方法来配置你的anki参数：帖子：[https://refold.la/roadmap/stage-1/a/anki-setup](https://refold.la/roadmap/stage-1/a/anki-setup)  插件： [https://ankiweb.net/shared/info/819023663](https://ankiweb.net/shared/info/819023663)   这篇文章配合这个插件，其实都是Matt大神推荐的配置方法，而且这个refold网站也是Matt大神的。我anki里面的卡片接近1w张。改为这个配置之后，感觉还是比较科学的，所以推荐大家用帖子里面的这套配置。而不是下面我贴图的配置。
+
+
+
+####################      分割线  #########    以下图片配置方法作废           ##################
+
+
+
 <img src="https://cs-cn.top/images/posts/setting16938.png"/>
 
 <img src="https://cs-cn.top/images/posts/max-interval83.png"/>
@@ -55,6 +63,10 @@ Anki参数详细讲解的，第一个视频是Matt的视频，地址是：[https
 <img src="https://cs-cn.top/images/posts/settings821.png"/>
 
 <img src="https://cs-cn.top/images/posts/settings7698.png"/>
+
+
+
+####################      分割线 #########    以上图片配置方法作废           ##################
 
 
 
