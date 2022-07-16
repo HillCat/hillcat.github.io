@@ -15,6 +15,23 @@ LinqPad调试ABP Unit Of Work中的Repository。对于调试Linq语句，跟踪S
 
 ![vynmFXyxBg](/images/posts/vynmFXyxBg.png)
 
+### Uow解决数据不一致问题
+
+````c#
+ using var uow = _unitOfWorkManager.Begin(requiresNew: true, isTransactional: true, timeout: 15000);
+
+ var result = await LoadProjectApi(apiPath, cityCode, userParam);
+            if (!result.Succeed || result.Code != "200")
+            {
+                await uow.RollbackAsync();
+                return OutputDto.ToResultFail("调用城市接口发生异常,操作被回滚");
+            }
+            await uow.CompleteAsync();
+            return OutputDto.ToResultSuccess();
+````
+
+
+
 ### 解决方案
 
 #### LinqPad +Abp
@@ -84,6 +101,3 @@ select new
 
 PS：我这个是LinqPad7正版，是旗舰版，所以具备LinqPad所有调试功能。它的授权方式是永久买断，可以同时授权3台电脑，3台虚拟机。每年可以换绑6次，并且都是网站后台自助操作，价格大概700RMB左右。
 
-看国外这个MVP笑得多开心，LinqPad真的比较香。
-
-![image-20220124125915612](/images/posts/image-20220124125915612.png)

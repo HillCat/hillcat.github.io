@@ -8,6 +8,24 @@ typora-root-url: ../
 ---
 工作内容的临时备忘，Linq代码片段。
 
+
+
+### 分组查询取每组中最小的值或最大值
+
+参考：[https://stackoverflow.com/questions/1704821/linq-to-sql-groupby-and-max-to-get-the-object-with-latest-date](https://stackoverflow.com/questions/1704821/linq-to-sql-groupby-and-max-to-get-the-object-with-latest-date)
+
+````c#
+var bridgeCongnizaceAssessSource =await _bridgeCognizanceAssessRepository
+                .Where(x => x.IsDeleted == 0 && x.TableName == BridgeServiceConstValue.Table_thematic_evaluation)
+                .GroupBy(d => d.ComeFromId).Select(grp=>new DangerousBridgeCognizanceAssessEntity(){ComeFromId = grp.Key, DangerousBridgeLv = grp.Min(x=>x.DangerousBridgeLv)}).ToListAsync();
+
+            
+````
+
+
+
+
+
 ![image-20211229005439581](/images/posts/image-20211229005439581.png)
 
 ![image-20211229005819943](/images/posts/image-20211229005819943.png)
