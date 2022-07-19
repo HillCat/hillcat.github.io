@@ -9,6 +9,25 @@ typora-root-url: ../
 ---
 Mysql安装之后远程客户端是无法通过root连接道数据库的，需要给与root账号远程登录授权。
 
+### SQL导出表结构字段注释为excle
+
+```c#
+SELECT
+COLUMN_NAME 字段名称,
+COLUMN_TYPE 数据类型,
+-- IF(IS_NULLABLE='NO','是','否') AS '必填',
+COLUMN_COMMENT 注释
+FROM
+INFORMATION_SCHEMA.COLUMNS
+where
+-- Finance为数据库名称，到时候只需要修改成你要导出表结构的数据库即可
+table_schema ='gdbs_shenzhen'
+AND
+-- user为表名，到时候换成你要导出的表的名称
+-- 如果不写的话，默认会查询出所有表中的数据，这样可能就分不清到底哪些字段是哪张表中的了
+table_name = 'bge_substructure_info'
+```
+
 
 
 ### 导出表结构为Excle
