@@ -17,6 +17,8 @@ google的live capture功能其实就是谷歌公司推出的一个人工智能�
 
 ![RG4esttY8B](/images/posts/RG4esttY8B.png)
 
+![2hpb8oUmf8](/images/posts/2hpb8oUmf8.png)
+
 常规方法是，我们需要进入到谷歌浏览器的设置里面，进入很多层菜单里面才能开启或者关闭这个live capture功能，但是通过这个设置之后，我们可以直接在谷歌浏览器的顶部工具栏这里，点击或者关闭这个功能，对于我们平时观看油管英文视频，开启自动人工智能字幕提示就非常方便。开启这个功能，具体请参考这篇帖子：[https://winaero.com/enable-global-media-controls-in-google-chrome/](https://winaero.com/enable-global-media-controls-in-google-chrome/) 。开启之后的效果如下：
 
 ![live capture的便捷开关](/images/posts/live capture的便捷开关.gif)
