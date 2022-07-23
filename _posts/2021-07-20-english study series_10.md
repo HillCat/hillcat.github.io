@@ -23,9 +23,11 @@ google的live capture功能其实就是谷歌公司推出的一个人工智能�
 
 ![cXq0ZTUSCB](/images/posts/cXq0ZTUSCB.png)进入很多层菜单里面才能开启或者关闭这个live capture功能，如上图这样子设置。
 
-有没有更简单的办法，可以做到方便的打开和关闭这个live capture功能呢，有。我们可以直接在谷歌浏览器的顶部工具栏这里，点击或者关闭这个功能，对于我们平时观看英文视频，开启自动智能字幕非常方便。需要设置谷歌浏览器，设置之后，就可以在顶部快捷开启和关闭live captuer。具体请参考这篇帖子：[https://winaero.com/enable-global-media-controls-in-google-chrome/](https://winaero.com/enable-global-media-controls-in-google-chrome/) 。开启之后的效果如下：这些思考和解决方案的搜索，其实等你英文OK之后也可以做到，就是思考问题和搜索问题全部使用英文，可以解决很多中文世界无法解决的问题，当然这也是学习英文带来的好处。可以用英文资讯解决各种英文学习中的问题。包括之前帖子中我自己摸索的很多anki的参数设置方法和用法，都是直接从英文资料中获取的。都是英文带来的好处。更准确说是信息差。
+有没有更简单的办法，可以做到方便的打开和关闭这个live capture功能呢，有。我们可以直接在谷歌浏览器的顶部工具栏这里，点击或者关闭这个功能，对于我们平时观看英文视频，开启自动智能字幕非常方便。需要设置谷歌浏览器，设置之后，就可以在顶部快捷开启和关闭live captuer。具体请参考这篇帖子：[https://winaero.com/enable-global-media-controls-in-google-chrome/](https://winaero.com/enable-global-media-controls-in-google-chrome/) 。开启之后的效果如下：
 
 ![live capture的便捷开关](/images/posts/live capture的便捷开关.gif)
+
+只要留心观察思考，其实等你英文OK之后也可以做到，就是搜问题全部使用英文，可以解决很多问题，这是学习英文带来的好处。之前帖子中我自己摸索的很多方法，都是直接从英文资料中获取的。只要思索，并加以寻找，都有解决方案。
 
 
 
