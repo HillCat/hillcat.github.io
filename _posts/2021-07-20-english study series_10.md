@@ -23,11 +23,11 @@ google的live capture功能其实就是谷歌公司推出的一个人工智能�
 
 ![cXq0ZTUSCB](/images/posts/cXq0ZTUSCB.png)要进入很多层菜单里面才能开启或者关闭这个live capture功能，如上图这样子设置。进入settings---->Accessibility------->Live Caption。
 
-有没有更简单的办法，可以做到方便的打开和关闭这个live capture功能呢，有。我们可以参考这篇帖子：[https://winaero.com/enable-global-media-controls-in-google-chrome/](https://winaero.com/enable-global-media-controls-in-google-chrome/) 。在谷歌浏览器中输入：chrome://flags/#global-media-controls 。把浏览器内置的“全局浏览器控件”开启。经过一个简单的设置，使得Live Capture的开关直接显示在顶部工具栏面板这里，如下图所示，可以非常方便切换Live Capture功能，还可以开启“画中画”功能，我们可以缩小视频窗口的大小，并且视频窗口置顶脱离谷歌浏览器，配合这个AI字幕窗体一起，拖拽和摆放到一个舒服的位置观看这些视频，仅仅从专注于英文的听力来讲这是有好处的。注意看下面这个图片：这个右上角的带有“五线谱”图标的3个杆的图标![6zTkJgayYx](/images/posts/6zTkJgayYx.png)，点击之后就会弹出来媒体控制器，可以对视频进行暂停播放控制，中偏左下的位置还有个很小的方形按钮，点击这个按钮可以开启“画中画"功能，底部就是”Live Caption(English only)"按钮，开启/关闭 实时字幕：
+有没有更简单的办法，可以做到方便的打开和关闭这个live capture功能呢，有。我们可以参考这篇帖子：[https://winaero.com/enable-global-media-controls-in-google-chrome/](https://winaero.com/enable-global-media-controls-in-google-chrome/) 。在谷歌浏览器中输入：chrome://flags/#global-media-controls 。把浏览器内置的“全局浏览器控件”开启。经过一个简单的设置，使得Live Capture的开关直接显示在顶部工具栏面板这里，如下图所示，可以非常方便切换Live Capture功能，还可以开启[“画中画”](https://winaero.com/enable-picture-picture-google-chrome/)功能，我们可以缩小视频窗口的大小，并且视频窗口置顶脱离谷歌浏览器，配合这个AI字幕窗体一起，拖拽和摆放到一个舒服的位置观看这些视频，仅仅从专注于英文的听力来讲这是有好处的。注意看下面这个图片：这个右上角的带有“五线谱”图标的3个杆的图标![6zTkJgayYx](/images/posts/6zTkJgayYx.png)，点击之后就会弹出来媒体控制器，可以对视频进行暂停播放控制，中偏左下的位置还有个很小的方形按钮，点击这个按钮可以开启“画中画"功能，底部就是”Live Caption(English only)"按钮，开启/关闭 实时字幕：
 
 ![live capture的便捷开关](/images/posts/live capture的便捷开关.gif)
 
-![BqXtZVP98o](/images/posts/BqXtZVP98o.png)
+![B0r3HEe62D](/images/posts/B0r3HEe62D.png)
 
 
 
