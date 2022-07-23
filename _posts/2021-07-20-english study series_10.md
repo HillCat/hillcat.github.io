@@ -19,7 +19,11 @@ google的live capture功能其实就是谷歌公司推出的一个人工智能�
 
 ![2hpb8oUmf8](/images/posts/2hpb8oUmf8.png)
 
-常规方法是，我们需要进入到谷歌浏览器的设置里面，进入很多层菜单里面才能开启或者关闭这个live capture功能，但是通过这个设置之后，我们可以直接在谷歌浏览器的顶部工具栏这里，点击或者关闭这个功能，对于我们平时观看油管英文视频，开启自动人工智能字幕提示就非常方便。开启这个功能，具体请参考这篇帖子：[https://winaero.com/enable-global-media-controls-in-google-chrome/](https://winaero.com/enable-global-media-controls-in-google-chrome/) 。开启之后的效果如下：
+常规方法是，我们需要进入到谷歌浏览器的设置里面，而打开和关闭的操作步骤都比较繁琐。
+
+![cXq0ZTUSCB](/images/posts/cXq0ZTUSCB.png)进入很多层菜单里面才能开启或者关闭这个live capture功能，如上图这样子设置。
+
+有没有更简单的办法，可以做到方便的打开和关闭这个live capture功能呢，有。我们可以直接在谷歌浏览器的顶部工具栏这里，点击或者关闭这个功能，对于我们平时观看英文视频，开启自动智能字幕非常方便。需要设置谷歌浏览器，设置之后，就可以在顶部快捷开启和关闭live captuer。具体请参考这篇帖子：[https://winaero.com/enable-global-media-controls-in-google-chrome/](https://winaero.com/enable-global-media-controls-in-google-chrome/) 。开启之后的效果如下：这些思考和解决方案的搜索，其实等你英文OK之后也可以做到，就是思考问题和搜索问题全部使用英文，可以解决很多中文世界无法解决的问题，当然这也是学习英文带来的好处。可以用英文资讯解决各种英文学习中的问题。包括之前帖子中我自己摸索的很多anki的参数设置方法和用法，都是直接从英文资料中获取的。都是英文带来的好处。更准确说是信息差。
 
 ![live capture的便捷开关](/images/posts/live capture的便捷开关.gif)
 
