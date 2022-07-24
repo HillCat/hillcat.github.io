@@ -9,7 +9,7 @@ typora-root-url: ../
 
 ABP作者出版了一本书，叫做《精通abp vnext框架》，英文名字《Mater Abp Vnext Framwork》，感觉还比较全面。通过一个月的时间看完了英文版本，看的过程中做一些记录。
 
-### AbpVnext项目初始化
+### AbpVnext最简单的单层mvc项目初始化
 
 平时自己做小项目，采用abp官方生成的最新的.net6版本，database采用sqlite3,采用mvc模式，下载下来截图大概是这样子：
 
@@ -45,7 +45,9 @@ PM>
 Could not find the bundle file '/libs/abp/core/abp.css' for the bundle 'Basic.Global'!
 ````
 
+进入到项目文件cspro文件夹里面，cmd运行abp install-libs  ,通过abp的cli自动初始化前端mvc依赖。参考官方说明：[https://docs.abp.io/en/abp/latest/CLI#install-libs](https://docs.abp.io/en/abp/latest/CLI#install-libs)
 
+![oa9nGCWHnS](/images/posts/oa9nGCWHnS.png)
 
 
 
