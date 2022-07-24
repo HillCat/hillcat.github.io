@@ -15,17 +15,13 @@ google的live capture功能其实就是谷歌公司推出的一个智能AI字幕
 
 ![B0r3HEe62D](/images/posts/B0r3HEe62D.png)
 
-常规开启的方式就是要在settings里面手工开启这个功能。win10电脑上面就会自动出现这个黑色的半透明的区域，只要油管的英文视频播放的时候，谷歌浏览器就会智能识别英文，并且把字幕生成出来，我们就可以利用这个字幕来学习英文，并且提取自动生成的英文句子和单词词组，来积累我们的口语表达能力。很长时间以来我们都是在学习那些别人为我们准备好的材料，而课本中的那些材料不够实战，最终我们是需要积累起自己的台词，积累起自己的口语表达方式，固定话术的，所以，凭着自己的兴趣来学习积累这些真实生活中的口语表达至关重要，而不仅仅是停留在美剧或者书面上面。像这些油管的节目，谈话类的，述说类的谈话节目，是不可多得的优质材料。书面材料有声书为我们打下坚实基础。而这些活生生的谈话类节目让我们英语更上一层楼，更接地气。这是本篇要分享这个文章的目的所在。
-
-
+AI字幕的常规开启的方式就是在settings里面手工设置。win10电脑上面就会自动出现这个黑色的半透明的区域，只要谷歌浏览器播放音频或者视频，这个提词器就会智能识别英文把字幕输出出来，我们就可以利用这个字幕来学习英文，这个字幕是无法copy复制的。这正是本篇文章要解决的问题。如果能够复制，甚至实时发送到网页端，我们就可以利用划词制卡来**透析**这些视频中的生词和短语加入到我们anki中进行复习。
 
 ![2hpb8oUmf8](/images/posts/2hpb8oUmf8.png)
 
-常规方法是，我们需要进入到谷歌浏览器的设置里面，而打开和关闭的操作步骤都比较繁琐。
+进入到谷歌浏览器的settings里面打开Live Capture比较繁琐。有更好的办法可以便捷开启或者关闭这个功能。
 
-![cXq0ZTUSCB](/images/posts/cXq0ZTUSCB.png)要进入很多层菜单里面才能开启或者关闭这个live capture功能，如上图这样子设置。进入settings---->Accessibility------->Live Caption。
-
-有没有更简单的办法，可以做到方便的打开和关闭这个live capture功能呢，有。我们可以参考这篇帖子：[https://winaero.com/enable-global-media-controls-in-google-chrome/](https://winaero.com/enable-global-media-controls-in-google-chrome/) 。在谷歌浏览器中输入：chrome://flags/#global-media-controls 。把浏览器内置的“全局浏览器控件”开启。经过一个简单的设置，使得Live Capture的开关直接显示在顶部工具栏面板这里，如下图所示，可以非常方便切换Live Capture功能，还可以开启[“画中画”](https://winaero.com/enable-picture-picture-google-chrome/)功能，我们可以缩小视频窗口的大小，并且视频窗口置顶脱离谷歌浏览器，配合这个AI字幕窗体一起，拖拽和摆放到一个舒服的位置观看这些视频，仅仅从专注于英文的听力来讲这是有好处的。注意看下面这个图片：这个右上角的带有“五线谱”图标的3个杆的图标![6zTkJgayYx](/images/posts/6zTkJgayYx.png)，点击之后就会弹出来媒体控制器，可以对视频进行暂停播放控制，中偏左下的位置还有个很小的方形按钮，点击这个按钮可以开启“画中画"功能，底部就是”Live Caption(English only)"按钮，开启/关闭 实时字幕：
+![cXq0ZTUSCB](/images/posts/cXq0ZTUSCB.png)直接开启**全局媒体控制**功能，参考这篇帖子：[https://winaero.com/enable-global-media-controls-in-google-chrome/](https://winaero.com/enable-global-media-controls-in-google-chrome/) 。在谷歌浏览器地址栏中输入：chrome://flags/#global-media-controls 。把浏览器内置的“全局媒体控制”开启。如下图所示，可以非常方便切换Live Capture功能，还可以开启[“画中画”](https://winaero.com/enable-picture-picture-google-chrome/)功能，我们可以缩小视频窗口的大小，并且视频窗口脱离谷歌浏览器，拖拽和摆放到一个舒服的位置观看这些视频，仅仅从专注于英文的听力角度来看，体验非常棒。特别是油管里面有很多我感兴趣的东西，用这个方法来观看，没有任何广告(实用[AdBlock](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom)插件屏蔽广告即可)，很清爽。注意看下面这个图片：这个右上角的带有“五线谱”图标的3个杆的图标![6zTkJgayYx](/images/posts/6zTkJgayYx.png)，点击之后就会弹出来媒体控制器，可以对视频进行暂停播放控制，中偏左下的位置还有个很小的方形按钮，点击这个按钮可以开启“画中画"功能，底部就是”Live Caption(English only)"按钮，开启/关闭 实时字幕：
 
 ![live capture的便捷开关](/images/posts/live capture的便捷开关.gif)
 
