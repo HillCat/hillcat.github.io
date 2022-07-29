@@ -51,6 +51,22 @@ Could not find the bundle file '/libs/abp/core/abp.css' for the bundle 'Basic.Gl
 
 然后是往mvc中添加signalR支持：参考：[https://community.abp.io/posts/realtime-notifications-via-signalr-in-abp-project-tsp2uqd3](https://community.abp.io/posts/realtime-notifications-via-signalr-in-abp-project-tsp2uqd3)
 
+1.首先，在项目中新建文件夹SignalR，里面创建3个类：
+
+1. INotificationClient.cs
+2. UiNotificationClient.cs
+3. UiNotificationHub.cs
+
+执行下面命令行，安装SignalR依赖：
+
+![3lkmNZMXuV](/images/posts/3lkmNZMXuV.png)
+
+````c#
+abp add-package Volo.Abp.AspNetCore.SignalR
+````
+
+
+
 往项目模块中添加：
 
 ````c#

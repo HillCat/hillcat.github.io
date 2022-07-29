@@ -64,7 +64,7 @@ Matt跟 `斯蒂芬.克拉申` 老爷子在Matt的Youtube频道做过一期访谈
 
 **初级章节书**：Junie B. Jones系列、Magic Tree House 系列（神奇树屋）、A to Z Mysteries系列（神秘事件）、My Weird School （疯狂学校）、Arthur系列、BoxcarChildren （棚车少年）、Captain Underpants系列（内裤超人）、Geronomo Stilton系列（老鼠日记）；
 
-**中级章节书**：Goosebumps（鸡皮疙瘩）、The Spiderwick Chronicles系列（奇幻精灵事件簿）、Diary of a Wimpy Kid(小屁孩日记）、Roald Dahl系列作品（罗尔德达尔作品）、I Survived 系列，The Land of Stories  ，Warriors猫武士
+**中级章节书**：Goosebumps（鸡皮疙瘩）、The Spiderwick Chronicles系列（奇幻精灵事件簿）、Diary of a Wimpy Kid(小屁孩日记）、Roald Dahl系列作品（罗尔德达尔作品）、**I Survived** 系列，The Land of Stories  ，Warriors猫武士
 
 **高级桥梁书**：How to Train Your Dragon（驯龙高手）、Alex Rider系列（亚历克斯骑士）、Harry Potter系列（哈利波特）、The Hobbit（霍比特人）、The Lord of the Rings（魔戒）、The Hunger Games系列（饥饿游戏）及一些经典儿童文和纽伯瑞获奖小说。
 
