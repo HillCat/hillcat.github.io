@@ -9,6 +9,18 @@ typora-root-url: ../
 
 ABP作者出版了一本书，叫做《精通abp vnext框架》，英文名字《Mater Abp Vnext Framwork》，感觉还比较全面。通过一个月的时间看完了英文版本，看的过程中做一些记录。
 
+### AbpVnextDemo文件的初始化
+
+abp vnext很多demo源码项目，建立了DbMigrator项目的，直接设置DbMigrator为启动项目运行即可。 如果使用控制台进行初始化一般会失败，并提示：
+
+````c#
+Invalid object name 'AbpSettings'.
+````
+
+
+
+![devenv_OXjUCbUB2j](/images/posts/devenv_OXjUCbUB2j.png)
+
 ### AbpVnext最简单的单层mvc项目初始化
 
 项目背景：这里我需要使用abp框架来创建一个简单的mvc页面用来接收第三方程序通过http接口发送过来的文本消息，然后实时显示更新在页面中。就是这么一个简单的需求，并且是托管在本地iis里面。主要是用来实时显示OCR之后的英文视频字幕用来制作单词卡使用。这个网页程序等于是一个开机运行的托管网页端，用来实时接收另外一个程序发送过来的英文字幕。就是这么简单的一个需求。
