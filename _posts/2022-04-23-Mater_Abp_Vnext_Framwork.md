@@ -75,6 +75,81 @@ context.Services.AddSignalR();
 
 
 
+MVC页面中使用SigNaR，需要在页面中添加SignalR JS库的引用：
+
+````c#
+@section scripts {
+    <abp-script type="typeof(SignalRBrowserScriptContributor)" />
+}
+````
+
+创建一个SignalRHub类：
+
+````c#
+[HubRoute("/english-hub")]
+    public class MessagingHub:AbpHub
+    {
+        public async Task BroadcastMessage(string message)
+        {
+            await Clients.All.SendAsync("ReceiveMessage", message);
+        }
+
+        public override async Task OnConnectedAsync()
+        {
+            await base.OnConnectedAsync();
+        }
+
+        public override async Task OnDisconnectedAsync(Exception? exception)
+        {
+            await base.OnDisconnectedAsync(exception);
+        }
+
+        
+    }
+````
+
+abp模块的初始化方法OnApplicationInitialization中增加：
+
+````c
+ app.UseEndpoints(endpoints => { endpoints.MapHub<MessagingHub>("/english-hub"); });
+````
+
+mvc页面中添加js代码，调用SignalR：
+
+````c#
+var hubName = "english-hub";
+
+var connection = new signalR.HubConnectionBuilder()
+    .withUrl("/" + hubName)
+    .withAutomaticReconnect()
+    .configureLogging(signalR.LogLevel.Information)
+    .build();
+
+var myNotificationManager = $.extend({}, myNotificationManager, {
+    messageListeners: {
+        notificationProcessMessages: []
+    }
+});
+
+connection.on("receiveNotificationMessage", function (message) {
+    if (!myNotificationManager.messageListeners.notificationProcessMessages) {
+        return;
+    }
+
+    myNotificationManager.messageListeners.notificationProcessMessages.forEach(function (fn) {
+        fn({
+            message: message
+        });
+    });
+});
+
+connection.start().then(function () {
+    abp.log.info(hubName + " connected.");
+}).catch(function (err) {
+    abp.log.error(err.toString());
+});
+````
+
 
 
 ### Abp的模块化开发
