@@ -165,9 +165,31 @@ IIS部署完微服务之后，访问本地微服务端口会报错，查看Event
 
 ![wAfnnqPp5h](/images/posts/wAfnnqPp5h.png)
 
+### 手动控制uow
+
+手动控制uow(unitofwork)： 首先是注入类：
+
+````c#
+ private readonly IUnitOfWorkManager _unitOfWorkManager;
+````
+
+然后是：
+
+````c#
+using var uow = _unitOfWorkManager.Begin();
+//中间是数据库操作
+await uow.CompleteAsync();
+````
+
+
+
+
+
 ### ABP切换其他数据库
 
 在实际开发中经常会有要临时切换到其他的数据库，操作完成之后再切换回来的这种场景。也就是说我们想要临时去修改我们DbContext的链接字符串，怎么做呢？就是如下的做法：
+
+
 
 可以参考ABP源码中 UnitOfWorkDbContextProvider.cs中的代码： DbContextCreationContext
 
