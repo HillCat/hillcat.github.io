@@ -17,6 +17,8 @@ LinqPad调试ABP Unit Of Work中的Repository。对于调试Linq语句，跟踪S
 
 ### Uow解决数据不一致问题
 
+利用手动控制Efcore的complete时间点，并且结合Uow事务的特性，来控制远程调用发生错误的时候自动回滚。
+
 ````c#
  using var uow = _unitOfWorkManager.Begin(requiresNew: true, isTransactional: true, timeout: 15000);
 
