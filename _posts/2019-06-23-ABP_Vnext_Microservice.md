@@ -7,7 +7,7 @@ keywords: ABP_Vnext笔记
 typora-root-url: ../
 ---
 
-一些零碎的关于ABP整理的记录。
+一些零碎的关于ABP整理的记录。automapper实体更新，
 
 ### ABP_Vnext中实体的更新
 

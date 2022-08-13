@@ -22,7 +22,12 @@ var bridgeCongnizaceAssessSource =await _bridgeCognizanceAssessRepository
             
 ````
 
+````c#
+  var bridgeMainLineIdList = bgeLineInfoRepository.GroupBy(d => d.Bge_Id).Select(grp => grp.Min(x => x.Id))
+                .ToListAsync();
+````
 
+分组取最小值。
 
 
 
