@@ -176,7 +176,7 @@ IIS部署完微服务之后，访问本地微服务端口会报错，查看Event
 然后是：
 
 ````c#
-using var uow = _unitOfWorkManager.Begin();
+ using var uow = _unitOfWorkManager.Begin(requiresNew:true,isTransactional:true,timeout:15000);
 //中间是数据库操作
 await uow.CompleteAsync();
 ````
