@@ -8,6 +8,12 @@ typora-root-url: ../
 ---
 日常积累的一些win10使用的设置备忘，方便重装系统做初始化。
 
+**检测win10端口占用情况**
+
+[https://www.nirsoft.net/utils/cports.html](https://www.nirsoft.net/utils/cports.html)
+
+![chrome_kC2oO2g0s0](/images/posts/chrome_kC2oO2g0s0.png)
+
 ### win10桌面某些图标变白色的解决办法
 
 参考：[https://thegeekpage.com/how-to-fix-the-white-blank-shortcut-icons-from-the-desktop-in-windows-10-easily/](https://thegeekpage.com/how-to-fix-the-white-blank-shortcut-icons-from-the-desktop-in-windows-10-easily/)
