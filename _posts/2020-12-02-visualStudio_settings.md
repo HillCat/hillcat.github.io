@@ -428,7 +428,7 @@ Tools菜单栏，Get Tool and Fetures...
 
 #### ctrl +shift +f9 
 
-删除所有的debug调试标记点
+删除所有的debug调试标记点，特别是在项目告一段落的时候，会有之前记录过的很多debug痕迹，可以使用快捷键一键删除。
 
 ### 9.如何导出vs2019配置
 
