@@ -46,3 +46,18 @@ typora-root-url: ../
 更难的阅读能力进阶，可以考虑：外刊、专业书、小说。9000~20000的单词是最难积累的，因为大部分都是近义词，那么，阅读《经济学人》这种外刊来积累单词可能是比较理想的选择，因为《经济学人》里面的用词非常讲究精准，很多的近义词都可以在真实环境中学习到。但是在那个之前，还是建议学更实用的POD类材料，彻底突破听力。
 
 最后说下美剧的周边配套工具：[配置ShareX](https://cs-cn.top/2019/07/10/anki_pdf_js_study/#sharex%E9%85%8D%E7%BD%AE); chrome浏览器安装[Learn English with netflix](https://chrome.google.com/webstore/detail/language-learning-with-ne/hoombieeljmmljlkjmnheibnpciblicm)，[截图插件](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj)；
+
+## 最新进展：
+
+最新的迭代情况是使用我自己开发的工具，配合ShareX的OCR截图功能（这个功能被我改造过），几乎可以解决任何有英文声音的MP3或者MP4文件。
+
+推荐chrome的app插件：
+
+https://chrome.google.com/webstore/detail/video-player/gdebnehfojpoccpaocfbelbclfnpbmij
+
+![chrome_nE2SKLEZfP](/images/posts/chrome_nE2SKLEZfP.png)
+
+![chrome_6knhNCZtpk](/images/posts/chrome_6knhNCZtpk.png)
+
+这个chrome app可以加载本地电脑的离线视频，然后让chrome的live caption自动帮助你生成英文字幕。达到学习英文的目的。
+
