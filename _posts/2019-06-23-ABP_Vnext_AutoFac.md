@@ -31,6 +31,43 @@ Cannot resolve parameter 'GDBS.BridgeService.Application.Contracts.BgeSurfaceDev
 
 ![image-20220427191836828](/images/posts/image-20220427191836828.png)
 
-第四种：忘记了把DbContext添加到Abp的Context上下文里面。这个往往会被坑死。
+第四种：忘记了把DbContext添加到Abp的Context上下文里面。这个往往会被坑死。特别是同时操作了2个不同的ConnectionString的数据表的时候。特别容易忘记这个配置。
+
+配置DbContext上下文，这个地方如果没有配置，也会发生报错Int32找不到Table主键。
 
 ![bLZhsDBHiu](/images/posts/bLZhsDBHiu.png)
+
+![rider64_YhsvEpzKJ8](/images/posts/rider64_YhsvEpzKJ8.png)
+
+具体报错如下：
+
+```
+[ERR] An exception was thrown while activating Castle.Proxies.AnkiDataManagerServiceProxy.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Castle.Proxies.AnkiDataManagerServiceProxy.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Castle.Proxies.AnkiDataManagerServiceProxy' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Volo.Abp.Domain.Repositories.IRepository`2[LiveCaptionReceiver.Entities.AnkiNotesEntity,System.Int32] englishTextRepository' of constructor 'Void .ctor(Castle.DynamicProxy.IInterceptor[], Volo.Abp.Domain.Repositories.IRepository`2[LiveCaptionReceiver.Entities.AnkiNotesEntity,System.Int32], Volo.Abp.Uow.IUnitOfWorkManager, Microsoft.Extensions.Logging.ILogger`1[LiveCaptionReceiver.Services.AnkiDataManagerService])'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetAllBindings(ConstructorBinder[] availableConstructors, IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ServiceBasedControllerActivator.Create(ControllerContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-11-03 05:45:30.107 +08:00 [ERR] ---------- Exception Data ----------
+ActivatorChain = Castle.Proxies.AnkiDataManagerServiceProxy
+```
+
