@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 最后再加一把火_背诵COCA20000单词(12)
+title: 最后一击_背诵COCA20000单词(12)
 categories: English
 description: 英文自学
 keywords: English
