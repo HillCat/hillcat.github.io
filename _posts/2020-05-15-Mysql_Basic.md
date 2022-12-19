@@ -85,7 +85,9 @@ FLUSH PRIVILEGES;
 
 **注意**：如果是Docker，启动容器的时候一定要指定好端口，-p 3306:3306   前面的端口号为宿主机win10的端口，后面的为ubuntu镜像中mysql的端口。
 
+### Mysql8授权访问
 
+https://www.cnblogs.com/withLevi/p/16005877.html
 
 #### 彻底删除mysql
 
