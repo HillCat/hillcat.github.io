@@ -67,3 +67,28 @@ anki这个FSRS4Anki插件的使用，参考：
 通过批量处理英英注释部分，以及隐藏掉不需要的一些干扰信息，这样子背起来就相当方便了。而且还结合了anki最新的复习算法插件，相得益彰，如虎添翼。
 
 ![anki_N8aqEsLA3g](/images/posts/anki_N8aqEsLA3g.png)
+
+
+
+在style中加入如下代码:
+
+```css
+.vocabulary #vUi {
+    display: none;
+}
+
+.vocabulary span.b.c {
+    display: none;
+}
+
+.vocabulary.a {
+    display: none;
+}
+
+span.b.c+.a {
+    display: none;
+}
+
+```
+
+![Typora_HbxLuFmCf2](/images/posts/Typora_HbxLuFmCf2.png)
