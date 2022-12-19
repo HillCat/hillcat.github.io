@@ -11,14 +11,14 @@ typora-root-url: ../
 
 结合COCA20000词库，可以让我们把精力花在我们不熟悉的那些词上面。这里我推荐使用anki 2.1.55版本或高于这个版本的anki,结合插件FSRS4Anki  Helper来背诵COCA20000词汇。
 
-
+### 1.COCA20000百度网盘下载
 
 下面是COCA20000词汇的词牌：
 
 链接：[https://pan.baidu.com/s/1BQ4d7ErXVkgVs4rpXOAPSw?pwd=g0e1](https://pan.baidu.com/s/1BQ4d7ErXVkgVs4rpXOAPSw?pwd=g0e1) 
 提取码：g0e1 
 
-
+### 2.词牌来源和使用方法
 
 这个anki词牌资源来至于网络，参考：
 
@@ -26,7 +26,7 @@ typora-root-url: ../
 [https://www.pdawiki.com/forum/forum.php?mod=viewthread&tid=25114](https://www.pdawiki.com/forum/forum.php?mod=viewthread&tid=25114)
 (出处: 掌上百科 - PDAWIKI)
 
-
+### 3.anki优化背词算法
 
 anki这个FSRS4Anki插件的使用，参考：
 
@@ -34,7 +34,13 @@ anki这个FSRS4Anki插件的使用，参考：
 
 在以往的anki版本中，我是不会去刻意尝试背诵单词的，为何现在我会使用背诵的方式呢？
 
-原因主要有2点：
+### 4.背单词原因
+
+笼统来说是因为时机已经成熟了，背单词之前我尝试了一段时间的英英词典vocabulary这个网站。感觉这个网站对于单词的释义真的非常精准，强力推荐。
+
+![chrome_KqkAuSfBJl](/images/posts/chrome_KqkAuSfBJl.png)
+
+采用vocabulary结合coca20000词库和anki，原因主要有2点：
 
 1.vocabulary这个网站的释义确实让我体会到更加容易记住一个单词；并且恰好有人已经制作了具备vocabulary释义的COCA20000的ANKI词牌。
 
