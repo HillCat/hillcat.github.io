@@ -18,7 +18,7 @@ typora-root-url: ../
 链接：https://pan.baidu.com/s/1BQ4d7ErXVkgVs4rpXOAPSw?pwd=g0e1 
 提取码：g0e1 
 
-anki这个插件的使用，参考：
+anki这个FSRS4Anki插件的使用，参考：
 
 【怎么复习单词最科学:使用Anki FSRS4Anki Helper优化我们的复习策略】 https://www.bilibili.com/video/BV1RM41127kZ/?share_source=copy_web&vd_source=074fc12dff24eb02318a300ccc48526d
 
