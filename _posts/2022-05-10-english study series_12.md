@@ -58,3 +58,12 @@ anki这个FSRS4Anki插件的使用，参考：
 
 
 
+### COCA20000词牌的样式编辑
+
+默认的词牌是含有大量的信息的，例句，同义词族，等等；有很多信息是背单词的时候不需要的，可以隐藏掉。懂html和css的话，可以自己结合inspector插件，编写css，通过inspector插件调试anki的词牌，隐藏掉我们不需要显示的部分即可.
+
+![anki_cqDplLMUSN](/images/posts/anki_cqDplLMUSN.png)
+
+通过批量处理英英注释部分，以及隐藏掉不需要的一些干扰信息，这样子背起来就相当方便了。而且还结合了anki最新的复习算法插件，相得益彰，如虎添翼。
+
+![anki_N8aqEsLA3g](/images/posts/anki_N8aqEsLA3g.png)
