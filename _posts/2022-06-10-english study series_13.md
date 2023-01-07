@@ -272,3 +272,4 @@ C:\Users\47664\AppData\Roaming\mpv
 
 [https://learnanylanguage.fandom.com/wiki/Subs2srs](https://learnanylanguage.fandom.com/wiki/Subs2srs)这里提到的方式，是另外一种看剧，挂载字幕的制卡方式，只支持低版本的anki，`Matt vs japan`曾经使用的方法就是这个方法，跟我本文讲解的方法是差不多的，插件都是同一个作者。
 
+[https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg](https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg) 这篇文章来至于微信公众号，是某位IT算法大牛建立的公众号文章，关于如何寻找简单易懂的学习资料的，其中谈论了英语学习的一些观点，我个人觉得比较有意思，所以推荐下这篇文章。
