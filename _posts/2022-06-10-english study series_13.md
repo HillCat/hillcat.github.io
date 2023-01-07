@@ -238,7 +238,13 @@ valign=1
 deadzonesize=1
 ```
 
+我windows10上面的路径是这样子的,Users用户目录下面47664是我当前登录windows的用户名。后面的`AppData\Roaming\mpv`这个路径应该都是一样，只是这个用户名会不一样而已，具体看你自己电脑登录用户名决定。
+
+```shell
 C:\Users\47664\AppData\Roaming\mpv
+```
+
+按照我电脑上的配置为例，最终的配置路径如下图：
 
 ![explorer_ZghV2KICTX](/images/posts/explorer_ZghV2KICTX.png)
 
