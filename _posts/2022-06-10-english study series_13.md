@@ -1,0 +1,181 @@
+---
+layout: post
+title: 通过美剧学英语_anki如何制卡(13)
+categories: English
+description: 英文自学
+keywords: English
+typora-root-url: ../
+---
+
+这个美剧制卡的方法，其实在很久之前我尝试过，失败了，但是直到最近尝试和摸索成功之后，我发现，美剧学英语的效果确实非常好，只是长期以来我们没有掌握好的方法罢了。并且很多人听力不行，想要专门训练听力，除了有声书之外，美剧这种方式可能更好，根据我自己实践体验，这种的复习效率很高，更加容易坚持。
+
+![66667777](/images/posts/66667777.gif)
+
+这种制卡方式使用的是anki结合mpv，离线的美剧，在线的youtube都能搞定，这给英语提升带来了极大的希望。
+
+从我几年来的观察分析看，这个方法是国外很多语言习得大神们普遍采用的，也是为何我一直推荐使用anki的原因,anki使用群体遍布世界，生态非常强大，有非常先进和高效的学习方法蕴含在anki中。
+
+youtube有几个博主大神就是用这个方法，比如:`Matt vs japan`，`Giovanni Smith`也都是用这种方法。我很久以来没有用这个方法的主要原因，是我电脑安装mpv播放器失败，导致了我放弃了这种美剧制卡的方式，主要是因为我比较粗心，没有仔细阅读英文材料来研究这个方法。因为这个方法涉及到的资料大部分都是英文的。
+
+![chrome_UpKqYv6fnw](/images/posts/chrome_UpKqYv6fnw.png)
+
+![chrome_nJQ9JlTXYt](/images/posts/chrome_nJQ9JlTXYt.png)
+
+Giovanni Smith我在几年前关注过他，他在使用anki的过程中也走了很多弯路，其实跟我一样，我也走了很多弯路。包括Matt vs Japan他很多年前的这个方法我尝试过，也怪自己当时尝试失败就放弃了。这里强烈建议，windows电脑一定要使用[chocolatey](https://chocolatey.org/)这个工具来管理软件包，特别特别重要，另外电脑还要开启帆樯功能，搞英语，如果你无法帆樯，基本会给英语学习造成无限障碍。
+
+Giovanni Smith用这个方法通过了HSK6的考试，HSK6是中文级别最高的考试，对于一个美国人来说，学习中文3年，能够通过HSK6考试，我觉得已经很厉害了。但是据他自己说，即便通过了最高级别考试，还是无法流利进行中文口语输出，其实这个也在我意料中，因为考试能力并不等于真实的语言能力。Giovanni Smith使用anki复习单词的次数是50万次，而我使用anki复习单词的次数是17万次左右。我分析了自己跟Giovanni Smith之间的差距的原因。是因为我长期以来都是阅读有声书的方式制卡，而Giovanni Smith是美剧制卡。从卡片复习难度和可坚持程度而言，美剧制卡要比有声书制卡更容易坚持，Giovanni Smith亲自讲述，他自己是每天复习500多张卡片，雷打不动。而我是每天基本是复习300长卡片。这就是我跟他之间的区别。
+
+
+
+## mpv anki视频制卡
+
+### 1，安装chocolatey
+
+因为安装mpv播放器和youtube-dl和ffmpeg都需要通过chocolatey安装，所以最先要安装的是chocolatey：
+
+这里提及到的所有软件的安装，都是在管理员权限之下进行。
+
+chocolatey官方文档强烈建议用户采用离线安装的方式,如果你发现你电脑windows安装失败，或者无法联网的报错，一般都是因为没有开启全局帆樯导致的，所以一定要能够帆樯才行。如果你已经是在国外，没有网络访问限制，那么就不需要帆樯，帆樯是针对于大陆的用户而言。
+
+chocolatey官方文档，安装说明：一定要仔细看这个官方安装说明。
+
+https://docs.chocolatey.org/en-us/choco/setup
+
+按照上面地址的文档说明，chocolate安装方式有2种，一种是通过cmd安装，一种是powershell方式安装。选择其中1种即可，请通过管理权权限打开cmd命令行，或者powershell命令行，选择其中一种即可，它都提供了针对于不同命令行的不同代码指令，复制粘贴，回车运行以下任意1个指令即可：
+
+![chrome_DItaLnnsLo](/images/posts/chrome_DItaLnnsLo.png)
+
+所以即便是研究英语自学方法，其实对于英语本身的阅读能力也是有要求的。很多资料看不懂，几乎没法研究英语自学。
+
+## 2.安装mpv
+
+我这里使用choco方式安装，以管理员权限运行powershell，执行下面命令：
+
+```shell
+choco install mpv
+```
+
+![Obsidian_Ctvz3ykLcj](/images/posts/Obsidian_Ctvz3ykLcj.png)
+
+![Obsidian_JAZ4lroQx7](/images/posts/Obsidian_JAZ4lroQx7.png)
+
+mpv播放器需要播放youtube的url视频，需要电脑默认安装youtube-dl这个插件。
+这里尝试也使用choco来安装。
+
+### 3.安装youtube-dl
+
+同样也是通过choco安装，powershell管理员权限，执行下面命令：
+
+```shell
+choco install youtube-dl
+```
+使用choco安装的好处是，自动脚本安装好，避免自己手动安装出现错误，这一点极为重要，这也是我1年前，探索美剧制卡失败的关键原因，就是因为我没有使用choco方式安装软件包。
+
+![Obsidian_Bb0W9OWsXH](/images/posts/Obsidian_Bb0W9OWsXH.png)
+
+只有在使用choco完整安装了mpv和youtube-dl之后，url链接从浏览器直接鼠标拖拽到mpv播放器，才能直接播放youtube频道的视频。类似下面的效果:
+
+![Obsidian_UgSM0jbUMG](/images/posts/Obsidian_UgSM0jbUMG.png)
+
+你知道有了这个东西之后，看美剧Netflix和youtube制卡，这个复习上的“容易坚持的程度”将是其他方法不可比拟的。并且，这个播放器这么设置之后，直接拖拽B站的URL地址到mpv也是可以直接播放B站视频的。
+
+### 4.安装ffmpeg
+
+安装ffmpeg也通过choco安装，参考：
+https://community.chocolatey.org/packages/ffmpeg
+
+也是通过powershell管理员权限，执行下面指令：
+
+```shell
+choco install ffmpeg
+```
+
+![Obsidian_y1M27hyg3I](/images/posts/Obsidian_y1M27hyg3I.png)
+
+
+
+### 5.安装anki插件
+
+https://ankiweb.net/shared/info/1213145732
+这里使用mpv制卡，需要anki上面这个插件来配合，具体插件的说明文档也在这个地址中有说明。
+
+插件配置，整体的界面如下：
+
+先确认你已经安装了这个Crete subs2srs cards with mpv video player插件。
+
+![anki_0YCtWRQvHD](/images/posts/anki_0YCtWRQvHD.png)
+
+![Typora_xjtHQPxqCr](/images/posts/Typora_xjtHQPxqCr.png)
+
+
+
+我相信，一般的anki小白或者中等用户，可能不知道如何使用这个插件进行美剧制卡，因为这个插件的使用人数貌似不多。通过Open Video..这个打开之后，界面如下：通常我使用快捷键 Ctrl + O 打开这个界面。
+
+![anki_u4jnIEfEfI](/images/posts/anki_u4jnIEfEfI.png)
+
+上面是我已经设置好的界面，Type这个里面需要选择一个模板，官方插件种提供了模板的下载地址。
+
+![Typora_KDrVELN6GA](/images/posts/Typora_KDrVELN6GA.png)
+
+
+
+通过这个地址https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b下载Deck模板，
+
+![Typora_BYfm7FbVsW](/images/posts/Typora_BYfm7FbVsW.png)
+
+注意看我选择的是哈利波特魔法石，高亮 ，这个模板：
+
+![F8VkgIxs8z](/images/posts/F8VkgIxs8z.png)
+
+这个Deck模板来源于上面链接提到的apkg：
+
+![image-20230107140244548](/images/posts/image-20230107140244548.png)
+
+如果你操作一切正常，是可以下载到这个`Harry Potter and the Sorcerer's Stone (2001).apkg`的。
+
+![6MWzXM7j8v](/images/posts/6MWzXM7j8v.png)
+
+这些配置全部完成之后，点击上面那个界面种的`Open File`就可以直接通过这个插件打开本地电脑磁盘上的美剧来观看了，mpv播放器会直接播放美剧，前提是你的美剧需要有英文字幕才行。目前进能够支持英文字幕，我的建议是，使用英文字幕即可，不懂的单词和语块自己分析解决。不太建议去看那些口水剧，像《摩登家庭》《绝望主妇》《老友记》这些学院派的口水剧，其实真实生活中，老外都不会像那样子去演绎导演们准备好的台词，并且很多台词的翻译都是错误的。
+
+### 6.美剧视频和字幕下载
+
+我使用的方法是通过[FlixGrab+](https://www.flixgrab.com/)付费软件下载NetFlix的视频。
+
+选择一些比较真实的美剧和视频，越是真实的越好，不太建议去使用口水剧，特别过度设计的台词美剧，其实和真实的生活中的英文环境有差别的，真实的老外怎么沟通讲话，就弄真实的即可。这种方式制卡的速度是非常快的，制卡的时候mpv播放器开打，直接按键盘B键即可制卡，而且会自动断句，制卡之后，自己查下词典，把语块和生词标记到anki卡片中即可。不需要太多投入，一天20个卡，差不多了。一个星期下来非常容易坚持，而且这种视频单词卡，复习起来的难度比有声书的要低很多很多，同时也能够复习了听力。这也是那些大佬，坚持几年美剧下来，英文变得非常牛逼的主要原因。真正的美剧打开方式，我觉得就是这样。
+
+![PotPlayerMini64_ygvqCRi5Yo](/images/posts/PotPlayerMini64_ygvqCRi5Yo.png)
+
+![56754546](/images/posts/56754546.gif)
+
+flixgrab这个工具，付费之后，会发送一封邮件到你的邮箱里面，会带上序列号和邮箱名，
+
+ https://www.flixgrab.com/ 激活的时候，填写邮箱和序列号即可。一般我使用的是季度付费的方式，按照现在的汇率来算，一个季度是50元RMB左右，通过paypal关联国内的借记银行卡即可完成支付。
+
+这个工具是可以批量下载一个系列的美剧，可以设置要下载的美剧的清晰度分辨率，一般默认最低画质即可，第一遍是通过浏览器chorme 配合Language Reactor插件，打开中英文字幕，看一遍了解所有剧情，
+
+![SdFBfGLJSd](/images/posts/SdFBfGLJSd.png)
+
+![chrome_TWtorDcc79](/images/posts/chrome_TWtorDcc79.png)
+
+这个插件用来看剧，扫清一遍之后，可以大致评估到一个剧的难度，因为这个插件会有生词统计，你把生词难度等级进行调节，就可以看到大概的生词量，具体的插件使用参数自己摸索即可，免费的功能足够使用，这个插件还支持youtube视频。如果是要下载youtube视频，我一般使用也是付费软件[Internet Download Manager](https://www.internetdownloadmanager.com/)
+
+![IDMan_SMKbr3Tn26](/images/posts/IDMan_SMKbr3Tn26.png)
+
+![chrome_P42WUXjCil](/images/posts/chrome_P42WUXjCil.png)
+
+这个软件配合的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek),我主要是用来作为下载油管视频的主力工具，这个工具可以下载视频的英文台词，配合我们这个anki mpv制卡，是绝配，特别是油管上面有很多真实的谈话类节目，TED演讲，还有一些你喜欢的博主的英文视频都可以下载回来制卡。
+
+### 7.美剧制卡的不足和优点
+
+这种方式制作的卡片，都是没有中文标注的，需要自己再快速的查词典进行一下备注，做一些笔记。
+
+![NDSUprculn](/images/posts/NDSUprculn.png)
+
+这种方法，其实跟国外大神们使用的方法基本上一样了，缺点是，还是需要手工查词典，或者借助人工智能AI翻译，来搞定整个台词的翻译。因为有了Language Reactor我们结合翻译已经看过一遍美剧了，所以，制卡的时候，记录一下重点句型和单词也非常简单。
+
+这种方式最大的优点是，彻底解决了，YouTube视频和Netflix美剧，长期以来没办法作为“高效”英语学习材料的弊端。很多大神都说看美剧对于听力和口语提升很大，但是从操作层面来讲，是非常难于下手的，特别是对于台词的整理和复习，这是个难点。本身看美剧就非常消耗时间和精力，还要去整理生词和台词，耗费的时间更多，这是有声书比美剧要好操作的地方。但是有声书的缺点是，里面的很多场景和真实生活相去甚远，而且有声书无法把整句进行真人朗读，复习的时候我们大都是复习的单个单词，对于整句的听力提升其实没有美剧效果好，还有就是，有声书制卡或者新闻报刊制卡，整个句子是不发音的，虽然很多人阅读词汇量很大，但是到了真实英文环境，听力还是非常差，其实还是因为两种学习方式导致的训练结果不一样导致。
+
+美剧训练的是听力和口语表达，以及真实生活中场景语料的熟悉。有声书，更多是泛听训练和书面表达词汇阅读积累。本文说的这种美剧制卡，是用来弥补有声书缺点的一种补充。等于是填补了英语自学方法的一块空白。
+
+
+
