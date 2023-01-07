@@ -246,7 +246,9 @@ C:\Users\47664\AppData\Roaming\mpv
 
 如果是要全方位配置mpv播放器，参考的配置文件：[https://github.com/minikui/mpv/tree/mpv/lua-settings](https://github.com/minikui/mpv/tree/mpv/lua-settings)
 
+上面Github这个配置文件的说明，请参考这篇博客文章：[https://bigdata404.wordpress.com/2017/07/09/mac%E7%9C%8B%E7%89%87%E7%BB%88%E6%9E%81%E5%A7%BF%E5%8A%BF%EF%BC%8Dmpv/](https://bigdata404.wordpress.com/2017/07/09/mac%E7%9C%8B%E7%89%87%E7%BB%88%E6%9E%81%E5%A7%BF%E5%8A%BF%EF%BC%8Dmpv/)
 
+因为这里只需要把控制条置顶就可以了，所以其他配置文件几乎不需要。
 
 ### 8.美剧制卡的不足和优点
 
