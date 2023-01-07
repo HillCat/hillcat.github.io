@@ -81,6 +81,14 @@ choco install youtube-dl
 
 ### 4.安装ffmpeg
 
+这个插件是用来截取mp4和mp3的，程序自动分析台词之后，根据台词的音轨来断句，截取视频片段和音频片段。淘宝上面售卖的很多anki牌卡，其实都是用这种方式制卡的。手工精修。当然，这些人应该是anki的熟手了。
+
+![chrome_7ZGD4UqfqG](/images/posts/chrome_7ZGD4UqfqG.png)
+
+![chrome_TICTai6Q6c](/images/posts/chrome_TICTai6Q6c.png)
+
+
+
 安装ffmpeg也通过choco安装，参考：
 [https://community.chocolatey.org/packages/ffmpeg](https://community.chocolatey.org/packages/ffmpeg)
 
