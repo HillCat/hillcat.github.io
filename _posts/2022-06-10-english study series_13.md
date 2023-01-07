@@ -45,6 +45,32 @@ chocolatey官方文档，安装说明：一定要仔细看这个官方安装说�
 
 ![chrome_0cBwAuUx5b](/images/posts/chrome_0cBwAuUx5b.png)
 
+
+
+第一种方式：Install with cmd.exe，指的是使用：Command Prompt来执行命令：
+
+```shell
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+```
+
+
+
+![Typora_yozA6jxQns](/images/posts/Typora_yozA6jxQns.png)
+
+第二种方式：Install with PowerShell.exe,指的是运行PowerShell命令行来执行命令：
+
+```shell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+
+
+
+![KUGatcqZKF](/images/posts/KUGatcqZKF.png)
+
+
+
+我个人倾向于使用第二种方式来安装chocolatey。
+
 可能会发现，我发的这些地址都是英文的，有时候即便是研究英文自学方法，本身对于英文的阅读能力也有要求，还得懂一些电脑软件原理。很多资料看不懂，几乎没法研究这些工具。这也是使用视频制卡的人非常少的原因，对于小白，这个操作繁琐程度直接劝退99%的人。长期坚持需要热爱，需要折腾，思路如果有了改善，其实这点繁琐的时间算不了什么。
 
 ## 2.安装mpv
