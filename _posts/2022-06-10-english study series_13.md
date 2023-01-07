@@ -221,7 +221,9 @@ flixgrab这个工具，付费之后，会发送一封邮件到你的邮箱里面
 
 什么是OSC，它是On Screen Controller的缩写，具体的配置方法，参考官方文档说明：[https://mpv.io/manual/stable/#using-the-osc](https://mpv.io/manual/stable/#using-the-osc)，这里为了方便查看英文字幕，我们把OSC进行设置，把控制条置顶放置，具体操作如下：
 
-MPV播放器默认界面非常简陋，控制条TopBar的位置默认是在底部的，会影响到我们利用鼠标进行“屏幕取词”翻译一些生词。可以通过设置，把这个TopBar控制条放到屏幕上方，这样子就不影响我们看字幕了。
+MPV播放器默认界面非常简陋，控制条TopBar的位置默认是在底部的，会影响到我们利用鼠标进行“屏幕取词”翻译一些生词。可以通过设置，把这个TopBar控制条放到屏幕上方，这样子就不影响我们看字幕了。一般我是利用google翻译进行台词的中文整句翻译，anki就有谷歌翻译插件，插件地址：[https://ankiweb.net/shared/info/1536291224](https://ankiweb.net/shared/info/1536291224)
+
+这个插件的用法，在官方文档中有说明，就是需要你的电脑帆樯能够访问google,设置好要翻译的anki模板字段，要输入的模板字段即可。
 
 ![mpv_cz8tuFGCfe](/images/posts/mpv_cz8tuFGCfe.png)
 
