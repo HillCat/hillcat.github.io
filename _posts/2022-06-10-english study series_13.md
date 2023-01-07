@@ -75,7 +75,7 @@ PowerShell打开方式如下：打开之后，粘贴上面的所有命令，之�
 
 ![powershell_5G3YUqCTT8](/images/posts/powershell_5G3YUqCTT8.png)
 
-## 2.安装mpv
+### 2.安装mpv
 
 我这里使用choco方式安装，以管理员权限运行powershell，执行下面命令：
 
