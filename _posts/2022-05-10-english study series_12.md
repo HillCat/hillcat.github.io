@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 背单词_综合分析(12)
+title: 背单词_COCA20000词库(12)
 categories: English
 description: 英文自学
 keywords: English
