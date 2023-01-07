@@ -73,11 +73,11 @@ choco install youtube-dl
 
 ![Obsidian_Bb0W9OWsXH](/images/posts/Obsidian_Bb0W9OWsXH.png)
 
-只有在使用choco完整安装了mpv和youtube-dl之后，url链接从浏览器直接鼠标拖拽到mpv播放器，才能直接播放youtube频道的视频。类似下面的效果:
+只有在使用choco完整安装了mpv和youtube-dl之后，url链接从浏览器直接鼠标拖拽到mpv播放器，才能直接播放youtube频道的视频。这种革命性的工具，让我们学习地道英文，去贴近真实环境又更进一步了。类似下面的效果:
 
 ![Obsidian_UgSM0jbUMG](/images/posts/Obsidian_UgSM0jbUMG.png)
 
-你知道有了这个东西之后，看美剧Netflix和youtube制卡，这个复习上的“容易坚持的程度”将是其他方法不可比拟的。并且，这个播放器这么设置之后，直接拖拽B站的URL地址到mpv也是可以直接播放B站视频的。
+你知道有了这个东西之后，看美剧Netflix和youtube制卡，这个复习上的“容易坚持的程度”将是其他方法不可比拟的。并且，这个播放器这么设置之后，直接拖拽B站URL地址是可以直接播放的，要播放油管视频，也是直接拖拽URL地址即可。油管里面又太多的真人秀，谈话节目，都可以这么操作了。
 
 ### 4.安装ffmpeg
 
