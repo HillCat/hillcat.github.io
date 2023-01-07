@@ -41,19 +41,15 @@ chocolatey官方文档，安装说明：一定要仔细看这个官方安装说�
 
 [https://docs.chocolatey.org/en-us/choco/setup](https://docs.chocolatey.org/en-us/choco/setup)
 
-按照上面地址的文档说明，chocolate安装方式有2种，一种是通过cmd安装，一种是powershell方式安装。选择其中1种即可，请通过管理权权限打开cmd命令行，或者powershell命令行，选择其中一种即可，它都提供了针对于不同命令行的不同代码指令，复制粘贴，回车运行以下任意1个指令即可：安装代码在上面链接中文档获取，下面只是截图。
+按照上面地址的文档说明，chocolate安装方式有2种，一种是通过cmd安装，一种是powershell方式安装。选择其中1种即可.
 
-![chrome_0cBwAuUx5b](/images/posts/chrome_0cBwAuUx5b.png)
-
-
-
-第一种方式：Install with cmd.exe，指的是使用：Command Prompt来执行命令：
+第一种方式：Install with cmd.exe，指的是使用Command Prompt来执行命令：
 
 ```shell
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 ```
 
-
+Command Prompt打开方式如下：打开之后，粘贴上面的所有命令，之后回车运行即可。
 
 ![Typora_yozA6jxQns](/images/posts/Typora_yozA6jxQns.png)
 
@@ -63,13 +59,13 @@ chocolatey官方文档，安装说明：一定要仔细看这个官方安装说�
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
-
+PowerShell打开方式如下：打开之后，粘贴上面的所有命令，之后回车运行即可。
 
 ![KUGatcqZKF](/images/posts/KUGatcqZKF.png)
 
 
 
-我个人倾向于使用第二种方式来安装chocolatey。
+我个人倾向于使用第二种方式PowerShell来安装chocolatey，最好是开启全局帆樯，切记。国内这些坑爹的网络环境，有可能造成依赖项安装失败。
 
 可能会发现，我发的这些地址都是英文的，有时候即便是研究英文自学方法，本身对于英文的阅读能力也有要求，还得懂一些电脑软件原理。很多资料看不懂，几乎没法研究这些工具。这也是使用视频制卡的人非常少的原因，对于小白，这个操作繁琐程度直接劝退99%的人。长期坚持需要热爱，需要折腾，思路如果有了改善，其实这点繁琐的时间算不了什么。
 
