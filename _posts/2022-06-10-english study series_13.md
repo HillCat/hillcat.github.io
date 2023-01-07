@@ -41,7 +41,7 @@ chocolatey官方文档，安装说明：一定要仔细看这个官方安装说�
 
 [https://docs.chocolatey.org/en-us/choco/setup](https://docs.chocolatey.org/en-us/choco/setup)
 
-按照上面地址的文档说明，chocolate安装方式有2种，一种是通过cmd安装，一种是powershell方式安装。选择其中1种即可，请通过管理权权限打开cmd命令行，或者powershell命令行，选择其中一种即可，它都提供了针对于不同命令行的不同代码指令，复制粘贴，回车运行以下任意1个指令即可：
+按照上面地址的文档说明，chocolate安装方式有2种，一种是通过cmd安装，一种是powershell方式安装。选择其中1种即可，请通过管理权权限打开cmd命令行，或者powershell命令行，选择其中一种即可，它都提供了针对于不同命令行的不同代码指令，复制粘贴，回车运行以下任意1个指令即可：安装代码在上面链接中文档获取，下面只是截图。
 
 ![chrome_DItaLnnsLo](/images/posts/chrome_DItaLnnsLo.png)
 
