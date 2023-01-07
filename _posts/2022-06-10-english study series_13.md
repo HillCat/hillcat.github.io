@@ -213,3 +213,9 @@ flixgrab这个工具，付费之后，会发送一封邮件到你的邮箱里面
 
 个人觉得，能够自动切取mp4和mp3音频，并且提取台词，这个已经非常好了，关键是mp4的分辨率可以自己设置截取的大小，有了视频片段，这对于可理解输入和降低复习压力都是大大的提升。
 
+### 8.参考资料
+
+[http://www.randomhacks.net/substudy/](http://www.randomhacks.net/substudy/) 这篇文章里面的作者，讲到了自己通过看剧学语言的心得体会，值得一看。
+
+[https://learnanylanguage.fandom.com/wiki/Subs2srs](https://learnanylanguage.fandom.com/wiki/Subs2srs)这里提到的方式，是另外一种看剧，挂载字幕的制卡方式，只支持低版本的anki，`Matt vs japan`曾经使用的方法就是这个方法，跟我本文讲解的方法是差不多的，插件都是同一个作者。
+
