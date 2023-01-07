@@ -73,7 +73,7 @@ choco install youtube-dl
 
 ![Obsidian_Bb0W9OWsXH](/images/posts/Obsidian_Bb0W9OWsXH.png)
 
-只有在使用choco完整安装了mpv和youtube-dl之后，url链接从浏览器直接鼠标拖拽到mpv播放器，才能直接播放youtube频道的视频。这种革命性的工具，让我们学习地道英文，去贴近真实环境又更进一步了。类似下面的效果:
+只有在使用choco完整安装了mpv和youtube-dl之后，url链接从浏览器直接鼠标拖拽到mpv播放器，才能直接播放youtube频道的视频。这种革命性的工具，让我们学习地道英文，去贴近真实环境又更进一步了。类似下面的效果:这是直接播放的一个url地址，在我电脑硬盘中并没有这个视频。它是实时拉取url网页自动分析视频地址然后加载到播放器种，这样子即便不需要下载youtube视频离线，在线的方式我们就可以制作youtube的anki视频卡。
 
 ![Obsidian_UgSM0jbUMG](/images/posts/Obsidian_UgSM0jbUMG.png)
 
