@@ -133,7 +133,11 @@ choco install ffmpeg
 ### 5.安装anki插件
 
 [https://ankiweb.net/shared/info/1213145732](https://ankiweb.net/shared/info/1213145732)
-这里使用mpv制卡，需要anki上面这个插件来配合，具体插件的说明文档也在这个地址中有说明。
+这里使用mpv制卡，需要anki上面这个插件来配合，具体插件的说明文档也在这个地址中有说明。整个过程不需要对mpv播放器进行任何设置。所有操作都在anki上面进行，具体来说，是当你安装了这个插件之后，anki会多出来一个菜单，Ctrl + O可以直接打开这个菜单界面，然后剩下的工作就都是从这个界面操作，包括打开本地的视频和网上的视频，都是从这个界面进行，它会直接唤醒系统中的MPV播放器，来播放远程的视频URL或者是本地硬盘中的美剧。
+
+![srwyGARJZS](/images/posts/srwyGARJZS.png)
+
+
 
 插件配置，整体的界面如下：
 
@@ -145,11 +149,11 @@ choco install ffmpeg
 
 
 
-我相信，一般的anki小白或者中等用户，可能不知道如何使用这个插件进行美剧制卡，因为这个插件的使用人数貌似不多。通过Open Video..这个打开之后，界面如下：通常我使用快捷键 Ctrl + O 打开这个界面。
+我相信，一般的anki小白或者中等用户，可能不知道如何使用这个插件进行美剧制卡，因为这个插件的使用人数貌似不多。通过上图中Open Video..这个菜单打开之后，界面如下：通常我使用快捷键 Ctrl + O 打开这个界面。
 
 ![anki_u4jnIEfEfI](/images/posts/anki_u4jnIEfEfI.png)
 
-上面是我已经设置好的界面，Type这个里面需要选择一个模板，官方插件种提供了模板的下载地址。
+上面是我已经设置好的界面，Type这个里面需要选择一个模板，官方插件种提供了模板的下载地址。要摸索到这些，前提一定是anki老手才有可能，要非常熟悉anki的制卡套路。如果没有用过anki的人，估计看这篇文章还是会看得一头雾水。所以这个方法只适合那些已经有anki使用经验的外语学习者。
 
 ![Typora_KDrVELN6GA](/images/posts/Typora_KDrVELN6GA.png)
 
