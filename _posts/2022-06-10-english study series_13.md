@@ -217,7 +217,38 @@ flixgrab这个工具，付费之后，会发送一封邮件到你的邮箱里面
 
 这个软件配合的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek),我主要是用来作为下载油管视频的主力工具，这个工具可以下载视频的英文台词，配合我们这个anki mpv制卡，是绝配，特别是油管上面有很多真实的谈话类节目，TED演讲，还有一些你喜欢的博主的英文视频都可以下载回来制卡。
 
-### 7.美剧制卡的不足和优点
+### 7.MPV播放器设置
+
+#### 7.1 mpv 播放器的OSC配置
+
+什么是OSC，它是On Screen Controller的缩写，具体的配置方法，参考官方文档说明：[https://mpv.io/manual/stable/#using-the-osc](https://mpv.io/manual/stable/#using-the-osc)，这里为了方便查看英文字幕，我们把OSC进行设置，把控制条置顶放置，具体操作如下：
+
+MPV播放器默认界面非常简陋，控制条TopBar的位置默认是在底部的，会影响到我们利用鼠标进行“屏幕取词”翻译一些生词。可以通过设置，把这个TopBar控制条放到屏幕上方，这样子就不影响我们看字幕了。
+
+![mpv_cz8tuFGCfe](/images/posts/mpv_cz8tuFGCfe.png)
+
+具体操作办法是，在当前用户的目录下面，AppData\Roaming\mpv这个路径下面，创建一个文件夹lua-settings，再在这个文件夹里面创建一个文件osc.conf，这个文件里面写上如下配置：
+
+```shell
+hidetimeout=1000
+fadeduration=500
+seekbarstyle=bar
+layout=topbar
+valign=1
+deadzonesize=1
+```
+
+C:\Users\47664\AppData\Roaming\mpv
+
+![explorer_ZghV2KICTX](/images/posts/explorer_ZghV2KICTX.png)
+
+最终效果如上。启动mpv播放器的时候，发现默认的控制条移动到顶部了。建议使用notepad++这种编辑工具来进行配置的修改。
+
+如果是要全方位配置mpv播放器，参考的配置文件：[https://github.com/minikui/mpv/tree/mpv/lua-settings](https://github.com/minikui/mpv/tree/mpv/lua-settings)
+
+
+
+### 8.美剧制卡的不足和优点
 
 这种方式制作的卡片，都是没有中文标注的，需要自己再快速的查词典进行一下备注，做一些笔记。
 
@@ -233,7 +264,7 @@ flixgrab这个工具，付费之后，会发送一封邮件到你的邮箱里面
 
 个人觉得，能够自动切取mp4和mp3音频，并且提取台词，这个已经非常好了，关键是mp4的分辨率可以自己设置截取的大小，有了视频片段，这对于可理解输入和降低复习压力都是大大的提升。
 
-### 8.参考资料
+### 9.参考资料
 
 [http://www.randomhacks.net/substudy/](http://www.randomhacks.net/substudy/) 这篇文章里面的作者，讲到了自己通过看剧学语言的心得体会，值得一看。
 
