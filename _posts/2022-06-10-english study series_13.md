@@ -248,7 +248,7 @@ C:\Users\47664\AppData\Roaming\mpv
 
 ![explorer_ZghV2KICTX](/images/posts/explorer_ZghV2KICTX.png)
 
-最终效果如上。启动mpv播放器的时候，发现默认的控制条移动到顶部了。建议使用notepad++这种编辑工具来进行配置的修改。
+最终效果如上。启动mpv播放器的时候，发现默认的控制条移动到顶部了。建议使用[notepad++](https://notepad-plus-plus.org/downloads/)这种编辑工具来进行配置的修改。
 
 如果是要全方位配置mpv播放器，参考的配置文件：[https://github.com/minikui/mpv/tree/mpv/lua-settings](https://github.com/minikui/mpv/tree/mpv/lua-settings)
 
