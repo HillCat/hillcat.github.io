@@ -248,7 +248,11 @@ C:\Users\47664\AppData\Roaming\mpv
 
 ![explorer_ZghV2KICTX](/images/posts/explorer_ZghV2KICTX.png)
 
-最终效果如上。启动mpv播放器的时候，发现默认的控制条移动到顶部了。建议使用[notepad++](https://notepad-plus-plus.org/downloads/)这种编辑工具来进行配置的修改。
+最终效果如上。启动mpv播放器的时候，发现默认的控制条移动到顶部了。建议使用[notepad++](https://notepad-plus-plus.org/downloads/)这种编辑工具来进行配置的修改。这里创建配置文件的之后，先创建一个txt文件，然后把txt后缀改为.conf即可。
+
+很多人的windows电脑这里文件名不会现显示后缀，建议，浏览文件夹的时候，把视图这里(参照下图)，文件后缀这个地方的配置，打上勾，把文件的后缀名给显示出来，要不然会文件后缀搞错了之后，会和我上图的截图效果不一样，导致配置出错无法生效。
+
+![QQ_k87NMkPdKG](/images/posts/QQ_k87NMkPdKG.png)
 
 如果是要全方位配置mpv播放器，参考的配置文件：[https://github.com/minikui/mpv/tree/mpv/lua-settings](https://github.com/minikui/mpv/tree/mpv/lua-settings)
 
