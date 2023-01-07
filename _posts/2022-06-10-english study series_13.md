@@ -39,7 +39,7 @@ chocolatey官方文档强烈建议用户采用离线安装的方式,如果你发
 
 chocolatey官方文档，安装说明：一定要仔细看这个官方安装说明。
 
-https://docs.chocolatey.org/en-us/choco/setup
+[https://docs.chocolatey.org/en-us/choco/setup](https://docs.chocolatey.org/en-us/choco/setup)
 
 按照上面地址的文档说明，chocolate安装方式有2种，一种是通过cmd安装，一种是powershell方式安装。选择其中1种即可，请通过管理权权限打开cmd命令行，或者powershell命令行，选择其中一种即可，它都提供了针对于不同命令行的不同代码指令，复制粘贴，回车运行以下任意1个指令即可：
 
@@ -82,7 +82,7 @@ choco install youtube-dl
 ### 4.安装ffmpeg
 
 安装ffmpeg也通过choco安装，参考：
-https://community.chocolatey.org/packages/ffmpeg
+[https://community.chocolatey.org/packages/ffmpeg](https://community.chocolatey.org/packages/ffmpeg)
 
 也是通过powershell管理员权限，执行下面指令：
 
@@ -96,7 +96,7 @@ choco install ffmpeg
 
 ### 5.安装anki插件
 
-https://ankiweb.net/shared/info/1213145732
+[https://ankiweb.net/shared/info/1213145732](https://ankiweb.net/shared/info/1213145732)
 这里使用mpv制卡，需要anki上面这个插件来配合，具体插件的说明文档也在这个地址中有说明。
 
 插件配置，整体的界面如下：
@@ -119,7 +119,7 @@ https://ankiweb.net/shared/info/1213145732
 
 
 
-通过这个地址https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b下载Deck模板，
+通过这个地址[https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b](https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b)下载Deck模板，
 
 ![Typora_BYfm7FbVsW](/images/posts/Typora_BYfm7FbVsW.png)
 
@@ -149,7 +149,7 @@ https://ankiweb.net/shared/info/1213145732
 
 flixgrab这个工具，付费之后，会发送一封邮件到你的邮箱里面，会带上序列号和邮箱名，
 
- https://www.flixgrab.com/ 激活的时候，填写邮箱和序列号即可。一般我使用的是季度付费的方式，按照现在的汇率来算，一个季度是50元RMB左右，通过paypal关联国内的借记银行卡即可完成支付。
+ [https://www.flixgrab.com/](https://www.flixgrab.com/) 激活的时候，填写邮箱和序列号即可。一般我使用的是季度付费的方式，按照现在的汇率来算，一个季度是50元RMB左右，通过paypal关联国内的借记银行卡即可完成支付。
 
 这个工具是可以批量下载一个系列的美剧，可以设置要下载的美剧的清晰度分辨率，一般默认最低画质即可，第一遍是通过浏览器chorme 配合Language Reactor插件，打开中英文字幕，看一遍了解所有剧情，
 
@@ -177,7 +177,7 @@ flixgrab这个工具，付费之后，会发送一封邮件到你的邮箱里面
 
 美剧训练的是听力和口语表达，以及真实生活中场景语料的熟悉。有声书，更多是泛听训练和书面表达词汇阅读积累。本文说的这种美剧制卡，是用来弥补有声书缺点的一种补充。等于是填补了英语自学方法的一块空白。
 
-此方法对操作要求较高，安装chocolatey之后，再通过chocolatey去安装mpv播放器，youtube-dl,ffmpeg。以及要求操作者懂anki使用，字段映射模板设置。还有后期要去阅读这个anki插件https://ankiweb.net/shared/info/1213145732的文档，以及MPV播放器还有一些快捷键的设置，怎么保存播放列表，快进，快退等等。
+此方法对操作要求较高，安装chocolatey之后，再通过chocolatey去安装mpv播放器，youtube-dl,ffmpeg。以及要求操作者懂anki使用，字段映射模板设置。还有后期要去阅读这个anki插件[https://ankiweb.net/shared/info/1213145732](https://ankiweb.net/shared/info/1213145732)的文档，以及MPV播放器还有一些快捷键的设置，怎么保存播放列表，快进，快退等等。
 
 个人觉得，能够自动切取mp4和mp3音频，并且提取台词，这个已经非常好了，关键是mp4的分辨率可以自己设置截取的大小，有了视频片段，这对于可理解输入和降低复习压力都是大大的提升。
 
