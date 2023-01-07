@@ -13,9 +13,13 @@ typora-root-url: ../
 
 这种制卡方式使用的是anki结合mpv，对离线的美剧，youtube都能搞定，甚至在线youutbe视频都可以，只要配置好一切设置，操作起来并不复杂。
 
-## anki案例
+## 英文学习心态
 
-youtube有几个博主大神就是用这个方法，比如:`Matt vs japan`，`Giovanni Smith`也都是用这种方法。我很久以来没有用这个方法的主要原因，是我以前尝试过`Matt vs Japan`的方法，没有尝试成功,当时那个时候我英语能力也不像现在，那个时候看一些英文资料文档也比较吃力，遇到了问题加上粗心，失败了就没有再尝试了，导致我放弃了这种美剧制卡的方式，等我如今英文提升了，再仔细阅读英文材料来研究这个方法，发现非常简单。其实也怪以前没有系统性思维，也没有遇到瓶颈，当时一直认为有声书制卡是够用的。
+提及到英文学习的目的和心态，有篇文章值得推荐：[https://mp.weixin.qq.com/s/7_a0zx0enHul5psMqcC2hA](https://mp.weixin.qq.com/s/7_a0zx0enHul5psMqcC2hA)
+
+写这篇文章的博主，打卡扇贝1310天，积累了5万多单词。相信看完他这篇文章，对于学英语心态这块会有一些启发。以及为什么我会采用anki来复习日常积累的生词和短语，包括美剧。唯一的核心原因就是，日常积累的东西还是要复习的。看剧制卡，复习效率更好。本质上和扇贝，墨墨背单词，欧陆的复习差不多。
+
+youtube有几个博主也是使用anki，比如:`Matt vs japan`，`Giovanni Smith`也都是用这种方法。我很久以来没有用这个方法的主要原因，是我以前尝试过`Matt vs Japan`的方法，没有尝试成功,当时那个时候我英语能力也不像现在，那个时候看一些英文资料文档也比较吃力，遇到了问题加上粗心，失败了就没有再尝试了，导致我放弃了这种美剧制卡的方式，等我如今英文提升了，再仔细阅读英文材料来研究这个方法，发现非常简单。其实也怪以前没有系统性思维，也没有遇到瓶颈，当时一直认为有声书制卡是够用的。
 
 ![chrome_UpKqYv6fnw](/images/posts/chrome_UpKqYv6fnw.png)
 
@@ -213,7 +217,7 @@ flixgrab这个工具，付费之后，会发送一封邮件到你的邮箱里面
 
 ![chrome_P42WUXjCil](/images/posts/chrome_P42WUXjCil.png)
 
-这个软件配合的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek),我主要是用来作为下载油管视频的主力工具，这个工具可以下载视频的英文台词，配合我们这个anki mpv制卡，是绝配，特别是油管上面有很多真实的谈话类节目，TED演讲，还有一些你喜欢的博主的英文视频都可以下载回来制卡。
+这个软件配合的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek),我主要是用来作为下载油管视频的主力工具，这个工具可以下载视频的英文台词，配合我们这个anki mpv制卡刚好。
 
 ### 7.MPV播放器设置
 
