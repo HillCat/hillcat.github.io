@@ -231,9 +231,9 @@ Language Reactor最大的好处是可以中英文字幕双开，扫清一遍之�
 
 MPV播放器默认界面非常简陋，控制条TopBar的位置默认是在底部的，会影响到我们利用鼠标进行“屏幕取词”翻译一些生词。可以通过设置，把这个TopBar控制条放到屏幕上方，这样子就不影响我们看字幕了。一般我是利用google翻译进行台词的中文整句翻译，anki就有谷歌翻译插件，插件地址：[https://ankiweb.net/shared/info/1536291224](https://ankiweb.net/shared/info/1536291224)
 
-这个插件的用法，在官方文档中有说明，就是需要你的电脑帆樯能够访问google,设置好要翻译的anki模板字段，要输入的模板字段即可。
+这个插件的用法，在官方文档中有说明，就是需要你的电脑帆樯能够访问google,设置好要翻译的anki模板字段，要输入的模板字段即可。下面是播放器调整后最终效果:720P分辨率的画质，同时兼顾清晰度和视频体积大小。
 
-![mpv_cz8tuFGCfe](/images/posts/mpv_cz8tuFGCfe.png)
+![mpv_HYntJYf4ib](/images/posts/mpv_HYntJYf4ib.png)
 
 具体操作办法是，在当前用户的目录下面，AppData\Roaming\mpv这个路径下面，创建一个文件夹lua-settings，再在这个文件夹里面创建一个文件osc.conf，这个文件里面写上如下配置：
 
