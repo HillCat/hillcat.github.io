@@ -237,7 +237,7 @@ MPV播放器默认界面非常简陋，控制条TopBar的位置默认是在底�
 
 ![mpv_HYntJYf4ib](/images/posts/mpv_HYntJYf4ib.png)
 
-要把工具条置顶，向上图这样子，具体操作办法是，在当前用户的目录下面，C:\Users\47664\AppData\Roaming\mpv这个路径下面，创建一个文件夹lua-settings，再在这个文件夹里面创建一个文件osc.conf，这个文件里面写上如下配置：
+要把工具条置顶，像上图这样子，具体操作办法是，在当前用户的目录下面，C:\Users\47664\AppData\Roaming\mpv这个路径下面，创建一个文件夹lua-settings，再在这个文件夹里面创建一个文件osc.conf，这个文件里面写上如下配置：
 
 ```shell
 hidetimeout=1000
