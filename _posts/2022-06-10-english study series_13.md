@@ -111,7 +111,7 @@ choco install youtube-dl
 
 ![Obsidian_UgSM0jbUMG](/images/posts/Obsidian_UgSM0jbUMG.png)
 
-上图是mpv播放器直接播放youtube的效果。就像这篇文章说的[https://mp.weixin.qq.com/s/7_a0zx0enHul5psMqcC2hA](https://mp.weixin.qq.com/s/7_a0zx0enHul5psMqcC2hA)，英语学习是内功修炼，无法速成，英语学习会伴随我们人生相当长的时间，可能是3年，也可能是6~7年。我只想用一套工具和方法，搞定各种英语材料。
+上图是mpv播放器直接播放youtube的效果。就像这篇文章说的[https://mp.weixin.qq.com/s/7_a0zx0enHul5psMqcC2hA](https://mp.weixin.qq.com/s/7_a0zx0enHul5psMqcC2hA)，英语学习是内功修炼，无法速成，英语学习会伴随我们人生相当长的时间，可能是3年，也可能是6~7年。摆脱任何平台限制，能够长期稳定使用的工具也是蛮重要。
 
 ### 4.安装ffmpeg
 
@@ -231,7 +231,7 @@ Language Reactor最大的好处是可以中英文字幕双开，扫清一遍之�
 
 MPV播放器默认界面非常简陋，控制条TopBar的位置默认是在底部的，会影响到我们利用鼠标进行“屏幕取词”翻译一些生词。可以通过设置，把这个TopBar控制条放到屏幕上方，这样子就不影响我们看字幕了。一般我是利用google翻译进行台词的中文整句翻译，anki就有谷歌翻译插件，插件地址：[https://ankiweb.net/shared/info/1536291224](https://ankiweb.net/shared/info/1536291224)
 
-这个插件的用法，在官方文档中有说明，就是需要你的电脑帆樯能够访问google,设置好要翻译的anki模板字段，要输入的模板字段即可。下面是播放器调整后最终效果:720P分辨率的画质，同时兼顾清晰度和视频体积大小。
+这个插件的用法，在官方文档中有说明，就是需要你的电脑帆樯能够访问google,设置好要翻译的anki模板字段，要输入的模板字段即可。下面是播放器调整后最终效果:720P分辨率的画质，同时兼顾清晰度和视频体积大小。弄完一套美剧，可以接着下一套，其他的可以慢慢删掉，因为重点内容基本都保存到我们手机的anki卡片中，平时利用零碎时间复习即可。
 
 ![mpv_HYntJYf4ib](/images/posts/mpv_HYntJYf4ib.png)
 
