@@ -7,7 +7,7 @@ keywords: English
 typora-root-url: ../
 ---
 
-这个美剧制卡的方法，其实在很久之前我尝试过，失败了，但是直到最近尝试和摸索成功之后，我发现，美剧学英语的效果确实非常好，只是长期以来美剧制卡一直是个难题。根据我自己实践体验，这种的复习效率很高，更加容易坚持。英文再也不是冰冷的文字，而是充满血肉、带有感情的声音和图像。
+此篇文章信息量较大，主要是介绍看美剧学英语的方法，也包括看油管youtube视频，此文章我花了很多时间修改，力求把所有地方都覆盖到，文末还提供了一些参考资料。当然这篇文章不是一天能够搞定的，这里面汇聚了我长期以来的一些经验都在里面了，有时间和精力的对着文章慢慢配置摸索，只要有耐心，都可以成的。根据我自己实践体验，这种卡片的吸收理解效率很高，更容易坚持。视频卡片带有感情的声音和图像，非常容易让你做听力复习，结合美剧，更容易学习到一些单词在实际口语中的用法，这也是有声书做不到的。解决了美剧学英语的问题，结合有声书以前那种学习方式，起到了一个非常好的补充。
 
 ![66667777](/images/posts/66667777.gif)
 
@@ -217,7 +217,9 @@ flixgrab这个工具，付费之后，会发送一封邮件到你的邮箱里面
 
 ![chrome_P42WUXjCil](/images/posts/chrome_P42WUXjCil.png)
 
-这个软件配合的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek),我主要是用来作为下载油管视频的主力工具，这个工具可以下载视频的英文台词，配合我们这个anki mpv制卡刚好。
+这个软件配合的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek),我主要是用来作为下载油管视频的主力工具，这个工具可以下载视频的英文台词，视频的分辨率也是可以选择的，比如720P, 1080P,一般我都是选择720P清晰度，已经够用。下面这个截图就是[Internet Download Manager](https://www.internetdownloadmanager.com/)下载youtube视频的操作示例。
+
+![oZmNzWrGq3](/images/posts/oZmNzWrGq3.png)
 
 ### 7.MPV播放器设置
 
