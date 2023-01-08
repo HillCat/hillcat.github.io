@@ -45,7 +45,7 @@ Giovanni Smith用这个方法通过了HSK6的考试，根据百度百科的解�
 
 chocolatey官方文档强烈建议用户采用离线安装的方式,如果你发现你电脑windows安装chocolatey失败，或者无法联网的报错，一般都是因为没有开启全局帆樯导致的，所以一定要能够帆樯才行。如果你已经是在国外，没有网络访问限制，那么安装这些软件的速度都应该是飞快的。
 
-chocolatey官方文档，安装说明：一定要仔细看这个官方安装说明，安装代码和命令都在这个文档中：
+chocolatey如何安装，文档如下：
 
 [https://docs.chocolatey.org/en-us/choco/setup](https://docs.chocolatey.org/en-us/choco/setup)
 
