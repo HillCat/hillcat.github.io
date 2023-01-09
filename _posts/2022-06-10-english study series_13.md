@@ -115,7 +115,7 @@ choco install youtube-dl
 
 ![Obsidian_UgSM0jbUMG](/images/posts/Obsidian_UgSM0jbUMG.png)
 
-上图是mpv播放器直接播放youtube的url的效果。就像这篇文章说的[https://mp.weixin.qq.com/s/7_a0zx0enHul5psMqcC2hA](https://mp.weixin.qq.com/s/7_a0zx0enHul5psMqcC2hA)，英语学习是内功修炼，无法速成，就跟算法一样，英语积累期很长，可能会伴随我们人生相当长的时间，可能是3年，也可能是6~7年(微信公众号:`是不是很酷`，这个公众号的作者刘宇波，他就花了很多年持续英语，积累了5万多词汇量，几乎每天都会阅读大量的英语文章)，如果是要口语，光靠阅读还不行，美剧真的绕不开。
+上图是mpv播放器直接播放youtube的url的效果。就像这篇文章说的[https://mp.weixin.qq.com/s/7_a0zx0enHul5psMqcC2hA](https://mp.weixin.qq.com/s/7_a0zx0enHul5psMqcC2hA)，英语学习是内功修炼，无法速成，就跟算法一样，英语积累期很长，可能会伴随我们人生相当长的时间，可能是3年，也可能是6~7年(微信公众号:`是不是很酷`，这个公众号的作者刘宇波，他就花了很多年持续英语，积累了5万多词汇量，几乎每天都会阅读大量的英语文章)。
 
 ![chrome_moCrsvbFFK](/images/posts/chrome_moCrsvbFFK.png)
 
@@ -123,7 +123,7 @@ choco install youtube-dl
 
 ### 4.安装ffmpeg
 
-这个插件是用来截取mp4和mp3的，程序自动分析台词之后，根据台词的音轨来断句，截取视频片段和音频片段。淘宝上面售卖的很多anki牌卡，其实都是用这种方式制卡的。手工精修。当然，这些人应该是anki的熟手二道贩子了。这些方法一方面是繁琐的配置，另一方面，有些人其实并不想公开。说真的，制作一个教程，要花费的精力太多，很多人是不想录视频的。
+这个插件是用来截取mp4和mp3的，程序自动分析台词之后，根据台词的音轨来断句，截取视频片段和音频片段。淘宝上面售卖的很多anki牌卡，其实都是用这种方式制卡的。手工精修。当然，这些人应该是anki的熟手二道贩子了。这些方法一方面是繁琐的配置，另一方面，有些人其实并不想公开。说真的，制作一个教程，要花费的精力太多，很多人是不想录视频的。还一个原因是anki上手门槛高，很多人看了anki就劝退了。
 
 ![chrome_7ZGD4UqfqG](/images/posts/chrome_7ZGD4UqfqG.png)
 
