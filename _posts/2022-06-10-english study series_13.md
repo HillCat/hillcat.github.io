@@ -223,23 +223,23 @@ flixgrab+这个工具是属于付费版，它默认有个免费版，免费版�
 
 ![nQmIpqX0TC](/images/posts/nQmIpqX0TC.png)
 
- [https://www.flixgrab.com/](https://www.flixgrab.com/) 激活的时候，填写邮箱和序列号即可。一般我使用的是季度付费的方式，按照现在的汇率来算，一个季度是50元RMB左右，通过paypal关联国内的借记银行卡即可完成支付。它这个序列号是支持3台电脑注册的。3个人同时使用的话，一个季度的价格不到20RMB，我觉得费用还是很低的，比国内某些付费软件的价格都低。目前我只注册了1台电脑。其实还有2个名额，有需要的朋友可以共用序列号。
+![chrome_vueAJb2RC8](/images/posts/chrome_vueAJb2RC8.png)
 
-flixgrab+这个工具是可以批量下载一个系列的NetFlix美剧的，可以设置要下载的美剧的清晰度分辨率，一般我选择720P画质，第一遍是通过浏览器chorme 配合Language Reactor插件，打开中英文字幕，看一遍了解所有剧情，遇到比较适合学英语的剧会通过工具直接下载到硬盘，再次看的时候，基本就是开着英文字幕，对于一些有价值的台词部分，标记进行制卡。Language Reactor插件其实可以web浏览器开着这个剧，另外anki + mpv播放的时候直接播放硬盘中的这个剧，遇到中文台词需要查找的时候，可以通过web中开着的剧结合Language Reactor插件去找这个台词的中文人工翻译。这样子找翻译或者核对单词的确切意思，会比较快，节省时间。
+ [https://www.flixgrab.com/](https://www.flixgrab.com/) 激活的时候，填写邮箱和序列号即可。一般我使用的是季度付费的方式，按照现在的汇率来算，一个季度是50元RMB左右，通过paypal关联国内的借记银行卡即可完成支付。它这个序列号是支持3台电脑注册的。3个人同时使用的话，一个季度的价格不到20RMB，我觉得费用还是很低的，比国内某些付费软件的价格都低。目前我只注册了1台电脑。其实还有2个名额，有需要的朋友可以共用序列号。或者你也可以找到几个朋友一起学美剧，平摊费用。NetFlix账号也是可以租用的，一个NetFlix账号可以共用4个人，一个季度费用大概是45RMB左右。我的账号就是长期租用的，季度续费即可。老外的付费服务其实有时候比国内的付费平台都便宜，价格良心。这种美剧资料的下载速度也比较快，前提是你要有帆樯的梯子，而且要解锁奈飞的那种梯子才行。所以我一再说了，要能够帆樯对于学英语真的很重要。
 
-当前这句台词如果觉得是个知识点，按键盘B键，mpv结合anki插件的这套工具就会自动把当前这句话完整的内容截取到anki里面，包括mp4和mp3都会保存到卡片里面。只有英文字幕，看的时候会走走停停，查单词，刚开始有个习惯过程，后面自然会形成自己的一些习惯，这个看个人的细节操作，每个人会有不同，本文只是提供美剧学习的一个思路和具体的落地工具，实操的时候还要看个人。
+看剧制卡的时候，建议网页中也开启NetFlix美剧，并且开启这个Language Reactor插件，制卡的时候需要去看中文台词的意思，编辑卡片，如下，设置人工翻译中文简体字幕就可以，它显示出来的就是双语字幕：
 
 ![SdFBfGLJSd](/images/posts/SdFBfGLJSd.png)
 
 ![chrome_TWtorDcc79](/images/posts/chrome_TWtorDcc79.png)
 
-Language Reactor最大的好处是可以中英文字幕双开，扫清一遍之后，可以大致评估到一个剧的难度，因为这个插件还会有生词统计功能，看一个剧的生词量大概可以知道这个剧的难度，这个插件还支持youtube视频。如果是要下载youtube视频，我一般使用也是付费软件[Internet Download Manager](https://www.internetdownloadmanager.com/)
+Language Reactor最大的好处是可以开双语字幕，还可以遮挡中文字幕高斯模糊，只要你鼠标移动到高斯模糊的中文字幕上，就可以显示出来，这个插件的体验做得很好。扫清一遍剧情之后，可以大致评估到一个剧的难度，再决定要不要下载到硬盘进行“精读”制卡。如果你是要下载youtube视频和英文字幕，我一般采用这个IDM工具下载:[Internet Download Manager](https://www.internetdownloadmanager.com/), NetFlix用FlixGrab下载，Youtube用IDM下载，都支持英文字幕。
 
 ![IDMan_SMKbr3Tn26](/images/posts/IDMan_SMKbr3Tn26.png)
 
 ![chrome_P42WUXjCil](/images/posts/chrome_P42WUXjCil.png)
 
-这个软件配合的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek),我主要是用来作为下载油管视频的主力工具，这个工具可以下载视频的英文台词，视频的分辨率也是可以选择的，比如720P, 1080P,一般我都是选择720P清晰度，已经够用。下面这个截图就是[Internet Download Manager](https://www.internetdownloadmanager.com/)下载youtube视频的操作示例。
+IDM对应的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek),我主要是用来下油管视频，油管里面有很多访谈节目，特别适合用来“精读”制卡，特别针对于口语这块听力的狭窄收入，IDM应该很多人都用过，它是付费的，一次性买断永久使用的那种，使用方法如下：打开YouTube某个视频，只要你开启了这个插件，就会显示Download this video的半透明悬浮工具条，下载选项里面可以下载到英文字幕，不同分辨率的视频。新闻访谈，博主的日常口语，这些都特别适合用来制卡，是专门针对口语和听力的好材料。
 
 ![oZmNzWrGq3](/images/posts/oZmNzWrGq3.png)
 
