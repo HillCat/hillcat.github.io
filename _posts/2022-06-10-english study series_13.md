@@ -243,7 +243,7 @@ Language Reactor最大的好处是可以开双语字幕，还可以遮挡中文�
 
 ![chrome_P42WUXjCil](/images/posts/chrome_P42WUXjCil.png)
 
-IDM对应的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek),我主要是用来下油管视频，油管里面有很多访谈节目，特别适合用来“精读”制卡，特别针对于口语这块听力的狭窄收入，IDM应该很多人都用过，它是付费的，一次性买断永久使用的那种，使用方法如下：打开YouTube某个视频，只要你开启了这个插件，就会显示Download this video的半透明悬浮工具条，下载选项里面可以下载到英文字幕，不同分辨率的视频。新闻访谈，播主的日常口语，这些都特别适合用来制卡，是专门针对口语和听力的好材料。
+IDM对应的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek),我主要是用来下油管视频，油管里面有很多访谈节目，特别适合用来“精读”制卡，特别针对于口语这块听力的狭窄输入，IDM应该很多人都用过，它是付费的，一次性买断永久使用的那种，IDM是浏览器插件和电脑中安装的软件互相配合的，打开YouTube某个视频，只要你开启了这个插件，就会显示Download this video的半透明悬浮工具条，下载选项里面可以下载到英文字幕，不同分辨率自选，点击下载就会调用电脑中的IDM开始下载，这个工具最好的地方是下载速度很快，多线程下载甚至比百度网盘SVIP还要快。
 
 ![oZmNzWrGq3](/images/posts/oZmNzWrGq3.png)
 
