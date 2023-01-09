@@ -15,6 +15,8 @@ typora-root-url: ../
 
 我相信，在语言自学这个领域，anki算是为数不多的好工具之一。
 
+顺便说下我的环境配置：window10 pro Version 22H2 (中文界面改为了英文界面)；Anki Version ⁨2.1.55 QT5(英文界面)。Anki推荐使用QT5版本，不要用QT6版本。
+
 ## 英文学习心态
 
 提及到英文学习的目的和心态，有篇文章值得推荐：[https://mp.weixin.qq.com/s/7_a0zx0enHul5psMqcC2hA](https://mp.weixin.qq.com/s/7_a0zx0enHul5psMqcC2hA)
