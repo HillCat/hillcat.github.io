@@ -298,7 +298,7 @@ C:\Users\47664\AppData\Roaming\mpv
 
 ![NDSUprculn](/images/posts/NDSUprculn.png)
 
-这种视频制卡的方法，其实跟国外大神们使用的方法基本上一样了，缺点是，还是需要手工查词典。要精确把握台词的中文意思，还得chrome浏览器打开NetFlix官网，登录你的奈飞账号，搜索到这一集，配合Language Reactor插件开启中英文双语字幕，去核对这个句子的中文人工翻译的意思。不要觉得这个过程繁琐，只要你去看看老外怎么制作视频卡的，其实也是一样的繁琐。
+这种视频制卡的方法，其实跟国外大神们使用的方法基本上一样了，缺点是，还是需要手工查词典。要精确把握台词的中文意思，还得chrome浏览器打开NetFlix官网，登录你的奈飞账号，搜索到这一集，配合Language Reactor插件开启中英文双语字幕，去核对这个句子的中文人工翻译的意思。不要觉得这个过程繁琐，老外制作视频卡也是一样的繁琐。
 
 ![Typora_mBBtvdNjUT](/images/posts/Typora_mBBtvdNjUT.png)
 
