@@ -91,15 +91,15 @@ choco install ffmpeg
 
 ![srwyGARJZS](/images/posts/srwyGARJZS.png)
 
-在进行设置之前，我们需要下载一个模板，这个模板是跟这个插件配套使用的，是插件作者提供的一个模板，模板文件通过这个地址[https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b](https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b)下载。
+在进行设置之前，我们需要下载一个模板，这个模板是跟这个插件配套使用的，是插件作者提供的一个模板，模板文件通过这个地址[https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b](https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b)下载。先把这个模板用熟，等到对anki非常熟悉之后，以后可以根据自己的需要，修改这个模板。暂时为了熟悉美剧制卡，先用这个插件的配套模板熟悉下套路。
 
-下载完，你会得到下面这个文件，如果你的电脑设置了可以显示文件后缀名，可以看到这个模板的后缀是apkg的，如下所示：
+模板下载完，你会得到下面这个文件，双击模板运行就自动导入anki了。
 
 ![Typora_elu2qwxCnN](/images/posts/Typora_elu2qwxCnN.png)
 
-如果你的电脑已经安装了anki，那么直接双击这个文件，这个模板文件就导入到anki里面去了，一定要先把这个模板导入到anki再进行下一步设置，要不然，你设置的时候是看不到这个模板的。
+模板导入到anki后进行下一步设置。
 
-模板导入到anki之后，打开anki，在anki主界面，我们通过按快捷键`Ctrl + O`再次打开插件配置界面.插件打开的界面中，有个叫做Type的选项，点击打开这个下拉框，弹出来Choose Note Type这个界面，如下图所示。在下拉框中我们选择“`Harry Potter and the Sorcerer's Stone（light theme）`"这个模板。如果你在上一步中没有安装那个模板，这里是看不到这个`Harry Potter and the Sorcerer's Stone（light theme）`模板的。
+在anki主界面，我们通过按快捷键`Ctrl + O`打开插件配置界面. 插件配置的首界面，有个叫做Type的选项，点击打开Type选择下拉框，弹出来Choose Note Type这个界面，如下图所示。在下拉框中我们选择“`Harry Potter and the Sorcerer's Stone（light theme）`"这个模板。如果你在上一步中没有安装那个模板，这里是看不到这个`Harry Potter and the Sorcerer's Stone（light theme）`模板的。
 
 ![F8VkgIxs8z](/images/posts/F8VkgIxs8z.png)
 
