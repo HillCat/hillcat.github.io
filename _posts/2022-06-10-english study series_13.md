@@ -17,7 +17,7 @@ typora-root-url: ../
 
 我的电脑环境：window10 pro Version 22H2 (中文界面改为了英文界面)；Anki Version ⁨2.1.55 QT5(英文界面)。
 
-在操作之前，强烈建议把文件夹视图进行调整，让文件后缀显示出来。
+在操作之前，**强烈建议**把文件夹视图进行调整，让文件后缀显示出来。
 
 如何显示文件名后缀？请看下面:
 
@@ -84,26 +84,26 @@ choco install ffmpeg
 
 ### 5.安装anki插件
 
-如果你熟悉anki的话，直接安装这个插件就可以，随便摸索一下，就能搞定美剧制卡了。这里为了照顾到那些对于anki不太熟悉的人，会写得稍微详细一点。插件地址如下：
+如果你熟悉anki的话，直接安装这个插件就可以，随便摸索一下，就能搞定美剧制卡了。如果不太熟悉anki，会写那么继续看我下面的配置步骤。
 
-[https://ankiweb.net/shared/info/1213145732](https://ankiweb.net/shared/info/1213145732)
-插件安装完成之后，重启anki，使用快捷键Ctrl + O可以直接打开这个菜单界面，然后剩下的工作就是对这个界面进行一些设置。
+先去这里拿到这个插件的ID，把插件安装上：[https://ankiweb.net/shared/info/1213145732](https://ankiweb.net/shared/info/1213145732)
+插件安装完成之后，重启anki，使用快捷键Ctrl + O可以直接打开这个插件的菜单界面，然后剩下的工作就是对这个插件的界面进行一些设置，总的思路是:先选定一个卡片模板，然后对这个卡片模板的字段进行设置，跟我们以前划词制卡差不多的套路。
 
 ![srwyGARJZS](/images/posts/srwyGARJZS.png)
 
-在进行设置之前，我们需要准备一个模板，模板文件通过这个地址[https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b](https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b)。
+在进行设置之前，我们需要下载一个模板，这个模板是跟这个插件配套使用的，是插件作者提供的一个模板，模板文件通过这个地址[https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b](https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b)下载。
 
-下载完，你会得到下面这个文件：
+下载完，你会得到下面这个文件，如果你的电脑设置了可以显示文件后缀名，可以看到这个模板的后缀是apkg的，如下所示：
 
 ![Typora_elu2qwxCnN](/images/posts/Typora_elu2qwxCnN.png)
 
-直接双击这个文件，就导入到anki里面去了，一定要先把这个模板导入到anki再进行下一步设置。
+如果你的电脑已经安装了anki，那么直接双击这个文件，这个模板文件就导入到anki里面去了，一定要先把这个模板导入到anki再进行下一步设置，要不然，你设置的时候是看不到这个模板的。
 
-模板导入到anki之后，Ctrl + O再次打开插件配置界面，Type这里，Choose Note Type，选择“`Harry Potter and the Sorcerer's Stone（light theme）`"这个模板。如果你没有安装上面下载的哪个apkg，在选择模板这个界面是看不到这个`Harry Potter and the Sorcerer's Stone（light theme）`的。
+模板导入到anki之后，打开anki，在anki主界面，我们通过按快捷键`Ctrl + O`再次打开插件配置界面.插件打开的界面中，有个叫做Type的选项，点击打开这个下拉框，弹出来Choose Note Type这个界面，如下图所示。在下拉框中我们选择“`Harry Potter and the Sorcerer's Stone（light theme）`"这个模板。如果你在上一步中没有安装那个模板，这里是看不到这个`Harry Potter and the Sorcerer's Stone（light theme）`模板的。
 
 ![F8VkgIxs8z](/images/posts/F8VkgIxs8z.png)
 
-模板选中之后，Deck这里随便选择一个即可，建议你创建一个新的Deck，用来测试美剧制卡，因为随后生成的新的卡片都会被放到这个新的Deck里面。如果你用过anki，对anki熟悉，就应该非常熟悉，这个其实跟划词制卡是一个原理，也是对卡片模板的字段进行配置。如果你选择的是跟我一样的模板，那么完全按照下面的配置即可：
+模板选中之后，设置一个Deck，意思就是生成的美剧卡片，你想把它保存到哪个Deck里面，一般我会新建一个Deck专门用来保存美剧卡片，根据你自己的需要选择。我这里是保存到`Just Added`这个里面。字段的配置全部按照我下图②中的配置设置就可以了。
 
 ![6MWzXM7j8v](/images/posts/6MWzXM7j8v.png)
 
