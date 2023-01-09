@@ -139,6 +139,10 @@ flixgrab+是付费版本，去官方网站选择季度付费，通过paypal支�
 
 ![chrome_TWtorDcc79](/images/posts/chrome_TWtorDcc79.png)
 
+这个Language Reactor插件还有很多其他功能，比如单词分级`Set Vocabulary Level`。可以让你提前预览到这个剧的生词分布情况，用来判断一个剧的难度。有声书分级阅读的策略，同样也可以用到美剧这里。
+
+![chrome_nvV5g42HPi](/images/posts/chrome_nvV5g42HPi.png)
+
 除了NetFlix美剧，还可以看youtueb上面的视频，下载youtube视频和英文字幕，我一般采用这个IDM工具下载:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具也是付费的，比较便宜，大概120RMB左右，永久使用，用过的人都说好。
 
 ![IDMan_SMKbr3Tn26](/images/posts/IDMan_SMKbr3Tn26.png)
