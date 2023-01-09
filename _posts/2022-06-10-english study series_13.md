@@ -89,6 +89,8 @@ PowerShell打开方式如下：打开之后，粘贴上面的所有命令，之�
 choco install mpv
 ```
 
+执行过程中它"询问是否执行脚本"的时候，选A，详细过程如下：
+
 ![Obsidian_Ctvz3ykLcj](/images/posts/Obsidian_Ctvz3ykLcj.png)
 
 ![Obsidian_JAZ4lroQx7](/images/posts/Obsidian_JAZ4lroQx7.png)
@@ -104,6 +106,8 @@ mpv播放器需要播放youtube的url视频，需要电脑默认安装youtube-dl
 choco install youtube-dl
 ```
 使用choco安装的好处是，自动脚本安装好，避免自己手动安装出现错误，这一点极为重要，这也是我1年前，探索美剧制卡失败的关键原因，就是因为我没有使用choco方式安装软件包。
+
+命令执行的详细过程如下:
 
 ![Obsidian_Bb0W9OWsXH](/images/posts/Obsidian_Bb0W9OWsXH.png)
 
@@ -131,6 +135,8 @@ choco install youtube-dl
 ```shell
 choco install ffmpeg
 ```
+
+命令执行的详细过程如下:
 
 ![Obsidian_y1M27hyg3I](/images/posts/Obsidian_y1M27hyg3I.png)
 
