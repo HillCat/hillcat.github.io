@@ -173,27 +173,19 @@ choco install ffmpeg
 
 ![anki_u4jnIEfEfI](/images/posts/anki_u4jnIEfEfI.png)
 
-上面是我已经设置好的界面，Type这个里面需要选择一个模板，官方插件中提供了模板的下载地址。要摸索到这些，前提一定是anki老手才有可能，要非常熟悉anki的制卡套路。如果没有用过anki的人，估计看这篇文章还是会看得一头雾水。所以这个方法只适合那些已经有anki使用经验的外语学习者。
-
-![Typora_KDrVELN6GA](/images/posts/Typora_KDrVELN6GA.png)
-
-
-
-通过这个地址[https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b](https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b)下载Deck模板，
+上面是我已经设置好的界面，Type这个里面需要选择一个模板，我选择的是“`Harry Potter and the Sorcerer's Stone（light theme）`"。这个模板文件通过这个地址[https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b](https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b)下载Deck模板，
 
 下载完，你会得到下面这个文件：
 
 ![Typora_elu2qwxCnN](/images/posts/Typora_elu2qwxCnN.png)
 
-注意看下图，我选择的是“`Harry Potter and the Sorcerer's Stone（light theme）`"这个NoteType：
+直接双击这个文件，就导入到anki里面去了。
+
+Ctrl + O打开插件配置界面，选择Type的时候，选择“`Harry Potter and the Sorcerer's Stone（light theme）`"即可：
 
 ![F8VkgIxs8z](/images/posts/F8VkgIxs8z.png)
 
-安装了那个下载的文件之后，你在anki的Browser中，Note Types这个里面能看到这个模板:
-
-![gDaA674s6T](/images/posts/gDaA674s6T.png)
-
-选择Type的时候，选择这个模板即可，下面其他配置按照我图片中这样子配置就可以了。这个地方很关键，直接决定你能不能顺利制卡。至少保证先配置成功，去感觉下这个制卡的功能，细节部分如果要调整，以后可以自行去研究。这里先保证每一个步骤操作成功先。这里的Deck，你可以自己随便创建一个新的Deck，用来做测试也可以，我这里选择的是我的创建的Deck，名字叫做just Added. 名字可以随便取。
+Deck选择你的任意一个你anki中已有的Deck即可，或者你也可以临时创建一个Deck用来测试美剧制卡也行。这里的Deck，其实就是指的单词本分类。然后是Field Mapping设置，按照我下图这个设置即可。
 
 ![6MWzXM7j8v](/images/posts/6MWzXM7j8v.png)
 
