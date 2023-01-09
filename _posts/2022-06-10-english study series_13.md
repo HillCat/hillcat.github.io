@@ -59,7 +59,7 @@ chocolatey如何安装，文档如下：
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 ```
 
-Command Prompt打开方式如下：打开之后，粘贴上面的所有命令，之后回车运行即可。
+Command Prompt打开方式如下：在windows开始菜找到它，以管理员权限打开之后，粘贴上面的所有命令，之后回车运行即可。
 
 ![Typora_yozA6jxQns](/images/posts/Typora_yozA6jxQns.png)
 
@@ -69,7 +69,7 @@ Command Prompt打开方式如下：打开之后，粘贴上面的所有命令，
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
-PowerShell打开方式如下：打开之后，粘贴上面的所有命令，之后回车运行即可。
+PowerShell打开方式如下：在windows开始菜找到它，以管理员权限打开之后，粘贴上面的所有命令，之后回车运行即可。
 
 ![KUGatcqZKF](/images/posts/KUGatcqZKF.png)
 
