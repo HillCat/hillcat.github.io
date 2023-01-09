@@ -17,27 +17,13 @@ typora-root-url: ../
 
 我的电脑环境：window10 pro Version 22H2 (中文界面改为了英文界面)；Anki Version ⁨2.1.55 QT5(英文界面)。
 
-## 英文学习心态
+在操作之前，强烈建议把文件夹视图进行调整，让文件后缀显示出来。
 
-提及到英文学习的目的和心态，有篇文章值得推荐：[https://mp.weixin.qq.com/s/7_a0zx0enHul5psMqcC2hA](https://mp.weixin.qq.com/s/7_a0zx0enHul5psMqcC2hA)
+如何显示文件名后缀？请看下面:
 
-写这篇文章的播主是一个大牛，他的背景，有兴趣的可以去研究下。文中他自己阐述学英语的经历挺有启发意义的。打卡扇贝1310天，积累了5万多单词，其实这是他6~7年的积累量，他并没有每天都去复习单词，而是用进攻代替了防守的方式(输入新东西为进攻，复习为防守)，复习仅仅是有空就做，没空就不做，但是持续的输入实战每天都有进行，这让我在思考到底是复习重要，还是每天的实战输入重要?相信看完他这篇文章，对于学英语心态这块会有一些启发。用anki的唯一原因就是英语是个日积月累的事情，要有复习环节。anki跟扇贝，墨墨背单词，欧陆的复习策略差不多。不过anki更加灵活而已。至少其他背单词工具，无法制作美剧的这种视频单词卡片。anki要用好真的比较费时间，我也不断在借鉴国外一些人使用anki的经验。
+很多人的windows电脑文件名不会现显示后缀，建议你在浏览文件夹的时候，进行如下设置，打上勾即可:文件名后缀就会显示了。如果你已经是这么设置的，那么继续进行下面的设置。
 
-youtube有几个播主也是使用anki，比如:`Matt vs japan`，`Giovanni Smith`也都是用这种方法。我以前尝试过`Matt vs Japan`的看剧制卡的方法，没有尝试成功,当时那个时候我英语能力也不像现在，那个时候看一些英文资料文档也比较吃力，遇到了问题加上粗心，失败了就没有再尝试了，当时的资料不像现在这么多，研究这个方法纯粹是看youtube播主的英文视频。插件是英文的，mpv配置很多资料也是英文的，稍微有差错搞不定就研究不下去。等英文提升上来了，再仔细阅读英文材料来研究这个方法，发现非常简单，过了这么多年，新方法和插件都出来了。其实这个也带有一定的运气成分，如果放到10年前，肯定没有这么好的资源。也要感谢从这些老外身上获取了不少灵感。以及感谢那些老外制作的插件。
-
-![chrome_UpKqYv6fnw](/images/posts/chrome_UpKqYv6fnw.png)
-
-![chrome_nJQ9JlTXYt](/images/posts/chrome_nJQ9JlTXYt.png)
-
-Giovanni Smith我在2年前关注过他，他在使用anki的过程中也走了很多弯路，其实跟我一样，我也走了很多弯路。包括Matt vs Japan他很多年前用anki学日语，也走过很多弯路，那些心路历程我也是很有共鸣的。使用这个方法去配置anki制卡的时候，唯一需要注意的是windows电脑一定要使用[chocolatey](https://chocolatey.org/)这个工具来管理软件包，特别特别重要，另外电脑还要开启帆樯功能，搞英语，如果你无法帆樯，基本会给英语学习造成无限障碍。
-
-Giovanni Smith用这个方法通过了HSK6的考试，根据百度百科的解释：`6级是新汉语水平考试HSK的最高等级，通过HSK 6级的考生可以轻松地理解听到或读到的汉语信息，以口头或书面的形式用汉语流利地表达自己的见解`，对于一个美国黑人来说，~~学习中文3年，能够通过HSK6考试~~，(实际上用了5年的时间通过HSK6考试，具体看下面截图，2021年的时候他已经学了3年了，到2023他发布通过HSK6考试的视频就是5年)，这个速度和Matt vs Japan学日语的速度差不多，Matt vs Japan也是花了5年时间把日语学到很高水平。但是据他自己说，即便通过了HSK6考试，还是无法流利进行中文口语输出，其实这个也在我意料中，因为考试能力并不等于真实的语言能力。2021年的时候，他录制过一个视频，说的是他自己使用了1年的anki，用法上的错误，曾经导致想要放弃，那个时候我还留言给他，为他加油打气。后来过了几个月我再看他的发的视频，他反思了anki使用方法的问题，之所以无效，是因为很多人无法长期坚持。这期间他又对anki的使用策略进行了调整，每天固定能够复习500张卡，具体细节不得而知，但可以肯定，他对anki的使用进行过某些调整。Giovanni Smith由于他的母语是英语，所以寻找各种学习材料和方法可能比我们中文为母语的人更加有优势，只要你去研究下他是怎么anki制卡来学习中文的，你就会发现，其实他对于anki这块也是研究得非常深的，比如这个2年前的视频：[https://youtu.be/ATNg1fm1Kog](https://youtu.be/ATNg1fm1Kog)，他用到了看视频，看文章，听Podcast，等几乎一切材料都会利用起来，他看B站视频学习中文，也几乎用了sharex截图工具，如果你要分析他的经验，请仔细看他这几年分享的视频。总之，当你英文听力稍微好点，可以去研究下国外这些常年坚持学语言，学有所成的这些案例，也会比在国内找案例好很多，国内的案例，说实在的，很多中国播主不会把自己真实的情况通过视频的方式展示出来，相比而言，老外的分享要真实很多，他们也不会因为自己外语能力牛逼了，要急着去变现搞培训之类的。国内所谓很多英语大牛，几乎都不是草根出身，有些本身就是英语专业的，还有些本身就是海归，小时候就是学霸，进的是外国语学校。真正的草根成年人是如何学语言的，看这些老外的视频分享就很好。
-
-![chrome_DK8lYAchl3](/images/posts/chrome_DK8lYAchl3.png)
-
-Giovanni Smith最近的视频心得，展示了他这几年使用anki整体表现的数据，复习卡片的次数是50万次，而我使用anki的复习卡片的次数是17万次左右，当然，他花的时间比我多了一倍，因为他学中文有5年的时间了。我分析了自己跟Giovanni Smith之间的差距，我长期以来都是阅读有声书的方式制卡，比较单一，大部分其实锻炼的是阅读和识字能力，少量听力能力，而Giovanni Smith有很大一部分卡片是看剧制卡，他的卡片类型也特别丰富，材料类型涉及广泛。Giovanni Smith是每天复习500多张卡片，雷打不动。而我是每天复习300张卡片。这就是我跟他之间的区别。一万小时理论，确实是要靠量变才能质变的。有声书和美剧同时进行，相信不久我也能够成为高手。
-
-我上面只是举了Giovanni Smith的例子，其实Matt vs Japan也是美国人，他学日语用anki也有类似经历，他的很多视频我都看过，启发很大，我之前某些方法中会使用到Sharex工具，这个灵感就来至于Matt vs Japan的一些视频。看剧我一直没有找到比较好的制卡方式，血的经验也再次证明了看剧的重要性。总之，语言学习，不能只局限于书面语，还要多涉猎美剧，特别是口语听力几乎绕不开美剧。
+![QQ_k87NMkPdKG](/images/posts/QQ_k87NMkPdKG.png)
 
 
 
@@ -55,35 +41,19 @@ chocolatey如何安装，文档如下：
 
 [https://docs.chocolatey.org/en-us/choco/setup](https://docs.chocolatey.org/en-us/choco/setup)
 
-按照上面地址的文档说明，chocolate安装方式有2种，一种是通过cmd安装，一种是powershell方式安装。选择其中1种即可.
+按照上面地址的文档说明，chocolate安装方式有2种，一种是通过cmd安装，一种是powershell方式安装。选择其中1种即可.这里我使用第二种方式PowerShell安装Chocolatey：
 
-第一种方式：Install with cmd.exe，指的是使用Command Prompt来执行命令：
-
-```shell
-@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-```
-
-Command Prompt打开方式如下：在windows开始菜找到它，以管理员权限打开之后，粘贴上面的所有命令，之后回车运行即可。
-
-![Typora_yozA6jxQns](/images/posts/Typora_yozA6jxQns.png)
-
-第二种方式：Install with PowerShell.exe,指的是运行PowerShell命令行来执行命令：
+在windows开始菜单，找到PowerShell以管理员方式打开，粘贴并执行下面命令：
 
 ```shell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
-PowerShell打开方式如下：在windows开始菜找到它，以管理员权限打开之后，粘贴上面的所有命令，之后回车运行即可。
-
 ![KUGatcqZKF](/images/posts/KUGatcqZKF.png)
 
 
 
-我个人倾向于使用第二种方式PowerShell来安装chocolatey，最好是开启全局帆樯，切记。国内这些坑爹的网络环境，有可能造成依赖项安装失败。
-
-可能会发现，我发的这些地址都是英文的，有时候即便是研究英文自学方法，本身对于英文的阅读能力也有要求，还得懂一些电脑软件原理。很多资料看不懂，几乎没法研究这些工具，程序员搞这些玩意有时候都搞得奔溃。使用这种方法的人非常少，主要是配置繁琐，对于小白基本可以直接劝退99%的人，anki很多人也不熟，直接就过滤掉大部分人了，还有人连帆樯都不会，那就直接劝退。
-
-chocolatey安装好之后，下面直接安装其他软件包，一定要按顺序操作。检测chocolatey是否安装成功的方法，就是打开PowerShel，输入choco，回车，如下图，如果看到没有报错，即表示安装成功。
+chocolatey安装好之后，输入choco，回车，如下图，如果看到没有报错，即表示安装成功。
 
 ![powershell_5G3YUqCTT8](/images/posts/powershell_5G3YUqCTT8.png)
 
@@ -95,15 +65,6 @@ chocolatey安装好之后，下面直接安装其他软件包，一定要按顺�
 choco install mpv
 ```
 
-执行过程中它"询问是否执行脚本"的时候，选A，详细过程如下：
-
-![Obsidian_Ctvz3ykLcj](/images/posts/Obsidian_Ctvz3ykLcj.png)
-
-![Obsidian_JAZ4lroQx7](/images/posts/Obsidian_JAZ4lroQx7.png)
-
-mpv播放器需要播放youtube的url视频，需要电脑默认安装youtube-dl这个插件。
-这里尝试也使用choco来安装。
-
 ### 3.安装youtube-dl
 
 同样也是通过choco安装，powershell管理员权限，执行下面命令：
@@ -111,34 +72,9 @@ mpv播放器需要播放youtube的url视频，需要电脑默认安装youtube-dl
 ```shell
 choco install youtube-dl
 ```
-使用choco安装的好处是，自动脚本安装好，避免自己手动安装出现错误，这一点极为重要，这也是我1年前，探索美剧制卡失败的关键原因，就是因为我没有使用choco方式安装软件包。
-
-命令执行的详细过程如下:
-
-![Obsidian_Bb0W9OWsXH](/images/posts/Obsidian_Bb0W9OWsXH.png)
-
-只有在使用choco完整安装了mpv和youtube-dl之后，url链接从浏览器直接鼠标拖拽到mpv播放器，才能直接播放youtube频道的视频。这种革命性的工具，让我们学习地道英文，去贴近真实环境又更进一步了。类似下面的效果:这是直接播放的一个url地址，在我电脑硬盘中并没有这个视频。它是实时拉取url网页自动分析视频地址然后加载到播放器中，这样子即使不需要下载离线视频，也能直接在线制卡。这种骚操作，放在3年前我都不敢想象。只要你敢想，就总有老外已经想到了这些方法了。以后我博客里面不会再出现其他英语方法，总体而言，有声书，外刊，新闻，美剧，youtube，这些材料类型能够用一种复习方法全部搞定的，目前只看到有anki可以。至于是每天需要拿出大量的时间来复习，还是说要大量以输入为主，是个值得思考的地方.
-
-![Obsidian_UgSM0jbUMG](/images/posts/Obsidian_UgSM0jbUMG.png)
-
-上图是mpv播放器直接播放youtube的url的效果。就像这篇文章说的[https://mp.weixin.qq.com/s/7_a0zx0enHul5psMqcC2hA](https://mp.weixin.qq.com/s/7_a0zx0enHul5psMqcC2hA)，英语学习是内功修炼，无法速成，就跟算法一样，英语积累期很长，可能会伴随我们人生相当长的时间，可能是3年，也可能是6~7年(微信公众号:`是不是很酷`，这个公众号的作者刘宇波，他就花了很多年持续英语，积累了5万多词汇量，几乎每天都会阅读大量的英语文章)。
-
-![chrome_moCrsvbFFK](/images/posts/chrome_moCrsvbFFK.png)
-
 
 
 ### 4.安装ffmpeg
-
-这个插件是用来截取mp4和mp3的，程序自动分析台词之后，根据台词的音轨来断句，截取视频片段和音频片段。淘宝上面售卖的很多anki牌卡，其实都是用这种方式制卡的。手工精修。当然，这些人应该是anki的熟手二道贩子了。这些方法一方面是繁琐的配置，另一方面，有些人其实并不想公开。说真的，制作一个教程，要花费的精力太多，很多人是不想录视频的。还一个原因是anki上手门槛高，很多人看了anki就劝退了。
-
-![chrome_7ZGD4UqfqG](/images/posts/chrome_7ZGD4UqfqG.png)
-
-![chrome_TICTai6Q6c](/images/posts/chrome_TICTai6Q6c.png)
-
-
-
-安装ffmpeg也通过choco安装，参考：
-[https://community.chocolatey.org/packages/ffmpeg](https://community.chocolatey.org/packages/ffmpeg)
 
 也是通过powershell管理员权限，执行下面指令：
 
@@ -146,94 +82,70 @@ choco install youtube-dl
 choco install ffmpeg
 ```
 
-命令执行的详细过程如下:
-
-![Obsidian_y1M27hyg3I](/images/posts/Obsidian_y1M27hyg3I.png)
-
-
-
 ### 5.安装anki插件
 
+如果你熟悉anki的话，直接安装这个插件就可以，随便摸索一下，就能搞定美剧制卡了。这里为了照顾到那些对于anki不太熟悉的人，会写得稍微详细一点。插件地址如下：
+
 [https://ankiweb.net/shared/info/1213145732](https://ankiweb.net/shared/info/1213145732)
-这里使用mpv制卡，需要anki上面这个插件来配合，具体插件的说明文档也在这个地址中有说明。整个过程不需要对mpv播放器进行任何设置。所有操作都在anki上面进行，具体来说，是当你安装了这个插件之后，anki会多出来一个菜单，Ctrl + O可以直接打开这个菜单界面，然后剩下的工作就都是从这个界面操作，包括打开本地的视频和网上的视频，都是从这个界面进行，它会直接唤醒系统中的MPV播放器，来播放远程的视频URL或者是本地硬盘中的美剧。
+插件安装完成之后，重启anki，使用快捷键Ctrl + O可以直接打开这个菜单界面，然后剩下的工作就是对这个界面进行一些设置。
 
 ![srwyGARJZS](/images/posts/srwyGARJZS.png)
 
-
-
-插件配置，整体的界面如下：
-
-先确认你已经安装了这个Crete subs2srs cards with mpv video player插件。
-
-![anki_0YCtWRQvHD](/images/posts/anki_0YCtWRQvHD.png)
-
-![Typora_xjtHQPxqCr](/images/posts/Typora_xjtHQPxqCr.png)
-
-
-
-我相信，一般的anki小白或者中等用户，可能不知道如何使用这个插件进行美剧制卡，因为这个插件的使用人数貌似不多。通过上图中Open Video..这个菜单打开之后，界面如下：通常我使用快捷键 Ctrl + O 打开这个界面。
-
-![anki_u4jnIEfEfI](/images/posts/anki_u4jnIEfEfI.png)
-
-上面是我已经设置好的界面，Type这个里面需要选择一个模板，我选择的是“`Harry Potter and the Sorcerer's Stone（light theme）`"。这个模板文件通过这个地址[https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b](https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b)下载Deck模板，
+在进行设置之前，我们需要准备一个模板，模板文件通过这个地址[https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b](https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b)。
 
 下载完，你会得到下面这个文件：
 
 ![Typora_elu2qwxCnN](/images/posts/Typora_elu2qwxCnN.png)
 
-直接双击这个文件，就导入到anki里面去了。
+直接双击这个文件，就导入到anki里面去了，一定要先把这个模板导入到anki再进行下一步设置。
 
-Ctrl + O打开插件配置界面，选择Type的时候，选择“`Harry Potter and the Sorcerer's Stone（light theme）`"即可：
+模板导入到anki之后，Ctrl + O再次打开插件配置界面，Type这里，Choose Note Type，选择“`Harry Potter and the Sorcerer's Stone（light theme）`"这个模板。如果你没有安装上面下载的哪个apkg，在选择模板这个界面是看不到这个`Harry Potter and the Sorcerer's Stone（light theme）`的。
 
 ![F8VkgIxs8z](/images/posts/F8VkgIxs8z.png)
 
-Deck选择你的任意一个你anki中已有的Deck即可，或者你也可以临时创建一个Deck用来测试美剧制卡也行。这里的Deck，其实就是指的单词本分类。然后是Field Mapping设置，按照我下图这个设置即可。
+模板选中之后，Deck这里随便选择一个即可，建议你创建一个新的Deck，用来测试美剧制卡，因为随后生成的新的卡片都会被放到这个新的Deck里面。如果你用过anki，对anki熟悉，就应该非常熟悉，这个其实跟划词制卡是一个原理，也是对卡片模板的字段进行配置。如果你选择的是跟我一样的模板，那么完全按照下面的配置即可：
 
 ![6MWzXM7j8v](/images/posts/6MWzXM7j8v.png)
 
 这些配置全部完成之后，点击ok按钮，然后回到下面那层窗口界面，点击那个界面中的`Open File`，会弹出窗口，要你去选择一个视频文件，去磁盘上面找到一个下载好的NetFlix美剧(带有英文台词的)视频，它就会用mpv自动打开那个视频进行播放了，播放的时候，按下键盘B键，就会触发自动制卡，anki的这个制卡插件就会往你的anki里面插入视频卡片了。
 
-目前这种制卡，抽取出来的都是英文字幕，如果你是使用网络上百度网盘别人售卖的《绝望主妇》那种有中英双字幕的，是可以抽取到中英文字幕的，但是，是那种间隔抽取的，就是一个中文，一个英文，间隔这种。实际操作体验非常差，主要是这些流行的口水剧都是野生字幕组瞎翻译的，很多台词的中文根本就是错的，所以，亲们，选择美剧，还是选择油管的视频或者NetFlix里面的吧，好歹NetFlix里面的台词中文和英文都是人工校准过的，比这种野生字幕组的靠谱。关键是我们自己用工具下载的，我们可以控制视频的清晰度，而百度网盘别人售卖的那些美剧，体积都是1GB大小，自己下载NetFlix这种剧，选择720P分辨率，一个25~40分钟的剧体积只有120~200MB，小了4~5倍，即使电脑硬盘空间小，也能装下更多剧。
-
-唯一缺点是：你得习惯只有英文字幕，除非你是用chrome浏览器开Language Reactor插件，才有比较准确的中英文字幕，且都是NetFlix公司校对过的。下载下来的中文字幕，NetFlix的格式是zip压缩包的图片格式，要挂载NetFlix中英双语字幕，目前做不到。其他大众熟知的剧，比如:《摩登家庭》《绝望主妇》《老友记》这些学院派的口水剧，令人费解的台词非常多，野生字幕组瞎翻译，翻译错了我们还要重新查词典，比较浪费时间，而且这些口水剧，不一定代表了真实生活中老外的说话习惯，很多都是导演刻意设计的台词，真实生活不一定人们这样子说话。NetFlix要人工校准好的中文翻译台词，准确率很高，下面部分会有介绍。
-
 ### 6.美剧视频和字幕下载
 
 我使用的方法是通过[FlixGrab+](https://www.flixgrab.com/)付费软件下载NetFlix的视频。
 
-选择一些比较真实的美剧和视频，避免口水剧，过度设计的台词。制卡的时候mpv播放器开打，直接按键盘B键即可制卡，而且会自动断句，制卡之后，核对下NetFlix原版的中文释义，标注下生词即可。不需要太多投入，一天20~50个卡非常随意，半年下来，这个量就会很恐怖了。听力和词汇都会提升一大截，顺带还能积累一堆经典表达。
+FlixGrab是可以批量下载整个美剧的，如果一个美剧有8季，你只需要粘贴其中任何一季的任何一集的URL就可以，等FlixGrab解析出来视频的缩略图之后，缩略图上面会出现齿轮样的设置按钮，上面有个`Paste Espisodes`
+
+选项，会把所有季的所有集的URL全部粘贴生成出来，你可以对单独的这些集进行设置，分别设置它们的分辨率为720P。默认是最低分辨率。推荐全部设置为720P。FlixGrab+使用的时候会有些坑，登录的时候需要使用NetFlix账号登录，登录的时候你需要选择家庭成员子账号图标进入，如果发现有异常搞不定的，可以发消息给我，因为我踩了一些坑，可以分享一些经验。
+
+![POdvvjX7Wc](/images/posts/POdvvjX7Wc.png)
+
+
 
 ![PotPlayerMini64_ygvqCRi5Yo](/images/posts/PotPlayerMini64_ygvqCRi5Yo.png)
 
 ![56754546](/images/posts/56754546.gif)
 
-
-
-批量下载NetFlix美剧的方法如下，只需要你找到NetFlix网站任意一集美剧，复制那一集的url地址，粘贴到这个FlixGrab+软件里面，它可以根据其中任意一集，在你用鼠标选中"Paste Episodes"这个功能的时候，这个软件会自动批量分析所有剧集，全部给你罗列出来。你只需要把每一集的分辨率设置一下，Settings里面把字幕设置为英文，影片的声音源设置为英文，即可；要等他所有的分析都跑完之后，点击“Download”，就可以开始排队下载了。所有剧集下载完成之后，这个列表会被自动清空。可以自定义要保存的文件夹地址。比百度网盘下载美剧爽多了。FlixGrab+登录奈飞账号的时候，可能会出现一些下载的问题，可以看下这个教程【[FlixGrab无法下载报错怎么办](https://www.bilibili.com/video/BV1JW4y1b7QA/?share_source=copy_web&vd_source=074fc12dff24eb02318a300ccc48526d)】 ，如果这个软件提示你要升级浏览器版本，你需要去官网下载最新版本；如果这个软件提示你序列号注册达到了上限，你重启一下电脑即可。大概就是这个FlixGrab+使用的时候会遇到的一些问题，留意一下即可。
-
-![POdvvjX7Wc](/images/posts/POdvvjX7Wc.png)
-
-flixgrab+这个工具是属于付费版，它默认有个免费版，免费版几乎没太多用。使用付费版，付费之后，会发送一封邮件到你的邮箱里面，会带上序列号和邮箱名。
+flixgrab+是付费版本，去官方网站选择季度付费，通过paypal支付即可，paypal在国内可以绑定借记银行卡。一个季度是50RMB左右费用，可以绑定3台电脑。支付成功之后，它会往你指定的邮箱发送序列号，如下：
 
 ![nQmIpqX0TC](/images/posts/nQmIpqX0TC.png)
 
 ![chrome_vueAJb2RC8](/images/posts/chrome_vueAJb2RC8.png)
 
- [https://www.flixgrab.com/](https://www.flixgrab.com/) 激活的时候，填写邮箱和序列号即可。一般我使用的是季度付费的方式，按照现在的汇率来算，一个季度是50元RMB左右，通过paypal关联国内的借记银行卡即可完成支付。它这个序列号是支持3台电脑注册的。3个人同时使用的话，一个季度的价格不到20RMB，我觉得费用还是很低的，比国内某些腾讯，百度，网易云的价格都低。目前我只注册了1台电脑。其实还有2个名额，有需要的朋友可以共用序列号。或者你也可以找几个朋友一起学美剧，共用账号。NetFlix账号也是可以租用共用的，一个NetFlix账号可以共用3~5个人，电报Telegram聊天软件可以找到这些专门租赁账号的群，或者去淘宝找卖家租赁也行，一个季度费用大概是45RMB左右。我的账号就是长期租用的，我是在电报群找的人，已经使用几年了，季度续费即可，每次续费的时候都是在电报Telegram聊天软件联系卖家处理，卖家是华人(在国外)，每到续租的时候都会发通知给你。价格良心。前提是你要有帆樯的梯子，要解锁奈飞。所以，帆樯对于英语很重要。这也是我的这些方法不能大势宣传的原因，你总不能去怂恿他们去帆樯吧? 并且配置操作繁琐，也不适合电脑小白，anki就能吓退很多人。但是只要你搞通了这些，基本就是一劳永逸。
+目前我只注册了1台电脑。其实还有2个名额，有需要的朋友可以共用序列号。或者你也可以找几个朋友一起学美剧，共用账号。NetFlix账号也是可以租用共用的，一个NetFlix账号可以共用3~5个人，电报群或者淘宝找人去租用NetFlix账号即可。通过美剧训练自己的听力，训练到不需要开字幕能听懂大部分美剧，基本上听力这块也就差不多了。
 
-看剧制卡的时候，建议网页中也开启NetFlix美剧，并且开启这个Language Reactor插件，制卡的时候需要去看中文台词的意思，编辑卡片，如下，设置人工翻译中文简体字幕就可以，它显示出来的就是双语字幕：
+看NetFlix的神器插件：chrome浏览器的Language Reactor插件，推荐一定安装。开启双语字幕的方法如下：
 
 ![SdFBfGLJSd](/images/posts/SdFBfGLJSd.png)
 
 ![chrome_TWtorDcc79](/images/posts/chrome_TWtorDcc79.png)
 
-Language Reactor最大的好处是可以开双语字幕，还可以遮挡中文字幕高斯模糊，只要你鼠标移动到高斯模糊的中文字幕上，就可以显示出来，这个插件的体验做得很好。扫清一遍剧情之后，可以大致评估到一个剧的难度，再决定要不要下载到硬盘进行“精读”制卡。如果你是要下载youtube视频和英文字幕，我一般采用这个IDM工具下载:[Internet Download Manager](https://www.internetdownloadmanager.com/), NetFlix用FlixGrab下载，Youtube用IDM下载，都支持英文字幕。
+除了NetFlix美剧，还可以看youtueb上面的视频，下载youtube视频和英文字幕，我一般采用这个IDM工具下载:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具也是付费的，比较便宜，大概120RMB左右，永久使用，用过的人都说好。
 
 ![IDMan_SMKbr3Tn26](/images/posts/IDMan_SMKbr3Tn26.png)
 
 ![chrome_P42WUXjCil](/images/posts/chrome_P42WUXjCil.png)
 
-IDM对应的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek),我主要是用来下油管视频，油管里面有很多访谈节目，特别适合用来“精读”制卡，特别针对于口语这块听力的狭窄输入，IDM应该很多人都用过，它是付费的，一次性买断永久使用的那种，IDM是浏览器插件和电脑中安装的软件互相配合的，打开YouTube某个视频，只要你开启了这个插件，就会显示Download this video的半透明悬浮工具条，下载选项里面可以下载到英文字幕，不同分辨率自选，点击下载就会调用电脑中的IDM开始下载，这个工具最好的地方是下载速度很快，多线程下载甚至比百度网盘SVIP还要快。
+IDM对应的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek),不要搞错了插件，很多人第一次使用的时候经常搞错IDM对应的chrome插件。这个IDM插件，可以下载英文字幕，分辨率这些都是可选的，非常方便。
 
 ![oZmNzWrGq3](/images/posts/oZmNzWrGq3.png)
 
@@ -241,17 +153,13 @@ IDM对应的chrome插件是[IDM Integration Module](https://chrome.google.com/we
 
 #### 7.1 mpv 播放器的OSC配置
 
-什么是OSC，它是On Screen Controller的缩写，具体的配置方法，参考官方文档说明：[https://mpv.io/manual/stable/#using-the-osc](https://mpv.io/manual/stable/#using-the-osc)，这里为了方便查看英文字幕，我们把OSC进行设置，把控制条置顶放置，具体操作如下：
-
-MPV播放器默认界面非常简陋，控制条TopBar的位置默认是在底部的，会影响到我们利用鼠标进行“屏幕取词”翻译一些生词。可以通过设置，把这个TopBar控制条放到屏幕上方，这样子就不影响我们看字幕了。一般我是利用google翻译进行台词的中文整句翻译，anki就有谷歌翻译插件，插件地址：[https://ankiweb.net/shared/info/1536291224](https://ankiweb.net/shared/info/1536291224)
-
-这个插件的用法，在官方文档中有说明，机器翻译的这种直译，很多时候并不适合美剧上下文情景。720P分辨率的画质，播放控制条置顶设置，像下面这样子，遇到需要制卡的台词，按下键盘B键即可，弄完一集，就回过头来去整理下anki里面的卡片。每天抽时间搞搞，这是最容易积累，也最容易长期坚持的一个事情。
+搞定了上面的所有设置hi后，我们需要优化下mpv播放器的工具条，让它置顶，这样子学美剧的时候，屏幕取词，就不会让工具条遮挡到字幕。要实现的最终效果如下：
 
 ![mpv_HYntJYf4ib](/images/posts/mpv_HYntJYf4ib.png)
 
-要把播放控制的这个工具条置顶，像上图这样子，具体操作办法是：
+要把这个工具条置顶，具体操作如下：
 
-在当前用户的目录下面，比如：C:\Users\47664\AppData\Roaming\mpv这个路径下面(具体用户名会有差别，要根据你自己windows来找到类似的路径)，找到这个路径之后，创建一个新文件夹，名字叫做`lua-settings`，再在这个文件夹里面创建一个文件，名字叫做`osc.conf`，注意要把文件后缀给显示出来，下面会讲到如何显示文件后缀。这个`osc.conf`里面写上如下配置:
+去c盘找到mpv播放器的配置文件夹，这个配置文件夹地址类似这样子：C:\Users\47664\AppData\Roaming\mpv找到这个路径之后，创建一个新文件夹，名字叫做`lua-settings`，再在这个`lua-settings`文件夹里面创建一个`osc.conf`文件，这个`osc.conf`里面写上如下配置,,然后保存:
 
 ```shell
 hidetimeout=1000
@@ -262,7 +170,7 @@ valign=1
 deadzonesize=1
 ```
 
-我windows10上面的路径是这样子: 47664是我电脑用户名。
+我windows10上面的路径是这样子: 47664是我电脑用户名，你自己的电脑用户名跟这个肯定不同，我这里只是拿我自己的电脑举例。
 
 ```shell
 C:\Users\47664\AppData\Roaming\mpv
@@ -273,12 +181,6 @@ C:\Users\47664\AppData\Roaming\mpv
 ![explorer_ZghV2KICTX](/images/posts/explorer_ZghV2KICTX.png)
 
 配置文件弄好之后，启动mpv播放器，控制条就移动到播放器的顶部了。修改和编辑配置文件，建议使用[notepad++](https://notepad-plus-plus.org/downloads/)这种编辑工具来进行配置的修改。我的做法是创建一个txt文件，然后把txt文件重命名为osc.conf即可，这样就创建了`osc.conf`这个文件。
-
-如何显示文件名后缀？请看下面讲解：
-
-很多人的windows电脑文件名不会现显示后缀，建议你在浏览文件夹的时候，进行如下设置，打上勾即可:文件名后缀就会显示了。
-
-![QQ_k87NMkPdKG](/images/posts/QQ_k87NMkPdKG.png)
 
 其他mpv播放器配置，参考Github：[https://github.com/minikui/mpv/tree/mpv/lua-settings](https://github.com/minikui/mpv/tree/mpv/lua-settings)
 
