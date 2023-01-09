@@ -247,11 +247,13 @@ Language Reactor最大的好处是可以中英文字幕双开，扫清一遍之�
 
 MPV播放器默认界面非常简陋，控制条TopBar的位置默认是在底部的，会影响到我们利用鼠标进行“屏幕取词”翻译一些生词。可以通过设置，把这个TopBar控制条放到屏幕上方，这样子就不影响我们看字幕了。一般我是利用google翻译进行台词的中文整句翻译，anki就有谷歌翻译插件，插件地址：[https://ankiweb.net/shared/info/1536291224](https://ankiweb.net/shared/info/1536291224)
 
-这个插件的用法，在官方文档中有说明，就是需要你的电脑帆樯能够访问google,设置好要翻译的anki模板字段，要输入的模板字段即可。下面是播放器调整后最终效果:720P分辨率的画质，同时兼顾清晰度和视频体积大小。弄完一套美剧，可以接着下一套，其他的可以慢慢删掉，因为重点内容基本都保存到我们手机的anki卡片中，平时利用零碎时间复习即可。
+这个插件的用法，在官方文档中有说明，机器翻译的这种直译，很多时候并不适合美剧上下文情景。720P分辨率的画质，播放控制条置顶设置，像下面这样子，遇到需要制卡的台词，按下键盘B键即可，弄完一集，就回过头来去整理下anki里面的卡片。每天抽时间搞搞，这是最容易积累，也最容易长期坚持的一个事情。
 
 ![mpv_HYntJYf4ib](/images/posts/mpv_HYntJYf4ib.png)
 
-要把工具条置顶，像上图这样子，具体操作办法是，在当前用户的目录下面，C:\Users\47664\AppData\Roaming\mpv这个路径下面，创建一个文件夹lua-settings，再在这个文件夹里面创建一个文件osc.conf，这个文件里面写上如下配置：
+要把播放控制的这个工具条置顶，像上图这样子，具体操作办法是：
+
+在当前用户的目录下面，比如：C:\Users\47664\AppData\Roaming\mpv这个路径下面(具体用户名会有差别，要根据你自己windows来找到类似的路径)，找到这个路径之后，创建一个新文件夹，名字叫做`lua-settings`，再在这个文件夹里面创建一个文，名字叫做`osc.conf`，注意要把文件后缀给显示出来，下面会讲到如何显示文件后缀。这个`osc.conf`里面写上如下配置:
 
 ```shell
 hidetimeout=1000
@@ -262,27 +264,29 @@ valign=1
 deadzonesize=1
 ```
 
-我windows10上面的路径是这样子的,C:\Users目录下面47664是我当前登录windows的用户名。后面的`AppData\Roaming\mpv`这个路径应该都是一样，只是这个用户名会不一样而已，具体看你自己电脑登录用户名决定。能够找到这个路径，就可以。
+我windows10上面的路径是这样子: 47664是我电脑用户名。
 
 ```shell
 C:\Users\47664\AppData\Roaming\mpv
 ```
 
-按照我电脑上的配置为例，最终的配置路径如下图：
+按照我电脑上的配置为例，最终`osc.conf`这个配置文件要放到如下路径：
 
 ![explorer_ZghV2KICTX](/images/posts/explorer_ZghV2KICTX.png)
 
-最终效果如上。启动mpv播放器的时候，发现默认的控制条移动到顶部了。建议使用[notepad++](https://notepad-plus-plus.org/downloads/)这种编辑工具来进行配置的修改。这里创建配置文件的之后，先创建一个txt文件，然后把txt后缀的这个文件重命名为osc.conf即可。
+配置文件弄好之后，启动mpv播放器，控制条就移动到播放器的顶部了。修改和编辑配置文件，建议使用[notepad++](https://notepad-plus-plus.org/downloads/)这种编辑工具来进行配置的修改。我的做法是创建一个txt文件，然后把txt文件重命名为osc.conf即可，这样就创建了`osc.conf`这个文件。
 
-很多人的windows电脑这里文件名不会现显示后缀，建议，浏览文件夹的时候，把视图这里(参照下图)，文件后缀这个地方的配置，打上勾，把文件的后缀名给显示出来，要不然会文件后缀搞错了之后，会和我上图的截图效果不一样，导致配置出错无法生效。
+如何显示文件名后缀？请看下面讲解：
+
+很多人的windows电脑文件名不会现显示后缀，建议你在浏览文件夹的时候，进行如下设置，打上勾即可:文件名后缀就会显示了。
 
 ![QQ_k87NMkPdKG](/images/posts/QQ_k87NMkPdKG.png)
 
-如果是要全方位配置mpv播放器，参考的配置文件：[https://github.com/minikui/mpv/tree/mpv/lua-settings](https://github.com/minikui/mpv/tree/mpv/lua-settings)
+其他mpv播放器配置，参考Github：[https://github.com/minikui/mpv/tree/mpv/lua-settings](https://github.com/minikui/mpv/tree/mpv/lua-settings)
 
-上面Github这个配置文件的说明，请参考这篇博客文章：[https://bigdata404.wordpress.com/2017/07/09/mac%E7%9C%8B%E7%89%87%E7%BB%88%E6%9E%81%E5%A7%BF%E5%8A%BF%EF%BC%8Dmpv/](https://bigdata404.wordpress.com/2017/07/09/mac%E7%9C%8B%E7%89%87%E7%BB%88%E6%9E%81%E5%A7%BF%E5%8A%BF%EF%BC%8Dmpv/)
+配置文件说明来源于这篇博客文章：[https://bigdata404.wordpress.com/2017/07/09/mac%E7%9C%8B%E7%89%87%E7%BB%88%E6%9E%81%E5%A7%BF%E5%8A%BF%EF%BC%8Dmpv/](https://bigdata404.wordpress.com/2017/07/09/mac%E7%9C%8B%E7%89%87%E7%BB%88%E6%9E%81%E5%A7%BF%E5%8A%BF%EF%BC%8Dmpv/)
 
-因为这里只需要把控制条置顶就可以了，所以其他配置文件几乎不需要。
+播放控制条置顶就可以了，如果你想要了解更多的mpv播放器配置，学有余力的可以研究下上面Github别人的配置。
 
 ### 8.美剧制卡的建议
 
