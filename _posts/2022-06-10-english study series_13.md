@@ -181,10 +181,6 @@ choco install ffmpeg
 
 通过这个地址[https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b](https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b)下载Deck模板，
 
-![Typora_BYfm7FbVsW](/images/posts/Typora_BYfm7FbVsW.png)
-
-
-
 下载完，你会得到下面这个文件：
 
 ![Typora_elu2qwxCnN](/images/posts/Typora_elu2qwxCnN.png)
