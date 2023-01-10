@@ -7,9 +7,9 @@ keywords: English
 typora-root-url: ../
 ---
 
-本文介绍的这种anki制卡方法，最早可以追溯到subs2srs制卡(2020年)，来至于[youtube](https://www.youtube.com/watch?v=bbg6ztWecbU) Matt vs japan，我以前文章中有提到过，国内有人把它搬运到B站，只要去B站搜索`subs2srs`也能够找到教材，B站里面同类型的教程，比如:"anki制作影音卡"，"anki制作视频卡","MPV + anki"，都是与此类似，它们的目的都是解决视频制卡的问题。文本跟B站那些不同，更加详细。
+本文介绍的这种anki制卡方法，最早可以追溯到subs2srs制卡(2020年)，来至于[youtube](https://www.youtube.com/watch?v=bbg6ztWecbU) Matt vs japan，我以前的文章有提到过`Matt vs japan`，国内有人把他的方法搬运到B站，只要去B站搜索`subs2srs`也能够找到教材，类似的关键字，比如:"anki制作影音卡"，"anki制作视频卡","MPV + anki"，都是与此类似，都是anki视频制卡。文本跟B站那些不同，更加详细。
 
-视频卡片效果如下，为了防止啰嗦，我把不需要的文字内容删掉了一些，直接说重点。
+视频卡片效果如下，为了直接进入正题，我把不需要的文字内容删掉了一些，直接说重点。
 
 ![66667777](/images/posts/66667777.gif)
 
