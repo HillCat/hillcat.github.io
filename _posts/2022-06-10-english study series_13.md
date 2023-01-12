@@ -109,7 +109,7 @@ choco install ffmpeg
 
 FlixGrab是可以批量下载整个美剧的，如果一个美剧有8季，你只需要粘贴其中任何一季的任何一集的URL就可以，等FlixGrab解析出来视频的缩略图之后，缩略图上面会出现齿轮样的设置按钮，上面有个`Paste Espisodes`
 
-选项，会把所有季的所有集的URL全部粘贴生成出来缩略图，你可以单独对这些缩略图进行设置，分别设置它们的分辨率为720P。默认是最低分辨率。推荐全部设置为720P。FlixGrab+使用的时候要登录NetFlix账号，NetFlix账号登录的时候需要选择一个`Family Member`成员，即:登录的时候你需要选择家庭成员子账号图标进入，如果发现有异常搞不定的，可以发消息给我caianhua110#163.com(邮箱地址)，因为我踩了一些坑，可以分享一些经验。
+选项，会把所有季的所有集的URL全部粘贴生成出来缩略图，你可以单独对这些缩略图进行设置，分别设置它们的分辨率为720P。默认是最低分辨率。推荐全部设置为720P。FlixGrab+使用的时候要登录NetFlix账号，NetFlix账号登录的时候需要选择一个`Family Member`成员，即:登录的时候你需要选择家庭成员子账号图标进入，如果发现有异常搞不定的，可以发消息给我caianhua110#163.com(邮箱地址)，因为我踩了一些坑，可以分享一些经验。如果你觉得这个方法可以，也可以分享给你自己的朋友。
 
 ![POdvvjX7Wc](/images/posts/POdvvjX7Wc.png)
 
@@ -125,15 +125,15 @@ flixgrab+是付费版本，去官方网站选择季度付费，通过paypal支�
 
 ![chrome_vueAJb2RC8](/images/posts/chrome_vueAJb2RC8.png)
 
-目前我只注册了1台电脑。其实还有2个名额，有需要的朋友可以共用序列号。或者你也可以找几个朋友一起学美剧，共用账号。NetFlix账号也是可以租用共用的，一个NetFlix账号可以共用3~5个人，电报群或者淘宝找人去租用NetFlix账号即可。通过美剧训练自己的听力，训练到不需要开字幕能听懂大部分美剧，基本上听力这块也就差不多了。
+目前我只注册了1台电脑。其实还有2个名额，有需要的朋友可以共用序列号。或者你也可以找几个朋友一起学美剧，共用账号。NetFlix账号也是可以租用的，一个NetFlix账号可以共用3~5个人，电报群Telegram App或者淘宝找人去租用NetFlix账号也可以，不贵，一个季度45RMB左右。如果你长期没有找到合适的学美剧的方法，不妨试试这个方法。
 
-看NetFlix的神器插件：chrome浏览器的Language Reactor插件，推荐一定安装。开启双语字幕的方法如下：
+看美剧必装的Chrome插件：Language Reactor插件，推荐一定安装。开启双语字幕非他莫属。
 
 ![SdFBfGLJSd](/images/posts/SdFBfGLJSd.png)
 
 ![chrome_TWtorDcc79](/images/posts/chrome_TWtorDcc79.png)
 
-这个Language Reactor插件还有很多其他功能，比如单词分级`Set Vocabulary Level`。可以让你提前预览到这个剧的生词分布情况，用来判断一个剧的难度。有声书分级阅读的策略，同样也可以用到美剧这里。
+这个插件还有很多其他功能，比如单词分级`Set Vocabulary Level`。可以让你提前预览到生词分布情况，用来判断一个剧的难度。有声书可以分级阅读，美剧也有类似的由简单到难的一个方法论在里面。
 
 ![chrome_nvV5g42HPi](/images/posts/chrome_nvV5g42HPi.png)
 
