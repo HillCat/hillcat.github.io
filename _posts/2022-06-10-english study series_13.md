@@ -151,7 +151,7 @@ IDM对应的chrome插件是[IDM Integration Module](https://chrome.google.com/we
 
 #### 7.1 mpv 播放器的OSC配置
 
-搞定了上面的所有设置hi后，我们需要优化下mpv播放器的工具条，让它置顶，这样子学美剧的时候，屏幕取词，就不会让工具条遮挡到字幕。要实现的最终效果如下：
+搞定了上面的所有设置后，我们需要优化下mpv播放器的工具条，防止工具条遮挡到字幕，方便欧陆词典或者有道词典鼠标屏幕取词，查生词。要实现的最终效果如下：
 
 ![mpv_HYntJYf4ib](/images/posts/mpv_HYntJYf4ib.png)
 
