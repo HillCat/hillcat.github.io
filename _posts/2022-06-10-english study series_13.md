@@ -81,11 +81,11 @@ choco install ffmpeg
 最后是安装插件，这个插件才是关键中的关键。
 
 如果你熟悉anki的话，直接安装这个插件就可以，插件的地址是：[https://ankiweb.net/shared/info/1213145732](https://ankiweb.net/shared/info/1213145732)
-插件安装完成之后，重启anki，使用快捷键Ctrl + O直接打开这个插件的菜单界面，然后剩下的工作就是对这个插件进行一些设置，总的思路是:先选定一个卡片模板，然后配置卡片模板。如果一切顺利，就可以使用这个插件了。
+插件安装完成之后，重启anki，使用快捷键Ctrl + O直接打开这个插件的菜单界面，然后剩下的工作就是对这个插件进行一些设置，步骤是:1.选择卡片模板，2.配置卡片模板，3.打开视频,4.制卡。
 
 ![srwyGARJZS](/images/posts/srwyGARJZS.png)
 
-在进行设置之前，我们需要下载模板，这个模板是跟这个插件配套使用的，是插件作者提供的一个模板，模板文件通过这个地址[https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b](https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b)下载。先把这个模板用熟，等到对anki非常熟悉之后，以后可以根据自己的需要，修改这个模板。暂时为了熟悉美剧制卡，先用这个插件的配套模板熟悉下套路。
+先下载模板，这个模板是跟这个插件配套使用的，是插件作者提供的一个模板，模板文件通过这个地址[https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b](https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b)下载。先把这个模板用熟，等到对anki非常熟悉之后，以后可以根据自己的需要修改这个模板。
 
 模板下载完，你会得到下面这个文件，双击模板运行就自动导入anki了。
 
@@ -97,7 +97,7 @@ choco install ffmpeg
 
 ![F8VkgIxs8z](/images/posts/F8VkgIxs8z.png)
 
-模板选中之后，设置一个Deck，意思就是生成的美剧卡片，你想把它保存到哪个Deck里面，一般我会新建一个Deck专门用来保存美剧卡片，根据你自己的需要选择。我这里是保存到`Just Added`这个里面。字段的配置全部按照我下图②中的配置设置就可以了。
+模板选中之后，设置一个Deck，一般我会新建一个Deck专门用来保存美剧卡片，根据你自己的需要选择。我这里是保存到`Just Added`这个Deck里面。字段的配置全部按照我下图②中的配置设置就可以了，这个字段是我经过了摸索和试错得出来的，直接参考我下面zi'dua。
 
 ![6MWzXM7j8v](/images/posts/6MWzXM7j8v.png)
 
