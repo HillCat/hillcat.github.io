@@ -222,7 +222,13 @@ C:\Users\47664\AppData\Roaming\mpv
 
 ### 9.总结
 
-使用anki这么多年，一个很重要的心得就是：把一个方法用成自己的习惯，持续积累。
+使用anki这么多年，一个很重要的心得就是：把一个方法用成自己的习惯，持续积累。根据统计来看，成年人自学语言，学到比较熟练的地步，大概需要5年时间。`Matt vs Japan`精通日语花了5年时间，Giovanni Smith通过汉语HSK6考试花了5年时间------新汉语水平考试*HSK*（6级)。在比较勤奋的情况下，业余从零开始，自学英语到通过雅思7~8分考试，我估计也得需要5年，因为全职学英语的人也需要2年时间。
+
+![chrome_pngaBEAaeS](/images/posts/chrome_pngaBEAaeS.png)
+
+![chrome_Z5D3bg0Ir0](/images/posts/chrome_Z5D3bg0Ir0.png)
+
+
 
 ### 10.参考资料
 
