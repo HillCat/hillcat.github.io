@@ -9,7 +9,7 @@ typora-root-url: ../
 
 本文介绍的这种anki制卡方法，最早可以追溯到2020年，来至于[youtube](https://www.youtube.com/watch?v=bbg6ztWecbU)播主`Matt vs japan`，我以前有提到过`Matt vs japan`，国内有人把他的方法搬运到B站，去搜索`subs2srs`还能看到这个插件的视频教程。不过，subs2srs这个插件比较老了，文本使用的是另外的一个插件，它们是同一个作者开发的。
 
-视频卡片效果如下，为了直接进入正题，我把不需要的文字内容删掉了一些，直接说重点。
+视频卡片效果如下:mp4和mp3可以帮助回忆剧情，复习口语，复习的时候也可以模仿跟读。
 
 ![66667777](/images/posts/66667777.gif)
 
