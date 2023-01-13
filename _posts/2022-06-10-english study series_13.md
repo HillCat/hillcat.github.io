@@ -121,21 +121,17 @@ FlixGrab是可以批量下载整个美剧的，如果一个美剧有8季，你�
 
 Flixgrab+是付费版本，去官方网站选择季度付费，通过paypal支付即可，paypal在国内可以绑定借记银行卡。一个季度是50RMB左右费用，可以绑定3台电脑。
 
-看美剧我之前一直是用Language Reactor插件，后来为了制卡方便，使用了 Language Learning with Netflix & YouTube，这个插件可以直接下载中文和英文对照字幕文本，方便制作卡片的时候补充中文释义。
+#### 6.1 NetFlix字幕插件
+
+看美剧我之前一直是用Language Reactor插件，后来为了制卡方便，使用了 Language Learning with Netflix & YouTube，这个插件可以直接下载中文和英文对照字幕文本，还能快速搜索字幕并进行定位。
 
 下载地址：[https://chrome.google.com/webstore/detail/language-learning-with-ne/bekopgepchoeepdmokgkpkfhegkeohbl/related](https://chrome.google.com/webstore/detail/language-learning-with-ne/bekopgepchoeepdmokgkpkfhegkeohbl/related)
 
 ![chrome_jqxvHDRIzH](/images/posts/chrome_jqxvHDRIzH.png)
 
-如果是纯粹看美剧娱乐，可以使用Language Reactor开启双语字幕，只不过它这个中文字幕是无法复制粘贴的。
+#### 6.2 下载youtube视频
 
-![SdFBfGLJSd](/images/posts/SdFBfGLJSd.png)
-
-![chrome_TWtorDcc79](/images/posts/chrome_TWtorDcc79.png)
-
-
-
-另外要推荐的一个下载youtube视频和字幕的工具是IDM.全称是Internet Download Manager。工具下载地址:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具也是付费的，大概120RMB左右。
+如果是看youtube，推荐IDM.全称是Internet Download Manager。工具下载地址:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具是付费的，大概120RMB左右，一次性永久使用。
 
 ![IDMan_SMKbr3Tn26](/images/posts/IDMan_SMKbr3Tn26.png)
 
