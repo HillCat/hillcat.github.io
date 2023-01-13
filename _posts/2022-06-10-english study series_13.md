@@ -194,6 +194,10 @@ C:\Users\47664\AppData\Roaming\mpv
 
 其他mpv设置，除了参考上面Github别人配置之外，估计只能去看官方的英文文档去研究了，中文资料真的很少。但是这样子设置后，学英语已经够用了。
 
+mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-player/](https://cheatography.com/someone/cheat-sheets/mpv-media-player/)
+
+![chrome_cixSeKwWMa](/images/posts/chrome_cixSeKwWMa.png)
+
 ### 8.美剧制卡的建议
 
 这个anki插件制作视频卡片的快捷键是`键盘B键`，默认是自动分析台词截取视频和音频。如果你自定义截取起始位置和截止位置，就需要按 W键 、E键，分别表示截取的起始位置和截止位置，然后再按B键制卡，它就会根据你指定的起始位置和截止位置来截取视频和音频，包括台词。更多的操作，请自行阅读插件文档：[https://ankiweb.net/shared/info/1213145732](https://ankiweb.net/shared/info/1213145732)，如果具备二次开发能力的话，甚至还可以在这个插件的基础上，自行修改Lua脚本，实现一些自定义的功能。由于篇幅受限，这里不作细究，总之这里的想象空间还是很大的。
@@ -222,7 +226,7 @@ C:\Users\47664\AppData\Roaming\mpv
 
 ### 9.总结
 
-使用anki这么多年，一个很重要的心得就是：把一个方法用成自己的习惯，持续积累。根据统计来看，成年人自学语言，学到比较熟练的地步，大概需要5年时间。`Matt vs Japan`精通日语花了5年时间，Giovanni Smith通过汉语HSK6考试花了5年时间------新汉语水平考试*HSK*（6级)。在比较勤奋的情况下，业余从零开始，自学英语到通过雅思7~8分考试，我估计也得需要5年，因为全职学英语的人也需要2年时间。
+使用anki这么多年，一个很重要的心得就是：把一个方法用成自己的习惯，持续积累。根据统计来看，成年人自学语言，学到比较熟练的地步，大概需要5年时间。`Matt vs Japan`精通日语花了5年时间，Giovanni Smith通过汉语HSK6考试花了5年时间------新汉语水平考试*HSK*（6级)。
 
 ![chrome_pngaBEAaeS](/images/posts/chrome_pngaBEAaeS.png)
 
