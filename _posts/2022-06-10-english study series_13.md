@@ -210,6 +210,8 @@ mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-pl
 
 ![NDSUprculn](/images/posts/NDSUprculn.png)
 
+#### 8.1 Chrome插件:Language Reactor
+
 这种视频制卡的方法，其实跟国外大神们使用的方法基本上一样了，缺点是，还是需要手工查词典。要精确把握台词的中文意思，还得chrome浏览器打开NetFlix官网，登录你的奈飞账号，搜索到这一集，配合Language Reactor插件开启中英文双语字幕，去核对这个句子的中文意思。美剧跟书面载体不同，有很多意译部分(非直译)。
 
 ![Typora_mBBtvdNjUT](/images/posts/Typora_mBBtvdNjUT.png)
@@ -232,9 +234,17 @@ mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-pl
 
 ![chrome_OHCpuhFXTe](/images/posts/chrome_OHCpuhFXTe.png)
 
+#### 8.2 Chrome插件:Language Learning with Netflix & YouTube
+
+这个插件可以直接下载中文和英文对照字幕文本，方便制作卡片的时候补充中文释义。
+
+下载地址：[https://chrome.google.com/webstore/detail/language-learning-with-ne/bekopgepchoeepdmokgkpkfhegkeohbl/related](https://chrome.google.com/webstore/detail/language-learning-with-ne/bekopgepchoeepdmokgkpkfhegkeohbl/related)
+
+![chrome_jqxvHDRIzH](/images/posts/chrome_jqxvHDRIzH.png)
 
 
-刚开始看美剧会遇到很多生词和短语，听不懂，意译和直译之间存在英式思维和中式思维的差距。随着输入量增加，会慢慢体会到英式思维。Enjoy it！
+
+Enjoy it！
 
 ### 9.总结
 
