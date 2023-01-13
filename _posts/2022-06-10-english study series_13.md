@@ -119,31 +119,29 @@ FlixGrab是可以批量下载整个美剧的，如果一个美剧有8季，你�
 
 ![56754546](/images/posts/56754546.gif)
 
-Flixgrab+是付费版本，去官方网站选择季度付费，通过paypal支付即可，paypal在国内可以绑定借记银行卡。一个季度是50RMB左右费用，可以绑定3台电脑。支付成功之后，它会往你指定的邮箱发送序列号，如下：
+Flixgrab+是付费版本，去官方网站选择季度付费，通过paypal支付即可，paypal在国内可以绑定借记银行卡。一个季度是50RMB左右费用，可以绑定3台电脑。
 
-![nQmIpqX0TC](/images/posts/nQmIpqX0TC.png)
+看美剧我之前一直是用Language Reactor插件，后来为了制卡方便，使用了 Language Learning with Netflix & YouTube，这个插件可以直接下载中文和英文对照字幕文本，方便制作卡片的时候补充中文释义。
 
-![chrome_vueAJb2RC8](/images/posts/chrome_vueAJb2RC8.png)
+下载地址：[https://chrome.google.com/webstore/detail/language-learning-with-ne/bekopgepchoeepdmokgkpkfhegkeohbl/related](https://chrome.google.com/webstore/detail/language-learning-with-ne/bekopgepchoeepdmokgkpkfhegkeohbl/related)
 
-目前我只注册了1台电脑。其实还有2个名额，有需要的朋友可以共用序列号。NetFlix账号也是可以租用的，一个NetFlix账号可以共用3~5个人，电报群Telegram App或者淘宝找人去租用NetFlix账号也可以，不贵，一个季度45RMB左右。如果你长期没有找到合适的学美剧的方法，不妨试试这个方法。
+![chrome_jqxvHDRIzH](/images/posts/chrome_jqxvHDRIzH.png)
 
-看美剧必装的Chrome插件：Language Reactor插件，推荐一定安装。开启双语字幕非他莫属。
+如果是纯粹看美剧娱乐，可以使用Language Reactor开启双语字幕，只不过它这个中文字幕是无法复制粘贴的。
 
 ![SdFBfGLJSd](/images/posts/SdFBfGLJSd.png)
 
 ![chrome_TWtorDcc79](/images/posts/chrome_TWtorDcc79.png)
 
-这个插件还有很多其他功能，比如单词分级`Set Vocabulary Level`。可以让你提前预览到生词分布情况，用来判断一个剧的难度。有声书可以分级阅读，美剧也有类似的由简单到难的一个方法论在里面。
 
-![chrome_nvV5g42HPi](/images/posts/chrome_nvV5g42HPi.png)
 
-除了NetFlix美剧，还可以看youtueb上面的视频，下载youtube视频和英文字幕，我一般采用这个IDM工具下载:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具也是付费的，比较便宜，大概120RMB左右，永久使用，用过的人都说好。
+另外要推荐的一个下载youtube视频和字幕的工具是IDM.全称是Internet Download Manager。工具下载地址:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具也是付费的，大概120RMB左右。
 
 ![IDMan_SMKbr3Tn26](/images/posts/IDMan_SMKbr3Tn26.png)
 
 ![chrome_P42WUXjCil](/images/posts/chrome_P42WUXjCil.png)
 
-IDM对应的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek),不要搞错了插件，很多人第一次使用的时候经常搞错IDM对应的chrome插件。这个IDM插件，可以下载英文字幕，分辨率这些都是可选的，非常方便。
+IDM对应的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)。
 
 ![oZmNzWrGq3](/images/posts/oZmNzWrGq3.png)
 
@@ -188,19 +186,9 @@ C:\Users\47664\AppData\Roaming\mpv
 
 配置文件弄好之后，启动mpv播放器，控制条就移动到播放器的顶部了。修改和编辑配置文件，建议使用[notepad++](https://notepad-plus-plus.org/downloads/)这种编辑工具来进行配置的修改。我的做法是创建一个txt文件，然后把txt文件重命名为osc.conf即可，这样就创建了`osc.conf`这个文件。
 
-其他mpv播放器配置，参考Github：[https://github.com/minikui/mpv/tree/mpv/lua-settings](https://github.com/minikui/mpv/tree/mpv/lua-settings)
-
-配置文件说明来源于这篇博客文章：[https://bigdata404.wordpress.com/2017/07/09/mac%E7%9C%8B%E7%89%87%E7%BB%88%E6%9E%81%E5%A7%BF%E5%8A%BF%EF%BC%8Dmpv/](https://bigdata404.wordpress.com/2017/07/09/mac%E7%9C%8B%E7%89%87%E7%BB%88%E6%9E%81%E5%A7%BF%E5%8A%BF%EF%BC%8Dmpv/)
-
-其他mpv设置，除了参考上面Github别人配置之外，估计只能去看官方的英文文档去研究了，中文资料真的很少。但是这样子设置后，学英语已经够用了。
-
 mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-player/](https://cheatography.com/someone/cheat-sheets/mpv-media-player/)
 
 这个快捷键的PDF文件，可以在上面这个网址可以下载到。
-
-![chrome_cixSeKwWMa](/images/posts/chrome_cixSeKwWMa.png)
-
-![chrome_y3NT9umm9w](/images/posts/chrome_y3NT9umm9w.png)
 
 
 
@@ -210,37 +198,7 @@ mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-pl
 
 ![NDSUprculn](/images/posts/NDSUprculn.png)
 
-#### 8.1 Chrome插件:Language Reactor
 
-这种视频制卡的方法，其实跟国外大神们使用的方法基本上一样了，缺点是，还是需要手工查词典。要精确把握台词的中文意思，还得chrome浏览器打开NetFlix官网，登录你的奈飞账号，搜索到这一集，配合Language Reactor插件开启中英文双语字幕，去核对这个句子的中文意思。美剧跟书面载体不同，有很多意译部分(非直译)。
-
-![Typora_mBBtvdNjUT](/images/posts/Typora_mBBtvdNjUT.png)
-
-插件设置这里，如果你用了帆樯代理，大概率这里有个bug，就是每次播放完当前这集，自动播放下集的时候，Netflix subtitle language和Translation language会自动变回默认设置，如果变回默认设置了，需要点击一下那个`小帮手`按钮即可切到Englis[CC]和Chinese(Simplified)[Human Translation]
-
-![chrome_3wAxwGSROz](/images/posts/chrome_3wAxwGSROz.png)
-
-
-
-![chrome_ggspGiQeqH](/images/posts/chrome_ggspGiQeqH.png)
-
-关于意译和直译,我这里随便举个例子：
-
-![anki_ziUaGliLMq](/images/posts/anki_ziUaGliLMq.png)
-
-上面这句台词用的是[google翻译插件](https://ankiweb.net/shared/info/1536291224)翻译的，其结果是直译的，跟剧情上下文有差距。NetFlix人工翻译的中文台词，是意译，至少是准确把握了剧情上下文。
-
-![chrome_nBOS16mBij](/images/posts/chrome_nBOS16mBij.png)
-
-![chrome_OHCpuhFXTe](/images/posts/chrome_OHCpuhFXTe.png)
-
-#### 8.2 Chrome插件:Language Learning with Netflix & YouTube
-
-这个插件可以直接下载中文和英文对照字幕文本，方便制作卡片的时候补充中文释义。
-
-下载地址：[https://chrome.google.com/webstore/detail/language-learning-with-ne/bekopgepchoeepdmokgkpkfhegkeohbl/related](https://chrome.google.com/webstore/detail/language-learning-with-ne/bekopgepchoeepdmokgkpkfhegkeohbl/related)
-
-![chrome_jqxvHDRIzH](/images/posts/chrome_jqxvHDRIzH.png)
 
 
 
@@ -263,3 +221,9 @@ Enjoy it！
 [https://learnanylanguage.fandom.com/wiki/Subs2srs](https://learnanylanguage.fandom.com/wiki/Subs2srs)这里提到的方式，是另外一种看剧挂载字幕的制卡方式，只支持低版本的anki，`Matt vs japan`曾经使用的方法就是这个方法，跟我本文讲解的方法是差不多的，插件都是同一个作者。
 
 [https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg](https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg) 这篇文章来至于微信公众号，是某位IT算法大牛建立的公众号文章，关于如何寻找简单易懂的学习资料的，其中谈论了英语学习的一些观点，我个人觉得比较有意思，所以推荐下这篇文章，特别是程序员应该看看。
+
+其他mpv播放器配置，参考Github：[https://github.com/minikui/mpv/tree/mpv/lua-settings](https://github.com/minikui/mpv/tree/mpv/lua-settings)
+
+配置文件说明来源于这篇博客文章：[https://bigdata404.wordpress.com/2017/07/09/mac%E7%9C%8B%E7%89%87%E7%BB%88%E6%9E%81%E5%A7%BF%E5%8A%BF%EF%BC%8Dmpv/](https://bigdata404.wordpress.com/2017/07/09/mac%E7%9C%8B%E7%89%87%E7%BB%88%E6%9E%81%E5%A7%BF%E5%8A%BF%EF%BC%8Dmpv/)
+
+其他mpv设置，除了参考上面Github别人配置之外，估计只能去看官方的英文文档去研究了，中文资料真的很少。但是这样子设置后，学英语已经够用了。
