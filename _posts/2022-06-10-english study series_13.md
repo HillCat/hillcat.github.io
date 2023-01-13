@@ -196,7 +196,13 @@ C:\Users\47664\AppData\Roaming\mpv
 
 mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-player/](https://cheatography.com/someone/cheat-sheets/mpv-media-player/)
 
+这个快捷键的PDF文件，可以在上面这个网址可以下载到。
+
 ![chrome_cixSeKwWMa](/images/posts/chrome_cixSeKwWMa.png)
+
+![chrome_y3NT9umm9w](/images/posts/chrome_y3NT9umm9w.png)
+
+
 
 ### 8.美剧制卡的建议
 
@@ -204,17 +210,23 @@ mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-pl
 
 ![NDSUprculn](/images/posts/NDSUprculn.png)
 
-这种视频制卡的方法，其实跟国外大神们使用的方法基本上一样了，缺点是，还是需要手工查词典。要精确把握台词的中文意思，还得chrome浏览器打开NetFlix官网，登录你的奈飞账号，搜索到这一集，配合Language Reactor插件开启中英文双语字幕，去核对这个句子的中文人工翻译的意思。不要觉得这个过程繁琐，老外制作视频卡也是一样的繁琐。
+这种视频制卡的方法，其实跟国外大神们使用的方法基本上一样了，缺点是，还是需要手工查词典。要精确把握台词的中文意思，还得chrome浏览器打开NetFlix官网，登录你的奈飞账号，搜索到这一集，配合Language Reactor插件开启中英文双语字幕，去核对这个句子的中文意思。美剧跟书面载体不同，有很多意译部分(非直译)。
 
 ![Typora_mBBtvdNjUT](/images/posts/Typora_mBBtvdNjUT.png)
 
+插件设置这里，如果你用了帆樯代理，大概率这里有个bug，就是每次播放完当前这集，自动播放下集的时候，Netflix subtitle language和Translation language会自动变回默认设置，如果变回默认设置了，需要点击一下那个`小帮手`按钮即可切到Englis[CC]和Chinese(Simplified)[Human Translation]
+
+![chrome_3wAxwGSROz](/images/posts/chrome_3wAxwGSROz.png)
+
+
+
 ![chrome_ggspGiQeqH](/images/posts/chrome_ggspGiQeqH.png)
 
-我这里随便举个例子：
+关于意译和直译,我这里随便举个例子：
 
 ![anki_ziUaGliLMq](/images/posts/anki_ziUaGliLMq.png)
 
-上面这句台词用的是google机器翻译，其实翻译出来的结果是直译的，跟剧情上下文有差距。那些百度网盘分享的美剧，野生字幕组翻译的，来路不明，容易出错。NetFlix这种是人工翻译的，很多不是直译，而是意译，至少是准确把握了剧情上下文，你查字典之后对某些单词进行直译标注也要省力很多。
+上面这句台词用的是[google翻译插件](https://ankiweb.net/shared/info/1536291224)翻译的，其结果是直译的，跟剧情上下文有差距。NetFlix人工翻译的中文台词，是意译，至少是准确把握了剧情上下文。
 
 ![chrome_nBOS16mBij](/images/posts/chrome_nBOS16mBij.png)
 
@@ -222,11 +234,11 @@ mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-pl
 
 
 
-刚开始看美剧会遇到很多生词和短语，听不懂，经过大量这种训练和制卡的复习，听力会大幅提升，等到大部分美剧不看字幕都能听懂的时候，口语听力应该就差不多了。随着输入量增加，对各种口语台词越来越熟悉，也就会具备一定的口语输出能力。相信很多看美剧学英语的都有这个成长的经历。Enjoy it！
+刚开始看美剧会遇到很多生词和短语，听不懂，意译和直译之间存在英式思维和中式思维的差距。随着输入量增加，会慢慢体会到英式思维。Enjoy it！
 
 ### 9.总结
 
-使用anki这么多年，一个很重要的心得就是：把一个方法用成自己的习惯，持续积累。根据统计来看，成年人自学语言，学到比较熟练的地步，大概需要5年时间。`Matt vs Japan`精通日语花了5年时间，Giovanni Smith通过汉语HSK6考试花了5年时间------新汉语水平考试*HSK*（6级)。
+把一个方法用成自己的习惯，持续积累，可能就是最适合自己的方法。根据统计来看，成年人自学语言，学到比较熟练的地步，大概需要5年时间。比如:`Matt vs Japan`精通日语花了5年时间，Giovanni Smith通过汉语HSK6考试花了5年时间------新汉语水平考试*HSK*（6级),也就是外国人汉语考试的最高等级。这2个人是把外语学到了考试最高等级的，用的都是anki.如果要借鉴anki这块的经验，可以参考这两位的在youtube的视频分享。
 
 ![chrome_pngaBEAaeS](/images/posts/chrome_pngaBEAaeS.png)
 
@@ -238,6 +250,6 @@ mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-pl
 
 [http://www.randomhacks.net/substudy/](http://www.randomhacks.net/substudy/) 这篇文章里面的作者，讲到了自己通过看剧学语言的心得体会，值得一看。
 
-[https://learnanylanguage.fandom.com/wiki/Subs2srs](https://learnanylanguage.fandom.com/wiki/Subs2srs)这里提到的方式，是另外一种看剧，挂载字幕的制卡方式，只支持低版本的anki，`Matt vs japan`曾经使用的方法就是这个方法，跟我本文讲解的方法是差不多的，插件都是同一个作者。
+[https://learnanylanguage.fandom.com/wiki/Subs2srs](https://learnanylanguage.fandom.com/wiki/Subs2srs)这里提到的方式，是另外一种看剧挂载字幕的制卡方式，只支持低版本的anki，`Matt vs japan`曾经使用的方法就是这个方法，跟我本文讲解的方法是差不多的，插件都是同一个作者。
 
-[https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg](https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg) 这篇文章来至于微信公众号，是某位IT算法大牛建立的公众号文章，关于如何寻找简单易懂的学习资料的，其中谈论了英语学习的一些观点，我个人觉得比较有意思，所以推荐下这篇文章。
+[https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg](https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg) 这篇文章来至于微信公众号，是某位IT算法大牛建立的公众号文章，关于如何寻找简单易懂的学习资料的，其中谈论了英语学习的一些观点，我个人觉得比较有意思，所以推荐下这篇文章，特别是程序员应该看看。
