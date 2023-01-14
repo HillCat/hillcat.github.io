@@ -123,11 +123,11 @@ Flixgrab+是付费版本，去官方网站选择季度付费，通过paypal支�
 
 #### 6.1 NetFlix字幕插件
 
-看美剧我之前一直是用Language Reactor插件，后来为了制卡方便，使用了 Language Learning with Netflix & YouTube，这个插件可以直接下载中文和英文对照字幕文本，还能快速搜索字幕并进行定位。
+看美剧我之前一直是用Language Reactor插件，搜索一下chrome插件市场就能找到这个插件，然后它有个导出字幕功能，打印 Html即可，在网页中就可以快速搜索到对应英文字幕的中文释义。根据这些中文台词整理卡片，添加笔记就可以了。
 
-下载地址：[https://chrome.google.com/webstore/detail/language-learning-with-ne/bekopgepchoeepdmokgkpkfhegkeohbl/related](https://chrome.google.com/webstore/detail/language-learning-with-ne/bekopgepchoeepdmokgkpkfhegkeohbl/related)
+![dX719tRHQU](/images/posts/dX719tRHQU.png)
 
-![chrome_jqxvHDRIzH](/images/posts/chrome_jqxvHDRIzH.png)
+![vJyfcBxca8](/images/posts/vJyfcBxca8.png)
 
 #### 6.2 下载youtube视频
 
@@ -222,4 +222,3 @@ Enjoy it！
 
 配置文件说明来源于这篇博客文章：[https://bigdata404.wordpress.com/2017/07/09/mac%E7%9C%8B%E7%89%87%E7%BB%88%E6%9E%81%E5%A7%BF%E5%8A%BF%EF%BC%8Dmpv/](https://bigdata404.wordpress.com/2017/07/09/mac%E7%9C%8B%E7%89%87%E7%BB%88%E6%9E%81%E5%A7%BF%E5%8A%BF%EF%BC%8Dmpv/)
 
-其他mpv设置，除了参考上面Github别人配置之外，估计只能去看官方的英文文档去研究了，中文资料真的很少。但是这样子设置后，学英语已经够用了。
