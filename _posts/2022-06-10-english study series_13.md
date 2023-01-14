@@ -121,9 +121,9 @@ choco install ffmpeg
 
 我使用的方法是通过[FlixGrab+](https://www.flixgrab.com/)付费软件下载NetFlix的视频。
 
-FlixGrab是可以批量下载整个美剧的，如果一个美剧有8季，你只需要粘贴其中任何一季的任何一集的URL就可以，等FlixGrab解析出来视频的缩略图之后，缩略图上面会出现齿轮样的设置按钮，上面有个`Paste Espisodes`
+FlixGrab是可以批量下载整个美剧的，如果一个美剧有8季，你只需要粘贴其中任何一集的URL就可以，等FlixGrab解析出来视频的缩略图之后，缩略图上面会出现齿轮样的设置按钮，上面有个`Paste Espisodes`
 
-选项，会把所有季的所有集的URL全部粘贴生成出来缩略图，你可以单独对这些缩略图进行设置，分别设置它们的分辨率为720P。默认是最低分辨率432P。推荐全部设置为720P。FlixGrab+使用的时候要登录NetFlix Family Member成员，即:登录的时候你需要选择家庭成员子账号图标进入。如果你觉得这个方法可以，也可以分享给你自己的朋友们。
+选项，会把所有集的URL全部粘贴生成出来缩略图，你可以单独对这些缩略图进行设置，分别设置它们的分辨率为720P。默认是最低分辨率432P。推荐全部设置为720P。FlixGrab使用的时候要登录NetFlix Family Member成员，即:登录的时候你需要选择家庭成员子账号图标进入。如果你觉得这个方法可以，也可以分享给你自己的朋友们。如果在FlixGrab中频繁登录或者退出NetFlix账号，可能会导致一些问题，登录缓存cookie可能会存在冲突，导致无法下载视频，请重新删掉FlixGrab，重新安装。一定要要彻底删除干净，请务必使用[Everything工具](https://www.voidtools.com/)搜索查找所有跟FlixGrab相关的文件，全部删除干净之后再重装FlixGrab一般都能解决问题。
 
 ![POdvvjX7Wc](/images/posts/POdvvjX7Wc.png)
 
@@ -151,7 +151,7 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 ​                  （如果字幕设置被还原，这里会出现"小扳手"图标，点击之后，会自动恢复到之前的设置）
 
-Language Reactor导出来的Html字幕页面如下：Ctrl + F ，可以快速搜索定位英文字幕，找到对应中文字幕，补充到卡片中。
+打开的字幕页面，会以`about:blank`地址打开，Ctrl + F ，可以搜索英文字幕，与之对应的就是中文字幕。这个是官方字幕，保证了意思的准确性和质量。避免了野生字幕组翻译错误的弊端。
 
 ![chrome_0NhkCqN32N](/images/posts/chrome_0NhkCqN32N.png)
 
