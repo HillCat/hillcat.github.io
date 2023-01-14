@@ -127,15 +127,23 @@ Flixgrab+是付费版本，去官方网站选择季度付费，通过paypal支�
 
 ![dX719tRHQU](/images/posts/dX719tRHQU.png)
 
+​                                                                       (正常的双语字幕设置如上图)
+
 ![vJyfcBxca8](/images/posts/vJyfcBxca8.png)
+
+​                                                                             (导出字幕)
+
+![chrome_JRG5W5ERzj](/images/posts/chrome_JRG5W5ERzj.png)
+
+​                                                               （字幕出现故障，点击"小扳手"恢复即可）
 
 通过打印Html方式，中英文台词会直接显示在页面中，根据整句英文台词，可以快速搜索到中文人工翻译。配合英英词典或者中英双语词典，完善你的卡片笔记。
 
-Language Reactor导出来的Html字幕如下：查单词制卡10来秒钟搞定一个知识点。这样子提升和积累英语的速度其实也是蛮快的。有声书/外刊制卡 ，美剧制卡，这2个策略覆盖到3块能力提升: 阅读，听力，口语。后期的写作素材，还可以直接从卡片中整理。
+Language Reactor导出来的Html字幕如下：
 
 ![chrome_0NhkCqN32N](/images/posts/chrome_0NhkCqN32N.png)
 
-
+查单词制卡10来秒钟搞定一个知识点。这样子做笔记的速度其实也是蛮快的。有声书/外刊 ，美剧，涉及到: 阅读，听力，口语。基本都覆盖到了。
 
 #### 6.2 下载youtube视频
 
