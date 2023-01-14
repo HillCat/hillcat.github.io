@@ -149,7 +149,7 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 ​                  （如果字幕设置被还原，这里会出现"小扳手"图标，点击之后，会自动恢复到之前的设置）
 
-Language Reactor导出来的Html字幕页面如下：Ctrl + F ，可以快速搜索定位英文台词，以此用来寻找正确的官方中文翻译，补充到我们的单词卡片中。
+Language Reactor导出来的Html字幕页面如下：Ctrl + F ，可以快速搜索定位英文字幕，找到官方中文字幕，补充到卡片中。
 
 ![chrome_0NhkCqN32N](/images/posts/chrome_0NhkCqN32N.png)
 
