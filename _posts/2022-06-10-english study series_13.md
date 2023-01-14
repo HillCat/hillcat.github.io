@@ -212,7 +212,7 @@ IDM对应的chrome插件是[IDM Integration Module](https://chrome.google.com/we
 %appdata%\mpv
 ```
 
-使用方式是，快捷键:`win + R`，打开windows的运行窗口，直接输入上面的命令回车即可，进入这个文件夹之后创建一个新文件夹，名字叫做`lua-settings`，再在这个`lua-settings`文件夹里面创建一个`osc.conf`文件，这个`osc.conf`里面写上如下配置,,然后保存即可。（微软图标，）
+使用方式是，快捷键:`win + R`，打开windows的运行窗口，直接输入上面的命令回车即可，进入这个文件夹之后创建一个新文件夹，名字叫做`lua-settings`，再在这个`lua-settings`文件夹里面创建一个`osc.conf`文件，这个`osc.conf`里面写上如下配置,,然后保存即可。
 
 ```shell
 hidetimeout=1000
