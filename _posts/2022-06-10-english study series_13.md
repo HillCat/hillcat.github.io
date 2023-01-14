@@ -93,7 +93,7 @@ choco install ffmpeg
 最后是安装插件，这个插件才是关键中的关键。
 
 如果你熟悉anki的话，直接安装这个插件就可以，插件的地址是：[https://ankiweb.net/shared/info/1213145732](https://ankiweb.net/shared/info/1213145732)
-插件安装完成之后，重启anki，使用快捷键Ctrl + O直接打开这个插件的菜单界面，然后剩下的工作就是对这个插件进行一些设置，步骤是:1.选择卡片模板，2.配置卡片模板，3.打开视频,4.制卡。
+插件安装完成之后，重启anki，使用快捷键Ctrl + O直接打开这个插件的菜单界面，然后剩下的工作就是对这个插件进行一些设置，步骤是:1.选择卡片模板，2.配置卡片模板。配置完成之后就可以正常使用了。
 
 ![srwyGARJZS](/images/posts/srwyGARJZS.png)
 
