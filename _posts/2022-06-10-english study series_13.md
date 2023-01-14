@@ -125,7 +125,7 @@ Flixgrab+是付费版本，去官方网站选择季度付费(50RMB左右)，通�
 
 #### 6.1 NetFlix字幕插件
 
-配合NetFlix的神器插件，我一直是用[Language Reactor](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)，搜索一下chrome插件市场就能找到这个插件，然后它有个导出字幕功能，导出的时候，选择"打印HTML"即可，中英双语字幕会在浏览器页面中完整显示出来。对照下面图片设置即可。
+NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)，搜索一下chrome插件市场就能找到这个插件，然后它有个导出字幕功能，导出的时候，选择"打印HTML"即可，中英双语字幕会在浏览器页面中完整显示出来。对照下面图片设置即可。
 
 ![dX719tRHQU](/images/posts/dX719tRHQU.png)
 
