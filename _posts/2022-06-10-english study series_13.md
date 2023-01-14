@@ -178,7 +178,9 @@ IDM对应的chrome插件是[IDM Integration Module](https://chrome.google.com/we
 }
 ```
 
+![anki_Pex5ak3DKQ](/images/posts/anki_Pex5ak3DKQ.png)
 
+区分字体颜色之后，复习的时候，一目了然。也能够更加突出重点。实际使用来看，美剧制作的卡片，难度要比有声书/外刊/新闻这些题材来源的卡片简单太多，而且也更加符合口语习惯，适合作为口语输出材料。
 
 ### 7.MPV播放器设置
 
