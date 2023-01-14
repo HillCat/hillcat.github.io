@@ -127,7 +127,7 @@ Flixgrab+是付费版本，去官方网站选择季度付费，通过paypal支�
 
 ![dX719tRHQU](/images/posts/dX719tRHQU.png)
 
-​                                                                       (正常的双语字幕设置如上图)
+​                                                                       (双语设置)
 
 ![vJyfcBxca8](/images/posts/vJyfcBxca8.png)
 
@@ -135,7 +135,7 @@ Flixgrab+是付费版本，去官方网站选择季度付费，通过paypal支�
 
 ![chrome_JRG5W5ERzj](/images/posts/chrome_JRG5W5ERzj.png)
 
-​                                                               （字幕出现故障，点击"小扳手"恢复即可）
+​                                                               （"小扳手"恢复之前设置）
 
 通过打印Html方式，中英文台词会直接显示在页面中，根据整句英文台词，可以快速搜索到中文人工翻译。配合英英词典或者中英双语词典，完善你的卡片笔记。
 
