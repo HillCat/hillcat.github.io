@@ -88,6 +88,8 @@ choco install youtube-dl
 choco install ffmpeg
 ```
 
+这个ffmpeg安装的时候，可能会被樯，安装的时间可能会超时，请注意。
+
 ### 5.安装anki插件
 
 最后是安装插件，这个插件才是关键中的关键。
