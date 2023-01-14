@@ -31,7 +31,7 @@ typora-root-url: ../
 
 在接下来的安装过程中，如果安装失败，请考虑是否是以下问题导致:
 
-1.樯的问题。大部分人使用的是windows端开启代理app方式帆樯，这种模式可能无法完全代理PowerShell或cmd的命令行走代理，如果遇到这种情况，可能需要设置chocolatey的国内镜像源，这个需要自行百度/google解决。如果你是用软路由openwrt内置app插件代理方式帆樯，基本就不存在这个问题。
+1.樯的问题。大部分人使用的是windows端开启代理app方式帆樯，这种模式可能无法完全代理PowerShell或cmd的这种命令行工具，它们可能还是会走国内线路，导致安装失败。如果遇到这种情况，可能需要设置chocolatey的国内镜像源，这个需要自行百度/google解决。如果你是用软路由openwrt内置app插件代理方式帆樯(推荐方式)，基本就不存在这个问题，因为软路由如果配置了自动分流规则，那么会自动接管powershell和cmd这种命令行的代理，以及IDM下载的时候，都不需要对代理进行额外设置，家里所有设备只要连接wifi的都可以直接访问google，比较省事，不需要每台设备都去配置帆樯app。
 
 2.系统完整性导致的问题。需要重装系统。(尽量安装微软官方windows系统，激活码在淘宝10元店有售)。
 
@@ -157,9 +157,11 @@ Language Reactor导出来的Html字幕页面如下：Ctrl + F ，可以快速搜
 
 #### 6.2 下载youtube视频
 
-如果是看youtube，推荐IDM.全称是Internet Download Manager。工具下载地址:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具是付费的，大概120RMB左右，一次性永久使用。
+如果是看youtube，推荐IDM.全称是Internet Download Manager。工具下载地址:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具是付费的，大概120RMB左右，一次买断永久使用。
 
 ![IDMan_SMKbr3Tn26](/images/posts/IDMan_SMKbr3Tn26.png)
+
+IDM工具使用帆樯代理下载youtube视频的时候，可能会出现无法下载的问题，一般需要对IDM进行代理设置。如果你用IDM下载youtube视频没有遇到问题，那么就OK，如果遇到了问题，很可能是代理设置问题导致的，请检查这个代理设置：全局帆樯模式下它会走系统设置，如果是非全局模式，可能会要自行设置手动配置代理。
 
 ![IDMan_1aZQPEgESz](/images/posts/IDMan_1aZQPEgESz.png)
 
