@@ -157,6 +157,31 @@ IDM对应的chrome插件是[IDM Integration Module](https://chrome.google.com/we
 
 ![oZmNzWrGq3](/images/posts/oZmNzWrGq3.png)
 
+#### 6.3 快速标记字体颜色
+
+编辑台词的时候，一个台词可能含有多个生词，可以分别标记不同的颜色，对应不同的中文意思，可以使用[Quick Colour Changing](https://ankiweb.net/shared/info/2491935955)这个anki插件，设置快捷键快速标记字体颜色。我设置的快捷键如下：蓝色，橘黄色，红色。
+
+```shell
+{
+    "keys": [
+        [
+            "#ff557f",
+            "Alt+6"
+        ],
+        [
+            "#ffaa00",
+            "Alt+5"
+        ],
+        [
+            "#0000ff",
+            "Alt+4"
+        ]
+    ]
+}
+```
+
+
+
 ### 7.MPV播放器设置
 
 #### 7.1 mpv 播放器的OSC配置
