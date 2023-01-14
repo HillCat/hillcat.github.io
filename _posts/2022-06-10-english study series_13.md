@@ -15,7 +15,7 @@ typora-root-url: ../
 
 ## 准备工作
 
-我的电脑系统是`window10 pro Version 22H2` (中文界面改为了英文界面)；安装的anki版本是`Anki Version ⁨2.1.56 QT5`(英文界面)。
+我的电脑系统是`window10 pro Version 22H2` (中文界面改为了英文界面)；安装的anki版本是`Anki Version ⁨2.1.56 QT5`(英文界面)，chrome浏览器Version 109.0.5414.75 (Official Build) (64-bit)。
 
 在操作之前，**强烈建议**把文件夹视图调整为：显示文件名后缀；并且电脑开启全局帆樯(或者通过软路由智能分流帆樯)。
 
@@ -159,17 +159,17 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 #### 6.2 下载youtube视频
 
-如果是看youtube，推荐IDM.全称是Internet Download Manager。工具下载地址:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具是付费的，大概120RMB左右，一次买断永久使用。
+如果是看youtube视频学英语，推荐IDM下载工具.全称是Internet Download Manager。工具下载地址:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具是付费的，大概120RMB左右，一次买断永久使用。
 
 ![IDMan_SMKbr3Tn26](/images/posts/IDMan_SMKbr3Tn26.png)
 
-IDM工具使用帆樯代理下载youtube视频的时候，可能会出现无法下载的问题，一般需要对IDM进行代理设置。如果你用IDM下载youtube视频没有遇到问题，那么就OK，如果遇到了问题，很可能是代理设置问题导致的，请检查这个代理设置：全局帆樯模式下它会走系统设置，如果是非全局模式，可能会要自行设置手动配置代理。
+IDM工具代理设置如下:
 
 ![IDMan_1aZQPEgESz](/images/posts/IDMan_1aZQPEgESz.png)
 
 ![chrome_P42WUXjCil](/images/posts/chrome_P42WUXjCil.png)
 
-IDM对应的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)。
+IDM必装的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)。
 
 ![oZmNzWrGq3](/images/posts/oZmNzWrGq3.png)
 
