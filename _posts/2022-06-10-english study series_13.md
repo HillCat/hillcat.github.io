@@ -198,21 +198,21 @@ IDM对应的chrome插件是[IDM Integration Module](https://chrome.google.com/we
 
 #### 7.1 mpv 播放器的OSC配置
 
-搞定了上面的所有设置后，我们需要优化下mpv播放器的工具条，防止工具条遮挡到字幕，方便欧陆词典或者有道词典鼠标屏幕取词，查生词。要实现的最终效果如下：
+搞定了上面的所有设置后，我们需要优化下mpv播放器的工具条，防止工具条遮挡到字幕，方便欧陆词典或者有道词典鼠标屏幕取词。要实现的最终效果如下：
 
 ![mpv_HYntJYf4ib](/images/posts/mpv_HYntJYf4ib.png)
 
 要把这个工具条置顶，具体操作如下：
 
-去c盘找到mpv播放器的配置文件夹，这个配置文件夹地址类似这样子：C:\Users\47664\AppData\Roaming\mpv找到这个路径之后，快速进入这个路径，可以使用：
+去c盘找到mpv播放器的配置文件夹，这个配置文件夹地址类似这样子：C:\Users\47664\AppData\Roaming\mpv。快速进入这个路径，可以使用：
+
+![explorer_tQhLY6AveB](/images/posts/explorer_tQhLY6AveB.png)
 
 ```shell
 %appdata%\mpv
 ```
 
-使用方式是，快捷键Ctrl + R直接输入上面的内容回车即可
-
-，进入这个文件夹之后创建一个新文件夹，名字叫做`lua-settings`，再在这个`lua-settings`文件夹里面创建一个`osc.conf`文件，这个`osc.conf`里面写上如下配置,,然后保存即可。
+使用方式是，快捷键:`win + R`，打开windows的运行窗口，直接输入上面的命令回车即可，进入这个文件夹之后创建一个新文件夹，名字叫做`lua-settings`，再在这个`lua-settings`文件夹里面创建一个`osc.conf`文件，这个`osc.conf`里面写上如下配置,,然后保存即可。（微软图标，）
 
 ```shell
 hidetimeout=1000
