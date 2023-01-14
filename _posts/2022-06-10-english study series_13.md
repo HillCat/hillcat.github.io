@@ -31,7 +31,7 @@ typora-root-url: ../
 
 在接下来的安装过程中，如果安装失败，请考虑是否是以下问题导致:
 
-1.樯的问题(肉身在樯内，享受Great Fire Wall特殊照顾的这群人)。大部分人使用的是windows端开启代理app方式帆樯，这种模式可能无法完全代理PowerShell或cmd的这种命令行工具，它们可能还是会走国内线路，导致安装失败。如果遇到这种情况，可能需要设置chocolatey的国内镜像源，这个需要自行百度/google解决。如果你是用软路由方式帆樯(强烈推荐用这种方式)，基本就不存在这个问题，因为软路由如果配置了自动分流规则，会自动接管powershell和cmd这种命令行的代理，以及IDM下载的时候，都不需要对代理进行额外设置，家里所有设备只要连接wifi的都可以直接访问google，比较省事，不需要每台设备都去配置帆樯app。想要打造稳定的英文学习环境，推荐用软路由方式。
+1.樯的问题(肉身在樯内，享受Great Fire Wall特殊照顾的这群人)。大部分人使用的是windows端开启代理app方式帆樯，这种模式可能无法完全代理PowerShell或cmd的这种命令行工具，它们可能还是会走国内线路，导致安装失败。如果遇到这种情况，可能需要设置chocolatey的国内镜像源，这个需要自行百度/google解决。如果你是用软路由方式帆樯(强烈推荐用这种方式)，基本就不存在这个问题，因为软路由如果配置了自动分流规则，会自动接管powershell和cmd这种命令行的国外流量，以及IDM下载的时候，都不需要对代理进行额外设置，家里所有设备只要连接wifi的都可以直接访问google，比较省事，不需要每台设备都去配置帆樯app。想要打造稳定的英文学习环境，推荐用这种方式。
 
 2.系统完整性导致的问题。需要重装系统。(尽量安装微软官方镜像iso文件刻录的windows系统，激活码在[淘宝10元店](https://s.taobao.com/search?q=windows%E6%BF%80%E6%B4%BB&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.jianhua.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306)有售)。
 
