@@ -109,7 +109,7 @@ choco install ffmpeg
 
 ![F8VkgIxs8z](/images/posts/F8VkgIxs8z.png)
 
-模板选中之后，设置一个Deck，一般我会新建一个Deck专门用来保存美剧卡片，根据你自己的需要选择。我这里是保存到`Just Added`这个Deck里面。字段的配置全部按照我下图②中的配置设置就可以了，这个字段是我经过了摸索和试错得出来的，直接参考我下面字段设置即可，(它里面有很多字段其实都是无效的)。
+模板选中之后，设置一个Deck，一般我会新建一个Deck专门用来保存美剧卡片，根据你自己的需要选择。我这里是保存到`Just Added`这个Deck里面。字段的配置全部按照我下图②中的配置设置就可以了，这个字段是我经过了摸索和试错得出来的，直接参考我下面字段设置即可，(右边这里的很多字段其实都是无效的)。
 
 ![6MWzXM7j8v](/images/posts/6MWzXM7j8v.png)
 
@@ -160,6 +160,8 @@ Language Reactor导出来的Html字幕页面如下：Ctrl + F ，可以快速搜
 如果是看youtube，推荐IDM.全称是Internet Download Manager。工具下载地址:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具是付费的，大概120RMB左右，一次性永久使用。
 
 ![IDMan_SMKbr3Tn26](/images/posts/IDMan_SMKbr3Tn26.png)
+
+![IDMan_1aZQPEgESz](/images/posts/IDMan_1aZQPEgESz.png)
 
 ![chrome_P42WUXjCil](/images/posts/chrome_P42WUXjCil.png)
 
