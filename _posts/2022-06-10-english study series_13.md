@@ -111,7 +111,7 @@ choco install ffmpeg
 
 FlixGrab是可以批量下载整个美剧的，如果一个美剧有8季，你只需要粘贴其中任何一季的任何一集的URL就可以，等FlixGrab解析出来视频的缩略图之后，缩略图上面会出现齿轮样的设置按钮，上面有个`Paste Espisodes`
 
-选项，会把所有季的所有集的URL全部粘贴生成出来缩略图，你可以单独对这些缩略图进行设置，分别设置它们的分辨率为720P。默认是最低分辨率432P。推荐全部设置为720P。FlixGrab+使用的时候要登录NetFlix Family Member成员，即:登录的时候你需要选择家庭成员子账号图标进入，如果发现有异常搞不定的，可以发消息给我caianhua110@163.com(邮箱地址)，因为我踩了一些坑，可以分享一些经验。如果你觉得这个方法可以，也可以分享给你自己的朋友们。
+选项，会把所有季的所有集的URL全部粘贴生成出来缩略图，你可以单独对这些缩略图进行设置，分别设置它们的分辨率为720P。默认是最低分辨率432P。推荐全部设置为720P。FlixGrab+使用的时候要登录NetFlix Family Member成员，即:登录的时候你需要选择家庭成员子账号图标进入。如果你觉得这个方法可以，也可以分享给你自己的朋友们。
 
 ![POdvvjX7Wc](/images/posts/POdvvjX7Wc.png)
 
@@ -121,11 +121,11 @@ FlixGrab是可以批量下载整个美剧的，如果一个美剧有8季，你�
 
 ![56754546](/images/posts/56754546.gif)
 
-Flixgrab+是付费版本，去官方网站选择季度付费，通过paypal支付即可，paypal在国内可以绑定借记银行卡。一个季度是50RMB左右，可以绑3台电脑。多人共用还是比较香的。
+Flixgrab+是付费版本，去官方网站选择季度付费(50RMB左右)，通过paypal支付即可，也可以选择去淘宝找人代购，接收序列号的邮箱填写你自己的就可以，一个序列号可以绑3台电脑。多人共用更划算。
 
 #### 6.1 NetFlix字幕插件
 
-看美剧我之前一直是用[Language Reactor](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)插件，搜索一下chrome插件市场就能找到这个插件，然后它有个导出字幕功能，打印 Html即可，中英双语字幕。对照下面图片设置即可。
+配合NetFlix的神器插件，我一直是用[Language Reactor](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)，搜索一下chrome插件市场就能找到这个插件，然后它有个导出字幕功能，导出的时候，选择"打印HTML"即可，中英双语字幕会在浏览器页面中完整显示出来。对照下面图片设置即可。
 
 ![dX719tRHQU](/images/posts/dX719tRHQU.png)
 
@@ -137,9 +137,9 @@ Flixgrab+是付费版本，去官方网站选择季度付费，通过paypal支�
 
 ![chrome_JRG5W5ERzj](/images/posts/chrome_JRG5W5ERzj.png)
 
-​                                                               （"小扳手"恢复之前设置）
+​                  （如果字幕设置被还原，这里会出现"小扳手"图标，点击之后，会自动恢复到之前的设置）
 
-Language Reactor导出来的Html字幕如下：Ctrl + F 快速查找中文释义。
+Language Reactor导出来的Html字幕页面如下：Ctrl + F ，可以快速搜索定位英文台词，以此用来寻找正确的官方中文翻译，补充到我们的单词卡片中。
 
 ![chrome_0NhkCqN32N](/images/posts/chrome_0NhkCqN32N.png)
 
