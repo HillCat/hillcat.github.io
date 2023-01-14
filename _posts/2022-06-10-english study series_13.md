@@ -9,7 +9,7 @@ typora-root-url: ../
 
 本文介绍的这种anki制卡方法，最早可以追溯到2020年，来至于[youtube](https://www.youtube.com/watch?v=bbg6ztWecbU)播主`Matt vs japan`，我以前有提到过`Matt vs japan`，国内有人把他的方法搬运到B站。不过，subs2srs这个老方法已经过时了，现在有了新的方法。文本介绍的就是这个新方法。
 
-看完美剧之后，用卡片进行复习，效果大致如下:mp4和mp3可以帮助回忆剧情，复习口语，复习的时候也可以模仿跟读。等于是听力和口语都有了着落。
+看完美剧之后，用卡片进行复习，效果大致如下:mp4和mp3可以帮助回忆剧情，复习口语，复习的时候也可以模仿跟读。同时兼顾了听力和口语积累。
 
 ![66667777](/images/posts/66667777.gif)
 
@@ -123,7 +123,7 @@ Flixgrab+是付费版本，去官方网站选择季度付费，通过paypal支�
 
 #### 6.1 NetFlix字幕插件
 
-看美剧我之前一直是用[Language Reactor](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)插件，搜索一下chrome插件市场就能找到这个插件，然后它有个导出字幕功能，打印 Html即可，中英文双语字幕，设置如下，如果出现回退现象，只需要点击旁边的“小扳手”图标即可恢复到你之前的设置，目前Language Reactor会有回退到默认设置的Bug，如果出现了字幕设置回退，它旁边会出现一个“小扳手"图标，直接点击就可以恢复到你之前的设置。
+看美剧我之前一直是用[Language Reactor](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)插件，搜索一下chrome插件市场就能找到这个插件，然后它有个导出字幕功能，打印 Html即可，中英双语字幕。对照下面图片设置即可。
 
 ![dX719tRHQU](/images/posts/dX719tRHQU.png)
 
@@ -137,13 +137,11 @@ Flixgrab+是付费版本，去官方网站选择季度付费，通过paypal支�
 
 ​                                                               （"小扳手"恢复之前设置）
 
-通过打印Html方式，中英文台词会直接显示在页面中，根据整句英文台词，可以快速搜索到中文人工翻译。配合英英词典或者中英双语词典，完善你的卡片笔记。
-
 Language Reactor导出来的Html字幕如下：Ctrl + F 快速查找中文释义。
 
 ![chrome_0NhkCqN32N](/images/posts/chrome_0NhkCqN32N.png)
 
-查单词制卡10来秒钟搞定一个知识点。这样子做笔记是蛮快的。阅读，听力，口语。该覆盖的基本都覆盖到了。
+
 
 #### 6.2 下载youtube视频
 
@@ -229,17 +227,13 @@ mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-pl
 
 
 
-### 8.美剧制卡的建议
+### 8.mpv快捷键
 
 这个anki插件制作视频卡片的快捷键是`键盘B键`，默认是自动分析台词截取视频和音频。如果你自定义截取起始位置和截止位置，就需要按 W键 、E键，分别表示截取的起始位置和截止位置，然后再按B键制卡，它就会根据你指定的起始位置和截止位置来截取视频和音频，包括台词。更多的操作，请自行阅读插件文档：[https://ankiweb.net/shared/info/1213145732](https://ankiweb.net/shared/info/1213145732)，如果具备二次开发能力的话，甚至还可以在这个插件的基础上，自行修改Lua脚本，实现一些自定义的功能。由于篇幅受限，这里不作细究，总之这里的想象空间还是很大的。Enjoy it！
 
-![NDSUprculn](/images/posts/NDSUprculn.png)
-
-
-
 ### 9.总结
 
-把一个方法用成自己的习惯，持续积累，可能就是最适合自己的方法。根据统计来看，成年人自学语言，学到比较熟练的地步，大概需要5年时间。比如:`Matt vs Japan`精通日语花了5年时间，Giovanni Smith通过汉语HSK6考试花了5年时间------新汉语水平考试*HSK*（6级),也就是外国人汉语考试的最高等级。这2个人是把外语学到了较高的考试等级，如果对于我们学英语而言，他们学外语相当于学到了雅思8~9分水准，用的都是anki.如果要借鉴anki这块的经验，可以参考这两位的在youtube的视频分享。我觉得anki特别适合程序员来学英语，而且是完全搞定阅读和美剧的一种全家桶解决方案。
+把一个方法用成自己的习惯，持续积累，可能就是最适合自己的方法。根据统计来看，成年人自学语言，学到比较熟练的地步，大概需要5年时间。比如:`Matt vs Japan`精通日语花了5年时间，Giovanni Smith通过汉语HSK6考试花了5年时间------新汉语水平考试*HSK*（6级),也就是外国人汉语考试的最高等级。这2个人是把外语学到了较高的考试等级，如果对于我们学英语而言，他们学外语相当于学到了雅思8~9分水准，用的都是anki.如果要借鉴anki这块的经验，可以参考这两位的在youtube的视频分享。我觉得anki特别适合程序员来学英语，而且是一个工具，通吃所有材料。这让我们不用一直去研究其他方法，或者中途更换方法，一套方法贯穿：有声书/外刊/网页/pdf/netflix/youtube，覆盖:阅读/听力/口语，可以让我们更专注学习本身，而不总是换方法。
 
 ![chrome_pngaBEAaeS](/images/posts/chrome_pngaBEAaeS.png)
 
