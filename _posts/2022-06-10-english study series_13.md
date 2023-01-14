@@ -123,11 +123,19 @@ Flixgrab+是付费版本，去官方网站选择季度付费，通过paypal支�
 
 #### 6.1 NetFlix字幕插件
 
-看美剧我之前一直是用Language Reactor插件，搜索一下chrome插件市场就能找到这个插件，然后它有个导出字幕功能，打印 Html即可，在网页中就可以快速搜索到对应英文字幕的中文释义。根据这些中文台词整理卡片，添加笔记就可以了。
+看美剧我之前一直是用[Language Reactor](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)插件，搜索一下chrome插件市场就能找到这个插件，然后它有个导出字幕功能，打印 Html即可，中英文双语字幕，设置如下，如果出现回退现象，只需要点击旁边的“小扳手”图标即可恢复到你之前的设置，目前Language Reactor会有回退到默认设置的Bug，如果出现了字幕设置回退，它旁边会出现一个“小扳手"图标，直接点击就可以恢复到你之前的设置。
 
 ![dX719tRHQU](/images/posts/dX719tRHQU.png)
 
 ![vJyfcBxca8](/images/posts/vJyfcBxca8.png)
+
+通过打印Html方式，中英文台词会直接显示在页面中，根据整句英文台词，可以快速搜索到中文人工翻译。配合英英词典或者中英双语词典，完善你的卡片笔记。
+
+Language Reactor导出来的Html字幕如下：查单词制卡10来秒钟搞定一个知识点。这样子提升和积累英语的速度其实也是蛮快的。有声书/外刊制卡 ，美剧制卡，交叉进行。
+
+![chrome_0NhkCqN32N](/images/posts/chrome_0NhkCqN32N.png)
+
+
 
 #### 6.2 下载youtube视频
 
