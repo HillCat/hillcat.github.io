@@ -169,7 +169,7 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 ![chrome_P42WUXjCil](/images/posts/chrome_P42WUXjCil.png)
 
-IDM的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)。市面上有些冒牌IDM插件，也是打着IDM的旗号，容易搞错，这里特别注意下。
+IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)，不要搞错了，因为市面上有些冒牌插件，也是打着IDM的旗号，容易搞错，这里特别注意下。
 
 ![oZmNzWrGq3](/images/posts/oZmNzWrGq3.png)
 
