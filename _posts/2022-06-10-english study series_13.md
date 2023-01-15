@@ -17,6 +17,10 @@ mpv+anki添加卡片只需要按下一个快捷键即可搞定，制卡的主要
 
 有人可能会觉得制卡很枯燥，难于坚持，那可能是没有正反馈导致的。正反馈，就是你能够感觉到你的英语正在进步。而这种进步，是需要建立在循序渐进这个体系上的，也即是如果基础太差，词汇量太低，强行`越级打怪`，反而是痛苦的，无法坚持。还一个就是，要去找那种自己`比较共情`的剧，而不是“别人觉得适合”就合适。刷美剧建议词汇量大于5000，有一定听力基础再进行(可以通过有声书先打基础)。
 
+另外，看剧的一些别人的经验:
+
+<iframe src="//player.bilibili.com/player.html?aid=931676142&bvid=BV1xM4y1K7M7&cid=369766868&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 ## 准备工作
 
 配置之前的准备工作:首先说明下我的电脑环境: 我的电脑系统是`window10 pro Version 22H2` (中文界面改为了英文界面)；安装的anki版本是`Anki Version ⁨2.1.56 QT5`(英文界面)，chrome浏览器Version 109.0.5414.75 (Official Build) (64-bit)。
