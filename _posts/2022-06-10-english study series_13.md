@@ -141,15 +141,15 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 ![dX719tRHQU](/images/posts/dX719tRHQU.png)
 
-​                                                                       (双语设置)
+​                                                                       (↑双语设置↑)
 
 ![vJyfcBxca8](/images/posts/vJyfcBxca8.png)
 
-​                                                                             (导出字幕)
+​                                                                             (↑导出字幕↑)
 
 ![chrome_JRG5W5ERzj](/images/posts/chrome_JRG5W5ERzj.png)
 
-​                  （如果字幕设置被还原，这里会出现"小扳手"图标，点击之后，会自动恢复到之前的设置）
+​                  （↑如果字幕设置被还原，这里会出现"小扳手"图标，点击之后，会自动恢复到之前的设置↑）
 
 打开的字幕页面，会以`about:blank`地址展示，排版相当工整，体验真的非常棒。展开一个剧集的字幕，搜索和核对字幕都非常方便。由于字幕出自官方校准，所以准确性和质量都有保证。这也是我强烈推荐用NetFlix学美剧的原因。
 
