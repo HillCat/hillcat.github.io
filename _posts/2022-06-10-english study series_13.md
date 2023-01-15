@@ -267,7 +267,7 @@ mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-pl
 
 [https://learnanylanguage.fandom.com/wiki/Subs2srs](https://learnanylanguage.fandom.com/wiki/Subs2srs)(英文文章)这里提到的方式，是另外一种看剧挂载字幕的制卡方式，只支持低版本的anki，`Matt vs japan`曾经使用的方法就是这个方法，跟我本文讲解的方法是差不多的，插件都是同一个作者。
 
-[https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg](https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg) 这篇文章来至于微信公众号，是某位IT算法大神建立的公众号文章。天下武功为快不破，掌握良好的英文能力，应对IT界快速迭代的新技术，以不变应万变，学习速度将超过90%程序员，甚至超过99.99%程序员。这就是修炼英语内功，对于程序员的意义-----唯快不破。
+[https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg](https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg) 这篇文章来至于微信公众号，是某位IT算法大神建立的公众号文章。天下武功为快不破，掌握良好的英文能力，应对IT界快速迭代的新技术，以不变应万变，学习速度将超过90%程序员，甚至超过99.99%程序员。这就是修炼英语内功对于程序员的意义-----天下武功唯快不破。
 
 其他mpv播放器配置，参考Github：[https://github.com/minikui/mpv/tree/mpv/lua-settings](https://github.com/minikui/mpv/tree/mpv/lua-settings)
 
