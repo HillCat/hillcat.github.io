@@ -17,10 +17,6 @@ mpv+anki添加卡片只需要按下一个快捷键即可搞定，制卡的主要
 
 有人可能会觉得制卡很枯燥，难于坚持，那可能是没有正反馈导致的。正反馈，就是你能够感觉到你的英语正在进步。而这种进步，是需要建立在循序渐进这个体系上的，也即是如果基础太差，词汇量太低，强行`越级打怪`，反而是痛苦的，无法坚持。还一个就是，要去找那种自己`比较共情`的剧，而不是“别人觉得适合”就合适。刷美剧建议词汇量大于5000，有一定听力基础再进行(可以通过有声书先打基础)。
 
-任何其他刷剧的步骤跟本文讲的差不多。不过anki可以更高效。
-
-<iframe src="//player.bilibili.com/player.html?aid=931676142&bvid=BV1xM4y1K7M7&cid=369766868&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
 ## 准备工作
 
 配置之前的准备工作:首先说明下我的电脑环境: 我的电脑系统是`window10 pro Version 22H2` (中文界面改为了英文界面)；安装的anki版本是`Anki Version ⁨2.1.56 QT5`(英文界面)，chrome浏览器Version 109.0.5414.75 (Official Build) (64-bit)。
@@ -145,7 +141,7 @@ Flixgrab+是付费版本，去官方网站选择季度付费(50RMB左右)，通�
 
 #### 6.1 NetFlix字幕插件
 
-NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)，搜索一下chrome插件市场就能找到这个插件，然后它有个导出字幕功能，导出的时候，选择"打印HTML"即可，中英双语字幕会在浏览器页面中完整显示出来。它的功能和Anki美剧制卡可谓是完美结合，也不枉以前持续投入英语自学的研究，该插件有几个关键的地方设置需要注意，详情参考下图:
+NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)，搜索一下chrome插件市场就能找到这个插件，然后它有个导出字幕功能，导出的时候，选择"打印HTML"即可，中英双语字幕会在浏览器页面中完整显示出来。它的功能和Anki美剧制卡可谓是完美结合，也不枉以前持续投入英语自学的研究，该插件有几个关键的地方设置需要注意，详情参考下:
 
 ![dX719tRHQU](/images/posts/dX719tRHQU.png)
 
@@ -212,7 +208,7 @@ IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.
 
 #### 7.1 mpv 播放器的OSC配置
 
-搞定了上面的所有设置后，我们需要优化下mpv播放器的工具条，防止工具条遮挡到字幕，方便欧陆词典或者有道词典鼠标屏幕取词。要实现的最终效果如下：
+搞定了上面的所有设置后，我们需要优化下mpv播放器的工具条，防止工具条遮挡到字幕，方便欧陆词典或者有道词典鼠标屏幕取词。注意：看剧只带英文，不要带中文。
 
 ![mpv_HYntJYf4ib](/images/posts/mpv_HYntJYf4ib.png)
 
@@ -261,7 +257,7 @@ mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-pl
 
 ### 9.总结
 
-把一个方法用成自己的习惯，持续积累，可能就是最适合自己的方法。成年人业余自学语言，学到比较高水平，大概需要5年时间，全职学也要2年时间。比如:`Matt vs Japan`精通日语花了5年时间，Giovanni Smith通过汉语HSK6考试也花了接近5年时间------新汉语水平考试*HSK*（6级),也就是外国人汉语考试的最高水平。这2个人是把外语学到了应考的最高等级，如果对于我们学英语而言，他们相当于学到了雅思8~9分水准，用的都是anki。如果要借鉴anki这块的经验，他们2位其实都算是成功案例，其在youtube分享的视频，非常值得研究。Anki的DIY能力前所未有的强大，划词制卡和美剧制卡结合，既可以用来看原版英文书，又可以用来刷美剧。而且不用一直换方法，因为方法全在其中了。一套方法贯穿几年都没问题。从有声书到美剧的平滑过渡，几乎没有竞品可以替代anki。体验到英语日渐提升的快感之后，再也不容易被一些英语机构或者培训班或者个人忽悠了。因为，很多培训机构或者个人的方法可能还不如你自己的方法。
+把一个方法用成自己的习惯，持续积累，可能就是最适合自己的方法。成年人业余自学语言，学到比较高水平，大概需要5年时间，全职学也要2年时间。比如:`Matt vs Japan`精通日语花了5年时间，Giovanni Smith通过汉语HSK6考试也花了接近5年时间------新汉语水平考试*HSK*（6级),也就是外国人汉语考试的最高水平。这2个人是把外语学到了应考的最高等级，如果对于我们学英语而言，他们相当于学到了雅思8~9分水准，用的都是anki。如果要借鉴anki这块的经验，他们2位其实都算是成功案例，其在youtube分享的视频，非常值得研究。Anki的DIY能力前所未有的强大，划词制卡和美剧制卡结合，既可以用来看原版英文书，又可以用来刷美剧。而且不用一直换方法。一套方法贯穿几年都没问题。
 
 ![chrome_pngaBEAaeS](/images/posts/chrome_pngaBEAaeS.png)
 
