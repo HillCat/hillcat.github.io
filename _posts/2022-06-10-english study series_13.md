@@ -137,7 +137,7 @@ Flixgrab+是付费版本，去官方网站选择季度付费(50RMB左右)，通�
 
 #### 6.1 NetFlix字幕插件
 
-NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)，搜索一下chrome插件市场就能找到这个插件，然后它有个导出字幕功能，导出的时候，选择"打印HTML"即可，中英双语字幕会在浏览器页面中完整显示出来。对照下面图片设置即可。
+NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)，搜索一下chrome插件市场就能找到这个插件，然后它有个导出字幕功能，导出的时候，选择"打印HTML"即可，中英双语字幕会在浏览器页面中完整显示出来。它的功能和Anki美剧制卡可谓是完美结合，也不枉以前持续投入英语自学的研究，该插件有几个关键的地方设置需要注意，详情参考下图:
 
 ![dX719tRHQU](/images/posts/dX719tRHQU.png)
 
@@ -151,7 +151,7 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 ​                  （如果字幕设置被还原，这里会出现"小扳手"图标，点击之后，会自动恢复到之前的设置）
 
-打开的字幕页面，会以`about:blank`地址给你展示，排版相当工整，通过快捷键Ctrl + F ，可以搜索英文字幕，与之对应的就是中文字幕。这个是官方字幕，准确性和质量有保证。这也是我强烈推荐用NetFlix学美剧的原因。
+打开的字幕页面，会以`about:blank`地址展示，排版相当工整，体验真的非常棒。展开一个剧集的字幕，搜索和核对字幕都非常方便。由于字幕出自官方校准，所以准确性和质量都有保证。这也是我强烈推荐用NetFlix学美剧的原因。
 
 ![chrome_0NhkCqN32N](/images/posts/chrome_0NhkCqN32N.png)
 
@@ -159,23 +159,23 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 #### 6.2 下载youtube视频
 
-看youtube视频，推荐用IDM下载youtube视频到本地硬盘中.IDM全称是Internet Download Manager。工具下载地址:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具是付费的，大概120RMB左右，一次买断永久使用的那种。
+下载youtube英文视频，推荐用IDM工具，IDM全称是Internet Download Manager。下载地址:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具是付费的，性价比特别高，120RMB左右永久版权。
 
 ![IDMan_SMKbr3Tn26](/images/posts/IDMan_SMKbr3Tn26.png)
 
-如果发现IDM无法下载，请查看IDM代理设置，具体配置如下:
+使用代理帆樯的时候，IDM如果无法下载，请注意IDM的代理设置:
 
 ![IDMan_1aZQPEgESz](/images/posts/IDMan_1aZQPEgESz.png)
 
 ![chrome_P42WUXjCil](/images/posts/chrome_P42WUXjCil.png)
 
-IDM必装的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)。
+IDM下载youtube视频必装的chrome插件是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)。容易搞错，这里特别注意下。
 
 ![oZmNzWrGq3](/images/posts/oZmNzWrGq3.png)
 
 #### 6.3 快速标记字体颜色
 
-编辑卡片的时候，一个台词可能含有多个生词，可以分别标记不同的颜色，使用[Quick Colour Changing](https://ankiweb.net/shared/info/2491935955)这个anki插件，能快速标记字体颜色。我设置的快捷键如下：蓝色，橘黄色，红色。
+编辑卡片的时候，不同的生词标记不同的颜色，使用[Quick Colour Changing](https://ankiweb.net/shared/info/2491935955)这个anki插件，能快速标记文字颜色。我的Quick Colour Changing插件设置如下:  Alt+4 是标记蓝色，Alt+5是标记橘黄色，Alt+6是标记橙红色。它这个插件的配置文本是Json格式，如果要增加其他快捷键和颜色，增加keys的数组项即可。
 
 ```shell
 {
