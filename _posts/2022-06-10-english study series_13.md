@@ -7,9 +7,9 @@ keywords: English
 typora-root-url: ../
 ---
 
-美剧卡片的制作，我在2年前看过youtube视频，视频地址是[https://www.youtube.com/watch?v=bbg6ztWecbU](https://www.youtube.com/watch?v=bbg6ztWecbU)。本篇文章要讲的方法并不是视频中这个方法，也是使用mpv+anki制卡，略有不同。
+美剧卡片的制作，我在2020年从youtube看到过，最早来至于[youtube](https://www.youtube.com/watch?v=bbg6ztWecbU)播主`Matt vs japan`，使用mpv+anki制卡，功能非常强大，美剧卡片对于看美剧学口语而言至关重要。特别是在国内没有语言环境的情况下，能够随时随地掏出手机来复习美剧卡片的方案并不多，这种带有mp4功能的卡片制作成本很低，对于口语和听力训练能够极大的降低成本，缩短时间。如果有使用anki进行有声书制卡的经历，应该能明白这方法有多么重要。
 
-美剧卡片的好处:mp4和mp3可以帮助回忆剧情，复习口语，复习的时候也可以模仿跟读锻炼口语。同时兼顾听力和口语训练。有声书制卡的经验过渡到美剧制卡，成本很低，而且以往经验在美剧这里同样适用。
+美剧卡片的优势在于:mp4和mp3可以帮助回忆剧情，复习口语，做模仿跟读训练。
 
 ![66667777](/images/posts/66667777.gif)
 
