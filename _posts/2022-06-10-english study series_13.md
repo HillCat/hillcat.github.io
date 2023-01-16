@@ -224,6 +224,12 @@ IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.
 
 顺带提一句，苹果手机的anki是收费的，体验要比安卓的好很多。
 
+#### 6.4卡片体积
+
+如果是长时间使用anki，卡片的体积应该是会轻易超过1G的，下面是1万3千张卡片的容积，美剧卡片并不多，随着美剧卡片的增多，这个体积应该还会增加。好在anki官方对于这块并没有容量的限制。所以对于视频卡片而言，不用太过担心。
+
+![chrome_Dk1kovfrPC](/images/posts/chrome_Dk1kovfrPC.png)
+
 ### 7.MPV播放器设置
 
 #### 7.1 mpv 播放器的OSC配置
