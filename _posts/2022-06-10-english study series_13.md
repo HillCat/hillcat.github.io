@@ -200,7 +200,7 @@ IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.
 }
 ```
 
-![anki_Pex5ak3DKQ](/images/posts/anki_Pex5ak3DKQ.png)
+![XBarzyeZt4](/images/posts/XBarzyeZt4.png)
 
 区分字体颜色之后，做出来的卡片一目了然。也能够更加突出重点。实际使用来看，美剧制作的卡片，难度要比有声书/外刊/新闻这些题材来源的卡片简单太多，而且也更加符合口语习惯，总之一句话: 刷美剧，用它，真香!
 
