@@ -291,7 +291,7 @@ Enjoy it！
 
 [https://learnanylanguage.fandom.com/wiki/Subs2srs](https://learnanylanguage.fandom.com/wiki/Subs2srs)(英文文章)这里提到的方式，是另外一种看剧挂载字幕的制卡方式，只支持低版本的anki，`Matt vs japan`曾经使用的方法就是这个方法，跟我本文讲解的方法是差不多的，插件都是同一个作者。
 
-[https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg](https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg) 这篇是某位程序员大神写的微信公众号文章。该文章主要以程序员的视角，谈了学习英语的意义。`英语足够好，自学速度将超过90%程序员，甚至超过99.99%程序员`这句话我比较认可，并且有实际体会，zlibrary网站有很多原版书的PDF，获取成本几乎为零，阅读这些IT原版书能够极大提高学习效率。天下武功唯快不破，拼的就是速度。魏剑峰的《英语高效学习法》(2022年10月出版)，序言也有提到`学习英语的真正效用`，讲得很不错，有兴趣的可以看看。
+[https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg](https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg) 这篇是某位程序员大神写的微信公众号文章。该文章主要以程序员的视角，谈了学习英语的意义。`英语足够好，自学速度将超过90%程序员，甚至超过99.99%程序员`这句话我比较认可，并且有实际体会，zlibrary网站有很多原版书的PDF，获取成本几乎为零，我之前看了大量这块的IT原版书，这给我提升英语的同时，也省了一大笔钱。魏剑峰的《英语高效学习法》(2022年10月出版)，序言也有提到`学习英语的真正效用`，讲得很不错，有兴趣的可以看看。
 
 其他mpv播放器配置，参考Github：[https://github.com/minikui/mpv/tree/mpv/lua-settings](https://github.com/minikui/mpv/tree/mpv/lua-settings)
 
