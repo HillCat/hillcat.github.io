@@ -185,9 +185,13 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 ![chrome_P42WUXjCil](/images/posts/chrome_P42WUXjCil.png)
 
-IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)，不要搞错了，因为市面上有些冒牌插件，也是打着IDM的旗号，容易搞错，这里特别注意下。
+IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)，不要搞错了，因为市面上有些冒牌插件，也是打着IDM的旗号，容易搞错，这里特别注意下。IDM插件下载youtube视频的时候，会有个悬停工具条，如下：
 
 ![oZmNzWrGq3](/images/posts/oZmNzWrGq3.png)
+
+另外，观看youtube视频，必备插件:[Adblock](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom)也是必装的。
+
+![chrome_CUpvyJ9TBX](/images/posts/chrome_CUpvyJ9TBX.png)
 
 #### 6.3 快速标记字体颜色
 
