@@ -179,7 +179,7 @@ IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.
 
 #### 6.3 快速标记字体颜色
 
-编辑卡片的时候，不同的生词标记不同的颜色，使用[Quick Colour Changing](https://ankiweb.net/shared/info/2491935955)这个anki插件，能快速标记文字颜色。我的Quick Colour Changing插件设置如下:  Alt+4 是标记蓝色，Alt+5是标记橘黄色，Alt+6是标记橙红色。它这个插件的配置文本是Json格式，如果要增加其他快捷键和颜色，增加keys的数组项即可。
+编辑卡片的时候，不同的生词标记不同的颜色，使用[Quick Colour Changing](https://ankiweb.net/shared/info/2491935955)这个anki插件，能快速标记文字颜色，突出学习重点。我的Quick Colour Changing插件设置如下:  Alt+4 是标记蓝色，Alt+5是标记橘黄色，Alt+6是标记橙红色。它这个插件的配置文本是Json格式，如果要增加其他快捷键和颜色，增加keys的数组项即可。
 
 ```shell
 {
