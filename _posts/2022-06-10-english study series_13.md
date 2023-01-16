@@ -285,7 +285,7 @@ mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-pl
 
 [https://learnanylanguage.fandom.com/wiki/Subs2srs](https://learnanylanguage.fandom.com/wiki/Subs2srs)(英文文章)这里提到的方式，是另外一种看剧挂载字幕的制卡方式，只支持低版本的anki，`Matt vs japan`曾经使用的方法就是这个方法，跟我本文讲解的方法是差不多的，插件都是同一个作者。
 
-[https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg](https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg) 这篇是某位程序员大神写的微信公众号文章。该文章主要以程序员的视角，谈了学习英语的意义。其实它阐述的观点用一句话就可以概括，那就是"天下武功为快不破"。在计算机IT技术层出不穷的当下，如果仅仅是做应用开发，每隔一段时间都要学习很多新技术和新框架/中间件，决定职业竞争力的就是学习速度，`英语足够好，自学速度将超过90%程序员，甚至超过99.99%程序员`这句话是这个程序大神在文中的原话，我也比较认可这句话，并且也实际体会到这句话的意义，因为我大部分技术资料几乎都是通过直接看原版，这给我带来了极高的效率。这就是修炼英语内功对于程序员的意义：天下武功唯快不破，拼的就是速度。包括自己研究英语自学，也都是看英文视频和英文文章。同样的道理被`恶魔奶爸`解释得更加直白，恶魔奶爸在魏剑峰的书作序，书名是《英语高效学习法》(2022年10月出版)，序言标题是`推荐序：学习英语的真正效用`，有兴趣的可以拿来看看这本书，序言我觉得写得很好，书的内容也不错。
+[https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg](https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg) 这篇是某位程序员大神写的微信公众号文章。该文章主要以程序员的视角，谈了学习英语的意义。`英语足够好，自学速度将超过90%程序员，甚至超过99.99%程序员`这句话我比较认可，并且有实际体会，zlibrary网站有很多原版书的PDF，获取成本几乎为零，阅读这些IT原版书能够极大提高学习效率。天下武功唯快不破，拼的就是速度。魏剑峰的《英语高效学习法》(2022年10月出版)，序言也有提到`学习英语的真正效用`，讲得很不错，有兴趣的可以看看。
 
 其他mpv播放器配置，参考Github：[https://github.com/minikui/mpv/tree/mpv/lua-settings](https://github.com/minikui/mpv/tree/mpv/lua-settings)
 
