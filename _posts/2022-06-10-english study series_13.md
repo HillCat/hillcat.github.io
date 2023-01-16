@@ -216,7 +216,7 @@ IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.
 
 ​                                                                               (↑苹果手机anki测试效果↑)
 
-插件[Quick Colour Changing](https://ankiweb.net/shared/info/2491935955)自定义的3钟颜色标记, 效果如上。从实际使用来看，美剧卡片的复习难度要小得多，相比而言有声书和新闻卡片复习起来会枯燥一些。总之: 刷美剧，用它，真香!
+插件[Quick Colour Changing](https://ankiweb.net/shared/info/2491935955)自定义的3钟颜色标记, 效果如上图。从实际使用来看，美剧卡片的复习难度要小得多，相比有声书和新闻卡片复习，纸质媒体会枯燥一些。总之: 刷美剧，用它，真香!
 
 顺带提一句，苹果手机的anki是收费的，体验要比安卓的好很多。
 
