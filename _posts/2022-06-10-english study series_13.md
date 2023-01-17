@@ -120,7 +120,7 @@ choco install ffmpeg
 先下载模板，这个模板是跟这个插件配套使用的，是插件作者提供的一个模板，模板文件通过这个地址链接：[https://pan.baidu.com/s/1X0ZX_ZA-dSDJSXTxoQGNIA?pwd=ly1i](https://pan.baidu.com/s/1X0ZX_ZA-dSDJSXTxoQGNIA?pwd=ly1i ) 
 提取码：ly1i。先把这个模板用熟，等到对anki非常熟悉之后，以后可以根据自己的需要修改这个模板。
 
-模板下载完，你会得到下面这个文件，双击模板运行就自动导入anki了。
+模板下载完，你会得到下面这个Movie.apkg文件，双击模板运行就自动导入anki了。
 
 ![explorer_UwKzaQidSJ](/images/posts/explorer_UwKzaQidSJ.png)
 
