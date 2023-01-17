@@ -280,6 +280,8 @@ C:\Users\47664\AppData\Roaming\mpv
 
 配置文件弄好之后，启动mpv播放器，控制条就移动到播放器的顶部了。修改和编辑配置文件，建议使用[notepad++](https://notepad-plus-plus.org/downloads/)这种编辑工具来进行配置的修改。我的做法是创建一个txt文件，然后把txt文件重命名为osc.conf即可，这样就创建了`osc.conf`这个文件。
 
+另外：mpv.conf这个文件，基本上没太多作用。我虽然创建了这个文件，但是这个文件里面一般都是留空。在英语刷剧的时候，这个文件用不到。
+
 mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-player/](https://cheatography.com/someone/cheat-sheets/mpv-media-player/)
 
 这个快捷键的PDF文件，可以在上面这个网址可以下载到。
