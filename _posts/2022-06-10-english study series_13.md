@@ -51,7 +51,7 @@ Anki+Mpv这种视频制卡的方式是一个不错的进入美剧学习的`起�
 
 ### 1.安装chocolatey
 
-最先要安装的是chocolatey。强烈推荐使用chocolatey这个软件包管理软件，虽然有很多方法可以安装mpv播放器，但是为了保险起见，请把所有安装过程交给choco自动处理。包括安装youtube-dl(播放url需要用到这个)，ffmpeg(视频音频自动截取需要这个)。choco类似于Mac上面的Homebrew,CentOS上面的Yum，Ubuntu上面的apt-get。
+最先要安装的是chocolatey。强烈推荐使用chocolatey这个软件包管理软件(血的教训)，虽然有很多方法可以安装mpv播放器，但是为了保险起见，请把所有安装过程交给choco自动处理。包括安装youtube-dl(播放url需要用到这个)，ffmpeg(视频音频自动截取需要这个)。choco类似于Mac上面的Homebrew,CentOS上面的Yum，Ubuntu上面的apt-get。
 
 chocolatey如何安装，文档如下：
 
