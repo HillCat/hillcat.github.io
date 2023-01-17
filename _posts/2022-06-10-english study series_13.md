@@ -209,7 +209,7 @@ IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.
 
 ![oZmNzWrGq3](/images/posts/oZmNzWrGq3.png)
 
-另外，观看youtube视频，必备插件:[Adblock](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom)也是必装的。
+另外，观看youtube视频，必备的去广告插件:[Adblock](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom)也是必装的。
 
 ![chrome_CUpvyJ9TBX](/images/posts/chrome_CUpvyJ9TBX.png)
 
