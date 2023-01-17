@@ -203,7 +203,11 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 #### 6.2 下载youtube视频
 
-下载youtube英文视频，推荐用IDM工具，IDM全称是Internet Download Manager。下载地址:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具是付费的，性价比特别高，120RMB左右永久版权。
+下载youtube英文视频，推荐用IDM工具，IDM全称是Internet Download Manager。下载地址:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具是付费的，性价比特别高，120RMB左右永久版权。不过，你也可以直接拖拽youtube视频url，直接在线播放来制卡，而不需要下载YouTube视频到本地。
+
+![674536545](/images/posts/674536545.gif)
+
+##### 6.2.1 IDM代理设置
 
 ![IDMan_SMKbr3Tn26](/images/posts/IDMan_SMKbr3Tn26.png)
 
