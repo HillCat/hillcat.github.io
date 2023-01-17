@@ -187,7 +187,7 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 ​                  （↑如果字幕设置被还原，这里会出现"小扳手"图标，点击之后，会自动恢复到之前的设置↑）
 
-打开的字幕页面，会以`about:blank`地址展示，排版相当工整，体验真的非常棒。展开一个剧集的字幕，搜索和核对字幕都非常方便。由于字幕出自官方校准，所以准确性和质量都有保证。这也是我强烈推荐用NetFlix学美剧的原因。
+打开的字幕页面，会以`about:blank`地址展示，排版相当工整，体验真的非常棒。展开一个剧集的字幕，搜索和核对字幕都非常方便。由于字幕出自官方校准，所以准确性和质量都有保证。
 
 ![chrome_0NhkCqN32N](/images/posts/chrome_0NhkCqN32N.png)
 
@@ -309,7 +309,7 @@ Enjoy it！
 
 ### 9.总结
 
-把一个方法用成自己的习惯，持续积累，可能就是最适合自己的方法。成年人业余自学语言，学到比较高水平，大概需要5年时间，全职学也要2年时间。比如:`Matt vs Japan`精通日语花了5年时间，`Giovanni Smith`通过汉语HSK6考试也花了接近5年时间------新汉语水平考试*HSK*（6级),也就是外国人汉语考试的最高水平。这2个人是把外语学到了应考的最高等级，如果对于我们学英语而言，他们相当于学到了雅思8~9分水准，用的都是anki。如果要借鉴anki这块的经验，他们2位其实都算是成功案例，其在youtube分享的视频，非常值得研究。Anki的DIY能力前所未有的强大，划词制卡和美剧制卡结合，既可以用来看原版英文书，又可以用来刷美剧。我不确定anki是不是最好的工具，但至少这么几年用下来，我没有更换过其他工具，学习的连贯性和一致性是得到了延续的。如果要给这个工具一个定位，可以看看`Matt vs Japan`的视频[The Role of the SRS](https://youtu.be/wrBFhsnBQ2k)，他曾在他的二语习得过程中总结过anki的角色定位，有兴趣的可以去看看他的这个视频。能够得到比较中肯的一些评价，如果你想知道Matt vs japan的日语水平，请看这个视频[Why You SHOULD Learn Japanese From Anime](https://youtu.be/V9ND6uw6-QA)，他还讲了他用动画片学日语的原因:[The Reality of Learning Japanese From Anime](https://youtu.be/rQtzQQ6I4LE)。
+把一个方法用成自己的习惯，持续积累，可能就是最适合自己的方法。成年人业余自学语言，学到比较高水平，大概需要5年时间，全职学也要2年时间。比如:`Matt vs Japan`精通日语花了5年时间，`Giovanni Smith`通过汉语HSK6考试也花了接近5年时间------新汉语水平考试*HSK*（6级),也就是外国人汉语考试的最高水平。这2个人是把外语学到了应考的高等级，相当于雅思8~9分。我不确定anki是不是好工具，但至少几年用下来，没有更换过其他工具，学习的连贯性和一致性得到了延续。有人在他的二语习得过程中总结过间隔复习的角色定位，可以看看`Matt vs Japan`的视频[The Role of the SRS](https://youtu.be/wrBFhsnBQ2k)。本篇主要是介绍美剧的一个入门方法的辅助工具。
 
 ![chrome_pngaBEAaeS](/images/posts/chrome_pngaBEAaeS.png)
 
