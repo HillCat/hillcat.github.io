@@ -149,7 +149,7 @@ choco install ffmpeg
 
 ![anki_THoB6otyUv](/images/posts/anki_THoB6otyUv.png)
 
-注意，如上图：Video(mp4) 这个字段可以不做映射，使用`<ignored>`即可，实际在iphone和windows测试，卡片模板是用不到这个Video字段。为了减小卡片的体积，提升手机性能和减少不必要的内存卡占用，减少一些不必要的字段能够节约内存。
+注意，如上图：Video(mp4) 这个字段可以不做映射，使用`<ignored>`即可，实际在iphone和windows测试，卡片模板是用不到这个Video字段。为了减小卡片的体积，提升手机性能和减少不必要的内存占用，可以去掉这个字段。去掉这个字段，是否对安卓手机上面显示视频有影响
 
 说明：等所有设置完成了之后，模板自带的Deck可以删掉，删的时候，apkg包导入进来的1000多张卡会被清空(删Deck，不会影响Note Type，因为Note Type只能通过Note Type菜单删除)。
 
@@ -317,7 +317,29 @@ Enjoy it！
 
 
 
-### 10.参考资料
+### 10.我安装的插件
+
+anki插件名和对应的安装ID：
+
+`Adjust Sound Volume` 2123044452
+`Advanced Browser` 874215009
+`Always On Top` 1760080335
+`Anki Zoom` 538879081
+`AnkiConnect` 2055492159
+`Batch Editing` 291119185
+`BetterSearch` 1052724801
+`Customize Keyboard Shortcuts` 24411424
+`Duplicate and Reorder` 1114271285
+`Google Translate` 1536291224
+`link Cards Notes and Preview them in extra window` 1423933177
+`Set Font Size` 651521808
+`True Retention` 613684242
+`FSRS4Anki Helper` 759844606
+`AnkiWebView Inspector` 31746032
+`Create subs2srs cards with mpv video player`  1213145732
+`Quick Colour Changing`  2491935955
+
+### 11.参考资料
 
 [http://www.randomhacks.net/substudy/](http://www.randomhacks.net/substudy/) (英文文章)这篇文章里面的作者，讲到了自己通过看剧学语言的心得体会，值得一看。
 
