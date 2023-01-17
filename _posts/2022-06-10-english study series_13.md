@@ -335,9 +335,11 @@ Enjoy it！
 
 ### 10.我安装的插件
 
-需要**特别注意**的是，anki的插件安装类似于苹果手机通过appstore安装软件。你只需要知道anki插件的code即可填入数字Code就可以安装了，如下图，也就是说，直接复制插件页面对应的10位数，填入下面的界面Code种，点击OK就可以在线安装了。
+需要**特别注意**的是，anki的插件安装类似于苹果手机通过appstore安装软件。你只需要知道anki插件的code即可填入数字Code就可以安装了，如下图，也就是说，直接复制插件页面对应的10位数，填入下面的界面Code空白输入框中，点击OK就可以在线安装了anki插件了。
 
 ![KzijOJJayD](/images/posts/KzijOJJayD.png)
+
+随便拿一个插件距离，一般插件页面会有个Download的地方，这里会有个蓝色框，里面有串10为数的数字，复制这个数字，然后找到Tools菜单，Add-ons子菜单进入，点击`Get Add-ons...`按钮，填入Code，点击OK即可开始安装这个插件。
 
 ![y81lVmAXNj](/images/posts/y81lVmAXNj.png)
 
