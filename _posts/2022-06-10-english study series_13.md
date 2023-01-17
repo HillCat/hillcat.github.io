@@ -157,7 +157,7 @@ choco install ffmpeg
 
 ![anki_THoB6otyUv](/images/posts/anki_THoB6otyUv.png)
 
-注意，如上图：Video(mp4) 这个字段可以不做映射，使用`<ignored>`即可，实际在iphone和windows测试，卡片模板是用不到这个Video字段。为了减小卡片的体积，提升手机性能和减少不必要的内存占用，可以去掉这个字段。去掉这个字段，是否对安卓手机上面显示视频有影响
+注意，如上图：Video(mp4) 这个字段可以不做映射，使用`<ignored>`即可，实际在iphone和windows测试，卡片模板是用不到这个Video字段。为了减小卡片的体积，提升手机性能和减少不必要的内存占用，可以去掉这个字段。去掉这个字段，是否对安卓手机上面显示视频有影响未经测试，这个要看你手机如果能正常显示视频那就没有问题。
 
 说明：等所有设置完成了之后，模板自带的Deck可以删掉，删的时候，apkg包导入进来的1000多张卡会被清空(删Deck，不会影响Note Type，因为Note Type只能通过Note Type菜单删除)。
 
