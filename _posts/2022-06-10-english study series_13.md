@@ -246,7 +246,7 @@ IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.
 
 ​                                                                               (↑苹果手机anki测试效果↑)
 
-插件[Quick Colour Changing](https://ankiweb.net/shared/info/2491935955)自定义的3钟颜色标记, 效果如上图。从实际使用来看，美剧卡片的复习难度要小得多，相比有声书和新闻卡片复习，美剧要好多了。总之: 刷美剧，用它，真香! 我找到了久违的2020年那个时候的感觉，如下图，2020年是我英语进步速度最快的一年。
+插件[Quick Colour Changing](https://ankiweb.net/shared/info/2491935955)自定义的3种颜色标记, 效果如上图。从实际使用来看，美剧卡片的复习难度要小得多，相比有声书和新闻卡片复习，美剧要好多了。总之: 刷美剧，用它，真香! 我找到了久违的2020年那个时候的感觉，如下图，2020年是我英语进步速度最快的一年。
 
 ![chrome_g81nNjplZ2](/images/posts/chrome_g81nNjplZ2.png)
 
