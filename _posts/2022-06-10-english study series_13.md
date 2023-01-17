@@ -203,11 +203,7 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 #### 6.2 下载youtube视频
 
-下载youtube英文视频，推荐用IDM工具，IDM全称是Internet Download Manager。下载地址:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具是付费的，性价比特别高，120RMB左右永久版权。不过，你也可以直接拖拽youtube视频url，直接在线播放来制卡，而不需要下载YouTube视频到本地。
-
-![674536545](/images/posts/674536545.gif)
-
-##### 6.2.1 IDM代理设置
+下载youtube英文视频，推荐用IDM工具，IDM全称是Internet Download Manager。下载地址:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具是付费的，性价比特别高，120RMB左右永久版权。
 
 ![IDMan_SMKbr3Tn26](/images/posts/IDMan_SMKbr3Tn26.png)
 
@@ -225,7 +221,13 @@ IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.
 
 ![chrome_CUpvyJ9TBX](/images/posts/chrome_CUpvyJ9TBX.png)
 
-#### 6.3 快速标记字体颜色
+#### 6.3 在线播放youtube视频
+
+不过，你也可以直接复制youtube视频url，直接用mpv在线播放来制卡，而不需要下载YouTube视频到本地。不过对于网速要求很高，因为它默认是以1080P来播放，樯内不适合用这种方式，除非你肉身在樯外。它利用的是youtube-dl这个中间件，边下载youtube视频，边在mpv中播放。
+
+![674536545](/images/posts/674536545.gif)
+
+#### 6.4 快速标记字体颜色
 
 编辑卡片的时候，不同的生词标记不同的颜色，使用[Quick Colour Changing](https://ankiweb.net/shared/info/2491935955)这个anki插件，能快速标记文字颜色，突出学习重点。我的Quick Colour Changing插件设置如下:  Alt+4 是标记蓝色，Alt+5是标记橘黄色，Alt+6是标记橙红色。它这个插件的配置文本是Json格式，如果要增加其他快捷键和颜色，增加keys的数组项即可。这也是一个`提升幸福指数`的工具，让做笔记更轻松。如果要截图，使用[sharex](https://getsharex.com/)，这个工具截图之后可以直接粘贴,关于sharex，我之前的英语系列文章有提到过，可以在我博客右侧边栏Tag中点击English分类，查看所有英文自学文章。
 
@@ -258,7 +260,7 @@ IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.
 
 顺带提一句，苹果手机的anki是收费的，体验要比安卓的好很多。
 
-#### 6.4卡片体积
+#### 6.5卡片体积
 
 下面是1万3千张卡片的容积，达到了889M，其中美剧卡片并不多，随着美剧卡片的增多，这个体积应该还会快速增长。好在anki官方对于这块并没有容量的限制。所以对于视频卡片而言，不用太过担心体积膨胀。
 
