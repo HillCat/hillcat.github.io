@@ -115,11 +115,14 @@ choco install ffmpeg
 
 ![srwyGARJZS](/images/posts/srwyGARJZS.png)
 
-先下载模板，这个模板是跟这个插件配套使用的，是插件作者提供的一个模板，模板文件通过这个地址[https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b](https://gistpreview.github.io/?d515535b80a3d8f0775989e0d83c8a3b)下载。先把这个模板用熟，等到对anki非常熟悉之后，以后可以根据自己的需要修改这个模板。
+#### 5.1模板下载
+
+先下载模板，这个模板是跟这个插件配套使用的，是插件作者提供的一个模板，模板文件通过这个地址链接：[https://pan.baidu.com/s/1X0ZX_ZA-dSDJSXTxoQGNIA?pwd=ly1i](https://pan.baidu.com/s/1X0ZX_ZA-dSDJSXTxoQGNIA?pwd=ly1i ) 
+提取码：ly1i。先把这个模板用熟，等到对anki非常熟悉之后，以后可以根据自己的需要修改这个模板。
 
 模板下载完，你会得到下面这个文件，双击模板运行就自动导入anki了。
 
-![Typora_elu2qwxCnN](/images/posts/Typora_elu2qwxCnN.png)
+![explorer_UwKzaQidSJ](/images/posts/explorer_UwKzaQidSJ.png)
 
 模板导入到anki后进行下一步设置。
 
