@@ -343,9 +343,7 @@ Enjoy it！
 
 
 
-
-
-anki插件名和对应的安装ID：
+下面这里为了方便，我已经准备好了17个插件的Code，可以直接拿过去使用：
 
 1.`Adjust Sound Volume` 2123044452
 
