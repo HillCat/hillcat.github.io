@@ -389,7 +389,7 @@ Enjoy it！
 
 17.`Quick Colour Changing`  2491935955
 
-
+这些插件的官方链接地址，需要去ankiweb addons页面去寻找，[https://ankiweb.net/shared/addons/2.1](https://ankiweb.net/shared/addons/2.1), Ctrl + F，搜索插件名即可。
 
 ### 11.参考资料
 
