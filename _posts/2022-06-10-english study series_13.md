@@ -87,6 +87,10 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install mpv
 ```
 
+整个安装过程，它会询问你`是否运行所有脚本`，选择A，回车，运行所有脚本。
+
+![image-20230117212248266](/images/posts/image-20230117212248266.png)
+
 ### 3.安装youtube-dl
 
 然后是安装youtube-dl，同样是powershell管理员权限，执行下面命令：
@@ -95,6 +99,9 @@ choco install mpv
 choco install youtube-dl
 ```
 
+整个安装过程，它会询问你`是否运行所有脚本`，选择A，回车，运行所有脚本。
+
+![image-20230117212420349](/images/posts/image-20230117212420349.png)
 
 ### 4.安装ffmpeg
 
@@ -105,6 +112,10 @@ choco install ffmpeg
 ```
 
 这个ffmpeg安装的时候，可能会被樯，安装的时间较长，请注意。如果肉身在樯外，请忽略。
+
+整个安装过程，它会询问你`是否运行所有脚本`，选择A，运行所有脚本。
+
+![image-20230117212050766](/images/posts/image-20230117212050766.png)
 
 ### 5.安装anki插件
 
