@@ -321,23 +321,41 @@ Enjoy it！
 
 anki插件名和对应的安装ID：
 
-`Adjust Sound Volume` 2123044452
-`Advanced Browser` 874215009
-`Always On Top` 1760080335
-`Anki Zoom` 538879081
-`AnkiConnect` 2055492159
-`Batch Editing` 291119185
-`BetterSearch` 1052724801
-`Customize Keyboard Shortcuts` 24411424
-`Duplicate and Reorder` 1114271285
-`Google Translate` 1536291224
-`link Cards Notes and Preview them in extra window` 1423933177
-`Set Font Size` 651521808
-`True Retention` 613684242
-`FSRS4Anki Helper` 759844606
-`AnkiWebView Inspector` 31746032
-`Create subs2srs cards with mpv video player`  1213145732
-`Quick Colour Changing`  2491935955
+1.`Adjust Sound Volume` 2123044452
+
+2.`Advanced Browser` 874215009
+
+3.`Always On Top` 1760080335
+
+4.`Anki Zoom` 538879081
+
+5.`AnkiConnect` 2055492159
+
+6.`Batch Editing` 291119185
+
+7.`BetterSearch` 1052724801
+
+8.`Customize Keyboard Shortcuts` 24411424
+
+9.`Duplicate and Reorder` 1114271285
+
+10.`Google Translate` 1536291224
+
+11.`link Cards Notes and Preview them in extra window` 1423933177
+
+12.`Set Font Size` 651521808
+
+13.`True Retention` 613684242
+
+14.`FSRS4Anki Helper` 759844606
+
+15.`AnkiWebView Inspector` 31746032
+
+16.`Create subs2srs cards with mpv video player`  1213145732
+
+17.`Quick Colour Changing`  2491935955
+
+
 
 ### 11.参考资料
 
