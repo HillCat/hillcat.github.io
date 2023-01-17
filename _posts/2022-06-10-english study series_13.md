@@ -75,7 +75,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ![image-20230118034115752](/images/posts/image-20230118034115752.png)
 
-如果没有这个字样，就不是管理员权限，你要检查你windows当前登录的账号是不是有问题，最好是以Administrator超级管理员账号登录。有些盗版系统，会出现这种问题。最怕的就是系统本身有问题。
+![eWyxATtSbe](/images/posts/eWyxATtSbe.png)
+
+如果没有这个字样，就不是管理员权限，如果你的系统是中文界面，它窗体上面会有”管理员“3个字样。你要检查你windows当前登录的账号是不是有问题，最好是以Administrator超级管理员账号登录。有些盗版系统，会出现这种问题，其实正常的window10系统只要你是普通用户登录，也是可以开启管理员方式打开Powershell的。最怕的就是系统本身有问题。
 
 不知道PowerShell是什么的，可以在windows的开始菜单里面搜这个，如上图，找到之后以管理员权限打开。然后安装chocolatey。安装的时候最好是开启全局帆樯。因为有可能某些资源是国外的，如果被墙了，就会导致安装失败。如果你的电脑没有PowerShell，那就要先安装PowerShell，具体安装方法很简单，百度搜索就可以。
 
