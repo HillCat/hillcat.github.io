@@ -144,7 +144,7 @@ choco install ffmpeg
 
 ### 6.美剧视频和字幕下载
 
-我使用的方法是通过[FlixGrab+](https://www.flixgrab.com/)付费软件下载NetFlix的视频。
+我使用的方法是通过[FlixGrab+](https://www.flixgrab.com/)付费软件下载NetFlix的视频。它这个工具在淘宝可以买到破解版本，但是目前我用的是正版，等以后有机会再试试破解版。其实这个工具不贵，一次下载几十G的视频也够看很久了。
 
 FlixGrab是可以批量下载整个美剧的，如果一个美剧有8季，你只需要粘贴其中任何一集的URL就可以，等FlixGrab解析出来视频的缩略图之后，缩略图上面会出现齿轮样的设置按钮，上面有个`Paste Espisodes`
 
