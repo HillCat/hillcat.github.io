@@ -59,13 +59,23 @@ chocolatey如何安装，文档如下：
 
 按照上面地址的文档说明，chocolate安装方式有2种，一种是通过cmd安装，一种是powershell方式安装。选择其中1种即可.这里我使用第2种方式PowerShell安装。
 
-在windows开始菜单，找到PowerShell以管理员方式打开，粘贴并执行下面命令：
+在windows开始菜单，找到PowerShell以管理员方权限打开，粘贴并执行下面命令：
 
 ```shell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
 ![KUGatcqZKF](/images/posts/KUGatcqZKF.png)
+
+很多人打开这个Windows PoerShell的时候不是以管理员权限打开的，会报下面错误：它会提示你 default folder requires Administrative permissions. 意思是说”默认文件夹需要管理员权限“。你需要按照我上面说的那样子，以管理员权限打开windows PowerShell。具体操作是，找到powershell，鼠标邮件，会出现”以管理员方式运行“，点击，让它以管理员方式运行就可以了。
+
+![tACkzhrojS](/images/posts/tACkzhrojS.png)
+
+管理员权限启动的Powershell，窗口上面会有Administrator字样，如下：
+
+![image-20230118034115752](/images/posts/image-20230118034115752.png)
+
+如果没有这个字样，就不是管理员权限，你要检查你windows当前登录的账号是不是有问题，最好是以Administrator超级管理员账号登录。有些盗版系统，会出现这种问题。最怕的就是系统本身有问题。
 
 不知道PowerShell是什么的，可以在windows的开始菜单里面搜这个，如上图，找到之后以管理员权限打开。然后安装chocolatey。安装的时候最好是开启全局帆樯。因为有可能某些资源是国外的，如果被墙了，就会导致安装失败。如果你的电脑没有PowerShell，那就要先安装PowerShell，具体安装方法很简单，百度搜索就可以。
 
