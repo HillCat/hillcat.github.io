@@ -186,7 +186,7 @@ Flixgrab+是付费版本，去官方网站选择季度付费(50RMB左右)，通�
 
 **第一种原因**是网速问题导致。
 
-常见的故障就是解析失败，提示“Engine response timeout” ,一般是网速太慢导致的。鼠标右键点击这个矩形的缩略图，菜单显示New Paste，点击New Paste就会重新粘贴并生成缩略图。新的如果重新生成了，把旧的那个删掉即可。
+常见的故障就是解析失败，提示“Engine response timeout” ,一般是网速太慢导致的。鼠标右键点击这个矩形的缩略图，菜单显示New Paste，点击New Paste就会重新生成心的缩略图，之后把旧的那个删掉即可。
 
 ![fxFiovnxAY](/images/posts/fxFiovnxAY.png)
 
