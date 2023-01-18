@@ -364,7 +364,7 @@ Enjoy it！
 
 ![KzijOJJayD](/images/posts/KzijOJJayD.png)
 
-插件的Code码一般都是在Download的这个地方，这里会有个蓝色框，框里有串10位数，这个数字就是插件的Code码，每个插件的Code码都不同，都是唯一的。复制这个Code，然后在Anki主界面找到Tools菜单，Add-ons，点击`Get Add-ons...`按钮，填入Code，Anki就会从云端拉取插件数据安装到本地。本质上，anki的插件就是一堆python + lua的脚本。
+插件的Code码一般都是在Download的这个地方，这里会有个蓝色框，框里有串10位数，这个数字就是插件的Code码，每个插件的Code码都不同，都是唯一的。复制这个Code，然后在Anki主界面找到Tools菜单，Add-ons，点击`Get Add-ons...`按钮，填入Code，Anki就会从云端拉取插件数据安装到本地。本质上，anki的插件就是一堆python + lua的脚本。如果是python高手，甚至可以直接改这些插件的bug。
 
 ![y81lVmAXNj](/images/posts/y81lVmAXNj.png)
 
