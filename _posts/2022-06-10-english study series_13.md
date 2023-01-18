@@ -51,7 +51,7 @@ Anki+Mpv这种视频制卡的方式是一个不错的进入美剧学习的`起�
 2.系统完整性导致的问题。如果系统是Ghost版本电脑城快速装机的那种，可能会存在某些组件缺失，需要重装系统。(尽量安装[微软官方镜像iso文件](https://www.microsoft.com/zh-cn/software-download/windows10)刻录的windows系统，激活码在[淘宝10元店](https://s.taobao.com/search?q=windows%E6%BF%80%E6%B4%BB&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.jianhua.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306)有售)。
 
 3.系统无法以管理员权限运行PowerShell，一般都是因为登录系统使用的是普通权限的账号，如果能够以Administrator缺省账号登录，就尽量用这个账号登陆吧。正常系统，windows 10 专业版，普通的账号登录，都是可以开启管理员权限运行PowerShell的。也有可能你安装的是家庭版windows 10，可能会有这个问题。
-4.
+
 <span id="anzhuang">------------</span>
 
 ## 安装配置
