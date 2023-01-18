@@ -9,6 +9,9 @@ typora-root-url: ../
 
 Anki用来进行美剧制卡，提供了看美剧复习英语知识点的便利，除了NetFlix之外，一切可以下载到的youtube show,TV show只要是英文的都可以这么操作，唯一的目的只有一个，那就是快速提升我们的听力，经过成千上万小时美剧听力之后实现流利口语。
 
+如果想直接进入安装部分，直接点击下面跳转:
+`1.安装chocolatey`：[点击跳转](#anzhuang)
+
 使用anki + mpv的方式，主要是解决看剧过程中如何做笔记，如何复习的问题，提高效率。还一个附带效果就是，这些美剧的卡片可以频繁去听，这次没听懂，下次听，一次又一次RSR间隔重复，随着听力提升，很多东西自然能听懂，相当于是给大脑投喂训练材料。美剧视频卡的听力训练效率比有声书高很多，可以大量刷剧而兼顾复习，后期可能还会结合背诵一些经典材料作为辅助。这是最近我自己刷美剧的一些规划，希望各路同学一起交流。探讨如何更好的搞定听力，直到口语流利。
 
 ## 美剧训练的A2~A4阶段
@@ -48,6 +51,8 @@ Anki+Mpv这种视频制卡的方式是一个不错的进入美剧学习的`起�
 2.系统完整性导致的问题。如果系统是Ghost版本电脑城快速装机的那种，可能会存在某些组件缺失，需要重装系统。(尽量安装[微软官方镜像iso文件](https://www.microsoft.com/zh-cn/software-download/windows10)刻录的windows系统，激活码在[淘宝10元店](https://s.taobao.com/search?q=windows%E6%BF%80%E6%B4%BB&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.jianhua.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306)有售)。
 
 3.系统无法以管理员权限运行PowerShell，一般都是因为登录系统使用的是普通权限的账号，如果能够以Administrator缺省账号登录，就尽量用这个账号登陆吧。正常系统，windows 10 专业版，普通的账号登录，都是可以开启管理员权限运行PowerShell的。也有可能你安装的是家庭版windows 10，可能会有这个问题。
+4.
+<span id="anzhuang">------------</span>
 
 ## 安装配置
 
