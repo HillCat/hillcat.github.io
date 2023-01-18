@@ -185,7 +185,7 @@ Flixgrab+是付费版本，去官方网站选择季度付费(50RMB左右)，通�
 
 **第一种原因**是网速问题导致。
 
-常见的故障就是解析失败，提示“Engine response timeout” ,一般是网速太慢导致的。鼠标右键点击这个矩形的缩略图，菜单显示New Paste，点击New Paste就会重新生成心的缩略图，之后把旧的那个删掉即可。
+常见的故障就是解析失败，提示“Engine response timeout” ,一般是网速太慢导致的。鼠标右键点击这个矩形的缩略图，菜单显示New Paste，点击New Paste就会重新生成新的缩略图，之后把那个旧的删掉即可。
 
 ![fxFiovnxAY](/images/posts/fxFiovnxAY.png)
 
@@ -195,7 +195,13 @@ Flixgrab+是付费版本，去官方网站选择季度付费(50RMB左右)，通�
 
 **第二种原因**是NetFlix Cookie冲突导致。
 
-如果在FlixGrab中频繁登录或者退出NetFlix账号，可能会导致一些问题。这个情况一般是初次使用NetFlix登录FlixGrab软件，多次登录退出导致Cookie不一致，无意间导致的。先排除是上面第一种网络原因。重新粘贴New Paste试试看。如果一直无法下载，请考虑卸载FlixGrab。卸载之后，还需要彻底删除FlixGrab的残留文件，这特别特别特别重要，在这里强调3次。卸载之后，通过使用[Everything工具](https://www.voidtools.com/)搜索电脑硬盘中所有跟FlixGrab相关的文件，全部删除干净之后再重装FlixGrab，然后再把之前的注册FlixGrab，登录NetFlix都重新操作一遍。
+如果在FlixGrab中频繁登录或者退出NetFlix账号，可能会导致一些问题。先排除是网络原因。重新粘贴New Paste试试看。如果一直无法下载，请考虑卸载FlixGrab。卸载之后，还需要彻底删除FlixGrab的残留文件，这特别特别特别重要，这里强调3次。卸载之后，通过使用[Everything工具](https://www.voidtools.com/)搜索电脑硬盘中所有跟FlixGrab相关的文件，全部删除干净之后再重装FlixGrab，然后再把之前的注册FlixGrab，登录NetFlix都重新操作一遍。
+
+
+
+**第三种原因**是FlixGrab出了新版本。
+
+去官方下载新版本，看看是不是跟自己的版本号一致，如果版本号高于自己安装的版本号，那就是因为NetFlix官方升级了防盗功能，原则上NetFlix官方是禁止第三方App下载它们具有版权的视频的，会不定期更新这块的漏洞，FlixGrab为了跟上奈飞官方的这种升级措施，也会跟着频繁升级。所以遇到这种无法下载的问题，请看看是否FlixGrab升级了。
 
 #### 6.1 NetFlix字幕插件
 
