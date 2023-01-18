@@ -129,7 +129,7 @@ choco install ffmpeg
 
 ![image-20230117212050766](/images/posts/image-20230117212050766.png)
 
-### 5.安装anki插件
+### 5.安装Mpv2Anki插件
 
 最后是安装插件，这个插件才是关键中的关键。anki的插件安装方式，类似于苹果手机的appstore安装软件，只需要知道插件的code，在anki的管理界面输入code即可安装，具体查看本文的第10小节：`10.我安装的插件`：[点击跳转](#jump)
 
