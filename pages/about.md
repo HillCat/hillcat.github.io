@@ -12,7 +12,7 @@ permalink: /about/
 
 ## 联系
 
-caianhua@gmail.com
+476649388#qq.com
 
 
 
