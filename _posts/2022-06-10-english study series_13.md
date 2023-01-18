@@ -140,7 +140,7 @@ choco install ffmpeg
 
 #### 5.1模板下载
 
-先下载模板，这个模板是跟这个插件配套使用的，是插件作者提供的一个模板，模板文件通过这个地址链接：[https://pan.baidu.com/s/1X0ZX_ZA-dSDJSXTxoQGNIA?pwd=ly1i](https://pan.baidu.com/s/1X0ZX_ZA-dSDJSXTxoQGNIA?pwd=ly1i ) 
+先下载模板，这个模板是跟这个插件配套使用的，模板来源于`Harry Potter (English Dub) `这个DEMO DECK，原始出处：[https://ankiweb.net/shared/info/939347702](https://ankiweb.net/shared/info/939347702)。我已经上传到百度网盘，命名为Movie.apkg。下载地址：[https://pan.baidu.com/s/1X0ZX_ZA-dSDJSXTxoQGNIA?pwd=ly1i](https://pan.baidu.com/s/1X0ZX_ZA-dSDJSXTxoQGNIA?pwd=ly1i ) 
 提取码：ly1i。先把这个模板用熟，等到熟悉之后，以后可以根据自己的需要调整。
 
 模板下载完，你会得到下面这个Movie.apkg文件，双击模板运行就自动导入anki了。
@@ -152,6 +152,8 @@ choco install ffmpeg
 在anki主界面，我们通过按快捷键`Ctrl + O`打开插件配置界面. 插件配置的首界面，有个叫做Type的选项，点击打开Type选择下拉框，弹出来Choose Note Type这个界面，如下图所示。在下拉框中我们选择“`Harry Potter and the Sorcerer's Stone（light theme）`"这个模板。如果你在上一步中没有安装那个模板，这里是看不到这个`Harry Potter and the Sorcerer's Stone（light theme）`模板的。
 
 ![F8VkgIxs8z](/images/posts/F8VkgIxs8z.png)
+
+题外话：针对于美剧，该插件作者开发了2款插件。本文介绍的这个比较中规中矩，另外一个插件是针对“Optimizing Passive Immersion: Condensed Audio”而开发的。会自动把美剧压缩为密集型的沉浸式Audio。
 
 #### 5.2字段设置
 
