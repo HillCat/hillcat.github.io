@@ -172,7 +172,7 @@ choco install ffmpeg
 
 #### 6.0 FlixGrab+
 
-FlixGrab是可以批量下载整个美剧的，如果一个美剧有8季，你只需要粘贴其中任何一集的URL就可以，等FlixGrab解析出来视频的缩略图之后，缩略图上面会出现齿轮样的设置按钮，上面有个`Paste Espisodes`选项，会把所有集的URL全部粘贴生成出来缩略图，你可以单独对这些缩略图进行设置，分别设置它们的分辨率为720P。默认是最低分辨率432P。推荐全部设置为720P。FlixGrab使用的时候要登录NetFlix Family Member成员，即:登录的时候你需要选择家庭成员子账号图标进入。如果你觉得这个方法可以，也可以分享给你自己的朋友们。如果在FlixGrab中频繁登录或者退出NetFlix账号，可能会导致一些问题，登录缓存cookie可能会存在冲突，导致无法下载视频，请重新删掉FlixGrab，重新安装。一定要彻底删除干净，具体办法是:使用[Everything工具](https://www.voidtools.com/)搜索电脑硬盘中所有跟FlixGrab相关的文件，全部删除干净之后再重装FlixGrab一般都能解决问题。
+FlixGrab是可以批量下载整个美剧的，如果一个美剧有8季，你只需要粘贴其中任何一集的URL就可以，等FlixGrab解析出来视频的缩略图之后，缩略图上面会出现齿轮样的设置按钮，上面有个`Paste Espisodes`选项，会把所有集的URL全部粘贴生成出来缩略图，你可以单独对这些缩略图进行设置，分别设置它们的分辨率为720P。默认是最低分辨率432P。推荐全部设置为720P。FlixGrab使用的时候要登录NetFlix Family Member成员，即:登录的时候你需要选择家庭成员子账号图标进入。
 
 ![POdvvjX7Wc](/images/posts/POdvvjX7Wc.png)
 
@@ -184,11 +184,19 @@ Flixgrab+是付费版本，去官方网站选择季度付费(50RMB左右)，通�
 
 ##### 6.0.1 FlixGrab+无法下载
 
+**第一种原因**是网速问题导致。
+
 常见的故障就是解析失败，提示“Engine response timeout” ,一般是网速太慢导致的。鼠标右键点击这个矩形的缩略图，菜单显示New Paste，点击New Paste就会重新粘贴并生成缩略图。新的如果重新生成了，把旧的那个删掉即可。
 
 ![fxFiovnxAY](/images/posts/fxFiovnxAY.png)
 
 ![mXkbPbVRu5](/images/posts/mXkbPbVRu5.png)
+
+
+
+**第二种原因**是NetFlix Cookie冲突导致。
+
+如果在FlixGrab中频繁登录或者退出NetFlix账号，可能会导致一些问题。这个情况一般是初次使用NetFlix登录FlixGrab软件，多次登录退出导致Cookie不一致，无意间导致的。先排除是上面第一种网络原因。重新粘贴New Paste试试看。如果一直无法下载，请考虑卸载FlixGrab。卸载之后，还需要彻底删除FlixGrab的残留文件，这特别特别特别重要，在这里强调3次。卸载之后，通过使用[Everything工具](https://www.voidtools.com/)搜索电脑硬盘中所有跟FlixGrab相关的文件，全部删除干净之后再重装FlixGrab，然后再把之前的注册FlixGrab，登录NetFlix都重新操作一遍。
 
 #### 6.1 NetFlix字幕插件
 
