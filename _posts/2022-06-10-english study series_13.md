@@ -195,7 +195,7 @@ Flixgrab+是付费版本，去官方网站选择季度付费(50RMB左右)，通�
 
 **第二种原因**是NetFlix Cookie冲突导致。
 
-如果在FlixGrab中频繁登录或者退出NetFlix账号，可能会导致一些问题。先排除是网络原因。重新粘贴New Paste试试看。如果一直无法下载，请考虑卸载FlixGrab。卸载之后，还需要彻底删除FlixGrab的残留文件，这特别特别特别重要，这里强调3次。卸载之后，通过使用[Everything工具](https://www.voidtools.com/)搜索电脑硬盘中所有跟FlixGrab相关的文件，全部删除干净之后再重装FlixGrab，然后再把之前的注册FlixGrab，登录NetFlix都重新操作一遍。
+如果在FlixGrab中频繁登录或者退出NetFlix账号，可能会导致一些问题。先排除是网络原因。重新粘贴New Paste试试看。如果一直无法下载，请考虑卸载FlixGrab。卸载之后，还需要彻底删除FlixGrab的残留文件，这特别特别特别重要，这里强调3次(我之前就踩过这个坑)。卸载之后，通过使用[Everything工具](https://www.voidtools.com/)搜索电脑硬盘中所有跟FlixGrab相关的文件，全部删除干净之后再重装FlixGrab，然后再把之前的注册FlixGrab，登录NetFlix都重新操作一遍。
 
 
 
