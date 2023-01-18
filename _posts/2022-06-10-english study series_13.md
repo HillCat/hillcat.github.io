@@ -66,7 +66,7 @@ chocolatey如何安装，文档如下：
 
 按照上面地址的文档说明，chocolate安装方式有2种，一种是通过cmd安装，一种是powershell方式安装。选择其中1种即可.这里我使用第2种方式PowerShell安装。
 
-在windows开始菜单，找到PowerShell以管理员方权限打开，粘贴并执行下面命令：
+在windows开始菜单，找到PowerShell**以管理员方打开**(如下图，鼠标右键点击PowerShell，以管理员方式打开)，粘贴并执行下面命令：
 
 ```shell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
