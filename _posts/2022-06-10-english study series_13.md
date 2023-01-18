@@ -178,8 +178,6 @@ FlixGrab是可以批量下载整个美剧的，如果一个美剧有8季，你�
 
 
 
-![PotPlayerMini64_ygvqCRi5Yo](/images/posts/PotPlayerMini64_ygvqCRi5Yo.png)
-
 ![56754546](/images/posts/56754546.gif)
 
 Flixgrab+是付费版本，去官方网站选择季度付费(50RMB左右)，通过paypal支付即可，也可以选择去淘宝找人代购，接收序列号的邮箱填写你自己的就可以，一个序列号可以绑3台电脑。多人共用更划算。
