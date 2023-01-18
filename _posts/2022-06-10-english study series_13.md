@@ -167,7 +167,7 @@ choco install ffmpeg
 
 #### 5.3 题外话
 
-题外话：该插件作者开发了2款插件。本文介绍的这个比较中规中矩，另外一个插件是针对主动沉浸式学习而开发的，英文叫做“[Optimizing Passive Immersion: Condensed Audio](https://youtu.be/QOLTeO-uCYU)”，本来一集美剧30分钟，可以压缩为一个10分钟的语音mp3，专门用来在通勤路上复习美剧用，只是用来反复听台词，它把对话部分提取了然后合成到一起，去掉了美剧中空档期那些空白，这种复习的方式，主要是锻炼听力，培养对`人物对话`的敏感度。压缩之后，复习一集美剧的时间大大降低。平时复习完卡片，没事就听这些mp3也挺好。可以极大增加我们的听力训练量。具体参考：[https://ankiweb.net/shared/info/939347702](https://ankiweb.net/shared/info/939347702)
+题外话：该插件作者开发了2款插件。本文介绍的这个比较中规中矩，另外一个插件是针对主动沉浸式学习而开发的，英文叫做“[Optimizing Passive Immersion: Condensed Audio](https://youtu.be/QOLTeO-uCYU)”，本来一集美剧30分钟，可以压缩为一个10分钟的语音mp3，专门用来在通勤路上复习美剧用，这种复习的方式，主要是锻炼听力，培养对`人物对话`的敏感度。复习一集美剧的时间大大降低。如果无法听懂大段的Podcast，可以先用美剧这种压缩mp3作为一个过渡期。具体参考：[https://ankiweb.net/shared/info/939347702](https://ankiweb.net/shared/info/939347702)
 
 ### 6.美剧视频和字幕下载
 
