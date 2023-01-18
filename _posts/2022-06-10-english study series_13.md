@@ -242,7 +242,7 @@ IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.
 
 #### 6.3 在线播放youtube视频
 
-不过，你也可以直接复制youtube视频url，直接用mpv在线播放来制卡，而不需要下载YouTube视频到本地。它利用的是youtube-dl这个中间件，边下载边播放。帆樯状态网速不稳定，很容易卡顿。一般还是建议用IDM下载到硬盘离线播放。
+不过，你也可以直接复制youtube视频url，直接用mpv在线播放来制卡，而不需要下载YouTube视频到本地。它利用的是youtube-dl这个中间件，边下载边播放。帆樯状态网速不稳定，很容易卡顿。一般还是建议用IDM下载到硬盘离线播放。如果你的线路超稳定，能看1080P,可以试试。也可以单独打开mpv播放器去播放youtube的url。把url拖拽到mpv播放器上面即可，它是支持拖拽播放的。甚至B站的视频url直接拖拽到mpv屏幕上面都能直接加载播放。
 
 ![674536545](/images/posts/674536545.gif)
 
