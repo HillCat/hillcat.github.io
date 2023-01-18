@@ -138,7 +138,7 @@ choco install ffmpeg
 
 ![srwyGARJZS](/images/posts/srwyGARJZS.png)
 
-#### 5.1模板下载
+#### 5.1 模板下载
 
 先下载模板，这个模板是跟这个插件配套使用的，模板来源于`Harry Potter (English Dub) `这个DEMO DECK，原始出处：[https://ankiweb.net/shared/info/939347702](https://ankiweb.net/shared/info/939347702)。我已经上传到百度网盘，命名为Movie.apkg。下载地址：[https://pan.baidu.com/s/1X0ZX_ZA-dSDJSXTxoQGNIA?pwd=ly1i](https://pan.baidu.com/s/1X0ZX_ZA-dSDJSXTxoQGNIA?pwd=ly1i ) 
 提取码：ly1i。先把这个模板用熟，等到熟悉之后，以后可以根据自己的需要调整。
@@ -155,7 +155,7 @@ choco install ffmpeg
 
 
 
-#### 5.2字段设置
+#### 5.2 字段设置
 
 模板选中之后，设置一个Deck，一般我会新建一个Deck专门用来保存美剧卡片，根据你自己的需要选择。我这里是保存到`Just Added`这个Deck里面。字段的配置全部按照我下图②中的配置设置就可以了，这个字段是我经过了摸索和试错得出来的，直接参考我下面字段设置即可，(右边这里的很多字段其实都是无效的)。
 
@@ -288,7 +288,7 @@ IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.
 
 顺带提一句，苹果手机的anki是收费的，体验要比安卓的好很多。
 
-#### 6.5卡片体积
+#### 6.5 卡片体积
 
 下面是1万3千张卡片的容积，达到了889M，其中美剧卡片并不多，随着美剧卡片的增多，这个体积应该还会快速增长。在上面`5.2字段设置`部分，Video字段有两个格式，一个是MP4，一个是webm都不能少，去掉mp4会影响手机上面显示视频，去掉webm会影响电脑端显示。这种卡片做出来的体积还是比较占空间的。好在anki官方对于这块并没有容量的限制。所以对于视频卡片而言，不用太过担心体积膨胀。
 
@@ -347,7 +347,7 @@ mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-pl
 
 这个anki插件制作视频卡片的快捷键是`B键`，默认是自动分析台词截取视频和音频。如果你自定义截取起始位置和截止位置，就需要按 W键 、E键，分别表示截取的起始位置和截止位置，然后再按B键制卡，它就会根据你指定的起始位置和截止位置来截取视频和音频，包括台词。更多的操作，请自行阅读插件文档：[https://ankiweb.net/shared/info/1213145732](https://ankiweb.net/shared/info/1213145732)，如果具备二次开发能力的话，甚至还可以在这个插件的基础上，自行修改Lua脚本，实现一些自定义的功能。由于篇幅受限，这里不作细究，总之这里的想象空间还是很大的。
 
-#### 8.1游戏手柄
+#### 8.1 游戏手柄
 
 甚至你觉得这样子用快捷键不爽，可以使用游戏手柄(北通牌的手柄，把震动马达的排线拆掉使用，因为`北通手柄`开机的时候都会震动,我都是用螺丝刀拆开手柄，把震动马达的排线拔掉的)，手柄键映射到键盘组合键上，这样子就不需要那么累。游戏手柄采用USB那种，映射软件使用:[https://github.com/AntiMicroX/antimicrox](https://github.com/AntiMicroX/antimicrox)，之前阅读有声书和原版书的时候，我复习anki卡片就是使用游戏手柄，这个映射软件可以把2个组合键，映射手柄上的1个键。还是比较省力的。超过1000张卡要复习，用手柄会很快。当你遇到这个问题的时候，希望可以想到还有这么个方法。
 
@@ -379,7 +379,7 @@ Enjoy it！
 
 ![B4Qu9F1ZcL](/images/posts/B4Qu9F1ZcL.png)
 
-#### 10.1插件列表
+#### 10.1 插件列表
 
 下面这里为了方便，我已经准备好了17个插件的Code，可以直接拿过去使用：
 
