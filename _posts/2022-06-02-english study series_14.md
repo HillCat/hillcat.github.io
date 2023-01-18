@@ -17,9 +17,9 @@ typora-root-url: ../
 
 ### youtube字幕问题
 
-在我本博客English板块第13篇文章里面，介绍了anki用来学习美剧的方法。其中有个问题，就是美剧无法解决20分钟这种不间歇口语表达的问题，一般的解决思路就是去youtube寻找一个母语者去模仿。但是在我们模仿这个母语者的过程中，我们如果要做笔记，放到手机上面复习，有点难实现。主要的困难在于youtube采用了Google自己的字幕标准，导出来的字幕格式和NetFlix那种不一样，导致我们使用mpv2anki制作视频卡片的时候，是没办法针对youtube的视频的。在github中存在一个python项目，就是专门针对youtube生成字幕的。
+在我本博客English板块[第13篇文章](https://cs-cn.top/2022/06/10/english-study-series_13/)里面，介绍了anki用来学习美剧的方法。其中有个问题，就是美剧无法解决20分钟这种不间歇口语表达的问题，一般的解决思路就是去youtube寻找一个母语者去模仿。但是在我们模仿这个母语者的过程中，我们如果要做笔记，放到手机上面复习，有点难实现。主要的困难在于youtube采用了Google自己的字幕标准，导出来的字幕格式和NetFlix那种不一样，导致我们使用mpv2anki制作视频卡片的时候，是没办法针对youtube的视频的。在github中存在一个python项目，就是专门针对youtube生成字幕的。
 
 [https://github.com/m1guelpf/yt-whisper](https://github.com/m1guelpf/yt-whisper)
 
-使用这个工具如果能够生成兼容性更好的字幕，那么问题就迎刃而解了。如果它生成出来的英文字幕，可以完美兼容mpv2anki插件，那么English板块第13篇介绍的那个方法就可以无缝用在youtube视频上面。
+使用这个工具如果能够生成兼容性更好的字幕，那么问题就迎刃而解了。如果它生成出来的英文字幕，可以完美兼容mpv2anki插件，那么English板块[第13篇](https://cs-cn.top/2022/06/10/english-study-series_13/)介绍的那个方法就可以无缝用在youtube视频上面。
 
