@@ -153,7 +153,7 @@ choco install ffmpeg
 
 ![F8VkgIxs8z](/images/posts/F8VkgIxs8z.png)
 
-题外话：针对于美剧，该插件作者开发了2款插件。本文介绍的这个比较中规中矩，另外一个插件是针对“Optimizing Passive Immersion: Condensed Audio”而开发的。会自动把美剧压缩为密集型的沉浸式Audio。
+题外话：针对于美剧，该插件作者开发了2款插件。本文介绍的这个比较中规中矩，另外一个插件是针对主动沉浸式学习语言而开发的，英文叫做“Optimizing Passive Immersion: Condensed Audio”，会自动把美剧压缩为密集的语音和影像，去掉美剧中没有台词的空隙部分。那个不是本文涉及的话题，在此不做讨论。
 
 #### 5.2字段设置
 
