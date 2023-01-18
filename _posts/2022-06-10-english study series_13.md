@@ -74,7 +74,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ![KUGatcqZKF](/images/posts/KUGatcqZKF.png)
 
-很多人打开这个Windows PoerShell的时候不是以管理员权限打开的，会报下面错误：它会提示你 `default folder requires Administrative permissions`. 意思是说”默认文件夹需要管理员权限“。你需要按照我上面说的那样子，以管理员权限打开windows PowerShell。具体操作是，找到powershell，鼠标右键，会出现”以管理员方式运行“，点击，让它以管理员方式运行就可以了。期间有人出现过这个情况，这让我不得不把这个文章尽量详细写出来。可能对于一些程序员朋友觉得有点冗余，对于不太懂程序的，有些细节就会被难住。
+很多人打开这个Windows PowerShell的时候不是以管理员权限打开的，会报下面错误：它会提示你 `default folder requires Administrative permissions`. 意思是说”默认文件夹需要管理员权限“。你需要按照我上面说的那样子，以管理员权限打开windows PowerShell。具体操作是，找到powershell，鼠标右键，会出现”以管理员方式运行“，点击，让它以管理员方式运行就可以了。期间有人出现过这个情况，这让我不得不把这个文章尽量详细写出来。可能对于一些程序员朋友觉得有点冗余，对于不太懂程序的，有些细节就会被难住。
 
 ![tACkzhrojS](/images/posts/tACkzhrojS.png)
 
