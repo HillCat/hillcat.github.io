@@ -249,7 +249,7 @@ IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.
 
 ![674536545](/images/posts/674536545.gif)
 
-#### 6.4 快速标记字体颜色
+#### 6.4 卡片字体颜色
 
 编辑卡片的时候，不同的生词标记不同的颜色，使用[Quick Colour Changing](https://ankiweb.net/shared/info/2491935955)这个anki插件，能快速标记文字颜色，突出学习重点。我的Quick Colour Changing插件设置如下:  Alt+4 是标记蓝色，Alt+5是标记橘黄色，Alt+6是标记橙红色。它这个插件的配置文本是Json格式，如果要增加其他快捷键和颜色，增加keys的数组项即可。这也是一个`提升幸福指数`的工具，让做笔记更轻松。如果要截图，使用[sharex](https://getsharex.com/)，这个工具截图之后可以直接粘贴,关于sharex，我之前的英语系列文章有提到过，可以在我博客右侧边栏Tag中点击English分类，里面有个标题提到了Sharex，那篇文章中有一个sharex的配置，直接导入即可使用。
 
@@ -284,7 +284,7 @@ IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.
 
 #### 6.5卡片体积
 
-下面是1万3千张卡片的容积，达到了889M，其中美剧卡片并不多，随着美剧卡片的增多，这个体积应该还会快速增长。好在anki官方对于这块并没有容量的限制。所以对于视频卡片而言，不用太过担心体积膨胀。
+下面是1万3千张卡片的容积，达到了889M，其中美剧卡片并不多，随着美剧卡片的增多，这个体积应该还会快速增长。在上面`5.2字段设置`部分，Video字段有两个格式，一个是MP4，一个是webm都不能少，去掉mp4会影响手机上面显示视频，去掉webm会影响电脑端显示。这种卡片做出来的体积还是比较占空间的。好在anki官方对于这块并没有容量的限制。所以对于视频卡片而言，不用太过担心体积膨胀。
 
 ![chrome_hmkXyBovm9](/images/posts/chrome_hmkXyBovm9.png)
 
