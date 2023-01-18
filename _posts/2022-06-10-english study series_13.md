@@ -48,7 +48,7 @@ Anki+Mpv这种视频制卡的方式是一个不错的进入美剧学习的`起�
 
 1.樯的问题(肉身在樯内，时刻享受着Great Fire Wall特殊照顾的这群人)。大部分人使用的是windows端开启代理app方式帆樯，这种模式可能无法完全代理PowerShell或cmd的这种命令行工具，它们可能还是会走国内线路，导致安装失败。如果遇到这种情况，可能需要设置chocolatey的国内镜像源，这个需要自行百度/google解决。如果你是用软路由方式帆樯(强烈推荐用这种方式)，基本就不存在这个问题，因为软路由如果配置了自动分流规则，会自动接管powershell和cmd这种命令行的国外流量，以及IDM下载的时候，都不需要对代理进行额外设置，家里所有设备只要连接wifi的都可以直接访问google，比较省事，不需要每台设备都去配置帆樯app。想要打造稳定的英文学习环境，推荐用这种方式。
 
-2.系统完整性导致的问题。如果系统是Ghost版本电脑城快速装机的那种，可能会存在某些组件缺失，需要重装系统。(尽量安装[微软官方镜像iso文件](https://www.microsoft.com/zh-cn/software-download/windows10)刻录的windows系统，激活码在[淘宝10元店](https://s.taobao.com/search?q=windows%E6%BF%80%E6%B4%BB&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.jianhua.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306)有售)。
+2.系统完整性导致的问题。如果系统是Ghost版本电脑城快速装机的那种，可能会存在某些组件缺失，需要重装系统，这个概率应该比较小，大部分人的windows应该都不是删减版，如果非得重装，尽量安装[微软官方镜像iso文件](https://www.microsoft.com/zh-cn/software-download/windows10)刻录的windows系统，激活码在[淘宝10元店](https://s.taobao.com/search?q=windows%E6%BF%80%E6%B4%BB&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.jianhua.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306)有售。
 
 3.系统无法以管理员权限运行PowerShell，一般都是因为登录系统使用的是普通权限的账号，如果能够以Administrator缺省账号登录，就尽量用这个账号登陆吧。正常系统，windows 10 专业版，普通的账号登录，都是可以开启管理员权限运行PowerShell的。也有可能你安装的是家庭版windows 10，可能会有这个问题。
 
