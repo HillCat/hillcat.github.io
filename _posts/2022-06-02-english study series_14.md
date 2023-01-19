@@ -189,7 +189,7 @@ yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 ### 9.注意事项
 
-如果是结合anki +mvp制作视频卡mpv2anki插件，mkv格式的视频无法截取mp4，需要用格式工厂转换。
+如果是结合anki +mvp制作视频卡mpv2anki插件，mkv格式的视频无法截取mp4，需要用格式工厂转换mkv为mp4格式，如果其他格式视频不是mp4的，建议都转为mp4。
 
 ![FormatFactory_l4jIIT6Xzx](/images/posts/FormatFactory_l4jIIT6Xzx.png)
 
