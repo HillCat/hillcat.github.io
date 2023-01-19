@@ -73,17 +73,17 @@ python -m venv C:\Users\47664\venv
 
 ![swv9F06BMY](/images/posts/swv9F06BMY.png)
 
-最好的办法就是先复制Scripts文件夹所在位置的路径：如下，复制这个Scripts所在位置的整个路径全部复制下来，`C:\Users\47664\venv\Scripts`,记得把47664替换为你自己的用户账户名。其实就是直接找你的那个Scripts目录复制即可，没有什么替换不替换的，直接复制你自己的Scripts路径，你自己实际路径是什么就复制什么。去找C盘下面的用户目录进入，然后找到自己当前登录的用户名，再进入，然后找到你上面创建的那个venv文件夹，再进入到Scripts目录，复制这个路径。
+最好的办法就是先复制Scripts文件夹所在位置的路径：如下，复制这个Scripts所在位置的整个路径全部复制下来，`C:\Users\47664\venv\Scripts`,其实就是直接找你电脑里面C盘的那个Scripts目录复制即可，直接复制你自己的Scripts路径，你自己实际路径是什么就复制什么。Scripts目录如下：去找C盘下面的用户目录进入，然后找到自己当前登录的用户名，再进入那个venv文件夹，就能看到Scripts目录，复制整个这个路径。
 
 ![xIlXKqcgh9](/images/posts/xIlXKqcgh9.png)
 
-然后执行下面这个指令，把路径切换到这个目录:切记，这里不要用PowerShell, 用cmd黑框，以管理员方式打开cmd。切换目录的指令如下，这个Scripts目录，你去自己的C盘复制即可，
+然后把路径切换到这个Scripts目录:切记，这里不要用PowerShell, 用cmd黑框，以管理员方式打开cmd。切换目录的指令如下，cd 就是change direct改变路径的缩写，后面带上你复制的自己的Script整个路径，
 
 ```shell
 cd C:\Users\47664\venv\Scripts
 ```
 
-如下，这样子就切换目录到了Scripts下面了，
+如下，这样子就切换目录到了Scripts下面了，这么切换目录的原因是我们的bat文件在这个目录里面，开启python虚拟环境要用这个。
 
 ![cmd_INHW2y2cj1](/images/posts/cmd_INHW2y2cj1.png)
 
