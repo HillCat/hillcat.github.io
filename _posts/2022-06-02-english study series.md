@@ -7,7 +7,7 @@ keywords: English
 typora-root-url: ../
 ---
 
-这个AI生成youtube英文字幕是基于OpenAi公司的Whisper库。不过Whisper库更新很快，yt-whisper一直有报错。需要自行修改初始化脚本安装。
+这个AI生成youtube英文字幕是基于OpenAi公司的Whisper库。OpenAI公司的Whisper库更新很快，但是yt-whisper脚本的跟新相对滞后，导致setup.py执行的时候一直有报错。fork并修改脚本，使用自己github的地址安装即可解决yt-whisper装不上去的问题。
 
 [https://github.com/m1guelpf/yt-whisper](https://github.com/m1guelpf/yt-whisper)
 
