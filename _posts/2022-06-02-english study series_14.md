@@ -183,9 +183,18 @@ yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 以上就是日常使用yt_whisper生成youtube AI字幕的常规操作。输出的字幕文件会生成到Scripts目录中。
 
+#### 8.1 指定保存路径
+
+```shell
+yt_whisper "https://www.youtube.com/watch?v=9NqthBLHBDg&ab_channel=IAmTimCorey" --output_dir C:\Users\47664\Downloads\video
+```
+
+因为IDM工具下载youtube视频默认会保存到windows系统的C盘的Downloads下面的video文件夹，所以使用yt_whisper生成字幕的时候，建议按照上面的例子，指定一个`output_dir`参数带上目标地址。我这里是把输出的字幕指定到了`C:\Users\47664\Downloads\video`文件里。你可以保存这个例子，修改对应的路径和url，每次下载的时候使用这个保存的模板即可。
+
 ### 9.注意事项
 
-如果是结合anki +mvp制作视频卡mpv2anki插件，mkv格式的视频无法截取mp4，需要用格式工厂转换mkv为mp4格式，如果其他格式视频不是mp4的，建议都转为mp4。
+1.mkv格式的视频无法被anki的mpv2anki插件截取，需要用格式工厂转换mkv为mp4格式，如果其他格式视频不是mp4的，建议都转为mp4。
 
 ![FormatFactory_l4jIIT6Xzx](/images/posts/FormatFactory_l4jIIT6Xzx.png)
 
+2.yt_whisper输出的字幕文件名和视频名不一致，使用的时候修改为一致即可。
