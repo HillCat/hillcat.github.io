@@ -347,7 +347,27 @@ mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-pl
 
 这个快捷键的PDF文件，可以在上面这个网址可以下载到。
 
+#### 7.2 播放器字体放大和缩小
 
+快捷键 win + R ，输入如下指令，快速进入mpv配置文件夹
+
+```shell
+%appdata%\mpv
+```
+
+进入到mpv播放器配置文件夹，创建input.conf文件，写入内容：
+
+```shell
+# increase subtitle font size
+ALT+k add sub-scale +0.1
+
+# decrease subtitle font size
+ALT+j add sub-scale -0.1
+```
+
+保存之后，退出mpv播放器，重新打开mpv播放器，即可使用快捷键Alt + j减小字幕，Alt + K 增大字幕。
+
+![explorer_IQgamd3KWJ](/images/posts/explorer_IQgamd3KWJ.png)
 
 ### 8.mpv快捷键
 
