@@ -47,31 +47,75 @@ python -m pip install -U pip
 python -m pip install -U yt-dlp
 ```
 
-然后安装whisper:
+
+
+创建python虚拟环境：
+
+创建python虚拟环境，参考视频：[https://www.youtube.com/watch?v=HSVjz4FPKzM&t=67s&ab_channel=cmoorelabs](https://www.youtube.com/watch?v=HSVjz4FPKzM&t=67s&ab_channel=cmoorelabs)
+
+这个视频只是作为一个参考，我这里说明下，这里要创建python虚拟环境的原因，因为OpenAi这个whisper需要运行在python环境下面，要有个虚拟环境。
+
+创建虚拟机环境之前，先要知道你自己的当前账户名，如果你是Administrator登录的，那么要把下面的YourAccountName替换为Administrator。比如我当前电脑的用户账户是47664.我会在这个路径下面先创建一个venv文件夹，如下：
+
+![OelKR2H5xT](/images/posts/OelKR2H5xT.png)
+
+然后根据我电脑账户路径，执行下面的指令，它会往我的这个文件夹下面写入很多python文件：
+
+```shell
+python -m venv C:\Users\47664\venv
+```
+
+执行上面这个指令的时候，记得把47664替换为你自己的电脑登录账户。执行完上面指令，会发现这个文件夹多了很多文件：
+
+![explorer_8zuIuHD57x](/images/posts/explorer_8zuIuHD57x.png)
+
+最为关键的一步来了，千万别弄错了：我们需要在命令行中去执行这个activate.bat程序，怎么做呢？
+
+![swv9F06BMY](/images/posts/swv9F06BMY.png)
+
+最好的办法就是先复制这个路径：如下，复制这个Scripts，整个路径全部复制下来，`C:\Users\47664\venv\Scripts`,记得把47664替换为你自己的用户账户名。
+
+![xIlXKqcgh9](/images/posts/xIlXKqcgh9.png)
+
+然后执行下面这个指令，把路径切换到这个目录:
+
+```shell
+cd C:\Users\47664\venv\Scripts
+```
+
+如下，这样子就切换目录到了Scripts下面了，
+
+![cmd_INHW2y2cj1](/images/posts/cmd_INHW2y2cj1.png)
+
+直接输入：
+
+```shell
+activate.bat
+```
+
+回车执行，如果一次不行，同样输入activate.bat执行一次，知道看到有个(venv)的小括号出现，如下：前面带了这个(venv),就表示你进入了python虚拟机环境:
+
+![cmd_cGtW04Fz9Y](/images/posts/cmd_cGtW04Fz9Y.png)
+
+已经进入python虚拟环境了，我们安装OpenAi公司的whisper库：
 
 ```shell
 pip install git+https://github.com/openai/whisper.git -q
 ```
 
-然后安装mmpeg:
+这个库的体积很大，安装文件可能达到2GB，耐心等待安装完成。安装完成whisper之后，
 
-```shell
-choco install ffmpeg
-```
-
-最后安装yt-whisper:
+安装yt-whisper:
 
 ```shell
 pip install git+https://github.com/HillCat/yt-whisper.git
 ```
 
-全部安装完毕之后，就可以使用yt-whisper去生成youtube视频的字幕了
-
-使用方式，参考：[https://github.com/m1guelpf/yt-whisper](https://github.com/m1guelpf/yt-whisper)
 
 
+全部安装完毕之后，就可以使用yt-whisper去生成youtube视频的字幕了，先不用急着去找youtube视频链接，这里的指令我们先执行，测试下yt_whisper指令是否正常能够生成字幕。
 
-找到你想要自动生成字幕的youtube链接地址，复制，使用yt-whisper 加上双引号，里面写上你要转AI字幕的视频的地址即可，如下格式：
+执行下面指令，测试yt_whisper功能：
 
 ```shell
 yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -82,3 +126,16 @@ yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 ![cmd_f02JOb0vMR](/images/posts/cmd_f02JOb0vMR.png)
 
 转换过程CPU会100%拉满，期间就不要做其他事情了，静静等待即可，防止电脑卡死。AI在电脑生成字幕的时间和速度，除了跟你视频长度有关系，还有跟你电脑CPU配置也有关系。生成完成之后，这个控制台会显示，生成的vtt格式的字幕在你电脑硬盘的路径，根据路径过去拿这个字幕即可。
+
+
+
+以后我们就可以正常使用yt_whisper指令了，使用方式，参考：[https://github.com/m1guelpf/yt-whisper](https://github.com/m1guelpf/yt-whisper)
+
+找到你想要自动生成字幕的youtube链接地址，复制，使用yt-whisper 加上双引号，里面写上你要转AI字幕的视频的地址即可，如下格式：
+
+```shell
+yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+```
+
+每次使用的时候，如果你电脑重启过，或者关闭过python虚拟环境，可能需要再次进入python虚拟机环境，才能执行这个AI程序，进入python虚拟环境的方式，参考上面的步骤即可。
+
