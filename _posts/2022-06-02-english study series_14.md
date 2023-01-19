@@ -69,11 +69,11 @@ python -m venv C:\Users\47664\venv
 
 ![explorer_8zuIuHD57x](/images/posts/explorer_8zuIuHD57x.png)
 
-最为关键的一步来了，千万别弄错了：我们需要在命令行中去执行这个activate.bat程序，怎么做呢？
+最为关键的一步来了，千万别弄错了：我们需要在命令行中去执行这个activate.bat程序,目的是为了开启python虚拟化环境，怎么做呢？
 
 ![swv9F06BMY](/images/posts/swv9F06BMY.png)
 
-最好的办法就是先复制这个路径：如下，复制这个Scripts，整个路径全部复制下来，`C:\Users\47664\venv\Scripts`,记得把47664替换为你自己的用户账户名。其实就是直接去找你的那个目录复制即可，不需要手动替换，你自己实际路径是什么就复制什么。去找C盘下面的用户目录进入，然后找到自己当前登录的用户名，再进入，然后找到你上面创建的那个venv文件夹，再进入到Scripts目录，复制这个路径。
+最好的办法就是先复制Scripts文件夹所在位置的路径：如下，复制这个Scripts所在位置的整个路径全部复制下来，`C:\Users\47664\venv\Scripts`,记得把47664替换为你自己的用户账户名。其实就是直接找你的那个Scripts目录复制即可，没有什么替换不替换的，直接复制你自己的Scripts路径，你自己实际路径是什么就复制什么。去找C盘下面的用户目录进入，然后找到自己当前登录的用户名，再进入，然后找到你上面创建的那个venv文件夹，再进入到Scripts目录，复制这个路径。
 
 ![xIlXKqcgh9](/images/posts/xIlXKqcgh9.png)
 
