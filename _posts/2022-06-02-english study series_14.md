@@ -186,3 +186,10 @@ yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 ![cmd_AcxT2WrrE5](/images/posts/cmd_AcxT2WrrE5.png)
 
 以上就是日常使用yt_whisper生成youtube AI字幕的常规操作。输出的字幕文件会生成到Scripts目录中。
+
+### 9.注意事项
+
+如果是结合anki +mvp制作视频卡mpv2anki插件，mkv格式的视频无法截取mp4，需要用格式工厂转换。
+
+![FormatFactory_l4jIIT6Xzx](/images/posts/FormatFactory_l4jIIT6Xzx.png)
+
