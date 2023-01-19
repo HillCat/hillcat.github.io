@@ -9,13 +9,13 @@ typora-root-url: ../
 
 
 
-### 美剧卡片对口语输出的作用
+## 美剧卡片对口语输出的作用
 
 这些卡片，之后可以用来做口语输出造句的时候用得上，比如，我记不起来“改天”这个词怎么造句了，可以掏出手机，打开anki，在视频卡片中搜索到“改天”这个中文，就会搜到之前制作过的卡片，查到这个卡片，就能查到视频场景，和以前做过的笔记。并且很快能够模仿出来。如果看过大量的美剧，或者youtube，积累了大量的口语句型或者短语，在要造句的时候想不起来，就可以通过中文来搜索。后期，我们写作或者口语输出训练的时候，就可以利用上这些笔记和卡片，查找起来也方便。慢慢的，这些卡片就会转化被我们吸收，成为输出语料。
 
 ![7778899555](/images/posts/7778899555.gif)
 
-### youtube字幕问题
+## youtube字幕问题
 
 在我本博客English板块[第13篇文章](https://cs-cn.top/2022/06/10/english-study-series_13/)里面，介绍了anki用来学习美剧的方法。其中有个问题，就是美剧无法解决20分钟这种不间歇口语表达的问题，一般的解决思路就是去youtube寻找一个母语者去模仿。但是在我们模仿这个母语者的过程中，我们如果要做笔记，放到手机上面复习，有点难实现。主要的困难在于youtube采用了Google自己的字幕标准，导出来的字幕格式和NetFlix那种不一样，导致我们使用mpv2anki制作视频卡片的时候，是没办法针对youtube的视频的。在github中存在一个python项目，就是专门针对youtube生成字幕的。这个AI生成youtube英文字幕是基于OpenAi公司的Whisper库。不过Whisper库更新很快，yt-whisper一直有报错。
 
@@ -25,9 +25,11 @@ typora-root-url: ../
 
 
 
-### yt-whisper在windows10安装过程
+## yt-whisper在windows10安装过程
 
 首先确保你的windows10电脑已经安装了chocolatey这个软件包管理工具。如果不清楚怎么安装的，可以看我English系列的第13篇文章，里面有详细介绍怎么安装chocolatey. 有了这个chocolatey之后，安装其他工具就会方便很多。
+
+### 1.安装python环境
 
 我们需要给windows10安装python3.执行下面语句：不要使用默认指令`choco install python`，默认指令会安装python3的最新版本，后面安装whisper会提示版本过高安装不了。这里安装python3.9版本即可。
 
@@ -47,7 +49,7 @@ python -m pip install -U pip
 python -m pip install -U yt-dlp
 ```
 
-
+### 2.创建Python虚拟环境
 
 创建python虚拟环境：
 
@@ -68,6 +70,8 @@ python -m venv C:\Users\47664\venv
 执行上面这个指令的时候，记得把47664替换为你自己的电脑登录账户。执行完上面指令，会发现这个文件夹多了很多文件：
 
 ![explorer_8zuIuHD57x](/images/posts/explorer_8zuIuHD57x.png)
+
+### 3.启动python虚拟环境
 
 最为关键的一步来了，千万别弄错了：我们需要在命令行中去执行这个activate.bat程序,目的是为了开启python虚拟化环境，怎么做呢？
 
@@ -99,6 +103,8 @@ activate.bat
 
 已经进入python虚拟环境了，黑框cmd不要退出，我们这个时候先去安装一个git环境，
 
+### 4.安装git环境
+
 下载git安装文件exe：去到git官网：[https://git-scm.com/](https://git-scm.com/)，如下图，点击那个Download for Windows，下载git的安装文件：
 
 ![fc6kv4lUYs](/images/posts/fc6kv4lUYs.png)
@@ -113,6 +119,8 @@ activate.bat
 
 ![cmd_cGtW04Fz9Y](/images/posts/cmd_cGtW04Fz9Y.png)
 
+### 5.安装whisper
+
 再执行下面，安装whisper库：
 
 我们安装OpenAi公司的whisper库：
@@ -123,7 +131,7 @@ pip install git+https://github.com/openai/whisper.git
 
 这个库的体积很大，安装文件可能达到2GB，耐心等待安装完成。安装完成whisper之后，
 
-安装yt-whisper:
+### 6.安装yt-whisper
 
 ```shell
 pip install git+https://github.com/m1guelpf/yt-whisper.git
@@ -132,6 +140,8 @@ pip install git+https://github.com/m1guelpf/yt-whisper.git
 
 
 全部安装完毕之后，就可以使用yt-whisper去生成youtube视频的字幕了，先不用急着去找youtube视频链接，这里的指令我们先执行，测试下yt_whisper指令是否正常能够生成字幕。
+
+### 7.测试yt_whisper
 
 执行下面指令，测试yt_whisper功能：
 
@@ -157,3 +167,22 @@ yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 每次使用的时候，如果你电脑重启过，或者关闭过python虚拟环境，可能需要再次进入python虚拟机环境，才能执行这个AI程序，进入python虚拟环境的方式，参考上面的步骤即可。
 
+### 8.日常使用yt_whisper
+
+日常使用yt_whisper指令生成youtube字幕，最简单办法是：
+
+第一步:进入到`venv\Scripts`目录下面，这个文件夹有activate.bat这个文件，如下：
+
+![88TWZswyfY](/images/posts/88TWZswyfY.png)
+
+第二步：在当前Script目录，地址栏中输入cmd直接回车，可以快速打开cmd控制面板会自动停留在当前路径中，然后直接输入activate.bat启动python虚拟环境。
+
+![95346dgfdgdg](/images/posts/95346dgfdgdg.gif)
+
+
+
+第三步：如下图，输入yt_whisper 空格 加上双引号，带上youtube视频URL地址回车即可开始生成AI字幕文件。
+
+![cmd_AcxT2WrrE5](/images/posts/cmd_AcxT2WrrE5.png)
+
+以上就是日常使用yt_whisper生成youtube AI字幕的常规操作。输出的字幕文件会生成到Scripts目录中。
