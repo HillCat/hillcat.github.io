@@ -32,7 +32,7 @@ typora-root-url: ../
 我们需要给windows10安装python3.执行下面语句：
 
 ```shell
-choco install python
+choco install python38
 ```
 
 然后安装pip, 因为python3自带了pip，所以这里只是升级一下pip：
