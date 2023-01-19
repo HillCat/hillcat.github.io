@@ -97,7 +97,17 @@ activate.bat
 
 ![cmd_cGtW04Fz9Y](/images/posts/cmd_cGtW04Fz9Y.png)
 
-已经进入python虚拟环境了，我们安装OpenAi公司的whisper库：
+已经进入python虚拟环境了，黑框cmd不要退出，我们这个时候先去安装一个git环境，
+
+下载git安装文件exe：去到git官网：[https://git-scm.com/](https://git-scm.com/)，如下图，点击那个Download for Windows，下载git的安装文件：
+
+![fc6kv4lUYs](/images/posts/fc6kv4lUYs.png)
+
+下载下来，就跟我们以前安装exe文件一样，直接下一步，下一步，下一步，直到安装完成。
+
+我们回到黑框cmd环境，继续操作，安装whisper库：如果提示报错，那么就退出cmd黑框，重新以管理员方式运行cmd，重新按照上面步骤，开启python虚拟环境。开启之后，再执行下面，安装whisper库：
+
+我们安装OpenAi公司的whisper库：
 
 ```shell
 pip install git+https://github.com/openai/whisper.git -q
