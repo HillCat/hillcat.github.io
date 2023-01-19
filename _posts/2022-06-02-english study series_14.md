@@ -93,7 +93,7 @@ cd C:\Users\47664\venv\Scripts
 activate.bat
 ```
 
-回车执行，如果一次不行，同样输入activate.bat执行一次，知道看到有个(venv)的小括号出现，如下：前面带了这个(venv),就表示你进入了python虚拟机环境:
+回车执行，如果一次不行，同样输入activate.bat执行一次，直到看到有个(venv)的小括号出现，如下：前面带了这个(venv),就表示你进入了python虚拟机环境:
 
 ![cmd_cGtW04Fz9Y](/images/posts/cmd_cGtW04Fz9Y.png)
 
