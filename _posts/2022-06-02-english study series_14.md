@@ -17,6 +17,22 @@ typora-root-url: ../
 
 [https://github.com/m1guelpf/yt-whisper](https://github.com/m1guelpf/yt-whisper)
 
+### 修改并fork脚本
+
+setup.py中的
+
+```shell
+whisper @ git+https://github.com/openai/whisper.git@main#egg=whisper
+```
+
+改为
+
+```shell
+openai-whisper @ git+https://github.com/openai/whisper.git@main#egg=openai-whisper
+```
+
+fork官方这个仓库，修改了这个setup.py之后，使用你自己的github仓库地址安装yt_whisper.
+
 使用这个工具如果能够生成兼容性更好的字幕，那么问题就迎刃而解了。它生成出来的英文字幕，可以完美兼容mpv2anki插件，那么English板块[第13篇](https://cs-cn.top/2022/06/10/english-study-series_13/)介绍的那个方法就可以无缝用在youtube视频上面。
 
 
@@ -132,8 +148,6 @@ pip install git+https://github.com/openai/whisper.git
 ```shell
 pip install git+https://github.com/m1guelpf/yt-whisper.git
 ```
-
-
 
 全部安装完毕之后，就可以使用yt-whisper去生成youtube视频的字幕了，先不用急着去找youtube视频链接，这里的指令我们先执行，测试下yt_whisper指令是否正常能够生成字幕。
 
