@@ -73,7 +73,7 @@ python -m venv C:\Users\47664\venv
 
 ![swv9F06BMY](/images/posts/swv9F06BMY.png)
 
-最好的办法就是先复制这个路径：如下，复制这个Scripts，整个路径全部复制下来，`C:\Users\47664\venv\Scripts`,记得把47664替换为你自己的用户账户名。
+最好的办法就是先复制这个路径：如下，复制这个Scripts，整个路径全部复制下来，`C:\Users\47664\venv\Scripts`,记得把47664替换为你自己的用户账户名。其实就是直接去找你的那个目录复制即可，不需要手动替换，你自己实际路径是什么就复制什么。去找C盘下面的用户目录进入，然后找到自己当前登录的用户名，再进入，然后找到你上面创建的那个venv文件夹，再进入到Scripts目录，复制这个路径。
 
 ![xIlXKqcgh9](/images/posts/xIlXKqcgh9.png)
 
