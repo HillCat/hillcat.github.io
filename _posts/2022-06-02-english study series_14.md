@@ -118,7 +118,7 @@ activate.bat
 我们安装OpenAi公司的whisper库：
 
 ```shell
-pip install git+https://github.com/openai/whisper.git -q
+pip install git+https://github.com/openai/whisper.git
 ```
 
 这个库的体积很大，安装文件可能达到2GB，耐心等待安装完成。安装完成whisper之后，
