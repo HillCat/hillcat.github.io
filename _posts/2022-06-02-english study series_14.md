@@ -9,25 +9,21 @@ typora-root-url: ../
 
 
 
-## 美剧卡片对口语输出的作用
-
-这些卡片，之后可以用来做口语输出造句的时候用得上，比如，我记不起来“改天”这个词怎么造句了，可以掏出手机，打开anki，在视频卡片中搜索到“改天”这个中文，就会搜到之前制作过的卡片，查到这个卡片，就能查到视频场景，和以前做过的笔记。并且很快能够模仿出来。如果看过大量的美剧，或者youtube，积累了大量的口语句型或者短语，在要造句的时候想不起来，就可以通过中文来搜索。后期，我们写作或者口语输出训练的时候，就可以利用上这些笔记和卡片，查找起来也方便。慢慢的，这些卡片就会转化被我们吸收，成为输出语料。
-
-![7778899555](/images/posts/7778899555.gif)
+## 美剧卡片
 
 ## youtube字幕问题
 
-在我本博客English板块[第13篇文章](https://cs-cn.top/2022/06/10/english-study-series_13/)里面，介绍了anki用来学习美剧的方法。其中有个问题，就是美剧无法解决20分钟这种不间歇口语表达的问题，一般的解决思路就是去youtube寻找一个母语者去模仿。但是在我们模仿这个母语者的过程中，我们如果要做笔记，放到手机上面复习，有点难实现。主要的困难在于youtube采用了Google自己的字幕标准，导出来的字幕格式和NetFlix那种不一样，导致我们使用mpv2anki制作视频卡片的时候，是没办法针对youtube的视频的。在github中存在一个python项目，就是专门针对youtube生成字幕的。这个AI生成youtube英文字幕是基于OpenAi公司的Whisper库。不过Whisper库更新很快，yt-whisper一直有报错。
+在我本博客English板块[第13篇文章](https://cs-cn.top/2022/06/10/english-study-series_13/)里面，介绍了anki用来学习美剧的方法。其中有个问题，就是美剧无法解决20分钟这种不间歇口语表达的问题，一般的解决思路就是去youtube寻找一个母语者去模仿。但是在我们模仿这个母语者的过程中，我们如果要做笔记，放到手机上面复习，有点难实现。主要的困难在于youtube采用了Google自己的字幕标准，导出来的字幕格式和NetFlix那种不一样，导致我们使用mpv2anki制作视频卡片的时候，是没办法针对youtube的视频的。在github中存在一个python项目，就是专门针对youtube生成字幕的。这个AI生成youtube英文字幕是基于OpenAi公司的Whisper库。不过Whisper库更新很快，yt-whisper一直有报错。需要自行修改初始化脚本安装。
 
 [https://github.com/m1guelpf/yt-whisper](https://github.com/m1guelpf/yt-whisper)
 
-使用这个工具如果能够生成兼容性更好的字幕，那么问题就迎刃而解了。如果它生成出来的英文字幕，可以完美兼容mpv2anki插件，那么English板块[第13篇](https://cs-cn.top/2022/06/10/english-study-series_13/)介绍的那个方法就可以无缝用在youtube视频上面。
+使用这个工具如果能够生成兼容性更好的字幕，那么问题就迎刃而解了。它生成出来的英文字幕，可以完美兼容mpv2anki插件，那么English板块[第13篇](https://cs-cn.top/2022/06/10/english-study-series_13/)介绍的那个方法就可以无缝用在youtube视频上面。
 
 
 
-## yt-whisper在windows10安装过程
+## yt-whisper安装过程
 
-首先确保你的windows10电脑已经安装了chocolatey这个软件包管理工具。如果不清楚怎么安装的，可以看我English系列的第13篇文章，里面有详细介绍怎么安装chocolatey. 有了这个chocolatey之后，安装其他工具就会方便很多。
+首先确保你的windows10电脑已经安装了chocolatey这个软件包管理工具。如果不清楚怎么安装的，可以看我English系列的[第13篇](https://cs-cn.top/2022/06/10/english-study-series_13/)文章，里面有详细介绍怎么安装chocolatey. 有了这个chocolatey之后，安装其他工具就会方便很多。
 
 ### 1.安装python环境
 
