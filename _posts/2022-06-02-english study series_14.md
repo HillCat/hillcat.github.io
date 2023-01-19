@@ -23,3 +23,60 @@ typora-root-url: ../
 
 使用这个工具如果能够生成兼容性更好的字幕，那么问题就迎刃而解了。如果它生成出来的英文字幕，可以完美兼容mpv2anki插件，那么English板块[第13篇](https://cs-cn.top/2022/06/10/english-study-series_13/)介绍的那个方法就可以无缝用在youtube视频上面。
 
+
+
+### yt-whisper在windows10安装过程
+
+首先确保你的windows10电脑已经安装了chocolatey这个软件包管理工具。如果不清楚怎么安装的，可以看我English系列的第13篇文章，里面有详细介绍怎么安装chocolatey. 有了这个chocolatey之后，安装其他工具就会方便很多。
+
+我们需要给windows10安装python3.执行下面语句：
+
+```shell
+choco install python
+```
+
+然后安装pip, 因为python3自带了pip，所以这里只是升级一下pip：
+
+```shell
+python -m pip install -U pip
+```
+
+然后是安装yt-dlp：
+
+```shell
+python -m pip install -U yt-dlp
+```
+
+然后安装whisper:
+
+```shell
+pip install git+https://github.com/openai/whisper.git -q
+```
+
+然后安装mmpeg:
+
+```shell
+choco install ffmpeg
+```
+
+最后安装yt-whisper:
+
+```shell
+pip install git+https://github.com/HillCat/yt-whisper.git
+```
+
+全部安装完毕之后，就可以使用yt-whisper去生成youtube视频的字幕了
+
+使用方式，参考：[https://github.com/m1guelpf/yt-whisper](https://github.com/m1guelpf/yt-whisper)
+
+
+
+找到你想要自动生成字幕的youtube链接地址，复制，使用yt-whisper 加上双引号，里面写上你要转AI字幕的视频的地址即可，如下格式：
+
+```shell
+yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+```
+
+转换的时候，时间会有点长，5分钟到10分钟左右，看你要转化的视频mp4的时间长短决定。
+
+![cmd_f02JOb0vMR](/images/posts/cmd_f02JOb0vMR.png)
