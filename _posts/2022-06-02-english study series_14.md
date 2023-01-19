@@ -126,7 +126,7 @@ pip install git+https://github.com/openai/whisper.git
 安装yt-whisper:
 
 ```shell
-pip install git+https://github.com/HillCat/yt-whisper.git
+pip install git+https://github.com/m1guelpf/yt-whisper.git
 ```
 
 
