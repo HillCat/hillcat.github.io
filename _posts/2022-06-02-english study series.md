@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OpenAi生成youtube字幕(14)
+title: 如何解决youtube字幕不兼容anki的问题(14)
 categories: English
 description: 英文自学
 keywords: English
