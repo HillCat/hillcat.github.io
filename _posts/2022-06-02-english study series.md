@@ -11,7 +11,7 @@ typora-root-url: ../
 
 [https://github.com/m1guelpf/yt-whisper](https://github.com/m1guelpf/yt-whisper)
 
-### 修改并fork脚本
+### fork并修改脚本
 
 setup.py中的
 
@@ -25,7 +25,13 @@ whisper @ git+https://github.com/openai/whisper.git@main#egg=whisper
 openai-whisper @ git+https://github.com/openai/whisper.git@main#egg=openai-whisper
 ```
 
-fork官方这个仓库，修改了这个setup.py之后，使用你自己的github仓库地址安装yt_whisper.
+fork官方这个仓库，修改了这个setup.py之后，请使用你自己的github仓库地址安装yt_whisper.下面这个地址在接下来的下面第6小结 `6.安装yt-whisper`的时候要替换为你自己的github fork之后的那个地址。
+
+```shell
+https://github.com/m1guelpf/yt-whisper.git
+```
+
+
 
 
 
