@@ -129,8 +129,6 @@ activate.bat
 
 ### 5.安装whisper
 
-再执行下面，安装whisper库：
-
 我们安装OpenAi公司的whisper库：
 
 ```shell
