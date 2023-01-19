@@ -103,9 +103,17 @@ activate.bat
 
 ![fc6kv4lUYs](/images/posts/fc6kv4lUYs.png)
 
-下载下来，就跟我们以前安装exe文件一样，直接下一步，下一步，下一步，直到安装完成。
+![YVTKOVsT3Q](/images/posts/YVTKOVsT3Q.png)
 
-我们回到黑框cmd环境，继续操作，安装whisper库：如果提示报错，那么就退出cmd黑框，重新以管理员方式运行cmd，重新按照上面步骤，开启python虚拟环境。开启之后，再执行下面，安装whisper库：
+选择64位版本的Setup文件下载下来，就跟我们以前安装exe文件一样，直接下一步，下一步，下一步，直到安装完成。估计会要重启下电脑。重启电脑之后我们再以管理员方式启动cmd黑框。
+
+我们回到黑框cmd环境，继续操作，安装whisper库之前还是要开启python虚拟环境，执行上面那个activate.bat文件。如果忘记了，请回到上面activate.bat那里。切换目录，执行activate.bat。
+
+开启python虚拟环境。开启之后，看到这个(venv)
+
+![cmd_cGtW04Fz9Y](/images/posts/cmd_cGtW04Fz9Y.png)
+
+再执行下面，安装whisper库：
 
 我们安装OpenAi公司的whisper库：
 
