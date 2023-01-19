@@ -11,6 +11,8 @@ typora-root-url: ../
 
 [https://github.com/m1guelpf/yt-whisper](https://github.com/m1guelpf/yt-whisper)
 
+Whisper这个AI库生成的youtube字幕非常精准，可以针对任何youtube的视频，自动生成字幕。这样就省得我们去手工下载youtube的机器字幕了，并且youtube大部分的英文视频都是没有配备人工字幕了，而OpenAi这个Whisper库完美解决了这个问题，使得我们可以轻易提取到任何视频的字幕，并且准确率100%。
+
 ### fork并修改脚本
 
 setup.py中的
