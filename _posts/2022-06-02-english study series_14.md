@@ -42,7 +42,7 @@ python -m pip install -U pip
 然后是安装yt-dlp：
 
 ```shell
-python -m pip install -U yt-dlp
+python -m pip install yt-dlp
 ```
 
 ### 2.创建Python虚拟环境
