@@ -55,7 +55,7 @@ python -m pip install -U yt-dlp
 
 这个视频只是作为一个参考，我这里说明下，这里要创建python虚拟环境的原因，因为OpenAi这个whisper需要运行在python环境下面，要有个虚拟环境。
 
-创建虚拟机环境之前，先要知道你自己的当前账户名，如果你是Administrator登录的，那么要把下面的YourAccountName替换为Administrator。比如我当前电脑的用户账户是47664.我会在这个路径下面先创建一个venv文件夹，如下：
+创建虚拟机环境之前，先要知道你自己的当前账户名，如果你是Administrator登录的，那么在C盘，找到用户目录，再进去用户目录下面，会看到你当前登录用户名的文件，进入之后，创建一个venv文件夹。比如我当前电脑的用户账户是47664.我会在这个路径下面先创建一个venv文件夹，如下：
 
 ![OelKR2H5xT](/images/posts/OelKR2H5xT.png)
 
