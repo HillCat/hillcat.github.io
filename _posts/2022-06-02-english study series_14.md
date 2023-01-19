@@ -77,7 +77,7 @@ python -m venv C:\Users\47664\venv
 
 ![xIlXKqcgh9](/images/posts/xIlXKqcgh9.png)
 
-然后执行下面这个指令，把路径切换到这个目录:
+然后执行下面这个指令，把路径切换到这个目录:切记，这里不要用PowerShell, 用cmd黑框，以管理员方式打开cmd。切换目录的指令如下，这个Scripts目录，你去自己的C盘复制即可，
 
 ```shell
 cd C:\Users\47664\venv\Scripts
