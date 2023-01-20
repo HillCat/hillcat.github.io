@@ -18,34 +18,6 @@ typora-root-url: ../
 
 参考：[https://thegeekpage.com/how-to-fix-the-white-blank-shortcut-icons-from-the-desktop-in-windows-10-easily/](https://thegeekpage.com/how-to-fix-the-white-blank-shortcut-icons-from-the-desktop-in-windows-10-easily/)
 
-### PotPlayer播放器播放英文视频的设置
-
-potPlayer是windows上面体验比较好的播放器，最新版本的播放器官方需要番蔷才能访问。学习英文这块我常用的播放器是mpv 播放器，以及这个potplayer播放器。特别是观看中英文双语字幕的电影的时候，这个播放器的体验是最好的，并且有很多的快捷键设置。官方下载地址：[https://potplayer.daum.net/](https://potplayer.daum.net/)
-
-![MmotnV7JaN](/images/posts/MmotnV7JaN.png)
-
-快捷键Alt + E调出中英文字幕：调节potplayer字幕的大小
-
-![Hl7yHBwSsk](/images/posts/Hl7yHBwSsk.png)
-
-![8gKfSE36C2](/images/posts/8gKfSE36C2.png)自定义potplaer的快捷键，屏幕中央点击’选项‘，进入，基本--->快捷键---->添加
-
-找到字幕快捷键设置，把它设置为键盘左边的数字键3：
-
-![haNWxSPT7p](/images/posts/haNWxSPT7p.png)
-
-复制到剪切板，这个功能，使用条件，选择“总是使用”，并且放到最高优先级：
-
-![4fsUBlOWhX](/images/posts/4fsUBlOWhX.png)
-
-
-
-设置完成之后，欧陆词典的剪切板取词功能开启之后，就可以实现边看视频的时候，边查生词的功能了，甚至还可以查短语，使用鼠标框选字幕区域即可：鼠标shift键结合鼠标框选，就可以选择词组：
-
-![Smn1UawaOk](/images/posts/Smn1UawaOk.png)
-
-![M36SBqBRvO](/images/posts/M36SBqBRvO.png)
-
 ### win10开机激活数字键盘
 
 默认系统情况下，冷启动系统之后，右侧的数字小键盘是默认不会启用的。开机的时候输入开机密码，发现小键盘Num Lock每次都要手动开启比较麻烦，可以直接设置系统注册表，达到win10开机激活数字键盘的目的：
