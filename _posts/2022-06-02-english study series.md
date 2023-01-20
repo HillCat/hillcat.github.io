@@ -179,7 +179,7 @@ yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 ### 8.日常使用yt_whisper
 
-日常使用yt_whisper指令生成youtube字幕，最简单办法是：
+通过上面步骤，成功安装了yt-whisper。重启电脑之后，再要使用这个工具生成youtube字幕，只需要以下几个步骤：
 
 第一步:进入到`venv\Scripts`目录下面，这个文件夹有activate.bat这个文件，如下：
 
