@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何解决youtube字幕不兼容anki的问题(14)
+title: OpenAI人工智能生成yotube字幕(14)
 categories: English
 description: 英文自学
 keywords: English
