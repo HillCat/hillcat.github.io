@@ -21,15 +21,17 @@ potPlayer是windows上面体验比较好的播放器，最新版本的播放器�
 
 ![MmotnV7JaN](/images/posts/MmotnV7JaN.png)
 
-快捷键Alt + E调出中英文字幕：调节potplayer字幕的大小
-
-![Hl7yHBwSsk](/images/posts/Hl7yHBwSsk.png)
+#### 1常规设置
 
 ![8gKfSE36C2](/images/posts/8gKfSE36C2.png)自定义potplaer的快捷键，屏幕中央点击’选项‘，进入，基本--->快捷键---->添加
+
+##### 1.1.1关闭字幕
 
 找到字幕快捷键设置，把它设置为键盘左边的数字键3：
 
 ![haNWxSPT7p](/images/posts/haNWxSPT7p.png)
+
+##### 1.1.2 剪切板取字幕
 
 复制到剪切板，这个功能，使用条件，选择“总是使用”，并且放到最高优先级：
 
@@ -43,17 +45,145 @@ potPlayer是windows上面体验比较好的播放器，最新版本的播放器�
 
 ![M36SBqBRvO](/images/posts/M36SBqBRvO.png)
 
-### 
+##### 1.1.3 双语字幕
+
+一般情况下字幕都是英文和中文分开的。PotPlayer是可以同时挂载双语字幕的。
+
+![chrome_Y1X8QEaRYp](/images/posts/chrome_Y1X8QEaRYp.png)
+
+##### 1.1.3字幕设置
+
+PotPlayer右侧这些组合在一起的小窗口，是可以拖出来的，点击那个黄色小三角，就可以拖出来小窗口。通过多次点击这个黄色小三角，把窗口拉出来，然后关闭，就可以把右侧的这些窗口全部关掉，只剩下视频主窗口，`Alt + E `把字幕工具窗口调出来，就可以吸附到视频窗口的右侧。方便我们根据字幕快速跳转播放进度的位置（点击任意一条字幕，跳转到该字幕所在的播放进度位置）。
+
+![chrome_ZhxO72Nb7m](/images/posts/chrome_ZhxO72Nb7m.png)
+
+![nqwmoYu7kd](/images/posts/nqwmoYu7kd.png)
+
+快捷键Alt + E调出中英文字幕：调节potplayer字幕的大小
+
+![PotPlayerMini64_9XEQf9rMlm](/images/posts/PotPlayerMini64_9XEQf9rMlm.png)
+
+如果有两种字幕的话，Potplayer会自动在这个字幕窗体中显示2种字幕，如下：可以切换srt和eng.srt。键盘方向键，上下，也可以选中字幕往上或者往下，变为黑色背景的字幕，按下回车，就会立即跳转到该字幕对应的播放进度位置，按下空格键就会播放。
+
+![chrome_z6Z55CWbOK](/images/posts/chrome_z6Z55CWbOK.png)
+
+##### 1.1.4 记忆播放位置
+
+视频窗体空白位置右键，弹出菜单中找到 播放--》记忆播放位置：
+
+![chrome_P4uDwTsMLZ](/images/posts/chrome_P4uDwTsMLZ.png)
+
+这样设置之后，退出播放器，下次播放这个视频的时候就会记住退出的时候，就会记住播放的位置，接着在这个位置播放。随时看完，随时暂停退出都可以。
+
+##### 1.1.5 播放速度控制
+
+播放速度控制，最好是切换到英文输入法模式，C 加速，X 减速，Z 恢复原速。按住这几个键不动，会快速的进行加速或者减速。播放过程中不用暂停，随时可以变速播放。特别是听英文的连读或者音变细节的时候，这个操作可以让我们听得更清晰。
+
+![chrome_WE3KIvQ3HO](/images/posts/chrome_WE3KIvQ3HO.png)
+
+##### 1.1.6 快捷键设置
+
+视频窗体空白处右键，弹出来，找到选项，
+
+![s4iNwvU6Om](/images/posts/s4iNwvU6Om.png)
+
+**1.字幕设置**
+
+基本，快捷键，点击添加。
+
+![LQluXQEGU5](/images/posts/LQluXQEGU5.png)
+
+![chrome_1MXHpXW9My](/images/posts/chrome_1MXHpXW9My.png)
+
+找到’字幕‘这个节点，’不显示‘这个子选项，选中之后，快捷键输入框中 按下数字键 3，这个数字键是指的键盘左上方区域这个数字3，而不是右侧的数字3。
+
+![PotPlayerMini64_XhxgUhYU7Y](/images/posts/PotPlayerMini64_XhxgUhYU7Y.png)
+
+再次进入，字幕这里，根据你加载的字幕格式，这里会显示srt, eng.srt,  .vtt。类似这样子的，我们选中这些特殊格式后缀的字幕，给他们设置数字快捷键。
+
+![5AuGcKRYJr](/images/posts/5AuGcKRYJr.png)
+
+比如：给srt格式的字幕设置快捷键，数字1：
+
+![chrome_3fgD6NpxKX](/images/posts/chrome_3fgD6NpxKX.png)
+
+比如：给eng.srt设置数字2：
+
+![chrome_SczM3aEFJv](/images/posts/chrome_SczM3aEFJv.png)
 
 
 
-不过，如果你不是很喜欢搞美剧，觉得制卡效率不高，还有个比美剧更牛逼的材料，并且生活类单词，实用程度要超过美剧，而且更容易吸收，就是ESLPOD这套材料，这套材料有版权，从ESLPOD 2005~2017跨度12年时间的播客听力材料，包括生活方方面面，比如，睡觉时候，“把被子拉上来一点”，这句话怎么说？还有“我想要去上个大号”，怎么说？这些生活中使用频率非常高的词，就实用性我觉得ESLPOD完全可以PK美剧。就我的感觉而言，我可能会要精学这里面的一些题材，这个材料是小题材为主题，展开一篇20分钟左右的POD播讲，如果词汇量刚好在8000~10000的时候，盲听这个材料基本可以理解90%，顺带会有大量熟悉的单词蹦出来，并且带有解说，我感觉吸收效果是最好。可以看下别人怎么评价这个材料的：[提升英语口语的大杀器---ESLPOD](https://www.jianshu.com/p/8b0ca57abfae)
+继续添加，字幕同步(帧率), 选中 ’超前‘这个项，如下：给它设置快捷键F2，选中’滞后‘，设置快捷键F1.
 
-如果你的单词量和听力很差，估计这个材料就不适合你了。其实在每个阶段都有阶梯性的材料，也不需要沮丧，只要你去尝试，每个阶段都可以给自己设计一套丝滑般的阶梯材料。我和另外一个过了英语六级，词汇量9000的人一起实战过这个材料，几乎生词率在1~2%左右，算是这类人的舒适区材料，可以快速用来复习和巩固以前的生词，顺带积累大量的生活词汇和短语。作为靠着有声书+听力起家一路走过来的英语自学者，这个POD是非常好的补充材料。然后丝滑过渡到更难的EnglishPod365和CoachShane的那套English Daily Dictation，我想几乎词汇量就妥妥1.5W了，可以听懂大部分英文视频和音频，听力彻底突破。再稍微练习下口语和写作，应对跨国工作交流问题不大了。日常IT工作看个技术文档或者google个什么资料更是小儿科。它这套材料在《每日英语听力APP》里面有字幕和听力音频，每天上下班是我的泛听的主力材料，亲测吸收效果非常的不错。因为听力上来之后，听这个材料几乎不要看手机屏幕就可以懂90%，而且还能复习以前的生词，熟悉的词会源源不断冲刷你的耳朵，这种是以听的方式代替了阅读来复习你学过的英语，效率非常高效，并且见缝插针，时间利用率也很大，听力上来之后明显感觉学英语是多么轻松，并且那些听不懂的，听不出来的地方这个POD会有解说，连查词典都省了，随便弄弄就很好吸收。POD听，相对阅读或者看美剧最大的好处是时间成本是最低的，回报却很大，所以前期一定要把自己的听力提升上来，后期用听的方式来学英语真的会轻松很多，而且降低我们眼睛的伤害，大部分些单词是比较适合用听的方式来学的，看着反而学不懂，因为听的时候可以听到这个单词的词根和构词成分，POD语速很慢，对于有听力基础的人来听这种慢速的，可以捕捉到单词的每个细节发音，直接穿透构词成分。有时候你看着那个单词很难，一旦母语者跟你念出来，你就就会发现很简单，听的时候有重点音节，词根的地方就会读得很重，那个词根可能是你已经熟悉过的，这样子就帮助你把感觉给联系起来帮助记忆，看着英文很难学，因为文字不会根据音频的重度弱读来给你加粗或者标红，没有重点划分，一个单词就不好拆分，而听就不一样，单词重点的部分一般发音较重，不太重要的一般会被略过或者轻读，可以听出来一个单词的构词成分，并且很多时候意思相近的单词发音也会相近，甚至一个单词是另外一个单词演变过来的，在声音上都会很相近。
+![chrome_vhBL3qLA47](/images/posts/chrome_vhBL3qLA47.png)
 
-![MTihopj40p](/images/posts/MTihopj40p.png)
+然后是对’字幕‘节点，’关键词搜索‘设置，
 
-![p3eUfOgtys](/images/posts/p3eUfOgtys.png)
+![chrome_L7MVtCDTfX](/images/posts/chrome_L7MVtCDTfX.png)
+
+’使用条件‘，设置为’总是使用‘，’复制到剪贴板‘上移到最上面置顶。
+
+![chrome_xMidTMNLEM](/images/posts/chrome_xMidTMNLEM.png)
+
+继续设置’字幕‘节点，选中’语言/同步/其他' ，分别如下设置：点击‘应用’，确定。
+
+![SrkfoGHg5K](/images/posts/SrkfoGHg5K.png)
+
+
+
+如下，已经设置了5个快捷键。
+
+![chrome_xiRefNMCXP](/images/posts/chrome_xiRefNMCXP.png)
+
+**2.书签设置**
+
+继续添加，选中’播放‘节点，’章节/书签‘点开，'添加书签'，设置W。
+
+![chrome_aVdO5quGhJ](/images/posts/chrome_aVdO5quGhJ.png)
+
+还是上面的节点，选择’上一章节书签‘，设置Q
+
+![chrome_QL4Lw7JKxv](/images/posts/chrome_QL4Lw7JKxv.png)
+
+![chrome_YpcNcNDY5R](/images/posts/chrome_YpcNcNDY5R.png)
+
+继续，下一书签，设置为E，
+
+![chrome_Gpm4x4LrAf](/images/posts/chrome_Gpm4x4LrAf.png)
+
+
+
+到此为止，设置的快捷键如下：
+
+![chrome_s0QKQ3Z42h](/images/posts/chrome_s0QKQ3Z42h.png)
+
+**3.鼠标设置**
+
+找到’鼠标‘这个节点，拉到最下方，’滚轮前推‘，’鼠标后推‘。找到’滚轮前推‘，拉开它的下拉框，找到’自定义未定义指令‘。找到’字幕‘，’字幕样式‘，选中’字体+‘点击确定。
+
+![chrome_qdDDWBnX5H](/images/posts/chrome_qdDDWBnX5H.png)
+
+
+
+![Typora_QfMBrGoQT1](/images/posts/Typora_QfMBrGoQT1.png)
+
+![chrome_svpxfXn6fS](/images/posts/chrome_svpxfXn6fS.png)
+
+继续设置，找到’滚轮后推‘，’自定义‘，还是找到’字幕‘节点，’字幕样式‘，找到’字体-‘ ，选中，点击确定。
+
+另外，鼠标设置，还要进行打勾的地方如下：打勾之后，点击’应用‘。
+
+![dTcMrNz7QC](/images/posts/dTcMrNz7QC.png)
+
+截止到目前，所有快捷键设置完毕。
+
+#### 2.基本操作
+
+
+
+
+
+
 
 ![tingli223424.png](/images/posts/tingli223424.png)
 
