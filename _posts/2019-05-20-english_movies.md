@@ -229,9 +229,21 @@ Potplayer播放的时候，字幕有时候会和音频不对其，会有延迟�
 
 我们已经设置了’字幕超前‘ ，’字幕滞后‘，对应的分别是 F2, F1。我们自己尝试即可，可以对于字幕时间进行向前或向后的补偿。
 
-##### 6.总结
+##### 6.字幕字体颜色
+
+可以设置字幕字体颜色为黄色，这样子观看的时候，字幕可以更加突出。特别是视频中经常出现白色背景，字体是白色的，看着会有点累。
+
+![zcwUsKdYAu](/images/posts/zcwUsKdYAu.png)
+
+![PQi0sWJQep](/images/posts/PQi0sWJQep.png)
+
+
+
+##### 7.总结
 
 剩下的就是拿着PotPlayer播放器的这些设置，结合欧陆词典。就可以用美剧练习听力和口语了。
+
+![chrome_U0VCQAvm98](/images/posts/chrome_U0VCQAvm98.png)
 
 ### 2.Language Reactor插件
 
