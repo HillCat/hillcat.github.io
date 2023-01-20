@@ -197,7 +197,7 @@ yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 以上就是日常使用yt_whisper生成youtube AI字幕的常规操作。如果不指定目录位置，输出的字幕文件会生成到Scripts目录中。
 
-#### 8.1 指定保存路径
+#### 8.1 指定字幕保存路径
 
 ```shell
 yt_whisper "https://www.youtube.com/watch?v=9NqthBLHBDg&ab_channel=IAmTimCorey" --output_dir C:\Users\47664\Downloads\video
