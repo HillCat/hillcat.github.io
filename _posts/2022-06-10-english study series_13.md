@@ -343,9 +343,7 @@ C:\Users\47664\AppData\Roaming\mpv
 
 另外：mpv.conf这个文件，基本上没太多作用。我虽然创建了这个文件，但是这个文件里面一般都是留空。在英语刷剧的时候，这个文件用不到。
 
-mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-player/](https://cheatography.com/someone/cheat-sheets/mpv-media-player/)
 
-这个快捷键的PDF文件，可以在上面这个网址可以下载到。
 
 #### 7.2 播放器字体放大和缩小
 
@@ -385,6 +383,10 @@ sub-pos=95 #subtitle position 5 percent above the bottom of the screen
 保存即可，退出mpv，重新打开mpv。播放视频的时候，字幕就是黄色了。比较突出显眼，更容易屏幕取词。
 
 ### 8.mpv快捷键
+
+mpv快捷键参考：[https://cheatography.com/someone/cheat-sheets/mpv-media-player/](https://cheatography.com/someone/cheat-sheets/mpv-media-player/)
+
+这个快捷键的PDF文件，可以在上面这个网址可以下载到。
 
 这个anki插件制作视频卡片的快捷键是`B键`，默认是自动分析台词截取视频和音频。如果你自定义截取起始位置和截止位置，就需要按 W键 、E键，分别表示截取的起始位置和截止位置，然后再按B键制卡，它就会根据你指定的起始位置和截止位置来截取视频和音频，包括台词。更多的操作，请自行阅读插件文档：[https://ankiweb.net/shared/info/1213145732](https://ankiweb.net/shared/info/1213145732)，如果具备二次开发能力的话，甚至还可以在这个插件的基础上，自行修改Lua脚本，实现一些自定义的功能。由于篇幅受限，这里不作细究，总之这里的想象空间还是很大的。
 
