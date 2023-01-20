@@ -169,7 +169,7 @@ yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 以后我们就可以正常使用yt_whisper指令了，使用方式，参考：[https://github.com/m1guelpf/yt-whisper](https://github.com/m1guelpf/yt-whisper)
 
-找到你想要自动生成字幕的youtube链接地址，复制，使用yt-whisper 加上双引号，里面写上你要转AI字幕的视频的地址即可，如下格式：
+以后的日常使用过程中，只需要找到你想要自动生成字幕的youtube链接地址，复制，使用yt-whisper 加上双引号，里面写上你要转AI字幕的视频的地址即可，如下格式：
 
 ```shell
 yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
