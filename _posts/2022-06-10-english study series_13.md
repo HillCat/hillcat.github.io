@@ -7,7 +7,7 @@ keywords: English
 typora-root-url: ../
 ---
 
-Anki用来进行美剧制卡，提供了看美剧复习英语知识点的便利，除了NetFlix之外，一切可以下载到的youtube show,TV show只要是英文的都可以这么操作(特别说明，目前这个方法只能针对于NetFlix的字幕，因为youtube的字幕和NetFlix的文本排版不一样，不过，可以自己写一个脚本工具转换一下就可以了)。唯一的目的只有一个，那就是快速提升我们的听力，经过成千上万小时美剧听力之后实现流利口语。
+Anki用来进行美剧制卡，提供了看美剧复习英语知识点的便利，除了NetFlix之外，一切可以下载到的youtube show,TV show只要是英文的都可以这么操作(特别说明，目前这个方法只能针对于NetFlix的字幕，因为youtube的字幕和NetFlix的文本排版不一样，不过，OpenAi生成的youtube字幕非常精准，比youtube自己的机器字幕要好太多太多了，强烈建议用这个字幕挂载potplayer播放器做泛听，再结合anki制卡做精听)。经过成千上万小时美剧+youtube听力之后，以及anki制卡复习，实现流利口语。
 
 本方法配合[OpenAI人工智能生成youtube字幕(14)](https://cs-cn.top/2022/06/02/english-study-series/)中提到的方法，以及[奈飞美剧&油管视频PotPlayer设置(6)](https://cs-cn.top/2019/05/20/english_movies/)组合在一起，形成炸裂效果，可以把youtube感兴趣的视频直接下载到本地电脑，挂载堪比人工校对还要精准的AI字幕。既可以泛听美剧，也可以做精听，跟读，复习。
 
