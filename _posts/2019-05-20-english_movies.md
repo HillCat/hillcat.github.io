@@ -213,7 +213,9 @@ PotPlayer右侧这些组合在一起的小窗口，是可以拖出来的，点�
 
 ![eudic_jnkk06zX6m](/images/posts/eudic_jnkk06zX6m.png)
 
+最终的鼠标取词效果如下：鼠标点到哪个词，欧陆词典立马查到哪个词，非常方便。
 
+![1234535scbjh53453g](/images/posts/1234535scbjh53453g.gif)
 
 **5.字幕和音频对其**
 
