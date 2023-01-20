@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 奈飞美剧 && 油管视频 输入(6)
+title: 奈飞美剧&油管视频PotPlayer设置(6)
 categories: English
 description: 英文自学
 keywords: English
