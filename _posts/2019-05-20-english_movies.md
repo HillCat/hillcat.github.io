@@ -205,9 +205,25 @@ PotPlayer右侧这些组合在一起的小窗口，是可以拖出来的，点�
 
 欧陆弹窗的字体可以调大一点，方便我们观看视频的时候，快速搞清楚生词意思。欧陆词典这个弹窗淡入淡出的速度还是可以设置的。
 
+**4.欧陆设置**
+
+![PotPlayerMini64_mNd24VlZln](/images/posts/PotPlayerMini64_mNd24VlZln.png)
 
 
 
+![eudic_jnkk06zX6m](/images/posts/eudic_jnkk06zX6m.png)
+
+
+
+**5.字幕和音频对其**
+
+Potplayer播放的时候，字幕有时候会和音频不对其，会有延迟几个毫秒的情况出现，导致声音滞后，字幕超前，或者字幕滞后，声音超前。这个时候可以使用，`语言/同步/其他`，这个设置。
+
+![chrome_04t1CMVmQC](/images/posts/chrome_04t1CMVmQC.png)
+
+![7Qwic0JCUt](/images/posts/7Qwic0JCUt.png)
+
+我们已经设置了’字幕超前‘ ，’字幕滞后‘，对应的分别是 F2, F1。我们自己尝试即可，可以对于字幕时间进行向前或向后的补偿。
 
 
 
