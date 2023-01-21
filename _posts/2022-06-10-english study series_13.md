@@ -247,9 +247,13 @@ IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.
 
 ![oZmNzWrGq3](/images/posts/oZmNzWrGq3.png)
 
+##### 6.2.1 去广告插件
+
 另外，观看youtube视频，必备的去广告插件:[Adblock](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom)推荐安装。
 
 ![chrome_CUpvyJ9TBX](/images/posts/chrome_CUpvyJ9TBX.png)
+
+##### 6.2.2 九宫格插件
 
 还一个插件推荐一下：[G App Launcher (Customizer for Google™)](https://chrome.google.com/webstore/detail/g-app-launcher-customizer/ponjkmladgjfjgllmhnkhgbgocdigcjm)，这个插件可以让你不访问google网站，直接点击图标进入youtube。可以自定义google首页部分的快捷访问图标。可以让你自定义google首页的这个九宫格图标。排列位置这些都可以调整。而且这个九宫格，可以在不访问google首页的时候，直接从工具条点击访问。
 
