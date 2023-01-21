@@ -138,7 +138,7 @@ typora-root-url: ../
 
 #### 2.5.3 导出我们所有Anki卡片
 
-回到anki界面，Export导出，
+回到anki界面，Export导出，这些卡片数据最终会被用来进行机器学习，生成针对我们这些卡片优化后的参数。
 
 ![anki_nc5SiiTb2C](/images/posts/anki_nc5SiiTb2C.png)
 
