@@ -7,9 +7,9 @@ keywords: English
 typora-root-url: ../
 ---
 
-这里要推荐的一个插件是`FSRS4Anki Helper`。插件的地址：[https://ankiweb.net/shared/info/759844606](https://ankiweb.net/shared/info/759844606)，这个插件的安装码是：759844606。插件需要anki 2.1.55版本以上。
+这里要推荐的一个插件是`FSRS4Anki Helper`。插件的地址：[https://ankiweb.net/shared/info/759844606](https://ankiweb.net/shared/info/759844606)，这个插件的安装码是：759844606。插件需要anki 2.1.55版本以上。该插件仅能支持电脑端Anki。插件作者在知乎的教程：[https://zhuanlan.zhihu.com/p/591833332](https://zhuanlan.zhihu.com/p/591833332)
 
-
+![chrome_Drmqkx3KnQ](/images/posts/chrome_Drmqkx3KnQ.png)
 
 ### 1.FSRS4Anki Helper
 
@@ -190,7 +190,7 @@ typora-root-url: ../
 
 #### 2.5.5 线上生成参数
 
-由于本地生成参数失败，我们走线上渠道，在本地这个地址回到顶部，找到这个`Open in Colab`按钮，点击之后跳转到线上地址。
+由于本地生成参数失败，我们走线上渠道，在本地`jupyter`这个页面回到顶部，找到这个`Open in Colab`按钮(如下图)，点击之后跳转到线上地址。
 
 ![PgA0ndDQDn](/images/posts/PgA0ndDQDn.png)
 
@@ -288,4 +288,4 @@ var w = [2.2387, 2.3408, 5.294, -0.2247, -1.2567, 0.0472, 1.6229, -0.1875, 1.023
 
 如果版本是QT6则使用`fsrs4anki_scheduler.js`， 如果是QT5则使用`fsrs4anki_scheduler_qt5.js`。
 
-目前这个脚本，好像只能支持`QT6版本，电脑端Anki和苹果手机端Anki`。对于安卓手机是不支持的。
+目前这个脚本，好像只能支持`QT6版本，电脑端Anki`。
