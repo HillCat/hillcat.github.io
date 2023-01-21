@@ -128,7 +128,7 @@ typora-root-url: ../
 
 ![RSdQcbqRXj](/images/posts/RSdQcbqRXj.png)
 
-依次点击这些文件，上传即可，有2个文件会上传失败，不用管它，上传失败的，我们直接回到列表中点击cancle按钮即可，取消那2个文件的上传即可：
+依次点击这些文件，上传即可，有2个文件会上传失败，不用管它，上传失败的，我们直接回到列表中点击cancle按钮取消即可：
 
 ![ShareX_UTIO4ognPN](/images/posts/ShareX_UTIO4ognPN.png)
 
