@@ -54,7 +54,7 @@ typora-root-url: ../
 
 ![Obsidian_Ga8AUaLkmT](/images/posts/Obsidian_Ga8AUaLkmT.png)
 
-安装完成之后，我们在windows10开始菜单中就可以看到Jupyter这个软件了，如下：
+安装完成之后，我们在windows10开始菜单中就可以看到`Jupyter Notebook(anaconda3)`这个软件了，如下：
 
 ![0Qth4u9gQL](/images/posts/0Qth4u9gQL.png)
 
@@ -70,7 +70,7 @@ typora-root-url: ../
 
 ![mKwKGGmKdi](/images/posts/mKwKGGmKdi.png)
 
-好了，我们先把这个源码放在这里，我们下一步，打开jupyter工具，这个源码要被jupyter用到。
+好了，我们先把这个源码放在这里备用，我们下一步，打开jupyter工具，这个源码要被下一步的jupyter用到。
 
 #### 2.5 打开jupyter工具
 
