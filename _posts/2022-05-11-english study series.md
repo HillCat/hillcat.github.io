@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 机器学习AI优化anki复习参数(15)
+title: 机器学习优化anki复习调度参数(15)
 categories: English
 description: 英文自学
 keywords: English
