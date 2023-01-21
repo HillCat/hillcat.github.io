@@ -42,7 +42,9 @@ typora-root-url: ../
 
 
 
-第三步：按照 [https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio ) 这个文档安装完ffmpeg 这个插件。以下是配置顺序。基本都是点几下鼠标，直接下一步下一步。配置完之后，F2快捷键  ，F3快捷键就可以使用了。一个是截音频，一个是截图。美剧里面截取声音片段就靠这个功能。前提是不要有其他软件占着F2, F3快捷键。需要特别说明的是：由于最近Netflix还有Udemy这种国外的VIP收费类视频网站采用了加密技术，PC端截图工具截取视频内容的时候会显示黑屏。所以，推荐chrome[点击下载](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj)截图来解决这个问题；而sharex的F3截图功能用来截欧陆词典释义，F2截取美剧或者有声书的音频。
+第三步：按照 [https://animecards.site/setupsharex/#hotkey-for-audio](https://animecards.site/setupsharex/#hotkey-for-audio ) 这个文档安装完ffmpeg 这个插件。以下是配置顺序。基本都是点几下鼠标，直接下一步下一步。配置完之后，F2快捷键  ，F3快捷键就可以使用了。~~一个是截音频，一个是截图。美剧里面截取声音片段就靠这个功能。前提是不要有其他软件占着F2, F3快捷键。需要特别说明的是：由于最近Netflix还有Udemy这种国外的VIP收费类视频网站采用了加密技术，PC端截图工具截取视频内容的时候会显示黑屏。所以，推荐chrome[点击下载](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj)截图来解决这个问题；而sharex的F3截图功能用来截欧陆词典释义，F2截取美剧或者有声书的音频。~~
+
+Update，备注：上面这种方式sharex截音频和视频的办法已经废弃，anki有美剧制卡的更快速的方法，请查看我博客English板块关于美剧制卡的相关文章。技术在迭代，学英语的方法也在自我摸索过程中不断升级。
 
 <img src="https://cs-cn.top/images/posts/sharex_allconfig2326.png"/>
 
