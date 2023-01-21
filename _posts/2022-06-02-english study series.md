@@ -39,9 +39,43 @@ https://github.com/m1guelpf/yt-whisper.git
 
 ## yt-whisper安装过程
 
-首先确保你的windows10电脑已经安装了chocolatey这个软件包管理工具。如果不清楚怎么安装的，可以看我English系列的[第13篇](https://cs-cn.top/2022/06/10/english-study-series_13/)文章，里面有详细介绍怎么安装chocolatey. 有了这个chocolatey之后，安装其他工具就会方便很多。
+首先确保你的windows10电脑已经安装了chocolatey这个软件包管理工具。
 
-### 1.安装python环境
+### 1.安装chocolatey
+
+最先要安装的是chocolatey。强烈推荐使用chocolatey这个软件包管理软件(血的教训)，虽然有很多方法可以安装mpv播放器，但是为了保险起见，请把所有安装过程交给choco自动处理。包括安装youtube-dl(播放url需要用到这个)，ffmpeg(视频音频自动截取需要这个)。choco类似于Mac上面的Homebrew,CentOS上面的Yum，Ubuntu上面的apt-get。
+
+chocolatey如何安装，文档如下：
+
+[https://docs.chocolatey.org/en-us/choco/setup](https://docs.chocolatey.org/en-us/choco/setup)
+
+按照上面地址的文档说明，chocolate安装方式有2种，一种是通过cmd安装，一种是powershell方式安装。选择其中1种即可.这里我使用第2种方式PowerShell安装。
+
+在windows开始菜单，找到PowerShell，鼠标右键点击**以管理员身份运行**，粘贴并执行下面框框中的命令(复制整行)：
+
+![chrome_AAa51Nll5h](/images/posts/chrome_AAa51Nll5h.png)
+
+```shell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+
+很多人打开这个Windows PowerShell的时候不是以管理员权限打开的，会报下面错误：它会提示你 `default folder requires Administrative permissions`. 意思是说”默认文件夹需要管理员权限“。你需要按照我上面说的那样子，以管理员权限打开windows PowerShell。具体操作是，找到powershell，鼠标右键，会出现”以管理员方式运行“，点击，让它以管理员方式运行就可以了。期间有人出现过这个情况，这让我不得不把这个文章尽量详细写出来。可能对于一些程序员朋友觉得有点冗余，对于不太懂程序的，有些细节就会被难住。
+
+![tACkzhrojS](/images/posts/tACkzhrojS.png)
+
+管理员权限启动的Powershell，窗口上面会有`Administrator` 或者 `管理员`字样，如下：
+
+![image-20230118034115752](/images/posts/image-20230118034115752.png)
+
+![eWyxATtSbe](/images/posts/eWyxATtSbe.png)
+
+如果没有这个字样，就不是管理员权限，你要检查你当前登录windows系统的账号，或者直接用windows系统默认的超级管理员账号Administrator登录。
+
+等chocolatey安装好之后，输入choco，回车，如下图，看到显示了chocolatey的版本号v1.1.0，即表示安装成功。
+
+![powershell_5G3YUqCTT8](/images/posts/powershell_5G3YUqCTT8.png)
+
+### 2.安装python环境
 
 我们需要给windows10安装python3.执行下面语句：不要使用默认指令`choco install python`，默认指令会安装python3的最新版本，后面安装whisper会提示版本过高安装不了。这里安装python3.9版本即可。
 
@@ -61,7 +95,7 @@ python -m pip install -U pip
 python -m pip install yt-dlp
 ```
 
-### 2.创建Python虚拟环境
+### 3.创建Python虚拟环境
 
 创建python虚拟环境：
 
@@ -83,7 +117,7 @@ python -m venv C:\Users\47664\venv
 
 ![explorer_8zuIuHD57x](/images/posts/explorer_8zuIuHD57x.png)
 
-### 3.启动python虚拟环境
+### 4.启动python虚拟环境
 
 最为关键的一步来了，千万别弄错了：我们需要在命令行中去执行这个activate.bat程序,目的是为了开启python虚拟化环境，怎么做呢？
 
@@ -115,7 +149,7 @@ activate.bat
 
 已经进入python虚拟环境了，黑框cmd不要退出，我们这个时候先去安装一个git环境，
 
-### 4.安装git环境
+### 5.安装git环境
 
 下载git安装文件exe：去到git官网：[https://git-scm.com/](https://git-scm.com/)，如下图，点击那个Download for Windows，下载git的安装文件：
 
@@ -131,7 +165,7 @@ activate.bat
 
 ![cmd_cGtW04Fz9Y](/images/posts/cmd_cGtW04Fz9Y.png)
 
-### 5.安装whisper
+### 6.安装whisper
 
 我们安装OpenAi公司的whisper库：
 
@@ -141,7 +175,7 @@ pip install git+https://github.com/openai/whisper.git
 
 这个库的体积很大，安装文件可能达到2GB，耐心等待安装完成。安装完成whisper之后，
 
-### 6.安装yt-whisper
+### 7.安装yt-whisper
 
 注意，这个脚本安装出错，建议你fork官方这个库之后，本文开篇的时候说了，官方这个脚本此时是有错误的，需要你fork了这个仓库之后自行修改脚本setup.py里面的错误，并用你自己的github地址安装yt-whisper。这里我已经替换掉了官方的地址，如下,复制这个指令开始安装yt-whisper.
 
@@ -151,7 +185,7 @@ pip install git+https://github.com/HillCat/yt-whisper.git
 
 安装完成。就可以使用yt-whisper去生成youtube视频的字幕了，先不用急着去找youtube视频链接，这里的指令我们先执行，测试下yt_whisper指令是否正常能够生成字幕。
 
-### 7.测试yt_whisper
+### 8.测试yt_whisper
 
 执行下面指令，测试yt_whisper功能：
 
@@ -177,7 +211,7 @@ yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 每次使用的时候，如果你电脑重启过，或者关闭过python虚拟环境，可能需要再次进入python虚拟机环境，才能执行这个AI程序，进入python虚拟环境的方式，参考上面的步骤即可。
 
-### 8.日常使用yt_whisper
+### 9.日常使用yt_whisper
 
 通过上面步骤，成功安装了yt-whisper。重启电脑之后，再要使用这个工具生成youtube字幕，只需要以下几个步骤：
 
@@ -197,7 +231,7 @@ yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 以上就是日常使用yt_whisper生成youtube AI字幕的常规操作。如果不指定目录位置，输出的字幕文件会生成到Scripts目录中。
 
-#### 8.1 指定字幕保存路径
+#### 9.1 指定字幕保存路径
 
 ```shell
 yt_whisper "https://www.youtube.com/watch?v=9NqthBLHBDg&ab_channel=IAmTimCorey" --output_dir C:\Users\47664\Downloads\video
@@ -205,7 +239,7 @@ yt_whisper "https://www.youtube.com/watch?v=9NqthBLHBDg&ab_channel=IAmTimCorey" 
 
 因为IDM工具下载youtube视频默认会保存到windows系统的C盘的Downloads下面的video文件夹，所以使用yt_whisper生成字幕的时候，建议按照上面的例子，指定一个`output_dir`参数带上目标地址。我这里是把输出的字幕指定到了`C:\Users\47664\Downloads\video`文件里。你可以保存这个例子，修改对应的路径和url，每次下载的时候使用这个保存的模板即可。
 
-### 9.注意事项
+### 10.注意事项
 
 1.mkv格式的视频无法被anki的mpv2anki插件截取，需要用格式工厂转换mkv为mp4格式，如果其他格式视频不是mp4的，建议都转为mp4。
 
