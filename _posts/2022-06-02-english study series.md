@@ -33,10 +33,6 @@ openai-whisper @ git+https://github.com/openai/whisper.git@main#egg=openai-whisp
 https://github.com/m1guelpf/yt-whisper.git
 ```
 
-
-
-
-
 ## yt-whisper安装过程
 
 首先确保你的windows10电脑已经安装了chocolatey这个软件包管理工具。
@@ -239,7 +235,15 @@ yt_whisper "https://www.youtube.com/watch?v=9NqthBLHBDg&ab_channel=IAmTimCorey" 
 
 因为IDM工具下载youtube视频默认会保存到windows系统的C盘的Downloads下面的video文件夹，所以使用yt_whisper生成字幕的时候，建议按照上面的例子，指定一个`output_dir`参数带上目标地址。我这里是把输出的字幕指定到了`C:\Users\47664\Downloads\video`文件里。你可以保存这个例子，修改对应的路径和url，每次下载的时候使用这个保存的模板即可。
 
-### 10.注意事项
+### 10.制作Youtube单词卡片
+
+我们生成AI字幕的目的，一方面是为了结合potplayer播放器在本地观看下载好的这些`视频和字幕`齐全的英文视频，另外一个方面是为了配合mpv2anki插件来制作视频卡片，进行类似有声书的精读精听，在编辑卡片的时候，由于是没有对应的中文整句翻译的，这里推荐可以安装`google translate`插件,插件安装Code是：`1536291224`,拿到这个Code可以直接在anki的菜单中找到Add-on ,Get Add on...。添加这个Code安装码，安装这个google翻译插件，在我们编辑卡片的时候，就会出现这个google翻译图标，我们设置好Source Filed，Target Filed。就可以一键翻译英文为中文了。
+
+![afryitHXx9](/images/posts/afryitHXx9.png)
+
+## 
+
+### 11.注意事项
 
 1.mkv格式的视频无法被anki的mpv2anki插件截取，需要用格式工厂转换mkv为mp4格式，如果其他格式视频不是mp4的，建议都转为mp4。
 
