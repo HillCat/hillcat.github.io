@@ -237,7 +237,7 @@ yt_whisper "https://www.youtube.com/watch?v=9NqthBLHBDg&ab_channel=IAmTimCorey" 
 
 ### 10.制作Youtube单词卡片
 
-我们生成AI字幕的目的，一方面是为了结合potplayer播放器在本地观看下载好的这些`视频和字幕`齐全的英文视频，另外一个方面是为了配合mpv2anki插件来制作视频卡片，进行类似有声书的精读精听，在编辑卡片的时候，由于是没有对应的中文整句翻译的，这里推荐可以安装`google translate`插件,插件安装Code是：`1536291224`,拿到这个Code可以直接在anki的菜单中找到Add-on ,Get Add on...。添加这个Code安装码，安装这个google翻译插件，在我们编辑卡片的时候，就会出现这个google翻译图标，我们设置好Source Filed，Target Filed。就可以一键翻译英文为中文了。
+我们生成AI字幕的目的，一方面是为了结合potplayer播放器在本地观看下载好的这些`视频和字幕`齐全的英文视频，另外一个方面是为了配合mpv2anki插件来制作视频卡片，进行类似有声书的精读精听，在编辑卡片的时候，由于是没有对应的中文整句翻译的，这里推荐可以安装`google translate`插件,插件安装Code是：`1536291224`,拿到这个Code可以直接在anki的菜单中找到Tools，Add-ons ,Get Add ons...。添加这个Code安装码，安装这个google翻译插件，在我们编辑卡片的时候，编辑框右侧就会出现这个很小的google翻译图标，我们设置好Source Filed，Target Filed。就可以一键翻译英文为中文了。
 
 ![afryitHXx9](/images/posts/afryitHXx9.png)
 
