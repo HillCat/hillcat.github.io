@@ -77,7 +77,7 @@ typora-root-url: ../
 
 我们用线上的方式生成参数，下一步操作，会要把这个导出的卡片数据上传到网上。
 
-#### 2.5 线上生成参数
+#### 2.5 在线生成参数
 
 回到这个插件项目的Github地址，Github网址[https://github.com/open-spaced-repetition/fsrs4anki](https://github.com/open-spaced-repetition/fsrs4anki)
 
@@ -97,19 +97,19 @@ typora-root-url: ../
 
 ![chrome_MTpfA40tDv](/images/posts/chrome_MTpfA40tDv.png)
 
-我们需要把之前导出的那个anki数据包上传到这里来，如下，点击左侧栏的文件夹图标，展开得到初始化的文件夹线上地址。最终如下图2所示。
+我们需要把之前导出的那个anki文件上传到这里来，如下，先展开左侧栏的File文件夹地址，展开方式是，直接点击左边这个第一个图标![Typora_uVHUOeo8md](/images/posts/Typora_uVHUOeo8md.png)展开Table of Content，然后点击![Typora_YwWefGDbSK](/images/posts/Typora_YwWefGDbSK.png)文件夹图标，它会显示`Connecting to a runtime to enable file browsing`，提示它正在加载运行时环境以便打开文件浏览器，等待几秒钟，它会在左侧栏加载出来文件列表。
 
 ![1234kjddsfsf987g](/images/posts/1234kjddsfsf987g.gif)
 
-文件夹最终展开之后的效果如下：
+文件夹最终展开之后的效果如下，文件夹里面默认有个sample_data文件夹，如下：
 
 ![chrome_Horp6eRQHL](/images/posts/chrome_Horp6eRQHL.png)
 
-如下图所示，点击这个上传图标，上传我们的anki卡片数据。
+我们点击如下的‘上传图标’，上传我们的anki卡片数据，从弹出对话框中，选择我们电脑中已经导出的anki文件，点击Open，开始上传。
 
 ![nYe6a1brUS](/images/posts/nYe6a1brUS.png)
 
-最终上传成功，效果如下图：文件`collection-2023-01-22@01-37-19.colpkg`已经在里面了。
+最终上传成功，效果如下图：文件`collection-2023-01-22@01-37-19.colpkg`已经在里面了，我们需要复制这个文件的全名，包括colpkg这个后缀，一起复制。
 
 ![chrome_KVmSaKhtIa](/images/posts/chrome_KVmSaKhtIa.png)
 
@@ -117,11 +117,11 @@ typora-root-url: ../
 
 ![U6XMbu7HcK](/images/posts/U6XMbu7HcK.png)
 
-修改之后，就可以执行这个脚本了，脚本会依据我们上传的这个文件来进行机器学习训练，最终得到优化之后的参数，执行脚本运行，请回到顶部菜单位置，点击`RunTime`，`Run all`：这个时候脚本就启动了
+修改之后，脚本会被自动保存。下面可以执行这个脚本了，脚本执行完毕，我们就能得到优化之后的参数。怎么执行脚本呢？回到顶部菜单位置，点击`RunTime`，`Run all`，弹出来一个警告提示框，
 
 ![y9sQMZrSIM](/images/posts/y9sQMZrSIM.png)
 
-选择Run anyway，忽略警告信息，执行：
+选择Run anyway，忽略警告信息，执行脚本：
 
 ![LbAc7AAyAP](/images/posts/LbAc7AAyAP.png)
 
@@ -131,9 +131,9 @@ typora-root-url: ../
 
 等待脚本慢慢执行，它正在根据我们自己导出来的anki卡片数据进行机器学习运算，最终会计算出一个最优化的参数。我们之后要拿到这个结果参数，去替换掉js脚本中的参数，粘贴到我们自己的anki中去。这个参数，最好是保存到一个word文档或者txt里面，下次如果丢失了，能够找到这个参数，就不需要每次进行这么久的时间去在线运算这些数据了。
 
-本来我们是要在2.5.4小节采用`本地生成参数`的方式来得到这个参数的，因为本地环境python缺少模块，只能最终选择线上的方式来生成，线上这个方式，耗时会比较久,等待结果的过程中我们可以看看它整个运行过程。
+线上这个方式，耗时会比较久,等待结果的过程中我们可以看看它整个运行过程。
 
-机器学习训练过程中，我们可以鼠标往下拖动脚本页面查看程序运行的每一个环节:
+机器学习训练过程中，我们可以鼠标滚轮往下滑动脚本页面查看程序运行的每一个环节:
 
 ![chrome_J7xjDTUqcS](/images/posts/chrome_J7xjDTUqcS.png)
 
