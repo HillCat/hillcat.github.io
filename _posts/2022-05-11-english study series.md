@@ -39,28 +39,9 @@ typora-root-url: ../
 
 
 
-#### 2.3 安装Jupyter
 
-为了安装Jupyter，我们只需要去把Anaconda安装到我们电脑就可以了。Anaconda网站下载：
-[https://www.anaconda.com/](https://www.anaconda.com/)
 
-进入到Anaconda官网，看到这个首页就是下载地址，直接下载windows版本的安装文件安装即可，跟我们平时安装其他软件一样，直接下一步，下一步，搞定即可。
-
-![chrome_brNQTPmNMa](/images/posts/chrome_brNQTPmNMa.png)
-
-安装完成之后，我们电脑里面就有`Jupter Notebook(anaconda3)`这个软件了
-
-![explorer_xLilsZN3hz](/images/posts/explorer_xLilsZN3hz.png)
-
-![Obsidian_Ga8AUaLkmT](/images/posts/Obsidian_Ga8AUaLkmT.png)
-
-安装完成之后，我们在windows10开始菜单中就可以看到`Jupyter Notebook(anaconda3)`这个软件了，如下：
-
-![0Qth4u9gQL](/images/posts/0Qth4u9gQL.png)
-
-这样子Jupyter就安装完成了。
-
-#### 2.4 下载FSRS4Anki Helper源码
+#### 2.3 下载FSRS4Anki Helper源码
 
 根据这个Github网址[https://github.com/open-spaced-repetition/fsrs4anki](https://github.com/open-spaced-repetition/fsrs4anki)，我们下载这个Github项目的压缩包，如下图，点击Code图标，Download Zip，把它这个插件项目的代码下载到我们自己windows电脑上。
 
@@ -70,73 +51,11 @@ typora-root-url: ../
 
 ![mKwKGGmKdi](/images/posts/mKwKGGmKdi.png)
 
-好了，我们先把这个源码放在这里备用，我们下一步，打开jupyter工具，这个源码要被下一步的jupyter用到。
-
-#### 2.5 打开jupyter工具
-
-开始菜单中我们找到`Jupter Notebook（anaconda3）`，鼠标右键，以管理员身份运行。
-
-![Typora_jizrMJFRJa](/images/posts/Typora_jizrMJFRJa.png)
-
-![chrome_AAa51Nll5h](/images/posts/chrome_AAa51Nll5h.png)
-
-打开的一瞬间，会有个黑窗口出来，并且会自动打开浏览器，进入到jupyter的主页，这个页面是在我们电脑本地打开的，并不是浏览器网站，这个网站是在我们自己电脑上面jupyter的后台服务，如下：
-
-![python_xfL94aNYF4](/images/posts/python_xfL94aNYF4.png)
-
-它的地址是localhost:8888/tree 这个地址。
-
-我们把前面这个黑框 最小化，不要关掉这个黑框了。jupyter后台的运行需要保持这个黑框一直运行着。
-
-#### 2.5.1 新建文件夹
-
-在jupyter这个网站页面中，我们创建一个新文件夹，用来保存我们在上面2.4小节中下载到的那个`FSRS4Anki Helper源码`,
-
-![0a7DXNrFvf](/images/posts/0a7DXNrFvf.png)
-
-如下操作，选择新建文件夹，会默认新建一个文件名为`Untitled Folder`的文件夹，我们把这个文件夹随便重新命名一个我们容易记住的名字，比如叫做`Anki`。
-
-![Vyy7HDPWwe](/images/posts/Vyy7HDPWwe.png)
-
-![YFPMebpJNH](/images/posts/YFPMebpJNH.png)
-
-首先是找到这个刚创建的新文件夹，然后选中它：
-
-![chrome_SCavTs8BLN](/images/posts/chrome_SCavTs8BLN.png)
-
-选中之后，回到顶部位置，找到`Rename`重命名按钮，点击之后，填入新名字`Anki`，点击Rename，那么就会看到列表里面有个Anki文件夹了。
-
-![7H674TYxWM](/images/posts/7H674TYxWM.png)
-
-![chrome_3zNKo08i5N](/images/posts/chrome_3zNKo08i5N.png)
-
-![CuXP2ewrjG](/images/posts/CuXP2ewrjG.png)
+好了，我们先把这个源码放在这里备用，等我们在线生成参数之后，要回来编辑这个里面js文件，然后粘贴到Anki中。
 
 
 
-#### 2.5.2 上传FSRS4Anki Helper源码
-
-进入到这个Anki文件夹中，我们选择Upload按钮，开始上传FSRS4Anki Helper源码。
-
-![kKkGG8C1Rl](/images/posts/kKkGG8C1Rl.png)
-
-在打开的对话框中，我们找到FSRS4Anki Helper源码所在文件夹，选中所有文件上传。
-
-![P8qshYUvvI](/images/posts/P8qshYUvvI.png)
-
-
-
-![RSdQcbqRXj](/images/posts/RSdQcbqRXj.png)
-
-依次点击这些文件，上传即可，有2个文件会上传失败，不用管它，上传失败的，我们直接回到列表中点击cancle按钮取消即可：
-
-![ShareX_UTIO4ognPN](/images/posts/ShareX_UTIO4ognPN.png)
-
-![chrome_0Uu8yDIigI](/images/posts/chrome_0Uu8yDIigI.png)
-
-
-
-#### 2.5.3 导出我们所有Anki卡片
+#### 2.4 导出我们所有Anki卡片
 
 回到anki界面，Export导出，这些卡片数据最终会被用来进行机器学习，生成针对我们这些卡片优化后的参数。
 
@@ -152,53 +71,33 @@ typora-root-url: ../
 
 
 
-把这个文件上传到jupyter我们之前创建的那个Anki文件夹中。
 
-![1j2XU2jiKt](/images/posts/1j2XU2jiKt.png)
 
-![chrome_xjOHAyAIqq](/images/posts/chrome_xjOHAyAIqq.png)
 
-点击Upload上传，如下：
 
-![BSsb69oHo1](/images/posts/BSsb69oHo1.png)
+我们用线上的方式生成参数，下一步操作，会要把这个导出的卡片数据上传到网上。
 
-我们把这个文件上传之后，我们开始针对这个文件，生成我们自己的参数。
+#### 2.5 线上生成参数
 
-#### 2.5.4 本地生成参数
+回到这个插件项目的Github地址，Github网址[https://github.com/open-spaced-repetition/fsrs4anki](https://github.com/open-spaced-repetition/fsrs4anki)
 
-最终我们上传到jupyter的文件如下图所示。我们选择其中的`fsrs4anki_optimizer.ipynb`点击，注意，不要选择错了，一定要看清楚，是带有`optimizer`字样的这个，而不是`simulator`字样的那个。
+![Gf4vSpJwxe](/images/posts/Gf4vSpJwxe.png)
 
-![YCeIwx2U3i](/images/posts/YCeIwx2U3i.png)
+找到这个optimizer字样的文件，点击，在chrome新窗口打开。
 
-进入之后，我们修改这个地方的文件名为我们之前自己Export从anki导出的那个文件名，根据你实际导出的文件名来填写，我这里的文件名是`collection-2023-01-22@01-37-19.colpkg`,我这里就把下面这个参数修改为`collection-2023-01-22@01-37-19.colpkg`. 这里一定是有 colpkg后缀名的，没有后缀名，你要把电脑显示文件后缀名给开启来。
+![2cTnd4Vzza](/images/posts/2cTnd4Vzza.png)
 
-![explorer_7MTwNWjbGn](/images/posts/explorer_7MTwNWjbGn.png)
+打开之后，会进入这个页面：[https://github.com/open-spaced-repetition/fsrs4anki/blob/main/fsrs4anki_optimizer.ipynb](https://github.com/open-spaced-repetition/fsrs4anki/blob/main/fsrs4anki_optimizer.ipynb)
 
-![5R9FA2PUnb](/images/posts/5R9FA2PUnb.png)
+然后，点击如下图的`Open in Colab`:
 
-替换掉这个文件名之后，我们点击 Cell ,Run All.
+![F9zG6DuENf](/images/posts/F9zG6DuENf.png)
 
-![chrome_FVOUiPI52c](/images/posts/chrome_FVOUiPI52c.png)
-
-![123453ccccccc453g](/images/posts/123453ccccccc453g.gif)
-
-遇到了报错，我们采用线上的方式生成我们的数据。进入到下面小节，2.5.5 线上生成参数。
-
-![chrome_j5hpEJMcdK](/images/posts/chrome_j5hpEJMcdK.png)
-
-本地生成参数出现错误，我们改用线上的方式生成。并且这里也推荐新手采用线上方式生成。
-
-#### 2.5.5 线上生成参数
-
-由于本地生成参数失败，我们走线上渠道，在本地`jupyter`这个页面回到顶部，找到这个`Open in Colab`按钮(如下图)，点击之后跳转到线上地址。
-
-![PgA0ndDQDn](/images/posts/PgA0ndDQDn.png)
-
-线上地址跳转之后，如下：
+点击之会跳转到google的colab网址，会自动打开这个脚本的运行页面，这是脚本的模拟运行环境，如下：
 
 ![chrome_MTpfA40tDv](/images/posts/chrome_MTpfA40tDv.png)
 
-我们需要把之前导出的那个anki数据上传到这里来，如下，点击左侧栏的文件夹图标，展开得到初始化的文件夹线上地址。最终如下图2所示。
+我们需要把之前导出的那个anki数据包上传到这里来，如下，点击左侧栏的文件夹图标，展开得到初始化的文件夹线上地址。最终如下图2所示。
 
 ![1234kjddsfsf987g](/images/posts/1234kjddsfsf987g.gif)
 
@@ -244,7 +143,7 @@ typora-root-url: ../
 
 ![Typora_clhUMOkCkP](/images/posts/Typora_clhUMOkCkP.png)
 
-#### 2.5.6 得到结果
+#### 2.6 得到结果
 
 最终，我们拖动浏览滚动条，如下位置，这里会显示最终的结果。下面空白处，输出了` var w = ......`字样：
 
@@ -258,7 +157,7 @@ var w = [2.2387, 2.3408, 5.294, -0.2247, -1.2567, 0.0472, 1.6229, -0.1875, 1.023
 
 
 
-#### 2.5.7 替换脚本
+#### 2.7 替换脚本
 
 回到脚本这里，我们找到文件`fsrs4anki_scheduler.js`，使用编辑器打开，这里推荐使用Notepad++打开。
 
@@ -278,7 +177,7 @@ var w = [2.2387, 2.3408, 5.294, -0.2247, -1.2567, 0.0472, 1.6229, -0.1875, 1.023
 
 ![12666776werfgdgds7g](/images/posts/12666776werfgdgds7g.gif)
 
-#### 2.5.8 脚本版本的区别
+#### 2.8 脚本版本的区别
 
 打开anki菜单中的About页面，查看你的anki的版本是QT6还是QT5, 不同的版本，使用不同的脚本：
 
