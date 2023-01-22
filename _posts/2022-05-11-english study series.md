@@ -27,7 +27,7 @@ typora-root-url: ../
 
 #### 2.1 安装插件
 
-然后是安装插件，安装码是：759844606。直接到anki的add-ons菜单，get add on ...里面填入这个Code码安装这个插件即可。安装完毕，就能看到这个插件了:
+然后是安装插件，安装码是：759844606。直接到anki的add-ons菜单，`Get Add-ons...`里面填入这个Code码安装这个插件即可。安装完毕，就能看到这个插件了:
 
 ![anki_EveEKoynm3](/images/posts/anki_EveEKoynm3.png)
 
