@@ -202,25 +202,27 @@ typora-root-url: ../
 
 ![1234kjddsfsf987g](/images/posts/1234kjddsfsf987g.gif)
 
+文件夹最终展开之后的效果如下：
+
 ![chrome_Horp6eRQHL](/images/posts/chrome_Horp6eRQHL.png)
 
-点击这个上传↑图标，上传我们的anki卡片数据。
+如下图所示，点击这个上传图标，上传我们的anki卡片数据。
 
 ![nYe6a1brUS](/images/posts/nYe6a1brUS.png)
 
-最终上传成功，效果如下图：`collection-2023-01-22@01-37-19.colpkg`已经在里面了。
+最终上传成功，效果如下图：文件`collection-2023-01-22@01-37-19.colpkg`已经在里面了。
 
 ![chrome_KVmSaKhtIa](/images/posts/chrome_KVmSaKhtIa.png)
 
-最终是上传成功。我们修改配置文件名，改为我们这个上传的文件名`collection-2023-01-22@01-37-19.colpkg`，如下图所示：
+如下所示，我们修改脚本里面的文本信息，filename改为我们的文件名`collection-2023-01-22@01-37-19.colpkg`，如下图所示：
 
 ![U6XMbu7HcK](/images/posts/U6XMbu7HcK.png)
 
-修改之后，我们就可以开始执行这个脚本了，回到顶部菜单位置，点击`RunTime`，`Run all`：
+修改之后，就可以执行这个脚本了，脚本会依据我们上传的这个文件来进行机器学习训练，最终得到优化之后的参数，执行脚本运行，请回到顶部菜单位置，点击`RunTime`，`Run all`：这个时候脚本就启动了
 
 ![y9sQMZrSIM](/images/posts/y9sQMZrSIM.png)
 
-选择Run anyway，继续执行：
+选择Run anyway，忽略警告信息，执行：
 
 ![LbAc7AAyAP](/images/posts/LbAc7AAyAP.png)
 
