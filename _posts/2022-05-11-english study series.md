@@ -240,7 +240,7 @@ typora-root-url: ../
 
 ![chrome_85DAn2UtUI](/images/posts/chrome_85DAn2UtUI.png)
 
-脚本从上到下执行，分好几个环节依次执行，每个小环节有数字序号，我们要拿的结果，在第3个小节，Result这里，如下图。等脚本全部执行完，我们需要向下拖动浏览器滚动条，找到第3小节，Result那个位置去拿结果。脚本还没有跑完之前，这里是不会有结果的。
+脚本从上到下执行，分好几个环节依次执行，每个小环节有数字序号，我们要拿的结果，在第3个小节，Result这里，如下图。等脚本全部执行完，我们需要向下拖动浏览器滚动条，找到第3小节，Result那个位置去拿结果。脚本还没有跑完之前，这里是不会有结果的。耐心等待。
 
 ![Typora_clhUMOkCkP](/images/posts/Typora_clhUMOkCkP.png)
 
