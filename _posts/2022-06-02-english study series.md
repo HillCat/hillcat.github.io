@@ -173,10 +173,10 @@ pip install git+https://github.com/openai/whisper.git
 
 ### 7.安装yt-whisper
 
-注意，这个脚本安装出错，建议你fork官方这个库之后，本文开篇的时候说了，官方这个脚本此时是有错误的，需要你fork了这个仓库之后自行修改脚本setup.py里面的错误，并用你自己的github地址安装yt-whisper。这里我已经替换掉了官方的地址，如下,复制这个指令开始安装yt-whisper.
+注意，这个脚本安装出错，建议你fork官方这个库之后，修改脚本setup.py里面的错误，并用你自己的github地址安装yt-whisper。参考文本开篇提到的方法。下面这个执行命令作为参考：
 
 ```shell
-pip install git+https://github.com/HillCat/yt-whisper.git
+pip install git+https://github.com/m1guelpf/yt-whisper.git
 ```
 
 安装完成。就可以使用yt-whisper去生成youtube视频的字幕了，先不用急着去找youtube视频链接，这里的指令我们先执行，测试下yt_whisper指令是否正常能够生成字幕。
@@ -237,11 +237,9 @@ yt_whisper "https://www.youtube.com/watch?v=9NqthBLHBDg&ab_channel=IAmTimCorey" 
 
 ### 10.制作Youtube单词卡片
 
-我们生成AI字幕的目的，一方面是为了结合potplayer播放器在本地观看下载好的这些`视频和字幕`齐全的英文视频，另外一个方面是为了配合mpv2anki插件来制作视频卡片，进行类似有声书的精读精听，在编辑卡片的时候，由于是没有对应的中文整句翻译的，这里推荐可以安装`google translate`插件,插件安装Code是：`1536291224`,拿到这个Code可以直接在anki的菜单中找到Tools，Add-ons ,Get Add ons...。添加这个Code安装码，安装这个google翻译插件，在我们编辑卡片的时候，编辑框右侧就会出现这个很小的google翻译图标，我们设置好Source Filed，Target Filed。就可以一键翻译英文为中文了。
+可以搭配安装`google translate`插件,插件安装Code是：`1536291224`。在没有中文字幕的情况下，快速生成翻译中文。
 
 ![afryitHXx9](/images/posts/afryitHXx9.png)
-
-## 
 
 ### 11.注意事项
 
