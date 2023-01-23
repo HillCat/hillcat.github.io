@@ -93,7 +93,7 @@ mpv2anki插件字段映射如下
 
 
 
-#### 5.3 视频压缩为高密度mp3音频
+#### 5.2 视频压缩为高密度mp3音频
 
 mpv2anki插件作者开发了2款插件。高密度mp3音频的概念是来至于国外这篇视频：“[Optimizing Passive Immersion: Condensed Audio](https://youtu.be/QOLTeO-uCYU)”，本来一集美剧30分钟，可以压缩为一个10分钟的语音mp3，专门用来在通勤路上复习用，这种复习的方式主要是锻炼听力，培养对`人物对话`的敏感度。插件地址：[https://ankiweb.net/shared/info/939347702](https://ankiweb.net/shared/info/939347702)，这个插件提供的方法可以用来把视频转为mp3音频，适合精听精学，搭配anki的视频卡，同时可以训练到听力，口语，阅读。
 
