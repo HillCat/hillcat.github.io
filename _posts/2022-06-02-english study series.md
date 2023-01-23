@@ -241,7 +241,7 @@ yt_whisper "https://www.youtube.com/watch?v=9NqthBLHBDg&ab_channel=IAmTimCorey" 
 
 [https://github.com/PowerShell/PowerShell/releases/download/v7.3.1/PowerShell-7.3.1-win-x64.msi](https://github.com/PowerShell/PowerShell/releases/download/v7.3.1/PowerShell-7.3.1-win-x64.msi)
 
-安装完成之后，我们在开始菜单里面。就能够看到这个软件,鼠标右键，以管理员身份运行：
+安装完成之后，我们在开始菜单里面。或者搜索找到powershell会看到powershell7的图标，如下,鼠标右键，以管理员身份运行：
 
 ![chrome_qEfIpCNCqE](/images/posts/chrome_qEfIpCNCqE.png)
 
@@ -251,7 +251,7 @@ yt_whisper "https://www.youtube.com/watch?v=9NqthBLHBDg&ab_channel=IAmTimCorey" 
 
 ![pwsh_HcvYfZeZCR](/images/posts/pwsh_HcvYfZeZCR.png)
 
-它会出现指令自动补全和提示，我们打开Powershell7之后，通过键盘上下↑↓键盘翻阅我们使用过的历史记录，可以快速找到Python虚拟机环境开启的路径和指令，只需要键盘方向键箭头向右  → ，即可补全，不需要我们一个个敲代码。
+它会出现指令自动补全和提示，键盘方向键：上下↑↓翻历史记录， → 补全，不需要敲代码。
 
 ![56435345sfhg24](/images/posts/56435345sfhg24.gif)
 
