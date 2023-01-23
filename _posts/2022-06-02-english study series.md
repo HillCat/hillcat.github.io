@@ -237,7 +237,7 @@ yt_whisper "https://www.youtube.com/watch?v=9NqthBLHBDg&ab_channel=IAmTimCorey" 
 
 ### 10.PowerShell使用yt_whisper
 
-还有比较便利方式就是使用最新版本PowerShell7，它有自动补全着智能提示。Powershell7的版本下载地址：
+还有比较便利方式就是使用最新版本PowerShell7，它有自动补全和智能提示。Powershell7的版本下载地址：
 
 [https://github.com/PowerShell/PowerShell/releases/download/v7.3.1/PowerShell-7.3.1-win-x64.msi](https://github.com/PowerShell/PowerShell/releases/download/v7.3.1/PowerShell-7.3.1-win-x64.msi)
 
