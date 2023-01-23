@@ -237,7 +237,7 @@ yt_whisper "https://www.youtube.com/watch?v=9NqthBLHBDg&ab_channel=IAmTimCorey" 
 
 ### 10.PowerShell使用yt_whisper
 
-windows10默认安装的Powershell是5.1版本的，我们这里需要额外追加一个Powershell7的版本。安装Powershell7不会影响到系统默认的Powershell5.1的使用。
+windows10默认自带的Powershell是5.1版本的，我们这里需要额外追加一个Powershell7的版本。安装Powershell7不会影响到系统默认的Powershell5.1的使用。
 
 ![Acrobat_zAQeVzK6AW](/images/posts/Acrobat_zAQeVzK6AW.png)
 
