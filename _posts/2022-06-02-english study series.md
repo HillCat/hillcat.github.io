@@ -207,7 +207,7 @@ yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 每次使用的时候，如果你电脑重启过，或者关闭过python虚拟环境，可能需要再次进入python虚拟机环境，才能执行这个AI程序，进入python虚拟环境的方式，参考上面的步骤即可。
 
-### 9.日常使用yt_whisper
+### 9.CMD使用yt_whisper
 
 通过上面步骤，成功安装了yt-whisper。重启电脑之后，再要使用这个工具生成youtube字幕，只需要以下几个步骤：
 
@@ -235,13 +235,55 @@ yt_whisper "https://www.youtube.com/watch?v=9NqthBLHBDg&ab_channel=IAmTimCorey" 
 
 因为IDM工具下载youtube视频默认会保存到windows系统的C盘的Downloads下面的video文件夹，所以使用yt_whisper生成字幕的时候，建议按照上面的例子，指定一个`output_dir`参数带上目标地址。我这里是把输出的字幕指定到了`C:\Users\47664\Downloads\video`文件里。你可以保存这个例子，修改对应的路径和url，每次下载的时候使用这个保存的模板即可。
 
-### 10.制作Youtube单词卡片
+### 10.PowerShell使用yt_whisper
+
+还有比较便利方式就是使用最新版本PowerShell7，它有自动补全着智能提示。Powershell7的版本下载地址：
+
+[https://github.com/PowerShell/PowerShell/releases/download/v7.3.1/PowerShell-7.3.1-win-x64.msi](https://github.com/PowerShell/PowerShell/releases/download/v7.3.1/PowerShell-7.3.1-win-x64.msi)
+
+安装完成之后，我们在开始菜单里面。就能够看到这个软件：
+
+![chrome_qEfIpCNCqE](/images/posts/chrome_qEfIpCNCqE.png)
+
+最终使用Powershell7下载youtube字幕如下效果：
+
+![pwsh_HcvYfZeZCR](/images/posts/pwsh_HcvYfZeZCR.png)
+
+它会出现指令自动补全和提示，我们打开Powershell7之后，通过键盘上下↑↓键盘翻阅我们使用过的历史记录，可以快速找到Python虚拟机环境开启的路径和指令，只需要键盘方向键箭头向右  → ，即可补全，不需要我们一个个敲代码。
+
+![56435345sfhg24](/images/posts/56435345sfhg24.gif)
+
+![pwsh_hCZvJO56OI](/images/posts/pwsh_hCZvJO56OI.png)
+
+```shell
+ cd c:\users\47664\venv\Scripts   
+```
+
+
+
+![pwsh_eHeL9ZgWC3](/images/posts/pwsh_eHeL9ZgWC3.png)
+
+```shell
+ ./activate.bat   
+```
+
+
+
+![pwsh_F6At4odYys](/images/posts/pwsh_F6At4odYys.png)
+
+```shell
+ yt_whisper "https://www.youtube.com/watch?v=KPn637EfSOI&ab_channel=PBSNewsHour" --output_dir F:\Downloads\Video
+```
+
+
+
+### 12.制作Youtube单词卡片
 
 可以搭配安装`google translate`插件,插件安装Code是：`1536291224`。在没有中文字幕的情况下，快速生成翻译中文。
 
 ![afryitHXx9](/images/posts/afryitHXx9.png)
 
-### 11.注意事项
+### 13.注意事项
 
 1.mkv格式的视频无法被anki的mpv2anki插件截取，需要用格式工厂转换mkv为mp4格式，如果其他格式视频不是mp4的，建议都转为mp4。
 
