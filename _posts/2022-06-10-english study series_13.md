@@ -99,29 +99,23 @@ mpv2anki插件作者开发了2款插件。高密度mp3音频的概念是来至�
 
 ### 6.美剧视频和字幕下载
 
-我使用的方法是通过[FlixGrab+](https://www.flixgrab.com/)付费软件下载NetFlix的视频。它这个工具在淘宝可以买到破解版本，但是目前我用的是正版，因为正版升级频率挺高的(3个月左右升级一次)，破解版有时候跟不上会失效，所以暂时没用破解版，使用这个工具下载奈飞视频的时候不要同时在线看奈飞，有可能会导致你奈飞账号被封禁48小时。
+下载奈飞视频的工具[FlixGrab+](https://www.flixgrab.com/)，通过季度付费的方法购买即可，一个序列号可以使用3个月，绑定3台电脑。
 
 #### 6.0 FlixGrab+
 
-FlixGrab是可以批量下载整个美剧的，如果一个美剧有8季，你只需要粘贴其中任何一集的URL就可以，等FlixGrab解析出来视频的缩略图之后，缩略图上面会出现齿轮样的设置按钮，上面有个`Paste Espisodes`选项，会把所有集的URL全部粘贴生成出来缩略图，你可以单独对这些缩略图进行设置，分别设置它们的分辨率为720P。默认是最低分辨率432P和1080P两档，没有自定义720P批量选取的方法，所以720P这个档位的分辨率都要自己手动选择。100集就得设置100下，希望以后这个软件能够改进这块。FlixGrab使用的时候要登录NetFlix Family Member成员，即:登录的时候你需要选择家庭成员子账号图标进入。
+FlixGrab使用大概如下：
 
 ![POdvvjX7Wc](/images/posts/POdvvjX7Wc.png)
 
 
 
-![56754546](/images/posts/56754546.gif)
-
-Flixgrab+是付费版本，去官方网站选择季度付费(50RMB左右)，通过paypal支付即可，也可以选择去淘宝找人代购，接收序列号的邮箱填写你自己的就可以，一个序列号可以绑3台电脑。多人共用更划算。
-
 ##### 6.0.1 FlixGrab+无法下载
 
 **第一种原因**是未分配运行权限/网络访问权限导致。
 
-常见的故障就是解析失败，提示“Engine response timeout” ,这个超时是没有给FlixGrab网络访问权限导致的，初次打开FlixGrab的时候windows10系统会询问你要不要给它网络访问权限，要不要给他执行权限，询问你的时候，你要回答Yes，这些权限都要给这个FlixGrab，如果没有给予网络访问权限，那么就会超时。如果是网络抖动导致的无法解析，右键点击缩略图，弹出来的菜单选择`New Paste`，重新生成新的缩略图即可。
+初次打开软件，windows10系统会询问你给与这个软件的网络访问权限和执行权限，如果你没给，那么就会下载超时：
 
 ![fxFiovnxAY](/images/posts/fxFiovnxAY.png)
-
-![mXkbPbVRu5](/images/posts/mXkbPbVRu5.png)
 
 
 
@@ -137,7 +131,7 @@ Flixgrab+是付费版本，去官方网站选择季度付费(50RMB左右)，通�
 
 #### 6.1 NetFlix字幕插件
 
-NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)，搜索一下chrome插件市场就能找到这个插件，然后它有个导出字幕功能，导出的时候，选择"打印HTML"即可，中英双语字幕会在浏览器页面中完整显示出来。它的功能和Anki美剧制卡可谓是完美结合，也不枉以前持续投入英语自学的研究，该插件有几个关键的地方设置需要注意，详情参考下:
+NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)，搜索一下chrome插件市场就能找到这个插件，然后它有个导出字幕功能，导出的时候，选择"打印HTML"即可，中英双语字幕会在浏览器页面中完整显示出来，即便下载不到srt格式的中文人工字幕，也可以使用这个打印的字幕，用工具生成中文的str字幕。从而制作中英文双语卡片。
 
 ![dX719tRHQU](/images/posts/dX719tRHQU.png)
 
@@ -159,7 +153,7 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 #### 6.2 下载youtube视频
 
-下载youtube英文视频，推荐用IDM工具，IDM全称是Internet Download Manager。下载地址:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具是付费的，性价比特别高，120RMB左右永久版权。
+IDM全称是Internet Download Manager。下载地址:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具是付费的，终身授权很便宜，推荐人手一份。
 
 ![IDMan_SMKbr3Tn26](/images/posts/IDMan_SMKbr3Tn26.png)
 
@@ -167,35 +161,25 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 ![IDMan_1aZQPEgESz](/images/posts/IDMan_1aZQPEgESz.png)
 
-![chrome_P42WUXjCil](/images/posts/chrome_P42WUXjCil.png)
 
-IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)，不要搞错了，因为市面上有些冒牌插件，也是打着IDM的旗号，容易搞错，这里特别注意下。IDM插件下载youtube视频的时候，会有个悬停工具条，如下：
 
-![oZmNzWrGq3](/images/posts/oZmNzWrGq3.png)
+IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)，不要搞错了，因为市面上假冒插件太多。
 
 ##### 6.2.1 去广告插件
 
-另外，观看youtube视频，必备的去广告插件:[Adblock](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom)推荐安装。
-
-![chrome_CUpvyJ9TBX](/images/posts/chrome_CUpvyJ9TBX.png)
+另外，观看youtube视频，必备的去广告插件:[Adblock](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom)。
 
 ##### 6.2.2 九宫格插件
 
-还一个插件推荐一下：[G App Launcher (Customizer for Google™)](https://chrome.google.com/webstore/detail/g-app-launcher-customizer/ponjkmladgjfjgllmhnkhgbgocdigcjm)，这个插件可以让你不访问google网站，直接点击图标进入youtube。可以自定义google首页部分的快捷访问图标。可以让你自定义google首页的这个九宫格图标。排列位置这些都可以调整。而且这个九宫格，可以在不访问google首页的时候，直接从工具条点击访问。
-
-![chrome_Ur9ZkK0Gty](/images/posts/chrome_Ur9ZkK0Gty.png)
-
-![chrome_29rYtYd1kA](/images/posts/chrome_29rYtYd1kA.png)
+九宫格插件：[G App Launcher (Customizer for Google™)](https://chrome.google.com/webstore/detail/g-app-launcher-customizer/ponjkmladgjfjgllmhnkhgbgocdigcjm)。
 
 #### 6.3 在线播放youtube视频
 
-不过，你也可以直接复制youtube视频url，直接用mpv在线播放来制卡，而不需要下载YouTube视频到本地。它利用的是youtube-dl这个中间件，边下载边播放。帆樯状态网速不稳定，很容易卡顿。一般还是建议用IDM下载到硬盘离线播放。如果你的线路超稳定，能看1080P,可以试试。也可以单独打开mpv播放器去播放youtube的url。把url拖拽到mpv播放器上面即可，它是支持拖拽播放的。甚至B站的视频url直接拖拽到mpv屏幕上面都能直接播放。
-
-![674536545](/images/posts/674536545.gif)
+如果肉身再国外，可以使用mpv直接播放url链接视频，如果肉身在墙内，还是别用这个了，它是边下载边看的模式，会很卡。
 
 #### 6.4 卡片字体颜色
 
-编辑卡片的时候，不同的生词标记不同的颜色，使用[Quick Colour Changing](https://ankiweb.net/shared/info/2491935955)这个anki插件，能快速标记文字颜色，突出学习重点。我的Quick Colour Changing插件设置如下:  Alt+4 是标记蓝色，Alt+5是标记橘黄色，Alt+6是标记橙红色。它这个插件的配置文本是Json格式，如果要增加其他快捷键和颜色，增加keys的数组项即可。这也是一个`提升幸福指数`的工具，让做笔记更轻松。如果要截图，使用[sharex](https://getsharex.com/)，这个工具截图之后可以直接粘贴,关于sharex，我之前的英语系列文章有提到过，可以在我博客右侧边栏Tag中点击English分类，里面有个标题提到了Sharex，那篇文章中有一个sharex的配置，直接导入即可使用。
+插件地址：[Quick Colour Changing](https://ankiweb.net/shared/info/2491935955)使用这个anki插件，编辑卡片的时候能快速标记文字颜色，突出学习重点。配置如下：
 
 ```shell
 {
@@ -220,17 +204,9 @@ IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.
 
 ​                                                                               (↑苹果手机anki测试效果↑)
 
-插件[Quick Colour Changing](https://ankiweb.net/shared/info/2491935955)自定义的3种颜色标记, 效果如上图。从实际使用来看，美剧卡片的复习难度要小得多，相比有声书和新闻卡片复习，美剧要好多了。总之: 刷美剧，用它，真香! 我找到了久违的2020年那个时候的感觉，2020年是我英语进步速度最快的一年。
+插件[Quick Colour Changing](https://ankiweb.net/shared/info/2491935955)自定义的3种颜色标记, 效果如上图。
 
-![chrome_g81nNjplZ2](/images/posts/chrome_g81nNjplZ2.png)
 
-顺带提一句，苹果手机的anki是收费的，体验要比安卓的好很多。
-
-#### 6.5 卡片体积
-
-下面是1万3千张卡片的容积，达到了889M，其中美剧卡片并不多，随着美剧卡片的增多，这个体积应该还会快速增长。在上面`5.2字段设置`部分，Video字段有两个格式，一个是MP4，一个是webm都不能少，去掉mp4会影响手机上面显示视频，去掉webm会影响电脑端显示。这种卡片做出来的体积还是比较占空间的。好在anki官方对于这块并没有容量的限制。所以对于视频卡片而言，不用太过担心体积膨胀。
-
-![chrome_hmkXyBovm9](/images/posts/chrome_hmkXyBovm9.png)
 
 ### 7.MPV播放器设置
 
@@ -361,18 +337,6 @@ Enjoy it！
 
 ### 10.我安装的插件
 
-需要**特别注意**的是，anki的插件安装类似于苹果手机通过AppStore安装软件。也是在线安装的，如下图，直接找到插件的10位数Code码，填入Anki界面的Code输入框就可以直接在线安装。anki插件都是在线安装的，不需要我们手动下载，我们要做的就是要去插件页面找到这个10位数的Code。
-
-![KzijOJJayD](/images/posts/KzijOJJayD.png)
-
-插件的Code码一般都是在Download的这个地方，这里会有个蓝色框，框里有串10位数，这个数字就是插件的Code码，每个插件的Code码都不同，都是唯一的。复制这个Code，然后在Anki主界面找到Tools菜单，Add-ons，点击`Get Add-ons...`按钮，填入Code，Anki就会从云端拉取插件数据安装到本地。本质上，anki的插件就是一堆python + lua的脚本。它这个插件目前的区间截取功能不是很完善，截取的字幕不全，需要反馈给作者改进python脚本。
-
-![y81lVmAXNj](/images/posts/y81lVmAXNj.png)
-
-![B4Qu9F1ZcL](/images/posts/B4Qu9F1ZcL.png)
-
-#### 10.1 插件列表
-
 下面这里为了方便，我已经准备好了17个插件的Code，可以直接拿过去使用：
 
 1.`Adjust Sound Volume` 2123044452
@@ -416,8 +380,6 @@ Enjoy it！
 [http://www.randomhacks.net/substudy/](http://www.randomhacks.net/substudy/) (英文文章)这篇文章里面的作者，讲到了自己通过看剧学语言的心得体会，值得一看。
 
 [https://learnanylanguage.fandom.com/wiki/Subs2srs](https://learnanylanguage.fandom.com/wiki/Subs2srs)(英文文章)这里提到的方式，是另外一种看剧挂载字幕的制卡方式，只支持低版本的anki，`Matt vs japan`曾经使用的方法就是这个方法，跟我本文讲解的方法是差不多的，插件都是同一个作者。
-
-[https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg](https://mp.weixin.qq.com/s/nJUpWAN42fy0D1NsPewgrg) 这篇是某位程序员大神写的微信公众号文章。该文章主要以程序员的视角，谈了学习英语的意义。`英语足够好，自学速度将超过99%程序员，甚至超过99.99%程序员`这句话我比较认可，并且有实际体会，zlibrary网站有很多原版书的PDF，获取成本几乎为零，我之前看了大量这块的IT原版书，这给我提升英语的同时，也省了一大笔钱。魏剑峰的《英语高效学习法》(2022年10月出版)，序言也有提到`学习英语的真正效用`，讲得很不错，有兴趣的可以看看。
 
 其他mpv播放器配置，参考Github：[https://github.com/minikui/mpv/tree/mpv/lua-settings](https://github.com/minikui/mpv/tree/mpv/lua-settings)
 
