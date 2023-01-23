@@ -241,9 +241,11 @@ yt_whisper "https://www.youtube.com/watch?v=9NqthBLHBDg&ab_channel=IAmTimCorey" 
 
 [https://github.com/PowerShell/PowerShell/releases/download/v7.3.1/PowerShell-7.3.1-win-x64.msi](https://github.com/PowerShell/PowerShell/releases/download/v7.3.1/PowerShell-7.3.1-win-x64.msi)
 
-安装完成之后，我们在开始菜单里面。就能够看到这个软件：
+安装完成之后，我们在开始菜单里面。就能够看到这个软件,鼠标右键，以管理员身份运行：
 
 ![chrome_qEfIpCNCqE](/images/posts/chrome_qEfIpCNCqE.png)
+
+![chrome_AAa51Nll5h](/images/posts/chrome_AAa51Nll5h.png)
 
 最终使用Powershell7下载youtube字幕如下效果：
 
