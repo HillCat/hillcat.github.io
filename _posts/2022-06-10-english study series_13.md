@@ -23,15 +23,7 @@ typora-root-url: ../
 
 ### 1.安装chocolatey
 
-最先要安装的是chocolatey。强烈推荐使用chocolatey这个软件包管理软件(血的教训)，虽然有很多方法可以安装mpv播放器，但是为了保险起见，请把所有安装过程交给choco自动处理。包括安装youtube-dl(播放url需要用到这个)，ffmpeg(视频音频自动截取需要这个)。choco类似于Mac上面的Homebrew,CentOS上面的Yum，Ubuntu上面的apt-get。
-
-chocolatey如何安装，文档如下：
-
-[https://docs.chocolatey.org/en-us/choco/setup](https://docs.chocolatey.org/en-us/choco/setup)
-
-按照上面地址的文档说明，chocolate安装方式有2种，一种是通过cmd安装，一种是powershell方式安装。选择其中1种即可.这里我使用第2种方式PowerShell安装。
-
-在windows开始菜单，找到PowerShell，鼠标右键点击**以管理员身份运行**，粘贴并执行下面框框中的命令(复制整行)：
+最先要安装的是chocolatey。在windows开始菜单，找到PowerShell，鼠标右键点击**以管理员身份运行**
 
 ![chrome_AAa51Nll5h](/images/posts/chrome_AAa51Nll5h.png)
 
@@ -39,19 +31,9 @@ chocolatey如何安装，文档如下：
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
-很多人打开这个Windows PowerShell的时候不是以管理员权限打开的，会报下面错误：它会提示你 `default folder requires Administrative permissions`. 意思是说”默认文件夹需要管理员权限“。你需要按照我上面说的那样子，以管理员权限打开windows PowerShell。具体操作是，找到powershell，鼠标右键，会出现”以管理员方式运行“，点击，让它以管理员方式运行就可以了。期间有人出现过这个情况，这让我不得不把这个文章尽量详细写出来。可能对于一些程序员朋友觉得有点冗余，对于不太懂程序的，有些细节就会被难住。
+粘贴并运行上面这一整行代码，即可完成chocolatey的安装。
 
-![tACkzhrojS](/images/posts/tACkzhrojS.png)
-
-管理员权限启动的Powershell，窗口上面会有`Administrator` 或者 `管理员`字样，如下：
-
-![image-20230118034115752](/images/posts/image-20230118034115752.png)
-
-![eWyxATtSbe](/images/posts/eWyxATtSbe.png)
-
-如果没有这个字样，就不是管理员权限，你要检查你当前登录windows系统的账号，或者直接用windows系统默认的超级管理员账号Administrator登录。
-
-等chocolatey安装好之后，输入choco，回车，如下图，看到显示了chocolatey的版本号v1.1.0，即表示安装成功。
+chocolatey装好之后，输入choco，回车，如下图，看到chocolatey的版本号，即表示安装成功。
 
 ![powershell_5G3YUqCTT8](/images/posts/powershell_5G3YUqCTT8.png)
 
@@ -63,9 +45,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install mpv
 ```
 
-整个安装过程，它会询问你`是否运行所有脚本`，选择A，回车，运行所有脚本。如下所示，后面的软件的安装都是类似的窗口，不会再贴图，这里贴个图仅仅是示范：
-
-![image-20230117212248266](/images/posts/image-20230117212248266.png)
+整个安装过程，它会询问你`是否运行所有脚本`，选择A，回车，运行所有脚本。后面的其他安装都是类似，都会询问你，一般你选A，回车即可。
 
 ### 3.安装youtube-dl
 
@@ -74,8 +54,6 @@ choco install mpv
 ```shell
 choco install youtube-dl
 ```
-
-
 
 ### 4.安装ffmpeg
 
@@ -87,16 +65,12 @@ choco install ffmpeg
 
 ### 5.安装Mpv2Anki插件
 
-最后是安装插件，这个插件才是关键中的关键。anki的插件安装方式，类似于苹果手机的appstore安装软件，只需要知道插件的code，在anki的管理界面输入code即可安装，具体查看本文的第10小节：`10.我安装的插件`：[点击跳转](#jump)
-
-如果你熟悉anki的话，直接安装这个插件就可以，插件的地址是：[https://ankiweb.net/shared/info/1213145732](https://ankiweb.net/shared/info/1213145732)
+插件的地址是：[https://ankiweb.net/shared/info/1213145732](https://ankiweb.net/shared/info/1213145732)，安装Code是：1213145732，直接拿着Code码安装即可。
 插件安装完成之后，重启anki。
 
 #### 5.1 模板设置
 
-设置这里，请以最新的版本为准，如果模板存在问题，会及时更新模板文件到这个小节，请不定期关注本博客。
-
-##### 5.1.1 下载和配置模板
+##### 1.下载和配置模板
 
 对应的模板![explorer_bIIPBr4p5A](/images/posts/explorer_bIIPBr4p5A.png)，下载地址：
 
@@ -107,23 +81,21 @@ mpv2anki插件字段映射如下
 
 ![G7muSzi8rG](/images/posts/G7muSzi8rG.png)
 
-##### 5.2.3  说明
+##### 5.2.3  视频无法播放问题解决
 
-出现制作的视频卡片，无法播放视频，请修改视频文件名重新制卡，比如原来的视频文件名是"apple.mp4",改为"orange.mp4"再制卡，前面的卡片删掉之后重来。
-
-![DCOJV74Yyg](/images/posts/DCOJV74Yyg.png)
+制作的视频卡片无法播放视频，请修改视频文件名重新制卡，比如："apple.mp4"改为"orange.mp4"再制卡，之前无法播放的卡片删掉重新制作即可。
 
 ##### 5.2.4 双字幕映射
 
-百度网盘下载的《摩登家庭》，《老友记》《绝望主妇》等等这些视频学习材料一般都带有en.srt, zh.srt字样的双语字幕，分为2个字幕文件。那么就可以制作双语字幕的卡片。比如英文字幕文件名为：“apple.en.str”  ,法语字幕为:"apple.fr.srt" ,这个时候我们看的视频："apple.mp4" ,那么就可以在制作卡片的时候，把英文字幕和法语字幕同时提取出来。前提情况是你得同时有英语字幕和法语字幕文件，是分开的那种，并且命名符合mpv2anki的约定才行。
+双字幕映射，需要英文视频同时有1个英文字幕1个中文字幕，分开独立的文件。具体的双字幕方法，需要查看插件使用文档自行配置。这
 
 ![chrome_ewjCGpNFeo](/images/posts/chrome_ewjCGpNFeo.png)
 
-关于双字幕如何进行字段映射，会在后续的版本升级中更新。
 
-#### 5.3 题外话
 
-mpv2anki插件作者开发了2款插件。本文介绍的这个比较中规中矩，另外一个插件是针对主动沉浸式学习而开发的，英文叫做“[Optimizing Passive Immersion: Condensed Audio](https://youtu.be/QOLTeO-uCYU)”，本来一集美剧30分钟，可以压缩为一个10分钟的语音mp3，专门用来在通勤路上复习用，这种复习的方式主要是锻炼听力，培养对`人物对话`的敏感度。大段的Podcast难度太高，而压缩之后去听已经熟悉过的美剧，难度刚好适中，除掉了美剧没有声音的那些部分，剩下的都是人物对话mp3，复习起来也节约时间，靠听来复习，也不废眼睛。具体参考：[https://ankiweb.net/shared/info/939347702](https://ankiweb.net/shared/info/939347702)，我曾今看到过抖音上面有个人，他几乎能够记住他熟悉的美剧里面的所有场景和台词，在说话的时候，几乎能随意的从潜意识里调取美剧台词中的话术，口语异常的流利。他复习美剧的方式，是不是也用了这种压缩技术？不得而知。如果你正在训练听力，希望能知道有这么一种思路。
+#### 5.3 视频压缩为高密度mp3音频
+
+mpv2anki插件作者开发了2款插件。高密度mp3音频的概念是来至于国外这篇视频：“[Optimizing Passive Immersion: Condensed Audio](https://youtu.be/QOLTeO-uCYU)”，本来一集美剧30分钟，可以压缩为一个10分钟的语音mp3，专门用来在通勤路上复习用，这种复习的方式主要是锻炼听力，培养对`人物对话`的敏感度。插件地址：[https://ankiweb.net/shared/info/939347702](https://ankiweb.net/shared/info/939347702)，这个插件提供的方法可以用来把视频转为mp3音频，适合精听精学，搭配anki的视频卡，同时可以训练到听力，口语，阅读。
 
 ### 6.美剧视频和字幕下载
 
