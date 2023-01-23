@@ -9,8 +9,6 @@ typora-root-url: ../
 
 这里要推荐的一个插件是`FSRS4Anki Helper`。插件的地址：[https://ankiweb.net/shared/info/759844606](https://ankiweb.net/shared/info/759844606)，这个插件的安装码是：759844606。插件需要anki 2.1.55版本以上。该插件**仅能支持电脑端Anki**。更多细节，请看插件作者在知乎的教程：[https://zhuanlan.zhihu.com/p/591833332](https://zhuanlan.zhihu.com/p/591833332)，该插件作者，曾经用anki备考，提升高考总分200多分。进入大学之后，选择了计算机方向，研究生阶段发表论文，研究领域是：计算机与人类记忆研究，专攻复习算法。他这套规调度算法，能够帮助你节约13%的复习时间。减少复习量的同时，记忆效果不衰减。
 
-![chrome_Drmqkx3KnQ](/images/posts/chrome_Drmqkx3KnQ.png)
-
 ### 1.FSRS4Anki Helper
 
 安装插件之后，插件源码中会有2个js脚本，我们需要通过google的col lab在线训练数据，之后填写到js脚本里面，把脚本粘贴到我们的Anki电脑端。插件的地址：[https://ankiweb.net/shared/info/759844606](https://ankiweb.net/shared/info/759844606)，这个插件的安装码是：759844606。插件需要anki 2.1.55版本以上。仅支持电脑端Anki。使用方法请看插件源码的Github页面说明。
@@ -18,8 +16,6 @@ typora-root-url: ../
 ### 2.插件安装和使用
 
 插件支持Anki2.1.55版本 及以上版本。去官方下载最新版本的Anki即可。
-
-![oegy1DEjYC](/images/posts/oegy1DEjYC.png)
 
 #### 2.1 安装插件
 
@@ -29,7 +25,7 @@ typora-root-url: ../
 
 #### 2.2 准备工作
 
-这个插件的使用方法，在Github有详细解释：[https://github.com/open-spaced-repetition/fsrs4anki](https://github.com/open-spaced-repetition/fsrs4anki)，它有2个js文件，默认情况下，我们可以直接复制粘贴它里面的js脚本粘贴到我们的anki中，类似下面这样子，点击保存就设置好了，js脚本是粘贴到Custom scheduling这个框里面，它的js脚本分为QT5版本和QT6版本。我这里使用的是QT6版本的脚本。只需要粘贴这个脚本到我们的anki这个Custom scheduling里面，就配置完了。这个只是笼统的说是这样子的，但实际上，我们要生成我们自己的参数，还需要导出我们自己的所有anki卡片，去拿这个工具去训练出我们自己的参数，替换掉这个脚本里面默认的参数才行。下面我们直接讲怎么操作。
+插件要正常使用，需要粘贴插件配套的js脚本到如下位置才能生效：
 
 ![anki_rH3PioEUnz](/images/posts/anki_rH3PioEUnz.png)
 
@@ -37,7 +33,7 @@ typora-root-url: ../
 
 
 
-#### 2.3 下载FSRS4Anki Helper源码
+#### 2.3 配置插件js参数
 
 根据这个Github网址[https://github.com/open-spaced-repetition/fsrs4anki](https://github.com/open-spaced-repetition/fsrs4anki)，我们下载这个Github项目的压缩包，如下图，点击Code图标，Download Zip，把它这个插件项目的代码下载到我们自己windows电脑上。
 
