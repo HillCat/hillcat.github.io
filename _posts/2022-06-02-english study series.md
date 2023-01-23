@@ -251,7 +251,7 @@ yt_whisper "https://www.youtube.com/watch?v=9NqthBLHBDg&ab_channel=IAmTimCorey" 
 
 ![pwsh_HcvYfZeZCR](/images/posts/pwsh_HcvYfZeZCR.png)
 
-它会出现指令自动补全和提示，键盘方向键：上下↑↓翻历史记录， → 补全，不需要敲代码。
+它会出现指令自动补全和提示，键盘方向键：上下↑↓翻历史记录， 敲代码的时候出现智能提示，利用右方向键 → 补全，省力省心。
 
 ![56435345sfhg24](/images/posts/56435345sfhg24.gif)
 
