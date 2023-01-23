@@ -7,7 +7,7 @@ keywords: English
 typora-root-url: ../
 ---
 
-这里要推荐的一个插件是`FSRS4Anki Helper`。插件的地址：[https://ankiweb.net/shared/info/759844606](https://ankiweb.net/shared/info/759844606)，这个插件的安装码是：759844606。插件需要anki 2.1.55版本以上。该插件**仅能支持电脑端Anki**。更多细节，请看插件作者在知乎的教程：[https://zhuanlan.zhihu.com/p/591833332](https://zhuanlan.zhihu.com/p/591833332)，该插件作者，曾经用anki备考，提升高考总分200多分。进入大学之后，选择了计算机方向，研究生阶段发表论文，研究领域是：计算机与人类记忆研究，专攻复习算法。他这套规调度算法，能够帮助你节约13%的复习时间。减少复习量的同时，记忆效果不衰减。
+这里要推荐的一个插件是`FSRS4Anki Helper`。插件的地址：[https://ankiweb.net/shared/info/759844606](https://ankiweb.net/shared/info/759844606)，这个插件的安装码是：759844606。插件需要anki 2.1.55版本以上。该插件**仅能支持电脑端Anki**。更多细节，请看插件作者在知乎的教程：[https://zhuanlan.zhihu.com/p/591833332](https://zhuanlan.zhihu.com/p/591833332)，该插件作者，曾经用anki备考，提升高考总分200多分。进入大学之后，选择了计算机方向，研究生阶段发表论文，研究领域是：计算机与人类记忆研究，专攻复习算法。他这套调度算法，能够帮助科学规划单词和卡片的复习时间，效能提升13%左右。高强度学习英语的情况下， 这个调度规划能很好的减轻卡片复习压力而不用担心学习效果。
 
 ### 1.FSRS4Anki Helper
 
