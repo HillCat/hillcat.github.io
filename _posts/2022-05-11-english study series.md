@@ -1,27 +1,23 @@
 ---
 layout: post
-title: 机器学习优化anki复习调度参数(15)
+title: 机器学习优化anki复习调度参数(14)
 categories: English
 description: 英文自学
 keywords: English
 typora-root-url: ../
 ---
 
-这里要推荐的一个插件是`FSRS4Anki Helper`。插件的地址：[https://ankiweb.net/shared/info/759844606](https://ankiweb.net/shared/info/759844606)，这个插件的安装码是：759844606。插件需要anki 2.1.55版本以上。该插件**仅能支持电脑端Anki**。更多细节，请看插件作者在知乎的教程：[https://zhuanlan.zhihu.com/p/591833332](https://zhuanlan.zhihu.com/p/591833332)，该插件作者，曾经用anki复习高考知识，提升考分100多分。使用这个调度算法的好处是，卡片间隔会拉长，在同样的记忆效果下，它能够帮助你节约13%的复习时间。
+这里要推荐的一个插件是`FSRS4Anki Helper`。插件的地址：[https://ankiweb.net/shared/info/759844606](https://ankiweb.net/shared/info/759844606)，这个插件的安装码是：759844606。插件需要anki 2.1.55版本以上。该插件**仅能支持电脑端Anki**。更多细节，请看插件作者在知乎的教程：[https://zhuanlan.zhihu.com/p/591833332](https://zhuanlan.zhihu.com/p/591833332)，该插件作者，曾经用anki备考，提升高考总分200多分。进入大学之后，选择了计算机方向，研究生阶段发表论文，研究领域是：计算机与人类记忆研究，专攻复习算法。他这套规调度算法，能够帮助你节约13%的复习时间。减少复习量的同时，记忆效果不衰减。
 
 ![chrome_Drmqkx3KnQ](/images/posts/chrome_Drmqkx3KnQ.png)
 
 ### 1.FSRS4Anki Helper
 
-这个插件的作者是国内的某个计算机大学毕业的算法学生搞出来的一个基于人工智能机器学习的插件，目的是为了优化我们的复习参数。因为anki的复习参数太多了(如下图所示)，Anki新手很容易搞错这些参数，也不知道怎么设置这些参数。我比较推荐使用的就是这个插件，你不用去思考如何设置这些参数，它通过机器学习，python在线训练，得到一个比较优化的参数给到你，这样子，参数问题就变得傻瓜化。而且这个参数是量身定制的，针对每个人的卡片数据，做出的不同的最优解。
-
-![123kzmsdjIUs@](/images/posts/123kzmsdjIUs@.gif)
-
-这个插件的目的就是给每个人的卡片复习进度，进行数据优化，生成针对每个人的定制化的复习参数。这样子我们就不用担心anki参数设置问题了。专业的事情交给专业的人，由机器学习和AI帮你全部搞定。
+安装插件之后，插件源码中会有2个js脚本，我们需要通过google的col lab在线训练数据，之后填写到js脚本里面，把脚本粘贴到我们的Anki电脑端。插件的地址：[https://ankiweb.net/shared/info/759844606](https://ankiweb.net/shared/info/759844606)，这个插件的安装码是：759844606。插件需要anki 2.1.55版本以上。仅支持电脑端Anki。使用方法请看插件源码的Github页面说明。
 
 ### 2.插件安装和使用
 
-首先是安装这个插件，我这里是在windows10 Pro 系统，英文界面上面演示。安装的anki是2.1.56版本 QT6版本的。注意，我这里用的是QT6而不是QT5版本，建议你电脑上面的anki也用官方最新的QT6对应的版本。官方地址：[https://apps.ankiweb.net/](https://apps.ankiweb.net/)，旧版本用新版本覆盖安装即可，覆盖安装不会破坏原有的anki配置。
+插件支持Anki2.1.55版本 及以上版本。去官方下载最新版本的Anki即可。
 
 ![oegy1DEjYC](/images/posts/oegy1DEjYC.png)
 
@@ -111,41 +107,41 @@ typora-root-url: ../
 
 最终上传成功，效果如下图：文件`collection-2023-01-22@01-37-19.colpkg`已经在里面了，我们需要复制这个文件的全名，包括colpkg这个后缀，一起复制。
 
-![chrome_KVmSaKhtIa](/images/posts/chrome_KVmSaKhtIa.png)
+![Typora_PoXOxv55ei](/images/posts/Typora_PoXOxv55ei.png)
 
 如下所示，我们修改脚本里面的文本信息，filename改为我们的文件名`collection-2023-01-22@01-37-19.colpkg`，如下图所示：
 
 ![U6XMbu7HcK](/images/posts/U6XMbu7HcK.png)
 
-修改之后，脚本会被自动保存。下面可以执行这个脚本了，脚本执行完毕，我们就能得到优化之后的参数。怎么执行脚本呢？回到顶部菜单位置，点击`RunTime`，`Run all`，弹出来一个警告提示框，
+修改之后，脚本会被自动保存。怎么执行脚本呢？回到顶部菜单位置，点击`RunTime`，`Run all`，弹出来一个警告提示框，选择Run anyway，忽略警告信息，执行脚本。
 
 ![y9sQMZrSIM](/images/posts/y9sQMZrSIM.png)
 
-选择Run anyway，忽略警告信息，执行脚本：
 
-![LbAc7AAyAP](/images/posts/LbAc7AAyAP.png)
 
 脚本开始执行，如下图所示：这个执行过程非常慢，大概需要25分钟左右，看你的卡片数量而定...
 
 ![1234kjdd34535355dfgdgds7g](/images/posts/1234kjdd34535355dfgdgds7g.gif)
 
-等待脚本慢慢执行，它正在根据我们自己导出来的anki卡片数据进行机器学习运算，最终会计算出一个最优化的参数。我们之后要拿到这个结果参数，去替换掉js脚本中的参数，粘贴到我们自己的anki中去。这个参数，最好是保存到一个word文档或者txt里面，下次如果丢失了，能够找到这个参数，就不需要每次进行这么久的时间去在线运算这些数据了。
+等待脚本慢慢执行，它正在根据我们自己导出来的anki卡片数据进行机器学习，最终会计算出一个最优参数。如下这种：
 
-线上这个方式，耗时会比较久,等待结果的过程中我们可以看看它整个运行过程。
+![5wS6V65aI7](/images/posts/5wS6V65aI7.png)
 
-机器学习训练过程中，我们可以鼠标滚轮往下滑动脚本页面查看程序运行的每一个环节:
+
+
+我们之后要拿到这个结果参数，去替换掉js脚本中的参数，粘贴到我们自己的anki中去。在它出结果之前，我们耐心等待10~20分钟吧：
 
 ![chrome_J7xjDTUqcS](/images/posts/chrome_J7xjDTUqcS.png)
 
 ![chrome_85DAn2UtUI](/images/posts/chrome_85DAn2UtUI.png)
 
-脚本从上到下执行，分好几个环节依次执行，每个小环节有数字序号，我们要拿的结果，在第3个小节，Result这里，如下图。等脚本全部执行完，我们需要向下拖动浏览器滚动条，找到第3小节，Result那个位置去拿结果。脚本还没有跑完之前，这里是不会有结果的。耐心等待。
+脚本分好几个环节依次执行，等脚本全部执行完，找到第3小节，Result这里拿结果。
 
 ![Typora_clhUMOkCkP](/images/posts/Typora_clhUMOkCkP.png)
 
 #### 2.6 得到结果
 
-最终，我们拖动浏览滚动条，如下位置，这里会显示最终的结果。下面空白处，输出了` var w = ......`字样：
+最终，我们拖动浏览滚动条，拿到结果。
 
 ![5wS6V65aI7](/images/posts/5wS6V65aI7.png)
 
@@ -157,23 +153,19 @@ var w = [2.2387, 2.3408, 5.294, -0.2247, -1.2567, 0.0472, 1.6229, -0.1875, 1.023
 
 
 
-#### 2.7 替换脚本
+#### 2.7 替换变量w参数
 
-回到脚本这里，我们找到文件`fsrs4anki_scheduler.js`，使用编辑器打开，这里推荐使用Notepad++打开。
+js脚本中，定义的这个w参数我们要去替换成我们自己的。找到文件`fsrs4anki_scheduler.js`，使用编辑器打开，
 
 ![UTQ9DGXpdc](/images/posts/UTQ9DGXpdc.png)
 
-在线生成的参数是根据我自己anki的所有卡片数据生成的，如下：
-
-`var w = [2.2387, 2.3408, 5.294, -0.2247, -1.2567, 0.0472, 1.6229, -0.1875, 1.0231, 2.08, -0.1119, 0.6164, 1.8446];`
-
-用这个生成出来的参数，替换脚本中的这3行：
+替换如下3行，如果你看得懂里面的代码注释，同时也懂Anki的参数配置，可以详细对这个里面的其他部分进行修改。
 
 ![MSSS14QKVN](/images/posts/MSSS14QKVN.png)
 
-替换之后，整个复制这个脚本内容，粘贴到我们的anki中去：
+改好之后保存，最好是把这个改好之后的脚本备份，以防止以后丢失了还要使用这个参数配置。拷贝整个脚本内容，粘贴到我们的anki中去。步骤如下：
 
-1.把`V3 Scheduler`勾选上； 2.去Deck的设置中，粘贴这个参数到`Custom Scheduling`中，3.`Reschedul all cards`重置所有卡片的schedule。这样子就完成了新参数的设置和优化了。
+1.把`V3 Scheduler`勾选上； 2.去option设置中，Scheduling页面找到`Custom Scheduling`那一项input框，把js粘贴进去，3.回到anki主界面，Tools菜单中，找到`Reschedul all cards`重置所有卡片的schedule。这样子就完成了新参数的设置和优化了。
 
 ![12666776werfgdgds7g](/images/posts/12666776werfgdgds7g.gif)
 
