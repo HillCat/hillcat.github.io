@@ -7,41 +7,17 @@ keywords: English
 typora-root-url: ../
 ---
 
-Anki用来进行美剧制卡，提供了看美剧复习英语知识点的便利，除了NetFlix之外，一切可以下载到的youtube show,TV show只要是英文的都可以这么操作(特别说明，目前这个方法只能针对于NetFlix的字幕，因为youtube的字幕和NetFlix的文本排版不一样，不过，OpenAi的Whisper库可以生成YouTube的**标准vtt格式字幕是支持本方法制卡的**，生成的youtube字幕非常精准，比youtube自己的机器字幕要好太多太多了，强烈建议用这个字幕挂载potplayer播放器做泛听，再结合anki制卡做精听)。经过成千上万小时美剧+youtube听力之后，以及anki制卡复习，实现流利口语。
+配置之前的准备工作:首先说明下我的电脑环境: 系统是`window10 pro Version 22H2` (英文界面)；安装的anki版本是`Anki Version ⁨2.1.56 QT5`(英文界面)，chrome浏览器Version 109.0.5414.75 (Official Build) (64-bit)。只要习惯了英文，就再也回不去了。
 
-本方法配合[OpenAI人工智能生成youtube字幕(14)](https://cs-cn.top/2022/06/02/english-study-series/)中提到的方法，以及[奈飞美剧&油管视频PotPlayer设置(6)](https://cs-cn.top/2019/05/20/english_movies/)组合在一起，形成炸裂效果，可以把youtube感兴趣的视频直接下载到本地电脑，挂载堪比人工校对还要精准的AI字幕。既可以泛听美剧，也可以做精听，跟读，复习。
-
-本文很长，建议在电脑屏幕中阅读。为了节约时间，可以直接从安装chocolatey部分开始:
-
-`1.安装chocolatey`：[点击跳转](#anzhuang)
-
-使用anki + mpv的方式，主要是解决看剧过程中如何做笔记，如何复习的问题，提高效率。还一个附带效果就是，这些美剧的卡片可以频繁去听，这次没听懂，下次听，一次又一次RSR间隔重复，随着听力提升，很多东西自然能听懂，相当于是给大脑投喂训练材料。美剧视频卡的听力训练效率比有声书高很多，可以大量刷剧而兼顾复习，后期可能还会结合背诵一些经典材料作为辅助。这是最近我自己刷美剧的一些规划，希望各路同学一起交流。探讨如何更好的搞定听力，直到口语流利。
-
-## 准备工作
-
-配置之前的准备工作:首先说明下我的电脑环境: 我的电脑系统是`window10 pro Version 22H2` (中文界面改为了英文界面)；安装的anki版本是`Anki Version ⁨2.1.56 QT5`(英文界面)，chrome浏览器Version 109.0.5414.75 (Official Build) (64-bit)。习惯英文界面只要习惯1年，就再也回不去了。
-
-在操作之前，**强烈建议**把文件夹视图调整为：显示文件名后缀；并且电脑开启全局帆樯(或者通过软路由智能分流帆樯)。
+在操作之前，**强烈建议**把文件夹视图调整为：显示文件名后缀；并且电脑开启全局帆樯。
 
 如何显示文件名后缀？
 
-进行如下设置，打上勾即可。文件视图，把文件名后缀这个勾选上即可(我的系统设置的是英文界面)。
+进行如下设置，打上勾即可。文件视图，把文件名后缀这个勾选上即可(我的是英文界面)。
 
 ![QQ_k87NMkPdKG](/images/posts/QQ_k87NMkPdKG.png)
 
 
-
-### 1.安装失败的可能原因
-
-如果`chocolatey/mpv/youtube-dl/ffmpeg`某些软件安装失败，请排查是否下面原因。如果一切顺利，请忽略下面所有原因。
-
-1.樯的问题(肉身在樯内，时刻享受着Great Fire Wall特殊照顾的这群人)。大部分人使用的是windows端开启代理app方式帆樯，这种模式可能无法完全代理PowerShell或cmd的这种命令行工具，它们可能还是会走国内线路，导致安装失败。如果遇到这种情况，可能需要设置chocolatey的国内镜像源，这个需要自行百度/google解决。如果你是用软路由方式帆樯(强烈推荐用这种方式)，基本就不存在这个问题，因为软路由如果配置了自动分流规则，会自动接管powershell和cmd这种命令行的国外流量，以及IDM下载的时候，都不需要对代理进行额外设置，家里所有设备只要连接wifi的都可以直接访问google，比较省事，不需要每台设备都去配置帆樯app。想要打造稳定的英文学习环境，推荐用这种方式。
-
-2.系统完整性导致的问题。如果系统是Ghost版本电脑城快速装机的那种，可能会存在某些组件缺失，需要重装系统，这个概率应该比较小，大部分人的windows应该都不是删减版，如果非得重装，尽量安装[微软官方镜像iso文件](https://www.microsoft.com/zh-cn/software-download/windows10)刻录的windows系统，激活码在[淘宝10元店](https://s.taobao.com/search?q=windows%E6%BF%80%E6%B4%BB&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.jianhua.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306)有售。
-
-3.使用PowerShell安装软件失败，很多时候是因为没有以管理员权限运行PowerShell，一般都是因为登录系统使用的是普通权限的账号，如果能够以Administrator缺省账号登录，就尽量用这个账号登陆吧。正常系统，windows 10 专业版，普通的账号登录，都是可以开启管理员权限运行PowerShell的。也有可能你安装的是家庭版windows 10，可能会有这个问题。
-
-<span id="anzhuang">------------</span>
 
 ## 安装配置
 
@@ -87,7 +63,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install mpv
 ```
 
-整个安装过程，它会询问你`是否运行所有脚本`，选择A，回车，运行所有脚本。
+整个安装过程，它会询问你`是否运行所有脚本`，选择A，回车，运行所有脚本。如下所示，后面的软件的安装都是类似的窗口，不会再贴图，这里贴个图仅仅是示范：
 
 ![image-20230117212248266](/images/posts/image-20230117212248266.png)
 
@@ -99,9 +75,7 @@ choco install mpv
 choco install youtube-dl
 ```
 
-整个安装过程，它会询问你`是否运行所有脚本`，选择A，回车，运行所有脚本。
 
-![image-20230117212420349](/images/posts/image-20230117212420349.png)
 
 ### 4.安装ffmpeg
 
@@ -111,74 +85,37 @@ choco install youtube-dl
 choco install ffmpeg
 ```
 
-这个ffmpeg安装的时候，可能会被樯，安装的时间较长，请注意。如果肉身在樯外，请忽略。
-
-整个安装过程，它会询问你`是否运行所有脚本`，选择A，运行所有脚本。
-
-![image-20230117212050766](/images/posts/image-20230117212050766.png)
-
 ### 5.安装Mpv2Anki插件
 
 最后是安装插件，这个插件才是关键中的关键。anki的插件安装方式，类似于苹果手机的appstore安装软件，只需要知道插件的code，在anki的管理界面输入code即可安装，具体查看本文的第10小节：`10.我安装的插件`：[点击跳转](#jump)
 
 如果你熟悉anki的话，直接安装这个插件就可以，插件的地址是：[https://ankiweb.net/shared/info/1213145732](https://ankiweb.net/shared/info/1213145732)
-插件安装完成之后，重启anki，使用快捷键Ctrl + O直接打开这个插件的菜单界面，然后剩下的工作就是对这个插件进行一些设置，步骤是:1.选择卡片模板，2.配置卡片模板。配置完成之后就可以正常使用了。
+插件安装完成之后，重启anki。
 
-![srwyGARJZS](/images/posts/srwyGARJZS.png)
+#### 5.1 模板设置
 
-#### 5.1 模板下载
+设置这里，请以最新的版本为准，如果模板存在问题，会及时更新模板文件到这个小节，请不定期关注本博客。
 
-先下载模板，这个模板是跟这个插件配套使用的，模板来源于`Harry Potter (English Dub) `这个DEMO DECK，原始出处：[https://ankiweb.net/shared/info/939347702](https://ankiweb.net/shared/info/939347702)。我已经上传到百度网盘，命名为Movie.apkg。下载地址：[https://pan.baidu.com/s/1X0ZX_ZA-dSDJSXTxoQGNIA?pwd=ly1i](https://pan.baidu.com/s/1X0ZX_ZA-dSDJSXTxoQGNIA?pwd=ly1i ) 
-提取码：ly1i。先把这个模板用熟，等到熟悉之后，以后可以根据自己的需要调整。
+##### 5.1.1 下载和配置模板
 
-模板下载完，你会得到下面这个Movie.apkg文件，双击模板运行就自动导入anki了。
-
-![explorer_UwKzaQidSJ](/images/posts/explorer_UwKzaQidSJ.png)
-
-模板导入到anki后进行下一步设置。
-
-在anki主界面，我们通过按快捷键`Ctrl + O`打开插件配置界面. 插件配置的首界面，有个叫做Type的选项，点击打开Type选择下拉框，弹出来Choose Note Type这个界面，如下图所示。在下拉框中我们选择“`Harry Potter and the Sorcerer's Stone（light theme）`"这个模板。如果你在上一步中没有安装那个模板，这里是看不到这个`Harry Potter and the Sorcerer's Stone（light theme）`模板的。
-
-![F8VkgIxs8z](/images/posts/F8VkgIxs8z.png)
-
-
-
-#### 5.2 字段设置
-
-设置这里，请以最新的版本为准，第一版是最开始的版本，可能存在BUG，主要是有可能出现手机上无法显示的问题。webm格式在电脑上显示良好，但是在iphone手机上是无法显示，iPhone手机上需要mp4格式才能显示，所以后期模板做了一些处理，另外mpv2anki插件生成视频文件的时候存在BUG，也会导致一些视频无法在手机上显示。请以最高版本为准，如果以后此模板还出现什么BUG，会及时在这里更新版本，请始终以高版本设置为准。
-
-##### 5.2.1 第一版设置
-
-模板选中之后，设置一个Deck，一般我会新建一个Deck专门用来保存美剧卡片，根据你自己的需要选择。我这里是保存到`Just Added`这个Deck里面。字段的配置全部按照我下图②中的配置设置就可以了，这个字段是我经过了摸索和试错得出来的，直接参考我下面字段设置即可，(右边这里的很多字段其实都是无效的)。
-
-![1fa3boIR0z](/images/posts/1fa3boIR0z.png)
-
-这些配置全部完成之后，点击ok按钮，然后回到下面那层窗口界面，点击那个界面中的`Open File`，会弹出窗口，要你去选择一个视频文件，去磁盘上面找到一个下载好的NetFlix美剧(要带有srt英文台词的)视频，它就会用mpv自动打开那个视频进行播放了，播放的时候，按下键盘B键，就会触发自动制卡，插件会往你的anki里面插入视频卡片了。w, e ,b 依次按下，可以截取指定区间的视频和字幕。每天30张卡，一个月就是900张，半年5400张。和阅读有声书相比，美剧这种方式效率更高，直接是提升听力影响口语，2年前我研究美剧的时候，可惜那个时候是手动配置，由于配置步骤太多，导致没有弄成。所以，涉及到复杂配置的还是要用choco软件包管理工具(血的教训)。
-
-说明：等所有设置完成了之后，模板自带的Deck可以删掉，删的时候，apkg包导入进来的那些卡片会被清空(删Deck，不会影响Note Type，因为Note Type只能通过进入Anki的Browse里面去删除)。
-
-##### 5.2.2 第二版设置
-
-由于使用过程中发现了一些mpv2anki插件的BUG，这里通过修改卡片模板的方式处理了之前第一版本设置的不足。
-
-第二版本设置对应的模板![explorer_bIIPBr4p5A](/images/posts/explorer_bIIPBr4p5A.png)，下载地址：
+对应的模板![explorer_bIIPBr4p5A](/images/posts/explorer_bIIPBr4p5A.png)，下载地址：
 
 链接：https://pan.baidu.com/s/1L_uUocPyQ11932PPbiTnfg?pwd=jzri 
 提取码：jzri 
 
-与之对应的mpv2anki插件字段映射如下
+mpv2anki插件字段映射如下
 
 ![G7muSzi8rG](/images/posts/G7muSzi8rG.png)
 
 ##### 5.2.3  说明
 
-使用第二版设置之后，在制作视频卡的时候如果还出现这种视频无法显示的问题，一般是由于多次反复删除，添加同一个视频文件的卡片导致的。出现这种情况，请修改视频文件名之后再制卡，比如原来的视频文件名是"apple.mp4",改为"orange.mp4"即可，视频还是原来的视频，只是要把文件名给改一下再制卡，因为对同一个视频进行多次删除，添加卡片，会导致有缓存了之前删除的视频片段名，重名之后，新添加的卡片都会没办法播放视频。使用`第二版设置`之后，再出现这种白屏的情况的几率很小。请放心使用。
+出现制作的视频卡片，无法播放视频，请修改视频文件名重新制卡，比如原来的视频文件名是"apple.mp4",改为"orange.mp4"再制卡，前面的卡片删掉之后重来。
 
 ![DCOJV74Yyg](/images/posts/DCOJV74Yyg.png)
 
 ##### 5.2.4 双字幕映射
 
-一般情况下这个mpv2anki是支持双字幕的，上面的第二版和第一版设置，都是只针对于有一种英文字幕文件的情况下的设置，比如英文字幕文件名为：“apple.en.str”  ,法语字幕为:"apple.fr.srt" ,这个时候我们看的视频："apple.mp4" ,那么就可以在制作卡片的时候，把英文字幕和法语字幕同时提取出来。前提情况是你得同时有英语字幕和法语字幕文件，是分开的那种，并且命名符合mpv2anki的约定才行。
+百度网盘下载的《摩登家庭》，《老友记》《绝望主妇》等等这些视频学习材料一般都带有en.srt, zh.srt字样的双语字幕，分为2个字幕文件。那么就可以制作双语字幕的卡片。比如英文字幕文件名为：“apple.en.str”  ,法语字幕为:"apple.fr.srt" ,这个时候我们看的视频："apple.mp4" ,那么就可以在制作卡片的时候，把英文字幕和法语字幕同时提取出来。前提情况是你得同时有英语字幕和法语字幕文件，是分开的那种，并且命名符合mpv2anki的约定才行。
 
 ![chrome_ewjCGpNFeo](/images/posts/chrome_ewjCGpNFeo.png)
 
