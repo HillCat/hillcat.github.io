@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 机器学习优化anki复习调度参数(14)
+title: 优化anki参数(14)
 categories: English
 description: 英文自学
 keywords: English
