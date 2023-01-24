@@ -239,9 +239,7 @@ yt_whisper "https://www.youtube.com/watch?v=9NqthBLHBDg&ab_channel=IAmTimCorey" 
 
 windows10默认自带的Powershell是5.1版本的，我们这里需要额外追加一个Powershell7的版本。安装Powershell7不会影响到系统默认的Powershell5.1的使用。
 
-![Acrobat_zAQeVzK6AW](/images/posts/Acrobat_zAQeVzK6AW.png)
-
-PowerShell7它有自动补全和智能提示功能，而Powershell5.1是没有这些功能的。Powershell7的版本下载地址：
+PowerShell7它有自动补全和智能提示功能，而Powershell5.1是没有这些功能的,Powershell 7是微软基于.net core开发的，而Powershell5.1是基于.net framework老版本的(已经不再维护)，微软目前把主要精力放到Powershell 7上面，并且这个shell是跨平台的。Powershell7的版本下载地址：
 
 [https://github.com/PowerShell/PowerShell/releases/download/v7.3.1/PowerShell-7.3.1-win-x64.msi](https://github.com/PowerShell/PowerShell/releases/download/v7.3.1/PowerShell-7.3.1-win-x64.msi)
 
