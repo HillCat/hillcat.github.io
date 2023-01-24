@@ -93,11 +93,11 @@ python -m pip install yt-dlp
 
 ### 3.创建Python虚拟环境
 
-创建python虚拟环境：
+python虚拟环境是为了让pyhon能够调用除标准库之外的库而发明的，关于Python虚拟环境更多信息可以参考官方说明：[https://docs.python.org/3/tutorial/venv.html](https://docs.python.org/3/tutorial/venv.html)
 
-创建python虚拟环境，参考视频：[https://www.youtube.com/watch?v=HSVjz4FPKzM&t=67s&ab_channel=cmoorelabs](https://www.youtube.com/watch?v=HSVjz4FPKzM&t=67s&ab_channel=cmoorelabs)
+创建python虚拟环境可以参考视频：[https://www.youtube.com/watch?v=HSVjz4FPKzM&t=67s&ab_channel=cmoorelabs](https://www.youtube.com/watch?v=HSVjz4FPKzM&t=67s&ab_channel=cmoorelabs)
 
-这个视频只是作为一个参考，我这里说明下，这里要创建python虚拟环境的原因，因为OpenAi这个whisper需要运行在python环境下面，要有个虚拟环境。
+
 
 创建虚拟机环境之前，先要知道你自己的当前账户名，如果你是Administrator登录的，那么在C盘，找到用户目录，再进去用户目录下面，会看到你当前登录用户名的文件，进入之后，创建一个venv文件夹。比如我当前电脑的用户账户是47664.我会在这个路径下面先创建一个venv文件夹，如下：
 
