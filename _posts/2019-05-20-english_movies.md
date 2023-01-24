@@ -139,17 +139,17 @@ PotPlayer右侧这些组合在一起的小窗口，是可以拖出来的，点�
 
 ###### **2.书签设置**
 
-继续添加，’基本‘，’快捷键‘，选中’播放‘节点，’章节/书签‘点开，'添加书签'，设置W。
+继续添加，’基本‘，’快捷键‘，选中’播放‘节点，’章节/书签‘点开，'添加书签'，设置**W**。
 
 ![chrome_aVdO5quGhJ](/images/posts/chrome_aVdO5quGhJ.png)
 
-还是上面的节点，选择’上一章节书签‘，设置Q
+还是上面的节点，选择’上一章节书签‘，设置**Q**
 
 ![chrome_QL4Lw7JKxv](/images/posts/chrome_QL4Lw7JKxv.png)
 
 ![chrome_YpcNcNDY5R](/images/posts/chrome_YpcNcNDY5R.png)
 
-继续，下一书签，设置为E，
+继续，下一书签，设置为**E**，
 
 ![chrome_Gpm4x4LrAf](/images/posts/chrome_Gpm4x4LrAf.png)
 
