@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 通过美剧学英语_anki如何制卡(13)
+title: anki美剧制卡(13)
 categories: English
 description: 英文自学
 keywords: English
