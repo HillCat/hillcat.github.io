@@ -165,6 +165,28 @@ js脚本中，定义的这个w参数我们要去替换成我们自己的。找�
 
 ![12666776werfgdgds7g](/images/posts/12666776werfgdgds7g.gif)
 
+
+
+#### 2.8 本地生成参数
+
+首先是安装Anaconda,网站下载：
+https://www.anaconda.com/products/distribution/start-coding-immediately
+
+安装pytorch:
+
+https://pytorch.org/get-started/locally/
+进入到上面的页面，页面中会有个安装脚本，复制粘贴到Anacoda Prompt运行：
+
+不使用NVida显卡，只使用CPU，如下：
+```shell
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+```
+使用上面的方法，安装速度是非常快的，只需要使用芒果VPN翻墙的话。
+
+![Obsidian_6gTmSBg3yH](/images/posts/Obsidian_6gTmSBg3yH.png)
+
+
+
 ### 3. 脚本版本的区别
 
 如果Anki版本是QT6则使用`fsrs4anki_scheduler.js`， 如果是QT5则使用`fsrs4anki_scheduler_qt5.js`。
