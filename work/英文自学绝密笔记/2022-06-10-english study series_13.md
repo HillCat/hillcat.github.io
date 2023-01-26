@@ -183,20 +183,24 @@ IDM的chrome插件安装地址是[IDM Integration Module](https://chrome.google.
 
 ```shell
 {
-    "keys": [
-        [
-            "#ff557f",
-            "Alt+6"
-        ],
-        [
-            "#ffaa00",
-            "Alt+5"
-        ],
-        [
-            "#0000ff",
-            "Alt+4"
-        ]
+  "keys": [
+    [
+      "#ff557f",
+      "Alt+6"
+    ],
+    [
+      "#ffaa00",
+      "Alt+5"
+    ],
+    [
+      "#0000ff",
+      "Alt+4"
+    ],
+    [
+      "#00aa7f",
+      "Alt+8"
     ]
+  ]
 }
 ```
 
