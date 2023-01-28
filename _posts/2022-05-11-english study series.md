@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FSRS4Anki插件(14)
+title: FSRS4Anki Helper插件(14)
 categories: English
 description: 英文自学
 keywords: English
