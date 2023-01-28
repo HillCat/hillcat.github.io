@@ -181,7 +181,7 @@ https://pytorch.org/get-started/locally/
 ```shell
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 ```
-使用上面的方法，安装速度是非常快的，只需要使用芒果VPN翻墙的话。
+使用上面的方法，安装速度是非常快的，只需要使用芒果委培恩帆樯的话。
 
 ![Obsidian_6gTmSBg3yH](/images/posts/Obsidian_6gTmSBg3yH.png)
 
