@@ -91,9 +91,21 @@ mpv2anki插件字段映射如下
 
 ![chrome_ewjCGpNFeo](/images/posts/chrome_ewjCGpNFeo.png)
 
-双字幕映射，在看美剧的时候比较有用，比如《绝望主妇》，刷这个剧的时候，如果是要做笔记，配置这个双字幕，就可以一键把eng.srt和srt字幕弄到anki卡片中，只是字幕文件的后缀要按照mpv2anki的格式进行修改。
+双字幕映射，在看美剧的时候比较有用，比如《绝望主妇》，刷这个剧的时候，默认的字幕是eng.srt和.srt两种，其中.srt里面同时包含了中文和英文，默认播放的时候，mpv和potplayer都会加载这个.srt的字幕。如果是mpv2anki制卡，插件会分开识别en.srt和zh.srt后缀的字幕文件，en.srt中只能有英文，zh.srt中只能有中文。
 
-![explorer_goH3UVaafz](/images/posts/explorer_goH3UVaafz.png)
+
+
+![explorer_S42dVulphK](/images/posts/explorer_S42dVulphK.png)
+
+实际使用，把eng.srt重命名为en.srt，把.srt重命名为zh.srt并去掉里面的英文字幕即可。《绝望主妇》双字幕的设置如下：
+
+![anki_eIG93lzBJD](/images/posts/anki_eIG93lzBJD.png)
+
+![pTdYdFc0vb](/images/posts/pTdYdFc0vb.png)
+
+这样子最终得到的就是我们需要的效果，我们还可以根据《绝望主妇》量身为它设计一个模板，用来保存前后上下文台词。
+
+![stTpbqlm6g](/images/posts/stTpbqlm6g.png)
 
 #### 5.2 视频压缩为高密度mp3音频
 
