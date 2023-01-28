@@ -9,7 +9,7 @@ typora-root-url: ../
 
 这个AI生成youtube英文字幕是基于OpenAi公司的Whisper库。OpenAI公司的Whisper库更新很快，但是yt-whisper脚本的更新相对滞后，yt-whisper官方的setup.py执行的时候由于依赖包的名字还是whisper，而官方库改名为openai-whisper了，所以需要修改下这个名字。fork并修改脚本之后，使用自己github的地址安装即可解决yt-whisper装不上去的问题。
 
-Whisper这个AI库生成的youtube字幕非常精准，可以针对任何youtube的视频，自动生成字幕。这样就省得我们去手工下载youtube的机器字幕了。唯一缺点是这个yt-whisper脚本是python写的，性能有点低，比较吃CPU。
+Whisper这个AI库生成的youtube字幕非常精准，可以针对任何youtube的视频，自动生成字幕。这样就省得我们去手工下载youtube的机器字幕了。唯一缺点是压缩视频都是利用的ffmpeg这个中间，特别耗CPU资源，对于字幕的生成耗时比较久，最好是十一代 i7 CPU左右的性能。
 
 ### fork并修改脚本
 
