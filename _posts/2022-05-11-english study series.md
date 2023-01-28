@@ -185,7 +185,7 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
 ![Obsidian_6gTmSBg3yH](/images/posts/Obsidian_6gTmSBg3yH.png)
 
-
+本地电脑安装成功jupyter Notes之后生成参数的速度就会比较快。可以每隔一段时间导出所有anki单词卡数据生成和优化一下参数。调整下我们的anki数据。
 
 ### 3. 脚本版本的区别
 
