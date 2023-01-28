@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OpenAIyoutube字幕(12)
+title: OpenAI生成youtube字幕(12)
 categories: English
 description: 英文自学
 keywords: English

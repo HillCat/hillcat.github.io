@@ -1,6 +1,6 @@
 ---
 layout: post
-title: anki美剧制卡(13)
+title: mpv2anki插件的使用(13)
 categories: English
 description: 英文自学
 keywords: English
