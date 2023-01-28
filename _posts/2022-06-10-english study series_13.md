@@ -7,7 +7,7 @@ keywords: English
 typora-root-url: ../
 ---
 
-配置之前的准备工作:首先说明下我的电脑环境: 系统是`window10 pro Version 22H2` (英文界面)；安装的anki版本是`Anki Version ⁨2.1.56 QT5`(英文界面)，chrome浏览器Version 109.0.5414.75 (Official Build) (64-bit)。只要习惯了英文，就再也回不去了。
+配置之前的准备工作:首先说明下我的电脑环境: 系统是`window10 pro Version 22H2` (英文界面)；安装的anki版本是`Anki Version ⁨2.1.56 QT5`(英文界面)，chrome浏览器Version 109.0.5414.75 (Official Build) (64-bit)。
 
 在操作之前，**强烈建议**把文件夹视图调整为：显示文件名后缀；
 
@@ -91,7 +91,9 @@ mpv2anki插件字段映射如下
 
 ![chrome_ewjCGpNFeo](/images/posts/chrome_ewjCGpNFeo.png)
 
+双字幕映射，在看美剧的时候比较有用，比如《绝望主妇》，刷这个剧的时候，如果是要做笔记，配置这个双字幕，就可以一键把eng.srt和srt字幕弄到anki卡片中，只是字幕文件的后缀要按照mpv2anki的格式进行修改。
 
+![explorer_goH3UVaafz](/images/posts/explorer_goH3UVaafz.png)
 
 #### 5.2 视频压缩为高密度mp3音频
 
