@@ -9,7 +9,7 @@ typora-root-url: ../
 
 这个AI生成youtube英文字幕是基于OpenAi公司的Whisper库。OpenAI公司的Whisper库更新很快，但是yt-whisper脚本的更新相对滞后，yt-whisper官方的setup.py执行的时候由于依赖包的名字还是whisper，而官方库改名为openai-whisper了，所以需要修改下这个名字。fork并修改脚本之后，使用自己github的地址安装即可解决yt-whisper装不上去的问题。
 
-Whisper这个AI库生成的youtube字幕非常精准，可以针对任何youtube的视频，自动生成字幕。这样就省得我们去手工下载youtube的机器字幕了。唯一缺点是压缩视频都是利用的ffmpeg这个中间，特别耗CPU资源，对于字幕的生成耗时比较久，最好是 i7 CPU左右的性能。
+Whisper这个AI库生成的youtube字幕非常精准，可以针对任何youtube的视频，自动生成字幕。这样就省得我们去手工下载youtube的机器字幕了。唯一缺点是压缩视频都是利用的ffmpeg这个中间件，特别耗CPU资源，对于字幕的生成耗时比较久，最好是 i7 CPU左右比较好，配置低真的会很慢。当然，最好是自己能够写脚本批量挂机执行也行。
 
 ### 前期准备
 
@@ -131,21 +131,31 @@ activate.bat
 
 ### 5.安装git环境
 
-下载git安装文件exe：去到git官网：[https://git-scm.com/](https://git-scm.com/)，如下图，点击那个Download for Windows，下载git的安装文件：
+git安装分为2种方式，第一种使用choco安装，最省事；第二种，去git官方下载exe文件安装(耗时且容易出错)。
 
-![fc6kv4lUYs](/images/posts/fc6kv4lUYs.png)
+#### 5.1第一种方式
 
-![YVTKOVsT3Q](/images/posts/YVTKOVsT3Q.png)
+```shell
+choco install git.install
+```
+
+choco这种方式安装git非常方便简单，直接一条指令搞定。
+
+#### 5.2第二种方式
+
+下载git安装文件exe：去到git官网：[https://git-scm.com/](https://git-scm.com/)，如下图，点击那个Download for Windows，下载git的安装文件。
 
 选择64位版本的Setup文件下载下来，就跟我们以前安装exe文件一样，直接下一步，下一步，下一步，直到安装完成。估计会要重启下电脑。重启电脑之后我们再以管理员方式启动cmd黑框。
+
+
+
+### 6.安装whisper
 
 我们回到黑框cmd环境，继续操作，安装whisper库之前还是要开启python虚拟环境，执行上面那个activate.bat文件。如果忘记了，请回到上面activate.bat那里。切换目录，执行activate.bat。
 
 开启python虚拟环境。开启之后，看到这个(venv)
 
 ![cmd_cGtW04Fz9Y](/images/posts/cmd_cGtW04Fz9Y.png)
-
-### 6.安装whisper
 
 我们安装OpenAi公司的whisper库：
 
