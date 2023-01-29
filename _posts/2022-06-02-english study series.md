@@ -11,7 +11,7 @@ typora-root-url: ../
 
 Whisper这个AI库生成的youtube字幕非常精准，可以针对任何youtube的视频，自动生成字幕。这样就省得我们去手工下载youtube的机器字幕了。唯一缺点是压缩视频都是利用的ffmpeg这个中间，特别耗CPU资源，对于字幕的生成耗时比较久，最好是 i7 CPU左右的性能。
 
-### fork并修改脚本
+### 前期准备
 
 首先用你自己的github账号fork这个仓库：[https://github.com/m1guelpf/yt-whisper](https://github.com/m1guelpf/yt-whisper)
 
@@ -39,13 +39,9 @@ https://github.com/m1guelpf/yt-whisper.git
 
 ### 1.安装chocolatey
 
-最先要安装的是chocolatey。强烈推荐使用chocolatey这个软件包管理软件(血的教训)，虽然有很多方法可以安装mpv播放器，但是为了保险起见，请把所有安装过程交给choco自动处理。包括安装youtube-dl(播放url需要用到这个)，ffmpeg(视频音频自动截取需要这个)。choco类似于Mac上面的Homebrew,CentOS上面的Yum，Ubuntu上面的apt-get。
-
 chocolatey如何安装，文档如下：
 
 [https://docs.chocolatey.org/en-us/choco/setup](https://docs.chocolatey.org/en-us/choco/setup)
-
-按照上面地址的文档说明，chocolate安装方式有2种，一种是通过cmd安装，一种是powershell方式安装。选择其中1种即可.这里我使用第2种方式PowerShell安装。
 
 在windows开始菜单，找到PowerShell，鼠标右键点击**以管理员身份运行**，粘贴并执行下面框框中的命令(复制整行)：
 
@@ -54,18 +50,6 @@ chocolatey如何安装，文档如下：
 ```shell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
-
-很多人打开这个Windows PowerShell的时候不是以管理员权限打开的，会报下面错误：它会提示你 `default folder requires Administrative permissions`. 意思是说”默认文件夹需要管理员权限“。你需要按照我上面说的那样子，以管理员权限打开windows PowerShell。具体操作是，找到powershell，鼠标右键，会出现”以管理员方式运行“，点击，让它以管理员方式运行就可以了。期间有人出现过这个情况，这让我不得不把这个文章尽量详细写出来。可能对于一些程序员朋友觉得有点冗余，对于不太懂程序的，有些细节就会被难住。
-
-![tACkzhrojS](/images/posts/tACkzhrojS.png)
-
-管理员权限启动的Powershell，窗口上面会有`Administrator` 或者 `管理员`字样，如下：
-
-![image-20230118034115752](/images/posts/image-20230118034115752.png)
-
-![eWyxATtSbe](/images/posts/eWyxATtSbe.png)
-
-如果没有这个字样，就不是管理员权限，你要检查你当前登录windows系统的账号，或者直接用windows系统默认的超级管理员账号Administrator登录。
 
 等chocolatey安装好之后，输入choco，回车，如下图，看到显示了chocolatey的版本号v1.1.0，即表示安装成功。
 
@@ -189,23 +173,13 @@ pip install git+https://github.com/m1guelpf/yt-whisper.git
 yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 ```
 
-转换的时候，时间会有点长，5分钟到10分钟左右，看你要转化的视频mp4的时间长短决定。
+转换的时候，时间会有点长，5分钟到10分钟左右。如果是要批量进行大量的url转换压缩，我一般会自己写脚本批量搞定。
 
 ![cmd_f02JOb0vMR](/images/posts/cmd_f02JOb0vMR.png)
 
-转换过程CPU会100%拉满，期间就不要做其他事情了，静静等待即可，防止电脑卡死。AI在电脑生成字幕的时间和速度，除了跟你视频长度有关系，还有跟你电脑CPU配置也有关系。生成完成之后，这个控制台会显示，生成的vtt格式的字幕在你电脑硬盘的路径，根据路径过去拿这个字幕即可。
+转换过程CPU会100%拉满，是因为ffmpeg这个中间件压缩视频的时候耗资源，像HandBrake这种视频格式转换工具基本都是使用这个ffmpeg，批量压缩视频的时候也是很耗CPU。
 
-
-
-以后我们就可以正常使用yt_whisper指令了，使用方式，参考：[https://github.com/m1guelpf/yt-whisper](https://github.com/m1guelpf/yt-whisper)
-
-以后的日常使用过程中，只需要找到你想要自动生成字幕的youtube链接地址，复制，使用yt-whisper 加上双引号，里面写上你要转AI字幕的视频的地址即可，如下格式：
-
-```shell
-yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-```
-
-每次使用的时候，如果你电脑重启过，或者关闭过python虚拟环境，可能需要再次进入python虚拟机环境，才能执行这个AI程序，进入python虚拟环境的方式，参考上面的步骤即可。
+以后我们就可以正常使用yt_whisper指令了。更多指令参考：[https://github.com/m1guelpf/yt-whisper](https://github.com/m1guelpf/yt-whisper)
 
 ### 9.CMD使用yt_whisper
 
