@@ -143,7 +143,7 @@ choco这种方式安装git非常方便简单，直接一条指令搞定。如果
 
 ![chrome_wXkhDsMbCN](/images/posts/chrome_wXkhDsMbCN.png)
 
-开启帆樯之后，git安装就可以很顺利了：安装成功之后，在电脑的最近添加这里就可以看到Git一系列的东西了。
+开启帆樯之后，git安装就可以很顺利了：安装成功之后，在电脑的最近添加这里就可以看到Git一系列的东西了。安装完成git之后，需要重新关闭控制面板cmd，重新打开。让git生效。
 
 ![chrome_fzc38M5kIe](/images/posts/chrome_fzc38M5kIe.png)
 
@@ -151,13 +151,13 @@ choco这种方式安装git非常方便简单，直接一条指令搞定。如果
 
 #### 5.2第二种方式
 
-下载git安装文件exe：去到git官网：[https://git-scm.com/](https://git-scm.com/)，在首页的右边有个下载的位置，点击那个Download for Windows，下载git的安装文件。选择64位版本的Setup文件下载下来，就跟我们以前安装exe文件一样，直接下一步，下一步，下一步，直到安装完成。估计会要重启下电脑。重启电脑之后我们再以管理员方式启动cmd黑框。
+下载git安装文件exe：去到git官网：[https://git-scm.com/](https://git-scm.com/)，在首页的右边有个下载的位置，点击那个Download for Windows，下载git的安装文件。选择64位版本的Setup文件下载下来，就跟我们以前安装exe文件一样，直接下一步，下一步，下一步，直到安装完成。安装完成git之后，需要重新关闭控制面板cmd，重新打开。让git生效。
 
 ### 6.安装whisper
 
-我们回到黑框cmd环境，继续操作，安装whisper库之前还是要开启python虚拟环境，执行上面那个activate.bat文件。如果忘记了，请回到上面activate.bat那里。切换目录，执行activate.bat。
+我们关闭黑框cmd，再重新打开黑框cmd环境，执行上面那个activate.bat文件进入python虚拟机环境。
 
-开启python虚拟环境。开启之后，看到这个(venv)
+python虚拟环境开启之后，看到这个(venv)，一定要确保你已经进入了python虚拟环境才能下面操作。
 
 ![cmd_cGtW04Fz9Y](/images/posts/cmd_cGtW04Fz9Y.png)
 
