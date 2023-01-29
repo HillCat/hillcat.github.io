@@ -143,11 +143,7 @@ choco这种方式安装git非常方便简单，直接一条指令搞定。
 
 #### 5.2第二种方式
 
-下载git安装文件exe：去到git官网：[https://git-scm.com/](https://git-scm.com/)，如下图，点击那个Download for Windows，下载git的安装文件。
-
-选择64位版本的Setup文件下载下来，就跟我们以前安装exe文件一样，直接下一步，下一步，下一步，直到安装完成。估计会要重启下电脑。重启电脑之后我们再以管理员方式启动cmd黑框。
-
-
+下载git安装文件exe：去到git官网：[https://git-scm.com/](https://git-scm.com/)，在首页的右边有个下载的位置，点击那个Download for Windows，下载git的安装文件。选择64位版本的Setup文件下载下来，就跟我们以前安装exe文件一样，直接下一步，下一步，下一步，直到安装完成。估计会要重启下电脑。重启电脑之后我们再以管理员方式启动cmd黑框。
 
 ### 6.安装whisper
 
@@ -193,6 +189,8 @@ yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 ### 9.CMD使用yt_whisper
 
+最好的方式是使用powershell高版本的控制面板来执行这些脚本，这里为了只是以cmd控制面板来演示下：
+
 通过上面步骤，成功安装了yt-whisper。重启电脑之后，再要使用这个工具生成youtube字幕，只需要以下几个步骤：
 
 第一步:进入到`venv\Scripts`目录下面，这个文件夹有activate.bat这个文件，如下：
@@ -200,8 +198,6 @@ yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 ![88TWZswyfY](/images/posts/88TWZswyfY.png)
 
 第二步：在当前Script目录，地址栏中输入cmd直接回车，可以快速打开cmd控制面板会自动停留在当前路径中，然后直接输入activate.bat启动python虚拟环境。
-
-![95346dgfdgdg](/images/posts/95346dgfdgdg.gif)
 
 
 
@@ -238,8 +234,6 @@ PowerShell7它有自动补全和智能提示功能，而Powershell5.1是没有�
 ![pwsh_HcvYfZeZCR](/images/posts/pwsh_HcvYfZeZCR.png)
 
 它会出现指令自动补全和提示，键盘方向键：上下↑↓翻历史记录， 敲代码的时候出现智能提示，利用右方向键 → 补全，省力省心。
-
-![56435345sfhg24](/images/posts/56435345sfhg24.gif)
 
 ![pwsh_hCZvJO56OI](/images/posts/pwsh_hCZvJO56OI.png)
 
