@@ -7,7 +7,7 @@ keywords: ABP_Vnext笔记
 typora-root-url: ../
 ---
 
-ABP作者出版了一本书，叫做《精通abp vnext框架》，英文名字《Mater Abp Vnext Framwork》，感觉还比较全面。通过一个月的时间看完了英文版本，看的过程中做一些记录。
+ABP作者出版了一本书，叫做《Mater Abp Vnext Framwork》，感觉还比较全面。通过一个月的时间看完了英文版本，看的过程中做一些记录。
 
 ### AbpVnextDemo文件的初始化
 
