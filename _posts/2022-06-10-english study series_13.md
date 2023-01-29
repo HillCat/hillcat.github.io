@@ -109,7 +109,7 @@ mpv2anki插件字段映射如下
 
 #### 5.2 视频压缩为高密度mp3音频
 
-mpv2anki插件作者开发了2款插件。高密度mp3音频的概念是来至于国外这篇视频：“[Optimizing Passive Immersion: Condensed Audio](https://youtu.be/QOLTeO-uCYU)”，本来一集美剧30分钟，可以压缩为一个10分钟的语音mp3，专门用来在通勤路上复习用，这种复习的方式主要是锻炼听力，培养对`人物对话`的敏感度。插件地址：[https://ankiweb.net/shared/info/939347702](https://ankiweb.net/shared/info/939347702)，这个插件提供的方法可以用来把视频转为mp3音频，适合精听精学，搭配anki的视频卡，同时可以训练到听力，口语，阅读。
+mpv2anki插件作者开发了2款插件。高密度mp3音频的概念是来至于国外这篇视频：“[Optimizing Passive Immersion: Condensed Audio](https://youtu.be/QOLTeO-uCYU)”，本来一集美剧30分钟，可以压缩为一个10分钟的语音mp3，专门用来在通勤路上复习用，这种复习的方式主要是锻炼听力，培养对`人物对话`的敏感度。插件地址：[https://ankiweb.net/shared/info/939347702](https://ankiweb.net/shared/info/939347702)，这个插件提供的方法可以用来把视频转为mp3音频，适合精听精学，搭配anki的视频卡，同时可以训练到听力，口语，阅读。写作部分交给Grammarly和OpenAi的ChartGPT帮助我们批改作文和提升作文的水平。而写作和口语的语料库来源于我们平时制卡积累的卡片，并且这些卡片全文都是可以直接掏出手机搜索或者在电脑上的anki中搜索的。
 
 ### 6.美剧视频和字幕下载
 
