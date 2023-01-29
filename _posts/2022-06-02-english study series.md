@@ -139,7 +139,15 @@ git安装分为2种方式，第一种使用choco安装，最省事；第二种�
 choco install git.install
 ```
 
-choco这种方式安装git非常方便简单，直接一条指令搞定。
+choco这种方式安装git非常方便简单，直接一条指令搞定。如果你遇到下面这种操作超时的问题，那么请开启帆樯搞定。
+
+![chrome_wXkhDsMbCN](/images/posts/chrome_wXkhDsMbCN.png)
+
+开启帆樯之后，git安装就可以很顺利了：安装成功之后，在电脑的最近添加这里就可以看到Git一系列的东西了。
+
+![chrome_fzc38M5kIe](/images/posts/chrome_fzc38M5kIe.png)
+
+![chrome_5cjFgi2LIE](/images/posts/chrome_5cjFgi2LIE.png)
 
 #### 5.2第二种方式
 
