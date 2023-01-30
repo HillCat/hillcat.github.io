@@ -277,6 +277,8 @@ PowerShell7它有自动补全和智能提示功能，而Powershell5.1是没有�
 
 ![BvqJpgUT47](/images/posts/BvqJpgUT47.png)
 
+![croZVJetH2](/images/posts/croZVJetH2.png)
+
 ![Typora_DAXQo33YSK](/images/posts/Typora_DAXQo33YSK.png)
 
 ### 13.注意事项
