@@ -97,43 +97,13 @@ python -m venv C:\Users\47664\venv
 
 ![explorer_8zuIuHD57x](/images/posts/explorer_8zuIuHD57x.png)
 
-### 4.启动python虚拟环境
+### 4.安装git环境
 
-最为关键的一步来了，千万别弄错了：我们需要在命令行中去执行这个activate.bat程序,目的是为了开启python虚拟化环境，怎么做呢？
+如果你电脑已经安装了git，就不需要做这一步了。如果没有安装git，那么就按照下面方式安装git.
 
-![swv9F06BMY](/images/posts/swv9F06BMY.png)
+git安装分为2种方式，第一种使用choco安装，最省事,但是需要开启全局帆樯；第二种，去git官方下载exe文件安装(耗时且容易出错)。
 
-最好的办法就是先复制Scripts文件夹所在位置的路径：如下，复制这个Scripts所在位置的整个路径全部复制下来，`C:\Users\47664\venv\Scripts`,其实就是直接找你电脑里面C盘的那个Scripts目录复制即可，直接复制你自己的Scripts路径，你自己实际路径是什么就复制什么。Scripts目录如下：去找C盘下面的用户目录进入，然后找到自己当前登录的用户名，再进入那个venv文件夹，就能看到Scripts目录，复制整个这个路径。
-
-![xIlXKqcgh9](/images/posts/xIlXKqcgh9.png)
-
-然后把路径切换到这个Scripts目录:切记，这里不要用PowerShell, 用cmd黑框，以管理员方式打开cmd。切换目录的指令如下，cd 就是change direct改变路径的缩写，后面带上你复制的自己的Script整个路径，
-
-```shell
-cd C:\Users\47664\venv\Scripts
-```
-
-如下，这样子就切换目录到了Scripts下面了，这么切换目录的原因是我们的bat文件在这个目录里面，开启python虚拟环境要用这个。
-
-![cmd_INHW2y2cj1](/images/posts/cmd_INHW2y2cj1.png)
-
-直接输入：
-
-```shell
-activate.bat
-```
-
-回车执行，如果一次不行，同样输入activate.bat执行一次，直到看到有个(venv)的小括号出现，如下：前面带了这个(venv),就表示你进入了python虚拟机环境:
-
-![cmd_cGtW04Fz9Y](/images/posts/cmd_cGtW04Fz9Y.png)
-
-已经进入python虚拟环境了，黑框cmd不要退出，我们这个时候先去安装一个git环境，
-
-### 5.安装git环境
-
-git安装分为2种方式，第一种使用choco安装，最省事；第二种，去git官方下载exe文件安装(耗时且容易出错)。
-
-#### 5.1第一种方式
+#### 4.1第一种方式
 
 ```shell
 choco install git.install
@@ -149,9 +119,37 @@ choco这种方式安装git非常方便简单，直接一条指令搞定。如果
 
 ![xXrgtx9Ems](/images/posts/xXrgtx9Ems.png)
 
-#### 5.2第二种方式
+#### 4.2第二种方式
 
 下载git安装文件exe：去到git官网：[https://git-scm.com/](https://git-scm.com/)，在首页的右边有个下载的位置，点击那个Download for Windows，下载git的安装文件。选择64位版本的Setup文件下载下来，就跟我们以前安装exe文件一样，直接下一步，下一步，下一步，直到安装完成。安装完成git之后，需要重新关闭控制面板cmd，重新打开。让git生效。
+
+### 5.启动python虚拟环境
+
+python的虚拟环境启动，是通过执行activate.bat启动的，activate.bat程序是一个批处理程序，找到这个文件所在位置，在命令行直接运行这个文件就能启动python虚拟环境，
+
+![swv9F06BMY](/images/posts/swv9F06BMY.png)
+
+以管理身份运行cmd，然后通过 cd 命名切换到activate.bat所在目录，如下(就是你当前登录用户所在的venv\Scripts目录)
+
+``` cd C:\Users\47664\venv\Scripts```
+
+
+
+![cmd_INHW2y2cj1](/images/posts/cmd_INHW2y2cj1.png)
+
+切换目录后，直接输入：
+
+```shell
+activate.bat
+```
+
+回车执行，执行会一闪而过，然后地址前面会出现 (venv)，这个就代表已经启动python虚拟环境了，如下：前面带了这个(venv),就表示你进入了python虚拟机环境:
+
+![cmd_cGtW04Fz9Y](/images/posts/cmd_cGtW04Fz9Y.png)
+
+已经进入python虚拟环境了，黑框cmd不要退出，我们这个时候先去安装一个git环境，
+
+
 
 ### 6.安装whisper
 
@@ -167,14 +165,14 @@ python虚拟环境开启之后，看到这个(venv)，一定要确保你已经�
 pip install git+https://github.com/openai/whisper.git
 ```
 
-这个库的体积很大，安装文件可能达到2GB，耐心等待安装完成。安装完成whisper之后，
+这个库的安装需要耗费些时间，耐心等待安装完成。安装完成之后，接着安装yt-whisper。
 
 ### 7.安装yt-whisper
 
-注意，这个脚本安装出错，建议你fork官方这个库之后，修改脚本setup.py里面的错误，并用你自己的github地址安装yt-whisper。参考文本开篇提到的方法。下面这个执行命令作为参考：
+安装yt-whisper。执行：
 
 ```shell
-pip install git+https://github.com/m1guelpf/yt-whisper.git
+pip install git+https://github.com/HillCat/yt-whisper.git
 ```
 
 安装完成。就可以使用yt-whisper去生成youtube视频的字幕了，先不用急着去找youtube视频链接，这里的指令我们先执行，测试下yt_whisper指令是否正常能够生成字幕。
@@ -267,11 +265,19 @@ PowerShell7它有自动补全和智能提示功能，而Powershell5.1是没有�
 
 
 
-### 12.制作Youtube单词卡片
+### 12.翻译Youtube字幕
 
-可以搭配安装`google translate`插件,插件安装Code是：`1536291224`。在没有中文字幕的情况下，快速生成翻译中文。
+可以搭配安装`Deepl Translate`插件,插件安装Code是：`972129549`。在没有中文字幕的情况下，快速生成翻译中文。插件地址：https://ankiweb.net/shared/info/972129549，
 
-![afryitHXx9](/images/posts/afryitHXx9.png)
+这个插件需要API Key ，这个Key在淘宝上面有卖的，30RMB一个月，如果你是高密度刷youtube的视频来精学，精听，用这个插件会节省很多时间。因为它的翻译准确度要高于国内的有道的欧陆。另外这个DeepL有个Write服务是免费的，用来批改英文作文很有效，特别是它的同义词替换，语法错误检查，关键是它是免费的，而且同义词替换要比Gramarly好用。
+
+![BeeCLnaGhT](/images/posts/BeeCLnaGhT.png)
+
+
+
+![BvqJpgUT47](/images/posts/BvqJpgUT47.png)
+
+![Typora_DAXQo33YSK](/images/posts/Typora_DAXQo33YSK.png)
 
 ### 13.注意事项
 
