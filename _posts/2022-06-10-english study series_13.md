@@ -165,7 +165,7 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 这种提取方式主要是开启Language Reactor插件，把中文英文双语字幕打开，类似下面这样子，然后chrome的网页开发者调试工具打开，具体查看视频教程：[https://www.youtube.com/watch?v=ZpejTczG8Ho&ab_channel=SP3TUT](https://www.youtube.com/watch?v=ZpejTczG8Ho&ab_channel=SP3TUT)
 
-
+我只是借鉴了它这个思路，并没有使用它的python脚本，相反，我是自己用C#编写的脚本搞定的。
 
 ![chrome_ukMXimAJlD](/images/posts/chrome_ukMXimAJlD.png)
 
@@ -177,9 +177,11 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 ![explorer_qYVrXgwtMj](/images/posts/explorer_qYVrXgwtMj.png)
 
-拿到这两个字幕之后，通过自己写脚本，进行转换。就可以得到en.srt和zh.srt的两个字幕，用来mvp2anki制卡。但是中文字幕和英文字幕的时间轴并不是完全一致的，会有落差。但是也基本够用了。
+拿到这两个字幕之后，通过自己写脚本，进行转换。就可以得到en.srt和zh.srt的两个字幕，用来mvp2anki制卡。但是中文字幕和英文字幕的时间轴并不是完全一致的，会有落差。但是也基本够用了。en.srt，和zh.srt可以设置到potplayer里面挂载出来。英文在上，中文在下，那么就需要把英文设置为second subtitle.我使用的是potplayer英文界面。给potplayer添加第二字幕，参考：[https://quickfever.com/add-second-subtitle-potplayer-kmplayer-vlc/](https://quickfever.com/add-second-subtitle-potplayer-kmplayer-vlc/)，然后改变字幕的位置：[https://www.reddit.com/r/potplayer/comments/seakd7/how_to_change_2nd_subtitles_position/](https://www.reddit.com/r/potplayer/comments/seakd7/how_to_change_2nd_subtitles_position/)
 
 ![chrome_tiMOygiOn3](/images/posts/chrome_tiMOygiOn3.png)
+
+![5Khw36sAZV](/images/posts/5Khw36sAZV.png)
 
 #### 6.2 下载youtube视频
 
