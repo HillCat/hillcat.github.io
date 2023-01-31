@@ -183,7 +183,7 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 ![5Khw36sAZV](/images/posts/5Khw36sAZV.png)
 
-![PotPlayerMini64_rolLH9eH5Z](/images/posts/PotPlayerMini64_rolLH9eH5Z.png)
+![PotPlayerMini64_MH4pJ89BBQ](/images/posts/PotPlayerMini64_MH4pJ89BBQ.png)
 
 #### 6.2 下载youtube视频
 
