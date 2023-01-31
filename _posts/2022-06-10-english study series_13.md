@@ -189,7 +189,11 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 ![PotPlayerMini64_MH4pJ89BBQ](/images/posts/PotPlayerMini64_MH4pJ89BBQ.png)
 
+##### 6.1.3 PotPlayer字幕位置调整
 
+调整主字幕的位置，按下快捷键F7，Control Panel找到Subtitle，Positon，Up ，Down调整主字幕上下左右位置。
+
+![PotPlayerMini64_iyjwNB2dD5](/images/posts/PotPlayerMini64_iyjwNB2dD5.png)
 
 #### 6.2 下载youtube视频
 
