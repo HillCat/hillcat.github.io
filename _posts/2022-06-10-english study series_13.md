@@ -177,7 +177,7 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 ![explorer_qYVrXgwtMj](/images/posts/explorer_qYVrXgwtMj.png)
 
-拿到这两个字幕之后，通过自己写脚本，进行转换。就可以得到en.srt和zh.srt的两个字幕，用来mvp2anki制卡。但是中文字幕和英文字幕的时间轴并不是完全一致的，会有落差。但是也基本够用了。en.srt，和zh.srt可以设置到potplayer里面挂载出来。英文在上，中文在下，那么就需要把英文设置为second subtitle.我使用的是potplayer英文界面。给potplayer添加第二字幕，参考：[https://quickfever.com/add-second-subtitle-potplayer-kmplayer-vlc/](https://quickfever.com/add-second-subtitle-potplayer-kmplayer-vlc/)，然后改变字幕的位置：[https://www.reddit.com/r/potplayer/comments/seakd7/how_to_change_2nd_subtitles_position/](https://www.reddit.com/r/potplayer/comments/seakd7/how_to_change_2nd_subtitles_position/)
+拿到这两个字幕之后，通过自己写脚本，进行转换即可。就可以得到en.srt和zh.srt的两个字幕，用来mvp2anki制卡。但是中文字幕和英文字幕的时间轴并不是完全一致的，会有落差，实际测试mvp2anki对此处理的效果非常好,基本够用了。en.srt，和zh.srt可以设置到potplayer里面挂载出来。英文在上，中文在下，那么就需要把英文设置为second subtitle.我使用的是potplayer英文界面。给potplayer添加第二字幕，参考：[https://quickfever.com/add-second-subtitle-potplayer-kmplayer-vlc/](https://quickfever.com/add-second-subtitle-potplayer-kmplayer-vlc/)，然后改变字幕的位置：[https://www.reddit.com/r/potplayer/comments/seakd7/how_to_change_2nd_subtitles_position/](https://www.reddit.com/r/potplayer/comments/seakd7/how_to_change_2nd_subtitles_position/)
 
 ![chrome_tiMOygiOn3](/images/posts/chrome_tiMOygiOn3.png)
 
@@ -191,9 +191,13 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 ##### 6.1.3 PotPlayer字幕位置调整
 
-调整主字幕的位置，按下快捷键F7，Control Panel找到Subtitle，Positon，Up ，Down调整主字幕上下左右位置。
+调整主字幕的位置，按下快捷键F7，Control Panel找到Subtitle，Positon，Up ，Down调整主字幕上下左右位置。第一字幕完全置底，英文字幕大概78%的位置，不会影响欧陆屏幕取词。
 
 ![PotPlayerMini64_iyjwNB2dD5](/images/posts/PotPlayerMini64_iyjwNB2dD5.png)
+
+![OVfBL6lGnX](/images/posts/OVfBL6lGnX.png)
+
+
 
 #### 6.2 下载youtube视频
 
