@@ -183,7 +183,13 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 ![5Khw36sAZV](/images/posts/5Khw36sAZV.png)
 
+##### 6.1.2 PotPlayer同时挂载2个字幕
+
+每个剧集播放的时候，Potplayer主界面按下快捷键L，设置en.srt英文为second subtitle, 中文zh.srt设置为first subtitle，那么中文会显示在英文的下方。
+
 ![PotPlayerMini64_MH4pJ89BBQ](/images/posts/PotPlayerMini64_MH4pJ89BBQ.png)
+
+
 
 #### 6.2 下载youtube视频
 
