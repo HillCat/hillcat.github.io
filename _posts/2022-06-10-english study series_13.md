@@ -161,9 +161,25 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 打开的字幕页面，会以`about:blank`地址展示，排版相当工整，体验真的非常棒。展开一个剧集的字幕，搜索和核对字幕都非常方便。由于字幕出自官方校准，所以准确性和质量都有保证。
 
-![chrome_0NhkCqN32N](/images/posts/chrome_0NhkCqN32N.png)
+##### 6.1.1 提取NetFlix中英文字幕
+
+这种提取方式主要是开启Language Reactor插件，把中文英文双语字幕打开，类似下面这样子，然后chrome的网页开发者调试工具打开，具体查看视频教程：[https://www.youtube.com/watch?v=ZpejTczG8Ho&ab_channel=SP3TUT](https://www.youtube.com/watch?v=ZpejTczG8Ho&ab_channel=SP3TUT)
 
 
+
+![chrome_ukMXimAJlD](/images/posts/chrome_ukMXimAJlD.png)
+
+可以提取出来英文和中文两个文本，英文格式如下：
+
+![notepad_RZbyE1c9C8](/images/posts/notepad_RZbyE1c9C8.png)
+
+中文格式如下：
+
+![explorer_qYVrXgwtMj](/images/posts/explorer_qYVrXgwtMj.png)
+
+拿到这两个字幕之后，通过自己写脚本，进行转换。就可以得到en.srt和zh.srt的两个字幕，用来mvp2anki制卡。但是中文字幕和英文字幕的时间轴并不是完全一致的，会有落差。但是也基本够用了。
+
+![chrome_tiMOygiOn3](/images/posts/chrome_tiMOygiOn3.png)
 
 #### 6.2 下载youtube视频
 
