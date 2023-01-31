@@ -183,6 +183,8 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 ![5Khw36sAZV](/images/posts/5Khw36sAZV.png)
 
+![PotPlayerMini64_rolLH9eH5Z](/images/posts/PotPlayerMini64_rolLH9eH5Z.png)
+
 #### 6.2 下载youtube视频
 
 IDM全称是Internet Download Manager。下载地址:[Internet Download Manager](https://www.internetdownloadmanager.com/), 这个工具是付费的，终身授权很便宜，推荐人手一份。
