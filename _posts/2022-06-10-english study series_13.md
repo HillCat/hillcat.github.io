@@ -187,7 +187,7 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 每个剧集播放的时候，Potplayer主界面按下快捷键L，设置en.srt英文为second subtitle, 中文zh.srt设置为first subtitle，那么中文会显示在英文的下方。
 
-![PotPlayerMini64_MH4pJ89BBQ](/images/posts/PotPlayerMini64_MH4pJ89BBQ.png)
+![PotPlayerMini64_Nz3P63VIuu](/images/posts/PotPlayerMini64_Nz3P63VIuu.png)
 
 ##### 6.1.3 PotPlayer字幕位置调整
 
@@ -197,7 +197,11 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 ![OVfBL6lGnX](/images/posts/OVfBL6lGnX.png)
 
+```shell
+forced&chinese default&chinese zhcc zh zh chinese
+```
 
+经过上面的设置之后，中文会被以默认的语言加载，英文会被以第二语言默认也会被加载，就不需要每次对新的剧集进行双语的显示设置了。
 
 #### 6.2 下载youtube视频
 
