@@ -163,9 +163,9 @@ NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.
 
 ##### 6.1.1 提取NetFlix中英文字幕
 
-这种提取方式主要是开启Language Reactor插件，把中文英文双语字幕打开，类似下面这样子，然后chrome的网页开发者调试工具打开，具体查看视频教程：[https://www.youtube.com/watch?v=ZpejTczG8Ho&ab_channel=SP3TUT](https://www.youtube.com/watch?v=ZpejTczG8Ho&ab_channel=SP3TUT)
+这种提取方式主要是开启Language Reactor插件，把中文英文双语字幕打开，其实提取到的是Language Reactor插件帮我们生成好的英文字幕和中文字幕(奈飞公司人工校对过的)，默认情况下如果你不开启Language Reactor插件双语字幕，是没办法通过技术手段拿到字幕文本的。技术手段获取教程：[https://www.youtube.com/watch?v=ZpejTczG8Ho&ab_channel=SP3TUT](https://www.youtube.com/watch?v=ZpejTczG8Ho&ab_channel=SP3TUT)
 
-我只是借鉴了它这个思路，并没有使用它的python脚本，相反，我是自己用C#编写的脚本搞定的。
+借鉴它这个思路，并没有用它的python脚本,因为它这个脚本不是针对Language Reactor字幕的，需要自己用自己熟悉的编程语言写脚本搞定。
 
 ![chrome_ukMXimAJlD](/images/posts/chrome_ukMXimAJlD.png)
 
