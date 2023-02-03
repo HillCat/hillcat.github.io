@@ -9,7 +9,7 @@ typora-root-url: ../
 
 这个AI生成youtube英文字幕是基于OpenAi公司的Whisper库。OpenAI公司的Whisper库更新很快，但是yt-whisper脚本的更新相对滞后，yt-whisper官方的setup.py执行的时候由于依赖包的名字还是whisper，而官方库改名为openai-whisper了，所以需要修改下这个名字。fork并修改脚本之后，使用自己github的地址安装即可解决yt-whisper装不上去的问题。
 
-Whisper这个AI库生成的youtube字幕非常精准，可以针对任何youtube的视频，自动生成字幕。这样就省得我们去手工下载youtube的机器字幕了。唯一缺点是压缩视频都是利用的ffmpeg这个中间件，特别耗CPU资源，对于字幕的生成耗时比较久，最好是 i7 CPU左右比较好，配置低真的会很慢。当然，最好是自己能够写脚本批量挂机执行也行。
+Whisper这个AI库生成的youtube字幕非常精准，可以针对任何youtube的视频，自动生成字幕。这样就省得我们去手工下载youtube的机器字幕了。唯一缺点是压缩视频都是利用的ffmpeg这个中间件，特别耗CPU资源，对于字幕的生成耗时比较久，最好是 i7 CPU左右比较好，配置低真的会很慢。当然，最好是自己能够写脚本**批量挂机执行**也行。
 
 ### 前期准备
 
@@ -291,7 +291,23 @@ PowerShell7它有自动补全和智能提示功能，而Powershell5.1是没有�
 
 ![Typora_DAXQo33YSK](/images/posts/Typora_DAXQo33YSK.png)
 
-### 13.注意事项
+
+
+### 13.卸载和重装yt-whisper
+
+1.首先是通过控制面板卸载python
+
+2.利用Everthing工具把残留的python文件删除
+
+3.清空回收站
+
+4.通过choco安装python39
+
+5.重新创建python虚拟环境
+
+6.pip安装whipser
+
+### 14.注意事项
 
 1.mkv格式的视频无法被anki的mpv2anki插件截取，需要用格式工厂转换mkv为mp4格式，如果其他格式视频不是mp4的，建议都转为mp4。
 
