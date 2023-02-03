@@ -169,11 +169,21 @@ pip install git+https://github.com/openai/whisper.git
 
 ### 7.安装yt-whisper
 
+如果是电脑上面之前已经安装过yt-whisper，则需要彻底删除干净，Everything工具查找硬盘上所有涉及到whisper的python Library完全清除干净。再安装。如果使用wrap cli工具批量调用python这个库的时候可能发生错误。
+
+安装moviepy：
+
+```shel
+pip install moviepy
+```
+
 安装yt-whisper。执行：
 
 ```shell
-pip install git+https://github.com/HillCat/yt-whisper.git
+pip install git+https://github.com/HillCat/yt_whisper
 ```
+
+python -m pip install git+https://github.com/HillCat/yt_whisper
 
 安装完成。就可以使用yt-whisper去生成youtube视频的字幕了，先不用急着去找youtube视频链接，这里的指令我们先执行，测试下yt_whisper指令是否正常能够生成字幕。
 
