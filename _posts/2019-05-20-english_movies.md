@@ -179,6 +179,14 @@ PotPlayer右侧这些组合在一起的小窗口，是可以拖出来的，点�
 
 截止到目前，所有快捷键设置完毕。
 
+##### 1.1.7 保持窗口大小不变
+
+potplayer每次在播放新的剧集的时候，都会根据视频实际的分辨率来自动调整窗口大小，导致我们好不容易调整好的playlist，播放窗口的位置都发生变化。为了不让potplayer自动调整窗口大小，我们需要进行如下设置：
+
+![ooNLplGxlX](/images/posts/ooNLplGxlX.png)
+
+![VpSQX5PZkU](/images/posts/VpSQX5PZkU.png)
+
 #### 2.基本操作
 
 ##### 1 重复播放
