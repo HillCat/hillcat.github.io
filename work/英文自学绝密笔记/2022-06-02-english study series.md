@@ -11,6 +11,30 @@ typora-root-url: ../
 
 Whisper这个AI库生成的youtube字幕非常精准，可以针对任何youtube的视频，自动生成字幕。这样就省得我们去手工下载youtube的机器字幕了。唯一缺点是压缩视频都是利用的ffmpeg这个中间件，特别耗CPU资源，对于字幕的生成耗时比较久，最好是 i7 CPU左右比较好，配置低真的会很慢。当然，最好是自己能够写脚本**批量挂机执行**也行。
 
+## fork并修改脚本
+
+首先用你自己的github账号fork这个仓库：https://github.com/m1guelpf/yt-whisper
+setup.py中的
+
+```shell
+whisper @ git+https://github.com/openai/whisper.git@main#egg=whisper
+```
+
+改为：
+
+```shell
+openai-whisper @ git+https://github.com/openai/whisper.git@main#egg=openai-whisper
+```
+
+修改了这个setup.py之后，请使用你自己的github仓库地址安装yt_whisper.也就是说原本安装说明里面
+要从下面这个地址安装，改为使用你自己的github地址即可。
+
+```SHELL
+https://github.com/m1guelpf/yt-whisper.git
+```
+
+
+
 ## yt-whisper安装过程
 
 首先确保你的windows10电脑已经安装了chocolatey这个软件包管理工具。
