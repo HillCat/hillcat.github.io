@@ -163,6 +163,8 @@ PotPlayer右侧这些组合在一起的小窗口，是可以拖出来的，点�
 
 需要单独设置为保存书签为pbf文件。
 
+![C7EPi9Bns1](/images/posts/C7EPi9Bns1.png)
+
 ![PotPlayerMini64_MiYIUElIgn](/images/posts/PotPlayerMini64_MiYIUElIgn.png)
 
 ###### **3.鼠标设置**
