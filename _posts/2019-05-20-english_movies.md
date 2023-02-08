@@ -159,6 +159,12 @@ PotPlayer右侧这些组合在一起的小窗口，是可以拖出来的，点�
 
 ![chrome_s0QKQ3Z42h](/images/posts/chrome_s0QKQ3Z42h.png)
 
+###### 2.1 书签pbf设置
+
+需要单独设置为保存书签为pbf文件。
+
+![PotPlayerMini64_MiYIUElIgn](/images/posts/PotPlayerMini64_MiYIUElIgn.png)
+
 ###### **3.鼠标设置**
 
 找到’鼠标‘这个节点，拉到最下方，’滚轮前推‘，’鼠标后推‘。找到’滚轮前推‘，拉开它的下拉框，找到’自定义未定义指令‘。找到’字幕‘，’字幕样式‘，选中’字体+‘点击确定。
