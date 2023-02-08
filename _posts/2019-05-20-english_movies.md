@@ -137,7 +137,67 @@ PotPlayer右侧这些组合在一起的小窗口，是可以拖出来的，点�
 
 ![chrome_xiRefNMCXP](/images/posts/chrome_xiRefNMCXP.png)
 
-###### **2.书签设置**
+##### 2.1 NetFlix字幕插件
+
+NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)，搜索一下chrome插件市场就能找到这个插件，然后它有个导出字幕功能，导出的时候，选择"打印HTML"即可，中英双语字幕会在浏览器页面中完整显示出来，即便下载不到srt格式的中文人工字幕，也可以使用这个打印的字幕，用工具生成中文的str字幕。从而制作中英文双语卡片。
+
+![dX719tRHQU](/images/posts/dX719tRHQU-1675889632724-1.png)
+
+​                                                                       (↑双语设置↑)
+
+![vJyfcBxca8](/images/posts/vJyfcBxca8-1675889632725-2.png)
+
+​                                                                             (↑导出字幕↑)
+
+![chrome_JRG5W5ERzj](/images/posts/chrome_JRG5W5ERzj-1675889632725-3.png)
+
+​                  （↑如果字幕设置被还原，这里会出现"小扳手"图标，点击之后，会自动恢复到之前的设置↑）
+
+打开的字幕页面，会以`about:blank`地址展示，排版相当工整，体验真的非常棒。展开一个剧集的字幕，搜索和核对字幕都非常方便。由于字幕出自官方校准，所以准确性和质量都有保证。
+
+##### 2.3 提取NetFlix中英文字幕
+
+这种提取方式主要是开启Language Reactor插件，把中文英文双语字幕打开，其实提取到的是Language Reactor插件帮我们生成好的英文字幕和中文字幕(奈飞公司人工校对过的)，默认情况下如果你不开启Language Reactor插件双语字幕，是没办法通过技术手段拿到字幕文本的。技术手段获取教程：[https://www.youtube.com/watch?v=ZpejTczG8Ho&ab_channel=SP3TUT](https://www.youtube.com/watch?v=ZpejTczG8Ho&ab_channel=SP3TUT)
+
+借鉴它这个思路，并没有用它的python脚本,因为它这个脚本不是针对Language Reactor字幕的，需要自己用自己熟悉的编程语言写脚本搞定。
+
+![chrome_ukMXimAJlD](/images/posts/chrome_ukMXimAJlD-1675889632725-4.png)
+
+可以提取出来英文和中文两个文本，英文格式如下：
+
+![notepad_RZbyE1c9C8](/images/posts/notepad_RZbyE1c9C8-1675889632725-11.png)
+
+中文格式如下：
+
+![explorer_qYVrXgwtMj](/images/posts/explorer_qYVrXgwtMj-1675889632725-5.png)
+
+拿到这两个字幕之后，通过自己写脚本，进行转换即可。就可以得到en.srt和zh.srt的两个字幕，用来mvp2anki制卡。但是中文字幕和英文字幕的时间轴并不是完全一致的，会有落差，实际测试mvp2anki对此处理的效果非常好,基本够用了。en.srt，和zh.srt可以设置到potplayer里面挂载出来。英文在上，中文在下，那么就需要把英文设置为second subtitle.我使用的是potplayer英文界面。给potplayer添加第二字幕，参考：[https://quickfever.com/add-second-subtitle-potplayer-kmplayer-vlc/](https://quickfever.com/add-second-subtitle-potplayer-kmplayer-vlc/)，然后改变字幕的位置：[https://www.reddit.com/r/potplayer/comments/seakd7/how_to_change_2nd_subtitles_position/](https://www.reddit.com/r/potplayer/comments/seakd7/how_to_change_2nd_subtitles_position/)
+
+![chrome_tiMOygiOn3](/images/posts/chrome_tiMOygiOn3-1675889632725-7.png)
+
+![5Khw36sAZV](/images/posts/5Khw36sAZV-1675889632725-6.png)
+
+##### 2.4 PotPlayer同时挂载2个字幕
+
+每个剧集播放的时候，Potplayer主界面按下快捷键L，设置en.srt英文为second subtitle, 中文zh.srt设置为first subtitle，那么中文会显示在英文的下方。
+
+![PotPlayerMini64_Nz3P63VIuu](/images/posts/PotPlayerMini64_Nz3P63VIuu-1675889632725-8.png)
+
+##### 2.5 PotPlayer字幕位置调整
+
+调整主字幕的位置，按下快捷键F7，Control Panel找到Subtitle，Positon，Up ，Down调整主字幕上下左右位置。第一字幕完全置底，英文字幕大概78%的位置，不会影响欧陆屏幕取词。
+
+![PotPlayerMini64_iyjwNB2dD5](/images/posts/PotPlayerMini64_iyjwNB2dD5-1675889632725-9.png)
+
+![OVfBL6lGnX](/images/posts/OVfBL6lGnX-1675889632725-10.png)
+
+```shell
+forced&chinese default&chinese zhcc zh zh chinese
+```
+
+经过上面的设置之后，中文会被以默认的语言加载，英文会被以第二语言默认也会被加载，就不需要每次对新的剧集进行双语的显示设置了。
+
+##### **2.6书签设置**
 
 继续添加，’基本‘，’快捷键‘，选中’播放‘节点，’章节/书签‘点开，'添加书签'，设置**W**。
 
@@ -159,7 +219,7 @@ PotPlayer右侧这些组合在一起的小窗口，是可以拖出来的，点�
 
 ![chrome_s0QKQ3Z42h](/images/posts/chrome_s0QKQ3Z42h.png)
 
-###### 2.1 书签pbf设置
+##### 2.7 书签pbf设置
 
 需要单独设置为保存书签为pbf文件。
 
@@ -167,7 +227,7 @@ PotPlayer右侧这些组合在一起的小窗口，是可以拖出来的，点�
 
 ![PotPlayerMini64_MiYIUElIgn](/images/posts/PotPlayerMini64_MiYIUElIgn.png)
 
-###### **3.鼠标设置**
+##### **2.8鼠标设置**
 
 找到’鼠标‘这个节点，拉到最下方，’滚轮前推‘，’鼠标后推‘。找到’滚轮前推‘，拉开它的下拉框，找到’自定义未定义指令‘。找到’字幕‘，’字幕样式‘，选中’字体+‘点击确定。
 
@@ -187,7 +247,7 @@ PotPlayer右侧这些组合在一起的小窗口，是可以拖出来的，点�
 
 截止到目前，所有快捷键设置完毕。
 
-##### 1.1.7 保持窗口大小不变
+##### 2.9 保持窗口大小不变
 
 potplayer每次在播放新的剧集的时候，都会根据视频实际的分辨率来自动调整窗口大小，导致我们好不容易调整好的playlist，播放窗口的位置都发生变化。为了不让potplayer自动调整窗口大小，我们需要进行如下设置：
 
