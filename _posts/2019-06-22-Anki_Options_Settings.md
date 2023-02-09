@@ -171,3 +171,13 @@ added:2 Meaning:_*
 ![UnNXZcVvX3](/images/posts/UnNXZcVvX3.png)
 
 这种处理方式，适合大批量的处理美剧卡片。很多时候我们批量添加的卡片是无法在一天之内编辑完善的，这个Defaul里面的卡都是新卡片，待完善待处理的。可以先放到Default这个里面等待处理。处理好了，我们通过搜索，把那些Default分类里面已经处理的卡片转移到其他分类里面。
+
+##### 7.2搜索某个分类下面的卡片
+
+比如：搜索Default分类下面，最近2天新添加的，Meaning字段为空的。这些卡片。
+
+```shel
+deck:Default added:2 Meaning:
+```
+
+![4uFNu9XgIg](/images/posts/4uFNu9XgIg.png)
