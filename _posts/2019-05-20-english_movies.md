@@ -227,7 +227,15 @@ forced&chinese default&chinese zhcc zh zh chinese
 
 ![PotPlayerMini64_MiYIUElIgn](/images/posts/PotPlayerMini64_MiYIUElIgn.png)
 
-##### **2.8鼠标设置**
+##### 2.8 书签编辑
+
+使用快捷键 H，进入到下面这个界面，然后选择 Edit Bookmarks编辑书签。
+
+![chrome_McGHlRJCdq](/images/posts/chrome_McGHlRJCdq.png)
+
+
+
+##### **2.9鼠标设置**
 
 找到’鼠标‘这个节点，拉到最下方，’滚轮前推‘，’鼠标后推‘。找到’滚轮前推‘，拉开它的下拉框，找到’自定义未定义指令‘。找到’字幕‘，’字幕样式‘，选中’字体+‘点击确定。
 
@@ -247,7 +255,7 @@ forced&chinese default&chinese zhcc zh zh chinese
 
 截止到目前，所有快捷键设置完毕。
 
-##### 2.9 保持窗口大小不变
+##### 2.10 保持窗口大小不变
 
 potplayer每次在播放新的剧集的时候，都会根据视频实际的分辨率来自动调整窗口大小，导致我们好不容易调整好的playlist，播放窗口的位置都发生变化。为了不让potplayer自动调整窗口大小，我们需要进行如下设置：
 
