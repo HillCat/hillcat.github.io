@@ -158,3 +158,12 @@ added:2 Meaning:_*
 
 ![anki_1hmQYDcYDx](/images/posts/anki_1hmQYDcYDx.png)
 
+##### **7.1使用场景：**
+
+比如，批量制卡的时候，一次性录入了400张卡片，我需要慢慢消化吸收，慢慢编辑，这个时候会用到搜索语法；刚开始批量录入的卡片，比如：Meaning这个字段是没有做任何笔记的，是空白的。我们要编辑这些空白的笔记卡片，可以把他们放到一个默认的Deck分类里面，也可以通过搜索空白字段的方式筛选出来它们。
+
+在我们编辑和完善了Meaning这个字段之后，我们需要把这些已经编辑好的卡片弄到其他分类里面去，方便我们开始复习。把没有编辑好的放到一个分类，把已经编辑好的放到另外一个分类里面开始复习。这个时候就会要求你比较熟悉这些搜索的语法。把卡片放到其他的分类里面，全选这批卡片，Change Deck--> Move To Deck即可，如下：
+
+![YHdzpnTQcU](/images/posts/YHdzpnTQcU.png)
+
+![anki_cpKW8biRua](/images/posts/anki_cpKW8biRua.png)
