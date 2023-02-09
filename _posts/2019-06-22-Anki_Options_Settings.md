@@ -164,7 +164,7 @@ added:2 Meaning:_*
 
 ![YHdzpnTQcU](/images/posts/YHdzpnTQcU.png)
 
-![anki_cpKW8biRua](/images/posts/anki_cpKW8biRua.png)
+![hH4BgVT5gR](/images/posts/hH4BgVT5gR.png)
 
 经常在批量制卡的时候，我会把新添加的卡片放到Defaul分类里面，这个分类下面存放的都是待处理的卡片。处理好的卡片往Movie分类里面存放。如下：
 
