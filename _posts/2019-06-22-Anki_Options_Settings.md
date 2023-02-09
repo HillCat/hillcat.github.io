@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anki基础设置和操纵(3)
+title: Anki基础设置和操作(3)
 categories: English
 description: 
 keywords: 记单词
