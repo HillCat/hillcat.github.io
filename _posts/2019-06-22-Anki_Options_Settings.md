@@ -46,33 +46,13 @@ Anki参数详细讲解的，第一个视频是Matt的视频，地址是：[https
 
 ### 我的anki参数设置
 
-使用anki快有接近3年的经验。其实配置参数尝试过很多很多种类。下面这些配置方法都是以前过时了的一些配置方法。如果你是使用了anki超过半年的人，建议还是参考这篇终极帖子的方法来配置你的anki参数：帖子：[https://refold.la/roadmap/stage-1/a/anki-setup](https://refold.la/roadmap/stage-1/a/anki-setup)  插件： [https://ankiweb.net/shared/info/819023663](https://ankiweb.net/shared/info/819023663)   这篇文章配合这个插件，其实都是Matt大神推荐的配置方法，而且这个refold网站也是Matt大神的。我anki里面的卡片接近1w张。改为这个配置之后，感觉还是比较科学的，所以推荐大家用帖子里面的这套配置。而不是下面我贴图的配置。
+######![anki_Eyp9ONnD8V](/images/posts/anki_Eyp9ONnD8V.png)           ##################
 
-一种更加优化的参数设置方法，就是使用FSRS4Anki Helper这个插件，这个插件是用人工智能机器学习的方法，来把我们的以前学过的词牌卡，产生的数据，来重新生成更加科学合理的复习数据。这种通过我们自己以前复习的时候，再进行优化的这种参数，是anki 5.1.55版本推出的新功能。高于这个版本的windows anki都可以使用这个功能，最好是使用QT6版本的anki。具体的用法，可以去B站搜索关键词"FSRS4Anki",有相关教程。
+![anki_6xG2XY6FJa](/images/posts/anki_6xG2XY6FJa.png)
 
-####################      分割线  #########    以下图片配置方法作废           ##################
-
-
-
-<img src="https://cs-cn.top/images/posts/setting16938.png"/>
-
-<img src="https://cs-cn.top/images/posts/max-interval83.png"/>
-
-备注：上图这里的Maximum interval设置60天。对于已经熟悉的单词，可以每隔60天复习一次。控制最大的间隔，可以使得复习间隔变为“等距间隔重复“。比如，像初中时候就已经熟悉的单词，一般会8个月复习一次。那个
-
-<img src="https://cs-cn.top/images/posts/settings821.png"/>
-
-<img src="https://cs-cn.top/images/posts/settings7698.png"/>
+![anki_EqJkyO3es4](/images/posts/anki_EqJkyO3es4.png)
 
 
-
-####################      分割线 #########    以上图片配置方法作废           ##################
-
-
-
-如果觉得一个单词太简单，不需要再复习了，那么直接suspend note按钮，挂起那个单词即可，如下图那样(安卓端也是有这个功能，PC端也有)。比如，可以给一个单词打上Flag 4(Blue)标签。 旗子记号还有红色，橘色，绿色，紫色，宝石绿 ，7种颜色。而且被标记颜色的单词，是可以轻松筛选出来的。
-
-<img src="https://cs-cn.top/images/posts/suspend_note048.png"/>
 
 ### 1.Anki统计图的查看
 
