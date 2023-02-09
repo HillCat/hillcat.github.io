@@ -6,29 +6,11 @@ description:
 keywords: 记单词
 typora-root-url: ../
 ---
-Anki所有的参数信息，本篇只作为一个指引，如果不方便外网的，尽量创造条件外网。
+Anki所有的参数信息，比较多也比较复杂，如果要详细了解的，可以看看下面推荐的youtube视频介绍。参数非常重要，如果设置不当会导致很多严重的问题。
 
-首先chorme浏览器开启 [Language Learning with Youtube](https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb)插件，并且把机翻翻译CC按钮开关打开，字幕调节到英文，具体设置如下：
-
- **首先，安装插件**： [Language Learning with Youtube](https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb)
-
-<img src="https://cs-cn.top/images/posts/anki_options0547.png"/>
-
- **其次，设置插件**：打开一个油管视频，就可以看到视频上面有个OFF的按钮，点击它打开为ON状态，视频旁边如果支持机器翻译会有个CC按钮，开启，并设置英文机器翻译。如果有人工翻译就用人工翻译。
-
-<img src="https://cs-cn.top/images/posts/on_button28.png"/>
-
-<img src="https://cs-cn.top/images/posts/cc088.png"/>
-
-
-
-<img src="https://cs-cn.top/images/posts/learn_youtube_settings0952.gif"/>
-
-
+### Anki的参数原理
 
 Anki参数详细讲解的，第一个视频是Matt的视频，地址是：[https://youtu.be/lz60qTP2Gx0](https://youtu.be/lz60qTP2Gx0)。
-
-
 
 第二个讲解Anki参数的视频:[https://youtu.be/1XaJjbCSXT0](https://youtu.be/1XaJjbCSXT0)，这个可能讲解得更好。
 
@@ -40,11 +22,7 @@ Anki参数详细讲解的，第一个视频是Matt的视频，地址是：[https
 
 简而言之，Anki在复习单词的时候，以答题的形式选择“Again，Hard，Good，Easy”这四个按钮，影响到的是每个单词的复习间隔。4个按钮的权重是不一样的，当点击不同的按钮的时候，对单词复习间隔的**百分比加成**是不同的。越是不熟悉的单词，间隔周期越短，越熟悉的单词，间隔周期越长。而且Anki设置中的有些参数还是互相制衡的，不是所有参数都可一直往上调的，达到临界值就调不动了。对于不熟悉的单词不建议点击 Again而建议点击Hard，因为点击Again次数太多会导致Ease Hell情况的发生，如果发生了Ease Hell问题，解决办法请参考这篇文章：[https://cs-cn.top/2019/08/12/Anki_Interval_Modifier/](https://cs-cn.top/2019/08/12/Anki_Interval_Modifier/)
 
-
-
-
-
-### 我的anki参数设置
+### 0.我的anki参数设置
 
 ######![anki_Eyp9ONnD8V](/images/posts/anki_Eyp9ONnD8V.png)           ##################
 
