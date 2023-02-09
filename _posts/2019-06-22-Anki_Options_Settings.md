@@ -24,6 +24,8 @@ Anki参数详细讲解的，第一个视频是Matt的视频，地址是：[https
 
 ### 0.我的anki参数设置
 
+这个参数设施配合FSRS4Anki那个插件优化，是比较顺手也比较科学的一个参数。
+
 ![anki_Eyp9ONnD8V](/images/posts/anki_Eyp9ONnD8V.png)
 
 ![anki_6xG2XY6FJa](/images/posts/anki_6xG2XY6FJa.png)
