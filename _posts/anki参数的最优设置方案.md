@@ -25,7 +25,7 @@ typora-root-url: ../
 
 #### 2.2 准备工作
 
-插件要正常使用，需要粘贴插件配套的js脚本到如下位置才能生效：
+插件要正常使用，需要粘贴插件配套的js脚本到如下位置才能生效，同时下面的参数也请参考我的设置参数。
 
 ![anki_rH3PioEUnz](/images/posts/anki_rH3PioEUnz.png)
 
