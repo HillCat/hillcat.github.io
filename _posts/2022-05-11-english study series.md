@@ -187,7 +187,37 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
 本地电脑安装成功jupyter Notes之后生成参数的速度就会比较快。可以每隔一段时间导出所有anki单词卡数据生成和优化一下参数。调整下我们的anki数据。
 
-### 3. 脚本版本的区别
+###3.解决手机端FSRS4Anki问题
+
+根据anki论坛的帖子讨论，目前FSRS4Anki是不支持移动端手机anki的。但是我们大部分时间都是在手机上面复习卡片。在手机上还是依然使用的的anki原生的复习算法。那么怎么让手机上复习过的卡片也启用FSRS4Anki功能呢？思路就是把手机上复习过的卡片，在PC电脑上面用FSRS4Anki Helper插件刷新更新一下。
+
+我们在PC端创建Filter Deck，通过`rated:2 -is:learn`筛选出最近2天的学习过的卡片，然后在这个deck的齿轮位置，点击Reschedule cards in deck即可，即便我们这2天在手机上复习过的卡片，也会被FSRS算法重置，这个重置并不是“归零”，而是把手机上使用的效果弄成和PC上使用FSRS效果一样，虽然你是在手机上复习了，导致了手机上的算法没用采用自定义复习算法，但是只要在PC端这么去刷新下，这2天在手机上复习过的卡片，就会等价于是在PC上采用了FSRS算法一样的效果了。
+
+![Typora_6dvgyVXfIz](/images/posts/Typora_6dvgyVXfIz.png)
+
+**官方文档search这块的语法说明**，rated:1 就是今天回答过的卡片；rated:1:2 就是今天回答过的Hard的卡片；rated:7:1 就是这个星期回答过的Again的卡片，rated:31:4 就是这个月回答过的Easy的卡片。
+
+![chrome_M2MJr7SjtA](/images/posts/chrome_M2MJr7SjtA.png)
+
+
+
+参考：
+
+[https://docs.ankiweb.net/searching.html](https://docs.ankiweb.net/searching.html) anki 搜索语法
+
+[https://www.reddit.com/r/Anki/comments/yhmddm/fsrs4anki_helper_question/](https://www.reddit.com/r/Anki/comments/yhmddm/fsrs4anki_helper_question/) 论坛帖子
+
+原帖如下：
+
+Helper can reschedule all cards, but you can select one deck to be rescheduled - click on the "gears" icon next to the deck name and choose "Reschedule cards in this deck".
+
+FSRS4Anki scheduling works only on desktop, because it's using the custom scheduling feature, that is not available on the mobile. So cards scheduled on desktop by FSRS4Anki will appear in "proper" time on mobile. But after answering on mobile they will be scheduled by standard Anki algorithm.
+
+What I implemented, as I am sometimes doing more reviews on the mobile than on desktop: I created filtered deck with the following search criteria: `rated:2 -is:learn`. It selects all cards rated today and yesterday, that are in review state. Then I rebuild this filtered deck, click "Reschedule cards in this deck" and empty it. By doing that I have all cards scheduled according to the FSRS4Anki, but I am not rescheduling all cards, only the ones answered recently.
+
+
+
+### 4. 脚本版本的区别
 
 如果Anki版本是QT6则使用`fsrs4anki_scheduler.js`， 如果是QT5则使用`fsrs4anki_scheduler_qt5.js`。
 
@@ -197,11 +227,11 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
 
 
-### 4.我的脚本参数
+### 5.我的脚本参数
 
 我的脚本参数，QT6版本的参数如下：
 
-#### 4.1 QT6参数
+#### 5.1 QT6参数
 
 ```javascript
 // FSRS4Anki v3.9.6 Scheduler Qt6
@@ -490,7 +520,7 @@ function set_fuzz_factor() {
 }
 ```
 
-#### 4.2 QT5参数
+#### 5.2 QT5参数
 
 ```java
 // FSRS4Anki v3.9.6 Scheduler Qt5
