@@ -7,7 +7,7 @@ keywords: English
 typora-root-url: ../
 ---
 
-`FSRS4Anki Helper`插件的地址：[https://ankiweb.net/shared/info/759844606](https://ankiweb.net/shared/info/759844606)，安装码是：759844606。插件需要anki 2.1.55版本以上。该插件**仅能支持电脑端Anki**。更多细节，参考：[https://zhuanlan.zhihu.com/p/591833332](https://zhuanlan.zhihu.com/p/591833332)。该插件作者，曾经用anki备考，提升高考总分200多分。进入大学之后，选择了计算机方向，研究生阶段发表论文，研究领域是：计算机与人类记忆研究，专攻复习算法。他这套调度算法要开启Anki的V3调度功能，能够帮助优化单词卡片复习周期，效能提升13%左右。
+`FSRS4Anki Helper`插件的地址：[https://ankiweb.net/shared/info/759844606](https://ankiweb.net/shared/info/759844606)，安装码是：759844606。插件需要anki 2.1.55版本以上。该插件**仅能支持电脑端Anki**。但是手机端其实也可以折中的办法得到支持，也是比较简单的。这个算法的好处也可以延申到我们平时手机复习上面来。文本第3小节有讲到手机端参数如何在PC端更新。
 
 ### 1.FSRS4Anki Helper
 
