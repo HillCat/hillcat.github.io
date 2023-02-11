@@ -23,7 +23,7 @@ typora-root-url: ../
 
 ![anki_EveEKoynm3](/images/posts/anki_EveEKoynm3.png)
 
-#### 2.2 准备工作
+#### 2.2 我的参数设置
 
 插件要正常使用，需要粘贴插件配套的js脚本到如下位置才能生效，同时下面的参数也请参考我的设置参数。
 
