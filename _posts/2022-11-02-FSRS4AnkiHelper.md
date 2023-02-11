@@ -9,21 +9,13 @@ typora-root-url: ../
 
 `FSRS4Anki Helper`插件的地址：[https://ankiweb.net/shared/info/759844606](https://ankiweb.net/shared/info/759844606)，安装码是：759844606。插件需要anki 2.1.55版本以上。该插件**仅能支持电脑端Anki**。这个插件的好处主要是3个：1.把留存率超过90%的卡片suspend处理；2，把留存率还没有达到90%，但是已经被你拖延的卡片的复习进度提前。3.把手机端复习过的卡片，复习间隔统一刷新为FSRS算法来更新，这样子虽然FSRS自定义算法没有支持手机，但是可以在PC上追加一层FSRS印记，再同步。等于说是让这套算法间接在手机原生anki算法的基础上叠加一层。效果跟你直接在PC上面复习卡片的效果是一样的。
 
-### 1.FSRS4Anki Helper
-
-安装插件之后，插件源码中会有2个js脚本，我们需要通过google的col lab在线训练数据，之后填写到js脚本里面，把脚本粘贴到我们的Anki电脑端。插件的地址：[https://ankiweb.net/shared/info/759844606](https://ankiweb.net/shared/info/759844606)，这个插件的安装码是：759844606。插件需要anki 2.1.55版本以上。仅支持电脑端Anki。使用方法请看插件源码的Github页面说明。
-
-### 2.插件安装和使用
-
-插件支持Anki2.1.55版本 及以上版本。去官方下载最新版本的Anki即可。
-
-#### 2.1 安装插件
+#### 1.1 安装插件
 
 然后是安装插件，安装码是：759844606。直接到anki的add-ons菜单，`Get Add-ons...`里面填入这个Code码安装这个插件即可。安装完毕，就能看到这个插件了:
 
 ![anki_EveEKoynm3](/images/posts/anki_EveEKoynm3.png)
 
-#### 2.2 我的参数设置
+#### 1.2 我的参数设置
 
 插件要正常使用，需要粘贴插件配套的js脚本到如下位置才能生效，同时下面的参数也请参考我的设置参数。
 
@@ -37,7 +29,7 @@ typora-root-url: ../
 
 
 
-#### 2.3 配置插件js参数
+#### 1.3 配置插件js参数
 
 根据这个Github网址[https://github.com/open-spaced-repetition/fsrs4anki](https://github.com/open-spaced-repetition/fsrs4anki)，我们下载这个Github项目的压缩包，如下图，点击Code图标，Download Zip，把它这个插件项目的代码下载到我们自己windows电脑上。
 
@@ -51,7 +43,7 @@ typora-root-url: ../
 
 
 
-#### 2.4 导出我们所有Anki卡片
+#### 1.4 导出我们所有Anki卡片
 
 回到anki界面，Export导出，这些卡片数据最终会被用来进行机器学习，生成针对我们这些卡片优化后的参数。
 
@@ -73,7 +65,7 @@ typora-root-url: ../
 
 我们用线上的方式生成参数，下一步操作，会要把这个导出的卡片数据上传到网上。
 
-#### 2.5 在线生成参数
+#### 1.5 在线生成参数
 
 回到这个插件项目的Github地址，Github网址[https://github.com/open-spaced-repetition/fsrs4anki](https://github.com/open-spaced-repetition/fsrs4anki)
 
@@ -139,7 +131,7 @@ typora-root-url: ../
 
 ![Typora_clhUMOkCkP](/images/posts/Typora_clhUMOkCkP.png)
 
-#### 2.6 得到结果
+#### 1.6 得到结果
 
 最终，我们拖动浏览滚动条，拿到结果。
 
@@ -153,7 +145,7 @@ var w = [2.2387, 2.3408, 5.294, -0.2247, -1.2567, 0.0472, 1.6229, -0.1875, 1.023
 
 
 
-#### 2.7 替换变量w参数
+#### 1.7 替换变量w参数
 
 js脚本中，定义的这个w参数我们要去替换成我们自己的。找到文件`fsrs4anki_scheduler.js`，使用编辑器打开，
 
@@ -171,7 +163,7 @@ js脚本中，定义的这个w参数我们要去替换成我们自己的。找�
 
 
 
-#### 2.8 本地生成参数
+#### 1.8 本地生成参数
 
 首先是安装Anaconda,网站下载：
 https://www.anaconda.com/products/distribution/start-coding-immediately
@@ -191,7 +183,7 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
 本地电脑安装成功jupyter Notes之后生成参数的速度就会比较快。可以每隔一段时间导出所有anki单词卡数据生成和优化一下参数。调整下我们的anki数据。
 
-###3.解决手机端FSRS4Anki问题
+###2.解决手机端FSRS4Anki问题
 
 根据anki论坛的帖子讨论，目前FSRS4Anki是不支持移动端手机anki的。但是我们大部分时间都是在手机上面复习卡片。在手机上还是依然使用的的anki原生的复习算法。那么怎么让手机上复习过的卡片也启用FSRS4Anki功能呢？思路就是把手机上复习过的卡片，在PC电脑上面用FSRS4Anki Helper插件刷新更新一下。
 
@@ -221,7 +213,7 @@ What I implemented, as I am sometimes doing more reviews on the mobile than on d
 
 
 
-### 4. 脚本版本的区别
+### 3. 脚本版本的区别
 
 如果Anki版本是QT6则使用`fsrs4anki_scheduler.js`， 如果是QT5则使用`fsrs4anki_scheduler_qt5.js`。
 
@@ -231,11 +223,11 @@ What I implemented, as I am sometimes doing more reviews on the mobile than on d
 
 
 
-### 5.我的脚本参数
+### 4.我的脚本参数
 
 我的脚本参数，QT6版本的参数如下：
 
-#### 5.1 QT6参数
+#### 4.1 QT6参数
 
 ```javascript
 // FSRS4Anki v3.9.6 Scheduler Qt6
@@ -524,7 +516,7 @@ function set_fuzz_factor() {
 }
 ```
 
-#### 5.2 QT5参数
+#### 4.2 QT5参数
 
 ```java
 // FSRS4Anki v3.9.6 Scheduler Qt5
