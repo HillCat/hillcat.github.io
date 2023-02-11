@@ -7,7 +7,7 @@ keywords: English
 typora-root-url: ../
 ---
 
-`FSRS4Anki Helper`插件的地址：[https://ankiweb.net/shared/info/759844606](https://ankiweb.net/shared/info/759844606)，安装码是：759844606。插件需要anki 2.1.55版本以上。该插件**仅能支持电脑端Anki**。但是手机端其实也可以折中的办法得到支持，也是比较简单的。这个算法的好处也可以延申到我们平时手机复习上面来。文本第3小节有讲到手机端参数如何在PC端更新。
+`FSRS4Anki Helper`插件的地址：[https://ankiweb.net/shared/info/759844606](https://ankiweb.net/shared/info/759844606)，安装码是：759844606。插件需要anki 2.1.55版本以上。该插件**仅能支持电脑端Anki**。这个插件的好处主要是3个：1.把留存率超过90%的卡片suspend处理；2，把留存率还没有达到90%，但是已经被你拖延的卡片的复习进度提前。3.把手机端复习过的卡片，复习间隔统一刷新为FSRS算法来更新，这样子虽然FSRS自定义算法没有支持手机，但是可以在PC上进行更新同步。等于说是让这套算法间接支持了手机端。只是每天你需要在PC端刷新一下再同步到手机。插件的js中设置的卡片留存度是90%(默认值)。
 
 ### 1.FSRS4Anki Helper
 
