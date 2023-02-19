@@ -1,27 +1,29 @@
 ---
 layout: post
-title: FSRS4Anki Helper插件(14)
+title: FSRS算法优化Anki Schedule(14)
 categories: English
 description: 英文自学
 keywords: English
 typora-root-url: ../
 ---
 
-`FSRS4Anki Helper`插件的地址：[https://ankiweb.net/shared/info/759844606](https://ankiweb.net/shared/info/759844606)，安装码是：759844606。插件需要anki 2.1.55版本以上。这个插件最早是支持PC端，现在也支持苹果手机端了(IOS端Anki2.0.88更新了FSRS支持)。这个插件的好处主要是3个：1.把留存率超过90%的卡片suspend处理；2，把留存率还没有达到90%，但是已经被你拖延的卡片的复习进度提前。3.把手机端复习过的卡片，复习间隔统一刷新为FSRS算法来更新，这样子虽然FSRS自定义算法没有支持手机，但是可以在PC上追加一层FSRS印记，再同步。等于说是让这套算法间接在手机原生anki算法的基础上叠加一层。效果跟你直接在PC上面复习卡片的效果是一样的。
+FSRS算法现在也支持IOS苹果手机端了(IOS端Anki2.0.88更新了FSRS支持)。不得不说是一个好消息。特别对于备考雅思的人来说有如虎添翼了。
 
 #### 1.1 安装插件
 
-然后是安装插件，安装码是：759844606。直接到anki的add-ons菜单，`Get Add-ons...`里面填入这个Code码安装这个插件即可。安装完毕，就能看到这个插件了:
+这个FSRS功能对应有个插件FSRS4Anki Helper，这个插件不是必须的，也可以不装。但是最好是推荐安装，它的安装码是：759844606。直接到anki的add-ons菜单，`Get Add-ons...`里面填入这个Code码安装这个插件即可。安装完毕，就能看到这个插件了:
 
 ![anki_EveEKoynm3](/images/posts/anki_EveEKoynm3.png)
 
 #### 1.2 我的参数设置
 
-插件要正常使用，需要粘贴插件配套的js脚本到如下位置才能生效，同时下面的参数也请参考我的设置参数。
+为何让FSRS算法达到最好的效果，基础参数最好是进行一些设置：
 
 ![anki_ldL4yBuD1C](/images/posts/anki_ldL4yBuD1C.png)
 
 ![anki_GN2F7ZOGYP](/images/posts/anki_GN2F7ZOGYP.png)
+
+下面这个Custom scheduling里面的参数是需要通过机器学习训练的，它本质上是一个JavaScript算法，同时支持PC和手机IOS苹果端，安卓端不知道什么时候支持，因为安卓ankidroid并不是官方维护的，官方维护的anki版本只有PC端和IOS苹果端。
 
 ![anki_rH3PioEUnz](/images/posts/anki_rH3PioEUnz.png)
 
