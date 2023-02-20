@@ -232,13 +232,14 @@ What I implemented, as I am sometimes doing more reviews on the mobile than on d
 #### 4.1 QT6参数
 
 ```javascript
-// FSRS4Anki v3.9.6 Scheduler Qt6
+// FSRS4Anki v3.13.4 Scheduler Qt6
 set_version();
 // The latest version will be released on https://github.com/open-spaced-repetition/fsrs4anki
 
 // Default parameters of FSRS4Anki for global
-var w = [2.2387, 2.3408, 5.294, -0.2247, -1.2567, 0.0472, 1.6229, -0.1875, 1.0231, 2.08, -0.1119, 0.6164, 1.8446];
+var w = [1.7925, 2.2278, 5.2438, -0.293, -1.2086, 0.0808, 1.6418, -0.1911, 1.044, 2.3282, -0.0896, 0.6649, 1.831];
 // The above parameters can be optimized via FSRS4Anki optimizer.
+// For details about the parameters, please see: https://github.com/open-spaced-repetition/fsrs4anki/wiki/Free-Spaced-Repetition-Scheduler
 
 // User's custom parameters for global
 let requestRetention = 0.9; // recommended setting: 0.8 ~ 0.9
@@ -246,13 +247,29 @@ let maximumInterval = 36500;
 let easyBonus = 1.3;
 let hardInterval = 1.2;
 // FSRS only modifies the long-term scheduling. So (re)learning steps in deck options work as usual.
-// I recommend not to set steps longer than one day.
+// I recommend setting steps shorter than 1 day.
 
 // "Fuzz" is a small random delay applied to new intervals to prevent cards from
 // sticking together and always coming up for review on the same day
 const enable_fuzz = true;
 
+// FSRS supports displaying memory states of cards.
+// Enable it for debugging if you encounter something wrong.
+const display_memory_state = false;
+
 debugger;
+
+// display if FSRS is enabled
+if (display_memory_state) {
+    const prev = document.getElementById('FSRS_status')
+    if (prev) {prev.remove();}
+    var fsrs_status = document.createElement('span');
+    fsrs_status.innerHTML = "<br>FSRS enabled";
+    fsrs_status.id = "FSRS_status";
+    fsrs_status.style.cssText = "font-size:12px;opacity:0.5;font-family:monospace;text-align:left;line-height:1em;";
+    document.body.appendChild(fsrs_status);
+    document.getElementById("qa").style.cssText += "min-height:50vh;";
+}
 
 // get the name of the card's deck
 // need to add <div id=deck deck_name="{{Deck}}"></div> to your card's front template's first line
@@ -260,7 +277,7 @@ if (document.getElementById("deck") !== null) {
     const deck_name = document.getElementById("deck").getAttribute("deck_name");
     // parameters for a specific deck
     if (deck_name == "ALL::Learning::English::Reading") {
-        var w = [2.2387, 2.3408, 5.294, -0.2247, -1.2567, 0.0472, 1.6229, -0.1875, 1.0231, 2.08, -0.1119, 0.6164, 1.8446];
+        var w = [1.7925, 2.2278, 5.2438, -0.293, -1.2086, 0.0808, 1.6418, -0.1911, 1.044, 2.3282, -0.0896, 0.6649, 1.831];
         // User's custom parameters for the specific deck
         requestRetention = 0.9;
         maximumInterval = 36500;
@@ -268,12 +285,25 @@ if (document.getElementById("deck") !== null) {
         hardInterval = 1.2;
     // parameters for a deck's all sub-decks
     } else if (deck_name.startsWith("ALL::Archive")) {
-        var w = [2.2387, 2.3408, 5.294, -0.2247, -1.2567, 0.0472, 1.6229, -0.1875, 1.0231, 2.08, -0.1119, 0.6164, 1.8446];
+       var w = [1.7925, 2.2278, 5.2438, -0.293, -1.2086, 0.0808, 1.6418, -0.1911, 1.044, 2.3282, -0.0896, 0.6649, 1.831];
         // User's custom parameters for sub-decks
         requestRetention = 0.9;
         maximumInterval = 36500;
         easyBonus = 1.3;
         hardInterval = 1.2;
+    }
+    // To turn off FSRS in specific decks, fill them into the skip_decks list below.
+    // Please don't remove it even if you don't need it.
+    const skip_decks = ["ALL::Learning::ML::NNDL", "ALL::Learning::English"];
+    for (const i of skip_decks) {
+        if (deck_name.startsWith(i)) {
+            fsrs_status.innerHTML = "<br>FSRS disabled";
+            return ;
+        }
+    }
+
+    if(display_memory_state) {
+        fsrs_status.innerHTML += "<br>Deck name: " + deck_name;
     }
 }
 
@@ -324,6 +354,11 @@ if (is_new()) {
     const last_d = customData.again.d;
     const last_s = customData.again.s;
     const retrievability = Math.exp(Math.log(0.9) * interval / last_s);
+
+    if (display_memory_state) {
+        fsrs_status.innerHTML += "<br>D: " + last_d + "<br>S: " + last_s + "<br>R: " + (retrievability * 100).toFixed(2) + "%";
+    }
+
     const lapses = states.again.normal?.relearning.review.lapses ? states.again.normal.relearning.review.lapses : states.again.filtered.rescheduling.originalState.relearning.review.lapses;
     customData.again.d = next_difficulty(last_d, "again");
     customData.again.s = next_forget_stability(customData.again.d, last_s, retrievability);
@@ -479,7 +514,7 @@ function is_empty() {
 }
 
 function set_version() {
-    const version = "3.9.6";
+    const version = "3.13.4";
     customData.again.v = version;
     customData.hard.v = version;
     customData.good.v = version;
@@ -516,6 +551,7 @@ function set_fuzz_factor() {
     customData.easy.seed = (seed + 4) % 10000;
     return fuzz_factor;
 }
+
 ```
 
 #### 4.2 QT5参数
