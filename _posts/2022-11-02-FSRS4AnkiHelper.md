@@ -1,13 +1,13 @@
 ---
 layout: post
-title: FSRS算法优化Anki Schedule(14)
+title: FSRS算法优化Anki Schedule(15)
 categories: English
 description: 英文自学
 keywords: English
 typora-root-url: ../
 ---
 
-FSRS算法现在也支持IOS苹果手机端了(IOS端Anki2.0.88更新了FSRS支持)。不得不说是一个好消息。特别对于备考雅思的人来说有如虎添翼了。
+FSRS算法现在也支持IOS苹果手机端了(IOS端Anki2.0.88更新了FSRS支持)。不得不说是一个好消息。特别对于备考雅思的人来说，简直是如虎添翼了。
 
 #### 1.1 安装插件
 
