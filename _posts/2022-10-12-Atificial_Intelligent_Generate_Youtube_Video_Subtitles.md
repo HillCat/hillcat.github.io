@@ -1,15 +1,13 @@
 ---
 layout: post
-title: OpenAI生成youtube字幕(12)
+title: OpenAI帮助学习英语(12)
 categories: English
 description: 英文自学
 keywords: English
 typora-root-url: ../
 ---
 
-这个AI生成youtube英文字幕是基于OpenAi公司的Whisper库。OpenAI公司的Whisper库更新很快，但是yt-whisper脚本的更新相对滞后，yt-whisper官方的setup.py执行的时候由于依赖包的名字还是whisper，而官方库改名为openai-whisper了，所以需要修改下这个名字。fork并修改脚本之后，使用自己github的地址安装即可解决yt-whisper装不上去的问题。
-
-Whisper这个AI库生成的youtube字幕非常精准，可以针对任何youtube的视频，自动生成字幕。这样就省得我们去手工下载youtube的机器字幕了。唯一缺点是压缩视频都是利用的ffmpeg这个中间件，特别耗CPU资源，对于字幕的生成耗时比较久，最好是 i7 CPU左右比较好，配置低真的会很慢。当然，最好是自己能够写脚本**批量挂机执行**也行。
+OpenAi公司的ChartGPT都无人不知无人不晓，但是它旗下还有个库，叫做Whisper。这个AI库生成的youtube字幕非常精准，对于自学英语的人可能没有注意到这个库，它可以针对任何youtube的视频，自动生成字幕，我把它改造成可以针对于任何离线视频，不管是中文的，还是法文的，英文的，都可以生成字幕，只是生成的时候有点废CPU和显卡，毕竟这个东西运行的是AI计算，但是生成出来的字幕出奇的精准。这样就省得我们去手工下载youtube的机器字幕了。唯一缺点是压缩视频都是利用的ffmpeg这个中间件，特别耗CPU资源，对于字幕的生成耗时比较久，最好是 i7 CPU左右比较好，配置低的电脑真的会很慢。不过还好，我现在主要是用来做精听训练。当然，最好是自己能够写脚本**批量挂机执行**也行。
 
 ## fork并修改脚本
 
