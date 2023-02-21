@@ -9,6 +9,10 @@ typora-root-url: ../
 
 为了用理论指导实践，最近在搜索一些英文理论方面文献的时候，发现了某个二语习得可理解性输入假说的一篇原文，翻译和摘抄部分段落如下：
 
+论文标题：《The Priority of Listening Comprehension over Speaking in the Language Acquisition Process》 作者：Fang Xu ，Foreign Language College, Qingdao University of Science and Technology。是国内青岛外国语大学某个人发表的文章，再次引用的克拉申的“二语习得假说”。说白了，还是强调了听力能力提升要放在口语提升的前面，甚至说听力没有打开之前都不要进行太多的所谓口语训练。而且不要觉得进行口语训练会比进行听力训练有优越感。其实真正的听力训练的难度要比口语难很多，对心态更加考验耐心。
+
+![Acrobat_mq0oIaEyxR](/images/posts/Acrobat_mq0oIaEyxR.png)
+
 在实践中，听力理解具有极其重要的意义。在说一种语言时，学习者可以按照自己的节奏操纵相对狭窄的词汇范围来表达一个想法，但在听回答时，他或她不再控制词汇的选择。人们必须准备好吸收那些属于说话人主动词汇的单词，并且必须适应说话人的语速。为了应付简单的对话，一个人必须具备比口语更广泛的听力理解能力；当用外语与该语言的母语者对话时，情况尤其如此。在词汇和结构的范围方面，类似的能力可以用两个中心圆的区域来说明（见下图。此外，在动态意义上，随着学习者语言技能的提高，我们可以想象两个同心圆同时扩大，外圈（听力理解）总是比内圈（口语）的范围大得多。对内圈（口语）的强调会严重阻碍外圈（听力理解）的扩展。
 
 ![Acrobat_np2IPJkcQx](/images/posts/Acrobat_np2IPJkcQx.png)
