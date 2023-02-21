@@ -399,7 +399,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 20.`Review Heatmap` 1771074083
 
-21. `Advanced copy fields`1898445115
+21.`Advanced copy fields`1898445115
 
 这些插件的官方链接地址，需要去ankiweb addons页面去寻找，[https://ankiweb.net/shared/addons/2.1](https://ankiweb.net/shared/addons/2.1), Ctrl + F，搜索插件名即可，插件的使用方法基本都在插件页面有详细介绍。大部分插件从名字就能知道它的功能。
 
