@@ -399,6 +399,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 20.`Review Heatmap` 1771074083
 
+21. `Advanced copy fields`1898445115
+
 这些插件的官方链接地址，需要去ankiweb addons页面去寻找，[https://ankiweb.net/shared/addons/2.1](https://ankiweb.net/shared/addons/2.1), Ctrl + F，搜索插件名即可，插件的使用方法基本都在插件页面有详细介绍。大部分插件从名字就能知道它的功能。
 
 paste plain/unformatted text:这个插件主要场景是，当你从网络中复制粘贴文字的时候，那些文字带有特殊的颜色或者超级连接，你需要格式化这些文本的时候，可以使用这个插件，这个插件是有快捷键的，需要自己config配置修改快捷键，常规情况下anki格式化粘贴用到的快捷键是ctrl shift v,很多时候这个功能没用，使用这个插件之后，比如，设置快捷键为ctrl p， 那么当你复制了一个带有颜色标记的文本，粘贴到anki里面，或者是从anki卡片的字段之间挪动文本的时候，希望文本不要带有颜色，那么复制了文本之后使用ctrl p粘贴即可，粘贴到输入框中的文本就是不带颜色的，这种文本，英文里面叫做raw text。
