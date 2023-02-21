@@ -357,7 +357,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ### 10.Anki插件列表
 
-下面这里为了方便，我已经准备好了20个插件的Code，可以直接拿过去使用：
+下面这里为了方便，这是我安装的插件的Code，可以直接拿过去使用：
 
 1.`Adjust Sound Volume` 2123044452
 
