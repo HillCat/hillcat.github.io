@@ -7,9 +7,9 @@ keywords: English
 typora-root-url: ../
 ---
 
-为了用理论指导实践，最近在搜索一些英文理论方面文献的时候，发现了某个二语习得可理解性输入假说的一篇原文，翻译和摘抄部分段落如下：
+为了用理论指导实践，最近在搜索一些英文理论方面文献的时候，发现了某个二语习得可理解性输入假说的一篇论文，翻译和摘抄部分段落如下：
 
-论文标题：《The Priority of Listening Comprehension over Speaking in the Language Acquisition Process》 作者：Fang Xu ，Foreign Language College, Qingdao University of Science and Technology。是国内青岛外国语大学某个人发表的文章，再次引用的克拉申的“二语习得假说”。说白了，还是强调了听力能力提升要放在口语提升的前面，甚至说听力没有打开之前都不要进行太多的所谓口语训练。而且不要觉得进行口语训练会比进行听力训练有优越感。其实真正的听力训练的难度要比口语难很多，对心态更加考验耐心。
+论文标题：《The Priority of Listening Comprehension over Speaking in the Language Acquisition Process》 作者：Fang Xu ，Foreign Language College, Qingdao University of Science and Technology。从标题和署名来看，这篇文章是国内青岛外国语大学某个人发表的文章，再次引用的克拉申的“二语习得假说”。说白了，还是强调了听力能力提升要放在口语提升的前面，甚至说听力没有打开之前都不要进行太多的所谓口语训练。而且不要觉得进行口语训练会比进行听力训练有优越感。其实真正的听力训练的难度要比口语难很多，对心态更加考验耐心。
 
 ![Acrobat_mq0oIaEyxR](/images/posts/Acrobat_mq0oIaEyxR.png)
 
