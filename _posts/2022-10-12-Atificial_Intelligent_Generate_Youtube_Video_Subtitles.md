@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OpenAI帮助学习英语(12)
+title: Atificial_Intelligent_Help_Learn_English(12)
 categories: English
 description: 英文自学
 keywords: English
