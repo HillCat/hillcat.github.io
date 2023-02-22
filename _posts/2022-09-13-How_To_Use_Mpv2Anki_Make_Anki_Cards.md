@@ -77,7 +77,11 @@ choco install ffmpeg
 
 mpv2anki插件字段映射如下
 
-![G7muSzi8rG](/images/posts/G7muSzi8rG.png)
+![h5rbR8A0Xb](/images/posts/h5rbR8A0Xb.png)
+
+anki的模板里面最好是预留一些看似没用的字段，比如下面这个Webm_quote和Mp4_quote字段，实际上没有用到，但是为何还是需要放到这里，是因为anki的卡片在播放视频文件的时候，目前iphone端是不支持webm格式的，因为anki使用的是safari浏览器，这个是iphone端还没有开放支持webm导致的，所以必须要在iphone端支持视频播放只能使用mp4。当你导出卡片数据的时候，如果你的模板中没有[sound:something.mp4]这种格式的引用，那么这个something.mp4视频就不会被打包进入apkg包，我们经常会遇到，打包的时候我们的卡片里面的视频文件没有连同一起打包，导致别人引用你的卡片牌组的时候只看到了卡片里面的图片和文字，视频区域是空白的没有得到渲染，而且有时候还无端的会丢失视频，现实白色区域。这个时候就要检查是否是没有引用这个视频导致的。这里说的引用，是指的提供一个冗余的字段，里面写上[sound:something.mp4]或者[sound:something.webm]这种格式内容,那么something.mp4和something.webm在卡片数据打包为apkg包的时候就会连同一起被打包导出来。要不然anki是不认这2个视频文件的。
+
+![zlSOQCwg3Q](/images/posts/zlSOQCwg3Q.png)
 
 ##### 2. 视频无法播放问题解决
 
