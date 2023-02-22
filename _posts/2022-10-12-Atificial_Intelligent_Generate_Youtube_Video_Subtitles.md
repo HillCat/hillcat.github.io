@@ -296,8 +296,12 @@ PowerShell7它有自动补全和智能提示功能，而Powershell5.1是没有�
 
 ### 14.注意事项
 
-1.mkv格式的视频无法被anki的mpv2anki插件截取，推荐使用[HandBrake](https://handbrake.fr/)这个工具，转换视频为MP4格式。这是一个免费工具，比我们国产的“格式工厂”要好得多。而且性能和各种参数非常齐全。曾今用它来转换过《绝望主妇》这套视频，缩小体积，性能和专业度都是非常好的。
+1.mkv格式的视频无法被anki的mpv2anki插件截取，推荐使用[HandBrake](https://handbrake.fr/)这个工具，转换视频为MP4格式。这是一个免费开源工具，比我们国产的“格式工厂”要好得多。而且性能和各种参数非常齐全。用它来转换过《绝望主妇》这套视频，缩小体积非常好用的。这个播软件工具的核心源码是用C语言写的，界面用的C# WPF技术。
 
 ![HandBrake_v7cMLehYt6](/images/posts/HandBrake_v7cMLehYt6.png)
+
+
+
+![devenv_sfgRBdBVIb](/images/posts/devenv_sfgRBdBVIb.png)
 
 2.yt_whisper输出的字幕文件名和视频名不一致，使用的时候修改为一致即可。这里我使用了自己编写的脚本和工具批量跑这个字幕生成，并且结合potplayer的书签功能和anki结合一起使用快速制卡，效果一流。推荐使用anki经验在1年以上的人使用。具体工具和方法思路，可以找我交流。
