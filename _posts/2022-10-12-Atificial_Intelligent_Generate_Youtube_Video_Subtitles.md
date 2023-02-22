@@ -18,7 +18,7 @@ OpenAi公司的ChartGPT都无人不知无人不晓，但是它旗下还有个库
 https://github.com/m1guelpf/yt-whisper.git
 ```
 
-
+默认情况下它会安装失败，需要自行修改python代码。
 
 ## yt-whisper安装过程
 
