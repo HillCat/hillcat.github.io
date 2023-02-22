@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 视频制卡mpv2anki插件的使用(13)
+title: mpv2anki_make_english_video_card(13)
 categories: English
 description: 英文自学
 keywords: English
