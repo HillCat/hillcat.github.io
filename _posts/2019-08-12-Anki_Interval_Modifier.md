@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anki降低复习压力/最重要的两个参数(4)
+title: Anki_True_Retention_Easy_Hell(4)
 categories: English
 description: 英文自学
 keywords: English
