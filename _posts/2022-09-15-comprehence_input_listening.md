@@ -7,9 +7,9 @@ keywords: English
 typora-root-url: ../
 ---
 
-“可理解性输入假说”，这是二语习得理论5个假说中的1个，听力比口语重要，这个观点其实来至于克拉申教授的5个假说其中的1个。最近看到一篇论文，正文部分有个段落讲得很好，我用**机器翻译之后摘抄如下**：
+“可理解性输入假说”，这是二语习得理论5个假说中的1个，听力比口语重要，这个观点其实来至于克拉申教授的5个假说其中的1个。克拉申发表的论文，在google还是能搜索到，国内某些英语专业院校的人还特地写论文研究过他的5个假说，其中某一天我在学英语的时候，突然思考到一个问题，用英文造句，搜索了一下听力和口语优先级的问题，到底是哪个能力最先建立起来，哪个能力后建立起来。我想要知道的是到底一个人是先打通了听力之后再打通口语，还是先打通口语后打通听力，或者是两个能力交叉同时打通？其实看了这篇论文之后，基本上可以推断出来，听力是优先于口语先打通的，并且我甚至推断，很多口语流利的人，都是听力有了突破之后口语才有了突飞猛进。因为听力可以限制你口语的上限。下面是这篇论文的标题：
 
-论文标题：《The Priority of Listening Comprehension over Speaking in the Language Acquisition Process》 作者：Fang Xu ，Foreign Language College, Qingdao University of Science and Technology。从标题和署名来看，这篇文章是国内青岛外国语大学发表的文章，引用了国外的文献，比如：克拉申的“二语习得假说”。
+《The Priority of Listening Comprehension over Speaking in the Language Acquisition Process》 作者：Fang Xu ，Foreign Language College, Qingdao University of Science and Technology。从标题和署名来看，这篇文章是国内青岛外国语大学发表的文章，引用了国外克拉申的“二语习得假说”。
 
 ![Acrobat_mq0oIaEyxR](/images/posts/Acrobat_mq0oIaEyxR.png)
 
