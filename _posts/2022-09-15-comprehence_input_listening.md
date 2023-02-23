@@ -7,9 +7,9 @@ keywords: English
 typora-root-url: ../
 ---
 
-听力和口语，哪个的优先级更高，到底是听力先突破，还是口语先突破。如果抱着这种疑问，大概率会需要阅读一些理论研究了，或者详细了解“可理解性输入假说”，这是二语习得理论5个假说中的一个。
+“可理解性输入假说”，这是二语习得理论5个假说中的一个，听力比口语重要，这个观点其实来至于克拉申教授的5个假说其中的1个。并且更
 
-论文标题：《The Priority of Listening Comprehension over Speaking in the Language Acquisition Process》 作者：Fang Xu ，Foreign Language College, Qingdao University of Science and Technology。从标题和署名来看，这篇文章是国内青岛外国语大学发表的文章，引用不少国外的文献，比如：克拉申的“二语习得假说”。
+论文标题：《The Priority of Listening Comprehension over Speaking in the Language Acquisition Process》 作者：Fang Xu ，Foreign Language College, Qingdao University of Science and Technology。从标题和署名来看，这篇文章是国内青岛外国语大学发表的文章，引用了国外的文献，比如：克拉申的“二语习得假说”。
 
 ![Acrobat_mq0oIaEyxR](/images/posts/Acrobat_mq0oIaEyxR.png)
 
@@ -27,7 +27,7 @@ typora-root-url: ../
 
 
 
-
+我的观点：其实口语能力的上限是由听力能力决定的。在国内，阅读和听力更加实用。即便是不练习口语或者是很少进行口语，在雅思这种应试考试的时候，稍微准备几个月也足够应付。其实这跟很多高手裸考雅思8.5分，有异曲同工之妙。也就是说，只要你日常有使用英语阅读和听广播电视节目的习惯，应试考试的时候，备考会要轻松得多。这其实我从实践上证明了这个理论的正确，也从一些案例中找到了证明。自身来讲，我没有进行过雅思备考，没有看过任何雅思的资料，当我把刘洪波那本7000单词量的词汇书进行梳理查漏补缺的时候，我发现，实际上我只有800来个单词需要复习，其他的单词都是日常积累中通过anki制卡复习已经掌握了的词。相对而言，如果你平时没有注意积累，临时抱佛脚的方法要去背诵7000个单词，那个难度几乎是不可能短期完成的，并且临时背诵掌握的牢固程度非常薄弱。真实实力加持下，应试技巧仅仅是锦上添花。
 
 这篇论文所引述的一些材料：
 
