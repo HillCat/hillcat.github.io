@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Use Reverso Context
+title: How_to_Use_Reverso_Context
 categories: English
 description: 英文自学
 keywords: English
