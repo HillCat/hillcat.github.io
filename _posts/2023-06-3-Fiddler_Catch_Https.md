@@ -29,15 +29,17 @@ Gateway: 127.0.0.1:33210
 Copyright ©2003-2019 Telerik EAD. All rights reserved.
 ````
 
-
+Fiddler版本：[Fiddler_5.0.20192.25091.exe.zip](https://cs-cn.top/assets/tools/Fiddler_5.0.20192.25091.exe.zip)
 
 ### 1.Fiddler设置https抓包
 
+很多人人为Fiddler没有办法解密https包，其实是可以的，具体的设置如下：
 
+![JR5hPaITQX](/images/posts/JR5hPaITQX.png)
 
+甚至对于https解密还可以有更加深入的了解。
 
-
-
+![Fiddler_6iH3TwCieu](/images/posts/Fiddler_6iH3TwCieu.png)
 
 
 
@@ -45,7 +47,6 @@ Copyright ©2003-2019 Telerik EAD. All rights reserved.
 
 ### 2.Fiddler设置只查看指定网址的数据包
 
+很多时候我们抓包的时候，都只关心我们目标网址，而不需要关心其他无关的url链接地址，这个时候就可以使用Filters这个选项卡，勾选 “Use Filters”之后，然后"Show Only the following Hosts"勾选上，然后再input框中以英文逗号的方式，隔开每个url连接地址，那么过滤出来的就是我们需要的链接地址了，即便我们重新开始请求，进来的请求连接地址也会是我们期望的那种，这个对于抓包非常常用。如下图：
 
-
-
-
+![k4m34hIrX4](/images/posts/k4m34hIrX4.png)
