@@ -33,17 +33,15 @@ Fiddler版本：[Fiddler_5.0.20192.25091.exe.zip](https://cs-cn.top/assets/tools
 
 ### 1.Fiddler设置https抓包
 
-很多人认为Fiddler没有办法解密https包，其实是可以的，具体的设置如下：
+https抓包设置，使用的时候，Decode这个按钮一定要是被选中的状态，要不然https返回的报文还是会出现被加密的情况。
 
 ![JR5hPaITQX](/images/posts/JR5hPaITQX.png)
 
-如果是从来没有启用过，初次启用的时候，Fiddler会询问你证书设置，弹窗出来选择YSE即可。下面两幅图引用至其他地方：
-
-![PotPlayerMini64_Z2kFzk21hQ](/images/posts/PotPlayerMini64_Z2kFzk21hQ.png)
+如果是从来没有启用过，初次启用https解密的时候，Fiddler会询问你证书设置，弹窗出来选择YSE即可。![PotPlayerMini64_Z2kFzk21hQ](/images/posts/PotPlayerMini64_Z2kFzk21hQ.png)
 
 ![PotPlayerMini64_RiCZRhiiYN](/images/posts/PotPlayerMini64_RiCZRhiiYN.png)
 
-如果你发现自己的Fiddler进行这些设置的时候没有弹窗证书提醒，应该是你之前设置过证书。可以选择下面的Reset All Certificates清除所以证书。之后重新设置即可。
+也可以选择Reset All Certificates清除所以证书。之后重新设置即可。
 
 ![Fiddler_6iH3TwCieu](/images/posts/Fiddler_6iH3TwCieu.png)
 
