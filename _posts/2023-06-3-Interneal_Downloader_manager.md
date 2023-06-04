@@ -18,3 +18,5 @@ IDM下载工具是我常用的一款工具，这是一款需要付费的工具�
 如果“Don't use the proxy server for local(intranet) addresses"被勾选了，去掉勾选。IDM就能够正常。
 
 ![HN1APrWj0r](/images/posts/HN1APrWj0r.png)
+
+在某些代理App使用全局代理的时候，会出现IDM无法下载的情况，如果出现这种类似情况，需要去掉全局代理即可。
