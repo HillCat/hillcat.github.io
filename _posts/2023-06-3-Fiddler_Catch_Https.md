@@ -31,9 +31,11 @@ Copyright ©2003-2019 Telerik EAD. All rights reserved.
 
 Fiddler版本：[Fiddler_5.0.20192.25091.exe.zip](https://cs-cn.top/assets/tools/Fiddler_5.0.20192.25091.exe.zip)
 
-### 0.Fiddler常用快捷键
+### 0.Fiddler清除抓包数据
 
-清除和删除抓包数据：Ctrl + X ；Delete； 
+清除和删除抓包数据：Ctrl + X ；Delete； 还可以通过command输入cls清理数据包。
+
+![e4d60f0c-6ab5-4ebc-abe3-61fa14ed5171](/images/posts/e4d60f0c-6ab5-4ebc-abe3-61fa14ed5171-1685845355540-9.gif)
 
 ### 1.Fiddler设置https抓包
 
