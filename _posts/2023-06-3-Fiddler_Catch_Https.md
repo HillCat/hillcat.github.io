@@ -57,6 +57,8 @@ https抓包设置，使用的时候，Decode这个按钮一定要是被选中的
 
 Filters这个选项卡默认是没有被勾选的，勾选 “Use Filters”之后，然后"Show Only the following Hosts"勾选上，这个就可以只显示你需要的包含目标url网址的包，方面做数据分析。然后在input框中以英文逗号的方式，隔开每个url连接地址，那么过滤出来的就是我们需要的链接地址了。清理掉所有之前的记录，然后重新开始请求。之后进来的数据就都是你设置好的那个url网站的数据，其他的干扰信息不会流入到Fiddler中来。特别是在做爬虫项目的时候很有用。如下图：
 
+![PotPlayerMini64_7UurnWwSSw](/images/posts/PotPlayerMini64_7UurnWwSSw.png)
+
 ![k4m34hIrX4](/images/posts/k4m34hIrX4.png)
 
 ### 3.提取Fiddler抓包数据到Postman中
