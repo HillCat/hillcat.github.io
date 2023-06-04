@@ -212,6 +212,20 @@ yt_whisper "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 #### 9.1 指定字幕保存路径
 
+如果是离线翻译字幕，这里初次使用的时候最好使用手动执行命令方式来成功生成字幕，因为whisper初次使用的时候本地并没有模型文件，base模型460MB大小，初次使用的时候会先从网络中下载缺失的模型文件。然后才是进行字幕的翻译。所以第一次使用自动生成之前最好是手动去执行下指令来生成。
+
+```bash
+ redis_sentry "c:\video\20230604213353949.mp4" --output_dir C:\video
+```
+
+
+
+![ToDesk_FEWd5OkNCY](/images/posts/ToDesk_FEWd5OkNCY.png)
+
+![ToDesk_7JJN1zFifC](/images/posts/ToDesk_7JJN1zFifC.png)
+
+
+
 ```shell
 yt_whisper "https://www.youtube.com/watch?v=9NqthBLHBDg&ab_channel=IAmTimCorey" --output_dir C:\Users\47664\Downloads\video
 ```
