@@ -31,6 +31,10 @@ Copyright ©2003-2019 Telerik EAD. All rights reserved.
 
 Fiddler版本：[Fiddler_5.0.20192.25091.exe.zip](https://cs-cn.top/assets/tools/Fiddler_5.0.20192.25091.exe.zip)
 
+### 0.Fiddler常用快捷键
+
+清除和删除抓包数据：Ctrl + X ；Delete； 
+
 ### 1.Fiddler设置https抓包
 
 https抓包设置，使用的时候，Decode这个按钮一定要是被选中的状态，要不然https返回的报文还是会出现被加密的情况。
@@ -55,7 +59,25 @@ Filters这个选项卡默认是没有被勾选的，勾选 “Use Filters”之�
 
 ![k4m34hIrX4](/images/posts/k4m34hIrX4.png)
 
-### 3.抓包过程中设置断点
+### 3.提取Fiddler抓包数据到Postman中
+
+如果熟悉chrome的抓包数据导入Postman的话，应该也会熟悉这个cURL格式的报文。在Fiddler这个里面也有类似的可以导出整个请求数据到cURL脚本格式，
+
+![Fiddler_IaNut3YfwI](/images/posts/Fiddler_IaNut3YfwI.png)
+
+![Fiddler_G8bEU9izKn](/images/posts/Fiddler_G8bEU9izKn.png)
+
+导出来的cURL文本是bat结尾的，notepad++打开之后，看到的报文如下，它提取了该请求的url，请求方式，request head，cookie，token这些信息，还有表单入参；这个数据是可以直接导入到postman中的，复制整个CURL在PostMan中导入的时候。这种CURL格式的报文甚至可以直接丢给chatgpt让你们写出来代码进行模拟。
+
+![notepad++_2D3ukBTeCg](/images/posts/notepad++_2D3ukBTeCg.png)
+
+![Postman_sgp3SynusV](/images/posts/Postman_sgp3SynusV.png)
+
+![Postman_1GdWIbRSku](/images/posts/Postman_1GdWIbRSku.png)
+
+
+
+### 4.抓包过程中设置断点
 
 在逆向分析的时候，可能会要在请求过程中篡改某些原始请求文本，以用来测试目标网站。设置断点的目的是为了运行时修改请求数据，默认情况下是disable的，也很少使用。但是在某些特殊情况下，会用到这个断点调试。
 
