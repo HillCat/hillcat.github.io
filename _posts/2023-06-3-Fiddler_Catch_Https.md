@@ -37,7 +37,13 @@ Fiddler版本：[Fiddler_5.0.20192.25091.exe.zip](https://cs-cn.top/assets/tools
 
 ![JR5hPaITQX](/images/posts/JR5hPaITQX.png)
 
-甚至对于https解密还可以有更加深入的了解，可以点击Fiddler界面中英文部分的这些关于Certificate部分。
+如果是从来没有启用过，初次启用的时候，Fiddler会询问你证书设置，弹窗出来选择YSE即可。下面两幅图引用至其他地方：
+
+![PotPlayerMini64_Z2kFzk21hQ](/images/posts/PotPlayerMini64_Z2kFzk21hQ.png)
+
+![PotPlayerMini64_RiCZRhiiYN](/images/posts/PotPlayerMini64_RiCZRhiiYN.png)
+
+如果你发现自己的Fiddler进行这些设置的时候没有弹窗证书提醒，应该是你之前设置过证书。可以选择下面的Reset All Certificates清除所以证书。之后重新设置即可。
 
 ![Fiddler_6iH3TwCieu](/images/posts/Fiddler_6iH3TwCieu.png)
 
