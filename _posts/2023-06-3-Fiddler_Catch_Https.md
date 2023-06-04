@@ -83,7 +83,12 @@ Filters这个选项卡默认是没有被勾选的，勾选 “Use Filters”之�
 
 ### 4.抓包过程中设置断点
 
-在逆向分析的时候，可能会要在请求过程中篡改某些原始请求文本，以用来测试目标网站。设置断点的目的是为了运行时修改请求数据，默认情况下是disable的，也很少使用。但是在某些特殊情况下，会用到这个断点调试。
+设置断点是为了拦截我们电脑浏览器端发送的请求到服务器端，拦截之后，浏览器或者小程序或者APP内部的请求不会被立马发送到服务器端，开启拦截，需要在如下菜单位置：Rules-->Automatic Breakpoints-->Before Requsts 开启，开启之后，随后的请求都会被拦截而暂停。这个时候我们可以在WebForms里面修改表单信息，用来测试目标服务器是否会对于错误的字段信息做出报错提示。修改完成之后，右侧下方这里会有个绿色的“Run to Completion"按钮，点击，请求就会接着发送出去。
 
 ![Fiddler_zYn0RWIcHV](/images/posts/Fiddler_zYn0RWIcHV.png)
 
+![PotPlayerMini64_98z1L5568B](/images/posts/PotPlayerMini64_98z1L5568B.png)
+
+
+
+![RMwjMe9mh0](/images/posts/RMwjMe9mh0.png)
