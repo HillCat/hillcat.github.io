@@ -33,7 +33,7 @@ Fiddler版本：[Fiddler_5.0.20192.25091.exe.zip](https://cs-cn.top/assets/tools
 
 ### 1.Fiddler设置https抓包
 
-很多人人为Fiddler没有办法解密https包，其实是可以的，具体的设置如下：
+很多人认为Fiddler没有办法解密https包，其实是可以的，具体的设置如下：
 
 ![JR5hPaITQX](/images/posts/JR5hPaITQX.png)
 
