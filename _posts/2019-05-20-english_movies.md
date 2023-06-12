@@ -19,7 +19,7 @@ typora-root-url: ../
 
 ### 1.PotPlayer播放器播放英文视频的设置
 
-potPlayer是windows上面体验比较好的播放器，最新版本的播放器官方需要番蔷才能访问。学习英文这块我常用的播放器是mpv 播放器，以及这个potplayer播放器。特别是观看中英文双语字幕的电影的时候，这个播放器的体验是最好的，并且有很多的快捷键设置。官方下载地址：[https://potplayer.daum.net/](https://potplayer.daum.net/)
+potPlayer是windows上面体验比较好的播放器，最新版本的播放器官方需要番蔷才能访问。学习英文这块我常用的播放器是mpv 播放器，以及这个potplayer播放器。Potplayer播放器应该算是地表最强播放器，有非常非常多的功能，就像anki一样，功能多得有点吓人。对于初学者非常容易迷失方向。特别是观看中英文双语字幕的电影的时候，这个播放器的体验是最好的，并且有很多的快捷键设置。有人甚至招收英语学员收费400RMB，就是用这个播放器告诉你怎么看美剧学英语。当然，我这篇文章把这400RMB学费所学到的所有关于这个播放器的设置都记录下来了。 它的官方下载地址：[https://potplayer.daum.net/](https://potplayer.daum.net/)
 
 ![MmotnV7JaN](/images/posts/MmotnV7JaN.png)
 
@@ -89,7 +89,7 @@ PotPlayer右侧这些组合在一起的小窗口，是可以拖出来的，点�
 
 ![s4iNwvU6Om](/images/posts/s4iNwvU6Om.png)
 
-###### **1.字幕设置**
+##### **1.1.7字幕设置**
 
 基本，快捷键，点击添加。
 
@@ -136,6 +136,16 @@ PotPlayer右侧这些组合在一起的小窗口，是可以拖出来的，点�
 如下，已经设置了5个快捷键。
 
 ![chrome_xiRefNMCXP](/images/posts/chrome_xiRefNMCXP.png)
+
+
+
+##### 1.1.8 图像出现镜像反转
+
+我们在下载英文视频到本地播放的时候，偶尔会遇到视频中的图片文字出现镜像翻转的情况，就是相当于视频是用镜像反转播放，效果类似如下：
+
+![image-20230612225500592](/images/posts/image-20230612225500592.png)
+
+正常情况下文字应该是符合视觉的，正序播放的，但是偶尔有时候如果你发现potplayer播放的视频反转了，使用快捷键：ctrl +z 恢复即可。参考这个连接：https://www.youtube.com/watch?v=YcD5Y5GInE8&ab_channel=JourneyBytes
 
 ##### 2.1 NetFlix字幕插件
 
