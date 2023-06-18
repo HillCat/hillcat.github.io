@@ -7,7 +7,7 @@ keywords: 影子跟读
 typora-root-url: ../
 ---
 
-影子跟读是练口语的一种比较通用的方法。在恶魔奶爸的英语学习方法视频系列中有专门示范怎么做影子跟读，B站也有很多播主也做了示范怎么做影子跟读。这些道理大家都懂。有什么比较好的办法可以很好的落地。之前我思考过这个问题，参考借鉴的是国外[Matt的方法](https://www.youtube.com/watch?v=8qx_hnAGc-k&ab_channel=MattvsJapan)，是使用QC35 二代耳机 结合 罗技的Blue Yeti雪怪麦克风。他这个视频介绍的方法其实还不是最佳的设置方法。
+影子跟读是练口语的一种比较通用的方法。在[恶魔奶爸的英语学习方法视频](https://www.yojiang.cn/pc/lesson/28)系列中有专门示范怎么做影子跟读，B站也有很多播主也做了示范怎么做影子跟读。这些道理大家都懂。有什么比较好的办法可以很好的落地。之前我思考过这个问题，参考借鉴的是国外[Matt的方法](https://www.youtube.com/watch?v=8qx_hnAGc-k&ab_channel=MattvsJapan)，是使用QC35 二代耳机 结合 罗技的Blue Yeti雪怪麦克风。他这个视频介绍的方法其实还不是最佳的设置方法。
 
 ![chrome_N8ewJIlf9k](/images/posts/chrome_N8ewJIlf9k.png)
 
@@ -42,3 +42,11 @@ Playback这个就是声音的输出设备，输入和输出都使用这个Yeti�
 ![Ce35dwGXwO](/images/posts/Ce35dwGXwO.png)
 
 最后记得把电脑的声音输出设备，选择Yeti(就是罗技的Blue Yeti雪怪麦克风).
+
+最后，如果要推荐视频教程，这里只推荐恶魔奶爸的这个教程：
+
+![chrome_kcBZyZJ94b](/images/posts/chrome_kcBZyZJ94b.png)
+
+虽然这个是2017年我购买过的一个唯一的网络上关于英语的付费视频课程。但是6年时间过了，我还是依然会推荐想要从头学英语的人看看这套视频。希望这个系列视频可以陪着你度过5~10年的时间，可以在你今后不同的英文阶段，反复拿出来看，这是一本《剑谱》来的。
+
+![chrome_kqoVcOR2tR](/images/posts/chrome_kqoVcOR2tR.png)
