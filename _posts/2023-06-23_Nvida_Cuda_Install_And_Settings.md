@@ -27,7 +27,7 @@ https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64
 
 `CUDA driver version is insufficient for CUDA runtime version`
 
-仔细检查你电脑上面安装的Cuda版本和你NVidia显卡驱动的版本进行比较：
+仔细检查你电脑上面安装的Cuda版本和你NVidia显卡驱动的版本进行比较，如下表，低于527.41版本的显卡驱动只能安装Cuda11.X版本。
 
 ![image-20230623232725873](/images/posts/image-20230623232725873.png)
 
