@@ -70,10 +70,9 @@ choco install ffmpeg
 
 ##### 1.下载和配置模板
 
-对应的模板![explorer_bIIPBr4p5A](/images/posts/explorer_bIIPBr4p5A.png)，下载地址：
+对应的模板![image-20230623124358093](/images/posts/image-20230623124358093.png)，下载地址：
 
-链接：https://pan.baidu.com/s/1L_uUocPyQ11932PPbiTnfg?pwd=jzri 
-提取码：jzri 
+下载模板地址：[mpv2anki_movie.apkg](https://cs-cn.top/assets/tools/mpv2anki_movie.apkg)
 
 mpv2anki插件字段映射如下
 
