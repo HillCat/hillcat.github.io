@@ -33,3 +33,4 @@ https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64
 
 比如我的GPU版本是七彩虹的显卡，比较老的版本，Nvidia Gforce GT730系列的，从Nvidia官方下载到的最新的驱动 gt700系列中找到GT730,安装到win10上面显示这个版本是474.30,而我安装的Cuda是12.X版本，按照官方的解释，我这里应该安装Cuda11.X才行。所以卸载掉最新的CUDA12.X， 安装CUDA11.X即可。
 
+![image-20230623233050774](/images/posts/image-20230623233050774.png)
