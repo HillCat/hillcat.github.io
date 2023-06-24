@@ -8,7 +8,7 @@ keywords: .net
 typora-root-url: ../
 ---
 
-关于快速开发类工具的探索篇，一个是控制台程序，一个是基于快速UI开发的Blazor技术：
+关于快速开发类工具的探索篇，一个是控制台程序，一个是基于快速UI开发的Blazor技术,不过目前MAUI技术已经可以直接使用C # 开发跨平台的界面了，可以开发出类似Youtube Music的软件。
 
 ### Blazor_MudBlazor框架
 
