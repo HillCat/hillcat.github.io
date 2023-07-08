@@ -38,6 +38,10 @@ typora-root-url: ../
 
 
 
+生成以GUID格式的随机图片文件名：
+
+![YX95P12nvV](/images/posts/YX95P12nvV.png)
+
 
 
 
