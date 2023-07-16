@@ -71,7 +71,8 @@ Cannot resolve parameter 'Volo.Abp.Domain.Repositories.IRepository`2[LiveCaption
 ActivatorChain = Castle.Proxies.AnkiDataManagerServiceProxy
 ```
 
-第五种情况，没有把模块依赖写入，导致程序启动不了：
+第五种情况，没有把模块依赖引入所在的Module中，导致程序启动不了：
 
 ![image-20230709132936061](/images/posts/image-20230709132936061.png)
 
+另外
