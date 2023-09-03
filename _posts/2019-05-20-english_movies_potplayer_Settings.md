@@ -147,6 +147,10 @@ PotPlayer右侧这些组合在一起的小窗口，是可以拖出来的，点�
 
 正常情况下文字应该是符合视觉的，正序播放的，但是偶尔有时候如果你发现potplayer播放的视频反转了，使用快捷键：ctrl +z 恢复即可。参考这个连接：https://www.youtube.com/watch?v=YcD5Y5GInE8&ab_channel=JourneyBytes
 
+或者F5弹管理菜单，如下，选择“不旋转”即可。
+
+![image-20230903124040415](/_posts/images/image-20230903124040415.png)
+
 ##### 2.1 NetFlix字幕插件
 
 NetFlix看剧的神器插件，我一直是用[Language Reactor](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)，搜索一下chrome插件市场就能找到这个插件，然后它有个导出字幕功能，导出的时候，选择"打印HTML"即可，中英双语字幕会在浏览器页面中完整显示出来，即便下载不到srt格式的中文人工字幕，也可以使用这个打印的字幕，用工具生成中文的str字幕。从而制作中英文双语卡片。
