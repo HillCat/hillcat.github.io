@@ -30,3 +30,18 @@ XButton2::Right ; 将侧边按钮2映射为右箭头键
 ````
 
 ![image-20230916112637243](/images/posts/image-20230916112637243.png)
+
+使用效果如下：开启这个脚本之后，电脑右侧小图标会显示AutoHotkey正在运行的图标，如下，一个绿色的H字母的图标：
+
+![image-20230916222227631](/images/posts/image-20230916222227631.png)
+
+然后我们在观看youtube视频的时候，我们如果想鼠标单手操作，就可以点击向下翻滚键，就是快退5秒，效果如下：
+
+![image-20230916222143495](/images/posts/image-20230916222143495.png)
+
+平时我喜欢观看一些英文技术类视频，喜欢全屏观看的时候，拿着一个鼠标即可，不用开中文，开英文字幕即可。另外chrome浏览器要安装Language Reactor插件。插件官方网站：https://www.languagereactor.com/ ，插件地址：[https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)
+
+![image-20230916222531569](/images/posts/image-20230916222531569.png)
+
+![image-20230916222702906](/images/posts/image-20230916222702906.png)
+
