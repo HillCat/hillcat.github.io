@@ -39,7 +39,7 @@ XButton2::Right ; 将侧边按钮2映射为右箭头键
 
 ![image-20230916222143495](/images/posts/image-20230916222143495.png)
 
-平时我喜欢观看一些英文技术类视频，喜欢全屏观看的时候，拿着一个鼠标即可，不用开中文，开英文字幕即可。另外chrome浏览器要安装Language Reactor插件。插件官方网站：https://www.languagereactor.com/ ，插件地址：[https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)
+chrome浏览器要安装Language Reactor插件。插件官方网站：https://www.languagereactor.com/ ，插件地址：[https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)，如果不需要保存浏览的单词历史记录和卡片这些信息，使用Language Reactor其实已经可以满足大部分的需求了，因为Language Reactor的服务器速度还是非常快的。国内的访问速度，Language Reactor体验速度比Reverso Context要快不少。
 
 ![image-20230916222531569](/images/posts/image-20230916222531569.png)
 
