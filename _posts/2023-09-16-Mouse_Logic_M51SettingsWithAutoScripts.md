@@ -7,7 +7,7 @@ keywords: AI生成提速
 typora-root-url: ../
 ---
 
-在大量观看在线tube英文视频的时候，我比较喜欢单手操作鼠标，进行视频的取词翻译，以及视频的快进和快退操作。鼠标是罗技M510型号的，配合AutoHotKey Script脚本，可以把鼠标左侧的上下翻滚键，直接映射为键盘的左右键盘，这样子就可以做到不需要触摸键盘，用一个鼠标很轻松的观看tube的视频。通过点击的方式+ English Reactor插件实现纯英文字幕的生词翻译。我平时观看视频只显示英文字幕，没有开启中文字幕，只是偶尔会有生词的时候会要用到快退5秒，然后鼠标点击生词翻译。
+在大量观看在线tube英文视频的时候，我比较喜欢单手操作鼠标，进行视频的取词翻译，以及视频的快进和快退操作。鼠标是罗技M510型号的，配合AutoHotKey Script脚本，可以把鼠标左侧的上下翻滚键，直接映射为键盘的左右键盘，这样子就可以做到不需要触摸键盘，用一个鼠标很轻松的观看youtube的视频。通过点击的方式+ Language Reactor插件实现纯英文字幕的生词翻译。我平时观看视频只显示英文字幕，没有开启中文字幕，只是偶尔会有生词的时候会要用到快退5秒，然后鼠标点击生词翻译。
 
 ![image-20230916112145134](/images/posts/image-20230916112145134.png)
 
@@ -39,7 +39,7 @@ XButton2::Right ; 将侧边按钮2映射为右箭头键
 
 ![image-20230916222143495](/images/posts/image-20230916222143495.png)
 
-平时我喜欢观看一些英文技术类视频，喜欢全屏观看的时候，拿着一个鼠标即可，不用开中文，开英文字幕即可。另外chrome浏览器要安装Language Reactor插件。插件官方网站：https://www.languagereactor.com/ ，插件地址：[https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)
+平时我喜欢观看一些英文技术类视频，喜欢全屏观看的时候，拿着一个鼠标即可，不用开中文，开英文字幕即可。另外chrome浏览器要安装Language Reactor插件。插件官方网站：https://www.languagereactor.com/ ，插件地址：[https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm](https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm)
 
 ![image-20230916222531569](/images/posts/image-20230916222531569.png)
 
