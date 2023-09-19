@@ -31,3 +31,25 @@ docker run --detach \
 
 
 
+刚开始的时候会是报错：
+
+![image-20230920005628850](/images/posts/image-20230920005628850.png)
+
+输入登录地址：http://localhost/users/sign_in
+
+继续在Ubuntu wsl命令中运行如下命令，获取root登录的密码：
+
+```shell
+sudo docker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password
+```
+
+![image-20230920010005357](/images/posts/image-20230920010005357.png)
+
+![image-20230920010036399](/images/posts/image-20230920010036399.png)
+
+![image-20230920010208525](/images/posts/image-20230920010208525.png)
+
+成功登陆进入。GitLab比较耗费内存，内存分配太少启动会很慢，如果电脑内存足够的话，可以给docker分配8GB内存。
+
+![image-20230920011238861](/images/posts/image-20230920011238861.png)
+
