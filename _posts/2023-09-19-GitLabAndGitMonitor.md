@@ -29,7 +29,7 @@ docker run --detach \
 
 
 
-初始化成功，进入gitlab首页，刚开始的时候会是报错，原因是分配给docker desktop的内存太低，我这里分配了4GB，还是不够，直接干到8GB.
+初始化成功，进入gitlab首页，刚开始的时候会是报错，原因是分配给docker desktop的内存太低，刚开始分配了4GB，网页打开速度很慢，提升到8GB之后速度恢复正常.
 
 ![image-20230920005628850](/images/posts/image-20230920005628850.png)
 
