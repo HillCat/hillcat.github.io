@@ -47,5 +47,5 @@ sudo docker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password
 
 ![image-20230920010208525](/images/posts/image-20230920010208525.png)
 
-成功搞定。
+测试环境安装之后，开始编写代码，测试.......
 
