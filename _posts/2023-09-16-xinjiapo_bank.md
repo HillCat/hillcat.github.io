@@ -1,6 +1,6 @@
 ---
 layout: post
-title: forign_bank
+title: foreign_bank
 categories: english
 description: 英文学习
 keywords: AI生成提速
