@@ -78,6 +78,24 @@ typora-root-url: ../
 
 ### 3.Charles证书添加到安卓模拟器
 
+前置条件推荐：win11系统安装choco作为控制台工具，前提是你已经安装好了choco工具，并且最好是把powershell升级到powershell7.
+
+如果安装了chocolaty工具，使用下面的命令可以直接安装powershell7
+
+![image-20231014181258523](/images/posts/image-20231014181258523.png)
+
+#### 3.1 安装OpenSSl
+
+[https://community.chocolatey.org/packages/openssl](https://community.chocolatey.org/packages/openssl)
+
+打开powershell，执行下面命令行，安装openssl,(所有的命令行的操作建议都以Administrator超级管理员权限运行)
+
+````shell
+choco install openssl
+````
+
+![image-20231014181703094](/images/posts/image-20231014181703094.png)
+
 
 
 
