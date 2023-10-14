@@ -68,21 +68,23 @@ Charles开启监听8888本地端口如下：
 
 
 
-设置代理模式为“手动”，上面记录好的Charles弹窗监听信息地址，设置为安卓的代理地址，默认端口号8888如下:
+设置代理模式为“手动”，如下:
 
 
 
 ![image-20231014165555355](/images/posts/image-20231014165555355.png)
 
-安卓模拟器浏览器直接访问http://chls.pro/ssl，能够下载到ssl.charles证书，表明我们的代理设置都是正确的，安卓模拟器能够和电脑端的Charles进行通讯了。
+安卓模拟器访问http://chls.pro/ssl，能够下载到ssl.charles证书，表明Charles已经代理了安卓模拟器上网流量了。
 
 ![image-20231014170503317](/images/posts/image-20231014170503317.png)
 
-最麻烦的就是给安卓模拟器安装Charles的证书，同样的方法也可以安装Findller的证书，Fillder抓包和Charles抓包都会用到下面说到的方法。
+之后是安装openssl命令行工具，转换charles证书为安装适配版本。同样的方法可以转换findller的证书给到安卓端。
 
-### 3.Charles证书添加到安卓模拟器
+### 3.OpenSSL命令行安装
 
-前置条件：win11系统安装了chocolaty作为控制台工具，安装chocolaty工具，参考官方文档：[https://chocolatey.org/install](https://chocolatey.org/install)。使用powershell 以超级管理员权限安装即可。建议开启全局vpn。因为可能某些依赖项会被墙。
+#### 3.0 Chcolaty安装
+
+win11系统安装了chocolaty作为控制台工具，安装chocolaty工具，参考官方文档：[https://chocolatey.org/install](https://chocolatey.org/install)。使用powershell 以超级管理员权限安装即可。建议开启全局vpn。因为可能某些依赖项会被墙。
 
 ````shell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
@@ -92,7 +94,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ![image-20231014181258523](/images/posts/image-20231014181258523.png)
 
-#### 3.1 安装OpenSSl
+#### 3.1 Chocolaty安装OpenSSl
 
 上面的前置条件OK之后，开始安装OpenSsl这个工具，使用choco安装的好处是，我们不需要像B站某些UP主演示的那样子进行全局路径和变量的设置，只需要choco自动全部给我们设置好即可。
 
@@ -118,9 +120,9 @@ choco install openssl
 
 ![image-20231014182225721](/images/posts/image-20231014182225721.png)
 
-电脑上面安装了openssl之后，就可以把诸如Charles和Fiddler的证书安装到安卓模拟器里面去了。可以参考B站这个视频：[https://www.bilibili.com/video/BV1it4y1p7yK/?share_source=copy_web&vd_source=074fc12dff24eb02318a300ccc48526d](https://www.bilibili.com/video/BV1it4y1p7yK/?share_source=copy_web&vd_source=074fc12dff24eb02318a300ccc48526d)
+接下来的操作可以参考B站这个视频：[https://www.bilibili.com/video/BV1it4y1p7yK/?share_source=copy_web&vd_source=074fc12dff24eb02318a300ccc48526d](https://www.bilibili.com/video/BV1it4y1p7yK/?share_source=copy_web&vd_source=074fc12dff24eb02318a300ccc48526d)
 
-#### 3.2 OpenSSL转换Charles证书格式
+#### 3.2 OpenSSL转换Charles证书
 
 首先，介绍下OpenSSL这个命令工具的作用，如下：我们这里用到的是把PC端的https证书转为安卓端使用的https证书。
 
