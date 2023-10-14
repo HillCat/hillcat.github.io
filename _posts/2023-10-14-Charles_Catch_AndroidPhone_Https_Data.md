@@ -126,11 +126,13 @@ choco install openssl
 
 ![image-20231014192656968](/images/posts/image-20231014192656968.png)
 
-首先是导出Charles证书，这里导出到桌面的"Charles Certificate"文件夹中:
+首先是导出Charles证书，这里导出到桌面的"/Desktop/Charles Certificate/"文件夹中:
 
 ![image-20231014192145164](/images/posts/image-20231014192145164.png)
 
 ![image-20231014192044134](/images/posts/image-20231014192044134.png)
+
+
 
 
 
