@@ -172,7 +172,80 @@ openssl x509 -subject_hash_old -in charles.pem
 
 之所以要记录笔记，是因为这里的操作真的比较麻烦！记录下来以备不时之需。
 
+#### 3.3 雷电模拟器安装Charles证书
+
+首先是定位到雷电模拟器的安装路径，如下：
+
+![image-20231014195537778](/images/posts/image-20231014195537778.png)
+
+找到adb.exe这个工具：
+
+![image-20231014195611330](/images/posts/image-20231014195611330.png)
+
+使用超级管理员权限，运行command命令行，执行如下：这个命令的目的是为了把Charles证书推送到雷电安卓模拟器里面去。
+
+```shell
+adb.exe push "C:\Users\caianhua\Desktop\Charles Certificate\15c8ce77.0" /system/etc/security/cacert
+s/
+```
+
+推送证书到安卓模拟器，会遇到路径不对，安卓模拟器没有写入权限的问题，如下：
+
+![image-20231014200610446](/images/posts/image-20231014200610446.png)
+
+看回安卓模拟器的设置：开启了Root权限，也有了ADB调试权限，但是无法写入，那么在网上搜索下解决方案，把写入权限开启。
+
+![image-20231014200717602](/images/posts/image-20231014200717602.png)
+
+##### 3.3.1 开启写入权限
+
+让abd以root权限运行，如下：
+
+```shell
+adb root
+```
 
 
 
+![image-20231014201119946](/images/posts/image-20231014201119946.png)
+
+
+
+```shell
+adb shell
+```
+
+![image-20231014202329011](/images/posts/image-20231014202329011.png)
+
+进入之后,执行：
+
+```shell
+mount
+```
+
+![image-20231014202819294](/images/posts/image-20231014202819294.png)
+
+最后再执行：
+
+```shell
+adb.exe push "C:\Users\caianhua\Desktop\Charles Certificate\15c8ce77.0" /system/etc/security/cacerts/
+```
+
+最终是成功了。
+
+
+
+总之上面命令的目的是把Charles证书复制一份到安卓系统的如下路径，如果复制失败，那么就手动进入安卓模拟器复制即可：
+
+```shell
+/system/etc/security/cacerts/
+```
+
+进入雷电安卓模拟器的文件夹管理器中，依次打开对应的`/system/etc/security/cacerts/`路径，发现我们上传的证书已经进入安卓模拟器了，如果命令行模式不行，那么就手动把文件传入到模拟器的这个路径下即可，如下图：
+
+![image-20231014203100802](/images/posts/image-20231014203100802.png)
+
+其实通过adb shell命令，进入安卓的linux系统目录也是可以看到的：
+
+![image-20231014203348975](/images/posts/image-20231014203348975.png)
 
