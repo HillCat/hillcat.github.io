@@ -94,7 +94,19 @@ typora-root-url: ../
 choco install openssl
 ````
 
-![image-20231014181703094](/images/posts/image-20231014181703094.png)
+![image-20231014181801299](/images/posts/image-20231014181801299.png)
+
+![image-20231014182021305](/images/posts/image-20231014182021305.png)
+
+运行起来之后，效果如下：
+
+![image-20231014182043238](/images/posts/image-20231014182043238.png)
+
+![image-20231014182225721](/images/posts/image-20231014182225721.png)
+
+
+
+
 
 
 
