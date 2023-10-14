@@ -120,11 +120,17 @@ choco install openssl
 
 电脑上面安装了openssl之后，就可以把诸如Charles和Fiddler的证书安装到安卓模拟器里面去了。可以参考B站这个视频：[https://www.bilibili.com/video/BV1it4y1p7yK/?share_source=copy_web&vd_source=074fc12dff24eb02318a300ccc48526d](https://www.bilibili.com/video/BV1it4y1p7yK/?share_source=copy_web&vd_source=074fc12dff24eb02318a300ccc48526d)
 
-#### 3.2 Fiddler证书安装到模拟器
+#### 3.2 OpenSSL转换Charles证书格式
 
+首先，介绍下OpenSSL这个命令工具的作用，如下：我们这里用到的是把PC端的https证书转为安卓端使用的https证书。
 
+![image-20231014192656968](/images/posts/image-20231014192656968.png)
 
+首先是导出Charles证书，这里导出到桌面的"Charles Certificate"文件夹中:
 
+![image-20231014192145164](/images/posts/image-20231014192145164.png)
+
+![image-20231014192044134](/images/posts/image-20231014192044134.png)
 
 
 
