@@ -104,7 +104,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install openssl
 ````
 
-完整的执行过程如下图，choco会自动搜索openssl安装包，然后安装的时候是通过sp脚本全自动安装的，询问“Do you wan to run the script”的时候，选择“A”回车即可，如下图：
+完整的执行过程如下图，choco会自动搜索openssl安装包，然后安装的时候是通过sp脚本全自动安装的，询问“Do you want to run the script”的时候，选择“A”回车即可，如下图：
 
 ![image-20231014181801299](/images/posts/image-20231014181801299.png)
 
@@ -170,5 +170,9 @@ openssl x509 -subject_hash_old -in charles.pem
 
 ![image-20231014194843541](/images/posts/image-20231014194843541.png)
 
-之所以要记录笔记，是因为这里的操作真的是比较多，很容易搞错。时间久了就忘记了，再去看视频什么的，非常浪费时间。整理为笔记，节省时间！
+之所以要记录笔记，是因为这里的操作真的比较麻烦！记录下来以备不时之需。
+
+
+
+
 
