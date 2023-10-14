@@ -118,7 +118,7 @@ choco install openssl
 
 ![image-20231014182225721](/images/posts/image-20231014182225721.png)
 
-电脑上面安装了openssl之后，就可以把诸如Charles和Fiddler的证书安装到安卓模拟器里面去了。
+电脑上面安装了openssl之后，就可以把诸如Charles和Fiddler的证书安装到安卓模拟器里面去了。可以参考B站这个视频：[https://www.bilibili.com/video/BV1it4y1p7yK/?share_source=copy_web&vd_source=074fc12dff24eb02318a300ccc48526d](https://www.bilibili.com/video/BV1it4y1p7yK/?share_source=copy_web&vd_source=074fc12dff24eb02318a300ccc48526d)
 
 #### 3.2 Fiddler证书安装到模拟器
 
