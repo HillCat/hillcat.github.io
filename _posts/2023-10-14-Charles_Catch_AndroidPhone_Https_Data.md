@@ -134,9 +134,39 @@ choco install openssl
 
 ![image-20231014192044134](/images/posts/image-20231014192044134.png)
 
+注意：这里有个坑，就是你如果不给这个文件夹下面输入一个文件名，导出的时候会发现文件夹里面是空。所以这里要给一个文件名字，这里给它命名为“charles.pem":
 
 
 
+![image-20231014193947618](/images/posts/image-20231014193947618.png)
+
+![image-20231014194120176](/images/posts/image-20231014194120176.png)
+
+成功导出了charles的证书文件。
+
+使用下面的命令开始转换：
+
+```shell
+openssl x509 -subject_hash_old -in charles.pem
+```
+
+
+
+![image-20231014194230316](/images/posts/image-20231014194230316.png)
+
+![image-20231014194416450](/images/posts/image-20231014194416450.png)
+
+执行成功之后，出来一堆hash字符。拷贝BEGIN CERIFICATE注释信息上面那8个字符串,也就是下面这8个字符：
+
+```shell
+15c8ce77
+```
+
+然后用这个8个字符直接重命名charles.pem为
+```
+15c8ce77.0
+```
+注意：连同后缀也要一起改，后缀.pem改为.0，注意这里的操作细节，别搞错了。
 
 
 
