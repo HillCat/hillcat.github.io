@@ -1,7 +1,7 @@
 ---
 layout: post
 title: charles抓取安卓手机https包设置
-categories: .net
+categories: dotnet
 description: 抓包
 keywords: 安卓手机抓包
 typora-root-url: ../
