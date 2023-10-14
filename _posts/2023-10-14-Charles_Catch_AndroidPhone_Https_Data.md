@@ -78,7 +78,7 @@ Charles开启监听8888本地端口如下：
 
 ![image-20231014170503317](/images/posts/image-20231014170503317.png)
 
-之后是安装openssl命令行工具，转换charles证书为安装适配版本。同样的方法可以转换findller的证书给到安卓端。
+之后是安装openssl命令行工具，转换charles证书为安卓适配版本。同样的方法可以转换findller的证书给到安卓端。
 
 ### 3.OpenSSL命令行安装
 
@@ -251,3 +251,12 @@ adb.exe push "C:\Users\caianhua\Desktop\Charles Certificate\15c8ce77.0" /system/
 
 ![image-20231014203348975](/images/posts/image-20231014203348975.png)
 
+##### 3.3.2 验证
+
+Charles的证书已经弄到安卓模拟器里面去了，那么现在重新开启Charles，会自动开启8888端口的代理，然后安卓模拟器应该就是使用这个Charles代理端口上网了，下面来试试，https请求包是不是都已经是能抓到明文了。验证下：
+
+![image-20231014204553852](/images/posts/image-20231014204553852.png)
+
+我们来看看百度请求的https是不是都是明文了。成功搞定。
+
+![image-20231014204943025](/images/posts/image-20231014204943025.png)
