@@ -1,6 +1,6 @@
 ---
 layout: post
-title: charles和fiddler安卓https抓包设置
+title: charles和fiddler手机App抓包设置
 categories: .net
 description: 抓包
 keywords: 安卓手机抓包
@@ -8,11 +8,11 @@ typora-root-url: ../
 
 ---
 
-抓安卓手机包，使用charles这个工具比较方便。由于升级了系统从win10到win11，很多之前配置的东西都要重新配置，比如charles抓安卓手机包，发现全部是乱码，这个是由于windows没有配置https解包证书导致的，先要在windows安装charles的https证书，然后还要给安卓手机端配置这个证书。尤其是这个安卓模拟器配置证书比较麻烦。因此记录下做个备忘。
+安卓逆向，通过Charles或者Fiddler抓取手机APP请求数据包，对https进行解密。
 
 ### 0.安卓App抓包常见问题
 
-想要通过Charles或者Findler抓包工具抓取安卓手机App里面的https请求，结合postman来开发模拟某些App的请求应用，如果开发环境没有配置好，会出现一些奇怪的问题，比如Charles抓包的时候抓到的都是乱码，还有安卓模拟器里面访问网站也会提示访问的https链接不是私密链接。解决这些问题，我们需要重新配置安卓模拟器的https证书。
+没有设置之前，https都是加密的：
 
 ![image-20231014164534387](/images/posts/image-20231014164534387.png)
 
@@ -20,7 +20,9 @@ typora-root-url: ../
 
 
 
-前提是准备一个pojie好的Charles软件，激活一下，这个比较简单，网上搜索办法一大堆，搞定之后，Charles可以正常使用了，然后就是配置https证书：
+设置之后，https明文都可以解析出来。
+
+![image-20231014204943025](/images/posts/image-20231014204943025.png)
 
 ### 1.初始化Charles证书
 
@@ -28,29 +30,29 @@ typora-root-url: ../
 
 ![image-20231014164100408](/images/posts/image-20231014164100408.png)
 
-由于重新安装了windows系统，因此Charles证书要重新安装到系统的C盘，如下
+由于重新安装了windows系统，因此Charles证书要重新安装到系统的C盘，通过向导安装，直接“下一步，下一步”即可：
 
 ![image-20231014164115579](/images/posts/image-20231014164115579.png)
 
 ![image-20231014164315299](/images/posts/image-20231014164315299.png)
 
-安装到受信任的根证书文件夹下面。
+如上图：安装到受信任的根证书颁发者路径下，即“Trusted Root Certification Authorites”文件夹下面，然后是开启Https代理，设置需要代理的端口和域名。
 
 ![image-20231014164910804](/images/posts/image-20231014164910804.png)
 
-设置代理地址和端口，这里使用星号，匹配所有的域名和端口：
+这里使用星号*，匹配所有的域名和端口：
 
 ![image-20231014165138433](/images/posts/image-20231014165138433.png)
 
 ![image-20231014165157055](/images/posts/image-20231014165157055.png)
 
-Charles开启监听8888本地端口如下：
+上面设置完成之后，Charles对本地8888端口的监听进程就启动了。下面是测试雷电模拟器连接Charles端口，并下载https证书的能力：
 
 ![image-20231014165402520](/images/posts/image-20231014165402520.png)
 
 ![image-20231014165415660](/images/posts/image-20231014165415660.png)
 
-注意阅读上面的提示信息，使用方法都在上面英文说得很清楚了。记录下两个地址。第一个是：http://chls.pro/ssl 第二个是：192.168.1.104：8888. 前者是Charles的证书，后者是我们需要设置的安卓模拟器代理地址，如果是IOS手机抓包，也可以设置iphone手机的代理地址为上面这个地址，就可以抓你IOS手机上面APP的https包了。
+第一个是证书地址：http://chls.pro/ssl 第二个是代理地址：192.168.1.104：8888. 这里的提示信息明确告知你，需要你配置移动设备代理，改为使用Charles的http代理地址。以安卓模拟器为例，我们把安卓模拟器的代理设置为“手动”并且代理地址设置为192.168.1.104:8888。这样设置之后，雷电模拟器每次开机之前，都需要开启Charles，雷电模拟器内部才能上网，要不然是无法联网的。雷电模拟器的代理上网，要么被Charles接管，要么被Fiddler 4接管，2者选择其一即可，选择Charles的时候就是Charles抓包，选择Fiddler的时候就是Fiddler抓包。
 
 ### 2.Charles安卓模拟器代理
 
@@ -237,7 +239,7 @@ Charles的证书已经弄到安卓模拟器里面去了，那么现在重新开�
 
 ![image-20231014204553852](/images/posts/image-20231014204553852.png)
 
-![image-20231014204943025](/images/posts/image-20231014204943025.png)
+
 
 ### 4.Fiddler证书设置
 
@@ -249,7 +251,7 @@ Fiddler下载地址：[Fiddler_5.0.20192.25091.zip](https://cs-cn.top/assets/too
 
 
 
-#### 4.1 安装Fiddler证书
+#### 4.1 安装Fiddler证书到PC端
 
 首先我这个版本是安装的Fiddler 4版本，需要.net运行时环境.net framework 4.6.1；新装的win11系统是没有安装Fiddler https证书的，进入Options菜单，
 
@@ -279,25 +281,31 @@ Fiddler下载地址：[Fiddler_5.0.20192.25091.zip](https://cs-cn.top/assets/too
 
 ![image-20231014224453124](/images/posts/image-20231014224453124.png)
 
-会看到Fiddler字样的证书被安装到Root目录了。
+会看到Fiddler字样的证书被安装到Root目录了。建议不要进行多次安装，这里会显示2个“DO_NOT_TRUST_FiddlerRoot"；当把这个证书以同样的原理安装到安卓Linux的`/system/etc/security/cacerts/`目录的时候，也不要进行重复安装。
 
 ![image-20231014224549489](/images/posts/image-20231014224549489.png)
 
-同时也把这个证书安装到雷电模拟器里面去，导出这个证书：
+#### 4.2 安装Fiddler证书到安卓端
+
+需要把PC端的证书，使用OpenSSl工具进行转换，才能把PC证书安装到安卓Linux里面去，导出这个PC端证书：
 
 ![image-20231014224643340](/images/posts/image-20231014224643340.png)
 
 ![image-20231014224705053](/images/posts/image-20231014224705053.png)
 
-点击操作之后，Fiddler会把证书直接放到win11的系统桌面上，如下：
+点击操作之后，Fiddler自动把证书导出到windows系统的desktop桌面路径上，从你的电脑桌面上，可以看到一个名字为"Fiddler..."字样开头的证书图标，如下：
 
 ![image-20231014224805408](/images/posts/image-20231014224805408.png)
 
-桌面上新建一个文件夹，把这个证书丢到文件夹里面，进行下一步的OpenSSL转换操作：
+为了便于操作，把这个证书丢到文件夹里面，文件夹取名”FiddlerCertificate“，Fiddler PC端的证书的整个样子如下：
 
 ![image-20231014224906155](/images/posts/image-20231014224906155.png)
 
+接下来的对这个证书的转换操作就在这个文件夹进行。
+
 #### 4.2 OpenSSL转换Fiddler证书
+
+使用超级管理员权限打开CMD命令行控制面板，cd到Fiddler证书的路径下面，使用我们前面通过chocolatey安装好的openssl工具进行转换操作，
 
 1.首先将cer证书转为pem后缀证书
 
@@ -309,7 +317,7 @@ openssl x509 -inform der -in FiddlerRoot.cer -out Fiddler.pem
 
 命令行成功执行之后，生成了一个Fiddler.pem的证书。
 
-类似Charles证书一样的操作，查看hash字符串，然后提取那8个字符串，重命名这个pem文件，上传到雷电模拟器证书目录下即可。
+然后使用命令，再将这个pem证书的hash头部8个字符串解析出来：
 
 ```shel
 openssl x509 -subject_hash_old -in Fiddler.pem
@@ -317,15 +325,11 @@ openssl x509 -subject_hash_old -in Fiddler.pem
 
 ![image-20231014225340998](/images/posts/image-20231014225340998.png)
 
-重命名pem文件：
+copy这8个字符串，重命名pem文件，改为这8个字符串名字，并且记得把文件的后缀.pem改为”.0“，这个后缀是数字零而不是字母o，之所以要改名字和后缀，是因为安卓Linux证书都是以”.0“结尾，名字都是8个字符串的格式。
 
 ![FiddlerCertificateConvert](/images/posts/FiddlerCertificateConvert.gif)
 
-依然还是跟Charles证书一样，通过雷电模拟器的adb.exe命令，通过root权限上传到安卓Linux系统的对应目录即可。
-
-执行这些操作之前，雷电模拟器 ，Charles都是开启状态。超级管理员权限，进入CMD控制台命令行，切换到雷电模拟器的exe根目录。
-
-首先是切换adb 命令为root权限，然后执行remount命令。这样子后面的执行操作就有写入权限了。
+雷电模拟器根目录有adb.exe文件，利用这个文件，可以执行把PC端的文件直接推送到安卓Linux目录的能力，但是需要以Root权限执行，首先是切换root身份，然后执行remount，这样子就有了root写入权限，然后再执行push操作就可以把改好的证书文件推送到安卓Linux路径了，如下：
 
 ```shell
 adb root
@@ -341,7 +345,7 @@ adb.exe push "C:\Users\caianhua\Desktop\FiddlerCertificate\269953fb.0" /system/e
 
 ![image-20231014231845288](/images/posts/image-20231014231845288.png)
 
-成功把Fiddler证书传入到了雷电模拟器中。
+成功把Fiddler证书拷贝到了雷电模拟器中。
 
 ![image-20231014232523635](/images/posts/image-20231014232523635.png)
 
@@ -361,7 +365,7 @@ Fiddler代理的端口8888是可以被安卓模拟器端请求到的，证明Fid
 
 1.删除掉Fiddler 4之前生成的证书cer转pem再重命名为`269953fb.0`的那份文件,重新导出Fiddler 4的cer证书，按照上面的步骤重新生成，并且使用adb命令重新push到安卓模拟器内部。
 
-2.win11系统开机的时候不要使用vpn代理，并且win11代理设置中，如图：
+2.win11系统开机的时候不要使用vpn代理，并且win11代理设置中不要夹杂vpn代理端口的设置，只要保留Fiddler代理的地址，如图：
 
 ![image-20231015020209821](/images/posts/image-20231015020209821.png)
 
@@ -369,11 +373,13 @@ Fiddler代理的端口8888是可以被安卓模拟器端请求到的，证明Fid
 http=127.0.0.1:8888;https=127.0.0.1:888
 ```
 
-不能含有其他代理软件的配置信息再这个Proxy IP address里面。
+Fiddler抓包的时候，安卓模拟器无法上网，跟电脑端开启了其他代理端口设置有关。其他代理软件的配置信息要从这个Proxy IP address里面去掉。
 
 Fiddler 4的设置如下：
 
 ![image-20231015020509595](/images/posts/image-20231015020509595.png)
+
+允许雷电模拟器连接到Fiddler的代理端口：
 
 ![image-20231015020412761](/images/posts/image-20231015020412761.png)
 
@@ -383,4 +389,4 @@ Fiddler抓包的好处是可以抓取来至于特定进程的，特定域名的�
 
 ![image-20231015020837454](/images/posts/image-20231015020837454.png)
 
-配置这些开发环境不容易，最好是对系统定期进行备份，以备不时之需。总体而言，win11的使用体验要比win10好很多。
+配置这些开发环境不容易，配置完，记得备份系统。
