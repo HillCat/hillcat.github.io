@@ -126,7 +126,7 @@ choco install openssl
 
 #### 3.2 OpenSSL转换Charles证书
 
-首先，介绍下OpenSSL这个命令工具的作用，如下：我们这里用到的是把PC端的https证书转为安卓端使用的https证书。
+首先，介绍下OpenSSL这个命令工具的作用，如下：
 
 ![image-20231014192656968](/images/posts/image-20231014192656968.png)
 
@@ -136,7 +136,7 @@ choco install openssl
 
 ![image-20231014192044134](/images/posts/image-20231014192044134.png)
 
-注意：这里有个坑，就是你如果不给这个文件夹下面输入一个文件名，导出的时候会发现文件夹里面是空。所以这里要给一个文件名字，这里给它命名为“charles.pem":
+注意：这里有个坑，就是你如果不给这个文件夹下面输入一个文件名，导出的时候会发现文件夹里面是空。所以要给一个文件名，这里给它命名为“charles.pem":
 
 
 
@@ -301,11 +301,9 @@ Fiddler下载地址：[Fiddler_5.0.20192.25091.zip](https://cs-cn.top/assets/too
 
 ![image-20231014224906155](/images/posts/image-20231014224906155.png)
 
-接下来的对这个证书的转换操作就在这个文件夹进行。
+CMD进入到这个路径下面开始转换证书。
 
 #### 4.2 OpenSSL转换Fiddler证书
-
-使用超级管理员权限打开CMD命令行控制面板，cd到Fiddler证书的路径下面，使用我们前面通过chocolatey安装好的openssl工具进行转换操作，
 
 1.首先将cer证书转为pem后缀证书
 
@@ -315,9 +313,7 @@ openssl x509 -inform der -in FiddlerRoot.cer -out Fiddler.pem
 
 ![image-20231014225147814](/images/posts/image-20231014225147814.png)
 
-命令行成功执行之后，生成了一个Fiddler.pem的证书。
-
-然后使用命令，再将这个pem证书的hash头部8个字符串解析出来：
+读取pem证书hash头的8个字符串：
 
 ```shel
 openssl x509 -subject_hash_old -in Fiddler.pem
@@ -325,11 +321,11 @@ openssl x509 -subject_hash_old -in Fiddler.pem
 
 ![image-20231014225340998](/images/posts/image-20231014225340998.png)
 
-copy这8个字符串，重命名pem文件，改为这8个字符串名字，并且记得把文件的后缀.pem改为”.0“，这个后缀是数字零而不是字母o，之所以要改名字和后缀，是因为安卓Linux证书都是以”.0“结尾，名字都是8个字符串的格式。
+copy这8个字符串，重命名pem文件。
 
 ![FiddlerCertificateConvert](/images/posts/FiddlerCertificateConvert.gif)
 
-雷电模拟器根目录有adb.exe文件，利用这个文件，可以执行把PC端的文件直接推送到安卓Linux目录的能力，但是需要以Root权限执行，首先是切换root身份，然后执行remount，这样子就有了root写入权限，然后再执行push操作就可以把改好的证书文件推送到安卓Linux路径了，如下：
+CMD定位到雷电模拟器根目录`D:\leidian\LDPlayer9`，把证书`269953fb.0`传送到雷电模拟器中，如下：
 
 ```shell
 adb root
