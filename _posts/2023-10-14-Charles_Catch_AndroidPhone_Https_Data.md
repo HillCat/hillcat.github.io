@@ -201,6 +201,8 @@ s/
 
 ![image-20231014200717602](/images/posts/image-20231014200717602.png)
 
+![image-20231018003059646](/images/posts/image-20231018003059646.png)
+
 ##### 3.3.1 填坑
 
 让abd以root权限运行需要remount一下，root权限才会生效，后面的push操作才会有写入权限，如下：
