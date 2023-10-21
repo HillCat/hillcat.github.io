@@ -9,6 +9,14 @@ typora-root-url: ../
 
 Git工具使用。以下是Git回退到某个commit的版本。
 
+### 基于本地分支创建新分支
+
+说明：git checkout -b 新分支名 基于的分支名
+
+```shell
+git checkout -b feature-branch main
+```
+
 
 
 ### Git回退到之前版本
