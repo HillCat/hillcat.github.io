@@ -68,7 +68,11 @@ key: 3p1p
 
 由于之前使用傲梅设置过开机启动Backupper工具，它这个是植入了C盘里面，每次开机都会停留3秒钟，要你选择是进入windows还是进入傲梅WINPE，关掉这个开机3秒等待，然后把下面这个"Enter into AOMEI Backupper(\windows)"干掉即可。
 
+Win + R 快捷键，输入： `msconfig`,打开如下界面：
+
 ![image-20231021190354142](/images/posts/image-20231021190354142.png)
+
+删掉傲梅启动项即可。
 
 参考来至于这个帖子：[https://www.aomeitech.com/forum/discussion/2030/aomei-boot-messages-still-appear-after-unistalliation](https://www.aomeitech.com/forum/discussion/2030/aomei-boot-messages-still-appear-after-unistalliation)
 
