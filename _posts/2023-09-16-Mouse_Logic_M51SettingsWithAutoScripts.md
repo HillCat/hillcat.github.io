@@ -38,19 +38,19 @@ XButton2::Right
 Win +  R
 ```
 
-打开启动文件夹：
+第一种方式：打开启动文件夹：
 
 ```shell
 shell:common start
 ```
 
-如果只是针对自己当前windows账号登陆启动，则：
+第二种方式：如果只是针对自己当前windows账号登陆启动，则：
 
 ```shell
 shell:start
 ```
 
-会打开这个文件夹：
+不要把上面两个文件夹里面都放入AutoHotKey脚本，选择其中一个即可。
 
 ![image-20231022180805878](/images/posts/image-20231022180805878.png)
 
