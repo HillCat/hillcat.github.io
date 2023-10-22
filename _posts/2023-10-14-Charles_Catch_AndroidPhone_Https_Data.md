@@ -12,6 +12,8 @@ typora-root-url: ../
 
 ### 0.安卓App抓包常见问题
 
+charles破解序列号生成地址：[https://www.zzzmode.com/mytools/charles/](https://www.zzzmode.com/mytools/charles/)
+
 没有设置之前，https都是加密的：
 
 ![image-20231014164534387](/images/posts/image-20231014164534387.png)
