@@ -11,10 +11,6 @@ typora-root-url: ../
 
 ### 让当前所处代码function,class，namespace位置置顶显示
 
-![image-20231012234042638](/C:/Users/caianhua/AppData/Roaming/Typora/typora-user-images/image-20231012234042638.png)
-
-![image-20231012234222208](/C:/Users/caianhua/AppData/Roaming/Typora/typora-user-images/image-20231012234222208.png)
-
 这个功能主要是方便在浏览代码的时候，清楚的知道当前行所处的代码块位置，比如当前的代码块所处于哪个function内部，或者处于哪个class内部，当代码行特别多的时候，开启这个功能非常有必要。
 
 
