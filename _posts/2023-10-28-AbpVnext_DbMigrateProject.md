@@ -8,7 +8,7 @@ typora-root-url: ../
 
 ---
 
-技术栈选用：abp vnext框架，winform 和 blazor混合开发模式。以下是一些比较重要的步骤：
+windows端软件开发，技术栈选型初探。采用技术栈组合：abp vnext框架，winform 和 blazor混合开发模式。以下是一些比较重要的步骤：
 
 首先是建议一个空白项目，项目中创建winform项目，blazor webassembly server项目，然后再创建一个blazor webassembly class library的项目，然后把blazorwebassembly server中的页面移植到blazor webassembly class library项目中，默认情况下的页面控件渲染需要用到:
 
