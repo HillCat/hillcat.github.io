@@ -41,3 +41,45 @@ Microsoft.AspNetCore.Components.Web
 遇到了样式错位没有加载的情况
 
 ![image-20231028171458625](/images/posts/image-20231028171458625.png)
+
+还有几个文件需要从Assembly server中拷贝到Class Library中，
+
+```shell
+_Imports.razor
+App.razor
+
+```
+
+然后_Imports.razor中还需要修改最后1行代码如下：并且添加对于自身class library project中shared文件夹的引用。
+
+![image-20231028172902288](/images/posts/image-20231028172902288.png)
+
+然后是没有的Nuget包需要安装上：
+
+![image-20231028173142748](/images/posts/image-20231028173142748.png)
+
+然后是blazor Server项目中原来的 2个文件删除掉：
+
+```shell
+_Imports.razor
+App.razor
+```
+
+并且blazor  server project中的program.cs中引用的命名空间修改为引用class library库。
+
+Blazor Server项目中的Data文件夹转移到Class Library项目中，并且要修改命名空间：
+
+![image-20231028175501311](/images/posts/image-20231028175501311.png)
+
+#### 2.踩坑2
+
+找不到路由
+
+![image-20231028175717567](/images/posts/image-20231028175717567.png)
+
+Library Project中缺少_Host.cshtml文件，并且需要引入nuget包，以支持路由功能：
+
+![image-20231028181547335](/images/posts/image-20231028181547335.png)
+
+
+
