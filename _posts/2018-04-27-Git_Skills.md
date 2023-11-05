@@ -14,8 +14,10 @@ Git工具使用。以下是Git回退到某个commit的版本。
 说明：git checkout -b 新分支名 基于的分支名
 
 ```shell
-git checkout -b feature-branch main
+git checkout -b newBranchName rebasedBranchName
 ```
+
+或者直接在当前分支下面打开git控制台，直接创建分支，比如：git checkout -b dev-story-20231104-Subtitle_Logic_Optimum
 
 ![image-20231104225539317](/images/posts/image-20231104225539317.png)
 
