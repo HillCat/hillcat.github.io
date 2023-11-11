@@ -25,3 +25,38 @@ typora-root-url: ../
 
 
 ![image-20231111141425071](/images/posts/image-20231111141425071.png)
+
+csharp中循环遍历匹配项：
+
+```csharp
+
+//正则表达式匹配
+foreach (var item in finalUrl)
+{
+    var newStr = item.FullPathUrl;
+    var bb = Regex.Matches(newStr, @"\d \w{1,5} \w[\s\S]*?\d{1,9} \| \d+\.\d+", RegexOptions.None);
+    var dd = bb[0];
+    if (dd.Groups.Count > 1)
+    {
+        item.FullPathUrl = dd.Groups[1].ToString();
+    }
+
+}
+foreach (var item in bridgeLogoKeyList)
+{
+    item.real_url = finalUrl.Where(d => d.Url == item.logo_url).Select(d => d.FullPathUrl)
+        .FirstOrDefault();
+}
+```
+
+要进行抽取一些模板变量，使用(.*?)把需要抽取的子匹配项用这个双括号匹配。
+
+```csharp
+private static MatchCollection GetMatches(string text)
+{
+    if (string.IsNullOrEmpty(text)) text = "";
+    Regex regex = new Regex("[#|\\$]([a-zA-Z0-9_.]+?)[#|\\$]", RegexOptions.IgnoreCase | RegexOptions.Multiline);
+    return regex.Matches(text);
+}
+```
+
