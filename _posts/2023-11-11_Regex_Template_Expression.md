@@ -122,3 +122,52 @@ private static MatchCollection GetMatches(string text)
 }
 ```
 
+#### 避坑3：
+
+在正则匹配的时候，字符串里面会出现一些特殊的符号，使用一般的匹配模式是没办法做到的，需要匹配他们的unicode码才可以，要查找一个特殊的字符串的unicode码，可以直接从维基百科或者其他的专门查询unicode码的页面，先复制粘贴自己的符号，然后直接在目标页面整个Ctrl + F 搜索即可。
+
+比如 大号的实心圆点：这个文本里面有小实心圆点，也有大的实心圆点，如果要以大实心圆点进行分割文本，直接用●  Split，或者string.Contains操作是不行的。
+
+````shell
+adj good, late, dark, previous, sleepless, starry, rainy,
+Arabian, drunk, lonely noun day, room•, middle•,
+•sky, hour, bed, •week, dinner, sleep, air verb spend•,
+stay•, wake, pray, awake, wander, sneak
+● hours of darkness, dark, darkness, nighttime ||
+early hours, small hours, middle of the night,
+evening
+````
+
+正确的操作方法如下：
+
+```csharp
+    using var uowcocaPdf =
+        _unitOfWorkManager.Begin(requiresNew: true, isTransactional: true, timeout: 15000);
+
+var cocaPdfEntity = await cocaPdfDbSet.Where(d => (d.isFinished == false) && d.pdfResult.Contains("\u25CF"))
+        .FirstOrDefaultAsync();
+    if (cocaPdfEntity != null)
+    {
+        //实心圆点之后的近义词舍弃
+        if (cocaPdfEntity.pdfResult != null && cocaPdfEntity.pdfResult.Contains("\u25CF"))
+        {
+            string[] parts = cocaPdfEntity.pdfResult.Split("\u25CF");
+            if (parts.Length > 1)
+            {
+                cocaPdfEntity.pdfResult = parts[0];
+                cocaPdfEntity.isFinished = true;
+              await  _cocaPdfRepository.UpdateAsync(cocaPdfEntity);
+            }
+        }
+    }
+    else
+    {
+        loop=false;
+        continue;
+    }
+    await uowcocaPdf.CompleteAsync();
+```
+
+直接的做法是直接去unicode页面复制粘贴这个符号去搜索对应的Unicode码，因为是U字幕开头，所以最终赋值到csharp代码的时候都会带上`\u`字样，后面跟随unicode对应的字母编码。
+
+![image-20231112000555311](/images/posts/image-20231112000555311.png)
