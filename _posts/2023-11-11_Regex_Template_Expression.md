@@ -8,7 +8,7 @@ typora-root-url: ../
 
 ---
 
-正则表达式常见的使用范式，调试正则表达式的工具有很多，https://regex101.com/ ，或者是Linqpad的这个正则调试工具 ctrl shif F1打开，但是最专业的还是RegexBuddy这个工具。前2个工具会有一些bug，跟你自己预估的匹配结果会有出入。
+正则表达式常见的使用范式，调试正则表达式的工具有很多，https://regex101.com/ ，或者是Linqpad的这个正则调试工具 ctrl shif F1打开，还有RegexBuddy.......等等。如果是.net csharp调试正则，推荐还是linqpad.
 
 #### 场景1：找出coca60000文档中词语常见搭配的block块
 
@@ -36,6 +36,14 @@ typora-root-url: ../
 
 兼容上面场景的，和csharp匹配最好的正则是上面这个“正则3”. 不需要过多的对中间部分的字符进行描述，采用3段法，掐头去尾，干掉中间的多行，基本就可以了。头部：^\d{1,12} 以数字开头，并且1~12个数字，中间：[\s\S]*? 匹配多行，1~多个任意字符，包括换行；结尾：`\| 0.\d{1,2}`  以逻辑“或”符号加上空格再加上数字0.再加上1~2个数字结尾。这个就比较完整描述了每个区块的特征，过度解读和描述，会导致匹配的兼容性产生问题。
 
+与之对应的csharp代码如下：
+
+````cshap
+Regex.Matches (input, @"^\d{1,12}[\s\S]*?\| 0.\d{1,2}", RegexOptions.Multiline)
+````
+
+
+
 #### 坑1：
 
 在https://regex101.com/ 调试的正则会有匹配结果，但是实际放到csharp中执行，或者Linqpad中执行是不行的，不会匹配到任何的字符串。
@@ -52,7 +60,7 @@ typora-root-url: ../
 
 #### 坑2：
 
-有些正则表达式即便是在RegexBuddy中调试是OK，但是放到Linqpad中和csharp代码中，也是不行的。如果是按照JavaScript的语法，这种语法都是正确的，可以匹配到正确结果。
+有些正则表达式即便是在RegexBuddy中调试是OK，但是放到Linqpad中和csharp代码中，也是不行的。如果是按照JavaScript的语法，这种语法都是正确的，可以匹配到正确结果。建议如果是.net调试正则，推荐使用linqpad。linqpad4.0版本是绿色版本。
 
 ![image-20231111141425071](/images/posts/image-20231111141425071.png)
 
