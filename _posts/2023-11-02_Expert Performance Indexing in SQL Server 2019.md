@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Expert Performance Indexing in SQL Server 2019: Toward Faster Results and  Lower Maintenance
+title: slqserver性能优化(英文原版阅读)
 categories: DotNetCore
-description: sqlserver2019索引
+description: sqlserver2019性能优化
 keywords: sqlserver
 typora-root-url: ../
 
@@ -14,7 +14,7 @@ typora-root-url: ../
 
 ![image-20231102234513604](/images/posts/image-20231102234513604.png)
 
-这是一本专门讲解sqlserver  2019数据库索引的书籍，包括600多页，都是讲解索引相关的内容；可以帮助理解各种索引的工作原理和常见优化方法；适用于微软sqlserver 各种版本，虽然这本书是基于比较新的版本讲解的，但是里面的一些章节比较通用。
+这是一本专门讲解sqlserver  2019数据库索引的书籍，包括600多页，基于新版本Sqlserver2019，但是里面的内容也同样适用于老版本的sqlserver。主要是解决多列匹配，索引命中的问题，了解其中的基本原理。多列索引遵循最左原则，书中用案例进行讲解各种索引，以及常见的提升sql性能的方法。
 
 下面是一些目录：
 
@@ -48,9 +48,7 @@ SELECT peopleid FROM people Where age='17';
 SELECT peopleid FROM people Where lastname='Sullivan' AND age='17';
 ```
 
- 
-
-
+ 书中大量解释了一些常见的关于索引优化的误区，什么情况下创建的索引会被命中，什么情况下不会命中。有什么需要注意的地方都进行了详细讲解。
 
 
 
