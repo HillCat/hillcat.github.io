@@ -1,13 +1,13 @@
 ---
 layout: post
-title: MasterAbpVnextFramwork读书笔记
+title: MasterAbpVnextFramwork官方原版书籍
 categories: DotNetCore
 description: 
 keywords: ABP_Vnext笔记
 typora-root-url: ../
 ---
 
-ABP作者出版了一本书，叫做《Mater Abp Vnext Framwork》，感觉还比较全面。通过一个月的时间看完了英文版本，看的过程中做一些记录。
+ABP作者出版了一本书，叫做《Mater Abp Vnext Framwork》，感觉还比较全面。通过一个月的时间看完了英文版本，看的过程中做一些记录。官方文档里面一些比较重点的内容都在这本书里面有更加详细介绍，特别是uow仓储的使用这块，工作单元提交efcore事务这块，手动控制事务的提交。这个在实际开发中经常用到的。
 
 ### AbpVnextDemo文件的初始化
 
@@ -164,17 +164,19 @@ connection.start().then(function () {
 });
 ````
 
+这样子前端就建立和后端的链接，当后端接收到数据的时候，就可以通过websocket的方式实时更新web页面。
+
+#### Abp Vext中聊天功能支持百万计并发
+
+在官方的Demo源码中，曾今看到过一个例子，就是通过redis或者rabbitmq横向扩展出来一个聊天App，内部使用的是SinalR，并且网站注册会员之间可以直接发送传递消息。
+
+当时比较好奇，Abp Vnext是如何把websocket的消息发送到指定Id用户的？因为webscocket本身在链接的时候只有clientId作为标识，它是没有Userid的，那么两个userId不同的人相互发送消息，这个消息是怎么被精确传递到对应的userId的呢，那么这个websocket的ClientId和系统里面注册用户的userid之间已经是有一个httpContext上下文的交互的过程。
+
+提及到这个HttpContext上下文。在Abp Vnext的这个demo源码这里有分析过一次，还有一个场景，就是线下超市门店的支持场景，中间开发商需要对接上下游支付接口的，进行支付数据转发的时候，也是利用的httpContext切换上下文进行传值。
 
 
-### Abp的模块化开发
 
-模块化开发：A模块调用B模块的时候，模块之间依赖关系，必须要明确声明，而且模块之间的依赖关系声明的时候是有先后顺序的。
 
-下面是原书第五章 108页原文：
 
-![sO6nBKsyfi](/images/posts/sO6nBKsyfi.png)
 
-A模块调用B模块，当A模块需要对B模块初始化进行设置的时候，可以使用B模块内部已经定义好的Options后缀的class来设置模块，这个**Options后缀**的class遵循ABP Vnext框架默认的约定，主要是用来对被调用模块做初始化设置的。这样子，模块的调用者就可以传递参数到被调用的模块。
-
-![ZEWaoCpfvm](/images/posts/ZEWaoCpfvm.png)
 
