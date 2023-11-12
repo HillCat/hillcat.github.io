@@ -5,7 +5,6 @@ categories: DotNetCore
 description: sqlserver2019性能优化
 keywords: sqlserver
 typora-root-url: ../
-
 ---
 
 数据库索引优化：《Expert Performance Indexing in SQL Server 2019: Toward Faster Results and  Lower Maintenance》
