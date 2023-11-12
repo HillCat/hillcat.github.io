@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 正则表达式常用范式
+title: 正则表达式常见用法
 categories: DotNetCore
-description: 正则表达式使用
+description: 正则表达式
 keywords: 正则表达式
 typora-root-url: ../
 
