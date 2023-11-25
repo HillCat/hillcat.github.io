@@ -124,3 +124,19 @@ D = inv(A)
 ```
 
 ![image-20231125181945888](/images/posts/image-20231125181945888.png)
+
+#### 3.4 绘制二维曲线图
+
+场景：基于x坐标和y坐标，绘制一个二维平面曲线图
+
+```matla
+>> x=0:0.3:2*pi;
+y=sin(x);
+figure
+plot(x,y)
+```
+
+figure是绘制画布，plot(x,y) 是把这个坐标曲线绘制出来
+
+![image-20231125192421519](/images/posts/image-20231125192421519.png)
+
