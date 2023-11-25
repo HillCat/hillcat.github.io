@@ -45,6 +45,8 @@ git checkout -b newBranchName rebasedBranchName
 
 当导出备份和回退都做完之后，基于当前的回退的版本，新建一个新的分支。到git命令行，执行基于当前分支的新建一个分支，语法如下：
 
+`newBranchName`就是新分支的名字，`rebaseBranchName`就是要基于哪个分支创建新分支。
+
 ```shell
 git checkout -b newBranchName rebasedBranchName
 ```
