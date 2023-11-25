@@ -20,7 +20,7 @@ clc
 
 ![image-20231125163523074](/images/posts/image-20231125163523074.png)
 
-## 2.清楚右侧工作区
+## 2.清除右侧工作区
 
 ```shell
 clear all
