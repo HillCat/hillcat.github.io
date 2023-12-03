@@ -12,4 +12,4 @@ typora-root-url: ../
 
 ![image-20231203155441322](/images/posts/image-20231203155441322.png)
 
-因为web页面已经嵌入了winform中，很难使用类似浏览器的dev工具进行样式的debug。
+因为web页面已经嵌入了winform中，很难使用类似浏览器的dev工具进行样式的debug。这个时候需要单独把这个dll的project剥离出来成为一个mvc项目，先在mvc项目里面把页面调试好，之后再在这个winform中展示相关功能。
