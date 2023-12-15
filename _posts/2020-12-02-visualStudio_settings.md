@@ -455,3 +455,13 @@ visualStudio抛异常的时候，把抛异常的报错位置，精确到代码�
 OpenExceptionSettings
 
 ![image-20211229210638213](/images/posts/image-20211229210638213.png)
+
+### 调试源码设置
+
+[https://www.hanselman.com/blog/exploring-net-cores-sourcelink-stepping-into-the-source-code-of-nuget-packages-you-dont-own](https://www.hanselman.com/blog/exploring-net-cores-sourcelink-stepping-into-the-source-code-of-nuget-packages-you-dont-own)
+
+![image-20231216001424234](/images/posts/image-20231216001424234.png)
+
+![image-20231216001450643](/images/posts/image-20231216001450643.png)
+
+通过上面设置之后，对于一些大型的codeBase就可以进行调试源码了。
