@@ -35,6 +35,50 @@ typora-root-url: ../
 
 ![image-20231210144839532](/images/posts/image-20231210144839532.png)
 
-下图是AbpVnext中依赖注入Ef实体仓储的一些类
+在使用Repository的时候，比如repository.GetDbContext()；使用这个方法的时候会遇到一个报错信息”访问了已经被释放的context上下文“，如果出现这种情况，需要在使用了repository的方法前面加上[UnitOfWork]的标记，使得blazor assembly调用的时候，abp框架可以把这个方法也计算到unitOfWork里面去而不被提前释放了dbContext上下文。
 
-![img](/images/posts/generic-repositories.png)
+## 3.引入TailWindCss库
+
+电脑中先安装node.js然后通过npx全局安装tailwind css。然后使用tailwind css生成tailwindcss.config.js配置文件。
+
+在我们的.net project目录下面，cmd命令行执行：
+
+````shell
+npx tailwindcss init
+````
+
+![image-20231223170157210](/images/posts/image-20231223170157210.png)
+
+执行完成之后，tailwindcss的cli命令行会生成一个tailwind.config.js的配置文件。
+
+另外，在编写界面的时候我们可以开启tailwindcss的即时编译功能，这个是由tailwindcss的cli提供的一个功能，这样在开发blazor页面样式的的时候比较方便。
+
+1.在project的根目录创建Styles文件夹，里面创建app.css，内容如下：
+
+```shel
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+```
+
+2.在blazor页面公共入口引入css
+
+![image-20231223190108390](/images/posts/image-20231223190108390.png)
+
+添加
+
+````shell
+<link href="/css/app.css" rel="stylesheet" />
+````
+
+这个文件在wwwroot\css路径下面是不存在的，我们利用tailwindcss的cli命令生成。
+
+````shell
+npx tailwindcss -i .\Styles\app.css -o .\wwwroot\css\app.css --watch
+````
+
+执行完成，会在wwwroot\css下面创建app.css文件，
+
+![image-20231223190341458](/images/posts/image-20231223190341458.png)
+
