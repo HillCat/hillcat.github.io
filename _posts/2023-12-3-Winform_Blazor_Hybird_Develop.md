@@ -37,7 +37,7 @@ typora-root-url: ../
 
 在使用Repository的时候，比如repository.GetDbContext()；使用这个方法的时候会遇到一个报错信息”访问了已经被释放的context上下文“，如果出现这种情况，需要在使用了repository的方法前面加上[UnitOfWork]的标记，使得blazor assembly调用的时候，abp框架可以把这个方法也计算到unitOfWork里面去而不被提前释放了dbContext上下文。
 
-## 3.引入TailWindCss库
+## 3.TailWindCss自动生成css
 
 电脑中先安装node.js然后通过npx全局安装tailwind css。然后使用tailwind css生成tailwindcss.config.js配置文件。
 
@@ -49,9 +49,25 @@ npx tailwindcss init
 
 ![image-20231223170157210](/images/posts/image-20231223170157210.png)
 
+
+
 执行完成之后，tailwindcss的cli命令行会生成一个tailwind.config.js的配置文件。
 
-另外，在编写界面的时候我们可以开启tailwindcss的即时编译功能，这个是由tailwindcss的cli提供的一个功能，这样在开发blazor页面样式的的时候比较方便。
+这个里面还需要设置一下，如下：
+
+````js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['./**/*.{razor,html}'],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+````
+
+另外，在编写界面的时候我们可以开启tailwindcss的即时编译功能，visual studio 2022的hot reload开启"保存的时候热加载",这样子编写和调试blazor的时候就可以看到实时的css效果反应。
 
 1.在project的根目录创建Styles文件夹，里面创建app.css，内容如下：
 
