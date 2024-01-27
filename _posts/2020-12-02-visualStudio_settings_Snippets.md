@@ -1,6 +1,6 @@
 ---
 layout: post
-title: VisualStudio设置codeSnippets
+title: VisualStudio设置Mono字体和CodeSnippet，ListDoing
 categories: DotNetCore
 description: VisualStudio常用技巧
 keywords: trpora
@@ -9,7 +9,7 @@ typora-root-url: ../
 
 此文不定期整理VisualStudio使用的一些技巧。包括快捷键，还有插件的使用，一些重构代码的一些快捷方法。新版本的visual sutido特性的更新等。有些常用的快捷方式，熟悉之后对提高生产力很有帮助。
 
-### 创建code snippets
+### 1.创建code snippets
 
 创建code snippet可以加速我们代码的开发速度，避免每次都要重复敲击一些代码。
 
@@ -70,7 +70,7 @@ typora-root-url: ../
 
 ![image-20211205195712517](/images/posts/image-20211205195712517.png)
 
-### Task List
+### 2.Task List
 
 除了使用code snippet可以加快开发速度和便捷度，常用的代码段和经典的demo也可以做成code snippet。另外还可以结合Task List 进一步管理代码开发进度，使得自己正在进行中的代码任务可以清晰可见，
 
@@ -85,3 +85,15 @@ typora-root-url: ../
 ![image-20220116131500195](/images/posts/image-20220116131500195.png)
 
 其实Todo是对于将要做的任务进行标记，如果团队中其他人也喜欢使用Todo的话，会干扰到你自己的工作，Task List中会列出来一堆Todo，都不知道现在正在做的代码是哪些，其实可以自定义一个doing标记，并且Priority为High，高优先级用感叹号表示，并且标记为doing.那么在开发的时候，就可以把自己正在开发的代码标记为doing，后面一定要加空格，那么在开发的时候就一目了然，不需要到处去找代码。CodeSnippet 结合 TaskList可以避免到处翻页查找代码的尴尬，可以避免visual studio少开几个页面，减少电脑内存占用，提升vs响应速度。
+
+### 3.设置Monokai字体
+
+首先可以通过chocolatey安装Monokai字体
+
+````shell
+choco install jetbrainsmono
+````
+
+安装完成之后，visual studio 2022找到tools，font位置直接设置即可。整个代码编辑器内部的字体就都变为Mono字体了
+
+![image-20240127135459223](/images/posts/image-20240127135459223.png)
