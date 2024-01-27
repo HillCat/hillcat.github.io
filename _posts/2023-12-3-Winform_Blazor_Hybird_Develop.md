@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Winform_Blazor_Hybird
+title: Winform_Blazor_TailWindCss_Hybird
 categories: Math
 description: Blazor
 keywords: Blazor
@@ -97,4 +97,32 @@ npx tailwindcss -i .\Styles\app.css -o .\wwwroot\css\app.css --watch
 执行完成，会在wwwroot\css下面创建app.css文件，
 
 ![image-20231223190341458](/images/posts/image-20231223190341458.png)
+
+
+
+## 4.TailWindCss Flowbite替换BootStrap
+
+微软官方默认的Blazor Demo采用的是BootStrap的css样式，不太灵活也比较丑，而且这个BootStrap样式和TailWindCss样式会有冲突，包括如果使用其他的组件，比如AntedDesign，MudBlazor都会有冲突。从零开始开发自己项目，建议剥离BootStrap，使用TailWindCss快速构建原型。
+
+![image-20240127234915649](/images/posts/image-20240127234915649.png)
+
+[https://play.tailwindcss.com/](https://play.tailwindcss.com/)
+
+基于tailwindcss的生态，已经有了Flowbite Pro - Figma这个设计系统，可以完美替换掉blazor这个默认的皮肤，设计出符合自己的产品布局或者官方网站，基于blazor，而不依托其他的blazor控件。实现轻量化。Figma设计系统目前被抖音公司内部前端广泛采用，这个是目前UI这块提升效率的一个趋势。
+
+![image-20240128014854547](/images/posts/image-20240128014854547.png)
+
+
+
+从上面的步骤中，其实还推荐安装POSTCSS cli这个工具，方便自动化项目的css
+
+````shell
+npm install tailwindcss postcss autoprefixer postcss-cli
+````
+
+具体的flowbite在blazor中的使用方法参考说明文档：
+
+[https://flowbite.com/docs/getting-started/blazor/](https://flowbite.com/docs/getting-started/blazor/)
+
+总之：有了blazor的技术栈，我们在不使用任何blazor组件的情况下，完全可以使用html css js这种原生html组件来构建我们轻量级的winform blazor web hybrid应用界面。并且实现高度定制化。
 
