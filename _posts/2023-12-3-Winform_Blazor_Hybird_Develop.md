@@ -124,5 +124,9 @@ npm install tailwindcss postcss autoprefixer postcss-cli
 
 [https://flowbite.com/docs/getting-started/blazor/](https://flowbite.com/docs/getting-started/blazor/)
 
+如果上面这个方法集成到项目中失败了，那么最终尝试这个方法：
+
+[https://blazorise.com/docs/usage/tailwind](https://blazorise.com/docs/usage/tailwind) 它这个框架也是告诉你如何使用flowbite的。
+
 总之：有了blazor的技术栈，我们在不使用任何blazor组件的情况下，完全可以使用html css js这种原生html组件来构建我们轻量级的winform blazor web hybrid应用界面。并且实现高度定制化。
 
