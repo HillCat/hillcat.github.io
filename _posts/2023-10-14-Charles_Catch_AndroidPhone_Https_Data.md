@@ -12,6 +12,8 @@ typora-root-url: ../
 
 ### 0.安卓App抓包常见问题
 
+charles破解序列号生成地址：[https://www.zzzmode.com/mytools/charles/](https://www.zzzmode.com/mytools/charles/)
+
 没有设置之前，https都是加密的：
 
 ![image-20231014164534387](/images/posts/image-20231014164534387.png)
@@ -241,7 +243,7 @@ Charles的证书已经弄到安卓模拟器里面去了，那么现在重新开�
 
 ![image-20231014204553852](/images/posts/image-20231014204553852.png)
 
-
+![image-20231022192930506](/images/posts/image-20231022192930506.png)
 
 ### 4.Fiddler证书设置
 
@@ -345,9 +347,11 @@ adb.exe push "C:\Users\caianhua\Desktop\FiddlerCertificate\269953fb.0" /system/e
 
 成功把Fiddler证书拷贝到了雷电模拟器中。
 
-![image-20231014232523635](/images/posts/image-20231014232523635.png)
+​	![image-20231014232523635](/images/posts/image-20231014232523635.png)
 
 #### 4.3 遇到的坑
+
+##### 坑1：无法上网
 
 Charles关掉之后，换成Fiddler 4来监听并且代理8888端口，会发现雷电安卓模拟器无法上网。
 
@@ -357,13 +361,37 @@ Charles关掉之后，换成Fiddler 4来监听并且代理8888端口，会发现
 
 Fiddler代理的端口8888是可以被安卓模拟器端请求到的，证明Fiddler确实是代理了8888端口接管了安卓模拟器的代理。
 
+##### 坑2: 证书不受信任
+
+在上面的操作中，明明看到指令是成功执行了，实际上，目标路径少输入了一个s，导致Fiddler证书没有真正传入雷电模拟器的正确路径。导致了下面的报错：
+
+![image-20231022184723854](/images/posts/image-20231022184723854.png)
+
+然而界面的8888端口是可以访问到Fiddler在宿主机上面的端口的。
+
+![image-20231022185628122](/images/posts/image-20231022185628122.png)
+
+去雷电模拟器的菜单里面仔细检查看看是否Fiddler证书真的已经存在了，经过检查，发现并没有Fiddler的证书。后来发现是自己敲写执行命令的时候，Linux的路径少写了一个s导致的。所以，**一定要记得去这个路径检查，看看自己的操作是否仔细了或者漏掉了东西**
+
+![image-20231022194927823](/images/posts/image-20231022194927823.png)
+
+![image-20231022194351942](/images/posts/image-20231022194351942.png)
+
+![image-20231022191223363](/images/posts/image-20231022191223363.png)
+
+Fiddler的证书是大写字母”D“开头的，如下：如果发现没有找到这个证书，那么adb 传输Fiddler证书的时候一定是没有正确传入到指定路径，正确的路径应该是
+
+````shell
+/system/etc/security/cacerts/
+````
+
+![image-20231022195031961](/images/posts/image-20231022195031961.png)
+
 结论：最终还是解决了Fiddler 4抓包安卓https的问题。
 
-#### 4.4 解决办法
+##### 其他注意项
 
-1.删除掉Fiddler 4之前生成的证书cer转pem再重命名为`269953fb.0`的那份文件,重新导出Fiddler 4的cer证书，按照上面的步骤重新生成，并且使用adb命令重新push到安卓模拟器内部。
-
-2.win11系统开机的时候不要使用vpn代理，并且win11代理设置中不要夹杂vpn代理端口的设置，只要保留Fiddler代理的地址，如图：
+1.win11系统开机的时候不要使用vpn代理，并且win11代理设置中不要夹杂vpn代理端口的设置，只要保留Fiddler代理的地址，如图：
 
 ![image-20231015020209821](/images/posts/image-20231015020209821.png)
 
@@ -383,7 +411,7 @@ Fiddler 4的设置如下：
 
 
 
-Fiddler抓包的好处是可以抓取来至于特定进程的，特定域名的报文数据，它的过滤功能非常强大。
+Fiddler的过滤器可以抓特定进程的，特定域名的报文数据，这是比Charles强的地方。做逆向分析的时候这个功能很实用。
 
 ![image-20231015020837454](/images/posts/image-20231015020837454.png)
 

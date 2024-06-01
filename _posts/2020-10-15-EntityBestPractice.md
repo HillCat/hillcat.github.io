@@ -192,6 +192,20 @@ Microsoft.EntityFrameworkCore.Design和Microsoft.EntityFrameworkCore.Tools要一
 
 ![version_23424.png](/images/posts/version_23424.png)
 
+#### 常见的迁移
+
+Package Manager Console里面执行迁移操作
+
+````shell
+ Add-Migration "AddTableDictCache"
+ 
+ Update-Database
+````
+
+
+
+![image-20231024014200758](/images/posts/image-20231024014200758.png)
+
 ### 生成Mock Data
 
 这个工具只能是针对于轻量级的Api测试，生成使用Bogus，而如果是要构建几十万，上百万数据的测试数据，要使用SQL Data Generator这种工具：

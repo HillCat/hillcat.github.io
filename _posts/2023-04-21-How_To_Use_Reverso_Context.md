@@ -9,6 +9,12 @@ typora-root-url: ../
 
 Reverso Context这个软件是个付费工具，也有免费的额度，历史记录只能支持200个查询单词的记录。而且免费版本没有导出excle功能，也没有把例句生词导入到anki中的功能。这些功能都被做到Premium里面去了。我尝试了几个月的免费版本的功能，用来大量观看油管和奈飞视频。发现这个App的AI感知和翻译精准度不错。特此推荐。
 
+一个非常明显的特性，就是具备AI提示功能：比如你在阅读网页文章的时候，明明这个单词是一个动词组合，而你由于不清楚该单词的在该上下文中的具体中法，往往会漏掉动词组合，而盯着孤零零的单个生词来翻译，这个时候Reverso Context会给出词组的解释。比如：选择tailored，它会提示你tailored to是“符合”，“迎合”的意思。
+
+![image-20231022131622877](/images/posts/image-20231022131622877.png)
+
+
+
 ![image-20230422112142133](/images/posts/image-20230422112142133.png)
 
 ReversoContext可以看看Zoe这个视频：[https://www.youtube.com/watch?v=h3PQM_WS5eA&ab_channel=Zoe.languages](https://www.youtube.com/watch?v=h3PQM_WS5eA&ab_channel=Zoe.languages)，因为这个软件能够解决我目前在英语自学过程中的痛点，至少对于只开英文字幕 大量看油管新闻视频访谈这类，这个工具还是比较能节省时间的。
