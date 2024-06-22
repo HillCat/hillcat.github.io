@@ -12,7 +12,7 @@ permalink: /about/
 
 ## 联系
 
-476649388#qq.com
+caianhua110@163.com
 
 
 
