@@ -2,8 +2,8 @@
 layout: post
 title: RazorPagePublishToLinuxBtDashBoard
 categories: Math
-description: Blazor
-keywords: Blazor
+description: Razor
+keywords: Razor
 typora-root-url: ../
 
 ---
@@ -43,7 +43,7 @@ Razor Page部署到Debian 12 ，宝塔面板中，使用Nginx做反向代理，�
 
 ![image-20241110224247636](/media/image-20241110224247636.png)
 
-这个就是Nginx的代理的地址3000端口，这个端口是需要在防火墙放开的。而Razor Page ，.net core8.0程序的端口是localhost:5000.
+Nginx对外的这个代理端口是3000配置完之后，需要在宝塔面板的“安全”菜单里面，把防火墙对于3000端口开启，我这里使用的是新加坡的服务器，Vulrt供应商的，自身没有带防火墙，使用的是宝塔面板带的防火墙。如果你是其他供应商，可能需要额外在供应商后台面板那里对防火墙端口进行设置。
 
 ![image-20241110224708781](/media/image-20241110224708781.png)
 
