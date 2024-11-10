@@ -128,5 +128,9 @@ npm install tailwindcss postcss autoprefixer postcss-cli
 
 [https://blazorise.com/docs/usage/tailwind](https://blazorise.com/docs/usage/tailwind) 它这个框架也是告诉你如何使用flowbite的。
 
+### 4.1flowbite整合blazor的直接的源码：
+
+[https://dev.to/rasheedmozaffar/introducing-flowbite-blazor-wasm-starter-project-14a8](https://dev.to/rasheedmozaffar/introducing-flowbite-blazor-wasm-starter-project-14a8)
+
 总之：有了blazor的技术栈，我们在不使用任何blazor组件的情况下，完全可以使用html css js这种原生html组件来构建我们轻量级的winform blazor web hybrid应用界面,最为关键的是，这个在大部分的营销着陆页上面是可以非常快速高效的开发页面和布局，并且实现高度定制化。
 
